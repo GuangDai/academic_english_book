@@ -1,0 +1,179 @@
+{
+  "text_id": "FT17",
+  "genre": "Technical_Benchmark_Report",
+  "title_zh": "AI 系统评测报告全文：长序列预测与生成模型在历史实测与未来算力扩展下的精度-延迟帕累托报告",
+  "paragraph_count": 5,
+  "structural_blueprint_chain": [
+    "BP17",
+    "BP18",
+    "BP22",
+    "BP28",
+    "BP30"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "实验设置、数据集特性与强基线选型说明段（Experimental Setup & Baselines）",
+      "blueprint_id": "BP17",
+      "paragraph_intent_zh": "我这一段想在 Experiments 开篇说明：我们为什么选这几类数据集和这几类基线模型，证明我们的实验设计是全面、公平且直击痛点的。",
+      "cohesion_formula": "Dataset Diversity -> Challenging Regime Highlights -> Categorized Strong Baselines -> Strict Fairness Protocol. 绑定逻辑规则：L009, L010.",
+      "paragraph_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic). Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability. We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer). All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [数据集选型逻辑 Dataset Selection Rationale]",
+          "sentence_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [极端/困难特性突出 Challenging Dataset Properties]",
+          "sentence_en": "Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [基线流派全覆盖 Baseline Family Coverage]",
+          "sentence_en": "We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer).",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [公平评测协议 Fair Evaluation Protocol]",
+          "sentence_en": "All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "主实验结果整体对比与核心胜出原因剖析段（Main Results Analysis）",
+      "blueprint_id": "BP18",
+      "paragraph_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+      "cohesion_formula": "Global Win Rate -> Advantage over Family A -> Resilience at Long Horizon vs. Family B -> Mechanistic Takeaway. 绑定逻辑规则：L015, L013, L010.",
+      "paragraph_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations. Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical. Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts. By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [全局统治力概述 Overall Dominance]",
+          "sentence_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]",
+          "sentence_en": "Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]",
+          "sentence_en": "Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [回扣本文核心机制 Mechanistic Confirmation]",
+          "sentence_en": "By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "计算开销、推理延迟与精度帕累托权衡段（Efficiency-Accuracy Pareto Analysis）",
+      "blueprint_id": "BP22",
+      "paragraph_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+      "cohesion_formula": "Hardware Benchmark -> Complexity Reduction & Memory Gain -> Real-Time Latency Margin -> Pareto Conclusion. 绑定逻辑规则：L010, L023.",
+      "paragraph_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module. By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer. At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [硬件与测试基准 Hardware Setup]",
+          "sentence_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [复杂度理论与实测对比 Complexity & Runtime]",
+          "sentence_en": "By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实时闭环部署可行性 Real-Time Viability]",
+          "sentence_en": "At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "双图关联与互补/因果印证段（Synthesizing Dual Charts）",
+      "blueprint_id": "BP28",
+      "paragraph_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "cohesion_formula": "Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.",
+      "paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "历史实测与未来预测跨时态衔接段（Historical vs. Projected Trends）",
+      "blueprint_id": "BP30",
+      "paragraph_intent_zh": "我这一段想处理同时包含过去历史数据（如 2010–2025）和未来预测数据（如 2026–2040）的图表段落，严格区分过去实测时态与未来审慎预测表达。",
+      "cohesion_formula": "Historical Past (rose/accounted for) -> Pivot Year -> Future Projection Verbs (is projected/anticipated/expected to) -> Moderating Factor. 绑定逻辑规则：L010, L017.",
+      "paragraph_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh. From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035. Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040. However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]",
+          "sentence_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]",
+          "sentence_en": "From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [结构占比重塑 Structural Shift in Projections]",
+          "sentence_en": "Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [条件式审慎收尾 Conditional Hedging]",
+          "sentence_en": "However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

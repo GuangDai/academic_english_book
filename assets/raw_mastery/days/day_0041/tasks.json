@@ -1,0 +1,374 @@
+[
+  {
+    "task_id": "D0041_T01",
+    "day": "day_0041",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）】。你这一段的核心表达意图是：“我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。”。请严格按照 `BP41` 的逐句功能骨架（4 步法）与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T02",
+    "day": "day_0041",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Introduction 第四段或 Methodology 开篇总览段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Introduction 第四段或 Methodology 开篇总览段】。你这一段的核心表达意图是：“我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。”。请按 `BP05` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+    "structural_constraints": [
+      "S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges.",
+      "S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function].",
+      "S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function].",
+      "S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]."
+    ],
+    "linked_blueprint_id": "BP05",
+    "linked_logic_ids": [
+      "L019",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T03",
+    "day": "day_0041",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T04",
+    "day": "day_0041",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Introduction 第四段或 Methodology 开篇总览段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L019`（顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+    "structural_constraints": [
+      "S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges.",
+      "S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function].",
+      "S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function].",
+      "S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]."
+    ],
+    "linked_blueprint_id": "BP05",
+    "linked_logic_ids": [
+      "L019",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T05",
+    "day": "day_0041",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【深度病段修改诊所 1：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T06",
+    "day": "day_0041",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Introduction 第四段或 Methodology 开篇总览段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+    "prompt_zh": "【深度病段修改诊所 2：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+    "structural_constraints": [
+      "S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges.",
+      "S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function].",
+      "S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function].",
+      "S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]."
+    ],
+    "linked_blueprint_id": "BP05",
+    "linked_logic_ids": [
+      "L019",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T07",
+    "day": "day_0041",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "学术演讲图表/架构讲解逐字稿（Visual Walkthrough）",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+    "prompt_zh": "【深度病段修改诊所 3：专治过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "Table 2 shows the ablation study. Without Module A, MSE increases from 0.180 to 0.215. Without Module B, MSE increases to 0.204. Without Loss C, MSE increases to 0.195. Thus, every part is necessary.",
+    "structural_constraints": [
+      "S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE.",
+      "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically.",
+      "S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps.",
+      "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift."
+    ],
+    "linked_blueprint_id": "BP42",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T08",
+    "day": "day_0041",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T09",
+    "day": "day_0041",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Introduction 第四段或 Methodology 开篇总览段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+    "structural_constraints": [
+      "S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges.",
+      "S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function].",
+      "S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function].",
+      "S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]."
+    ],
+    "linked_blueprint_id": "BP05",
+    "linked_logic_ids": [
+      "L019",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T10",
+    "day": "day_0041",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "学术演讲图表/架构讲解逐字稿（Visual Walkthrough）",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP41`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "Table 2 shows the ablation study. Without Module A, MSE increases from 0.180 to 0.215. Without Module B, MSE increases to 0.204. Without Loss C, MSE increases to 0.195. Thus, every part is necessary.",
+    "structural_constraints": [
+      "S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE.",
+      "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically.",
+      "S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps.",
+      "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift."
+    ],
+    "linked_blueprint_id": "BP42",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T11",
+    "day": "day_0041",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【多段贯通写作实战 1：Technical_Benchmark_Report 核心章节连写】参照全文样板 `FT17 (AI 系统评测报告全文：长序列预测与生成模型在历史实测与未来算力扩展下的精度-延迟帕累托报告)` 的段落蓝图链 `BP17 -> BP18 -> BP22`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L011",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0041_T12",
+    "day": "day_0041",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "学术演讲图表/架构讲解逐字稿（Visual Walkthrough）",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP42` 与全文样板 `FT17` 的后半部分（`BP28 -> BP30`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "Table 2 shows the ablation study. Without Module A, MSE increases from 0.180 to 0.215. Without Module B, MSE increases to 0.204. Without Loss C, MSE increases to 0.195. Thus, every part is necessary.",
+    "structural_constraints": [
+      "S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE.",
+      "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically.",
+      "S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps.",
+      "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift."
+    ],
+    "linked_blueprint_id": "BP42",
+    "linked_logic_ids": [
+      "L019",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

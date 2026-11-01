@@ -1,0 +1,325 @@
+{
+  "day": "day_0013",
+  "day_number": 13,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 13 天：核心子模块：直觉动机与数学设计无缝衔接段（Intuition-before-Math） × 演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换 × IELTS_Task1_Dynamic 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP13",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "核心子模块：直觉动机与数学设计无缝衔接段（Intuition-before-Math）",
+      "user_intent_zh": "我这一段想详细介绍我们提出的某个核心创新模块：先用两句话讲清楚为什么直接用传统算子会出问题，再顺理成章推导出我们的新公式。",
+      "when_to_use_zh": "Methodology 核心子章节（Section 3.3 / 3.4）",
+      "paragraph_move_structure": [
+        "S1 [传统算子缺陷 Motivation]：Standard [Conventional Operator, e.g., softmax self-attention] computes [Operation], which suffers from [Pathology] when applied to [Domain Condition].",
+        "S2 [物理/统计直觉 Physical Intuition]：To overcome this pathology, we observe that [Key Domain Property] can be effectively regularized by [Intuitive Operation].",
+        "S3 [数学公式定义 Mathematical Formulation]：Formally, given input representation $H \\in \\mathbb{R}^{N \\times d}$, we formulate the [Module Name] as: [Equation], where [Symbol Explanations].",
+        "S4 [理论/计算性质 Guarantee]：By construction, this formulation guarantees [Desirable Property, e.g., $O(N)$ complexity / translation invariance]."
+      ],
+      "cohesion_and_logic_formula": "Pathology of Standard Operator -> Physical Intuition -> Equation Integration -> Theoretical Guarantee. 绑定逻辑规则：L014, L003.",
+      "defective_draft": "In this subsection, we introduce the Phase-Aware Attention. The formula is Attention(Q, K, V) = softmax(QK^T / sqrt(d) + M)V. Here M is a phase matrix. It makes the model work better.",
+      "defect_diagnosis_zh": "直接空降公式，读者完全不知道矩阵 $M$ 是从哪冒出来的、为什么要加在 softmax 里面。",
+      "model_paragraph_en": "Standard dot-product attention measures token similarity purely by instantaneous amplitude alignment, often matching noisy spikes across unrelated time steps. To enforce temporal coherence, we observe that genuine physical interactions between industrial sensors exhibit consistent phase lag across dominant frequencies. Formally, given query and key projections $Q, K \\in \\mathbb{R}^{N \\times d}$, we modulate the attention logits via a phase-alignment mask: $\\mathcal{A}(Q, K, V) = \\text{softmax}\\big(\\frac{QK^\\top}{\\sqrt{d}} - \\lambda \\|\\Delta \\Phi_{Q,K}\\|_1\\big)V$, where $\\Delta \\Phi_{Q,K} \\in [-\\pi, \\pi]^{N \\times N}$ denotes the instantaneous Hilbert phase difference matrix and $\\lambda > 0$ controls phase selectivity. Penalizing large phase discrepancies prevents spurious attention weights between out-of-phase noise bursts.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [传统算子缺陷 Motivation]",
+          "sentence_en": "Standard dot-product attention measures token similarity purely by instantaneous amplitude alignment, often matching noisy spikes across unrelated time steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [传统算子缺陷 Motivation]：Standard [Conventional Operator, e.g., softmax self-attention] computes [Operation], which suffers from [Pathology] when applied to [Domain Condition]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [物理/统计直觉 Physical Intuition]",
+          "sentence_en": "To enforce temporal coherence, we observe that genuine physical interactions between industrial sensors exhibit consistent phase lag across dominant frequencies.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [物理/统计直觉 Physical Intuition]：To overcome this pathology, we observe that [Key Domain Property] can be effectively regularized by [Intuitive Operation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [数学公式定义 Mathematical Formulation]",
+          "sentence_en": "Formally, given query and key projections $Q, K \\in \\mathbb{R}^{N \\times d}$, we modulate the attention logits via a phase-alignment mask: $\\mathcal{A}(Q, K, V) = \\text{softmax}\\big(\\frac{QK^\\top}{\\sqrt{d}} - \\lambda \\|\\Delta \\Phi_{Q,K}\\|_1\\big)V$, where $\\Delta \\Phi_{Q,K} \\in [-\\pi, \\pi]^{N \\times N}$ denotes the instantaneous Hilbert phase difference matrix and $\\lambda > 0$ controls phase selectivity.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [数学公式定义 Mathematical Formulation]：Formally, given input representation $H \\in \\mathbb{R}^{N \\times d}$, we formulate the [Module Name] as: [Equation], where [Symbol Explanations]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [理论/计算性质 Guarantee]",
+          "sentence_en": "Penalizing large phase discrepancies prevents spurious attention weights between out-of-phase noise bursts.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [理论/计算性质 Guarantee]：By construction, this formulation guarantees [Desirable Property, e.g., $O(N)$ complexity / translation invariance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "从传统点积注意力的缺陷（只看幅值对齐易受噪声尖峰误导）自然推导出希尔伯特相位差惩罚项 $-\\lambda \\|\\Delta \\Phi_{Q,K}\\|_1$，公式嵌入如行云流水。"
+    },
+    {
+      "blueprint_id": "BP25",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "图表小作文首段：题目改写与总体趋势概览（Paraphrase + Macro Overview）",
+      "user_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+      "when_to_use_zh": "IELTS Academic Task 1 首段（Introduction + Overview）或实验趋势总览段",
+      "paragraph_move_structure": [
+        "S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B].",
+        "S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year].",
+        "S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor."
+      ],
+      "cohesion_and_logic_formula": "Paraphrase -> Overall Trajectory Contrast -> Dominant Crossover/Extremum (Zero raw numbers in Overview!). 绑定逻辑规则：L013, L015.",
+      "defective_draft": "The chart shows the energy consumption from 2000 to 2025. We can see that solar energy went up a lot from 5% to 35%, and coal went down from 60% to 25%. Wind also went up.",
+      "defect_diagnosis_zh": "① 词汇低幼（went up a lot, went down）；② 把具体百分比过早塞进了 Overview，导致后面细节段无话可写。",
+      "model_paragraph_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025. Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily. Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [图表命题同义改写 Prompt Paraphrase]",
+          "sentence_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [宏观趋势 1",
+          "sentence_en": "Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [宏观趋势 2",
+          "sentence_en": "Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "不露一个具体数字，却精准抓住了“可再生能源上扬 vs. 煤炭萎缩”的总基调以及“2018 年主次反转（crossover）”的决定性拐点，稳拿 Task Achievement 8+。"
+    },
+    {
+      "blueprint_id": "BP38",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis）",
+      "user_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+      "when_to_use_zh": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+      "paragraph_move_structure": [
+        "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+        "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+        "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+        "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+      ],
+      "cohesion_and_logic_formula": "Asymmetry Thesis -> Bound the Drawback (Temporary & Mitigable) -> Highlight Compounding Advantage (Irreplaceable) -> Rational Verdict. 绑定逻辑规则：L008, L023.",
+      "defective_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+      "defect_diagnosis_zh": "只把好坏两边并列摆出来，然后生硬宣布 advantages are bigger than disadvantages，缺乏“为什么A大于B”的权衡标尺（可逆成本 vs. 不可替代收益）。",
+      "model_paragraph_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [权衡定性主题句 Asymmetry Thesis]",
+          "sentence_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [将弊端限定为可收敛成本 Bounding the Drawback]",
+          "sentence_en": "While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]",
+          "sentence_en": "By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [权衡结论 Trade-off Verdict]",
+          "sentence_en": "Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "提供了一套无敌的权衡逻辑标尺：弊端是可被纵深防御缓解的（mitigable via defense-in-depth），而优势（科学可复现性与透明审计）是黑盒 API 无法替代的（irreplaceable）。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L013",
+      "category": "Paragraph Architecture (段落架构)",
+      "name_zh": "演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换",
+      "name_en": "Deductive Zoom-In vs. Inductive Zoom-Out",
+      "core_principle_zh": "写方法论与议论文主论点段宜用演绎法（Zoom-In：首句抛出概括性规律，随后逐句拆解机理与实例）；写实验分析与看图小作文局部段宜用归纳法（Zoom-Out：先报告具体观测对比，末句提炼背后的理论规律）。",
+      "structural_formula": "Zoom-In: [General Claim] -> [Specific Mechanism] -> [Concrete Data]. | Zoom-Out: [Data Observation A vs. B] -> [Pattern Across Horizons] -> [Theoretical Takeaway].",
+      "common_pitfall_zh": "在实验分析段只罗列完数据就戛然而止，缺少最后一句 Zoom-Out 的机理升华（Why this pattern matters）。",
+      "bad_example_en": "At horizon 96, our MSE is 0.182. At horizon 336, our MSE is 0.245. At horizon 720, our MSE is 0.310, while Informer reaches 0.612.",
+      "good_example_en": "As the prediction horizon extends from 96 to 720 steps, our model's MSE rises modestly from 0.182 to 0.310, whereas Informer degrades sharply to 0.612. This widening performance gap demonstrates that decoupling trend projection from seasonal attention effectively suppresses long-range error compounding.",
+      "analysis_zh": "第一句整合多步长数据趋势对比，第二句用 This widening performance gap demonstrates that... 完成归纳升华，点明“趋势与季节解耦抑制长程误差累积”的本质原因。"
+    },
+    {
+      "logic_id": "L021",
+      "category": "Exam Essays (六级/雅思/托福论证)",
+      "name_zh": "具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding）",
+      "name_en": "Concrete Single-Sentence Micro-Case Illustration",
+      "core_principle_zh": "六级/雅思/托福作文严禁编造虚假的调查数据（如 *A recent survey by Harvard shows 87.3% of people...*），也严禁写空洞口号（*For example, technology helps doctors a lot*）。最高分做法是用一句 `For instance, when [Specific Actor] implements [Specific Tool/Policy] in [Specific Scenario], [Concrete Measurable Effect]` 构建具象行业微观切片。",
+      "structural_formula": "For instance, when [municipal grid operators / radiology departments / logistics warehouses] deploy [specific technology/policy], they can [concrete operational improvement], thereby [link back to paragraph claim].",
+      "common_pitfall_zh": "举例要么假大空（For example, Jack studied hard and succeeded），要么编造一眼假的统计数字。",
+      "bad_example_en": "For example, according to a recent survey, 92% of factories that use robots become very rich and successful.",
+      "good_example_en": "For instance, when automotive assembly plants deploy collaborative robots for repetitive welding and heavy chassis lifting, human technicians can transition toward quality inspection and fault diagnostics, reducing workplace musculoskeletal injuries while raising line throughput.",
+      "analysis_zh": "不编造假百分比，而是通过“汽车总装厂部署协作机器人承担重复焊接与底盘搬运 -> 技工转向质检与故障诊断 -> 减少工伤并提升产线吞吐量”展现母语级具体说服力。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC13",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP13",
+      "linked_logic_id": "L013",
+      "communicative_goal_zh": "我这一段想详细介绍我们提出的某个核心创新模块：先用两句话讲清楚为什么直接用传统算子会出问题，再顺理成章推导出我们的新公式。",
+      "original_defective_paragraph": "In this subsection, we introduce the Phase-Aware Attention. The formula is Attention(Q, K, V) = softmax(QK^T / sqrt(d) + M)V. Here M is a phase matrix. It makes the model work better.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L013 演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "直接空降公式，读者完全不知道矩阵 $M$ 是从哪冒出来的、为什么要加在 softmax 里面。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Standard dot-product attention measures token similarity purely by instantaneous amplitude alignment, often matching noisy spikes across unrelated time steps. To enforce temporal coherence, we observe that genuine physical interactions between industrial sensors exhibit consistent phase lag across dominant frequencies. Formally, given query and key projections $Q, K \\in \\mathbb{R}^{N \\times d}$, we modulate the attention logits via a phase-alignment mask: $\\mathcal{A}(Q, K, V) = \\text{softmax}\\big(\\frac{QK^\\top}{\\sqrt{d}} - \\lambda \\|\\Delta \\Phi_{Q,K}\\|_1\\big)V$, where $\\Delta \\Phi_{Q,K} \\in [-\\pi, \\pi]^{N \\times N}$ denotes the instantaneous Hilbert phase difference matrix and $\\lambda > 0$ controls phase selectivity. Penalizing large phase discrepancies prevents spurious attention weights between out-of-phase noise bursts.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [传统算子缺陷 Motivation]",
+          "sentence_en": "Standard dot-product attention measures token similarity purely by instantaneous amplitude alignment, often matching noisy spikes across unrelated time steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [传统算子缺陷 Motivation]：Standard [Conventional Operator, e.g., softmax self-attention] computes [Operation], which suffers from [Pathology] when applied to [Domain Condition]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [物理/统计直觉 Physical Intuition]",
+          "sentence_en": "To enforce temporal coherence, we observe that genuine physical interactions between industrial sensors exhibit consistent phase lag across dominant frequencies.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [物理/统计直觉 Physical Intuition]：To overcome this pathology, we observe that [Key Domain Property] can be effectively regularized by [Intuitive Operation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [数学公式定义 Mathematical Formulation]",
+          "sentence_en": "Formally, given query and key projections $Q, K \\in \\mathbb{R}^{N \\times d}$, we modulate the attention logits via a phase-alignment mask: $\\mathcal{A}(Q, K, V) = \\text{softmax}\\big(\\frac{QK^\\top}{\\sqrt{d}} - \\lambda \\|\\Delta \\Phi_{Q,K}\\|_1\\big)V$, where $\\Delta \\Phi_{Q,K} \\in [-\\pi, \\pi]^{N \\times N}$ denotes the instantaneous Hilbert phase difference matrix and $\\lambda > 0$ controls phase selectivity.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [数学公式定义 Mathematical Formulation]：Formally, given input representation $H \\in \\mathbb{R}^{N \\times d}$, we formulate the [Module Name] as: [Equation], where [Symbol Explanations]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [理论/计算性质 Guarantee]",
+          "sentence_en": "Penalizing large phase discrepancies prevents spurious attention weights between out-of-phase noise bursts.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [理论/计算性质 Guarantee]：By construction, this formulation guarantees [Desirable Property, e.g., $O(N)$ complexity / translation invariance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC33",
+      "domain_en": "Academic Tech Talk & Conference Oral Delivery",
+      "domain_zh": "顶会口头汇报（Tech Talk）与图表引导",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP33",
+      "linked_logic_id": "L003",
+      "communicative_goal_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的第一段（Introduction）：彻底扔掉 'With the rapid development of science and technology, more and more people...' 等烂大街模板，用 3 句话写出考官眼前一亮的母语级破题段。",
+      "original_defective_paragraph": "With the rapid development of science and technology, artificial intelligence is becoming more and more popular in universities. Some people think it is good, while others think it is bad. In my opinion, every coin has two sides and we should use it properly.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L003 延续链式推进模式（Linear Chain Progression））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "汇集了中国考生三大扣分重灾区：① With the rapid development of...；② more and more popular / good vs. bad；③ Every coin has two sides（零立场的废话中心论点）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+          "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+          "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+          "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC51",
+      "domain_en": "CET-6 & IELTS Task 2 Technology & Society Essay",
+      "domain_zh": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP03",
+      "linked_logic_id": "L021",
+      "communicative_goal_zh": "我这一段想深入剖析现有方法在特定难题（如非平稳突变、长程自回归误差累积、Sim-to-Real 接触失配）上为什么会失效，把机理讲透。",
+      "original_defective_paragraph": "The problem of error accumulation in long-term forecasting and the losing of scale information when using RevIN normalization is very serious and hard to solve by simple ways.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L021 具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+          "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+          "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+          "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+          "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT13",
+    "genre": "IELTS_Task1_Dynamic",
+    "title_zh": "雅思小作文（Task 1）动态多折线图满分范文：四国清洁能源与煤炭发电占比 25 年演进及主次反转",
+    "structural_blueprint_chain": [
+      "BP25",
+      "BP26",
+      "BP32"
+    ]
+  }
+}

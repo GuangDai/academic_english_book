@@ -1,0 +1,335 @@
+{
+  "day": "day_0010",
+  "day_number": 10,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 10 天：对比现有流派优劣并精准定位本文差异（Contrastive Positioning） × 定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad） × Academic_QA_Defense 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP10",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "对比现有流派优劣并精准定位本文差异（Contrastive Positioning）",
+      "user_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+      "when_to_use_zh": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+      "paragraph_move_structure": [
+        "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+        "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+        "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+        "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+      ],
+      "cohesion_and_logic_formula": "Acknowledge Overlap -> Pinpoint Structural Divergence -> Explain Functional Gain. 绑定逻辑规则：L008, L019.",
+      "defective_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+      "defect_diagnosis_zh": "回避了具体技术异同，只喊口号说 much better and more novel，审稿人最反感这种敷衍对比。",
+      "model_paragraph_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach. While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes. In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases. Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [锁定最相近工作 Closest Prior Work]",
+          "sentence_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [剖析其局限性 Structural Difference 1]",
+          "sentence_en": "While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [剖析本文本质突破 Core Departure]",
+          "sentence_en": "In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]",
+          "sentence_en": "Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "坦然承认都用了傅里叶变换（Acknowledge overlap），随即精准对比“全局静态 top-k 选频 vs. 滑动子区间自适应小波带宽调节”，彻底打消 incremental 质疑。"
+    },
+    {
+      "blueprint_id": "BP22",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "计算开销、推理延迟与精度帕累托权衡段（Efficiency-Accuracy Pareto Analysis）",
+      "user_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+      "when_to_use_zh": "Experiments 第 4.6 节 Computational Efficiency",
+      "paragraph_move_structure": [
+        "S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU.",
+        "S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%].",
+        "S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline.",
+        "S4 [帕累托结论 Pareto Takeaway]：Consequently, [Our Model] achieves superior accuracy at a fraction of the computational footprint required by heavyweight foundation models."
+      ],
+      "cohesion_and_logic_formula": "Hardware Benchmark -> Complexity Reduction & Memory Gain -> Real-Time Latency Margin -> Pareto Conclusion. 绑定逻辑规则：L010, L023.",
+      "defective_draft": "Our model is very fast and uses little memory. It only takes 4.2 ms to run, so it can be used in real-time applications easily.",
+      "defect_diagnosis_zh": "缺少复杂度来源分析（为什么快）、参照硬件与实时控制硬截止时间（Deadline）对比。",
+      "model_paragraph_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module. By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer. At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [硬件与测试基准 Hardware Setup]",
+          "sentence_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [复杂度理论与实测对比 Complexity & Runtime]",
+          "sentence_en": "By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实时闭环部署可行性 Real-Time Viability]",
+          "sentence_en": "At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "将理论复杂度（$O(L^2) \\to O(L \\log L)$）、机载芯片（Orin AGX）、推理耗时（6.8 ms vs. 20 ms 控制周期预算）与任务成功率完美缝合。"
+    },
+    {
+      "blueprint_id": "BP35",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "深层原因剖析段：表层诱因与结构性根源双层挖掘（Dual-Layer Causal Diagnosis）",
+      "user_intent_zh": "我这一段想在问题分析类作文（Why is this happening?）中，剖析某个社会/科研痛点背后的深层原因（既指出直接表层诱因，又挖出底层的考核激励或结构性根源）。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 原因分析段，或学术评论文章",
+      "paragraph_move_structure": [
+        "S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives.",
+        "S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action].",
+        "S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor.",
+        "S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated."
+      ],
+      "cohesion_and_logic_formula": "Dual-Cause Opening -> Immediate Operational Driver -> Deeper Institutional Root -> Systemic Compounding. 绑定逻辑规则：L007, L005.",
+      "defective_draft": "Why do many students copy AI answers directly? First, AI is very easy and fast to use. Second, students are lazy and have too much homework. So they just copy and paste.",
+      "defect_diagnosis_zh": "把复杂社会教育现象简单归结为“学生懒（students are lazy）”，缺乏操作成本与评价体系两个层面的结构化深度。",
+      "model_paragraph_en": "The growing tendency among undergraduates to submit unverified AI-generated essays stems from both lowered friction costs and flawed assessment design. At an immediate level, conversational models produce grammatically polished drafts within seconds, tempting time-pressed students to bypass the arduous process of outlining and primary reading. More fundamentally, many university courses still rely on generic, formulaic essay prompts that reward surface fluency rather than original empirical critique. When effortless text generation meets standardized grading rubrics that fail to penalize hollow reasoning, superficial compliance inevitably crowds out deep inquiry.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [原因总起句 Dual-Cause Thesis]",
+          "sentence_en": "The growing tendency among undergraduates to submit unverified AI-generated essays stems from both lowered friction costs and flawed assessment design.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层",
+          "sentence_en": "At an immediate level, conversational models produce grammatically polished drafts within seconds, tempting time-pressed students to bypass the arduous process of outlining and primary reading.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层",
+          "sentence_en": "More fundamentally, many university courses still rely on generic, formulaic essay prompts that reward surface fluency rather than original empirical critique.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [双因叠加后果 Compounding Effect]",
+          "sentence_en": "When effortless text generation meets standardized grading rubrics that fail to penalize hollow reasoning, superficial compliance inevitably crowds out deep inquiry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 At an immediate level... 与 More fundamentally... 剥洋葱般剖析“极低生成摩擦成本”与“奖励表面流利度的公式化命题考核”，末句 When A meets B, C inevitably crowds out D 极具思辨穿透力。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L010",
+      "category": "Precision & Grounding (精确度与实证落地)",
+      "name_zh": "定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad）",
+      "name_en": "The Metric-Baseline-Condition Precision Triad",
+      "core_principle_zh": "任何宣称“更好、更快、更鲁棒、影响深远”的句子，必须同时交代三个维度：① 具体评估指标与幅度（Metric & Magnitude）、② 对比参照系（Baseline）、③ 评测工况或数据集条件（Condition）。",
+      "structural_formula": "[Method/Policy] improves/reduces [Metric] by [Exact %/Value] compared with [Strongest Baseline] under [Specific Dataset/Horizon/Noise Regime].",
+      "common_pitfall_zh": "只写 significantly improves performance 或 achieves state-of-the-art results，属于典型的“不精确 + 空洞夸张”。",
+      "bad_example_en": "Our generative policy achieves much better success rates and runs much faster than previous methods.",
+      "good_example_en": "Our consistency-distilled policy increases bimanual peg-insertion success rates from 64% to 89% while cutting inference latency from 180 ms to 12 ms relative to a 50-step DDPM baseline.",
+      "analysis_zh": "用 64%->89%（指标）、180ms->12ms（延迟）、relative to a 50-step DDPM baseline（基线）和 bimanual peg-insertion（任务条件）彻底消灭空洞形容词。"
+    },
+    {
+      "logic_id": "L018",
+      "category": "Presentation & Speech (学术演讲与汇报)",
+      "name_zh": "口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting）",
+      "name_en": "Spoken Rhythm, Visual Anchoring, and Rhetorical Signposting",
+      "core_principle_zh": "听众无法像读论文那样倒回去重读长定语从句。把书面段转化为演讲稿时，必须：① 砍掉多重嵌套从句，拆为 10–15 词的清晰短句；② 先给视觉坐标（Look at the red curve in the upper-right panel）再讲结论；③ 用轻量设问（Why does this spike happen? Because...）引导注意力。",
+      "structural_formula": "[Visual Anchor: Turning to the right panel of Slide 4,] -> [Short Rhetorical Question: why does the baseline diverge after step 50?] -> [Crisp Causal Answer: The answer lies in compound orientation drift.]",
+      "common_pitfall_zh": "拿着书面论文原封不动照念长达 40 个词的复合句，台下听众在前 10 秒就丢失了主谓关系。",
+      "bad_example_en": "As illustrated in Figure 4, the trajectory generated by the baseline model without temporal consistency regularization exhibits substantial oscillation around the target waypoint.",
+      "good_example_en": "Take a look at the dashed blue trajectory in Figure 4. Notice how violently the robot arm oscillates near the target waypoint. Why does this happen? Without temporal consistency regularization, adjacent action chunks conflict with one another.",
+      "analysis_zh": "用 Take a look at... -> Notice how... -> Why does this happen? -> Without X, Y conflicts... 营造极具现场掌控力的母语级 Tech Talk 节奏。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC10",
+      "domain_en": "Diffusion & Flow-Matching Time Series Imputation",
+      "domain_zh": "基于扩散/流匹配的缺失时序插补与生成",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP10",
+      "linked_logic_id": "L010",
+      "communicative_goal_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+      "original_defective_paragraph": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L010 定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "回避了具体技术异同，只喊口号说 much better and more novel，审稿人最反感这种敷衍对比。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach. While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes. In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases. Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [锁定最相近工作 Closest Prior Work]",
+          "sentence_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [剖析其局限性 Structural Difference 1]",
+          "sentence_en": "While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [剖析本文本质突破 Core Departure]",
+          "sentence_en": "In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]",
+          "sentence_en": "Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC30",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP30",
+      "linked_logic_id": "L030",
+      "communicative_goal_zh": "我这一段想处理同时包含过去历史数据（如 2010–2025）和未来预测数据（如 2026–2040）的图表段落，严格区分过去实测时态与未来审慎预测表达。",
+      "original_defective_paragraph": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L030 成段后七维自检清单（The 7-Point Paragraph Audit Checklist））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "未来年份全部生硬使用 will be / will increase，违反学术图表报告对未来预测需使用审慎预测动词（is projected / anticipated / forecast to）的规范。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh. From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035. Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040. However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]",
+          "sentence_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]",
+          "sentence_en": "From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [结构占比重塑 Structural Shift in Projections]",
+          "sentence_en": "Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [条件式审慎收尾 Conditional Hedging]",
+          "sentence_en": "However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC48",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP48",
+      "linked_logic_id": "L018",
+      "communicative_goal_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+      "original_defective_paragraph": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L018 口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "包含 SoP 两大禁忌：① 童年情怀套话（Since I was a child, I have been fascinated by...）；② 盲目追热点（because it is a very hot topic），没讲清你过去的时序/生成建模背景赋予了你做具身智能什么独特优势。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data. While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%. Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions. Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [过往研究主线凝练 Past Research Thread]",
+          "sentence_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [代表作攻克过程与硬核成果 Concrete Achievement]",
+          "sentence_en": "While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]",
+          "sentence_en": "Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来研究愿景 Future Research Agenda]",
+          "sentence_en": "Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT10",
+    "genre": "Academic_QA_Defense",
+    "title_zh": "学术答辩与组会 6 大高频刁钻提问应答全案（Novelty、超参敏感性、极端噪声、计算复杂度、失败案例与未来扩展）",
+    "structural_blueprint_chain": [
+      "BP44",
+      "BP46",
+      "BP20",
+      "BP21",
+      "BP22",
+      "BP23"
+    ]
+  }
+}

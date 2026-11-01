@@ -1,0 +1,506 @@
+[
+  {
+    "task_id": "D0037_T01",
+    "day": "day_0037",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+        "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [对策 1",
+        "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [对策 2",
+        "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+        "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP37`（问题诊断与靶向解决方案段：拒绝“政府应该立法”万金油（Targeted Problem-Solution））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Dual-Level Intervention -> Actor 1 + Concrete Mechanism -> Actor 2 + Concrete Standard -> Balanced Closure. 绑定逻辑规则：L002, L010.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T02",
+    "day": "day_0037",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务锚定 Topic Anchor]",
+        "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+        "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+        "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+        "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP01`（确立研究背景与真实工程价值（拒绝空喊口号））与逻辑法则 `L015`（图表叙事铁律：解读规律而非朗读表格（Interpret Patterns, Never Read Tables Aloud））。衔接公式：Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T03",
+    "day": "day_0037",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+        "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [对策 1",
+        "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [对策 2",
+        "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+        "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP37`（问题诊断与靶向解决方案段：拒绝“政府应该立法”万金油（Targeted Problem-Solution））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Dual-Level Intervention -> Actor 1 + Concrete Mechanism -> Actor 2 + Concrete Standard -> Balanced Closure. 绑定逻辑规则：L002, L010.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T04",
+    "day": "day_0037",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务锚定 Topic Anchor]",
+        "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+        "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+        "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+        "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP01`（确立研究背景与真实工程价值（拒绝空喊口号））与逻辑法则 `L015`（图表叙事铁律：解读规律而非朗读表格（Interpret Patterns, Never Read Tables Aloud））。衔接公式：Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T05",
+    "day": "day_0037",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+        "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [对策 1",
+        "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [对策 2",
+        "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+        "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP37`（问题诊断与靶向解决方案段：拒绝“政府应该立法”万金油（Targeted Problem-Solution））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Dual-Level Intervention -> Actor 1 + Concrete Mechanism -> Actor 2 + Concrete Standard -> Balanced Closure. 绑定逻辑规则：L002, L010.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T06",
+    "day": "day_0037",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务锚定 Topic Anchor]",
+        "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+        "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+        "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+        "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP01`（确立研究背景与真实工程价值（拒绝空喊口号））与逻辑法则 `L015`（图表叙事铁律：解读规律而非朗读表格（Interpret Patterns, Never Read Tables Aloud））。衔接公式：Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T07",
+    "day": "day_0037",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [权衡定性主题句 Asymmetry Thesis]",
+        "sentence_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [将弊端限定为可收敛成本 Bounding the Drawback]",
+        "sentence_en": "While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]",
+        "sentence_en": "By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [权衡结论 Trade-off Verdict]",
+        "sentence_en": "Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP38`（利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Asymmetry Thesis -> Bound the Drawback (Temporary & Mitigable) -> Highlight Compounding Advantage (Irreplaceable) -> Rational Verdict. 绑定逻辑规则：L008, L023.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只把好坏两边并列摆出来，然后生硬宣布 advantages are bigger than disadvantages，缺乏“为什么A大于B”的权衡标尺（可逆成本 vs. 不可替代收益）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T08",
+    "day": "day_0037",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+        "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [对策 1",
+        "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [对策 2",
+        "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+        "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP37`（问题诊断与靶向解决方案段：拒绝“政府应该立法”万金油（Targeted Problem-Solution））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Dual-Level Intervention -> Actor 1 + Concrete Mechanism -> Actor 2 + Concrete Standard -> Balanced Closure. 绑定逻辑规则：L002, L010.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T09",
+    "day": "day_0037",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务锚定 Topic Anchor]",
+        "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+        "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+        "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+        "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP01`（确立研究背景与真实工程价值（拒绝空喊口号））与逻辑法则 `L015`（图表叙事铁律：解读规律而非朗读表格（Interpret Patterns, Never Read Tables Aloud））。衔接公式：Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T10",
+    "day": "day_0037",
+    "task_type": "cross_genre_transformation",
+    "model_response_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [权衡定性主题句 Asymmetry Thesis]",
+        "sentence_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [将弊端限定为可收敛成本 Bounding the Drawback]",
+        "sentence_en": "While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]",
+        "sentence_en": "By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [权衡结论 Trade-off Verdict]",
+        "sentence_en": "Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP38`（利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Asymmetry Thesis -> Bound the Drawback (Temporary & Mitigable) -> Highlight Compounding Advantage (Irreplaceable) -> Rational Verdict. 绑定逻辑规则：L008, L023.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只把好坏两边并列摆出来，然后生硬宣布 advantages are bigger than disadvantages，缺乏“为什么A大于B”的权衡标尺（可逆成本 vs. 不可替代收益）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T11",
+    "day": "day_0037",
+    "task_type": "full_composition_project",
+    "model_response_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+        "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [对策 1",
+        "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [对策 2",
+        "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+        "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP37`（问题诊断与靶向解决方案段：拒绝“政府应该立法”万金油（Targeted Problem-Solution））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Dual-Level Intervention -> Actor 1 + Concrete Mechanism -> Actor 2 + Concrete Standard -> Balanced Closure. 绑定逻辑规则：L002, L010.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0037_T12",
+    "day": "day_0037",
+    "task_type": "full_composition_project",
+    "model_response_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [权衡定性主题句 Asymmetry Thesis]",
+        "sentence_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [将弊端限定为可收敛成本 Bounding the Drawback]",
+        "sentence_en": "While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]",
+        "sentence_en": "By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [权衡结论 Trade-off Verdict]",
+        "sentence_en": "Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP38`（利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis））与逻辑法则 `L015`（图表叙事铁律：解读规律而非朗读表格（Interpret Patterns, Never Read Tables Aloud））。衔接公式：Asymmetry Thesis -> Bound the Drawback (Temporary & Mitigable) -> Highlight Compounding Advantage (Irreplaceable) -> Rational Verdict. 绑定逻辑规则：L008, L023.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只把好坏两边并列摆出来，然后生硬宣布 advantages are bigger than disadvantages，缺乏“为什么A大于B”的权衡标尺（可逆成本 vs. 不可替代收益）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  }
+]

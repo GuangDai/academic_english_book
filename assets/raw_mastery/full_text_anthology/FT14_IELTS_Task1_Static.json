@@ -1,0 +1,109 @@
+{
+  "text_id": "FT14",
+  "genre": "IELTS_Task1_Static",
+  "title_zh": "雅思小作文（Task 1）静态柱状图与饼图组合满分范文：云端推理与机载机器人控制系统的能耗结构对比",
+  "paragraph_count": 3,
+  "structural_blueprint_chain": [
+    "BP25",
+    "BP27",
+    "BP28"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "图表小作文首段：题目改写与总体趋势概览（Paraphrase + Macro Overview）",
+      "blueprint_id": "BP25",
+      "paragraph_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+      "cohesion_formula": "Paraphrase -> Overall Trajectory Contrast -> Dominant Crossover/Extremum (Zero raw numbers in Overview!). 绑定逻辑规则：L013, L015.",
+      "paragraph_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025. Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily. Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [图表命题同义改写 Prompt Paraphrase]",
+          "sentence_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [宏观趋势 1",
+          "sentence_en": "Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [宏观趋势 2",
+          "sentence_en": "Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "静态多组数据横向对比与倍差/占比凸显段（Cross-Group Proportions）",
+      "blueprint_id": "BP27",
+      "paragraph_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+      "cohesion_formula": "Dominant Item with Multiplier -> Sharp Cross-Group Contrast -> Pooled Minor Items -> Structural Synthesis. 绑定逻辑规则：L009, L010.",
+      "paragraph_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%). A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%. Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption. This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [主导项锁定 Dominant Category]",
+          "sentence_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [组间横向反差 Cross-Group Contrast]",
+          "sentence_en": "A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [次要项合并归纳 Minor Categories Grouping]",
+          "sentence_en": "Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结构性差异提炼 Structural Takeaway]",
+          "sentence_en": "This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "双图关联与互补/因果印证段（Synthesizing Dual Charts）",
+      "blueprint_id": "BP28",
+      "paragraph_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "cohesion_formula": "Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.",
+      "paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

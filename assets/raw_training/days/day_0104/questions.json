@@ -1,0 +1,1731 @@
+[
+  {
+    "question_id": "Q_D0104_01",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 delve (V00697) 的学术多义项与语境词形，并联动巩固 entropy (V00896)。",
+    "prompt": "【day_0104·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“深入探究”，v.；注意区别于日常义：基础字面义：深入探究），填写唯一准确的英文词形：\nSentence 1: The next section ________ into the assumptions behind the estimator. （句意：下一节详细探究该估计量所依赖的假设。）\nSentence 2 (Companion Context with 'entropy'): Shannon entropy quantifies uncertainty in a discrete probability distribution.",
+    "context": "熟词生义与用法边界：词义与句法边界：通常用 delve into；在学术文体中可以使用，但 examine/analyse 更直接，避免把它当作装饰性动词。 | 句子成分结构：【紧凑主语】The next section delves... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00697",
+      "V00896"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G032",
+      "polysemy_recall",
+      "not_applicable",
+      "intransitive"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 delve）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_02",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 dilate (V00756) 的学术多义项与语境词形，并联动巩固 ergodicity (V00909)。",
+    "prompt": "【day_0104·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“使扩大”，v.；注意区别于日常义：基础字面义：使扩大），填写唯一准确的英文词形：\nSentence 1: A geometric ________ with scale factor two doubles every distance from the centre. （句意：比例因子为二的几何位似变换使每一点到中心的距离加倍。）\nSentence 2 (Companion Context with 'ergodicity'): For a stationary ergodic process with E",
+    "context": "熟词生义与用法边界：词义与句法边界：医学常指瞳孔或血管扩张；几何 dilation 可按比例放大或缩小，不能一律理解成只扩大。 | 句子成分结构：【紧凑主语】A geometric dilation with... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00756",
+      "V00909"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G032",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 dilate）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_03",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 disentangle (V00776) 的学术多义项与语境词形，并联动巩固 exogenous (V00960)。",
+    "prompt": "【day_0104·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“分离交织因素”，v.；注意区别于日常义：基础字面义：分离交织因素），填写唯一准确的英文词形：\nSentence 1: The study design aims to ________ the effect of training from prior experience. （句意：研究设计旨在分离培训的影响与既有经验的影响。）\nSentence 2 (Companion Context with 'exogenous'): Calling a predictor exogenous requires a precise statement of its relationship to the model's disturbances.",
+    "context": "熟词生义与用法边界：词义与句法边界：disentangle A from B；模型中称 disentangled representation 需给评估定义，分离表示不自动等于识别因果因素。 | 句子成分结构：【紧凑主语】The study design aims... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00776",
+      "V00960"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G032",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 disentangle）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_04",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 efficacy (V00846) 的学术多义项与语境词形，并联动巩固 extrapolate (V00994)。",
+    "prompt": "【day_0104·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“在规定或理想条件下产生预期效果的能力”，n.；注意区别于日常义：基础字面义：在规定或理想条件下产生预期效果的能力），填写唯一准确的英文词形：\nSentence 1: A controlled trial can evaluate the ________ of an intervention under specified conditions. （句意：对照试验能够在指定条件下评估一项干预的效力。）\nSentence 2 (Companion Context with 'extrapolate'): We should not extrapolate from a single district to the entire country without justification.",
+    "context": "熟词生义与用法边界：词义与句法边界：常用于试验条件下效果，effectiveness 常指实际使用条件下效果；区别依学科约定，不等于安全性或适合所有人。 | 句子成分结构：【紧凑主语】A controlled trial can... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00846",
+      "V00994"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G032",
+      "polysemy_recall",
+      "uncountable",
+      "not_applicable"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 efficacy）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_05",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 encompassing (V00879) 的学术多义项与语境词形，并联动巩固 extrapolation (V00995)。",
+    "prompt": "【day_0104·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“包含”，v.；注意区别于日常义：基础字面义：包含），填写唯一准确的英文词形：\nSentence 1: The review ________ both experimental and observational approaches. （句意：该综述涵盖实验方法和观察方法。）\nSentence 2 (Companion Context with 'extrapolation'): Extrapolation beyond the observed age range requires additional justification.",
+    "context": "熟词生义与用法边界：词义与句法边界：原词 encompassing 是现在分词或形容词；encompass 及物，不接 of；涵盖范围应明示，不能暗示所有情况已覆盖。 | 句子成分结构：【紧凑主语】The review encompasses both... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00879",
+      "V00995"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G032",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 encompassing）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_06",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 ensemble (V00893) 的学术多义项与语境词形，并联动巩固 factor in (V01002)。",
+    "prompt": "【day_0104·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“集成”，n.；注意区别于日常义：基础字面义：集成），填写唯一准确的英文词形：\nSentence 1: An ________ forecast can combine information from several models. （句意：集成预测可以结合多个模型提供的信息。）\nSentence 2 (Companion Context with 'factor in'): Funding is a factor in project feasibility.",
+    "context": "熟词生义与用法边界：词义与句法边界：可数；模型集成可以组合不同模型，气象集合预报也可用同一模型的不同初值或扰动产生成员；集成不保证优于所有单模型；物理中的 ensemble 可指满足指定条件的一组系统。 | 句子成分结构：【紧凑主语】An ensemble forecast can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00893",
+      "V01002"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G032",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 ensemble）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_07",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 entangled 的自然搭配“entangled factors”并消除中式直译搭配错误。",
+    "prompt": "【day_0104·常见学术搭配 1】根据搭配类型（adj+noun）与用法规范，使用目标词“entangled”（交织的）的规约搭配补全并写出下列完整英文学术句（表达：“在观察数据中，收入和社区条件的影响可能交织在一起。”），使其与后句中的“faculty (BrE)”（the Faculty of Arts）构成自然衔接：\n待完成句语义：在观察数据中，收入和社区条件的影响可能交织在一起。（核心搭配提示：entangled factors）\n后续衔接句：The Faculty of Arts includes several departments.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“entangled factors”精确表述“交织的；纠缠的；被卷入的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00894",
+      "V01003"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G001"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G032",
+      "G001",
+      "EP008",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“entangled factors”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_08",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 entropy 的自然搭配“Shannon entropy”并消除中式直译搭配错误。",
+    "prompt": "【day_0104·常见学术搭配 2】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“entropy”（熵）的规约搭配补全并写出下列完整英文学术句（表达：“香农熵量化一个离散概率分布中的不确定性。”），使其与后句中的“fall below”（fall below a threshold）构成自然衔接：\n待完成句语义：香农熵量化一个离散概率分布中的不确定性。（核心搭配提示：Shannon entropy）\n后续衔接句：The value fell below the lower threshold.",
+    "context": "搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“Shannon entropy”精确表述“熵；信息论中分布不确定性的量；热力学中的状态量”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00896",
+      "V01006"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G001"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01005",
+      "V00307",
+      "G011",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G032",
+      "G001",
+      "EP008",
+      "collocation_accuracy",
+      "fixed_academic_phrase"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“Shannon entropy”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_09",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 ergodicity 的自然搭配“ergodicity assumption”并消除中式直译搭配错误。",
+    "prompt": "【day_0104·常见学术搭配 3】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“ergodicity”（遍历性）的规约搭配补全并写出下列完整英文学术句（表达：“X_0”），使其与后句中的“faux pas”（a social faux pas）构成自然衔接：\n待完成句语义：X_0（核心搭配提示：ergodicity assumption）\n后续衔接句：A visitor may make a faux pas by ignoring an unfamiliar greeting convention.",
+    "context": "搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“ergodicity assumption”精确表述“遍历性；在相应条件下时间平均能够反映总体平均的性质”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00909",
+      "V01010"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G001"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G032",
+      "G001",
+      "EP008",
+      "collocation_accuracy",
+      "fixed_academic_phrase"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“ergodicity assumption”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_10",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 exogenous 的自然搭配“exogenous input”并消除中式直译搭配错误。",
+    "prompt": "【day_0104·常见学术搭配 4】根据搭配类型（adj+noun）与用法规范，使用目标词“exogenous”（外源的）的规约搭配补全并写出下列完整英文学术句（表达：“把预测变量称为外生变量，需要明确说明它与模型扰动项的关系。”），使其与后句中的“fear / fearless”（fear of failure）构成自然衔接：\n待完成句语义：把预测变量称为外生变量，需要明确说明它与模型扰动项的关系。（核心搭配提示：exogenous input）\n后续衔接句：The survey asked about fear of failure.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“exogenous input”精确表述“外源的；由所研究系统之外决定的；满足指定外生性条件的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00960",
+      "V01011"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G001"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01012",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G032",
+      "G001",
+      "EP008",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“exogenous input”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_11",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 extrapolate 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0104·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 extrapolate）：\nContext: We should not ________ from a single district to the entire country without justification. Furthermore, regarding 'feel free to', please feel free to ask for clarification.",
+    "context": "目标句意：没有论证时，我们不应从一个地区的情况外推到全国。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. extrapolate",
+      "B. restore",
+      "C. restrain",
+      "D. restrict"
+    ],
+    "focus_word_ids": [
+      "V00994",
+      "V01018"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G032",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_12",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 extrapolation 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0104·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 Extrapolation）：\nContext: ________ beyond the observed age range requires additional justification. Furthermore, regarding 'fees / tuition fees', the applicant compared tuition fees and living costs.",
+    "context": "目标句意：超出已观测年龄范围的外推需要额外论证。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. creativity",
+      "B. extrapolation",
+      "C. credit",
+      "D. criterion"
+    ],
+    "focus_word_ids": [
+      "V00995",
+      "V01019"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02572",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G032",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_13",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 factor in 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0104·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 factor in）：\nContext: Funding is a ________ project feasibility. Furthermore, regarding 'fewer and fewer', fewer and fewer participants completed the optional follow-up.",
+    "context": "目标句意：资金是项目可行性的一个因素。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. ground-truth",
+      "B. halfway point",
+      "C. factor in",
+      "D. halls of residence"
+    ],
+    "focus_word_ids": [
+      "V01002",
+      "V01020"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G006",
+      "G032",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G032",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_14",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 faculty (BrE) 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0104·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 Faculty）：\nContext: The ________ of Arts includes several departments. Furthermore, regarding 'field of learning', the project draws on several fields of learning.",
+    "context": "目标句意：文学院包括若干系。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. disadvantage",
+      "B. discipline",
+      "C. discourse",
+      "D. faculty (BrE)"
+    ],
+    "focus_word_ids": [
+      "V01003",
+      "V01021"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G032",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "cet6_ielts_toefl_education_and_academic_life",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0104_15",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 4,
+    "training_objective": "用精准学术词 fall below (below) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0104·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“fall below”的恰当词形，并写出完整修正句（需同时保留后半句中关于“field study”的语境信息）：\nEnglish Draft: The value fell <u>do or handle</u> the lower threshold. (Context note: The field study followed birds in their natural habitat.)",
+    "context": "目标语义：该值降至下限阈值以下。 | 熟词生义提醒：精准学术定义：降至……以下（v. phrase）",
+    "options": null,
+    "focus_word_ids": [
+      "V01006",
+      "V01022"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V01005",
+      "V00307",
+      "G031",
+      "G011",
+      "G006",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_4",
+      "G032",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_16",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 4,
+    "training_objective": "用精准学术词 faux pas (faux pas) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0104·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“faux pas”的恰当词形，并写出完整修正句（需同时保留后半句中关于“fill in / fill out”的语境信息）：\nEnglish Draft: A visitor may make a <u>do or handle</u> by ignoring an unfamiliar greeting convention. (Context note: Please fill in the application form using your legal name.)",
+    "context": "目标语义：访客忽略了自己不熟悉的问候惯例，可能因此失礼。 | 熟词生义提醒：多义项/多词性完整映射：失礼；违反社交惯例的行为（n. phrase）",
+    "options": null,
+    "focus_word_ids": [
+      "V01010",
+      "V01025"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G006",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_4",
+      "G032",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_17",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 4,
+    "training_objective": "用精准学术词 fear / fearless (fear) 替换英文初稿中的口语/模糊表达“general thing or part”。",
+    "prompt": "【day_0104·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`general thing or part`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“fear / fearless”的恰当词形，并写出完整修正句（需同时保留后半句中关于“final point to stress”的语境信息）：\nEnglish Draft: The survey asked about <u>general thing or part</u> of failure. (Context note: The final point to stress is that the estimates remain uncertain.)",
+    "context": "目标语义：问卷询问了对失败的恐惧。 | 熟词生义提醒：多义项/多词性完整映射：恐惧／无畏的（n., v. / adj.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01011",
+      "V01028"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V01012",
+      "G031",
+      "G032",
+      "V01026",
+      "V01874",
+      "V02394",
+      "G006",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_4",
+      "G032",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_18",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 4,
+    "training_objective": "使用地道学术搭配“feel free to ask”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0104·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“feel free to”的核心学术短语/搭配（“feel free to ask”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: Please <u>make a basic handling in a general way regarding do or handle</u> ask for clarification.\nCompanion Context ('observe'): The authors observe that the two accounts differ. （目标句意：如需进一步说明，可以提问。）",
+    "context": "目标规约短语：feel free to ask | 配合表达模式：【EP008】使用 be of + 抽象名词结构自然提升评价语域",
+    "options": null,
+    "focus_word_ids": [
+      "V01018",
+      "V01725"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G006",
+      "G032",
+      "V01724",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_4",
+      "G001",
+      "G034",
+      "EP008",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "spoken_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“feel free to ask”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_19",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 4,
+    "training_objective": "使用地道学术搭配“pay tuition fees”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0104·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“fees / tuition fees”的核心学术短语/搭配（“pay tuition fees”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The applicant compared <u>make a basic handling in a general way regarding general thing or part</u> and living costs.\nCompanion Context ('observe'): The team observed how students used the library. （目标句意：申请者比较了学费和生活费。）",
+    "context": "目标规约短语：pay tuition fees | 配合表达模式：【EP008】使用 be of + 抽象名词结构自然提升评价语域",
+    "options": null,
+    "focus_word_ids": [
+      "V01019",
+      "V01726"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "V02572",
+      "G031",
+      "G002",
+      "G032",
+      "V01725",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_4",
+      "G001",
+      "G034",
+      "EP008",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "cet6_ielts_toefl_education_and_academic_life",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“pay tuition fees”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_20",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 4,
+    "training_objective": "使用地道学术搭配“fewer and fewer people”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0104·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“fewer and fewer”的核心学术短语/搭配（“fewer and fewer people”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: <u>make a basic handling in a general way regarding a lot of</u> participants completed the optional follow-up.\nCompanion Context ('observe'): The differences observed earlier may reflect sampling error. （目标句意：完成自选随访的参与者越来越少。）",
+    "context": "目标规约短语：fewer and fewer people | 配合表达模式：【EP008】使用 be of + 抽象名词结构自然提升评价语域",
+    "options": null,
+    "focus_word_ids": [
+      "V01020",
+      "V01727"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G006",
+      "V01726",
+      "G032",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_4",
+      "G001",
+      "G034",
+      "EP008",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“fewer and fewer people”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_21",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 field of learning 与 delve 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0104·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】\nTop-Heavy Draft: *The question of how the research team can properly handle the fact that the project draws on several fields of learning. in the experiment is what we look at.*\n改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“field of learning”（搭配：different fields of learning）将其改写为紧凑、有力的学术句子（并结合“delve”的语境边界）。",
+    "context": "核心成分拆解：【紧凑主语】The project draws on... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：现代论文也常用 fields of study。",
+    "options": null,
+    "focus_word_ids": [
+      "V01021",
+      "V00697"
+    ],
+    "grammar_ids": [
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G006",
+      "G032",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G032",
+      "EP008",
+      "sentence_rewriting",
+      "G032",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 field of learning 的搭配“different fields of learning”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_22",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 field study 与 dilate 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0104·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】\nAI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: The field study followed birds in their natural habitat.*\n改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“field study”写出零 AI 痕迹、克制精准的学术句子（关联词条：dilate）。",
+    "context": "核心成分拆解：【紧凑主语】The field study followed... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：field 指实地环境，不限于田野。",
+    "options": null,
+    "focus_word_ids": [
+      "V01022",
+      "V00756"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G006",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G032",
+      "G033",
+      "EP008",
+      "sentence_rewriting",
+      "G033",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 field study 的搭配“conduct a field study”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_23",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 fill in / fill out 与 disentangle 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0104·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】\nSource Statement: Please fill in the application form using your legal name. （中文句意：请使用法定姓名填写申请表。）\n改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“fill in / fill out”（注意其学术义：精准学术定义：填写（phrasal v.））及协同词“disentangle”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。",
+    "context": "核心成分拆解：【紧凑主语】Please fill in the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：fill in 常见于英式；fill out 常见于美式。",
+    "options": null,
+    "focus_word_ids": [
+      "V01025",
+      "V00776"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G021"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G032",
+      "G021",
+      "EP008",
+      "sentence_rewriting",
+      "G021",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "cet6_ielts_toefl_education_and_academic_life",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 fill in / fill out 的搭配“fill in an application form”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_24",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 final point to stress 与 efficacy 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0104·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】\nVerbose Draft: *When we consider the context of the analysis, it is true that the final point to stress is that the estimates remain uncertain.*\n改写指令：消除句首拖沓的从句，运用目标词“final point to stress”（搭配：the final point to stress）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：efficacy），严禁产生悬垂修饰或增删原意。",
+    "context": "核心成分拆解：【紧凑主语】The final point to... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：final较last正式。",
+    "options": null,
+    "focus_word_ids": [
+      "V01028",
+      "V00846"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G018"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "V01026",
+      "V01874",
+      "V02394",
+      "G031",
+      "G006",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G032",
+      "G018",
+      "EP008",
+      "sentence_rewriting",
+      "G018",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 final point to stress 的搭配“the final point to stress”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_25",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 observe 与 encompassing 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0104·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】\nBase Observation: The authors observe that the two accounts differ. (Paired concept: 'encompassing' — The review encompasses both experimental and observational approaches.)\n改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“observe”与“encompassing”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。",
+    "context": "核心成分拆解：【紧凑主语】The authors observe that... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：在模型中 observed variables（观测变量）与 latent variables（潜变量）严格相对。 | 词表跨单元多义对比：[V01724 v.] 指出；观察到（例：The authors observe that the groups differ in age.）；[V01725 v.] 指出；评论；观察（例：The authors observe that the two accounts differ.）；[V01726 v.] 观察（例：The team observed how students used the library.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01725",
+      "V00879"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "V01724",
+      "G031",
+      "G032",
+      "G011",
+      "G001",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G032",
+      "G036",
+      "EP008",
+      "sentence_rewriting",
+      "G036",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 observe 的搭配“observe that”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_26",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 observe (observe behaviour) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0104·中译英与句子成分构建 1（实证研究方法与数据核查场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“observe”的学术义“观察”及其搭配“observe behaviour”，并兼顾协同词“ensemble”的语境标准）：\n中文题干：团队观察了学生如何使用图书馆。\n句子成分构建提示：【紧凑主语】The team observed how... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：在模型中 observed variables（观测变量）与 latent variables（潜变量）严格相对。 | 词表跨单元多义对比：[V01724 v.] 指出；观察到（例：The authors observe that the groups differ in age.）；[V01725 v.] 指出；评论；观察（例：The authors observe that the two accounts differ.）；[V01726 v.] 观察（例：The team observed how students used the library.） | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "options": null,
+    "focus_word_ids": [
+      "V01726",
+      "V00893"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G031"
+    ],
+    "expression_pattern_ids": [
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "V01725",
+      "G031",
+      "G032",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G001",
+      "G031",
+      "EP011",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G031"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 observe 及其搭配“observe behaviour”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_27",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 observe (observe changes) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0104·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“observe”的学术义“观察到”及其搭配“observe changes”，并兼顾协同词“entangled”的语境标准）：\n中文题干：先前观察到的差异可能反映抽样误差。\n句子成分构建提示：【紧凑主语】The differences observed earlier... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：在模型中 observed variables（观测变量）与 latent variables（潜变量）严格相对。 | 词表跨单元多义对比：[V01724 v.] 指出；观察到（例：The authors observe that the groups differ in age.）；[V01725 v.] 指出；评论；观察（例：The authors observe that the two accounts differ.）；[V01726 v.] 观察（例：The team observed how students used the library.） | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "options": null,
+    "focus_word_ids": [
+      "V01727",
+      "V00894"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G035"
+    ],
+    "expression_pattern_ids": [
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "V01726",
+      "G031",
+      "G032",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G001",
+      "G035",
+      "EP011",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G035"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 observe 及其搭配“observe changes”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_28",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 delve (delve into a question) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0104·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“delve”的学术义“深入探究”及其搭配“delve into a question”，并兼顾协同词“entropy”的语境标准）：\n中文题干：下一节详细探究该估计量所依赖的假设。\n句子成分构建提示：【紧凑主语】The next section delves... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：词义与句法边界：通常用 delve into；在学术文体中可以使用，但 examine/analyse 更直接，避免把它当作装饰性动词。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "options": null,
+    "focus_word_ids": [
+      "V00697",
+      "V00896"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G001",
+      "G032",
+      "EP011",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G032"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 delve 及其搭配“delve into a question”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_29",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 dilate (dilate a pupil) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0104·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“dilate”的学术义“使扩大”及其搭配“dilate a pupil”，并兼顾协同词“ergodicity”的语境标准）：\n中文题干：比例因子为二的几何位似变换使每一点到中心的距离加倍。\n句子成分构建提示：【紧凑主语】A geometric dilation with... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：词义与句法边界：医学常指瞳孔或血管扩张；几何 dilation 可按比例放大或缩小，不能一律理解成只扩大。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "options": null,
+    "focus_word_ids": [
+      "V00756",
+      "V00909"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G001",
+      "G036",
+      "EP011",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G036"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 dilate 及其搭配“dilate a pupil”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0104_30",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 4,
+    "training_objective": "用包含 disentangle 与 extrapolation 的具体机制与实例替换“只有夸张而无实例”的空洞断言。",
+    "prompt": "【day_0104·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】\n下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：\nHollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*\n任务要求：请摒弃上述空洞吹嘘，结合目标词条“disentangle”（分离交织因素）与“extrapolation”（外推），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。",
+    "context": "核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）",
+    "options": null,
+    "focus_word_ids": [
+      "V00776",
+      "V00995",
+      "V01021"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_4",
+      "G032",
+      "G033",
+      "EP008",
+      "anti_hyperbole",
+      "concrete_evidence_grounding",
+      "paragraph_logic"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "严禁使用 groundbreaking / unparalleled / extremely great 等无根据夸张词",
+      "必须包含 disentangle 与 extrapolation 的具体语境陈述"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0104_31",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 4,
+    "training_objective": "通过含 efficacy 与 factor in 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。",
+    "prompt": "【day_0104·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】\n将下列包含目标词“efficacy”与“factor in”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：\n(1) When examining the empirical outputs, a second consideration arises: Funding is a factor in project feasibility.\n(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.\n(3) First, we specify the methodological setup: A controlled trial can evaluate the efficacy of an intervention under specified conditions.\n(4) This setup ensures that the evaluation criteria remain consistent across all test runs.",
+    "context": "语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指",
+    "options": null,
+    "focus_word_ids": [
+      "V00846",
+      "V01002",
+      "V01022"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G006",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_4",
+      "G001",
+      "G009",
+      "EP011",
+      "sentence_ordering",
+      "given_new_contract",
+      "referential_cohesion"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "写出正确的四句排列顺序",
+      "指出句间实现无缝咬合的总结性指代短语"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0104_32",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 4,
+    "training_objective": "修复含 encompassing 与 faculty (BrE) 段落中的逗号粘连、连接词误用与因果外推跳跃。",
+    "prompt": "【day_0104·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】\n审阅下列包含“encompassing”与“faculty (BrE)”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：\nFlawed Draft: *The review encompasses both experimental and observational approaches, on the contrary, the Faculty of Arts includes several departments., which proves 100% universal causality in all real-world regimes.*",
+    "context": "综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）",
+    "options": null,
+    "focus_word_ids": [
+      "V00879",
+      "V01003",
+      "V01025"
+    ],
+    "grammar_ids": [
+      "G007",
+      "G023"
+    ],
+    "expression_pattern_ids": [
+      "EP008",
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G001",
+      "G003",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_4",
+      "G007",
+      "G023",
+      "EP008",
+      "EP011",
+      "comma_splice_repair",
+      "causality_boundary",
+      "connector_precision"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "修正 Comma Splice 与 on the contrary 的误用",
+      "用审慎的范围限定替换 *proves 100% universal causality*"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0104_33",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 4,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 ensemble 与 fall below 的语态选择。",
+    "prompt": "【day_0104·信息焦点与语态转换 1】阅读下列包含“ensemble”（集成）与“fall below”（降至……以下）的学术表达：\nReference Sequence: (1) An ensemble forecast can combine information from several models. (2) The value fell below the lower threshold.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00893",
+      "V01006",
+      "V01028"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V01005",
+      "V00307",
+      "G011",
+      "G006",
+      "V01026",
+      "V01874",
+      "V02394",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_4",
+      "G011",
+      "G032",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0104_34",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 4,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 entangled 与 faux pas 的语态选择。",
+    "prompt": "【day_0104·信息焦点与语态转换 2】阅读下列包含“entangled”（交织的）与“faux pas”（失礼）的学术表达：\nReference Sequence: (1) The effects of income and neighbourhood conditions may be entangled in observational data. (2) A visitor may make a faux pas by ignoring an unfamiliar greeting convention.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00894",
+      "V01010",
+      "V01725"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G032"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G006",
+      "V01724",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_4",
+      "G011",
+      "G032",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0104_35",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 4,
+    "training_objective": "在 AI/时序/生成建模/具身智能场景下运用 entropy、fear / fearless 撰写零 AI 腔的技术微段落。",
+    "prompt": "【day_0104·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】\n应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。\n写作要求：围绕以下候选目标词群中的至少 2–3 个词条（entropy（熵）、fear / fearless（恐惧）、observe（观察）、extrapolation（外推）），写出一段 2–3 句、紧凑自然的英文技术微段落：\n1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；\n2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；\n3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。",
+    "context": "专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP008",
+    "options": null,
+    "focus_word_ids": [
+      "V00896",
+      "V01011",
+      "V01726",
+      "V00995"
+    ],
+    "grammar_ids": [
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP008"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01012",
+      "V01725",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_4",
+      "G032",
+      "G033",
+      "EP008",
+      "ai_timeseries_embodied_writing",
+      "anti_ai_style",
+      "end_weight"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少准确融入候选词群（entropy（熵）、fear / fearless（恐惧）、observe（观察）、extrapolation（外推））中的 2 个词条及其规约搭配",
+      "词数 45–80 词（2–3 句），主谓紧凑，遵守尾重原则（End-Weight）",
+      "零 AI 浮夸套话，必须包含具体技术条件或实验边界"
+    ],
+    "max_score": 5
+  },
+  {
+    "question_id": "Q_D0104_36",
+    "day_id": "day_0104",
+    "stage": 4,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 4,
+    "training_objective": "撰写融合 ergodicity、feel free to 与 observe 的 3–5 句六级/雅思托福/演讲实证论证段落。",
+    "prompt": "【day_0104·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】\n应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。\n写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（ergodicity（遍历性）、feel free to（尽管做……）、observe（观察到）），写出一段 3–5 句、逻辑严密的完整段落：\n1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；\n2. 运用语法规则【G001】（五大基本句型（SV, SVO, SVC, SVOO, SVOC）与动词配价边界）与表达模式【EP011】（多方法跨维度对比（In Terms Of / With Respect To / Whereas））；\n3. 句式自然地道，杜绝死板模板句与头重脚轻。",
+    "context": "文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G001 & G036",
+    "options": null,
+    "focus_word_ids": [
+      "V00909",
+      "V01018",
+      "V01727"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G028",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP011"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G006",
+      "V01726",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_4",
+      "G001",
+      "G028",
+      "G036",
+      "EP011",
+      "cet6_ielts_toefl_writing",
+      "concrete_exemplification",
+      "concession_rebuttal"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少自然融入候选词群（ergodicity（遍历性）、feel free to（尽管做……）、observe（观察到））中的 3 个词条",
+      "必须包含具体实例或机制说明，严禁只喊口号或堆砌夸张词",
+      "3–5 个完整英文句（65–110 词），标点与指代规范"
+    ],
+    "max_score": 5
+  }
+]

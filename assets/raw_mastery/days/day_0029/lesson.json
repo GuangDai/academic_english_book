@@ -1,0 +1,340 @@
+{
+  "day": "day_0029",
+  "day_number": 29,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 29 天：流程图/算法流水线与闭环工序衔接段（Process & Closed-Loop Lifecycle） × 篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP29",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "流程图/算法流水线与闭环工序衔接段（Process & Closed-Loop Lifecycle）",
+      "user_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+      "when_to_use_zh": "IELTS Task 1 流程图（Process Diagram）/ 论文系统工程 Pipeline 描述段",
+      "paragraph_move_structure": [
+        "S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage].",
+        "S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers].",
+        "S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B].",
+        "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement."
+      ],
+      "cohesion_and_logic_formula": "Pipeline Overview -> Ingestion & Filtering -> Parallel Bifurcation -> Terminal Merger & Feedback Loop. 绑定逻辑规则：L003, L005.",
+      "defective_draft": "First, raw data is collected. Then it is cleaned. Then it goes into two branches. Branch 1 does A, and Branch 2 does B. Then they are combined. Finally, bad samples go back to the beginning.",
+      "defect_diagnosis_zh": "连续四个 Then，词汇贫乏（cleaned, goes into, does A, bad samples go back）。",
+      "model_paragraph_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining. The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames. Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates. These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [流程总括与起止界定 Lifecycle Overview]",
+          "sentence_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [前段采集与预处理 Initial Ingestion & Filtering]",
+          "sentence_en": "The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [中段并行分流 Parallel Branching]",
+          "sentence_en": "Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]",
+          "sentence_en": "These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 The cycle begins when... -> Once validated, the stream bifurcates into... -> These processed streams are subsequently synchronized..., whose failures are fed back... 完美呈现分支与闭环。"
+    },
+    {
+      "blueprint_id": "BP41",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook）",
+      "user_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+      "when_to_use_zh": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+      "paragraph_move_structure": [
+        "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+        "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+        "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+        "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+      ],
+      "cohesion_and_logic_formula": "Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.",
+      "defective_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+      "defect_diagnosis_zh": "最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。",
+      "model_paragraph_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+          "sentence_en": "Good morning everyone.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+          "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+          "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+          "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用一个风暴突袭风电场的具象画面 + 一个直击灵魂的设问（why do their predictions lag right when the storm hits?）瞬间抓住全场注意力。"
+    },
+    {
+      "blueprint_id": "BP30",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "历史实测与未来预测跨时态衔接段（Historical vs. Projected Trends）",
+      "user_intent_zh": "我这一段想处理同时包含过去历史数据（如 2010–2025）和未来预测数据（如 2026–2040）的图表段落，严格区分过去实测时态与未来审慎预测表达。",
+      "when_to_use_zh": "IELTS Task 1 含未来预测年份的图表 / 产业算力与能耗预测报告",
+      "paragraph_move_structure": [
+        "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration.",
+        "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035].",
+        "S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040].",
+        "S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years."
+      ],
+      "cohesion_and_logic_formula": "Historical Past (rose/accounted for) -> Pivot Year -> Future Projection Verbs (is projected/anticipated/expected to) -> Moderating Factor. 绑定逻辑规则：L010, L017.",
+      "defective_draft": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+      "defect_diagnosis_zh": "未来年份全部生硬使用 will be / will increase，违反学术图表报告对未来预测需使用审慎预测动词（is projected / anticipated / forecast to）的规范。",
+      "model_paragraph_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh. From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035. Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040. However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]",
+          "sentence_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]",
+          "sentence_en": "From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [结构占比重塑 Structural Shift in Projections]",
+          "sentence_en": "Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [条件式审慎收尾 Conditional Hedging]",
+          "sentence_en": "However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "过去实测用 more than doubled / represented，未来预测交替使用 is projected to climb / with forecasts pointing to / are anticipated to account for / is expected to temper，时态与语气滴水不漏。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L029",
+      "category": "Style & Anti-AI-ese (去 AI 化文风)",
+      "name_zh": "篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery）",
+      "name_en": "Stripping LLM Rhetorical Padding at the Paragraph Level",
+      "core_principle_zh": "大模型生成的段落有三大典型臭味：① 句首喜欢戴高帽（In the rapidly evolving landscape of... / It serves as a testament to...）；② 段中喜欢滥用排比与抽象隐喻（not only... but also..., tapestry, beacon, realm, paradigm shift, delve into, underscore）；③ 段尾喜欢升华口号（paving the way for a brighter future）。修改时必须一刀砍掉所有修辞外壳，首句第一词直接落到具体研究对象或议题实体上。",
+      "structural_formula": "Delete: 'In the realm of X, it is undeniable that Y plays a pivotal role in spearheading Z.' -> Write: '[Concrete Entity Y] governs [Specific Mechanism Z] by [Measurable Action].'",
+      "common_pitfall_zh": "误以为辞藻越华丽、排比越工整、抽象大词越多，英语就越高级。",
+      "bad_example_en": "In the rapidly evolving landscape of artificial intelligence, time series forecasting stands as a cornerstone that plays a pivotal role in spearheading industrial transformation, serving as a testament to data-driven decision-making.",
+      "good_example_en": "Accurate multi-horizon time series forecasting enables power grid operators to balance renewable generation against fluctuating consumer demand.",
+      "analysis_zh": "砍掉 32 个词的 AI 废话外壳，用 16 个词的紧凑主谓宾直接锁定“多步时间序列预测帮电网调度员平衡新能源发电与负荷波动”。"
+    },
+    {
+      "logic_id": "L007",
+      "category": "Argumentation (论证结构)",
+      "name_zh": "因果机制链 vs. 表面相关性切分（Causality vs. Correlation）",
+      "name_en": "Causal Mechanism vs. Spurious Correlation",
+      "core_principle_zh": "在论文实验分析与雅思/托福议论文中，观察到 A 与 B 同时变化时，绝不能直接断言 A causes B；必须区分“直接因果（drives / induces）”、“中介传导（mediates / channels）”与“混杂相关（coincides with / correlates with）”。",
+      "structural_formula": "Observation: A correlates with B. -> Confounder check: Rather than A directly causing B, confounding factor C drives both -> Controlled verification.",
+      "common_pitfall_zh": "将伴随发生的数据现象直接写成绝对因果，或用 make / let 等口语词粗糙表达因果。",
+      "bad_example_en": "Increasing model parameters makes the robot grasp better in the real world.",
+      "good_example_en": "While scaling backbone parameters correlates with higher success rates in simulation, real-world grasping gains stem primarily from diverse tactile pre-training rather than parameter count alone.",
+      "analysis_zh": "精准用 correlates with 界定表面伴随关系，再用 stem primarily from... rather than... 点明真实因果驱动力。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC29",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP29",
+      "linked_logic_id": "L029",
+      "communicative_goal_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+      "original_defective_paragraph": "First, raw data is collected. Then it is cleaned. Then it goes into two branches. Branch 1 does A, and Branch 2 does B. Then they are combined. Finally, bad samples go back to the beginning.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L029 篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "连续四个 Then，词汇贫乏（cleaned, goes into, does A, bad samples go back）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining. The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames. Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates. These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [流程总括与起止界定 Lifecycle Overview]",
+          "sentence_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [前段采集与预处理 Initial Ingestion & Filtering]",
+          "sentence_en": "The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [中段并行分流 Parallel Branching]",
+          "sentence_en": "Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]",
+          "sentence_en": "These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC49",
+      "domain_en": "CET-6 & IELTS Task 2 Technology & Society Essay",
+      "domain_zh": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP01",
+      "linked_logic_id": "L019",
+      "communicative_goal_zh": "我这一段想作为 Introduction 第一段：说明多变量时间序列预测或具身智能控制在实际工业系统中的关键作用，以及高可靠性的刚需。",
+      "original_defective_paragraph": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L019 顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务锚定 Topic Anchor]",
+          "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+          "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+          "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+          "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC07",
+      "domain_en": "Diffusion & Flow-Matching Time Series Imputation",
+      "domain_zh": "基于扩散/流匹配的缺失时序插补与生成",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP07",
+      "linked_logic_id": "L007",
+      "communicative_goal_zh": "我这一段想在 Introduction 最末尾清晰列出本文的三点核心贡献（理论/视角贡献 + 核心算法/架构贡献 + 实验与开源实证贡献）。",
+      "original_defective_paragraph": "Our contributions are: 1. A new model is proposed. 2. Solving the non-stationary problem. 3. Good results on datasets.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L007 因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "语法结构完全不平行（被动句 + 动名词短语 + 名词短语），且内容空泛。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability. (2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker. (3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总起引导句 Lead-in]",
+          "sentence_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总起引导句 Lead-in]：In summary, our main contributions are threefold: | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [贡献 1",
+          "sentence_en": "(2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [贡献 1：新视角/问题形式化 Conceptual/Formulation Contribution]：用强动词名物化或动词原形开头（We identify and formalize... / We establish...），点明打破了什么传统局限。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [贡献 2",
+          "sentence_en": "(3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [贡献 2：核心方法与模块 Algorithmic/Architectural Contribution]：We propose [Model/Mechanism], which integrates [A] and [B] to achieve [Theoretical/Functional Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT05",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "基于整流蒸馏的单步实时机械臂轨迹生成完整小论文（RectiPolicy: Real-Time Action Chunk Generation）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP02",
+      "BP04",
+      "BP05",
+      "BP10",
+      "BP15",
+      "BP16",
+      "BP18",
+      "BP22",
+      "BP23",
+      "BP24"
+    ]
+  }
+}

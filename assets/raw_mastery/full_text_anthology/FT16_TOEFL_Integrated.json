@@ -1,0 +1,150 @@
+{
+  "text_id": "FT16",
+  "genre": "TOEFL_Integrated",
+  "title_zh": "托福综合写作（Integrated Writing）满分范文：自主无人机配送能否取代城市货车（阅读三论点 vs. 听力逐点反驳）",
+  "paragraph_count": 4,
+  "structural_blueprint_chain": [
+    "BP31",
+    "BP27",
+    "BP28",
+    "BP32"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "托福综合写作 / 学术争议正反交锋段（Point-by-Point Reading vs. Lecture Synthesis）",
+      "blueprint_id": "BP31",
+      "paragraph_intent_zh": "我这一段想写托福综合写作（Integrated Writing）或文献争议交锋段：先用 1 句话精准概括阅读材料（或正方文献）的分论点，再用 2–3 句话详细呈现教授讲座（或反方实证）是如何釜底抽薪推翻该论点的。",
+      "cohesion_formula": "Reading Claim -> Lecturer's Direct Challenge -> Specific Counter-Mechanism -> Reversed Outcome. 绑定逻辑规则：L008, L019.",
+      "paragraph_en": "The reading passage contends that replacing urban delivery vans with autonomous quadcopter drones will substantially reduce last-mile transportation energy consumption, citing the lighter weight of aerial vehicles. The lecturer directly challenges this premise by examining energy efficiency per kilogram of delivered freight. Specifically, she points out that unlike ground vehicles supported passively by road surfaces, multi-rotor drones must expend continuous battery power simply to counteract gravity and headwinds while carrying only a single parcel per trip. Consequently, servicing a dense apartment block via individual drone flights consumes nearly three times more energy per package than a single consolidated van route.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [正方/阅读论点概括 Reading Claim & Rationale]",
+          "sentence_en": "The reading passage contends that replacing urban delivery vans with autonomous quadcopter drones will substantially reduce last-mile transportation energy consumption, citing the lighter weight of aerial vehicles.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [正方/阅读论点概括 Reading Claim & Rationale]：The reading passage contends that [Claim A], arguing that [Reading's Supporting Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反方/听力直接反驳 Lecture Direct Refutation]",
+          "sentence_en": "The lecturer directly challenges this premise by examining energy efficiency per kilogram of delivered freight.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反方/听力直接反驳 Lecture Direct Refutation]：The lecturer directly challenges this assertion by pointing out that [Core Flaw / Neglected Factor in Reading's Premise]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反方具体反证展开 Empirical Counter-Evidence]",
+          "sentence_en": "Specifically, she points out that unlike ground vehicles supported passively by road surfaces, multi-rotor drones must expend continuous battery power simply to counteract gravity and headwinds while carrying only a single parcel per trip.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反方具体反证展开 Empirical Counter-Evidence]：Specifically, she explains that when [Real-World Condition], [Mechanism B occurs instead], which [Negates the Claimed Benefit]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结论锁定 Refutation Closure]",
+          "sentence_en": "Consequently, servicing a dense apartment block via individual drone flights consumes nearly three times more energy per package than a single consolidated van route.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结论锁定 Refutation Closure]：Consequently, rather than achieving [Reading's Goal], the proposed measure actually exacerbates [Negative Outcome]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "静态多组数据横向对比与倍差/占比凸显段（Cross-Group Proportions）",
+      "blueprint_id": "BP27",
+      "paragraph_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+      "cohesion_formula": "Dominant Item with Multiplier -> Sharp Cross-Group Contrast -> Pooled Minor Items -> Structural Synthesis. 绑定逻辑规则：L009, L010.",
+      "paragraph_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%). A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%. Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption. This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [主导项锁定 Dominant Category]",
+          "sentence_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [组间横向反差 Cross-Group Contrast]",
+          "sentence_en": "A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [次要项合并归纳 Minor Categories Grouping]",
+          "sentence_en": "Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结构性差异提炼 Structural Takeaway]",
+          "sentence_en": "This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "双图关联与互补/因果印证段（Synthesizing Dual Charts）",
+      "blueprint_id": "BP28",
+      "paragraph_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "cohesion_formula": "Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.",
+      "paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "异常数据点（Outliers）与局部背离现象精准批注段（Outlier & Anomaly Annotation）",
+      "blueprint_id": "BP32",
+      "paragraph_intent_zh": "我这一段想在图表或实验结果段中，专门挑出违背总体规律的 1–2 个异常点（Outliers）或局部反常尖峰进行精准描述与成因剖析。",
+      "cohesion_formula": "General Rule vs. Notable Departure -> Quantitative Deviation -> Root Cause Attribution -> Calibration Takeaway. 绑定逻辑规则：L007, L013.",
+      "paragraph_en": "Although deep spectral transformers outperform linear baselines across six of the seven benchmarks, a notable departure emerges on the financial Exchange-Rate dataset. Whereas complex attention models reduce MSE by 12%–18% on periodic energy and weather streams, they trail a single-layer DLinear baseline by 4.3% on Exchange-Rate. Autocorrelation analysis reveals that this reversal stems from the near-martingale nature of daily currency returns, where weak seasonal periodicity causes high-capacity attention layers to overfit transient market shocks. This anomaly confirms that model capacity must be matched to the intrinsic signal-to-noise ratio of the underlying stochastic process.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总体规律背景下的特例锚定 Outlier Identification]",
+          "sentence_en": "Although deep spectral transformers outperform linear baselines across six of the seven benchmarks, a notable departure emerges on the financial Exchange-Rate dataset.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总体规律背景下的特例锚定 Outlier Identification]：Although [General Trend holds across most groups/steps], a notable departure from this pattern occurs in [Specific Point/Group]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反常幅度量化 Quantitative Deviation]",
+          "sentence_en": "Whereas complex attention models reduce MSE by 12%–18% on periodic energy and weather streams, they trail a single-layer DLinear baseline by 4.3% on Exchange-Rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反常幅度量化 Quantitative Deviation]：Whereas peer categories cluster tightly within $[A, B]$, [Outlier Entity] spikes/drops to [Extreme Value], deviating by more than [X%] from the group median. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [底层物理/统计成因剖析 Root Cause Analysis]",
+          "sentence_en": "Autocorrelation analysis reveals that this reversal stems from the near-martingale nature of daily currency returns, where weak seasonal periodicity causes high-capacity attention layers to overfit transient market shocks.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [底层物理/统计成因剖析 Root Cause Analysis]：Closer inspection indicates that this anomaly stems from [Specific Structural/External Factor] rather than random variance. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [方法论启示 Methodological Implication]",
+          "sentence_en": "This anomaly confirms that model capacity must be matched to the intrinsic signal-to-noise ratio of the underlying stochastic process.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [方法论启示 Methodological Implication]：Accounting for such localized departures is critical when calibrating [Downstream Model/Policy]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

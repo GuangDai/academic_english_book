@@ -1,0 +1,340 @@
+{
+  "day": "day_0005",
+  "day_number": 5,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 5 天：挑战与机制一对一映射段（Challenge-to-Mechanism Mapping） × 去机械连接词化：用语义钩子替代 First/Second/Moreover × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP05",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "挑战与机制一对一映射段（Challenge-to-Mechanism Mapping）",
+      "user_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+      "when_to_use_zh": "Introduction 第四段或 Methodology 开篇总览段",
+      "paragraph_move_structure": [
+        "S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges.",
+        "S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function].",
+        "S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function].",
+        "S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]."
+      ],
+      "cohesion_and_logic_formula": "Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.",
+      "defective_draft": "There are two challenges. The first challenge is that noise is big. We use a filter. The second challenge is that speed is slow. We use distillation.",
+      "defect_diagnosis_zh": "全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。",
+      "model_paragraph_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+          "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+          "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+          "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+          "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "每个机制都以 because / to prevent 引导的真实难点作为前置状语，彻底杜绝“为了加模块而加模块”的凑工作量嫌疑。"
+    },
+    {
+      "blueprint_id": "BP17",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "实验设置、数据集特性与强基线选型说明段（Experimental Setup & Baselines）",
+      "user_intent_zh": "我这一段想在 Experiments 开篇说明：我们为什么选这几类数据集和这几类基线模型，证明我们的实验设计是全面、公平且直击痛点的。",
+      "when_to_use_zh": "Experiments 第 4.1 节 Experimental Setup",
+      "paragraph_move_structure": [
+        "S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3].",
+        "S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels].",
+        "S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3].",
+        "S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets."
+      ],
+      "cohesion_and_logic_formula": "Dataset Diversity -> Challenging Regime Highlights -> Categorized Strong Baselines -> Strict Fairness Protocol. 绑定逻辑规则：L009, L010.",
+      "defective_draft": "We use ETT, Weather, Electricity, and Traffic datasets. We compare with Autoformer, PatchTST, iTransformer, and DLinear. We use MSE and MAE as metrics, and the lookback window is 96.",
+      "defect_diagnosis_zh": "只是把数据集名字和基线名字干巴巴列了一遍，没有说明选这些数据集和基线背后的科学验证意图。",
+      "model_paragraph_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic). Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability. We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer). All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [数据集选型逻辑 Dataset Selection Rationale]",
+          "sentence_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [极端/困难特性突出 Challenging Dataset Properties]",
+          "sentence_en": "Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [基线流派全覆盖 Baseline Family Coverage]",
+          "sentence_en": "We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer).",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [公平评测协议 Fair Evaluation Protocol]",
+          "sentence_en": "All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "让审稿人立刻感受到实验设计的严密性：每个数据集测什么极限能力、每个基线代表什么流派、评测协议如何保证绝对公平。"
+    },
+    {
+      "blueprint_id": "BP30",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "历史实测与未来预测跨时态衔接段（Historical vs. Projected Trends）",
+      "user_intent_zh": "我这一段想处理同时包含过去历史数据（如 2010–2025）和未来预测数据（如 2026–2040）的图表段落，严格区分过去实测时态与未来审慎预测表达。",
+      "when_to_use_zh": "IELTS Task 1 含未来预测年份的图表 / 产业算力与能耗预测报告",
+      "paragraph_move_structure": [
+        "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration.",
+        "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035].",
+        "S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040].",
+        "S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years."
+      ],
+      "cohesion_and_logic_formula": "Historical Past (rose/accounted for) -> Pivot Year -> Future Projection Verbs (is projected/anticipated/expected to) -> Moderating Factor. 绑定逻辑规则：L010, L017.",
+      "defective_draft": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+      "defect_diagnosis_zh": "未来年份全部生硬使用 will be / will increase，违反学术图表报告对未来预测需使用审慎预测动词（is projected / anticipated / forecast to）的规范。",
+      "model_paragraph_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh. From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035. Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040. However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]",
+          "sentence_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]",
+          "sentence_en": "From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [结构占比重塑 Structural Shift in Projections]",
+          "sentence_en": "Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [条件式审慎收尾 Conditional Hedging]",
+          "sentence_en": "However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "过去实测用 more than doubled / represented，未来预测交替使用 is projected to climb / with forecasts pointing to / are anticipated to account for / is expected to temper，时态与语气滴水不漏。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L005",
+      "category": "Cohesion & Reference (指代与衔接)",
+      "name_zh": "去机械连接词化：用语义钩子替代 First/Second/Moreover",
+      "name_en": "Semantic Hooks over Mechanical Connectors",
+      "core_principle_zh": "母语学者与高分作文极少每句句首都贴 Firstly, Secondly, Moreover, What is more, In addition 等膏药。应使用语义承接状语（Beyond accuracy gains, / Alongside temporal drift, / At the hardware level,）实现自然递进。",
+      "structural_formula": "Instead of 'Moreover, X does Y', use: 'Beyond [Summary of Prior Point], [Subject X] also [Verb Y].'",
+      "common_pitfall_zh": "一段 5 句话连续用 First, Second, Besides, Moreover，而句子内部毫无词汇呼应，形成典型的中式“八股排比腔”或 AI 列表腔。",
+      "bad_example_en": "First, our model reduces MSE by 15%. Second, our model uses 40% less memory. Moreover, our model generalizes to unseen sensors.",
+      "good_example_en": "Our model reduces forecasting MSE by 15.4% across six benchmarks. Beyond accuracy gains, its sparse attention mechanism cuts peak GPU memory by 40%, enabling zero-shot deployment on unseen sensor arrays.",
+      "analysis_zh": "用 Beyond accuracy gains 承上启下，用 enabling... 自然引出第三层泛化收益，彻底摆脱机械序数词。"
+    },
+    {
+      "logic_id": "L013",
+      "category": "Paragraph Architecture (段落架构)",
+      "name_zh": "演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换",
+      "name_en": "Deductive Zoom-In vs. Inductive Zoom-Out",
+      "core_principle_zh": "写方法论与议论文主论点段宜用演绎法（Zoom-In：首句抛出概括性规律，随后逐句拆解机理与实例）；写实验分析与看图小作文局部段宜用归纳法（Zoom-Out：先报告具体观测对比，末句提炼背后的理论规律）。",
+      "structural_formula": "Zoom-In: [General Claim] -> [Specific Mechanism] -> [Concrete Data]. | Zoom-Out: [Data Observation A vs. B] -> [Pattern Across Horizons] -> [Theoretical Takeaway].",
+      "common_pitfall_zh": "在实验分析段只罗列完数据就戛然而止，缺少最后一句 Zoom-Out 的机理升华（Why this pattern matters）。",
+      "bad_example_en": "At horizon 96, our MSE is 0.182. At horizon 336, our MSE is 0.245. At horizon 720, our MSE is 0.310, while Informer reaches 0.612.",
+      "good_example_en": "As the prediction horizon extends from 96 to 720 steps, our model's MSE rises modestly from 0.182 to 0.310, whereas Informer degrades sharply to 0.612. This widening performance gap demonstrates that decoupling trend projection from seasonal attention effectively suppresses long-range error compounding.",
+      "analysis_zh": "第一句整合多步长数据趋势对比，第二句用 This widening performance gap demonstrates that... 完成归纳升华，点明“趋势与季节解耦抑制长程误差累积”的本质原因。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC05",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP05",
+      "linked_logic_id": "L005",
+      "communicative_goal_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+      "original_defective_paragraph": "There are two challenges. The first challenge is that noise is big. We use a filter. The second challenge is that speed is slow. We use distillation.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L005 去机械连接词化：用语义钩子替代 First/Second/Moreover）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+          "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+          "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+          "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+          "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC25",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP25",
+      "linked_logic_id": "L025",
+      "communicative_goal_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+      "original_defective_paragraph": "The chart shows the energy consumption from 2000 to 2025. We can see that solar energy went up a lot from 5% to 35%, and coal went down from 60% to 25%. Wind also went up.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L025 具身智能感知-决策-控制闭环与 Sim-to-Real 论证规范（Embodied AI Closed-Loop Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 词汇低幼（went up a lot, went down）；② 把具体百分比过早塞进了 Overview，导致后面细节段无话可写。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025. Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily. Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [图表命题同义改写 Prompt Paraphrase]",
+          "sentence_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [宏观趋势 1",
+          "sentence_en": "Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [宏观趋势 2",
+          "sentence_en": "Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC43",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP43",
+      "linked_logic_id": "L013",
+      "communicative_goal_zh": "我这一段想在 PPT 上出现核心损失函数或注意力公式时，用 4 句通俗、精准的口语把公式背后的物理/几何直觉讲透，而不是在台上干巴巴念希腊字母。",
+      "original_defective_paragraph": "The formula on this slide is Q times K transpose divided by square root of d minus lambda times delta phi L1 norm, and then softmax times V.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L013 演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "在台上把公式符号逐字念一遍（Q times K transpose divided by...）是学术演讲的大忌，听众听得云里雾里。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Before looking at the equation in the middle box, here is the physical intuition behind it. When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase. That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax. Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [先讲直觉目标 Intuition First]",
+          "sentence_en": "Before looking at the equation in the middle box, here is the physical intuition behind it.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [先讲直觉目标 Intuition First]：Before looking at the math at the bottom of the slide, here is the simple physical intuition we want to capture. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [日常/物理类比 Physical Analogy]",
+          "sentence_en": "When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [日常/物理类比 Physical Analogy]：When two sensors monitor the same mechanical shaft, genuine vibrations share a consistent phase lag, whereas random electrical glitches fire out of phase. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [指向公式核心项 Point to Key Term]",
+          "sentence_en": "That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [指向公式核心项 Point to Key Term]：That is exactly what the red penalty term $\\|\\Delta \\Phi\\|_1$ inside the softmax does: it measures phase mismatch between channels. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话总结效果 Operational Effect]",
+          "sentence_en": "Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话总结效果 Operational Effect]：Whenever two channels fall out of phase, this term suppresses their attention weight automatically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT05",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "基于整流蒸馏的单步实时机械臂轨迹生成完整小论文（RectiPolicy: Real-Time Action Chunk Generation）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP02",
+      "BP04",
+      "BP05",
+      "BP10",
+      "BP15",
+      "BP16",
+      "BP18",
+      "BP22",
+      "BP23",
+      "BP24"
+    ]
+  }
+}

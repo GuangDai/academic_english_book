@@ -1,0 +1,220 @@
+{
+  "text_id": "FT09",
+  "genre": "Conference_Rebuttal",
+  "title_zh": "ICLR/NeurIPS 满分审稿回复全文（Author Rebuttal：含置顶全局回复 + 创新性辩护 + 新增基线与消融表）",
+  "paragraph_count": 6,
+  "structural_blueprint_chain": [
+    "BP45",
+    "BP46",
+    "BP47",
+    "BP19",
+    "BP20",
+    "BP23"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "顶会 Rebuttal 全局总括与新增实验汇总段（Author Rebuttal General Response）",
+      "blueprint_id": "BP45",
+      "paragraph_intent_zh": "我这一段想写 ICLR / NeurIPS / ICML / CVPR 审稿回复（Rebuttal）最顶部的致全体审稿人总括段（Global Response）：在 150 词内用最提气的语气感谢审稿人肯定，并一眼亮出我们在 Rebuttal 期间赶做出的所有硬核新增实验。",
+      "cohesion_formula": "Synthesize Reviewer Praise -> Announce Concrete Revisions -> Numbered Evidence Bullets mapped to Reviewers -> Courteous Hook. 绑定逻辑规则：L019, L010.",
+      "paragraph_en": "We thank all reviewers for their constructive feedback and for recognizing our framework's 'principled formulation of the stationarity-amplitude trade-off' (R1, R3), 'strong empirical gains across eight benchmarks' (R2), and 'clear ablation design' (R4). To address your valuable suggestions, we conducted four sets of new experiments during the rebuttal period (incorporated in blue in the revised manuscript): (1) Benchmarked against two latest 2025 foundation models, Chronos and MOIRAI, across all horizons (Table R1, addressing R1, R3); (2) Added real-robot grasping evaluations under dynamic lighting and 25% camera occlusion (Section 4.5, R2); and (3) Included full GPU memory and wall-clock latency scaling curves up to $L=4,096$ (Appendix E, R4). Below we address each reviewer's specific questions in detail.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [致谢并提炼审稿人共同好评 Gratitude & Shared Praise]",
+          "sentence_en": "We thank all reviewers for their constructive feedback and for recognizing our framework's 'principled formulation of the stationarity-amplitude trade-off' (R1, R3), 'strong empirical gains across eight benchmarks' (R2), and 'clear ablation design' (R4).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [致谢并提炼审稿人共同好评 Gratitude & Shared Praise]：We thank all reviewers for their constructive feedback and for recognizing our work's [Quote Reviewer 1 Praise] (R1), [Quote Reviewer 2 Praise] (R2), and [Quote Reviewer 3 Praise] (R3). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [概览新增实证工作 Overview of New Experiments]",
+          "sentence_en": "To address your valuable suggestions, we conducted four sets of new experiments during the rebuttal period (incorporated in blue in the revised manuscript): (1) Benchmarked against two latest 2025 foundation models, Chronos and MOIRAI, across all horizons (Table R1, addressing R1, R3); (2) Added real-robot grasping evaluations under dynamic lighting and 25% camera occlusion (Section 4.5, R2); and (3) Included full GPU memory and wall-clock latency scaling curves up to $L=4,096$ (Appendix E, R4).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [概览新增实证工作 Overview of New Experiments]：In response to your valuable suggestions, we have conducted [N] sets of new experiments and theoretical analyses, summarized below and highlighted in blue in the revised PDF: | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [分条列出硬核新增实验 Bullet Summary of Additions]",
+          "sentence_en": "Below we address each reviewer's specific questions in detail.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [分条列出硬核新增实验 Bullet Summary of Additions]：(1) Added comparisons against recent baselines [A, B] on [Dataset] (Table R1, addressing R1, R3); (2) Evaluated real-world robustness under [Harsh Condition] (Appendix D, R2); (3) Provided wall-clock latency and memory profiling across sequence lengths up to $L=4,096$ (Appendix E, R3). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段",
+      "blueprint_id": "BP46",
+      "paragraph_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+      "cohesion_formula": "Clarify Distinction -> Explain Why Naive Stacking Fails -> Highlight Core Coupling Mechanism -> Prove with 'Naive A+B' Ablation Data. 绑定逻辑规则：L019, L016.",
+      "paragraph_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+          "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+          "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+          "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "顶会 Rebuttal 针对“缺少最新基线或算力不公平（Missing Baselines / Fairness）”的补全段",
+      "blueprint_id": "BP47",
+      "paragraph_intent_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+      "cohesion_formula": "Direct Fulfilment -> Margin over New Baselines -> Parameter-Reduced Variant (`Ours-Small`) Proof -> Inductive Bias Takeaway. 绑定逻辑规则：L019, L010.",
+      "paragraph_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3. Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS. Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE. This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [直接响应并呈上新表 Direct Fulfilment]",
+          "sentence_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比最新基线结果 Performance vs. New Baselines]",
+          "sentence_en": "Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]",
+          "sentence_en": "Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结论锁定 Conclusion]",
+          "sentence_en": "This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "消融实验逐组件归因论证段（Counterfactual Ablation Study）",
+      "blueprint_id": "BP19",
+      "paragraph_intent_zh": "我这一段想汇报消融实验（Table 2）：证明我们的模块 A、模块 B 和正则项 C 每一个都不可或缺，且各自负责解决不同的特定子问题。",
+      "cohesion_formula": "Ablation Overview -> w/o Module A (Specific Failure) -> w/o Module B (Specific Failure) -> Cross-Module Synergy. 绑定逻辑规则：L016, L007.",
+      "paragraph_en": "To isolate the contribution of each design choice, Table 2 compares full DyTS-Net against three ablated variants across ETTm2 and ECL. Removing the neural-ODE scale tracker (w/o Scale-ODE) triggers the sharpest degradation during seasonal transition months on ETTm2, raising 720-step MSE by 19.4% as the decoder fails to track shifting baseline temperatures. Conversely, replacing phase-aligned graph attention with standard dot-product attention (w/o Phase-Attn) degrades performance most severely on the 321-channel ECL grid (+13.8% MSE), where unaligned high-frequency load spikes corrupt cross-substation aggregation. Jointly deploying both modules yields complementary gains, as accurate scale tracking prevents amplitude distortion from biasing phase estimation.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [消融实验总括 Ablation Setup]",
+          "sentence_en": "To isolate the contribution of each design choice, Table 2 compares full DyTS-Net against three ablated variants across ETTm2 and ECL.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [消融实验总括 Ablation Setup]：To isolate the contribution of each architectural component, we evaluate four ablated variants in Table 2 by progressively removing [Mod A], [Mod B], and [Loss C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [移除模块 A 的冲击与归因 Impact of Removing Mod A]",
+          "sentence_en": "Removing the neural-ODE scale tracker (w/o Scale-ODE) triggers the sharpest degradation during seasonal transition months on ETTm2, raising 720-step MSE by 19.4% as the decoder fails to track shifting baseline temperatures.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [移除模块 A 的冲击与归因 Impact of Removing Mod A]：Removing [Mod A] (w/o A) causes the largest degradation on [Non-stationary/Volatile Subset], increasing MSE by [X%] because the model loses [Specific Capability A]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [移除模块 B 的冲击与归因 Impact of Removing Mod B]",
+          "sentence_en": "Conversely, replacing phase-aligned graph attention with standard dot-product attention (w/o Phase-Attn) degrades performance most severely on the 321-channel ECL grid (+13.8% MSE), where unaligned high-frequency load spikes corrupt cross-substation aggregation.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [移除模块 B 的冲击与归因 Impact of Removing Mod B]：Similarly, replacing [Mod B] with standard [Naive Operator] degrades performance by [Y%] on high-dimensional benchmarks, confirming its role in [Specific Capability B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [协同效应总结 Synergistic Conclusion]",
+          "sentence_en": "Jointly deploying both modules yields complementary gains, as accurate scale tracking prevents amplitude distortion from biasing phase estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [协同效应总结 Synergistic Conclusion]：Combining all components yields super-additive gains, as [Mod A] stabilizes input statistics for [Mod B]'s relational reasoning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "超参数敏感性与极端噪声鲁棒性分析段（Sensitivity & Robustness Analysis）",
+      "blueprint_id": "BP20",
+      "paragraph_intent_zh": "我这一段想回应审稿人最常问的：你的模型是不是对超参数很敏感？在缺失值或传感器强噪声下会不会突然崩盘？",
+      "cohesion_formula": "Goal -> Wide Hyperparameter Plateau -> Stress-Test Comparison -> Mechanistic Explanation. 绑定逻辑规则：L010, L019.",
+      "paragraph_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption. Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$. Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%. This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分析目的 Objective]",
+          "sentence_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分析目的 Objective]：We further examine sensitivity to key hyperparameters and resilience against severe sensor corruption in Figure 4. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [超参数平坦区间 Plateau Stability]",
+          "sentence_en": "Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [超参数平坦区间 Plateau Stability]：Varying [Hyperparameter $\\lambda$] across two orders of magnitude ($[0.01, 1.0]$) alters validation MSE by less than [1.8%], demonstrating a wide stable operating plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [极端边缘工况压力测试 Stress Test under Corruption]",
+          "sentence_en": "Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [极端边缘工况压力测试 Stress Test under Corruption]：Under synthetic sensor dropouts up to [40%] and Gaussian noise ($\\sigma=0.3$), baseline accuracy plummets by over [35%], whereas our model degrades by less than [6.5%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [鲁棒性物理归因 Robustness Mechanism]",
+          "sentence_en": "This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [鲁棒性物理归因 Robustness Mechanism]：This resilience stems from [Specific Mechanism], which filters out corrupted channels before global aggregation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 6,
+      "section_or_role_zh": "局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations）",
+      "blueprint_id": "BP23",
+      "paragraph_intent_zh": "我这一段想写论文末尾或 NeurIPS/ICLR Checklist 要求的 Limitations 段落：诚实指出当前方法的两个客观边界，但绝不贬损论文的核心贡献。",
+      "cohesion_formula": "Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.",
+      "paragraph_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [边界 1",
+          "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+          "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [边界 2",
+          "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来演进方向 Future Extension]",
+          "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

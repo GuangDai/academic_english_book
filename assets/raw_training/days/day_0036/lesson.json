@@ -1,0 +1,2746 @@
+{
+  "day_id": "day_0036",
+  "day_number": 36,
+  "stage": 2,
+  "stage_name_zh": "阶段 2：准确表达、一词多义辨析与时序/AI 基础句法（Day 26–50）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G009】代词指代一致性、比较替代词（that/those of）与消除指代悬空；【G014】情态动词、确定性梯度与科学谨慎表达（Epistemic Hedging）。",
+    "掌握学术表达模式：【EP020】生成模型与概率预测：分布校准、不确定性量化与尾部风险，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V00904",
+        "V00956",
+        "V00987",
+        "V01030"
+      ],
+      "lemmas": [
+        "equipment",
+        "excessive",
+        "extensive",
+        "finally"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V00921",
+        "V00959",
+        "V00998",
+        "V01041"
+      ],
+      "lemmas": [
+        "establishment",
+        "existence",
+        "facilitate",
+        "firstly"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V00930",
+        "V00962",
+        "V00999",
+        "V01049"
+      ],
+      "lemmas": [
+        "evaluation",
+        "expansion",
+        "facilitate",
+        "fluctuation"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V00933",
+        "V00963",
+        "V01000"
+      ],
+      "lemmas": [
+        "eventual",
+        "expenditure",
+        "facilitate"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V00934",
+        "V00968",
+        "V01001"
+      ],
+      "lemmas": [
+        "eventuality",
+        "explanation",
+        "facilitate"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V00938",
+        "V00975",
+        "V01009"
+      ],
+      "lemmas": [
+        "evidence",
+        "exploration",
+        "familiarity"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V00942",
+        "V00976",
+        "V01013"
+      ],
+      "lemmas": [
+        "evolution",
+        "exploration",
+        "feasibility"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V00943",
+        "V00986",
+        "V01029"
+      ],
+      "lemmas": [
+        "evolutionary",
+        "extension",
+        "finally"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V00904",
+      "lemma": "equipment",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00904_S01",
+          "pos": "n.",
+          "meaning_zh": "设备",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：设备（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The equipment was checked before use.",
+          "example_zh": "设备在使用前经过检查。",
+          "sentence_constituents_zh": "【紧凑主语】The equipment was checked... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；一件设备可写 a piece of equipment。 | 熟词生义与多义辨析：学术语境与搭配约束：通常不可数；一件设备可写 a piece of equipment。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：设备（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：通常不可数；一件设备可写 a piece of equipment。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“laboratory equipment”精确表述“设备”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“laboratory equipment”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "equipment",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "equipments",
+        "derived_forms": [
+          "equip"
+        ],
+        "variants": [
+          "equipment"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00904_01",
+          "phrase": "laboratory equipment",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：laboratory equipment（设备）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00904"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：通常不可数；一件设备可写 a piece of equipment。",
+        "source_tags": [
+          "V00904",
+          "U26",
+          "AWL7词族:equip",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00921",
+      "lemma": "establishment",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00921_S01",
+          "pos": "n.",
+          "meaning_zh": "建立",
+          "core_meaning_zh": "基础字面义：建立",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：建立；确立（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive records the establishment of the research centre.",
+          "example_zh": "档案记录了研究中心的建立。",
+          "sentence_constituents_zh": "【紧凑主语】The archive records the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "establish 的名词；此处不是既有权势机构的义项。 | 熟词生义与多义辨析：词义与句法边界：establish 的名词；此处不是既有权势机构的义项。"
+        },
+        {
+          "sense_id": "V00921_S02",
+          "pos": "n.",
+          "meaning_zh": "确立",
+          "core_meaning_zh": "基础字面义：建立",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：建立；确立（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive records the establishment of the research centre.",
+          "example_zh": "档案记录了研究中心的建立。",
+          "sentence_constituents_zh": "【紧凑主语】The archive records the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "establish 的名词；此处不是既有权势机构的义项。 | 熟词生义与多义辨析：词义与句法边界：establish 的名词；此处不是既有权势机构的义项。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：建立",
+        "academic_target_sense_zh": "多义项/多词性完整映射：建立；确立（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：establish 的名词；此处不是既有权势机构的义项。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the establishment of a centre”精确表述“建立；确立”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the establishment of a centre”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "establishment",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "establish"
+        ],
+        "variants": [
+          "establishment"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00921_01",
+          "phrase": "the establishment of a centre",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：the establishment of a centre（建立；确立）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00921"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：establish 的名词；此处不是既有权势机构的义项。",
+        "source_tags": [
+          "V00921",
+          "U24",
+          "AWL1词族:establish",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00930",
+      "lemma": "evaluation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00930_S01",
+          "pos": "n.",
+          "meaning_zh": "评价",
+          "core_meaning_zh": "基础字面义：评价",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：评价；评估（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The review includes an evaluation of the available evidence.",
+          "example_zh": "综述包括对现有证据的评价。",
+          "sentence_constituents_zh": "【紧凑主语】The review includes an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词 evaluate；不等于仅描述。 | 熟词生义与多义辨析：词义与句法边界：动词 evaluate；不等于仅描述。"
+        },
+        {
+          "sense_id": "V00930_S02",
+          "pos": "n.",
+          "meaning_zh": "评估",
+          "core_meaning_zh": "基础字面义：评价",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：评价；评估（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The review includes an evaluation of the available evidence.",
+          "example_zh": "综述包括对现有证据的评价。",
+          "sentence_constituents_zh": "【紧凑主语】The review includes an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词 evaluate；不等于仅描述。 | 熟词生义与多义辨析：词义与句法边界：动词 evaluate；不等于仅描述。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：评价",
+        "academic_target_sense_zh": "多义项/多词性完整映射：评价；评估（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：动词 evaluate；不等于仅描述。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“evaluation of evidence”精确表述“评价；评估”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“evaluation of evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "evaluation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "evaluations",
+        "derived_forms": [
+          "evaluate"
+        ],
+        "variants": [
+          "evaluation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00930_01",
+          "phrase": "evaluation of evidence",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：evaluation of evidence（评价；评估）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00930"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：动词 evaluate；不等于仅描述。",
+        "source_tags": [
+          "V00930",
+          "U24",
+          "AWL2词族:evaluate",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00933",
+      "lemma": "eventual",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00933_S01",
+          "pos": "adj.",
+          "meaning_zh": "最终出现的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：最终出现的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The eventual outcome remains uncertain.",
+          "example_zh": "最终结果仍不确定。",
+          "sentence_constituents_zh": "【紧凑主语】The eventual outcome remains... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常暗示经过时间或困难；副词 eventually。 | 熟词生义与多义辨析：学术语境与搭配约束：常暗示经过时间或困难；副词 eventually。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：最终出现的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：常暗示经过时间或困难；副词 eventually。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the eventual outcome”精确表述“最终出现的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the eventual outcome”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "eventual",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "eventual"
+        ],
+        "variants": [
+          "eventual"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00933_01",
+          "phrase": "the eventual outcome",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：the eventual outcome（最终出现的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00933"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：常暗示经过时间或困难；副词 eventually。",
+        "source_tags": [
+          "V00933",
+          "U36",
+          "AWL8词族:eventual",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00934",
+      "lemma": "eventuality",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00934_S01",
+          "pos": "n.",
+          "meaning_zh": "可能发生的情况",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：可能发生的情况（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The protocol plans for the eventuality of equipment failure.",
+          "example_zh": "规程为设备故障这一可能情况作了安排。",
+          "sentence_constituents_zh": "【紧凑主语】The protocol plans for... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "与 eventual 有词族关系，但不等于 outcome。 | 熟词生义与多义辨析：学术语境与搭配约束：与 eventual 有词族关系，但不等于 outcome。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：可能发生的情况（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：与 eventual 有词族关系，但不等于 outcome。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“plan for an eventuality”精确表述“可能发生的情况”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“plan for an eventuality”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "eventuality",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "eventualities",
+        "derived_forms": [
+          "eventual"
+        ],
+        "variants": [
+          "eventuality"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00934_01",
+          "phrase": "plan for an eventuality",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：plan for an eventuality（可能发生的情况）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00934"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：与 eventual 有词族关系，但不等于 outcome。",
+        "source_tags": [
+          "V00934",
+          "U36",
+          "AWL8词族:eventual",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00938",
+      "lemma": "evidence",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00938_S01",
+          "pos": "n.",
+          "meaning_zh": "证据",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：证据（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The evidence does not support a universal claim.",
+          "example_zh": "这些证据不支持普遍性主张。",
+          "sentence_constituents_zh": "【紧凑主语】The evidence does not... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不可数；用 a piece of evidence，不用 an evidence。 | 熟词生义与多义辨析：学术语境与搭配约束：不可数；用 a piece of evidence，不用 an evidence。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：证据（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：不可数；用 a piece of evidence，不用 an evidence。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inconclusive evidence”精确表述“证据”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inconclusive evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "evidence",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "evident"
+        ],
+        "variants": [
+          "evidence"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00938_01",
+          "phrase": "inconclusive evidence",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：inconclusive evidence（证据）"
+        },
+        {
+          "collocation_id": "C_V00938_02",
+          "phrase": "a body of evidence",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a body of evidence（证据）"
+        },
+        {
+          "collocation_id": "C_V00938_03",
+          "phrase": "provide evidence",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：provide evidence（证据）"
+        },
+        {
+          "collocation_id": "C_V00938_04",
+          "phrase": "examine the evidence",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：examine the evidence（证据）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00938"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：不可数；用 a piece of evidence，不用 an evidence。",
+        "source_tags": [
+          "V00938",
+          "U01",
+          "U03",
+          "U42",
+          "AWL1词族:evident",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00942",
+      "lemma": "evolution",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00942_S01",
+          "pos": "n.",
+          "meaning_zh": "演变",
+          "core_meaning_zh": "基础字面义：演变",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：演变；进化（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The article documents the evolution of the method.",
+          "example_zh": "文章记录了该方法的演变。",
+          "sentence_constituents_zh": "【紧凑主语】The article documents the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "在方法语境中不必指生物进化。 | 熟词生义与多义辨析：词义与句法边界：在方法语境中不必指生物进化。"
+        },
+        {
+          "sense_id": "V00942_S02",
+          "pos": "n.",
+          "meaning_zh": "进化",
+          "core_meaning_zh": "基础字面义：演变",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：演变；进化（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The article documents the evolution of the method.",
+          "example_zh": "文章记录了该方法的演变。",
+          "sentence_constituents_zh": "【紧凑主语】The article documents the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "在方法语境中不必指生物进化。 | 熟词生义与多义辨析：词义与句法边界：在方法语境中不必指生物进化。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：演变",
+        "academic_target_sense_zh": "多义项/多词性完整映射：演变；进化（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：在方法语境中不必指生物进化。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the evolution of a method”精确表述“演变；进化”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the evolution of a method”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "evolution",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "evolve"
+        ],
+        "variants": [
+          "evolution"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00942_01",
+          "phrase": "the evolution of a method",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：the evolution of a method（演变；进化）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00942"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：在方法语境中不必指生物进化。",
+        "source_tags": [
+          "V00942",
+          "U36",
+          "AWL5词族:evolve",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00943",
+      "lemma": "evolutionary",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00943_S01",
+          "pos": "adj.",
+          "meaning_zh": "演化的",
+          "core_meaning_zh": "基础字面义：演化的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：演化的；进化的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The chapter distinguishes evolutionary change from abrupt change.",
+          "example_zh": "本章区分渐进演化与突变。",
+          "sentence_constituents_zh": "【紧凑主语】The chapter distinguishes evolutionary... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "视语境可指生物进化或渐进变化。 | 熟词生义与多义辨析：词义与句法边界：视语境可指生物进化或渐进变化。"
+        },
+        {
+          "sense_id": "V00943_S02",
+          "pos": "adj.",
+          "meaning_zh": "进化的",
+          "core_meaning_zh": "基础字面义：演化的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：演化的；进化的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The chapter distinguishes evolutionary change from abrupt change.",
+          "example_zh": "本章区分渐进演化与突变。",
+          "sentence_constituents_zh": "【紧凑主语】The chapter distinguishes evolutionary... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "视语境可指生物进化或渐进变化。 | 熟词生义与多义辨析：词义与句法边界：视语境可指生物进化或渐进变化。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：演化的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：演化的；进化的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：视语境可指生物进化或渐进变化。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“evolutionary change”精确表述“演化的；进化的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“evolutionary change”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "evolutionary",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "evolve"
+        ],
+        "variants": [
+          "evolutionary"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00943_01",
+          "phrase": "evolutionary change",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：evolutionary change（演化的；进化的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00943"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：视语境可指生物进化或渐进变化。",
+        "source_tags": [
+          "V00943",
+          "U36",
+          "AWL5词族:evolve",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00956",
+      "lemma": "excessive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00956_S01",
+          "pos": "adj.",
+          "meaning_zh": "过多的",
+          "core_meaning_zh": "基础字面义：过多的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：过多的；超过合理需要的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "An excessive number of parameters can make interpretation difficult.",
+          "example_zh": "过多参数可能使解释变得困难。",
+          "sentence_constituents_zh": "【紧凑主语】An excessive number of... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "excessive 表示超过合理需要，通常带负面评价。 | 熟词生义与多义辨析：词义与句法边界：excessive 表示超过合理需要，通常带负面评价。"
+        },
+        {
+          "sense_id": "V00956_S02",
+          "pos": "adj.",
+          "meaning_zh": "超过合理需要的",
+          "core_meaning_zh": "基础字面义：过多的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：过多的；超过合理需要的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "An excessive number of parameters can make interpretation difficult.",
+          "example_zh": "过多参数可能使解释变得困难。",
+          "sentence_constituents_zh": "【紧凑主语】An excessive number of... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "excessive 表示超过合理需要，通常带负面评价。 | 熟词生义与多义辨析：词义与句法边界：excessive 表示超过合理需要，通常带负面评价。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：过多的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：过多的；超过合理需要的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：excessive 表示超过合理需要，通常带负面评价。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an excessive amount of time”精确表述“过多的；超过合理需要的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an excessive amount of time”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "excessive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "excessive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00956_01",
+          "phrase": "an excessive amount of time",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：an excessive amount of time（过多的；超过合理需要的）"
+        },
+        {
+          "collocation_id": "C_V00956_02",
+          "phrase": "an excessive number of parameters",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：an excessive number of parameters（过多的；超过合理需要的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00956"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：excessive 表示超过合理需要，通常带负面评价。",
+        "source_tags": [
+          "V00956",
+          "U07",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00959",
+      "lemma": "existence",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00959_S01",
+          "pos": "n.",
+          "meaning_zh": "存在",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：存在（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The existence of a label does not establish its validity.",
+          "example_zh": "某个标签的存在并不能证明它有效。",
+          "sentence_constituents_zh": "【紧凑主语】The existence of a... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "exist 的名词；existence of。 | 熟词生义与多义辨析：学术语境与搭配约束：exist 的名词；existence of。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：存在（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：exist 的名词；existence of。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the existence of”精确表述“存在”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the existence of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "existence",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "existences",
+        "derived_forms": [],
+        "variants": [
+          "existence"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00959_01",
+          "phrase": "the existence of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the existence of（存在）"
+        },
+        {
+          "collocation_id": "C_V00959_02",
+          "phrase": "the existence of a pattern",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：the existence of a pattern（存在）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00959"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：exist 的名词；existence of。",
+        "source_tags": [
+          "V00959",
+          "U38",
+          "U45",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00962",
+      "lemma": "expansion",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00962_S01",
+          "pos": "n.",
+          "meaning_zh": "扩大",
+          "core_meaning_zh": "基础字面义：扩大",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：扩大；扩展（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The expansion of healthcare increased the number of local clinics.",
+          "example_zh": "医疗服务扩展增加了本地诊所数量。",
+          "sentence_constituents_zh": "【紧凑主语】The expansion of healthcare... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "expand为动词；扩展不自动意味质量提高。 | 熟词生义与多义辨析：词义与句法边界：expand为动词；扩展不自动意味质量提高。"
+        },
+        {
+          "sense_id": "V00962_S02",
+          "pos": "n.",
+          "meaning_zh": "扩展",
+          "core_meaning_zh": "基础字面义：扩大",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：扩大；扩展（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The expansion of healthcare increased the number of local clinics.",
+          "example_zh": "医疗服务扩展增加了本地诊所数量。",
+          "sentence_constituents_zh": "【紧凑主语】The expansion of healthcare... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "expand为动词；扩展不自动意味质量提高。 | 熟词生义与多义辨析：词义与句法边界：expand为动词；扩展不自动意味质量提高。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：扩大",
+        "academic_target_sense_zh": "多义项/多词性完整映射：扩大；扩展（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：expand为动词；扩展不自动意味质量提高。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the expansion of healthcare”精确表述“扩大；扩展”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the expansion of healthcare”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "expansion",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "expansions",
+        "derived_forms": [
+          "expand"
+        ],
+        "variants": [
+          "expansion"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00962_01",
+          "phrase": "the expansion of healthcare",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：the expansion of healthcare（扩大；扩展）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00962"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：expand为动词；扩展不自动意味质量提高。",
+        "source_tags": [
+          "V00962",
+          "U48",
+          "AWL5词族:expand",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00963",
+      "lemma": "expenditure",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00963_S01",
+          "pos": "n.",
+          "meaning_zh": "支出",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：支出（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The survey recorded annual household expenditure.",
+          "example_zh": "调查记录了家庭年度支出。",
+          "sentence_constituents_zh": "【紧凑主语】The survey recorded annual... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "expend是动词，表示支出的名词为expenditure。 | 熟词生义与多义辨析：学术语境与搭配约束：expend是动词，表示支出的名词为expenditure。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：支出（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：expend是动词，表示支出的名词为expenditure。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“annual expenditure”精确表述“支出”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“annual expenditure”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "expenditure",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "expenditure"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00963_01",
+          "phrase": "annual expenditure",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：annual expenditure（支出）"
+        },
+        {
+          "collocation_id": "C_V00963_02",
+          "phrase": "monthly expenditure",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：monthly expenditure（支出）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00963"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：expend是动词，表示支出的名词为expenditure。",
+        "source_tags": [
+          "V00963",
+          "U23",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00968",
+      "lemma": "explanation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00968_S01",
+          "pos": "n.",
+          "meaning_zh": "解释",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：解释（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The report offers an explanation for the discrepancy.",
+          "example_zh": "报告给出了差异的一种解释。",
+          "sentence_constituents_zh": "【紧凑主语】The report offers an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "for 常引出待解释现象；of 可引出所解释内容。 | 熟词生义与多义辨析：学术语境与搭配约束：for 常引出待解释现象；of 可引出所解释内容。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：解释（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：for 常引出待解释现象；of 可引出所解释内容。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“provide an explanation for”精确表述“解释”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“provide an explanation for”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "explanation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "explanations",
+        "derived_forms": [],
+        "variants": [
+          "explanation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00968_01",
+          "phrase": "provide an explanation for",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：provide an explanation for（解释）"
+        },
+        {
+          "collocation_id": "C_V00968_02",
+          "phrase": "an explanation of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：an explanation of（解释）"
+        },
+        {
+          "collocation_id": "C_V00968_03",
+          "phrase": "provide an explanation as to how",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：provide an explanation as to how（解释）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00968"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：for 常引出待解释现象；of 可引出所解释内容。",
+        "source_tags": [
+          "V00968",
+          "U03",
+          "U30",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00975",
+      "lemma": "exploration",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00975_S01",
+          "pos": "n.",
+          "meaning_zh": "探索",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：探索（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The pilot involved an exploration of alternative survey formats.",
+          "example_zh": "试点探索了其他调查形式。",
+          "sentence_constituents_zh": "【紧凑主语】The pilot involved an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "长名词短语不是总比动词更好；按句意选择。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00975 n.] 探索（例：The pilot involved an exploration of alternative survey formats.）；[V00976 n.] 探索，探查（例：The exploration of alternative explanations is necessary.） | 本条用法约束：长名词短语不是总比动词更好；按句意选择。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：探索（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00975 n.] 探索（例：The pilot involved an exploration of alternative survey formats.）；[V00976 n.] 探索，探查（例：The exploration of alternative explanations is necessary.） | 本条用法约束：长名词短语不是总比动词更好；按句意选择。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“carry out an exploration of”精确表述“探索”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“carry out an exploration of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "exploration",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "exploration"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00975_01",
+          "phrase": "carry out an exploration of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：carry out an exploration of（探索）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00975",
+          "V00976"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00975 n.] 探索（例：The pilot involved an exploration of alternative survey formats.）；[V00976 n.] 探索，探查（例：The exploration of alternative explanations is necessary.） | 本条用法约束：长名词短语不是总比动词更好；按句意选择。",
+        "source_tags": [
+          "V00975",
+          "U03",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00976",
+      "lemma": "exploration",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00976_S01",
+          "pos": "n.",
+          "meaning_zh": "探索，探查",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：探索，探查（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The exploration of alternative explanations is necessary.",
+          "example_zh": "探索其他可能解释是必要的。",
+          "sentence_constituents_zh": "【紧凑主语】The exploration of alternative... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "来自 explore；并非只有地理探索。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00975 n.] 探索（例：The pilot involved an exploration of alternative survey formats.）；[V00976 n.] 探索，探查（例：The exploration of alternative explanations is necessary.） | 本条用法约束：来自 explore；并非只有地理探索。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：探索，探查（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00975 n.] 探索（例：The pilot involved an exploration of alternative survey formats.）；[V00976 n.] 探索，探查（例：The exploration of alternative explanations is necessary.） | 本条用法约束：来自 explore；并非只有地理探索。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“exploration of”精确表述“探索，探查”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“exploration of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "exploration",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "exploration",
+          "explore"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00976_01",
+          "phrase": "exploration of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：exploration of（探索，探查）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00975",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00975",
+          "V00976"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00975 n.] 探索（例：The pilot involved an exploration of alternative survey formats.）；[V00976 n.] 探索，探查（例：The exploration of alternative explanations is necessary.） | 本条用法约束：来自 explore；并非只有地理探索。",
+        "source_tags": [
+          "V00976",
+          "U01",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00986",
+      "lemma": "extension",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00986_S01",
+          "pos": "n.",
+          "meaning_zh": "扩展",
+          "core_meaning_zh": "基础字面义：扩展",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：扩展；延伸（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The extension of the study includes another district.",
+          "example_zh": "该研究的扩展部分包括另一个区域。",
+          "sentence_constituents_zh": "【紧凑主语】The extension of the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应 extend；extent 为程度或范围，非同义派生替换。 | 熟词生义与多义辨析：词义与句法边界：对应 extend；extent 为程度或范围，非同义派生替换。"
+        },
+        {
+          "sense_id": "V00986_S02",
+          "pos": "n.",
+          "meaning_zh": "延伸",
+          "core_meaning_zh": "基础字面义：扩展",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：扩展；延伸（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The extension of the study includes another district.",
+          "example_zh": "该研究的扩展部分包括另一个区域。",
+          "sentence_constituents_zh": "【紧凑主语】The extension of the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应 extend；extent 为程度或范围，非同义派生替换。 | 熟词生义与多义辨析：词义与句法边界：对应 extend；extent 为程度或范围，非同义派生替换。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：扩展",
+        "academic_target_sense_zh": "多义项/多词性完整映射：扩展；延伸（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：对应 extend；extent 为程度或范围，非同义派生替换。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an extension of a study”精确表述“扩展；延伸”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an extension of a study”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "extension",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "extensions",
+        "derived_forms": [],
+        "variants": [
+          "extension"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00986_01",
+          "phrase": "an extension of a study",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：an extension of a study（扩展；延伸）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00986"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：对应 extend；extent 为程度或范围，非同义派生替换。",
+        "source_tags": [
+          "V00986",
+          "U27",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00987",
+      "lemma": "extensive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00987_S01",
+          "pos": "adj.",
+          "meaning_zh": "广泛的",
+          "core_meaning_zh": "基础字面义：广泛的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：广泛的；大量的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The project requires an extensive review of local records.",
+          "example_zh": "该项目需要广泛查阅地方记录。",
+          "sentence_constituents_zh": "【紧凑主语】The project requires an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "extensive 表示范围大，不直接表示细节充分。 | 熟词生义与多义辨析：词义与句法边界：extensive 表示范围大，不直接表示细节充分。"
+        },
+        {
+          "sense_id": "V00987_S02",
+          "pos": "adj.",
+          "meaning_zh": "大量的",
+          "core_meaning_zh": "基础字面义：广泛的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：广泛的；大量的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The project requires an extensive review of local records.",
+          "example_zh": "该项目需要广泛查阅地方记录。",
+          "sentence_constituents_zh": "【紧凑主语】The project requires an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "extensive 表示范围大，不直接表示细节充分。 | 熟词生义与多义辨析：词义与句法边界：extensive 表示范围大，不直接表示细节充分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：广泛的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：广泛的；大量的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：extensive 表示范围大，不直接表示细节充分。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“extensive evidence”精确表述“广泛的；大量的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“extensive evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "extensive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "extensive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00987_01",
+          "phrase": "extensive evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：extensive evidence（广泛的；大量的）"
+        },
+        {
+          "collocation_id": "C_V00987_02",
+          "phrase": "an extensive review",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an extensive review（广泛的；大量的）"
+        },
+        {
+          "collocation_id": "C_V00987_03",
+          "phrase": "extensive data",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：extensive data（广泛的；大量的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00987"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：extensive 表示范围大，不直接表示细节充分。",
+        "source_tags": [
+          "V00987",
+          "U27",
+          "U42",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00998",
+      "lemma": "facilitate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V00998_S01",
+          "pos": "v.",
+          "meaning_zh": "使……更容易",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：使……更容易；促进（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Wider entrances facilitate wheelchair access.",
+          "example_zh": "更宽的入口便于轮椅进入。",
+          "sentence_constituents_zh": "【紧凑主语】Wider entrances facilitate wheelchair... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "直接接名词或动名词；不用 facilitate to do。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：直接接名词或动名词；不用 facilitate to do。"
+        },
+        {
+          "sense_id": "V00998_S02",
+          "pos": "v.",
+          "meaning_zh": "促进",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：使……更容易；促进（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Wider entrances facilitate wheelchair access.",
+          "example_zh": "更宽的入口便于轮椅进入。",
+          "sentence_constituents_zh": "【紧凑主语】Wider entrances facilitate wheelchair... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "直接接名词或动名词；不用 facilitate to do。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：直接接名词或动名词；不用 facilitate to do。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：使……更容易；促进（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：直接接名词或动名词；不用 facilitate to do。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“facilitate access”精确表述“使……更容易；促进”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“facilitate access”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "facilitate",
+        "third_person_singular": "facilitates",
+        "present_participle": "facilitating",
+        "past_tense": "facilitated",
+        "past_participle": "facilitated",
+        "plural": null,
+        "derived_forms": [
+          "facilitate"
+        ],
+        "variants": [
+          "facilitate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00998_01",
+          "phrase": "facilitate access",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：facilitate access（使……更容易；促进）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00998",
+          "V00999",
+          "V01000",
+          "V01001"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：直接接名词或动名词；不用 facilitate to do。",
+        "source_tags": [
+          "V00998",
+          "U37",
+          "AWL5词族:facilitate",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V00999",
+      "lemma": "facilitate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V00999_S01",
+          "pos": "v.",
+          "meaning_zh": "使更容易",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：使更容易；促进（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Clearer procedures may facilitate access to student support.",
+          "example_zh": "更清晰的程序可能有助于学生获得支持。",
+          "sentence_constituents_zh": "【紧凑主语】Clearer procedures may facilitate... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常接名词；facilitate access to。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：通常接名词；facilitate access to。"
+        },
+        {
+          "sense_id": "V00999_S02",
+          "pos": "v.",
+          "meaning_zh": "促进",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：使更容易；促进（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Clearer procedures may facilitate access to student support.",
+          "example_zh": "更清晰的程序可能有助于学生获得支持。",
+          "sentence_constituents_zh": "【紧凑主语】Clearer procedures may facilitate... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常接名词；facilitate access to。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：通常接名词；facilitate access to。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：使更容易；促进（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：通常接名词；facilitate access to。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“facilitate access”精确表述“使更容易；促进”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“facilitate access”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "facilitate",
+        "third_person_singular": "facilitates",
+        "present_participle": "facilitating",
+        "past_tense": "facilitated",
+        "past_participle": "facilitated",
+        "plural": null,
+        "derived_forms": [
+          "facilitate"
+        ],
+        "variants": [
+          "facilitate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00999_01",
+          "phrase": "facilitate access",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：facilitate access（使更容易；促进）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V00998",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00998",
+          "V00999",
+          "V01000",
+          "V01001"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：通常接名词；facilitate access to。",
+        "source_tags": [
+          "V00999",
+          "U37",
+          "Personal_136",
+          "AWL5词族:facilitate",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01000",
+      "lemma": "facilitate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01000_S01",
+          "pos": "v.",
+          "meaning_zh": "使更容易",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：使更容易；促进某过程（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A common reporting format can facilitate comparison across studies.",
+          "example_zh": "统一的报告格式可以使不同研究之间的比较更容易。",
+          "sentence_constituents_zh": "【紧凑主语】A common reporting format... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "及物动词，facilitate something/doing something；不用 facilitate someone to do；促进不等于保证完成。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：及物动词，facilitate something/doing something；不用 facilitate someone to do；促进不等于保证完成。"
+        },
+        {
+          "sense_id": "V01000_S02",
+          "pos": "v.",
+          "meaning_zh": "促进某过程",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：使更容易；促进某过程（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A common reporting format can facilitate comparison across studies.",
+          "example_zh": "统一的报告格式可以使不同研究之间的比较更容易。",
+          "sentence_constituents_zh": "【紧凑主语】A common reporting format... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "及物动词，facilitate something/doing something；不用 facilitate someone to do；促进不等于保证完成。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：及物动词，facilitate something/doing something；不用 facilitate someone to do；促进不等于保证完成。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：使更容易；促进某过程（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：及物动词，facilitate something/doing something；不用 facilitate someone to do；促进不等于保证完成。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“facilitate comparison”精确表述“使更容易；促进某过程”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“facilitate comparison”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "facilitate",
+        "third_person_singular": "facilitates",
+        "present_participle": "facilitating",
+        "past_tense": "facilitated",
+        "past_participle": "facilitated",
+        "plural": null,
+        "derived_forms": [
+          "facilitate"
+        ],
+        "variants": [
+          "facilitate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01000_01",
+          "phrase": "facilitate comparison",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：facilitate comparison（使更容易；促进某过程）"
+        },
+        {
+          "collocation_id": "C_V01000_02",
+          "phrase": "facilitate data sharing",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：facilitate data sharing（使更容易；促进某过程）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V00999",
+        "G031",
+        "G011",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00998",
+          "V00999",
+          "V01000",
+          "V01001"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：及物动词，facilitate something/doing something；不用 facilitate someone to do；促进不等于保证完成。",
+        "source_tags": [
+          "V01000",
+          "Personal_136",
+          "AWL5词族:facilitate",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01001",
+      "lemma": "facilitate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01001_S01",
+          "pos": "v.",
+          "meaning_zh": "促进",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：促进；使更容易（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A shared document can facilitate collaboration.",
+          "example_zh": "共享文档可以促进协作。",
+          "sentence_constituents_zh": "【紧凑主语】A shared document can... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "后接名词或动名词；词族 facilitation，不用 facilitate someone to do。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：后接名词或动名词；词族 facilitation，不用 facilitate someone to do。"
+        },
+        {
+          "sense_id": "V01001_S02",
+          "pos": "v.",
+          "meaning_zh": "使更容易",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：促进；使更容易（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A shared document can facilitate collaboration.",
+          "example_zh": "共享文档可以促进协作。",
+          "sentence_constituents_zh": "【紧凑主语】A shared document can... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "后接名词或动名词；词族 facilitation，不用 facilitate someone to do。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：后接名词或动名词；词族 facilitation，不用 facilitate someone to do。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：促进；使更容易（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：后接名词或动名词；词族 facilitation，不用 facilitate someone to do。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“facilitate collaboration”精确表述“促进；使更容易”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“facilitate collaboration”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "facilitate",
+        "third_person_singular": "facilitates",
+        "present_participle": "facilitating",
+        "past_tense": "facilitated",
+        "past_participle": "facilitated",
+        "plural": null,
+        "derived_forms": [
+          "facilitate"
+        ],
+        "variants": [
+          "facilitate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01001_01",
+          "phrase": "facilitate collaboration",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：facilitate collaboration（促进；使更容易）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01000",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00998",
+          "V00999",
+          "V01000",
+          "V01001"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00998 v.] 使……更容易；促进（例：Wider entrances facilitate wheelchair access.）；[V00999 v.] 使更容易；促进（例：Clearer procedures may facilitate access to student support.）；[V01000 v.] 使更容易；促进某过程（例：A common reporting format can facilitate comparison across studies.）；[V01001 v.] 促进；使更容易（例：A shared document can facilitate collaboration.） | 本条用法约束：后接名词或动名词；词族 facilitation，不用 facilitate someone to do。",
+        "source_tags": [
+          "V01001",
+          "U21",
+          "AWL5词族:facilitate",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01009",
+      "lemma": "familiarity",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01009_S01",
+          "pos": "n.",
+          "meaning_zh": "熟悉",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：熟悉（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Familiarity with the method helps readers follow the description.",
+          "example_zh": "熟悉方法有助于读者理解描述。",
+          "sentence_constituents_zh": "【紧凑主语】Familiarity with the method... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "familiar的名词，familiarity with；不是家庭关系。 | 熟词生义与多义辨析：学术语境与搭配约束：familiar的名词，familiarity with；不是家庭关系。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：熟悉（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：familiar的名词，familiarity with；不是家庭关系。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“familiarity with a method”精确表述“熟悉”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“familiarity with a method”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "familiarity",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "familiarity"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01009_01",
+          "phrase": "familiarity with a method",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：familiarity with a method（熟悉）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01009"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：familiar的名词，familiarity with；不是家庭关系。",
+        "source_tags": [
+          "V01009",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01013",
+      "lemma": "feasibility",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01013_S01",
+          "pos": "n.",
+          "meaning_zh": "可行性",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：可行性（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The pilot assesses feasibility before a larger evaluation.",
+          "example_zh": "在更大规模的评估之前，先通过试点评估可行性。",
+          "sentence_constituents_zh": "【紧凑主语】The pilot assesses feasibility... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "区别于 effectiveness 有效性。 | 熟词生义与多义辨析：学术语境与搭配约束：区别于 effectiveness 有效性。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：可行性（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：区别于 effectiveness 有效性。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“assess feasibility”精确表述“可行性”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“assess feasibility”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "feasibility",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "feasibility"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01013_01",
+          "phrase": "assess feasibility",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：assess feasibility（可行性）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01013"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：区别于 effectiveness 有效性。",
+        "source_tags": [
+          "V01013",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01029",
+      "lemma": "finally",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V01029_S01",
+          "pos": "adv.",
+          "meaning_zh": "最后",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：最后（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Finally, we summarise the implications.",
+          "example_zh": "最后，我们概括其含义。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Finally + 【主句核心主谓宾/表】we summarise the implications. （目标词“finally”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "可用于结构排序，其他语境也指最终。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于结构排序，其他语境也指最终。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：最后（adv.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于结构排序，其他语境也指最终。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“finally, summarise”精确表述“最后”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“finally, summarise”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "finally",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "final"
+        ],
+        "variants": [
+          "finally"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01029_01",
+          "phrase": "finally, summarise",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：finally, summarise（最后）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01029",
+          "V01030"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于结构排序，其他语境也指最终。",
+        "source_tags": [
+          "V01029",
+          "U40",
+          "AWL2词族:final",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01030",
+      "lemma": "finally",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V01030_S01",
+          "pos": "adv.",
+          "meaning_zh": "最后",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：最后；终于（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Finally, consider the limitations of the sampling frame.",
+          "example_zh": "最后，考虑抽样框的限制。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Finally + 【主句核心主谓宾/表】consider the limitations of the sampling frame. （目标词“finally”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "可用于列举最后一点，也可表示终于。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于列举最后一点，也可表示终于。"
+        },
+        {
+          "sense_id": "V01030_S02",
+          "pos": "adv.",
+          "meaning_zh": "终于",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：最后；终于（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Finally, consider the limitations of the sampling frame.",
+          "example_zh": "最后，考虑抽样框的限制。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Finally + 【主句核心主谓宾/表】consider the limitations of the sampling frame. （目标词“finally”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "可用于列举最后一点，也可表示终于。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于列举最后一点，也可表示终于。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：最后；终于（adv.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于列举最后一点，也可表示终于。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“finally consider”精确表述“最后；终于”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“finally consider”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "finally",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "final"
+        ],
+        "variants": [
+          "finally"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01030_01",
+          "phrase": "finally consider",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：finally consider（最后；终于）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01029",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01029",
+          "V01030"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01029 adv.] 最后（例：Finally, we summarise the implications.）；[V01030 adv.] 最后；终于（例：Finally, consider the limitations of the sampling frame.） | 本条用法约束：可用于列举最后一点，也可表示终于。",
+        "source_tags": [
+          "V01030",
+          "U05",
+          "AWL2词族:final",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01041",
+      "lemma": "firstly",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V01041_S01",
+          "pos": "adv.",
+          "meaning_zh": "首先",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：首先（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Firstly, we review the evidence.",
+          "example_zh": "首先，我们回顾证据。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Firstly + 【主句核心主谓宾/表】we review the evidence. （目标词“firstly”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "与 first 在排序时近义。 | 熟词生义与多义辨析：学术语境与搭配约束：与 first 在排序时近义。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：首先（adv.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：与 first 在排序时近义。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“firstly, review the evidence”精确表述“首先”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“firstly, review the evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "firstly",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "firstly"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01041_01",
+          "phrase": "firstly, review the evidence",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：firstly, review the evidence（首先）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01041"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：与 first 在排序时近义。",
+        "source_tags": [
+          "V01041",
+          "U40",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01049",
+      "lemma": "fluctuation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01049_S01",
+          "pos": "n.",
+          "meaning_zh": "波动",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：波动（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Daily fluctuations make a single observation difficult to interpret.",
+          "example_zh": "每日波动使单次观察难以解释。",
+          "sentence_constituents_zh": "【紧凑主语】Daily fluctuations make a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "a fluctuation in demand；复数 fluctuations 常描述多次波动。 | 熟词生义与多义辨析：学术语境与搭配约束：a fluctuation in demand；复数 fluctuations 常描述多次波动。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：波动（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：a fluctuation in demand；复数 fluctuations 常描述多次波动。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“daily fluctuations”精确表述“波动”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“daily fluctuations”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "fluctuation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "fluctuations",
+        "derived_forms": [
+          "fluctuate"
+        ],
+        "variants": [
+          "fluctuation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01049_01",
+          "phrase": "daily fluctuations",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：daily fluctuations（波动）"
+        },
+        {
+          "collocation_id": "C_V01049_02",
+          "phrase": "seasonal fluctuations",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：seasonal fluctuations（波动）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01049"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：a fluctuation in demand；复数 fluctuations 常描述多次波动。",
+        "source_tags": [
+          "V01049",
+          "U48",
+          "AWL8词族:fluctuate",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "archive",
+      "meaning_zh": "档案；档案馆（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "protocol",
+      "meaning_zh": "研究方案；规程（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "clinics",
+      "meaning_zh": "诊所（n. pl.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "discrepancy",
+      "meaning_zh": "差异；不一致（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "sampling",
+      "meaning_zh": "抽样；采样（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G009",
+      "name": "代词指代一致性、比较替代词（that/those of）与消除指代悬空",
+      "category": "C5_pronouns_and_reference",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G002",
+        "G003"
+      ],
+      "explanation_zh": "代词必须具有唯一、明确的先行词。学术写作中严禁出现可同时指向多个名词的歧义代词（ambiguous pronoun）或缺乏总结名词的裸奔 this。",
+      "rules": [
+        "当句中有两个同数名词时，不用裸 it/they/this，应改用 the former / the latter 或 This + 总结性范畴名词（this discrepancy, this constraint, these observations）。",
+        "比较结构中必须用 that of 替代前文单数/不可数名词，用 those of 替代前文复数可数名词，确保比较对象同范畴（The cost is low relative to that of the earlier procedure）。"
+      ],
+      "examples": [
+        "The pronoun makes the final sentence ambiguous.",
+        "The cost is low relative to that of the earlier procedure.",
+        "These findings differ from those reported in the earlier study.",
+        "We compare interviews and surveys; the former allow follow-up questions."
+      ],
+      "common_errors": [
+        "比较结构漏掉 that/those of，导致拿“误差”直接跟“基线模型”相比：*The error of our model is lower than the baseline（应为 lower than that of the baseline）。"
+      ]
+    },
+    {
+      "grammar_id": "G014",
+      "name": "情态动词、确定性梯度与科学谨慎表达（Epistemic Hedging）",
+      "category": "C6_E_modals_and_hedging",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [],
+      "explanation_zh": "科学写作要求结论的语气强度与实验/数据证据的完备度严格对齐。通过情态动词（may, might, can, could）、认知副词（arguably, apparently, plausibly, relatively, typically）及谨慎动词（suggest, indicate, point to, appear to）控制断言边界。",
+      "rules": [
+        "当存在未测混杂（unmeasured confounding）、小样本或仿真环境限制时，必须使用 may be attributable to / suggests that / supports a tentative conclusion。",
+        "禁止在经验研究中滥用 irrefutable, undeniable, inevitable, universal, conclusively prove；只有经核实的数学反例推翻全称命题时才可用 disprove / irrefutable。"
+      ],
+      "examples": [
+        "The observed discrepancy may be attributable to differences in measurement procedures.",
+        "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+        "The verified counterexample provides irrefutable evidence that the universal mathematical claim is false."
+      ],
+      "common_errors": [
+        "在改写或总结时删去原句的 may / arguably / in this sample 等限定词，造成过度绝对化。"
+      ]
+    },
+    {
+      "grammar_id": "G023",
+      "name": "学术标点规范、分号/冒号逻辑功能与逗号粘连（Comma Splice）根治",
+      "category": "C11_punctuation_and_clause_combining",
+      "stage": 3,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G018"
+      ],
+      "explanation_zh": "根治中国学生写作中最普遍的标点语法错误——逗号粘连（Comma Splice，即仅用逗号连接两个独立句子，或把 nevertheless, therefore, however 当连词用逗号连接两句）。",
+      "rules": [
+        "连接副词（however, therefore, hence, nevertheless, nonetheless, consequently, moreover, furthermore, conversely, likewise）连接两个独立分句时，前句末尾必须用分号（;）或句号（.）！",
+        "前置复合修饰语加连字符（a small-scale study, an in-depth analysis, ground-truth labels, blue-collar occupations），后置作表语或状语时不加连字符（examine the issue in depth）。"
+      ],
+      "examples": [
+        "The observations are dependent; hence, the usual independence assumption does not apply.",
+        "The sample is small; nevertheless, the measurements identify a useful question for further study."
+      ],
+      "common_errors": [
+        "Comma Splice：*The sample is small, however, the protocol is reproducible（第一个逗号必须改为分号或句号）。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP020",
+      "name": "生成模型与概率预测：分布校准、不确定性量化与尾部风险",
+      "function_category": "generative_and_probabilistic_modeling",
+      "stage": 2,
+      "first_day": "day_0030",
+      "first_day_num": 30,
+      "template": "A probabilistic/generative model assigns probabilities to possible outcomes, allowing us to quantify uncertainty and evaluate both calibration and sharpness.",
+      "explanation_zh": "用于生成模型（Generative Models）与概率预测论文，阐述为何需要学习完整条件分布而非单一点估计（point estimate）。",
+      "register": "technical_specialized",
+      "examples": [
+        "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+        "Forecast calibration concerns statistical consistency between forecasts and observations."
+      ],
+      "common_errors": [
+        "将高集中度（sharpness）误认为已经过概率校准（calibrated）。"
+      ],
+      "prerequisites": [
+        "G014",
+        "G035"
+      ]
+    },
+    {
+      "pattern_id": "EP003",
+      "name": "客观归属文献观点或档案记录来源",
+      "function_category": "attributing_sources_and_claims",
+      "stage": 1,
+      "first_day": "day_0004",
+      "first_day_num": 4,
+      "template": "According to [authors/records], [reported finding]; however, [methodological qualification].",
+      "explanation_zh": "准确区分外部文献说法与本文实证判断。",
+      "register": "general_academic",
+      "examples": [
+        "According to the authors, the evaluation uses synthetic sentences.",
+        "According to the records, the event began before sunset."
+      ],
+      "common_errors": [
+        "*According to me（第一人称严禁使用）。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G007"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00261",
+        "lemma": "automation",
+        "pos": "n.",
+        "meaning_zh": "自动化",
+        "polysemy_trap_zh": "学术语境与搭配约束：automation of；与 automated 区分。 本词为词族扩展，依据教材41单元物理92页的automate派生；教材该页未直接列本词。",
+        "key_collocations": [
+          "automation of data collection"
+        ],
+        "example_en": "Automation of data collection reduces repetitive work.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00267",
+        "lemma": "awareness",
+        "pos": "n.",
+        "meaning_zh": "知晓，意识",
+        "polysemy_trap_zh": "学术语境与搭配约束：接 of；不能保证行为改变。",
+        "key_collocations": [
+          "awareness of",
+          "raise awareness of"
+        ],
+        "example_en": "The campaign aims to raise awareness of water contamination.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00275",
+        "lemma": "basically",
+        "pos": "adv.",
+        "meaning_zh": "从基本特征看",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00275 adv.] 从基本特征看；基本上（例：The procedures are basically similar.）；[V00276 adv.] 基本上；从基本特征说（例：The two protocols are basically similar but use different sensors.） | 本条用法约束：教材 essentially 的解释词；不是可忽略所有细节。",
+        "key_collocations": [
+          "basically similar"
+        ],
+        "example_en": "The procedures are basically similar.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00276",
+        "lemma": "basically",
+        "pos": "adv.",
+        "meaning_zh": "基本上",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00275 adv.] 从基本特征看；基本上（例：The procedures are basically similar.）；[V00276 adv.] 基本上；从基本特征说（例：The two protocols are basically similar but use different sensors.） | 本条用法约束：不是所有场合都能替换 essentially；避免用它掩盖差异。",
+        "key_collocations": [
+          "basically similar"
+        ],
+        "example_en": "The two protocols are basically similar but use different sensors.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00302",
+        "lemma": "behaviour",
+        "pos": "n.",
+        "meaning_zh": "行为",
+        "polysemy_trap_zh": "学术语境与搭配约束：英式拼写 behaviour，美式 behavior。",
+        "key_collocations": [
+          "observed behaviour"
+        ],
+        "example_en": "Observed behaviour may change when participants notice a camera.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00336",
+        "lemma": "breadth",
+        "pos": "n.",
+        "meaning_zh": "广度",
+        "polysemy_trap_zh": "学术语境与搭配约束：broad 的名词；不写 broadth。",
+        "key_collocations": [
+          "breadth of coverage",
+          "the breadth of a review"
+        ],
+        "example_en": "The breadth of the review limits the detail available on each method.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00356",
+        "lemma": "calculation",
+        "pos": "n.",
+        "meaning_zh": "计算",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00356 n.] 计算（例：The calculation excludes incomplete observations.）；[V00357 n.] 计算；计算结果（例：The reviewer checked each calculation against the stated formula.） | 本条用法约束：由 calculate 派生。",
+        "key_collocations": [
+          "perform a calculation"
+        ],
+        "example_en": "The calculation excludes incomplete observations.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00357",
+        "lemma": "calculation",
+        "pos": "n.",
+        "meaning_zh": "计算",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00356 n.] 计算（例：The calculation excludes incomplete observations.）；[V00357 n.] 计算；计算结果（例：The reviewer checked each calculation against the stated formula.） | 本条用法约束：与calculate动词对应；calculations常用复数。",
+        "key_collocations": [
+          "check a calculation"
+        ],
+        "example_en": "The reviewer checked each calculation against the stated formula.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00390",
+        "lemma": "central",
+        "pos": "adj.",
+        "meaning_zh": "核心的",
+        "polysemy_trap_zh": "词义与句法边界：central argument 指文章核心论点。",
+        "key_collocations": [
+          "central role",
+          "central theme",
+          "central issue"
+        ],
+        "example_en": "The central question concerns access to public transport.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00393",
+        "lemma": "certainty",
+        "pos": "n.",
+        "meaning_zh": "确定性",
+        "polysemy_trap_zh": "词义与句法边界：对应certain确定的这一义；本段certain manners/diseases表示某些，意义并不完全相同。",
+        "key_collocations": [
+          "certainty about an interpretation"
+        ],
+        "example_en": "The surviving evidence does not allow certainty about the object’s use.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00407",
+        "lemma": "characteristic",
+        "pos": "adj.",
+        "meaning_zh": "有典型特征的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00407 adj.] 有典型特征的（例：This seasonal variation is characteristic of the region.）；[V00408 n.] 特征（例：The groups share several characteristics.） | 本条用法约束：接 of。",
+        "key_collocations": [
+          "characteristic of"
+        ],
+        "example_en": "This seasonal variation is characteristic of the region.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00408",
+        "lemma": "characteristic",
+        "pos": "n.",
+        "meaning_zh": "特征",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00407 adj.] 有典型特征的（例：This seasonal variation is characteristic of the region.）；[V00408 n.] 特征（例：The groups share several characteristics.） | 本条用法约束：须说明具体特征，不贴无证据群体标签。",
+        "key_collocations": [
+          "shared characteristics"
+        ],
+        "example_en": "The groups share several characteristics.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00411",
+        "lemma": "check",
+        "pos": "v.",
+        "meaning_zh": "核查",
+        "polysemy_trap_zh": "极高危熟词生义：designed to check the spread of infection 中 check 意为“抑制、阻止扩散（halt/restrain）”，绝不可误读为“检查传播”！ | 词表跨单元多义对比：[V00411 v.] 核查（例：We checked the units before comparing the measurements.）；[V00412 v.] 检查；核对（例：A second researcher checked the recorded values.）；[V00413 v./n.] 核查；抑制；检查（例：The programme was designed to check the spread of infection.）",
+        "key_collocations": [
+          "check calculations",
+          "check an assumption"
+        ],
+        "example_en": "We checked the units before comparing the measurements.",
+        "first_day": "day_0006"
+      },
+      {
+        "word_id": "V00412",
+        "lemma": "check",
+        "pos": "v.",
+        "meaning_zh": "检查",
+        "polysemy_trap_zh": "极高危熟词生义：designed to check the spread of infection 中 check 意为“抑制、阻止扩散（halt/restrain）”，绝不可误读为“检查传播”！ | 词表跨单元多义对比：[V00411 v.] 核查（例：We checked the units before comparing the measurements.）；[V00412 v.] 检查；核对（例：A second researcher checked the recorded values.）；[V00413 v./n.] 核查；抑制；检查（例：The programme was designed to check the spread of infection.）",
+        "key_collocations": [
+          "check the apparatus",
+          "check measurements"
+        ],
+        "example_en": "A second researcher checked the recorded values.",
+        "first_day": "day_0006"
+      },
+      {
+        "word_id": "V00413",
+        "lemma": "check",
+        "pos": "v./n.",
+        "meaning_zh": "核查",
+        "polysemy_trap_zh": "极高危熟词生义：designed to check the spread of infection 中 check 意为“抑制、阻止扩散（halt/restrain）”，绝不可误读为“检查传播”！ | 词表跨单元多义对比：[V00411 v.] 核查（例：We checked the units before comparing the measurements.）；[V00412 v.] 检查；核对（例：A second researcher checked the recorded values.）；[V00413 v./n.] 核查；抑制；检查（例：The programme was designed to check the spread of infection.）",
+        "key_collocations": [
+          "check a calculation",
+          "check the spread of disease"
+        ],
+        "example_en": "The programme was designed to check the spread of infection.",
+        "first_day": "day_0006"
+      },
+      {
+        "word_id": "V00417",
+        "lemma": "circumstance",
+        "pos": "n.",
+        "meaning_zh": "情况",
+        "polysemy_trap_zh": "词义与句法边界：常用复数 circumstances；under/in the circumstances；单数 a circumstance 指某一具体情况。",
+        "key_collocations": [
+          "under these circumstances",
+          "in particular circumstances"
+        ],
+        "example_en": "The recommendation may change under different economic circumstances.",
+        "first_day": "day_0006"
+      }
+    ]
+  }
+}

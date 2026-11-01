@@ -1,0 +1,374 @@
+[
+  {
+    "task_id": "D0050_T01",
+    "day": "day_0050",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【Introduction 第二段（Literature Context & Hidden Assumption）】。你这一段的核心表达意图是：“我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。”。请严格按照 `BP02` 的逐句功能骨架（4 步法）与逻辑法则 `L020`（反事实假设论证法（Counterfactual Reasoning in Exam Essays）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "Many researchers have studied this problem. Wu et al. used Autoformer. Nie et al. used PatchTST. They are very good, but they all think the data distribution does not change, which is wrong in real life.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T02",
+    "day": "day_0050",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "时间序列论文 Methodology 章节或开题报告",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【时间序列论文 Methodology 章节或开题报告】。你这一段的核心表达意图是：“我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。”。请按 `BP14` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies.",
+      "S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components.",
+      "S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes.",
+      "S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold."
+    ],
+    "linked_blueprint_id": "BP14",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T03",
+    "day": "day_0050",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L020`（反事实假设论证法（Counterfactual Reasoning in Exam Essays））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "Many researchers have studied this problem. Wu et al. used Autoformer. Nie et al. used PatchTST. They are very good, but they all think the data distribution does not change, which is wrong in real life.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T04",
+    "day": "day_0050",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "时间序列论文 Methodology 章节或开题报告",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L028`（诊断与修复逻辑跳跃（Bridging Logical Leaps / Missing Premises））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies.",
+      "S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components.",
+      "S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes.",
+      "S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold."
+    ],
+    "linked_blueprint_id": "BP14",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T05",
+    "day": "day_0050",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【深度病段修改诊所 1：专治机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "Many researchers have studied this problem. Wu et al. used Autoformer. Nie et al. used PatchTST. They are very good, but they all think the data distribution does not change, which is wrong in real life.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T06",
+    "day": "day_0050",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "时间序列论文 Methodology 章节或开题报告",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+    "prompt_zh": "【深度病段修改诊所 2：专治机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies.",
+      "S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components.",
+      "S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes.",
+      "S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold."
+    ],
+    "linked_blueprint_id": "BP14",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T07",
+    "day": "day_0050",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "IELTS Task 1 静态图表段 / 论文开销拆解（Breakdown）段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+    "prompt_zh": "【深度病段修改诊所 3：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]).",
+      "S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%].",
+      "S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups.",
+      "S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]."
+    ],
+    "linked_blueprint_id": "BP27",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T08",
+    "day": "day_0050",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“总结现有主流范式及其隐含假设（欲抑先扬铺垫段）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "Many researchers have studied this problem. Wu et al. used Autoformer. Nie et al. used PatchTST. They are very good, but they all think the data distribution does not change, which is wrong in real life.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T09",
+    "day": "day_0050",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "时间序列论文 Methodology 章节或开题报告",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies.",
+      "S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components.",
+      "S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes.",
+      "S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold."
+    ],
+    "linked_blueprint_id": "BP14",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T10",
+    "day": "day_0050",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "IELTS Task 1 静态图表段 / 论文开销拆解（Breakdown）段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP02`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]).",
+      "S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%].",
+      "S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups.",
+      "S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]."
+    ],
+    "linked_blueprint_id": "BP27",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T11",
+    "day": "day_0050",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【多段贯通写作实战 1：AI_Mini_Paper 核心章节连写】参照全文样板 `FT02 (基于条件流匹配的块缺失时间序列生成与插补完整小论文（FlowImp: Manifold-Consistent Time Series Imputation）)` 的段落蓝图链 `BP08 -> BP01 -> BP09`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "Many researchers have studied this problem. Wu et al. used Autoformer. Nie et al. used PatchTST. They are very good, but they all think the data distribution does not change, which is wrong in real life.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L020",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0050_T12",
+    "day": "day_0050",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "IELTS Task 1 静态图表段 / 论文开销拆解（Breakdown）段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP27` 与全文样板 `FT02` 的后半部分（`BP10 -> BP11 -> BP15`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]).",
+      "S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%].",
+      "S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups.",
+      "S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]."
+    ],
+    "linked_blueprint_id": "BP27",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

@@ -1,0 +1,328 @@
+{
+  "day": "day_0022",
+  "day_number": 22,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 22 天：计算开销、推理延迟与精度帕累托权衡段（Efficiency-Accuracy Pareto Analysis） × 杜绝循环论证与同义反复（Eliminating Circular Reasoning / Tautology） × IELTS_Task2_AgreeDisagree 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP22",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "计算开销、推理延迟与精度帕累托权衡段（Efficiency-Accuracy Pareto Analysis）",
+      "user_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+      "when_to_use_zh": "Experiments 第 4.6 节 Computational Efficiency",
+      "paragraph_move_structure": [
+        "S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU.",
+        "S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%].",
+        "S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline.",
+        "S4 [帕累托结论 Pareto Takeaway]：Consequently, [Our Model] achieves superior accuracy at a fraction of the computational footprint required by heavyweight foundation models."
+      ],
+      "cohesion_and_logic_formula": "Hardware Benchmark -> Complexity Reduction & Memory Gain -> Real-Time Latency Margin -> Pareto Conclusion. 绑定逻辑规则：L010, L023.",
+      "defective_draft": "Our model is very fast and uses little memory. It only takes 4.2 ms to run, so it can be used in real-time applications easily.",
+      "defect_diagnosis_zh": "缺少复杂度来源分析（为什么快）、参照硬件与实时控制硬截止时间（Deadline）对比。",
+      "model_paragraph_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module. By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer. At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [硬件与测试基准 Hardware Setup]",
+          "sentence_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [复杂度理论与实测对比 Complexity & Runtime]",
+          "sentence_en": "By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实时闭环部署可行性 Real-Time Viability]",
+          "sentence_en": "At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "将理论复杂度（$O(L^2) \\to O(L \\log L)$）、机载芯片（Orin AGX）、推理耗时（6.8 ms vs. 20 ms 控制周期预算）与任务成功率完美缝合。"
+    },
+    {
+      "blueprint_id": "BP34",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "核心正方分论点段：主张 -> 机制推演 -> 具象行业微案例 -> 扣题闭环（PEEL 满分段）",
+      "user_intent_zh": "我这一段想写大作文的第一个主体段（Body Paragraph 1）：论证某个核心优势或必要性，做到有理有据、有具象场景支撑，绝不车轱辘话来回说。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 议论文核心主体段",
+      "paragraph_move_structure": [
+        "S1 [分论点主题句 Topic Claim]：一句话清晰亮出本段唯一控制中心（[Policy/Factor X] strengthens [Outcome Y] by [Core Mechanism]）。",
+        "S2 [因果机制推演 Causal Elaboration]：Explain HOW and WHY：阐明如果没有这层干扰或有了这项机制，认知/经济/技术流程会发生什么具体改变。",
+        "S3 [具象微观案例 Concrete Micro-Case]：For instance, when [Specific Group/Industry] [Specific Action], [Measurable/Observable Consequence]（绝不编造假百分比，用具体场景细节说话）。",
+        "S4 [反事实对比或扣题升华 Warrant / Link Back]：Thus, [Summary Noun] shifts human effort from [Low-value Routine] toward [High-value Judgment]."
+      ],
+      "cohesion_and_logic_formula": "Topic Claim -> Causal Mechanism -> Concrete Micro-Case (L021) -> Warrant Closure. 绑定逻辑规则：L006, L012, L021.",
+      "defective_draft": "First, AI can improve working efficiency a lot. People have many boring tasks every day. If AI does these tasks, people can save time and do better things. For example, my friend uses AI to write emails and saves two hours every day. So AI is very helpful.",
+      "defect_diagnosis_zh": "① 口语词泛滥（a lot, boring tasks, better things, my friend）；② 个人化琐碎举例（my friend saves two hours）不符合学术议论文语域。",
+      "model_paragraph_en": "Delegating repetitive data compilation to automated systems enables professionals to concentrate on high-level diagnostic judgment. In data-intensive fields such as clinical medicine and structural engineering, practitioners traditionally spend hours cross-checking routine telemetry logs before formulating a hypothesis. When hospital radiology departments deploy automated screening algorithms to flag normal chest scans, physicians can redirect their cognitive bandwidth toward ambiguous pathology cases and patient consultation. Consequently, intelligent triage elevates both diagnostic throughput and clinical care quality.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分论点主题句 Topic Claim]",
+          "sentence_en": "Delegating repetitive data compilation to automated systems enables professionals to concentrate on high-level diagnostic judgment.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分论点主题句 Topic Claim]：一句话清晰亮出本段唯一控制中心（[Policy/Factor X] strengthens [Outcome Y] by [Core Mechanism]）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [因果机制推演 Causal Elaboration]",
+          "sentence_en": "In data-intensive fields such as clinical medicine and structural engineering, practitioners traditionally spend hours cross-checking routine telemetry logs before formulating a hypothesis.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [因果机制推演 Causal Elaboration]：Explain HOW and WHY：阐明如果没有这层干扰或有了这项机制，认知/经济/技术流程会发生什么具体改变。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [具象微观案例 Concrete Micro-Case]",
+          "sentence_en": "When hospital radiology departments deploy automated screening algorithms to flag normal chest scans, physicians can redirect their cognitive bandwidth toward ambiguous pathology cases and patient consultation.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [具象微观案例 Concrete Micro-Case]：For instance, when [Specific Group/Industry] [Specific Action], [Measurable/Observable Consequence]（绝不编造假百分比，用具体场景细节说话）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [反事实对比或扣题升华 Warrant / Link Back]",
+          "sentence_en": "Consequently, intelligent triage elevates both diagnostic throughput and clinical care quality.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [反事实对比或扣题升华 Warrant / Link Back]：Thus, [Summary Noun] shifts human effort from [Low-value Routine] toward [High-value Judgment]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "从抽象机制（腾出认知带宽用于高阶诊断判断）自然过渡到具体行业切片（医院放射科部署自动筛查算法初筛正常胸片 -> 医生聚焦疑难病理与问诊），说服力极强。"
+    },
+    {
+      "blueprint_id": "BP47",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "顶会 Rebuttal 针对“缺少最新基线或算力不公平（Missing Baselines / Fairness）”的补全段",
+      "user_intent_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+      "when_to_use_zh": "顶会 Rebuttal 实验补全与公平性自证段",
+      "paragraph_move_structure": [
+        "S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3.",
+        "S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%].",
+        "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%].",
+        "S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count."
+      ],
+      "cohesion_and_logic_formula": "Direct Fulfilment -> Margin over New Baselines -> Parameter-Reduced Variant (`Ours-Small`) Proof -> Inductive Bias Takeaway. 绑定逻辑规则：L019, L010.",
+      "defective_draft": "We added the baseline X you asked for. Our model is 0.182 and X is 0.205, so we are still better. Also our model does not have many parameters.",
+      "defect_diagnosis_zh": "过于单薄，特别是回应参数量质疑时只口头说 does not have many parameters，远不如构造一个缩小版 `Ours-Small` 依然吊打对手有说服力。",
+      "model_paragraph_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3. Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS. Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE. This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [直接响应并呈上新表 Direct Fulfilment]",
+          "sentence_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比最新基线结果 Performance vs. New Baselines]",
+          "sentence_en": "Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]",
+          "sentence_en": "Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结论锁定 Conclusion]",
+          "sentence_en": "This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "既补齐了审稿人点名的最新基线，又主动用小号模型（少 42% 参数、少 55% 计算量却依然反超 6.8%）彻底封死“靠堆参数取胜”的质疑。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L022",
+      "category": "Logical Fallacy Prevention (逻辑谬误防范)",
+      "name_zh": "杜绝循环论证与同义反复（Eliminating Circular Reasoning / Tautology）",
+      "name_en": "Eliminating Tautology and Circular Explanations",
+      "core_principle_zh": "原因分句与结果分句不能只是换个近义词把同一件事说两遍（如 *The model generalizes well because it has strong generalization ability*）。because / since / as 之后必须提供处于更底层的**结构、物理或统计机制**。",
+      "structural_formula": "Claim: [High-Level Property A]. -> Reason: Because [Low-Level Structural/Statistical Mechanism B], NOT [Synonym of Property A].",
+      "common_pitfall_zh": "经常写出“因为模型更鲁棒，所以它在噪声下表现更好”这种零信息增量的同义反复句。",
+      "bad_example_en": "Our policy is more adaptable to new objects because it possesses superior cross-object adaptability.",
+      "good_example_en": "Our policy adapts reliably to unseen object geometries because it conditions grasp proposals on local surface normals rather than global category templates.",
+      "analysis_zh": "将“具有跨物体适应性”替换为底层几何机制“以局部表面法向量而非全局类别模板作为抓取条件”，真正回答了 Why。"
+    },
+    {
+      "logic_id": "L030",
+      "category": "Quality Assurance (段落自检闭环)",
+      "name_zh": "成段后七维自检清单（The 7-Point Paragraph Audit Checklist）",
+      "name_en": "Seven-Point Post-Drafting Paragraph Audit",
+      "core_principle_zh": "写完或改完任何一个英语段落，必须依次用七把尺子过筛：① 首句是否一眼看清本段唯一核心主张？② 每句主语是否控制在 6–8 词以内（无头重脚轻）？③ 句与句之间是否遵循“旧信息在前、新信息在后”？④ 所有的 This/Such 后是否都跟了精准汇总名词？⑤ 是否彻底清除了口语词与 AI 套话？⑥ 所有的程度主张是否都有具体指标、基线或微观案例支撑？⑦ 主动与被动语态的切换是否服务于信息焦点？",
+      "structural_formula": "Audit(Para) = Unity(1) + ShortSubject(2) + GivenToNew(3) + SummaryNoun(4) + ZeroAI_ZeroColloquial(5) + ConcreteMetricOrCase(6) + PurposefulVoice(7).",
+      "common_pitfall_zh": "写完只检查拼写和单复数，不检查段落骨架、信息流与论证闭环。",
+      "bad_example_en": "Checking only spelling and grammar while leaving a 22-word subject, bare 'This', and unsubstantiated 'very good performance' untouched.",
+      "good_example_en": "Applying the 7-point audit systematically: compressing the 22-word subject to 4 words, replacing bare 'This' with 'This phase lag', and replacing 'very good' with 'a 14.6% MSE reduction on Weather'.",
+      "analysis_zh": "将抽象的“改作文/改论文”转化为 7 个可逐项打勾的工程化核验动作。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC22",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP22",
+      "linked_logic_id": "L022",
+      "communicative_goal_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+      "original_defective_paragraph": "Our model is very fast and uses little memory. It only takes 4.2 ms to run, so it can be used in real-time applications easily.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L022 杜绝循环论证与同义反复（Eliminating Circular Reasoning / Tautology））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "缺少复杂度来源分析（为什么快）、参照硬件与实时控制硬截止时间（Deadline）对比。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module. By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer. At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [硬件与测试基准 Hardware Setup]",
+          "sentence_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [复杂度理论与实测对比 Complexity & Runtime]",
+          "sentence_en": "By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实时闭环部署可行性 Real-Time Viability]",
+          "sentence_en": "At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC42",
+      "domain_en": "Conference Author Rebuttal & Reviewer Defense",
+      "domain_zh": "顶会审稿回复（Rebuttal）与消融防御",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP42",
+      "linked_logic_id": "L012",
+      "communicative_goal_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+      "original_defective_paragraph": "Here is Figure 3. You can see many lines here. Our model is the blue line and it is the lowest, which means our model is the best on all horizons.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L012 一段一核：单一控制中心法则（Single Controlling Idea Rule））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "没有给听众任何坐标引导（You can see many lines here），听众还在找坐标轴是什么意思时你已经翻页了。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+          "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+          "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+          "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+          "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC60",
+      "domain_en": "TOEFL Independent & Integrated Academic Writing",
+      "domain_zh": "托福独立与综合写作：理论基础与工程实践权衡",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP12",
+      "linked_logic_id": "L030",
+      "communicative_goal_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+      "original_defective_paragraph": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L030 成段后七维自检清单（The 7-Point Paragraph Audit Checklist））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "写成看图说话的静态空间方位描述（on the left, in the middle, on the right），没有体现张量变换的数据流动与功能因果。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Figure 2 illustrates the overall architecture of DyTS-Net, which maps raw sensor streams to multi-horizon forecasts through three sequential stages. Given an input sequence $\\mathbf{X}$, the Adaptive De-stationary Tokenizer first separates local trend-scale statistics from normalized sub-series patches $\\mathbf{Z}_0$. These normalized patches then pass through stacked Spectral-Spatial Mixing blocks, which jointly filter high-frequency channel noise in the Fourier domain and propagate cross-sensor phase dependencies via a sparse directed graph. Finally, the Scale-Guided Decoder fuses the refined structural representations with the projected neural-ODE scale trajectory to reconstruct the multi-horizon output $\\hat{\\mathbf{Y}}$.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]",
+          "sentence_en": "Figure 2 illustrates the overall architecture of DyTS-Net, which maps raw sensor streams to multi-horizon forecasts through three sequential stages.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [阶段 1 数据流 Stage 1 Flow]",
+          "sentence_en": "Given an input sequence $\\mathbf{X}$, the Adaptive De-stationary Tokenizer first separates local trend-scale statistics from normalized sub-series patches $\\mathbf{Z}_0$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阶段 2 数据流 Stage 2 Flow]",
+          "sentence_en": "These normalized patches then pass through stacked Spectral-Spatial Mixing blocks, which jointly filter high-frequency channel noise in the Fourier domain and propagate cross-sensor phase dependencies via a sparse directed graph.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]",
+          "sentence_en": "Finally, the Scale-Guided Decoder fuses the refined structural representations with the projected neural-ODE scale trajectory to reconstruct the multi-horizon output $\\hat{\\mathbf{Y}}$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT22",
+    "genre": "IELTS_Task2_AgreeDisagree",
+    "title_zh": "雅思大作文（Task 2 To What Extent Agree）8.5 分范文：开源大模型权重的科学透明收益是否远超其滥用风险",
+    "structural_blueprint_chain": [
+      "BP33",
+      "BP38",
+      "BP36",
+      "BP39",
+      "BP40"
+    ]
+  }
+}

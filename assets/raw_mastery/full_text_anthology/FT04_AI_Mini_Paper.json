@@ -1,0 +1,383 @@
+{
+  "text_id": "FT04",
+  "genre": "AI_Mini_Paper",
+  "title_zh": "具身智能视觉-力触觉闭环操作与 Sim-to-Real 自适应完整小论文（TacFlow: Contact-Aware Visuomotor Policy）",
+  "paragraph_count": 11,
+  "structural_blueprint_chain": [
+    "BP08",
+    "BP01",
+    "BP03",
+    "BP05",
+    "BP07",
+    "BP11",
+    "BP16",
+    "BP18",
+    "BP19",
+    "BP22",
+    "BP24"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "高密度四句式 Abstract 全段构建（Complete 4-Move Abstract）",
+      "blueprint_id": "BP08",
+      "paragraph_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+      "cohesion_formula": "Context (S1) -> Gap (S2) -> Method & Mechanism (S3-S4) -> Quantitative Proof (S5). 绑定逻辑规则：L001, L008, L010, L029.",
+      "paragraph_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series. While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively. We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps. Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer. Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [背景与任务重要性 Context]",
+          "sentence_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [现有局限与痛点 Gap/Bottleneck]",
+          "sentence_en": "While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3-S4 [本文方法与核心机制 Approach & Mechanism]",
+          "sentence_en": "We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]... | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "确立研究背景与真实工程价值（拒绝空喊口号）",
+      "blueprint_id": "BP01",
+      "paragraph_intent_zh": "我这一段想作为 Introduction 第一段：说明多变量时间序列预测或具身智能控制在实际工业系统中的关键作用，以及高可靠性的刚需。",
+      "cohesion_formula": "Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.",
+      "paragraph_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务锚定 Topic Anchor]",
+          "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+          "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+          "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+          "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "尖锐指出核心技术瓶颈与失效机理（Gap Identification）",
+      "blueprint_id": "BP03",
+      "paragraph_intent_zh": "我这一段想深入剖析现有方法在特定难题（如非平稳突变、长程自回归误差累积、Sim-to-Real 接触失配）上为什么会失效，把机理讲透。",
+      "cohesion_formula": "因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.",
+      "paragraph_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+          "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+          "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+          "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+          "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "挑战与机制一对一映射段（Challenge-to-Mechanism Mapping）",
+      "blueprint_id": "BP05",
+      "paragraph_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+      "cohesion_formula": "Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.",
+      "paragraph_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+          "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+          "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+          "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+          "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "凝练论文三点核心贡献（Contributions Summary）",
+      "blueprint_id": "BP07",
+      "paragraph_intent_zh": "我这一段想在 Introduction 最末尾清晰列出本文的三点核心贡献（理论/视角贡献 + 核心算法/架构贡献 + 实验与开源实证贡献）。",
+      "cohesion_formula": "Parallel Grammatical Structure（严格平行结构：全部用 We + 强及物动词 identify / propose / demonstrate 开头）。绑定逻辑规则：L002, L010.",
+      "paragraph_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability. (2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker. (3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总起引导句 Lead-in]",
+          "sentence_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总起引导句 Lead-in]：In summary, our main contributions are threefold: | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [贡献 1",
+          "sentence_en": "(2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [贡献 1：新视角/问题形式化 Conceptual/Formulation Contribution]：用强动词名物化或动词原形开头（We identify and formalize... / We establish...），点明打破了什么传统局限。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [贡献 2",
+          "sentence_en": "(3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [贡献 2：核心方法与模块 Algorithmic/Architectural Contribution]：We propose [Model/Mechanism], which integrates [A] and [B] to achieve [Theoretical/Functional Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 6,
+      "section_or_role_zh": "问题形式化定义与符号约定段（Problem Formulation & Notation）",
+      "blueprint_id": "BP11",
+      "paragraph_intent_zh": "我这一段想在 Methodology 开篇（Section 3.1 Problem Formulation），严谨、简洁地定义输入张量、输出目标、约束条件与优化目标。",
+      "cohesion_formula": "Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.",
+      "paragraph_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务总体形式化 Task Definition]",
+          "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+          "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [预测/控制目标 Objective]",
+          "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 7,
+      "section_or_role_zh": "具身智能专属：多模态感知-动作闭环与 Sim-to-Real 阐述段（Embodied AI Policy）",
+      "blueprint_id": "BP16",
+      "paragraph_intent_zh": "我这一段想阐述具身智能机器人策略（Embodied Policy）如何融合视觉、本体感觉（Proprioception）或触觉，并克服仿真到真实硬件的动力学差距（Sim-to-Real Gap）。",
+      "cohesion_formula": "Visual Occlusion Bottleneck -> Asynchronous Multimodal Alignment -> Action Chunking -> Online Sim-to-Real System Identification. 绑定逻辑规则：L025, L003.",
+      "paragraph_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object. To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings. Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling. At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单模态开环局限 Open-Loop Visual Limitation]",
+          "sentence_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多模态时空对齐 Multi-Modal Alignment]",
+          "sentence_en": "To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]",
+          "sentence_en": "Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]",
+          "sentence_en": "At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 8,
+      "section_or_role_zh": "主实验结果整体对比与核心胜出原因剖析段（Main Results Analysis）",
+      "blueprint_id": "BP18",
+      "paragraph_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+      "cohesion_formula": "Global Win Rate -> Advantage over Family A -> Resilience at Long Horizon vs. Family B -> Mechanistic Takeaway. 绑定逻辑规则：L015, L013, L010.",
+      "paragraph_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations. Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical. Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts. By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [全局统治力概述 Overall Dominance]",
+          "sentence_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]",
+          "sentence_en": "Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]",
+          "sentence_en": "Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [回扣本文核心机制 Mechanistic Confirmation]",
+          "sentence_en": "By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 9,
+      "section_or_role_zh": "消融实验逐组件归因论证段（Counterfactual Ablation Study）",
+      "blueprint_id": "BP19",
+      "paragraph_intent_zh": "我这一段想汇报消融实验（Table 2）：证明我们的模块 A、模块 B 和正则项 C 每一个都不可或缺，且各自负责解决不同的特定子问题。",
+      "cohesion_formula": "Ablation Overview -> w/o Module A (Specific Failure) -> w/o Module B (Specific Failure) -> Cross-Module Synergy. 绑定逻辑规则：L016, L007.",
+      "paragraph_en": "To isolate the contribution of each design choice, Table 2 compares full DyTS-Net against three ablated variants across ETTm2 and ECL. Removing the neural-ODE scale tracker (w/o Scale-ODE) triggers the sharpest degradation during seasonal transition months on ETTm2, raising 720-step MSE by 19.4% as the decoder fails to track shifting baseline temperatures. Conversely, replacing phase-aligned graph attention with standard dot-product attention (w/o Phase-Attn) degrades performance most severely on the 321-channel ECL grid (+13.8% MSE), where unaligned high-frequency load spikes corrupt cross-substation aggregation. Jointly deploying both modules yields complementary gains, as accurate scale tracking prevents amplitude distortion from biasing phase estimation.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [消融实验总括 Ablation Setup]",
+          "sentence_en": "To isolate the contribution of each design choice, Table 2 compares full DyTS-Net against three ablated variants across ETTm2 and ECL.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [消融实验总括 Ablation Setup]：To isolate the contribution of each architectural component, we evaluate four ablated variants in Table 2 by progressively removing [Mod A], [Mod B], and [Loss C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [移除模块 A 的冲击与归因 Impact of Removing Mod A]",
+          "sentence_en": "Removing the neural-ODE scale tracker (w/o Scale-ODE) triggers the sharpest degradation during seasonal transition months on ETTm2, raising 720-step MSE by 19.4% as the decoder fails to track shifting baseline temperatures.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [移除模块 A 的冲击与归因 Impact of Removing Mod A]：Removing [Mod A] (w/o A) causes the largest degradation on [Non-stationary/Volatile Subset], increasing MSE by [X%] because the model loses [Specific Capability A]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [移除模块 B 的冲击与归因 Impact of Removing Mod B]",
+          "sentence_en": "Conversely, replacing phase-aligned graph attention with standard dot-product attention (w/o Phase-Attn) degrades performance most severely on the 321-channel ECL grid (+13.8% MSE), where unaligned high-frequency load spikes corrupt cross-substation aggregation.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [移除模块 B 的冲击与归因 Impact of Removing Mod B]：Similarly, replacing [Mod B] with standard [Naive Operator] degrades performance by [Y%] on high-dimensional benchmarks, confirming its role in [Specific Capability B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [协同效应总结 Synergistic Conclusion]",
+          "sentence_en": "Jointly deploying both modules yields complementary gains, as accurate scale tracking prevents amplitude distortion from biasing phase estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [协同效应总结 Synergistic Conclusion]：Combining all components yields super-additive gains, as [Mod A] stabilizes input statistics for [Mod B]'s relational reasoning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 10,
+      "section_or_role_zh": "计算开销、推理延迟与精度帕累托权衡段（Efficiency-Accuracy Pareto Analysis）",
+      "blueprint_id": "BP22",
+      "paragraph_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+      "cohesion_formula": "Hardware Benchmark -> Complexity Reduction & Memory Gain -> Real-Time Latency Margin -> Pareto Conclusion. 绑定逻辑规则：L010, L023.",
+      "paragraph_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module. By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer. At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [硬件与测试基准 Hardware Setup]",
+          "sentence_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [复杂度理论与实测对比 Complexity & Runtime]",
+          "sentence_en": "By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实时闭环部署可行性 Real-Time Viability]",
+          "sentence_en": "At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 11,
+      "section_or_role_zh": "全文总结与学术影响收尾段（Conclusion & Broader Outlook）",
+      "blueprint_id": "BP24",
+      "paragraph_intent_zh": "我这一段想写整篇小论文的 Conclusion：不简单复制粘贴 Abstract，而是从更高维度总结本文解决的科学矛盾、方法精髓、实证高度与领域启示。",
+      "cohesion_formula": "Tension Resolved -> Methodological Insight -> Empirical Confirmation -> Generalizable Blueprint. 绑定逻辑规则：L013, L023, L029.",
+      "paragraph_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting. By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes. Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead. Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心科学问题闭合 Scientific Closure]",
+          "sentence_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [方法论精髓回顾 Methodological Synthesis]",
+          "sentence_en": "By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实证结果高度概括 Empirical Recap]",
+          "sentence_en": "Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [跨领域迁移展望 Broader Outlook]",
+          "sentence_en": "Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

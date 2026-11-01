@@ -1,0 +1,1751 @@
+[
+  {
+    "question_id": "Q_D0002_01",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 abstract (V00025) 的学术多义项与语境词形，并联动巩固 accommodate (V00037)。",
+    "prompt": "【day_0002·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“摘要”，n.；注意区别于日常义：adj. 抽象的（与 concrete 具体相对）），填写唯一准确的英文词形：\nSentence 1: The ________ states the study aim and its principal limitation. （句意：摘要说明研究目标及其主要局限。）\nSentence 2 (Companion Context with 'accommodate'): The revised protocol accommodates participants who cannot attend in person.",
+    "context": "熟词生义与用法边界：一词多词性多义：作形容词指抽象概念，作可数名词指论文摘要（摘要中的指标结论必须与正文实验表严格一致）。 | 词表跨单元多义对比：[V00024 adj.] 抽象的（例：Equity is an abstract concept that requires an operational definition.）；[V00025 n.] 摘要（例：The abstract states the study aim and its principal limitation.） | 句子成分结构：【紧凑主语】The abstract states the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00025",
+      "V00037"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00024",
+      "G031",
+      "G032",
+      "V00036",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G002",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 abstract）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_02",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 abundant (V00026) 的学术多义项与语境词形，并联动巩固 accountable (V00046)。",
+    "prompt": "【day_0002·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“大量的”，adj.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：\nSentence 1: There is ________ evidence that the archive contains duplicate records. （句意：有大量证据表明档案中有重复记录。）\nSentence 2 (Companion Context with 'accountable'): The research team remains accountable for the reported conclusions.",
+    "context": "熟词生义与用法边界：学术语境与搭配约束：说明数量多，未必质量高。 | 句子成分结构：【紧凑主语】There is abundant evidence... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00026",
+      "V00046"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G002",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 abundant）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_03",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 access (V00028) 的学术多义项与语境词形，并联动巩固 accumulate (V00047)。",
+    "prompt": "【day_0002·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“使用或获取的机会”，n.；注意区别于日常义：n. 通道；入口），填写唯一准确的英文词形：\nSentence 1: Opening hours are only one factor affecting ________ to services. （句意：开放时间只是影响服务可及性的一个因素。）\nSentence 2 (Companion Context with 'accumulate'): Evidence accumulates as independent studies are published.",
+    "context": "熟词生义与用法边界：词性与介词铁律：作名词必须接介词 to（access to services）；作动词直接接宾语（accessed the database），严禁写 *accessed to the database。 | 词表跨单元多义对比：[V00028 n.] 使用或获取的机会（例：Opening hours are only one factor affecting access to services.）；[V00029 n.] 获取或使用的机会（例：Travel costs can restrict access to education.）；[V00030 v./n.] 访问（动词）；使用、查阅的机会或权限（名词）（例：The team accessed the database before the policy changed.） | 句子成分结构：【紧凑主语】Opening hours are only... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00028",
+      "V00047"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G002",
+      "polysemy_recall",
+      "uncountable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 access）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_04",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 access (V00029) 的学术多义项与语境词形，并联动巩固 accurate (V00052)。",
+    "prompt": "【day_0002·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“获取或使用的机会”，n.；注意区别于日常义：n. 通道；入口），填写唯一准确的英文词形：\nSentence 1: Travel costs can restrict ________ to education. （句意：出行费用可能限制接受教育的机会。）\nSentence 2 (Companion Context with 'accurate'): Accurate measurements are essential for a useful comparison.",
+    "context": "熟词生义与用法边界：词性与介词铁律：作名词必须接介词 to（access to services）；作动词直接接宾语（accessed the database），严禁写 *accessed to the database。 | 词表跨单元多义对比：[V00028 n.] 使用或获取的机会（例：Opening hours are only one factor affecting access to services.）；[V00029 n.] 获取或使用的机会（例：Travel costs can restrict access to education.）；[V00030 v./n.] 访问（动词）；使用、查阅的机会或权限（名词）（例：The team accessed the database before the policy changed.） | 句子成分结构：【紧凑主语】Travel costs can restrict... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00029",
+      "V00052"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00028",
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G002",
+      "polysemy_recall",
+      "uncountable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 access）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_05",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 access (V00030) 的学术多义项与语境词形，并联动巩固 acknowledge (V00054)。",
+    "prompt": "【day_0002·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“访问（动词）”，v./n.；注意区别于日常义：n. 通道；入口），填写唯一准确的英文词形：\nSentence 1: The team ________ the database before the policy changed. （句意：团队在政策变化前访问了数据库。）\nSentence 2 (Companion Context with 'acknowledge'): The conclusion acknowledges the limitations of the evidence.",
+    "context": "熟词生义与用法边界：词性与介词铁律：作名词必须接介词 to（access to services）；作动词直接接宾语（accessed the database），严禁写 *accessed to the database。 | 词表跨单元多义对比：[V00028 n.] 使用或获取的机会（例：Opening hours are only one factor affecting access to services.）；[V00029 n.] 获取或使用的机会（例：Travel costs can restrict access to education.）；[V00030 v./n.] 访问（动词）；使用、查阅的机会或权限（名词）（例：The team accessed the database before the policy changed.） | 句子成分结构：【紧凑主语】The team accessed the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00030",
+      "V00054"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00029",
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G002",
+      "polysemy_recall",
+      "uncountable",
+      "transitive"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 access）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_06",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 accident (V00033) 的学术多义项与语境词形，并联动巩固 acknowledge (V00055)。",
+    "prompt": "【day_0002·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“事故，意外事件”，n.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：\nSentence 1: The sample was damaged by ________ during transport. （句意：样本在运输途中意外损坏。）\nSentence 2 (Companion Context with 'acknowledge'): The authors acknowledge uncertainty in the estimates.",
+    "context": "熟词生义与用法边界：学术语境与搭配约束：可数名词；by accident 表示意外地。 | 句子成分结构：【紧凑主语】The sample was damaged... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00033",
+      "V00055"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V00054",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G002",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 accident）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_07",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 accommodate 的自然搭配“accommodate new evidence”并消除中式直译搭配错误。",
+    "prompt": "【day_0002·常见学术搭配 1】根据搭配类型（verb+noun）与用法规范，使用目标词“accommodate”（容纳）的规约搭配补全并写出下列完整英文学术句（表达：“框架被修订以纳入新的证据。”），使其与后句中的“acknowledge”（acknowledge a limitation）构成自然衔接：\n待完成句语义：框架被修订以纳入新的证据。（核心搭配提示：accommodate new evidence）\n后续衔接句：The authors acknowledge that the sample excludes rural clinics.",
+    "context": "搭配类型：verb+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“accommodate new evidence”精确表述“容纳；调整以适应”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00036",
+      "V00056"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00055",
+      "G001",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G002",
+      "G009",
+      "EP002",
+      "collocation_accuracy",
+      "verb+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“accommodate new evidence”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_08",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 accommodate 的自然搭配“accommodate variation”并消除中式直译搭配错误。",
+    "prompt": "【day_0002·常见学术搭配 2】根据搭配类型（verb+noun）与用法规范，使用目标词“accommodate”（容纳）的规约搭配补全并写出下列完整英文学术句（表达：“修改后的方案照顾了无法亲自到场的参与者。”），使其与后句中的“acquire”（acquire data）构成自然衔接：\n待完成句语义：修改后的方案照顾了无法亲自到场的参与者。（核心搭配提示：accommodate variation）\n后续衔接句：Learners acquire vocabulary through repeated meaningful use.",
+    "context": "搭配类型：verb+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“accommodate variation”精确表述“容纳；适应；在方法或设计中纳入考虑”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00037",
+      "V00058"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00036",
+      "G031",
+      "G011",
+      "G032",
+      "G001",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G002",
+      "G009",
+      "EP002",
+      "collocation_accuracy",
+      "verb+noun"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“accommodate variation”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_09",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 accountable 的自然搭配“accountable for decisions”并消除中式直译搭配错误。",
+    "prompt": "【day_0002·常见学术搭配 3】根据搭配类型（noun+prep）与用法规范，使用目标词“accountable”（应负责的）的规约搭配补全并写出下列完整英文学术句（表达：“研究团队仍须对报告的结论负责。”），使其与后句中的“adapt”（adapt a method to a context）构成自然衔接：\n待完成句语义：研究团队仍须对报告的结论负责。（核心搭配提示：accountable for decisions）\n后续衔接句：We may adapt the catalogue to describe a different collection.",
+    "context": "搭配类型：noun+prep | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“accountable for decisions”精确表述“应负责的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00046",
+      "V00060"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G011",
+      "G001",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G002",
+      "G009",
+      "EP002",
+      "collocation_accuracy",
+      "noun+prep"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“accountable for decisions”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_10",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 accumulate 的自然搭配“evidence accumulates”并消除中式直译搭配错误。",
+    "prompt": "【day_0002·常见学术搭配 4】根据搭配类型（verb+noun）与用法规范，使用目标词“accumulate”（逐渐积累）的规约搭配补全并写出下列完整英文学术句（表达：“随着独立研究发表，证据逐渐积累。”），使其与后句中的“adapt”（adapt to changes）构成自然衔接：\n待完成句语义：随着独立研究发表，证据逐渐积累。（核心搭配提示：evidence accumulates）\n后续衔接句：Researchers adapted to the new reporting system.",
+    "context": "搭配类型：verb+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“evidence accumulates”精确表述“逐渐积累”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00047",
+      "V00061"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "V00060",
+      "G001",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G002",
+      "G009",
+      "EP002",
+      "collocation_accuracy",
+      "verb+noun"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“evidence accumulates”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_11",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 accurate 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0002·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 Accurate）：\nContext: ________ measurements are essential for a useful comparison. Furthermore, regarding 'adapt', the method was adapted for irregular observations.",
+    "context": "目标句意：准确测量是进行有用比较的必要条件。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. abundant",
+      "B. accountable",
+      "C. accurate",
+      "D. absolute"
+    ],
+    "focus_word_ids": [
+      "V00052",
+      "V00062"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00061",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G002",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_12",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 acknowledge 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0002·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 acknowledges）：\nContext: The conclusion ________ the limitations of the evidence. Furthermore, regarding 'address', the revision addresses the limitation explicitly.",
+    "context": "目标句意：结论承认证据的局限。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. accommodate",
+      "B. accumulate",
+      "C. acquire",
+      "D. acknowledge"
+    ],
+    "focus_word_ids": [
+      "V00054",
+      "V00064"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G002",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_13",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 acknowledge 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0002·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 acknowledge）：\nContext: The authors ________ uncertainty in the estimates. Furthermore, regarding 'address', this paper addresses unequal access to educational resources.",
+    "context": "目标句意：作者承认估计中存在不确定性。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. acknowledge",
+      "B. adjust",
+      "C. adopt",
+      "D. advance"
+    ],
+    "focus_word_ids": [
+      "V00055",
+      "V00065"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00054",
+      "G031",
+      "G032",
+      "V00064",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G002",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_14",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 acknowledge 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0002·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 acknowledge）：\nContext: The authors ________ that the sample excludes rural clinics. Furthermore, regarding 'address', the analysis addresses the question of unequal access.",
+    "context": "目标句意：作者承认样本未包括乡村诊所。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. adapt",
+      "B. acknowledge",
+      "C. address",
+      "D. adjust"
+    ],
+    "focus_word_ids": [
+      "V00056",
+      "V00066"
+    ],
+    "grammar_ids": [
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00055",
+      "G031",
+      "G032",
+      "V00065",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G002",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0002_15",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 1,
+    "training_objective": "用精准学术词 acquire (acquire) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0002·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“acquire”的恰当词形，并写出完整修正句（需同时保留后半句中关于“address”的语境信息）：\nEnglish Draft: Learners <u>do or handle</u> vocabulary through repeated meaningful use. (Context note: The presentation addresses the topic of unequal access.)",
+    "context": "目标语义：学习者通过反复而有意义的使用习得词汇。 | 熟词生义提醒：多义项/多词性完整映射：获取；习得（v.）",
+    "options": null,
+    "focus_word_ids": [
+      "V00058",
+      "V00067"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00066",
+      "G011",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_1",
+      "G002",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_16",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 1,
+    "training_objective": "用精准学术词 adapt (adapt) 替换英文初稿中的口语/模糊表达“modify to suit”。",
+    "prompt": "【day_0002·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`modify to suit`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“adapt”的恰当词形，并写出完整修正句（需同时保留后半句中关于“adjust”的语境信息）：\nEnglish Draft: We may <u>modify to suit</u> the catalogue to describe a different collection. (Context note: Students needed time to adjust to the new schedule.)",
+    "context": "目标语义：我们可以调整目录，使其适用于另一批藏品。 | 熟词生义提醒：v. ① 将（预训练模型、控制策略或方法）调整、迁移以适配新领域或新任务（adapt a method for irregular observations / domain adaptation）；② 适应环境变化（adapt to）",
+    "options": null,
+    "focus_word_ids": [
+      "V00060",
+      "V00070"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_1",
+      "G002",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_17",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 1,
+    "training_objective": "用精准学术词 adapt (adapted) 替换英文初稿中的口语/模糊表达“modify to suit”。",
+    "prompt": "【day_0002·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`modify to suit`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“adapt”的恰当词形，并写出完整修正句（需同时保留后半句中关于“adjust”的语境信息）：\nEnglish Draft: Researchers <u>modify to suit</u> to the new reporting system. (Context note: Staff needed time to adjust to the new reporting system.)",
+    "context": "目标语义：研究者适应了新报告系统。 | 熟词生义提醒：v. ① 将（预训练模型、控制策略或方法）调整、迁移以适配新领域或新任务（adapt a method for irregular observations / domain adaptation）；② 适应环境变化（adapt to）",
+    "options": null,
+    "focus_word_ids": [
+      "V00061",
+      "V00071"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00060",
+      "G031",
+      "G011",
+      "G032",
+      "V00070",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_1",
+      "G002",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_18",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 1,
+    "training_objective": "使用地道学术搭配“adapt to new conditions”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0002·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“adapt”的核心学术短语/搭配（“adapt to new conditions”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The method was <u>make a basic handling in a general way regarding modify to suit</u> for irregular observations.\nCompanion Context ('adopt'): The team may adopt the same dating convention throughout the archive. （目标句意：这种方法经调整以适用于不规则观测。）",
+    "context": "目标规约短语：adapt to new conditions | 配合表达模式：【EP002】精确区分可数样本量与不可数开销/证据",
+    "options": null,
+    "focus_word_ids": [
+      "V00062",
+      "V00075"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00061",
+      "G031",
+      "G011",
+      "G032",
+      "G002",
+      "G003",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_1",
+      "G009",
+      "G034",
+      "EP002",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“adapt to new conditions”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_19",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 1,
+    "training_objective": "使用地道学术搭配“address a limitation”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0002·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“address”的核心学术短语/搭配（“address a limitation”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The revision <u>make a basic handling in a general way regarding deal with directly</u> the limitation explicitly.\nCompanion Context ('advance'): The paper advances a hypothesis about the observed pattern. （目标句意：修订稿明确处理了该局限。）",
+    "context": "目标规约短语：address a limitation | 配合表达模式：【EP002】精确区分可数样本量与不可数开销/证据",
+    "options": null,
+    "focus_word_ids": [
+      "V00064",
+      "V00080"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G002",
+      "G003",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_1",
+      "G009",
+      "G034",
+      "EP002",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“address a limitation”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_20",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 1,
+    "training_objective": "使用地道学术搭配“address a problem”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0002·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“address”的核心学术短语/搭配（“address a problem”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: This paper <u>make a basic handling in a general way regarding deal with directly</u> unequal access to educational resources.\nCompanion Context ('advantage'): One advantage of the design is its low participant burden. （目标句意：本文讨论教育资源可及性不平等的问题。）",
+    "context": "目标规约短语：address a problem | 配合表达模式：【EP002】精确区分可数样本量与不可数开销/证据",
+    "options": null,
+    "focus_word_ids": [
+      "V00065",
+      "V00081"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00064",
+      "G031",
+      "G032",
+      "G002",
+      "G003",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_1",
+      "G009",
+      "G034",
+      "EP002",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“address a problem”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_21",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 address 与 abstract 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0002·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】\nTop-Heavy Draft: *The question of how the research team can properly handle the fact that the analysis addresses the question of unequal access. in the experiment is what we look at.*\n改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“address”（搭配：address a question）将其改写为紧凑、有力的学术句子（并结合“abstract”的语境边界）。",
+    "context": "核心成分拆解：【紧凑主语】The analysis addresses the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：熟词生义第一高频词：作动词直接接宾语，严禁写 *address to a problem；且 address a question 指“围绕该问题展开处理或探讨”，不自动等于已彻底解决（solve）。 | 词表跨单元多义对比：[V00064 v.] 处理；回应；关注（例：The revision addresses the limitation explicitly.）；[V00065 v.] 处理；讨论（例：This paper addresses unequal access to educational resources.）；[V00066 v.] 处理；讨论；回应（例：The analysis addresses the question of unequal access.）",
+    "options": null,
+    "focus_word_ids": [
+      "V00066",
+      "V00025"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00065",
+      "G031",
+      "G032",
+      "V00024",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G002",
+      "G032",
+      "EP002",
+      "sentence_rewriting",
+      "G032",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 address 的搭配“address a question”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_22",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 address 与 abundant 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0002·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】\nAI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: The presentation addresses the topic of unequal access.*\n改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“address”写出零 AI 痕迹、克制精准的学术句子（关联词条：abundant）。",
+    "context": "核心成分拆解：【紧凑主语】The presentation addresses the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：熟词生义第一高频词：作动词直接接宾语，严禁写 *address to a problem；且 address a question 指“围绕该问题展开处理或探讨”，不自动等于已彻底解决（solve）。 | 词表跨单元多义对比：[V00064 v.] 处理；回应；关注（例：The revision addresses the limitation explicitly.）；[V00065 v.] 处理；讨论（例：This paper addresses unequal access to educational resources.）；[V00066 v.] 处理；讨论；回应（例：The analysis addresses the question of unequal access.）",
+    "options": null,
+    "focus_word_ids": [
+      "V00067",
+      "V00026"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00066",
+      "G031",
+      "G011",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G002",
+      "G033",
+      "EP002",
+      "sentence_rewriting",
+      "G033",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "spoken_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 address 的搭配“address a topic”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_23",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 adjust 与 access 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0002·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】\nSource Statement: Students needed time to adjust to the new schedule. （中文句意：学生需要时间适应新安排。）\n改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“adjust”（注意其学术义：当前单元特定学术义：调整；适应（v.））及协同词“access”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。",
+    "context": "核心成分拆解：【紧凑主语】Students needed time to... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V00070 v.] 调整；适应（例：Students needed time to adjust to the new schedule.）；[V00071 v.] 调整；逐渐适应（例：Staff needed time to adjust to the new reporting system.） | 本条用法约束：adjust to 与直接调整某物 adjust something 区别。",
+    "options": null,
+    "focus_word_ids": [
+      "V00070",
+      "V00028"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G021"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G001",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G002",
+      "G021",
+      "EP002",
+      "sentence_rewriting",
+      "G021",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 adjust 的搭配“adjust to a new schedule”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_24",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 adjust 与 access 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0002·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】\nVerbose Draft: *When we consider the context of the analysis, it is true that staff needed time to adjust to the new reporting system.*\n改写指令：消除句首拖沓的从句，运用目标词“adjust”（搭配：adjust to a new system）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：access），严禁产生悬垂修饰或增删原意。",
+    "context": "核心成分拆解：【紧凑主语】Staff needed time to... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V00070 v.] 调整；适应（例：Students needed time to adjust to the new schedule.）；[V00071 v.] 调整；逐渐适应（例：Staff needed time to adjust to the new reporting system.） | 本条用法约束：adjust something可指具体调节。",
+    "options": null,
+    "focus_word_ids": [
+      "V00071",
+      "V00029"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G018"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00070",
+      "G031",
+      "G011",
+      "G032",
+      "V00028",
+      "G001",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G002",
+      "G018",
+      "EP002",
+      "sentence_rewriting",
+      "G018",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 adjust 的搭配“adjust to a new system”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_25",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 adopt 与 access 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0002·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】\nBase Observation: The team may adopt the same dating convention throughout the archive. (Paired concept: 'access' — The team accessed the database before the policy changed.)\n改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“adopt”与“access”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。",
+    "context": "核心成分拆解：【紧凑主语】The team may adopt... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：区分 adopt a convention（采用某约定）与 adapt a model（修改调整模型）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00075",
+      "V00030"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00029",
+      "G001",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G002",
+      "G036",
+      "EP002",
+      "sentence_rewriting",
+      "G036",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 adopt 的搭配“adopt a convention”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_26",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 advance (advance a theory) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0002·中译英与句子成分构建 1（实证研究方法与数据核查场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“advance”的学术义“提出理论或论点”及其搭配“advance a theory”，并兼顾协同词“accident”的语境标准）：\n中文题干：该论文提出解释所观察模式的假设。\n句子成分构建提示：【紧凑主语】The paper advances a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：The paper advances a hypothesis 意为“本文提出一项假说”，不是“让假说前进”。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "options": null,
+    "focus_word_ids": [
+      "V00080",
+      "V00033"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G031"
+    ],
+    "expression_pattern_ids": [
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G003",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G009",
+      "G031",
+      "EP001",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G031"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 advance 及其搭配“advance a theory”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_27",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 advantage (weigh up the advantages) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0002·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“advantage”的学术义“优点”及其搭配“weigh up the advantages”，并兼顾协同词“accommodate”的语境标准）：\n中文题干：该设计的一个优点是参与者负担小。\n句子成分构建提示：【紧凑主语】One advantage of the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：词义与句法边界：an advantage of；advantage over 用于相对优势。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "options": null,
+    "focus_word_ids": [
+      "V00081",
+      "V00036"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G035"
+    ],
+    "expression_pattern_ids": [
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G003",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G009",
+      "G035",
+      "EP001",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G035"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 advantage 及其搭配“weigh up the advantages”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_28",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 abstract (a structured abstract) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0002·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“abstract”的学术义“摘要”及其搭配“a structured abstract”，并兼顾协同词“accommodate”的语境标准）：\n中文题干：摘要说明研究目标及其主要局限。\n句子成分构建提示：【紧凑主语】The abstract states the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多词性多义：作形容词指抽象概念，作可数名词指论文摘要（摘要中的指标结论必须与正文实验表严格一致）。 | 词表跨单元多义对比：[V00024 adj.] 抽象的（例：Equity is an abstract concept that requires an operational definition.）；[V00025 n.] 摘要（例：The abstract states the study aim and its principal limitation.） | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "options": null,
+    "focus_word_ids": [
+      "V00025",
+      "V00037"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "V00024",
+      "G031",
+      "G032",
+      "V00036",
+      "G011",
+      "G002",
+      "G003",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G009",
+      "G032",
+      "EP001",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G032"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 abstract 及其搭配“a structured abstract”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_29",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 abundant (abundant evidence) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0002·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“abundant”的学术义“大量的”及其搭配“abundant evidence”，并兼顾协同词“accountable”的语境标准）：\n中文题干：有大量证据表明档案中有重复记录。\n句子成分构建提示：【紧凑主语】There is abundant evidence... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：学术语境与搭配约束：说明数量多，未必质量高。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "options": null,
+    "focus_word_ids": [
+      "V00026",
+      "V00046"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G003",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G009",
+      "G036",
+      "EP001",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G036"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 abundant 及其搭配“abundant evidence”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0002_30",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 1,
+    "training_objective": "用包含 access 与 acknowledge 的具体机制与实例替换“只有夸张而无实例”的空洞断言。",
+    "prompt": "【day_0002·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】\n下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：\nHollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*\n任务要求：请摒弃上述空洞吹嘘，结合目标词条“access”（使用或获取的机会）与“acknowledge”（承认），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。",
+    "context": "核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）",
+    "options": null,
+    "focus_word_ids": [
+      "V00028",
+      "V00054",
+      "V00066"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00065",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_1",
+      "G002",
+      "G033",
+      "EP002",
+      "anti_hyperbole",
+      "concrete_evidence_grounding",
+      "paragraph_logic"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "严禁使用 groundbreaking / unparalleled / extremely great 等无根据夸张词",
+      "必须包含 access 与 acknowledge 的具体语境陈述"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0002_31",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 1,
+    "training_objective": "通过含 access 与 acknowledge 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。",
+    "prompt": "【day_0002·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】\n将下列包含目标词“access”与“acknowledge”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：\n(1) When examining the empirical outputs, a second consideration arises: The authors acknowledge uncertainty in the estimates.\n(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.\n(3) First, we specify the methodological setup: Travel costs can restrict access to education.\n(4) This setup ensures that the evaluation criteria remain consistent across all test runs.",
+    "context": "语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指",
+    "options": null,
+    "focus_word_ids": [
+      "V00029",
+      "V00055",
+      "V00067"
+    ],
+    "grammar_ids": [
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "V00028",
+      "G031",
+      "G032",
+      "V00054",
+      "V00066",
+      "G011",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_1",
+      "G009",
+      "EP001",
+      "sentence_ordering",
+      "given_new_contract",
+      "referential_cohesion"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "写出正确的四句排列顺序",
+      "指出句间实现无缝咬合的总结性指代短语"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0002_32",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 1,
+    "training_objective": "修复含 access 与 acknowledge 段落中的逗号粘连、连接词误用与因果外推跳跃。",
+    "prompt": "【day_0002·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】\n审阅下列包含“access”与“acknowledge”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：\nFlawed Draft: *The team accessed the database before the policy changed, on the contrary, the authors acknowledge that the sample excludes rural clinics., which proves 100% universal causality in all real-world regimes.*",
+    "context": "综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）",
+    "options": null,
+    "focus_word_ids": [
+      "V00030",
+      "V00056",
+      "V00070"
+    ],
+    "grammar_ids": [
+      "G021",
+      "G023"
+    ],
+    "expression_pattern_ids": [
+      "EP002",
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "V00029",
+      "G031",
+      "G032",
+      "V00055",
+      "G011",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_1",
+      "G021",
+      "G023",
+      "EP002",
+      "EP001",
+      "comma_splice_repair",
+      "causality_boundary",
+      "connector_precision"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "修正 Comma Splice 与 on the contrary 的误用",
+      "用审慎的范围限定替换 *proves 100% universal causality*"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0002_33",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 1,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 accident 与 acquire 的语态选择。",
+    "prompt": "【day_0002·信息焦点与语态转换 1】阅读下列包含“accident”（事故，意外事件）与“acquire”（获取）的学术表达：\nReference Sequence: (1) The sample was damaged by accident during transport. (2) Learners acquire vocabulary through repeated meaningful use.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00033",
+      "V00058",
+      "V00071"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V00070",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_1",
+      "G011",
+      "G002",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0002_34",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 1,
+    "training_objective": "结合及物性边界（transitive）与旧新信息焦点训练 accommodate 与 adapt 的语态选择。",
+    "prompt": "【day_0002·信息焦点与语态转换 2】阅读下列包含“accommodate”（容纳）与“adapt”（调整使适用）的学术表达：\nReference Sequence: (1) The framework was revised to accommodate new evidence. (2) We may adapt the catalogue to describe a different collection.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：transitive | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00036",
+      "V00060",
+      "V00075"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G002"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_1",
+      "G011",
+      "G002",
+      "voice_selection",
+      "transitive",
+      "given_new_focus"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0002_35",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 1,
+    "training_objective": "在 AI/时序/生成建模/具身智能场景下运用 accommodate、adapt 撰写零 AI 腔的技术微段落。",
+    "prompt": "【day_0002·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】\n应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。\n写作要求：围绕以下候选目标词群中的至少 2–3 个词条（accommodate（容纳）、adapt（适应）、advance（提出理论或论点）、acknowledge（承认）），写出一段 2–3 句、紧凑自然的英文技术微段落：\n1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；\n2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；\n3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。",
+    "context": "专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP002",
+    "options": null,
+    "focus_word_ids": [
+      "V00037",
+      "V00061",
+      "V00080",
+      "V00054"
+    ],
+    "grammar_ids": [
+      "G002",
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00036",
+      "G031",
+      "G011",
+      "G032",
+      "V00060",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_1",
+      "G002",
+      "G032",
+      "G033",
+      "EP002",
+      "ai_timeseries_embodied_writing",
+      "anti_ai_style",
+      "end_weight"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少准确融入候选词群（accommodate（容纳）、adapt（适应）、advance（提出理论或论点）、acknowledge（承认））中的 2 个词条及其规约搭配",
+      "词数 45–80 词（2–3 句），主谓紧凑，遵守尾重原则（End-Weight）",
+      "零 AI 浮夸套话，必须包含具体技术条件或实验边界"
+    ],
+    "max_score": 5
+  },
+  {
+    "question_id": "Q_D0002_36",
+    "day_id": "day_0002",
+    "stage": 1,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 1,
+    "training_objective": "撰写融合 accountable、adapt 与 -able 的 3–5 句六级/雅思托福/演讲实证论证段落。",
+    "prompt": "【day_0002·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】\n应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。\n写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（accountable（应负责的）、adapt（适应）、advantage（优点）、-able（能够被…）），写出一段 3–5 句、逻辑严密的完整段落：\n1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；\n2. 运用语法规则【G009】（代词指代一致性、比较替代词（that/those of）与消除指代悬空）与表达模式【EP001】（明确陈述研究目标、问题定义与讨论边界）；\n3. 句式自然地道，杜绝死板模板句与头重脚轻。",
+    "context": "文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G009 & G036",
+    "options": null,
+    "focus_word_ids": [
+      "V00046",
+      "V00062",
+      "V00081",
+      "V00001"
+    ],
+    "grammar_ids": [
+      "G009",
+      "G028",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP001"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00061",
+      "G011",
+      "G002",
+      "G003",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_1",
+      "G009",
+      "G028",
+      "G036",
+      "EP001",
+      "cet6_ielts_toefl_writing",
+      "concrete_exemplification",
+      "concession_rebuttal"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少自然融入候选词群（accountable（应负责的）、adapt（适应）、advantage（优点）、-able（能够被…））中的 3 个词条",
+      "必须包含具体实例或机制说明，严禁只喊口号或堆砌夸张词",
+      "3–5 个完整英文句（65–110 词），标点与指代规范"
+    ],
+    "max_score": 5
+  }
+]

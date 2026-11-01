@@ -1,0 +1,476 @@
+[
+  {
+    "task_id": "D0059_T01",
+    "day": "day_0059",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务总体形式化 Task Definition]",
+        "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+        "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [预测/控制目标 Objective]",
+        "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP11`（问题形式化定义与符号约定段（Problem Formulation & Notation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全是碎片化的幼稚简单句（The input is X. X has...），缺乏数学严谨性与核心科学问题界定。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T02",
+    "day": "day_0059",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [边界 1",
+        "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+        "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [边界 2",
+        "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [未来演进方向 Future Extension]",
+        "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP23`（局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T03",
+    "day": "day_0059",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务总体形式化 Task Definition]",
+        "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+        "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [预测/控制目标 Objective]",
+        "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP11`（问题形式化定义与符号约定段（Problem Formulation & Notation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全是碎片化的幼稚简单句（The input is X. X has...），缺乏数学严谨性与核心科学问题界定。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T04",
+    "day": "day_0059",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [边界 1",
+        "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+        "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [边界 2",
+        "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [未来演进方向 Future Extension]",
+        "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP23`（局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T05",
+    "day": "day_0059",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务总体形式化 Task Definition]",
+        "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+        "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [预测/控制目标 Objective]",
+        "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP11`（问题形式化定义与符号约定段（Problem Formulation & Notation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全是碎片化的幼稚简单句（The input is X. X has...），缺乏数学严谨性与核心科学问题界定。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T06",
+    "day": "day_0059",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [边界 1",
+        "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+        "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [边界 2",
+        "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [未来演进方向 Future Extension]",
+        "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP23`（局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T07",
+    "day": "day_0059",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+        "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+        "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+        "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+        "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP36`（让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Admittedly (Valid Concern) -> Short-term Reality -> However (Zero-Sum Fallacy Pivot) -> Historical Analogy & Policy Mitigation. 绑定逻辑规则：L008, L023.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T08",
+    "day": "day_0059",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务总体形式化 Task Definition]",
+        "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+        "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [预测/控制目标 Objective]",
+        "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP11`（问题形式化定义与符号约定段（Problem Formulation & Notation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全是碎片化的幼稚简单句（The input is X. X has...），缺乏数学严谨性与核心科学问题界定。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T09",
+    "day": "day_0059",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [边界 1",
+        "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+        "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [边界 2",
+        "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [未来演进方向 Future Extension]",
+        "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP23`（局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T10",
+    "day": "day_0059",
+    "task_type": "cross_genre_transformation",
+    "model_response_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+        "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+        "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+        "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+        "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP36`（让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Admittedly (Valid Concern) -> Short-term Reality -> However (Zero-Sum Fallacy Pivot) -> Historical Analogy & Policy Mitigation. 绑定逻辑规则：L008, L023.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T11",
+    "day": "day_0059",
+    "task_type": "full_composition_project",
+    "model_response_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [任务总体形式化 Task Definition]",
+        "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+        "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [预测/控制目标 Objective]",
+        "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP11`（问题形式化定义与符号约定段（Problem Formulation & Notation））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全是碎片化的幼稚简单句（The input is X. X has...），缺乏数学严谨性与核心科学问题界定。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0059_T12",
+    "day": "day_0059",
+    "task_type": "full_composition_project",
+    "model_response_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+        "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+        "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+        "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+        "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP36`（让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation））与逻辑法则 `L007`（因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。衔接公式：Admittedly (Valid Concern) -> Short-term Reality -> However (Zero-Sum Fallacy Pivot) -> Historical Analogy & Policy Mitigation. 绑定逻辑规则：L008, L023.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  }
+]

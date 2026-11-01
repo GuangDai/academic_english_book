@@ -1,0 +1,2606 @@
+{
+  "day_id": "day_0045",
+  "day_number": 45,
+  "stage": 2,
+  "stage_name_zh": "阶段 2：准确表达、一词多义辨析与时序/AI 基础句法（Day 26–50）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G016】限制性/非限制性定语从句与“介词 + which/whom”精确修饰；【G021】句子改写核心规范：语义等价、限定守恒与消除四大改写偏差。",
+    "掌握学术表达模式：【EP003】客观归属文献观点或档案记录来源，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V00684",
+        "V00869",
+        "V01201",
+        "V01326"
+      ],
+      "lemmas": [
+        "deduce",
+        "emphasise",
+        "identifiable",
+        "inconclusive"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V00773",
+        "V00900",
+        "V01211",
+        "V01327"
+      ],
+      "lemmas": [
+        "discrete",
+        "equate",
+        "illogical",
+        "inconclusive"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V00806",
+        "V01095",
+        "V01315",
+        "V01328"
+      ],
+      "lemmas": [
+        "documentation",
+        "fundamentally",
+        "inadequate",
+        "inconsistency"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V00807",
+        "V01192",
+        "V01316"
+      ],
+      "lemmas": [
+        "documentation",
+        "hypothesis",
+        "inappropriate"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V00808",
+        "V01193",
+        "V01317"
+      ],
+      "lemmas": [
+        "documentation",
+        "hypothesis",
+        "inappropriately"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V00809",
+        "V01194",
+        "V01323"
+      ],
+      "lemmas": [
+        "documented",
+        "hypothesis",
+        "inconclusive"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V00861",
+        "V01195",
+        "V01324"
+      ],
+      "lemmas": [
+        "emergent",
+        "hypothesis",
+        "inconclusive"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V00862",
+        "V01197",
+        "V01325"
+      ],
+      "lemmas": [
+        "emerging",
+        "hypothesise",
+        "inconclusive"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V00684",
+      "lemma": "deduce",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V00684_S01",
+          "pos": "v.",
+          "meaning_zh": "根据已知事实推导",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：根据已知事实推导（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We can deduce this bound from the stated assumptions.",
+          "example_zh": "可由所述假设推导出该界限。",
+          "sentence_constituents_zh": "【紧凑主语】We can deduce this... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "deduce from；数学推导与经验猜测不同。 | 熟词生义与多义辨析：学术语境与搭配约束：deduce from；数学推导与经验猜测不同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：根据已知事实推导（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：deduce from；数学推导与经验猜测不同。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“deduce a result from assumptions”精确表述“根据已知事实推导”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“deduce a result from assumptions”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "deduce",
+        "third_person_singular": "deduces",
+        "present_participle": "deducing",
+        "past_tense": "deduced",
+        "past_participle": "deduced",
+        "plural": null,
+        "derived_forms": [
+          "deduce"
+        ],
+        "variants": [
+          "deduce"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00684_01",
+          "phrase": "deduce a result from assumptions",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：deduce a result from assumptions（根据已知事实推导）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00684"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：deduce from；数学推导与经验猜测不同。",
+        "source_tags": [
+          "V00684",
+          "U28",
+          "AWL3词族:deduce",
+          "CET6★主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V00773",
+      "lemma": "discrete",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00773_S01",
+          "pos": "adj.",
+          "meaning_zh": "离散的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：离散的（adj.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The number of visits is a discrete variable.",
+          "example_zh": "到访次数是离散变量。",
+          "sentence_constituents_zh": "【紧凑主语】The number of visits... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "离散取值可有限或可数，不等于任何量都不能再划分。 | 熟词生义与多义辨析：学术语境与搭配约束：离散取值可有限或可数，不等于任何量都不能再划分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：离散的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：离散取值可有限或可数，不等于任何量都不能再划分。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a discrete variable”精确表述“离散的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a discrete variable”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "discrete",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "discrete"
+        ],
+        "variants": [
+          "discrete"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00773_01",
+          "phrase": "a discrete variable",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a discrete variable（离散的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00773"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：离散取值可有限或可数，不等于任何量都不能再划分。",
+        "source_tags": [
+          "V00773",
+          "U33",
+          "AWL5词族:discrete"
+        ]
+      }
+    },
+    {
+      "word_id": "V00806",
+      "lemma": "documentation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00806_S01",
+          "pos": "n.",
+          "meaning_zh": "记录材料",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：记录材料；文档（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Complete documentation helps another team repeat the procedure.",
+          "example_zh": "完整记录帮助另一团队重复该程序。",
+          "sentence_constituents_zh": "【紧凑主语】Complete documentation helps another... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；表示过程或其记录材料。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；表示过程或其记录材料。"
+        },
+        {
+          "sense_id": "V00806_S02",
+          "pos": "n.",
+          "meaning_zh": "文档",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：记录材料；文档（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Complete documentation helps another team repeat the procedure.",
+          "example_zh": "完整记录帮助另一团队重复该程序。",
+          "sentence_constituents_zh": "【紧凑主语】Complete documentation helps another... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；表示过程或其记录材料。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；表示过程或其记录材料。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：记录材料；文档（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；表示过程或其记录材料。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“complete documentation”精确表述“记录材料；文档”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“complete documentation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "documentation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "document"
+        ],
+        "variants": [
+          "documentation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00806_01",
+          "phrase": "complete documentation",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：complete documentation（记录材料；文档）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00806",
+          "V00807",
+          "V00808"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；表示过程或其记录材料。",
+        "source_tags": [
+          "V00806",
+          "U27",
+          "AWL3词族:document"
+        ]
+      }
+    },
+    {
+      "word_id": "V00807",
+      "lemma": "documentation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00807_S01",
+          "pos": "n.",
+          "meaning_zh": "记录",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：记录；文件资料（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Incomplete documentation can obscure the needs of patients.",
+          "example_zh": "记录不完整可能掩盖患者的需求。",
+          "sentence_constituents_zh": "【紧凑主语】Incomplete documentation can obscure... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "在本单元指记录过程或记录资料，不等于患者确实无需求。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：在本单元指记录过程或记录资料，不等于患者确实无需求。"
+        },
+        {
+          "sense_id": "V00807_S02",
+          "pos": "n.",
+          "meaning_zh": "文件资料",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：记录；文件资料（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Incomplete documentation can obscure the needs of patients.",
+          "example_zh": "记录不完整可能掩盖患者的需求。",
+          "sentence_constituents_zh": "【紧凑主语】Incomplete documentation can obscure... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "在本单元指记录过程或记录资料，不等于患者确实无需求。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：在本单元指记录过程或记录资料，不等于患者确实无需求。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：记录；文件资料（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：在本单元指记录过程或记录资料，不等于患者确实无需求。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“incomplete documentation”精确表述“记录；文件资料”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“incomplete documentation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "documentation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "document"
+        ],
+        "variants": [
+          "documentation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00807_01",
+          "phrase": "incomplete documentation",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：incomplete documentation（记录；文件资料）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V00806",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00806",
+          "V00807",
+          "V00808"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：在本单元指记录过程或记录资料，不等于患者确实无需求。",
+        "source_tags": [
+          "V00807",
+          "AWL3词族:document"
+        ]
+      }
+    },
+    {
+      "word_id": "V00808",
+      "lemma": "documentation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00808_S01",
+          "pos": "n.",
+          "meaning_zh": "记录",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：记录；文档资料（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Incomplete documentation can make relevant information difficult to retrieve.",
+          "example_zh": "记录不完整会使相关信息难以获取。",
+          "sentence_constituents_zh": "【紧凑主语】Incomplete documentation can make... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；可指记录资料或记录过程；文档缺失不等于事实不存在。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；可指记录资料或记录过程；文档缺失不等于事实不存在。"
+        },
+        {
+          "sense_id": "V00808_S02",
+          "pos": "n.",
+          "meaning_zh": "文档资料",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：记录；文档资料（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Incomplete documentation can make relevant information difficult to retrieve.",
+          "example_zh": "记录不完整会使相关信息难以获取。",
+          "sentence_constituents_zh": "【紧凑主语】Incomplete documentation can make... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；可指记录资料或记录过程；文档缺失不等于事实不存在。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；可指记录资料或记录过程；文档缺失不等于事实不存在。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：记录；文档资料（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；可指记录资料或记录过程；文档缺失不等于事实不存在。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“incomplete documentation”精确表述“记录；文档资料”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“incomplete documentation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "documentation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "document"
+        ],
+        "variants": [
+          "documentation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00808_01",
+          "phrase": "incomplete documentation",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：incomplete documentation（记录；文档资料）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V00807",
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00806",
+          "V00807",
+          "V00808"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00806 n.] 记录材料；文档（例：Complete documentation helps another team repeat the procedure.）；[V00807 n.] 记录；文件资料（例：Incomplete documentation can obscure the needs of patients.）；[V00808 n.] 记录；文档资料（例：Incomplete documentation can make relevant information difficult to retrieve.） | 本条用法约束：通常不可数；可指记录资料或记录过程；文档缺失不等于事实不存在。",
+        "source_tags": [
+          "V00808",
+          "AWL3词族:document"
+        ]
+      }
+    },
+    {
+      "word_id": "V00809",
+      "lemma": "documented",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00809_S01",
+          "pos": "adj.",
+          "meaning_zh": "有记录的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：有记录的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The methods are clearly documented in the appendix.",
+          "example_zh": "附录清楚记录了这些方法。",
+          "sentence_constituents_zh": "【紧凑主语】The methods are clearly... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "well-documented 表示记录充分，不必表示结论绝对正确。 | 熟词生义与多义辨析：学术语境与搭配约束：well-documented 表示记录充分，不必表示结论绝对正确。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：有记录的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：well-documented 表示记录充分，不必表示结论绝对正确。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“well-documented procedures”精确表述“有记录的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“well-documented procedures”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "documented",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "document"
+        ],
+        "variants": [
+          "documented"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00809_01",
+          "phrase": "well-documented procedures",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：well-documented procedures（有记录的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00809"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：well-documented 表示记录充分，不必表示结论绝对正确。",
+        "source_tags": [
+          "V00809",
+          "U27",
+          "AWL3词族:document"
+        ]
+      }
+    },
+    {
+      "word_id": "V00861",
+      "lemma": "emergent",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00861_S01",
+          "pos": "adj.",
+          "meaning_zh": "涌现的",
+          "core_meaning_zh": "基础字面义：涌现的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：涌现的；新出现的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The review distinguishes emergent properties from component-level properties.",
+          "example_zh": "综述区分涌现性质与组件层面的性质。",
+          "sentence_constituents_zh": "【紧凑主语】The review distinguishes emergent... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "技术语境需说明性质如何在整体中出现。 | 熟词生义与多义辨析：词义与句法边界：技术语境需说明性质如何在整体中出现。"
+        },
+        {
+          "sense_id": "V00861_S02",
+          "pos": "adj.",
+          "meaning_zh": "新出现的",
+          "core_meaning_zh": "基础字面义：涌现的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：涌现的；新出现的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The review distinguishes emergent properties from component-level properties.",
+          "example_zh": "综述区分涌现性质与组件层面的性质。",
+          "sentence_constituents_zh": "【紧凑主语】The review distinguishes emergent... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "技术语境需说明性质如何在整体中出现。 | 熟词生义与多义辨析：词义与句法边界：技术语境需说明性质如何在整体中出现。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：涌现的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：涌现的；新出现的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：技术语境需说明性质如何在整体中出现。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“emergent properties”精确表述“涌现的；新出现的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“emergent properties”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "emergent",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "emerge"
+        ],
+        "variants": [
+          "emergent"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00861_01",
+          "phrase": "emergent properties",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：emergent properties（涌现的；新出现的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00861"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：技术语境需说明性质如何在整体中出现。",
+        "source_tags": [
+          "V00861",
+          "U36",
+          "AWL4词族:emerge"
+        ]
+      }
+    },
+    {
+      "word_id": "V00862",
+      "lemma": "emerging",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00862_S01",
+          "pos": "adj.",
+          "meaning_zh": "正在出现的",
+          "core_meaning_zh": "基础字面义：正在出现的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：正在出现的；新兴的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The seminar introduces an emerging field of research.",
+          "example_zh": "研讨课介绍一个新兴研究领域。",
+          "sentence_constituents_zh": "【紧凑主语】The seminar introduces an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "表示发展中的状态。 | 熟词生义与多义辨析：词义与句法边界：表示发展中的状态。"
+        },
+        {
+          "sense_id": "V00862_S02",
+          "pos": "adj.",
+          "meaning_zh": "新兴的",
+          "core_meaning_zh": "基础字面义：正在出现的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：正在出现的；新兴的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The seminar introduces an emerging field of research.",
+          "example_zh": "研讨课介绍一个新兴研究领域。",
+          "sentence_constituents_zh": "【紧凑主语】The seminar introduces an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "表示发展中的状态。 | 熟词生义与多义辨析：词义与句法边界：表示发展中的状态。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：正在出现的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：正在出现的；新兴的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：表示发展中的状态。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an emerging field”精确表述“正在出现的；新兴的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an emerging field”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "emerging",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "emerge"
+        ],
+        "variants": [
+          "emerging"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00862_01",
+          "phrase": "an emerging field",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an emerging field（正在出现的；新兴的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00862"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：表示发展中的状态。",
+        "source_tags": [
+          "V00862",
+          "U36",
+          "AWL4词族:emerge"
+        ]
+      }
+    },
+    {
+      "word_id": "V00869",
+      "lemma": "emphasise",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V00869_S01",
+          "pos": "v.",
+          "meaning_zh": "强调",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：强调（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The guidelines emphasise the need for informed consent.",
+          "example_zh": "指南强调知情同意的必要性。",
+          "sentence_constituents_zh": "【紧凑主语】The guidelines emphasise the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "英式 emphasise；美式 emphasize。 | 熟词生义与多义辨析：学术语境与搭配约束：英式 emphasise；美式 emphasize。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：强调（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：英式 emphasise；美式 emphasize。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“emphasise the need for”精确表述“强调”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“emphasise the need for”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "emphasise",
+        "third_person_singular": "emphasises",
+        "present_participle": "emphasising",
+        "past_tense": "emphasised",
+        "past_participle": "emphasised",
+        "plural": null,
+        "derived_forms": [
+          "emphasis"
+        ],
+        "variants": [
+          "emphasise",
+          "emphasize"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00869_01",
+          "phrase": "emphasise the need for",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：emphasise the need for（强调）"
+        },
+        {
+          "collocation_id": "C_V00869_02",
+          "phrase": "emphasise the importance of",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：emphasise the importance of（强调）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00869"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：英式 emphasise；美式 emphasize。",
+        "source_tags": [
+          "V00869",
+          "U03",
+          "U14",
+          "U30",
+          "AWL3词族:emphasis"
+        ]
+      }
+    },
+    {
+      "word_id": "V00900",
+      "lemma": "equate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V00900_S01",
+          "pos": "v.",
+          "meaning_zh": "等同",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：等同（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We should not equate a small p-value with a large effect.",
+          "example_zh": "我们不应将小p值等同于大效应。",
+          "sentence_constituents_zh": "【紧凑主语】We should not equate... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "equate A with B；原书equated为过去分词。 | 熟词生义与多义辨析：学术语境与搭配约束：equate A with B；原书equated为过去分词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：等同（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：equate A with B；原书equated为过去分词。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“equate A with B”精确表述“等同”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“equate A with B”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "equate",
+        "third_person_singular": "equates",
+        "present_participle": "equating",
+        "past_tense": "equated",
+        "past_participle": "equated",
+        "plural": null,
+        "derived_forms": [
+          "equate"
+        ],
+        "variants": [
+          "equate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00900_01",
+          "phrase": "equate A with B",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：equate A with B（等同）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00900"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：equate A with B；原书equated为过去分词。",
+        "source_tags": [
+          "V00900",
+          "U46",
+          "AWL2词族:equate",
+          "CET6★主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01095",
+      "lemma": "fundamentally",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V01095_S01",
+          "pos": "adv.",
+          "meaning_zh": "从根本特征而言",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：从根本特征而言（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The methods differ fundamentally in their assumptions.",
+          "example_zh": "这些方法在基本假设上存在根本差异。",
+          "sentence_constituents_zh": "【紧凑主语】The methods differ fundamentally... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "比 merely different 更强，应说明差异具体所在。 | 熟词生义与多义辨析：学术语境与搭配约束：比 merely different 更强，应说明差异具体所在。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：从根本特征而言（adv.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：比 merely different 更强，应说明差异具体所在。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“fundamentally different”精确表述“从根本特征而言”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“fundamentally different”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "fundamentally",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "fundamental"
+        ],
+        "variants": [
+          "fundamentally"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01095_01",
+          "phrase": "fundamentally different",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：fundamentally different（从根本特征而言）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01095"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：比 merely different 更强，应说明差异具体所在。",
+        "source_tags": [
+          "V01095",
+          "U01",
+          "AWL5词族:fundamental"
+        ]
+      }
+    },
+    {
+      "word_id": "V01192",
+      "lemma": "hypothesis",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01192_S01",
+          "pos": "n.",
+          "meaning_zh": "假设",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：假设（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The proposal states a hypothesis that can be tested.",
+          "example_zh": "提案陈述了一个可检验假设。",
+          "sentence_constituents_zh": "【紧凑主语】The proposal states a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "复数 hypotheses；动词 hypothesise/hypothesize。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；动词 hypothesise/hypothesize。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：假设（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；动词 hypothesise/hypothesize。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“test a hypothesis”精确表述“假设”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“test a hypothesis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "hypothesis",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "hypotheses",
+        "derived_forms": [
+          "hypothesis"
+        ],
+        "variants": [
+          "hypothesis",
+          "hypothesise",
+          "hypothesize"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01192_01",
+          "phrase": "test a hypothesis",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：test a hypothesis（假设）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01192",
+          "V01193",
+          "V01194",
+          "V01195"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；动词 hypothesise/hypothesize。",
+        "source_tags": [
+          "V01192",
+          "U24",
+          "U25",
+          "AWL4词族:hypothesis",
+          "CET6★主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01193",
+      "lemma": "hypothesis",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01193_S01",
+          "pos": "n.",
+          "meaning_zh": "假设",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：假设；待检验命题（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The study tested a hypothesis about participation.",
+          "example_zh": "研究检验了关于参与情况的假设。",
+          "sentence_constituents_zh": "【紧凑主语】The study tested a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "复数 hypotheses；提出假设不等于已经证明。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；提出假设不等于已经证明。"
+        },
+        {
+          "sense_id": "V01193_S02",
+          "pos": "n.",
+          "meaning_zh": "待检验命题",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：假设；待检验命题（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The study tested a hypothesis about participation.",
+          "example_zh": "研究检验了关于参与情况的假设。",
+          "sentence_constituents_zh": "【紧凑主语】The study tested a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "复数 hypotheses；提出假设不等于已经证明。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；提出假设不等于已经证明。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：假设；待检验命题（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；提出假设不等于已经证明。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“test a hypothesis”精确表述“假设；待检验命题”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“test a hypothesis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "hypothesis",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "hypotheses",
+        "derived_forms": [
+          "hypothesis"
+        ],
+        "variants": [
+          "hypothesis"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01193_01",
+          "phrase": "test a hypothesis",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：test a hypothesis（假设；待检验命题）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01192",
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01192",
+          "V01193",
+          "V01194",
+          "V01195"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；提出假设不等于已经证明。",
+        "source_tags": [
+          "V01193",
+          "U42",
+          "AWL4词族:hypothesis",
+          "CET6★主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01194",
+      "lemma": "hypothesis",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01194_S01",
+          "pos": "n.",
+          "meaning_zh": "待检验假设",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：待检验假设（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The hypothesis predicts a difference between the groups.",
+          "example_zh": "该假设预测组间存在差异。",
+          "sentence_constituents_zh": "【紧凑主语】The hypothesis predicts a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "单数 hypothesis，复数 hypotheses；不同于作为前提的 assumption。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：单数 hypothesis，复数 hypotheses；不同于作为前提的 assumption。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：待检验假设（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：单数 hypothesis，复数 hypotheses；不同于作为前提的 assumption。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“test a hypothesis”精确表述“待检验假设”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“test a hypothesis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "hypothesis",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "hypotheses",
+        "derived_forms": [
+          "hypothesis"
+        ],
+        "variants": [
+          "hypothesis"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01194_01",
+          "phrase": "test a hypothesis",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：test a hypothesis（待检验假设）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01193",
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01192",
+          "V01193",
+          "V01194",
+          "V01195"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：单数 hypothesis，复数 hypotheses；不同于作为前提的 assumption。",
+        "source_tags": [
+          "V01194",
+          "U29",
+          "AWL4词族:hypothesis",
+          "CET6★主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01195",
+      "lemma": "hypothesis",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01195_S01",
+          "pos": "n.",
+          "meaning_zh": "待检验的假说",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：待检验的假说（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The experiment was designed to test a clearly specified hypothesis.",
+          "example_zh": "该实验旨在检验一个明确规定的假说。",
+          "sentence_constituents_zh": "【紧凑主语】The experiment was designed... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "复数 hypotheses；不同于前提 assumption。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；不同于前提 assumption。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 4 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：待检验的假说（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；不同于前提 assumption。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“test a hypothesis”精确表述“待检验的假说”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“test a hypothesis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "hypothesis",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "hypotheses",
+        "derived_forms": [
+          "hypothesis"
+        ],
+        "variants": [
+          "hypothesis"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01195_01",
+          "phrase": "test a hypothesis",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：test a hypothesis（待检验的假说）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01194",
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01192",
+          "V01193",
+          "V01194",
+          "V01195"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01192 n.] 假设（例：The proposal states a hypothesis that can be tested.）；[V01193 n.] 假设；待检验命题（例：The study tested a hypothesis about participation.）；[V01194 n.] 待检验假设（例：The hypothesis predicts a difference between the groups.）；[V01195 n.] 待检验的假说（例：The experiment was designed to test a clearly specified hypothesis.） | 本条用法约束：复数 hypotheses；不同于前提 assumption。",
+        "source_tags": [
+          "V01195",
+          "AWL4词族:hypothesis",
+          "CET6★主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01197",
+      "lemma": "hypothesise",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01197_S01",
+          "pos": "v.",
+          "meaning_zh": "提出假设",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：提出假设（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The researchers hypothesise that the effect varies across groups.",
+          "example_zh": "研究者假设效应在不同组间有所不同。",
+          "sentence_constituents_zh": "【紧凑主语】The researchers hypothesise that... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "美式 hypothesize；假设尚待检验。 | 熟词生义与多义辨析：学术语境与搭配约束：美式 hypothesize；假设尚待检验。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：提出假设（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：美式 hypothesize；假设尚待检验。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“hypothesise that”精确表述“提出假设”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“hypothesise that”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "hypothesise",
+        "third_person_singular": "hypothesises",
+        "present_participle": "hypothesising",
+        "past_tense": "hypothesised",
+        "past_participle": "hypothesised",
+        "plural": null,
+        "derived_forms": [
+          "hypothesis"
+        ],
+        "variants": [
+          "hypothesise",
+          "hypothesize"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01197_01",
+          "phrase": "hypothesise that",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：hypothesise that（提出假设）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01197"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：美式 hypothesize；假设尚待检验。",
+        "source_tags": [
+          "V01197",
+          "U24",
+          "AWL4词族:hypothesis"
+        ]
+      }
+    },
+    {
+      "word_id": "V01201",
+      "lemma": "identifiable",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01201_S01",
+          "pos": "adj.",
+          "meaning_zh": "可识别的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：可识别的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Participants should not be identifiable in the published dataset.",
+          "example_zh": "参与者不应能在公开数据集中被识别。",
+          "sentence_constituents_zh": "【紧凑主语】Participants should not be... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。 | 熟词生义与多义辨析：学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：可识别的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“identifiable participants”精确表述“可识别的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“identifiable participants”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "identifiable",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "identify"
+        ],
+        "variants": [
+          "identifiable"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01201_01",
+          "phrase": "identifiable participants",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：identifiable participants（可识别的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01201"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "source_tags": [
+          "V01201",
+          "U17",
+          "AWL1词族:identify"
+        ]
+      }
+    },
+    {
+      "word_id": "V01211",
+      "lemma": "illogical",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01211_S01",
+          "pos": "adj.",
+          "meaning_zh": "不合逻辑的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：不合逻辑的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The inference is illogical because the premise does not support it.",
+          "example_zh": "该推理不合逻辑，因为前提不支持它。",
+          "sentence_constituents_zh": "【紧凑主语】The inference is illogical... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。 | 熟词生义与多义辨析：学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：不合逻辑的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an illogical inference”精确表述“不合逻辑的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an illogical inference”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "illogical",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "logic"
+        ],
+        "variants": [
+          "illogical"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01211_01",
+          "phrase": "an illogical inference",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an illogical inference（不合逻辑的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01211"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "source_tags": [
+          "V01211",
+          "U17",
+          "AWL5词族:logic"
+        ]
+      }
+    },
+    {
+      "word_id": "V01315",
+      "lemma": "inadequate",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01315_S01",
+          "pos": "adj.",
+          "meaning_zh": "不足的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：不足的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The evidence is inadequate to support a nationwide conclusion.",
+          "example_zh": "这些证据不足以支持全国范围的结论。",
+          "sentence_constituents_zh": "【紧凑主语】The evidence is inadequate... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "说明相对哪项任务不足。 | 熟词生义与多义辨析：学术语境与搭配约束：说明相对哪项任务不足。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：不足的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：说明相对哪项任务不足。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inadequate evidence”精确表述“不足的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inadequate evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inadequate",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "adequate"
+        ],
+        "variants": [
+          "inadequate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01315_01",
+          "phrase": "inadequate evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inadequate evidence（不足的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01315"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：说明相对哪项任务不足。",
+        "source_tags": [
+          "V01315",
+          "U47",
+          "AWL4词族:adequate"
+        ]
+      }
+    },
+    {
+      "word_id": "V01316",
+      "lemma": "inappropriate",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01316_S01",
+          "pos": "adj.",
+          "meaning_zh": "不恰当的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：不恰当的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A causal interpretation is inappropriate without further evidence.",
+          "example_zh": "没有进一步证据，因果解读就不恰当。",
+          "sentence_constituents_zh": "【紧凑主语】A causal interpretation is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "副词 inappropriately。 | 熟词生义与多义辨析：学术语境与搭配约束：副词 inappropriately。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：不恰当的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：副词 inappropriately。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an inappropriate interpretation”精确表述“不恰当的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an inappropriate interpretation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inappropriate",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "appropriate"
+        ],
+        "variants": [
+          "inappropriate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01316_01",
+          "phrase": "an inappropriate interpretation",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an inappropriate interpretation（不恰当的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01316"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：副词 inappropriately。",
+        "source_tags": [
+          "V01316",
+          "U31",
+          "AWL2词族:appropriate"
+        ]
+      }
+    },
+    {
+      "word_id": "V01317",
+      "lemma": "inappropriately",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V01317_S01",
+          "pos": "adv.",
+          "meaning_zh": "不恰当地",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：不恰当地（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The result was interpreted inappropriately as proof of causation.",
+          "example_zh": "该结果被不恰当地解读为因果证明。",
+          "sentence_constituents_zh": "【紧凑主语】The result was interpreted... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "原练习31.3词形；区别形容词inappropriate。 | 熟词生义与多义辨析：学术语境与搭配约束：原练习31.3词形；区别形容词inappropriate。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：不恰当地（adv.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：原练习31.3词形；区别形容词inappropriate。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“interpret inappropriately”精确表述“不恰当地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“interpret inappropriately”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inappropriately",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "appropriate"
+        ],
+        "variants": [
+          "inappropriately"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01317_01",
+          "phrase": "interpret inappropriately",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：interpret inappropriately（不恰当地）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01317"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：原练习31.3词形；区别形容词inappropriate。",
+        "source_tags": [
+          "V01317",
+          "U31",
+          "AWL2词族:appropriate"
+        ]
+      }
+    },
+    {
+      "word_id": "V01323",
+      "lemma": "inconclusive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01323_S01",
+          "pos": "adj.",
+          "meaning_zh": "不足以定论的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：不足以定论的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The evidence remains inconclusive.",
+          "example_zh": "证据仍不足以定论。",
+          "sentence_constituents_zh": "【紧凑主语】The evidence remains inconclusive.... + 【核心谓语与宾补/状语后置扩展】全句共 4 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "与证明无效不同。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：与证明无效不同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：不足以定论的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：与证明无效不同。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inconclusive evidence”精确表述“不足以定论的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inconclusive evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inconclusive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "conclude"
+        ],
+        "variants": [
+          "inconclusive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01323_01",
+          "phrase": "inconclusive evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inconclusive evidence（不足以定论的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01323",
+          "V01324",
+          "V01325",
+          "V01326",
+          "V01327"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：与证明无效不同。",
+        "source_tags": [
+          "V01323",
+          "U42",
+          "AWL2词族:conclude"
+        ]
+      }
+    },
+    {
+      "word_id": "V01324",
+      "lemma": "inconclusive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01324_S01",
+          "pos": "adj.",
+          "meaning_zh": "不足以得出明确结论的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：不足以得出明确结论的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The evidence is inconclusive because both explanations remain plausible.",
+          "example_zh": "证据尚不足以得出明确结论，因为两种解释仍都有可能。",
+          "sentence_constituents_zh": "【紧凑主语】The evidence is inconclusive... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "既未明确证明，也未明确反驳。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：既未明确证明，也未明确反驳。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：不足以得出明确结论的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：既未明确证明，也未明确反驳。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inconclusive evidence”精确表述“不足以得出明确结论的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inconclusive evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inconclusive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "conclude"
+        ],
+        "variants": [
+          "inconclusive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01324_01",
+          "phrase": "inconclusive evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inconclusive evidence（不足以得出明确结论的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01323",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01323",
+          "V01324",
+          "V01325",
+          "V01326",
+          "V01327"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：既未明确证明，也未明确反驳。",
+        "source_tags": [
+          "V01324",
+          "U42",
+          "AWL2词族:conclude"
+        ]
+      }
+    },
+    {
+      "word_id": "V01325",
+      "lemma": "inconclusive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01325_S01",
+          "pos": "adj.",
+          "meaning_zh": "尚不足以定论的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：尚不足以定论的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The evidence remains inconclusive because the sample is small.",
+          "example_zh": "由于样本小，证据仍不足以定论。",
+          "sentence_constituents_zh": "【紧凑主语】The evidence remains inconclusive... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不是“证明无效”，也不是“无任何信息”。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不是“证明无效”，也不是“无任何信息”。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：尚不足以定论的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不是“证明无效”，也不是“无任何信息”。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inconclusive evidence”精确表述“尚不足以定论的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inconclusive evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inconclusive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "conclude"
+        ],
+        "variants": [
+          "inconclusive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01325_01",
+          "phrase": "inconclusive evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inconclusive evidence（尚不足以定论的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01324",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01323",
+          "V01324",
+          "V01325",
+          "V01326",
+          "V01327"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不是“证明无效”，也不是“无任何信息”。",
+        "source_tags": [
+          "V01325",
+          "U42",
+          "AWL2词族:conclude"
+        ]
+      }
+    },
+    {
+      "word_id": "V01326",
+      "lemma": "inconclusive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01326_S01",
+          "pos": "adj.",
+          "meaning_zh": "无法得出定论的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：无法得出定论的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The findings are inconclusive because the estimates are imprecise.",
+          "example_zh": "由于估计不精确，这些发现无法得出定论。",
+          "sentence_constituents_zh": "【紧凑主语】The findings are inconclusive... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不等于证明没有效应。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不等于证明没有效应。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：无法得出定论的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不等于证明没有效应。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inconclusive evidence”精确表述“无法得出定论的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inconclusive evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inconclusive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "conclude"
+        ],
+        "variants": [
+          "inconclusive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01326_01",
+          "phrase": "inconclusive evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inconclusive evidence（无法得出定论的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01325",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01323",
+          "V01324",
+          "V01325",
+          "V01326",
+          "V01327"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不等于证明没有效应。",
+        "source_tags": [
+          "V01326",
+          "U42",
+          "AWL2词族:conclude"
+        ]
+      }
+    },
+    {
+      "word_id": "V01327",
+      "lemma": "inconclusive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01327_S01",
+          "pos": "adj.",
+          "meaning_zh": "未能得出明确结论的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：未能得出明确结论的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The results were inconclusive because the interval was wide.",
+          "example_zh": "由于区间较宽，结果不能支持明确结论。",
+          "sentence_constituents_zh": "【紧凑主语】The results were inconclusive... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不是证明没有效应；应说为何不确定。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不是证明没有效应；应说为何不确定。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 5 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：未能得出明确结论的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不是证明没有效应；应说为何不确定。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inconclusive results”精确表述“未能得出明确结论的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inconclusive results”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inconclusive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "conclude"
+        ],
+        "variants": [
+          "inconclusive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01327_01",
+          "phrase": "inconclusive results",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inconclusive results（未能得出明确结论的）"
+        },
+        {
+          "collocation_id": "C_V01327_02",
+          "phrase": "an inconclusive test",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an inconclusive test（未能得出明确结论的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01326",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01323",
+          "V01324",
+          "V01325",
+          "V01326",
+          "V01327"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01323 adj.] 不足以定论的（例：The evidence remains inconclusive.）；[V01324 adj.] 不足以得出明确结论的（例：The evidence is inconclusive because both explanations remain plausible.）；[V01325 adj.] 尚不足以定论的（例：The evidence remains inconclusive because the sample is small.）；[V01326 adj.] 无法得出定论的（例：The findings are inconclusive because the estimates are imprecise.） | 本条用法约束：不是证明没有效应；应说为何不确定。",
+        "source_tags": [
+          "V01327",
+          "U10",
+          "AWL2词族:conclude"
+        ]
+      }
+    },
+    {
+      "word_id": "V01328",
+      "lemma": "inconsistency",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01328_S01",
+          "pos": "n.",
+          "meaning_zh": "不一致之处",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：不一致之处（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "An inconsistency in the definition makes coding difficult.",
+          "example_zh": "定义中的一处不一致使编码困难。",
+          "sentence_constituents_zh": "【紧凑主语】An inconsistency in the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数；形容词 inconsistent。 | 熟词生义与多义辨析：学术语境与搭配约束：可数；形容词 inconsistent。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：不一致之处（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：可数；形容词 inconsistent。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an inconsistency in a definition”精确表述“不一致之处”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an inconsistency in a definition”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inconsistency",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "inconsistencies",
+        "derived_forms": [
+          "consist"
+        ],
+        "variants": [
+          "inconsistency"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01328_01",
+          "phrase": "an inconsistency in a definition",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：an inconsistency in a definition（不一致之处）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01328"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：可数；形容词 inconsistent。",
+        "source_tags": [
+          "V01328",
+          "U44",
+          "AWL1词族:consist"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G016",
+      "name": "限制性/非限制性定语从句与“介词 + which/whom”精确修饰",
+      "category": "C8_relative_clauses",
+      "stage": 2,
+      "first_day": "day_0033",
+      "first_day_num": 33,
+      "prerequisites": [
+        "G006",
+        "G009"
+      ],
+      "explanation_zh": "定语从句是构建精确后置定语、避免中式前置长定语的核心工具。必须严格区分限制性（无逗号，界定子集）与非限制性（有逗号，补充评注，不可用 that），并掌握介词前置结构。",
+      "rules": [
+        "限制性定语从句缩窄先行词范围：The analogy breaks down where the two systems differ in the feature on which the comparison depends。",
+        "介词 + which 结构由从句动词或先行词搭配决定：the age at which, the point at which, the rate at which, the extent to which, a protocol by means of which, the assumptions on which the model rests。"
+      ],
+      "examples": [
+        "We devised a protocol by means of which records could be checked.",
+        "The study examines the degree to which access varies by region.",
+        "Before accepting an inference, we check the information on which it depends."
+      ],
+      "common_errors": [
+        "非限制性定语从句逗号后误用 that。",
+        "介词 + which 遗漏固定介词：*the extent which the findings generalise（漏掉 to）。"
+      ]
+    },
+    {
+      "grammar_id": "G021",
+      "name": "句子改写核心规范：语义等价、限定守恒与消除四大改写偏差",
+      "category": "F_sentence_rewriting_rules",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G014",
+        "G018"
+      ],
+      "explanation_zh": "句子改写必须在改变句法或词汇结构的同时，100% 保持原句的事实范围、否定、时间、程度和认知确定性，并能准确诊断语法错误、表达不自然、语域不当与语义扭曲。",
+      "rules": [
+        "限定守恒：原句的 provided that, in this sample, under Gaussian-kernel assumptions, may, arguably 等在改写后必须保留等价限定。",
+        "多路径自然改写：支持动词 <-> 派生名词转换、从句 <-> 介词短语转换、主动 <-> 被动焦点转换，提供多个自然可接受版本。"
+      ],
+      "examples": [
+        "Source: Missing records account for the discrepancy between the totals.\nRewrite 1: The discrepancy between the totals is attributable to missing records.\nRewrite 2: Missing records explain why the two totals differ."
+      ],
+      "common_errors": [
+        "在改写中偷换概念或将相关关系升级为因果结论。"
+      ]
+    },
+    {
+      "grammar_id": "G034",
+      "name": "四大常见表达病灶诊断：口语化、过度表达（Over-expression）、不精确表达与指代悬空",
+      "category": "A_E_F_four_major_writing_defects",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G031",
+        "G033"
+      ],
+      "explanation_zh": "针对中国学习者在论文、雅思托福及六级写作中的四大高频失分点建立系统修正机制：(1) 口语化表达混入书面语，(2) 过度表达（语义重复或情态过满），(3) 不精确表达（缺少比较基准、分母或时间单位），(4) 悬空指代。",
+      "rules": [
+        "修正口语化（Colloquialism）：书面论文中将 a lot of 改为 substantial / a large number of；将 get 改为 obtain / acquire；将 big 改为 substantial / marked；将 do a study 改为 conduct / carry out a study；将 pretty up / dumb down 改为 refine the visual layout / oversimplify。",
+        "修正过度表达与语义冗余（Over-expression & Pleonasm）：禁止写 *halve by 50%*（halve 已含 50%）、*mutually collaborate with each other*、*completely eliminate all*、*future forthcoming*。",
+        "修正不精确表达（Imprecision）：报告 lag（滞后）、rate（速率）或 relative change（相对变化）时，必须指明采样时间单位（sampling interval）、基线（baseline）与分母（denominator）。"
+      ],
+      "examples": [
+        "口语化病句：*We did a small study and got a lot of data, which pretty up our paper.*\n修正：*We conducted a pilot study and collected a substantial amount of data to test the protocol.*",
+        "不精确病句：*The error dropped by 5%.*\n精确修正：*The classification error rate decreased by 5 percentage points (from 20% to 15%) relative to the baseline.*"
+      ],
+      "common_errors": [
+        "把口头演讲过渡语（如 *Getting back to the question / That is all very well, but*）直接写进正式期刊论文正文。",
+        "混淆相对百分比变化（per cent）与绝对百分点变化（percentage points）。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP003",
+      "name": "客观归属文献观点或档案记录来源",
+      "function_category": "attributing_sources_and_claims",
+      "stage": 1,
+      "first_day": "day_0004",
+      "first_day_num": 4,
+      "template": "According to [authors/records], [reported finding]; however, [methodological qualification].",
+      "explanation_zh": "准确区分外部文献说法与本文实证判断。",
+      "register": "general_academic",
+      "examples": [
+        "According to the authors, the evaluation uses synthetic sentences.",
+        "According to the records, the event began before sunset."
+      ],
+      "common_errors": [
+        "*According to me（第一人称严禁使用）。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G007"
+      ]
+    },
+    {
+      "pattern_id": "EP006",
+      "name": "描述实验执行、基线核查与可复现流程",
+      "function_category": "describing_methods_and_procedures",
+      "stage": 1,
+      "first_day": "day_0012",
+      "first_day_num": 12,
+      "template": "We conducted [experiment/survey] under controlled conditions and verified [readings/outputs] against [ground-truth/reference].",
+      "explanation_zh": "直接、清晰地交代实验操作与质量核验步骤，避免头重脚轻。",
+      "register": "formal_academic",
+      "examples": [
+        "The team verified sensor readings against manual measurements.",
+        "Two analysts analysed the data independently."
+      ],
+      "common_errors": [
+        "*make an experiment / *do a research。"
+      ],
+      "prerequisites": [
+        "G006",
+        "G031"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00069",
+        "lemma": "adjacent",
+        "pos": "adj.",
+        "meaning_zh": "相邻的",
+        "polysemy_trap_zh": "学术语境与搭配约束：相邻无其他同类项夹在其间。",
+        "key_collocations": [
+          "adjacent points",
+          "adjacent columns"
+        ],
+        "example_en": "A line connects adjacent points in time order.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00094",
+        "lemma": "albeit",
+        "pos": "conj.",
+        "meaning_zh": "虽然",
+        "polysemy_trap_zh": "词义与句法边界：正式让步；常接简化短语。",
+        "key_collocations": [
+          "albeit with limitations"
+        ],
+        "example_en": "The approach is informative, albeit with limitations.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00111",
+        "lemma": "amend",
+        "pos": "v.",
+        "meaning_zh": "修订文字",
+        "polysemy_trap_zh": "学术语境与搭配约束：常用于法律、合同或正式文本。",
+        "key_collocations": [
+          "amend a contract"
+        ],
+        "example_en": "The committee amended the wording of the consent form.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00117",
+        "lemma": "analyse",
+        "pos": "v.",
+        "meaning_zh": "分析",
+        "polysemy_trap_zh": "学术语境与搭配约束：英式 analyse；美式 analyze，同为正确拼写。",
+        "key_collocations": [
+          "analyse data"
+        ],
+        "example_en": "The team analysed the survey responses separately.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00157",
+        "lemma": "appropriacy",
+        "pos": "n.",
+        "meaning_zh": "适当性，得体性",
+        "polysemy_trap_zh": "学术语境与搭配约束：教材答案给 appropriacy；appropriateness 也是常用正确形式。本题词族学习保留两者。",
+        "key_collocations": [
+          "the appropriacy of"
+        ],
+        "example_en": "The panel considered the appropriacy of the proposed wording.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00160",
+        "lemma": "appropriateness",
+        "pos": "n.",
+        "meaning_zh": "适当性",
+        "polysemy_trap_zh": "学术语境与搭配约束：appropriate 的名词。",
+        "key_collocations": [
+          "the appropriateness of"
+        ],
+        "example_en": "The panel assessed the appropriateness of the consent procedure.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00255",
+        "lemma": "attribution",
+        "pos": "n.",
+        "meaning_zh": "归因",
+        "polysemy_trap_zh": "词义与句法边界：也表示作者或来源署名，依据语境区分。",
+        "key_collocations": [
+          "causal attribution"
+        ],
+        "example_en": "The causal attribution remains uncertain.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00381",
+        "lemma": "categorise",
+        "pos": "v.",
+        "meaning_zh": "归类",
+        "polysemy_trap_zh": "学术语境与搭配约束：英式拼写；美式 categorize。",
+        "key_collocations": [
+          "categorise responses"
+        ],
+        "example_en": "The researchers categorised responses by topic.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00531",
+        "lemma": "conflicting",
+        "pos": "adj.",
+        "meaning_zh": "相互矛盾的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00531 adj.] 相互矛盾的（例：The studies provide conflicting evidence about the intervention.）；[V00532 adj.] 相互矛盾的；有冲突的（例：The two surveys produced conflicting results on the same question.） | 本条用法约束：不一定指某项证据内部矛盾。",
+        "key_collocations": [
+          "conflicting evidence"
+        ],
+        "example_en": "The studies provide conflicting evidence about the intervention.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00532",
+        "lemma": "conflicting",
+        "pos": "adj.",
+        "meaning_zh": "相互矛盾的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00531 adj.] 相互矛盾的（例：The studies provide conflicting evidence about the intervention.）；[V00532 adj.] 相互矛盾的；有冲突的（例：The two surveys produced conflicting results on the same question.） | 本条用法约束：区别 contrasting 仅有差异；conflicting 应有不一致的主张或要求。",
+        "key_collocations": [
+          "conflicting results",
+          "conflicting roles",
+          "conflicting elements"
+        ],
+        "example_en": "The two surveys produced conflicting results on the same question.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00551",
+        "lemma": "considerably",
+        "pos": "adv.",
+        "meaning_zh": "相当大程度地",
+        "polysemy_trap_zh": "学术语境与搭配约束：比 somewhat 更强；需证据支持程度。",
+        "key_collocations": [
+          "considerably larger"
+        ],
+        "example_en": "The archive was considerably larger after the second collection round.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00559",
+        "lemma": "constituent",
+        "pos": "adj./n.",
+        "meaning_zh": "构成整体的",
+        "polysemy_trap_zh": "词义与句法边界：作为形容词说明构成关系；不等于 conflicting。",
+        "key_collocations": [
+          "constituent elements",
+          "constituent parts"
+        ],
+        "example_en": "The analysis separates the constituent elements of the argument.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00561",
+        "lemma": "constrain",
+        "pos": "v.",
+        "meaning_zh": "约束",
+        "polysemy_trap_zh": "词义与句法边界：constrain X；被动 constrained by。",
+        "key_collocations": [
+          "be constrained by funding"
+        ],
+        "example_en": "The study is constrained by limited funding.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00562",
+        "lemma": "constraint",
+        "pos": "n.",
+        "meaning_zh": "约束",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00562 n.] 约束（例：The forecast must satisfy the stated capacity constraint.）；[V00563 n.] 约束；限制条件（例：A constraint on the research is the lack of external data.）；[V00564 n.] 限制因素（例：Financial constraints may limit the scope of the pilot.）；[V00565 n.] 限制；约束（例：The forecast should respect the stated physical constraint.） | 本条用法约束：不能省去约束成立的条件。",
+        "key_collocations": [
+          "satisfy a constraint"
+        ],
+        "example_en": "The forecast must satisfy the stated capacity constraint.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00563",
+        "lemma": "constraint",
+        "pos": "n.",
+        "meaning_zh": "约束",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00562 n.] 约束（例：The forecast must satisfy the stated capacity constraint.）；[V00563 n.] 约束；限制条件（例：A constraint on the research is the lack of external data.）；[V00564 n.] 限制因素（例：Financial constraints may limit the scope of the pilot.）；[V00565 n.] 限制；约束（例：The forecast should respect the stated physical constraint.） | 本条用法约束：constraint on；subject to constraints。",
+        "key_collocations": [
+          "a constraint on research"
+        ],
+        "example_en": "A constraint on the research is the lack of external data.",
+        "first_day": "day_0044"
+      },
+      {
+        "word_id": "V00564",
+        "lemma": "constraint",
+        "pos": "n.",
+        "meaning_zh": "限制因素",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00562 n.] 约束（例：The forecast must satisfy the stated capacity constraint.）；[V00563 n.] 约束；限制条件（例：A constraint on the research is the lack of external data.）；[V00564 n.] 限制因素（例：Financial constraints may limit the scope of the pilot.）；[V00565 n.] 限制；约束（例：The forecast should respect the stated physical constraint.） | 本条用法约束：可数；a constraint on something，budget constraints 是预算限制。",
+        "key_collocations": [
+          "financial constraints",
+          "budget constraint"
+        ],
+        "example_en": "Financial constraints may limit the scope of the pilot.",
+        "first_day": "day_0044"
+      }
+    ]
+  }
+}

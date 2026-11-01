@@ -1,0 +1,195 @@
+{
+  "verdict": "REQUEST_CHANGES",
+  "results": [
+    {
+      "name": "Grammar Rules Ingestion (G001–G036)",
+      "expected_count": 36,
+      "found_subsections": 36,
+      "found_labels": 36,
+      "missing_subsections": [],
+      "missing_labels": [],
+      "passed": true
+    },
+    {
+      "name": "Expression Patterns Ingestion (EP001–EP024)",
+      "expected_count": 24,
+      "found_subsections": 24,
+      "found_labels": 24,
+      "missing_subsections": [],
+      "missing_labels": [],
+      "passed": true
+    },
+    {
+      "name": "Logic Rules Ingestion (L001–L030)",
+      "expected_count": 30,
+      "found_subsections": 30,
+      "found_labels": 30,
+      "missing_subsections": [],
+      "missing_labels": [],
+      "passed": true
+    },
+    {
+      "name": "Paragraph Blueprints Ingestion (BP01–BP48)",
+      "expected_count": 48,
+      "found_subsections": 48,
+      "found_labels": 48,
+      "missing_subsections": [],
+      "missing_labels": [],
+      "passed": true
+    },
+    {
+      "name": "Revision Clinic Cases Ingestion (RC01–RC60)",
+      "expected_count": 60,
+      "found_subsections": 60,
+      "found_labels": 60,
+      "missing_subsections": [],
+      "missing_labels": [],
+      "passed": true
+    },
+    {
+      "name": "Full Text Anthology Ingestion (FT01–FT24)",
+      "expected_count": 24,
+      "found_sections": 24,
+      "found_labels": 24,
+      "missing_sections": [],
+      "missing_labels": [],
+      "passed": true
+    },
+    {
+      "name": "Unicode Circled Numbers Hygiene (①–⑳)",
+      "violations_count": 0,
+      "violations": [],
+      "passed": true
+    },
+    {
+      "name": "Special Character Escaping Hygiene",
+      "violations_pct": [
+        {
+          "file": "part4_blueprints.tex",
+          "line": 1165,
+          "col": 309,
+          "snippet": " dropped steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 m"
+        },
+        {
+          "file": "part4_blueprints.tex",
+          "line": 1165,
+          "col": 317,
+          "snippet": " steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 million, "
+        },
+        {
+          "file": "part4_blueprints.tex",
+          "line": 1165,
+          "col": 578,
+          "snippet": "re curve, achieving a 0.7% defect rate with just \\$22 millio"
+        },
+        {
+          "file": "part5_revision_clinic.tex",
+          "line": 767,
+          "col": 309,
+          "snippet": " dropped steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 m"
+        },
+        {
+          "file": "part5_revision_clinic.tex",
+          "line": 767,
+          "col": 317,
+          "snippet": " steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 million, "
+        },
+        {
+          "file": "part5_revision_clinic.tex",
+          "line": 767,
+          "col": 578,
+          "snippet": "re curve, achieving a 0.7% defect rate with just \\$22 millio"
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1732,
+          "col": 309,
+          "snippet": " dropped steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 m"
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1732,
+          "col": 317,
+          "snippet": " steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 million, "
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1732,
+          "col": 578,
+          "snippet": "re curve, achieving a 0.7% defect rate with just \\$22 millio"
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1837,
+          "col": 309,
+          "snippet": " dropped steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 m"
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1837,
+          "col": 317,
+          "snippet": " steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 million, "
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1837,
+          "col": 578,
+          "snippet": "re curve, achieving a 0.7% defect rate with just \\$22 millio"
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1917,
+          "col": 309,
+          "snippet": " dropped steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 m"
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1917,
+          "col": 317,
+          "snippet": " steeply from 4.8% to 0.9% (Figure 2). Beyond \\$40 million, "
+        },
+        {
+          "file": "part6_anthology.tex",
+          "line": 1917,
+          "col": 578,
+          "snippet": "re curve, achieving a 0.7% defect rate with just \\$22 millio"
+        }
+      ],
+      "violations_amp": [],
+      "violations_und": [],
+      "violations_hash": [],
+      "violations_curr": [],
+      "passed": false
+    },
+    {
+      "name": "Empirical PDF Truncation Check",
+      "snippet_truncated": true,
+      "snippet_extracted_sample": "Academic English Mastery\nModel Paragraph Test\nCross-referencing both figures reveals a strong inverse relationship between automated inspection\ninvestment and manufacturing defect rates up to a $40 mi",
+      "deliverable_total_pages": 499,
+      "deliverable_truncated_pages_count": 5,
+      "deliverable_truncated_pages": [
+        {
+          "page_number": 168,
+          "truncated_line": "from 4.8"
+        },
+        {
+          "page_number": 256,
+          "truncated_line": "from 4.8"
+        },
+        {
+          "page_number": 440,
+          "truncated_line": "from 4.8"
+        },
+        {
+          "page_number": 449,
+          "truncated_line": "from 4.8"
+        },
+        {
+          "page_number": 454,
+          "truncated_line": "from 4.8"
+        }
+      ],
+      "passed": false
+    }
+  ]
+}

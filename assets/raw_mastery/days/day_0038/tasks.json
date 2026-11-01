@@ -1,0 +1,374 @@
+[
+  {
+    "task_id": "D0038_T01",
+    "day": "day_0038",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段】。你这一段的核心表达意图是：“我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。”。请严格按照 `BP38` 的逐句功能骨架（4 步法）与逻辑法则 `L008`（先让步、再釜底抽薪式反驳（Concession-Pivot-Refutation）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+    "structural_constraints": [
+      "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+      "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+      "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+      "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+    ],
+    "linked_blueprint_id": "BP38",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T02",
+    "day": "day_0038",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Introduction 第二段（Literature Context & Hidden Assumption）】。你这一段的核心表达意图是：“我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。”。请按 `BP02` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T03",
+    "day": "day_0038",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L008`（先让步、再釜底抽薪式反驳（Concession-Pivot-Refutation））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+    "structural_constraints": [
+      "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+      "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+      "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+      "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+    ],
+    "linked_blueprint_id": "BP38",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T04",
+    "day": "day_0038",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L016`（消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T05",
+    "day": "day_0038",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+    "prompt_zh": "【深度病段修改诊所 1：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+    "structural_constraints": [
+      "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+      "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+      "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+      "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+    ],
+    "linked_blueprint_id": "BP38",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T06",
+    "day": "day_0038",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【深度病段修改诊所 2：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T07",
+    "day": "day_0038",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 深化论证段，或论文 Motivation 强化段",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+    "prompt_zh": "【深度病段修改诊所 3：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "When the robot hand blocks the camera, the robot cannot see the object clearly. So we add force sensors and joint angles. Also, we predict multiple steps of actions and use an adapter to transfer from simulation to the real robot.",
+    "structural_constraints": [
+      "S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y].",
+      "S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge.",
+      "S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation].",
+      "S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience."
+    ],
+    "linked_blueprint_id": "BP39",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T08",
+    "day": "day_0038",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+    "structural_constraints": [
+      "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+      "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+      "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+      "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+    ],
+    "linked_blueprint_id": "BP38",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T09",
+    "day": "day_0038",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Introduction 第二段（Literature Context & Hidden Assumption）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。",
+      "S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。",
+      "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。",
+      "S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。"
+    ],
+    "linked_blueprint_id": "BP02",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T10",
+    "day": "day_0038",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 深化论证段，或论文 Motivation 强化段",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP38`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "When the robot hand blocks the camera, the robot cannot see the object clearly. So we add force sensors and joint angles. Also, we predict multiple steps of actions and use an adapter to transfer from simulation to the real robot.",
+    "structural_constraints": [
+      "S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y].",
+      "S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge.",
+      "S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation].",
+      "S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience."
+    ],
+    "linked_blueprint_id": "BP39",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T11",
+    "day": "day_0038",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+    "prompt_zh": "【多段贯通写作实战 1：IELTS_Task1_Static 核心章节连写】参照全文样板 `FT14 (雅思小作文（Task 1）静态柱状图与饼图组合满分范文：云端推理与机载机器人控制系统的能耗结构对比)` 的段落蓝图链 `BP25 -> BP27 -> BP28`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+    "structural_constraints": [
+      "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+      "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+      "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+      "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+    ],
+    "linked_blueprint_id": "BP38",
+    "linked_logic_ids": [
+      "L008",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0038_T12",
+    "day": "day_0038",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 深化论证段，或论文 Motivation 强化段",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP39` 与全文样板 `FT14` 的后半部分（``），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "When the robot hand blocks the camera, the robot cannot see the object clearly. So we add force sensors and joint angles. Also, we predict multiple steps of actions and use an adapter to transfer from simulation to the real robot.",
+    "structural_constraints": [
+      "S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y].",
+      "S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge.",
+      "S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation].",
+      "S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience."
+    ],
+    "linked_blueprint_id": "BP39",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

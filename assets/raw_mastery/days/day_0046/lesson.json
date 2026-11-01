@@ -1,0 +1,346 @@
+{
+  "day": "day_0046",
+  "day_number": 46,
+  "stage": 4,
+  "stage_name_zh": "Stage 4: 学术演讲、科研叙事与六级/雅思/托福整篇大小作文满分实战",
+  "daily_focus_title_zh": "第 46 天：顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段 × 消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution） × IELTS_Task2_AgreeDisagree 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP46",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段",
+      "user_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+      "when_to_use_zh": "顶会 Rebuttal 核心争议攻防段（Novelty Defense）",
+      "paragraph_move_structure": [
+        "S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B].",
+        "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference].",
+        "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee].",
+        "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking."
+      ],
+      "cohesion_and_logic_formula": "Clarify Distinction -> Explain Why Naive Stacking Fails -> Highlight Core Coupling Mechanism -> Prove with 'Naive A+B' Ablation Data. 绑定逻辑规则：L019, L016.",
+      "defective_draft": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+      "defect_diagnosis_zh": "承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！",
+      "model_paragraph_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+          "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+          "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+          "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "教科书级的 Novelty 防御战：先讲直接拼凑 A+B 为什么在数学上会冲突，再讲我们的双向耦合算子如何破局，最后直接掏出 `Naive A+B` 对比实验（赢 15.2%）一剑封喉。"
+    },
+    {
+      "blueprint_id": "BP10",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "对比现有流派优劣并精准定位本文差异（Contrastive Positioning）",
+      "user_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+      "when_to_use_zh": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+      "paragraph_move_structure": [
+        "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+        "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+        "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+        "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+      ],
+      "cohesion_and_logic_formula": "Acknowledge Overlap -> Pinpoint Structural Divergence -> Explain Functional Gain. 绑定逻辑规则：L008, L019.",
+      "defective_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+      "defect_diagnosis_zh": "回避了具体技术异同，只喊口号说 much better and more novel，审稿人最反感这种敷衍对比。",
+      "model_paragraph_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach. While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes. In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases. Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [锁定最相近工作 Closest Prior Work]",
+          "sentence_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [剖析其局限性 Structural Difference 1]",
+          "sentence_en": "While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [剖析本文本质突破 Core Departure]",
+          "sentence_en": "In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]",
+          "sentence_en": "Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "坦然承认都用了傅里叶变换（Acknowledge overlap），随即精准对比“全局静态 top-k 选频 vs. 滑动子区间自适应小波带宽调节”，彻底打消 incremental 质疑。"
+    },
+    {
+      "blueprint_id": "BP47",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "顶会 Rebuttal 针对“缺少最新基线或算力不公平（Missing Baselines / Fairness）”的补全段",
+      "user_intent_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+      "when_to_use_zh": "顶会 Rebuttal 实验补全与公平性自证段",
+      "paragraph_move_structure": [
+        "S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3.",
+        "S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%].",
+        "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%].",
+        "S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count."
+      ],
+      "cohesion_and_logic_formula": "Direct Fulfilment -> Margin over New Baselines -> Parameter-Reduced Variant (`Ours-Small`) Proof -> Inductive Bias Takeaway. 绑定逻辑规则：L019, L010.",
+      "defective_draft": "We added the baseline X you asked for. Our model is 0.182 and X is 0.205, so we are still better. Also our model does not have many parameters.",
+      "defect_diagnosis_zh": "过于单薄，特别是回应参数量质疑时只口头说 does not have many parameters，远不如构造一个缩小版 `Ours-Small` 依然吊打对手有说服力。",
+      "model_paragraph_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3. Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS. Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE. This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [直接响应并呈上新表 Direct Fulfilment]",
+          "sentence_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比最新基线结果 Performance vs. New Baselines]",
+          "sentence_en": "Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]",
+          "sentence_en": "Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结论锁定 Conclusion]",
+          "sentence_en": "This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "既补齐了审稿人点名的最新基线，又主动用小号模型（少 42% 参数、少 55% 计算量却依然反超 6.8%）彻底封死“靠堆参数取胜”的质疑。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L016",
+      "category": "Experimental Writing (实验章节逻辑)",
+      "name_zh": "消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution）",
+      "name_en": "Counterfactual Ablation Attribution",
+      "core_principle_zh": "消融实验段落（Ablation Study）的核心逻辑是“反事实归因”：不仅要报告拿掉模块 A 后指标下降了多少，更要指出拿掉 A 后模型具体在什么子任务/子场景上出现了什么退化，从而锁定模块 A 的不可替代性。",
+      "structural_formula": "Removing [Module A] (w/o A) causes [Metric] to drop by [X%], with the sharpest degradation occurring under [Specific Hard Condition]. This drop indicates that without [Module A], the model fails to [Specific Function].",
+      "common_pitfall_zh": "只写 Without module A, accuracy drops by 3%, which proves module A is very important and effective（同义反复，未解释为什么降）。",
+      "bad_example_en": "When we remove the kinematics constraint loss, the success rate drops by 14%. This shows that the kinematics constraint loss is very important for our robot.",
+      "good_example_en": "Removing the kinematic feasibility loss (w/o $\\mathcal{L}_{\\text{kin}}$) reduces real-world drawer-opening success from 86% to 72%. Inspection of failed trajectories reveals that without $\\mathcal{L}_{\\text{kin}}$, the diffusion policy frequently generates wrist orientations that exceed joint torque limits during the pull phase.",
+      "analysis_zh": "不仅给出 86%->72% 的量化回落，还通过轨迹检查揭示了“缺少运动学约束导致手腕姿态超出关节扭矩极限”的具体物理死因。"
+    },
+    {
+      "logic_id": "L024",
+      "category": "Domain Discourse (时间序列专属论证)",
+      "name_zh": "时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic）",
+      "name_en": "Non-Stationary Drift and Multi-Scale Decomposition Logic",
+      "core_principle_zh": "论述时间序列问题时，必须清晰区分两类矛盾：① 统计分布漂移（Distribution Shift：均值/方差随时间突变）与局部时序语义（Intrinsic Temporal Dependency）之间的矛盾；② 短期高频波动（High-frequency Fluctuations）与长期宏观趋势（Long-term Trend）的混叠干扰。",
+      "structural_formula": "Naive normalization removes [Non-stationary shift] at the expense of [Intrinsic scale information]. -> Our reversible/decoupled module disentangles [Component A] from [Component B], restoring [Target Property].",
+      "common_pitfall_zh": "笼统说 time series data is very complex and hard to predict，说不清究竟是协变量偏移、频率混叠还是采样不规则。",
+      "bad_example_en": "Real-world time series are very complicated and change all the time, so normal normalization makes predictions bad.",
+      "good_example_en": "While instance normalization mitigates non-stationary mean and variance shifts across lookback windows, stripping these statistics discards amplitude cues essential for forecasting peak electricity loads. Our adaptive de-stationary projection restores horizon-specific scale statistics during decoding, preserving both stationarity in attention computation and physical amplitude fidelity in the final output.",
+      "analysis_zh": "精准切中时间序列领域最核心的“去平稳化归一化抹除物理幅值信息 vs. 注意力层需要平稳分布”的张力。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC46",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP46",
+      "linked_logic_id": "L016",
+      "communicative_goal_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+      "original_defective_paragraph": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L016 消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+          "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+          "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+          "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC06",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP06",
+      "linked_logic_id": "L006",
+      "communicative_goal_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+      "original_defective_paragraph": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L006 图尔敏五步微论证模型（Toulmin Micro-Argumentation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "全段零数字（many datasets, a large margin, very fast），没有任何实质信息。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors. Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions. Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [评测广度 Scope of Evaluation]",
+          "sentence_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心精度突破 Primary Accuracy Gain]",
+          "sentence_en": "Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]",
+          "sentence_en": "Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC24",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP24",
+      "linked_logic_id": "L024",
+      "communicative_goal_zh": "我这一段想写整篇小论文的 Conclusion：不简单复制粘贴 Abstract，而是从更高维度总结本文解决的科学矛盾、方法精髓、实证高度与领域启示。",
+      "original_defective_paragraph": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L024 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "机械重复摘要且句式干瘪，末句 We hope our work will inspire... 属于典型的中式客套收尾。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting. By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes. Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead. Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心科学问题闭合 Scientific Closure]",
+          "sentence_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [方法论精髓回顾 Methodological Synthesis]",
+          "sentence_en": "By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实证结果高度概括 Empirical Recap]",
+          "sentence_en": "Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [跨领域迁移展望 Broader Outlook]",
+          "sentence_en": "Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT22",
+    "genre": "IELTS_Task2_AgreeDisagree",
+    "title_zh": "雅思大作文（Task 2 To What Extent Agree）8.5 分范文：开源大模型权重的科学透明收益是否远超其滥用风险",
+    "structural_blueprint_chain": [
+      "BP33",
+      "BP38",
+      "BP36",
+      "BP39",
+      "BP40"
+    ]
+  }
+}

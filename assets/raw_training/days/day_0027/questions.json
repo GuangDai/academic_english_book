@@ -1,0 +1,1714 @@
+[
+  {
+    "question_id": "Q_D0027_01",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 show (V02284) 的学术多义项与语境词形，并联动巩固 significant (V02296)。",
+    "prompt": "【day_0027·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“显示”，v.；注意区别于日常义：已学基础义或同词元其他语境义（共关联 3 个词表词义单元）），填写唯一准确的英文词形：\nSentence 1: These data ________ a trend over time. （句意：这些数据显示了随时间变化的趋势。）\nSentence 2 (Companion Context with 'significant'): The archive contains a significant number of unpublished letters.",
+    "context": "熟词生义与用法边界：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：本句 data 用复数惯例；保持主谓一致。 | 句子成分结构：【紧凑主语】These data show a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V02284",
+      "V02296"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V02295"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G001",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 show）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_02",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 show (V02285) 的学术多义项与语境词形，并联动巩固 significant (V02297)。",
+    "prompt": "【day_0027·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“显示，表明”，v.；注意区别于日常义：已学基础义或同词元其他语境义（共关联 3 个词表词义单元）），填写唯一准确的英文词形：\nSentence 1: The table ________ that the recorded totals differ. （句意：表格显示所记录的总数不同。）\nSentence 2 (Companion Context with 'significant'): The report distinguishes statistically significant differences from practically important differences.",
+    "context": "熟词生义与用法边界：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show 不应自动译为严格证明因果。 | 句子成分结构：【紧凑主语】The table shows that... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V02285",
+      "V02297"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V02284",
+      "G031",
+      "G032",
+      "V02296"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G001",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 show）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_03",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 show (V02286) 的学术多义项与语境词形，并联动巩固 silent (V02301)。",
+    "prompt": "【day_0027·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“表明”，v.；注意区别于日常义：已学基础义或同词元其他语境义（共关联 3 个词表词义单元）），填写唯一准确的英文词形：\nSentence 1: The table ________ the distribution of labels. （句意：该表展示标签分布。）\nSentence 2 (Companion Context with 'silent'): The observer records when participants remain silent.",
+    "context": "熟词生义与用法边界：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show that 是强于 suggest 的陈述，需相应证据。 | 句子成分结构：【紧凑主语】The table shows the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V02286",
+      "V02301"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V02285",
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G001",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 show）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_04",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 signal (V02290) 的学术多义项与语境词形，并联动巩固 similar (V02302)。",
+    "prompt": "【day_0027·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“表示”，v./n.；注意区别于日常义：基础字面义：表示），填写唯一准确的英文词形：\nSentence 1: A punctuation mark can ________ a boundary between clauses. （句意：标点符号可以表示分句之间的边界。）\nSentence 2 (Companion Context with 'similar'): The second task is similar to the first.",
+    "context": "熟词生义与用法边界：词义与句法边界：本例是动词，can后用原形；名词signal是另一词性。 | 句子成分结构：【紧凑主语】A punctuation mark can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V02290",
+      "V02302"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G001",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 signal）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_05",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 significant (V02293) 的学术多义项与语境词形，并联动巩固 simple (V02309)。",
+    "prompt": "【day_0027·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“显著的”，adj.；注意区别于日常义：adj. 重大的），填写唯一准确的英文词形：\nSentence 1: A ________ number of records were incomplete. （句意：相当数量的记录不完整。）\nSentence 2 (Companion Context with 'simple'): The pilot used a simple procedure with two steps.",
+    "context": "熟词生义与用法边界：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.） | 句子成分结构：【紧凑主语】A significant number of... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V02293",
+      "V02309"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G001",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 significant）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_06",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 significant (V02294) 的学术多义项与语境词形，并联动巩固 situation (V02317)。",
+    "prompt": "【day_0027·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“重要的，显著的”，adj.；注意区别于日常义：adj. 重大的），填写唯一准确的英文词形：\nSentence 1: The archive makes a ________ contribution to regional history. （句意：这份档案对地区历史作出了重要贡献。）\nSentence 2 (Companion Context with 'situation'): In this situation, the missing record requires further review.",
+    "context": "熟词生义与用法边界：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.） | 句子成分结构：【紧凑主语】The archive makes a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V02294",
+      "V02317"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V02293",
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G001",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 significant）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_07",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 significant 的自然搭配“a significant impact”并消除中式直译搭配错误。",
+    "prompt": "【day_0027·常见学术搭配 1】根据搭配类型（adj+noun）与用法规范，使用目标词“significant”（重要的）的规约搭配补全并写出下列完整英文学术句（表达：“缺失的一页对我们如何解释这封信有较大影响。”），使其与后句中的“skip”（skip a slide）构成自然衔接：\n待完成句语义：缺失的一页对我们如何解释这封信有较大影响。（核心搭配提示：a significant impact）\n后续衔接句：I will skip the next slide to leave time for discussion.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“a significant impact”精确表述“重要的；影响较大的；统计显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V02295",
+      "V02319"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G006"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02294",
+      "G031",
+      "G032",
+      "G001",
+      "G004"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G001",
+      "G006",
+      "EP019",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“a significant impact”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_08",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 significant 的自然搭配“significant aspect”并消除中式直译搭配错误。",
+    "prompt": "【day_0027·常见学术搭配 2】根据搭配类型（adj+noun）与用法规范，使用目标词“significant”（重要的）的规约搭配补全并写出下列完整英文学术句（表达：“档案中有相当数量的未发表书信。”），使其与后句中的“slope”（regression slope）构成自然衔接：\n待完成句语义：档案中有相当数量的未发表书信。（核心搭配提示：significant aspect）\n后续衔接句：The slope of y = ax + b is a.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“significant aspect”精确表述“重要的；数量可观的；统计上显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V02296",
+      "V02321"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G006"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02295",
+      "G031",
+      "G032",
+      "G002",
+      "G001",
+      "G004"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G001",
+      "G006",
+      "EP019",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“significant aspect”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_09",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 significant 的自然搭配“a statistically significant difference”并消除中式直译搭配错误。",
+    "prompt": "【day_0027·常见学术搭配 3】根据搭配类型（adj+noun）与用法规范，使用目标词“significant”（重要的）的规约搭配补全并写出下列完整英文学术句（表达：“报告区分了统计显著差异与实际重要差异。”），使其与后句中的“soar”（prices soar）构成自然衔接：\n待完成句语义：报告区分了统计显著差异与实际重要差异。（核心搭配提示：a statistically significant difference）\n后续衔接句：In the hypothetical market scenario, prices soared within a week.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“a statistically significant difference”精确表述“重要的；统计显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V02297",
+      "V02325"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G006"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02296",
+      "G031",
+      "G032",
+      "G011",
+      "G001",
+      "G004"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G001",
+      "G006",
+      "EP019",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“a statistically significant difference”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_10",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 silent 的自然搭配“keep silent”并消除中式直译搭配错误。",
+    "prompt": "【day_0027·常见学术搭配 4】根据搭配类型（adj+noun）与用法规范，使用目标词“silent”（安静的）的规约搭配补全并写出下列完整英文学术句（表达：“观察者记录参与者何时保持沉默。”），使其与后句中的“soar”（costs soar）构成自然衔接：\n待完成句语义：观察者记录参与者何时保持沉默。（核心搭配提示：keep silent）\n后续衔接句：In the hypothetical budget, transport costs soared during the final month.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“keep silent”精确表述“安静的；不出声的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V02301",
+      "V02326"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G006"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02325",
+      "G011",
+      "G001",
+      "G004"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G001",
+      "G006",
+      "EP019",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“keep silent”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_11",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 similar 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0027·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 similar）：\nContext: The second task is ________ to the first. Furthermore, regarding 'society', the comparison examines how rules differ between one society and another.",
+    "context": "目标句意：第二项任务与第一项相似。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. ill",
+      "B. immense",
+      "C. important",
+      "D. similar"
+    ],
+    "focus_word_ids": [
+      "V02302",
+      "V02330"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G001",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_12",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 simple 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0027·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 simple）：\nContext: The pilot used a ________ procedure with two steps. Furthermore, regarding 'sole', the sole purpose of the pilot was to test the questionnaire.",
+    "context": "目标句意：试点使用一个只有两步的简单程序。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. simple",
+      "B. irregular",
+      "C. key",
+      "D. last"
+    ],
+    "focus_word_ids": [
+      "V02309",
+      "V02333"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G001",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_13",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 situation 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0027·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 situation）：\nContext: In this ________, the missing record requires further review. Furthermore, regarding 'solid', the claim requires solid evidence from several sources.",
+    "context": "目标句意：在这种情况下，缺失记录需要进一步复核。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. component",
+      "B. situation",
+      "C. concept",
+      "D. consent"
+    ],
+    "focus_word_ids": [
+      "V02317",
+      "V02336"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G001",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_14",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 skip 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0027·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 skip）：\nContext: I will ________ the next slide to leave time for discussion. Furthermore, regarding 'solid', a solid argument links each conclusion to relevant evidence.",
+    "context": "目标句意：我将跳过下一张幻灯片，留出讨论时间。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. restrain",
+      "B. restrict",
+      "C. skip",
+      "D. retain"
+    ],
+    "focus_word_ids": [
+      "V02319",
+      "V02337"
+    ],
+    "grammar_ids": [
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02336"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G001",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "spoken_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0027_15",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 2,
+    "training_objective": "用精准学术词 slope (slope) 替换英文初稿中的口语/模糊表达“general thing or part”。",
+    "prompt": "【day_0027·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`general thing or part`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“slope”的恰当词形，并写出完整修正句（需同时保留后半句中关于“somewhat”的语境信息）：\nEnglish Draft: The <u>general thing or part</u> of y = ax + b is a. (Context note: The revised sample was somewhat larger than the pilot sample.)",
+    "context": "目标语义：直线 y = ax + b 的斜率是 a。 | 熟词生义提醒：多义项/多词性完整映射：斜率；坡度（n.）",
+    "options": null,
+    "focus_word_ids": [
+      "V02321",
+      "V02341"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_2",
+      "G001",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_16",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 2,
+    "training_objective": "用精准学术词 soar (soared) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0027·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“soar”的恰当词形，并写出完整修正句（需同时保留后半句中关于“sophisticated”的语境信息）：\nEnglish Draft: In the hypothetical market scenario, prices <u>do or handle</u> within a week. (Context note: A sophisticated method still requires a fair comparison with simpler alternatives.)",
+    "context": "目标语义：在假设市场情境中，价格一周内快速大幅上升。 | 熟词生义提醒：当前单元特定学术义：快速大幅上升（v.）",
+    "options": null,
+    "focus_word_ids": [
+      "V02325",
+      "V02342"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_2",
+      "G001",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_17",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 2,
+    "training_objective": "用精准学术词 soar (soared) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0027·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“soar”的恰当词形，并写出完整修正句（需同时保留后半句中关于“source”的语境信息）：\nEnglish Draft: In the hypothetical budget, transport costs <u>do or handle</u> during the final month. (Context note: Incomplete sampling is a possible source of bias.)",
+    "context": "目标语义：在这份假设预算中，最后一个月的交通费大幅上涨。 | 熟词生义提醒：当前单元特定学术义：迅速大幅上升（v.）",
+    "options": null,
+    "focus_word_ids": [
+      "V02326",
+      "V02345"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V02325",
+      "G031",
+      "G011",
+      "G032",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_2",
+      "G001",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "cet6_ielts_toefl_education_and_academic_life",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_18",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 2,
+    "training_objective": "使用地道学术搭配“rules of a society”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0027·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“society”的核心学术短语/搭配（“rules of a society”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The comparison examines how rules differ between one <u>make a basic handling in a general way regarding general thing or part</u> and another.\nCompanion Context ('source'): The student checked the claim against a primary source. （目标句意：比较考察不同社会的规则有何差异。）",
+    "context": "目标规约短语：rules of a society | 配合表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定",
+    "options": null,
+    "focus_word_ids": [
+      "V02330",
+      "V02346"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02345",
+      "G001",
+      "G004",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_2",
+      "G006",
+      "G034",
+      "EP019",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“rules of a society”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_19",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 2,
+    "training_objective": "使用地道学术搭配“the sole purpose”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0027·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“sole”的核心学术短语/搭配（“the sole purpose”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The <u>make a basic handling in a general way regarding big or special</u> purpose of the pilot was to test the questionnaire.\nCompanion Context ('spare'): There are spare copies on the desk. （目标句意：这项试点的唯一目的是测试问卷。）",
+    "context": "目标规约短语：the sole purpose | 配合表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定",
+    "options": null,
+    "focus_word_ids": [
+      "V02333",
+      "V02347"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G004",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_2",
+      "G006",
+      "G034",
+      "EP019",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“the sole purpose”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_20",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 2,
+    "training_objective": "使用地道学术搭配“solid evidence”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0027·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“solid”的核心学术短语/搭配（“solid evidence”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The claim requires <u>make a basic handling in a general way regarding big or special</u> evidence from several sources.\nCompanion Context ('specific'): The procedure is valid only under specific conditions. （目标句意：这一论断需要来自多个来源的可靠证据。）",
+    "context": "目标规约短语：solid evidence | 配合表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定",
+    "options": null,
+    "focus_word_ids": [
+      "V02336",
+      "V02354"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G004",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_2",
+      "G006",
+      "G034",
+      "EP019",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“solid evidence”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_21",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 solid 与 show 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0027·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】\nTop-Heavy Draft: *The question of how the research team can properly handle the fact that a solid argument links each conclusion to relevant evidence. in the experiment is what we look at.*\n改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“solid”（搭配：a solid argument）将其改写为紧凑、有力的学术句子（并结合“show”的语境边界）。",
+    "context": "核心成分拆解：【紧凑主语】A solid argument links... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：具体说明支持依据。",
+    "options": null,
+    "focus_word_ids": [
+      "V02337",
+      "V02284"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02336",
+      "G031",
+      "G032",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G001",
+      "G032",
+      "EP019",
+      "sentence_rewriting",
+      "G032",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 solid 的搭配“a solid argument”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_22",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 somewhat 与 show 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0027·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】\nAI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: The revised sample was somewhat larger than the pilot sample.*\n改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“somewhat”写出零 AI 痕迹、克制精准的学术句子（关联词条：show）。",
+    "context": "核心成分拆解：【紧凑主语】The revised sample was... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：程度有限，不给出精确大小。",
+    "options": null,
+    "focus_word_ids": [
+      "V02341",
+      "V02285"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02284"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G001",
+      "G033",
+      "EP019",
+      "sentence_rewriting",
+      "G033",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 somewhat 的搭配“somewhat larger”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_23",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 sophisticated 与 show 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0027·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】\nSource Statement: A sophisticated method still requires a fair comparison with simpler alternatives. （中文句意：复杂精细的方法仍需与更简单的方法进行公平比较。）\n改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“sophisticated”（注意其学术义：多义项/多词性完整映射：复杂而精细的；技术较成熟的（adj.））及协同词“show”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。",
+    "context": "核心成分拆解：【紧凑主语】A sophisticated method still... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。",
+    "options": null,
+    "focus_word_ids": [
+      "V02342",
+      "V02286"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G021"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02285",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G001",
+      "G021",
+      "EP019",
+      "sentence_rewriting",
+      "G021",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 sophisticated 的搭配“sophisticated method”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_24",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 source 与 signal 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0027·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】\nVerbose Draft: *When we consider the context of the analysis, it is true that incomplete sampling is a possible source of bias.*\n改写指令：消除句首拖沓的从句，运用目标词“source”（搭配：a source of bias）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：signal），严禁产生悬垂修饰或增删原意。",
+    "context": "核心成分拆解：【紧凑主语】Incomplete sampling is a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：不等于已证明的唯一原因。",
+    "options": null,
+    "focus_word_ids": [
+      "V02345",
+      "V02290"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G018"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G001",
+      "G018",
+      "EP019",
+      "sentence_rewriting",
+      "G018",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 source 的搭配“a source of bias”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_25",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 source 与 significant 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0027·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】\nBase Observation: The student checked the claim against a primary source. (Paired concept: 'significant' — A significant number of records were incomplete.)\n改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“source”与“significant”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。",
+    "context": "核心成分拆解：【紧凑主语】The student checked the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：可指文章、书籍等；不自动代表可靠。",
+    "options": null,
+    "focus_word_ids": [
+      "V02346",
+      "V02293"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02345",
+      "G031",
+      "G032",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G001",
+      "G036",
+      "EP019",
+      "sentence_rewriting",
+      "G036",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 source 的搭配“consult a primary source”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_26",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 spare (spare copies) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0027·中译英与句子成分构建 1（实证研究方法与数据核查场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“spare”的学术义“额外备用的”及其搭配“spare copies”，并兼顾协同词“significant”的语境标准）：\n中文题干：桌上有备用副本。\n句子成分构建提示：【紧凑主语】There are spare copies... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：学术语境与搭配约束：此义修饰copies。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "options": null,
+    "focus_word_ids": [
+      "V02347",
+      "V02294"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G031"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02293",
+      "G001",
+      "G004"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G006",
+      "G031",
+      "EP003",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G031"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "spoken_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 spare 及其搭配“spare copies”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_27",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 specific (specific context) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0027·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“specific”的学术义“具体的”及其搭配“specific context”，并兼顾协同词“significant”的语境标准）：\n中文题干：该程序仅在特定条件下有效。\n句子成分构建提示：【紧凑主语】The procedure is valid... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V02354 adj.] 具体的；特定的（例：The procedure is valid only under specific conditions.）；[V02355 adj.] 具体的；特定的；明确限定的（例：The conclusion is specific to the population included in the study.）；[V02356 adj.] 特有的；具体的（例：The restriction is specific to this dataset.） | 本条用法约束：避免把 specific 一律译为专业的。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "options": null,
+    "focus_word_ids": [
+      "V02354",
+      "V02295"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G035"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V02294",
+      "G001",
+      "G004",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G006",
+      "G035",
+      "EP003",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G035"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 specific 及其搭配“specific context”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_28",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 show (show a trend) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0027·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“show”的学术义“显示”及其搭配“show a trend”，并兼顾协同词“significant”的语境标准）：\n中文题干：这些数据显示了随时间变化的趋势。\n句子成分构建提示：【紧凑主语】These data show a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：本句 data 用复数惯例；保持主谓一致。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "options": null,
+    "focus_word_ids": [
+      "V02284",
+      "V02296"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V02295",
+      "G001",
+      "G004"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G006",
+      "G032",
+      "EP003",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G032"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 show 及其搭配“show a trend”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_29",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 show (show that) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0027·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“show”的学术义“显示，表明”及其搭配“show that”，并兼顾协同词“significant”的语境标准）：\n中文题干：表格显示所记录的总数不同。\n句子成分构建提示：【紧凑主语】The table shows that... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show 不应自动译为严格证明因果。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "options": null,
+    "focus_word_ids": [
+      "V02285",
+      "V02297"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V02284",
+      "G031",
+      "G032",
+      "V02296",
+      "G001",
+      "G004",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G006",
+      "G036",
+      "EP003",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G036"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 show 及其搭配“show that”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0027_30",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 2,
+    "training_objective": "用包含 show 与 simple 的具体机制与实例替换“只有夸张而无实例”的空洞断言。",
+    "prompt": "【day_0027·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】\n下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：\nHollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*\n任务要求：请摒弃上述空洞吹嘘，结合目标词条“show”（表明）与“simple”（简单的），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。",
+    "context": "核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）",
+    "options": null,
+    "focus_word_ids": [
+      "V02286",
+      "V02309",
+      "V02337"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02285",
+      "G031",
+      "G032",
+      "V02336"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_2",
+      "G001",
+      "G033",
+      "EP019",
+      "anti_hyperbole",
+      "concrete_evidence_grounding",
+      "paragraph_logic"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "general_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "严禁使用 groundbreaking / unparalleled / extremely great 等无根据夸张词",
+      "必须包含 show 与 simple 的具体语境陈述"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0027_31",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 2,
+    "training_objective": "通过含 signal 与 situation 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。",
+    "prompt": "【day_0027·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】\n将下列包含目标词“signal”与“situation”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：\n(1) When examining the empirical outputs, a second consideration arises: In this situation, the missing record requires further review.\n(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.\n(3) First, we specify the methodological setup: A punctuation mark can signal a boundary between clauses.\n(4) This setup ensures that the evaluation criteria remain consistent across all test runs.",
+    "context": "语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指",
+    "options": null,
+    "focus_word_ids": [
+      "V02290",
+      "V02317",
+      "V02341"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G004",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_2",
+      "G006",
+      "G009",
+      "EP003",
+      "sentence_ordering",
+      "given_new_contract",
+      "referential_cohesion"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "写出正确的四句排列顺序",
+      "指出句间实现无缝咬合的总结性指代短语"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0027_32",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 2,
+    "training_objective": "修复含 significant 与 skip 段落中的逗号粘连、连接词误用与因果外推跳跃。",
+    "prompt": "【day_0027·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】\n审阅下列包含“significant”与“skip”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：\nFlawed Draft: *A significant number of records were incomplete, on the contrary, I will skip the next slide to leave time for discussion., which proves 100% universal causality in all real-world regimes.*",
+    "context": "综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）",
+    "options": null,
+    "focus_word_ids": [
+      "V02293",
+      "V02319",
+      "V02342"
+    ],
+    "grammar_ids": [
+      "G012",
+      "G023"
+    ],
+    "expression_pattern_ids": [
+      "EP019",
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G006",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_2",
+      "G012",
+      "G023",
+      "EP019",
+      "EP003",
+      "comma_splice_repair",
+      "causality_boundary",
+      "connector_precision"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "修正 Comma Splice 与 on the contrary 的误用",
+      "用审慎的范围限定替换 *proves 100% universal causality*"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0027_33",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 2,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 significant 与 slope 的语态选择。",
+    "prompt": "【day_0027·信息焦点与语态转换 1】阅读下列包含“significant”（重要的，显著的）与“slope”（斜率）的学术表达：\nReference Sequence: (1) The archive makes a significant contribution to regional history. (2) The slope of y = ax + b is a.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V02294",
+      "V02321",
+      "V02345"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V02293",
+      "G031",
+      "G032",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_2",
+      "G011",
+      "G001",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0027_34",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 2,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 significant 与 soar 的语态选择。",
+    "prompt": "【day_0027·信息焦点与语态转换 2】阅读下列包含“significant”（重要的）与“soar”（快速大幅上升）的学术表达：\nReference Sequence: (1) The missing page has a significant impact on how we interpret the letter. (2) In the hypothetical market scenario, prices soared within a week.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V02295",
+      "V02325",
+      "V02346"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G001"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V02294",
+      "G031",
+      "G032",
+      "G011",
+      "V02345",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_2",
+      "G011",
+      "G001",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0027_35",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 2,
+    "training_objective": "在 AI/时序/生成建模/具身智能场景下运用 significant、soar 撰写零 AI 腔的技术微段落。",
+    "prompt": "【day_0027·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】\n应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。\n写作要求：围绕以下候选目标词群中的至少 2–3 个词条（significant（重要的）、soar（迅速大幅上升）、spare（额外备用的）、simple（简单的）），写出一段 2–3 句、紧凑自然的英文技术微段落：\n1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；\n2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；\n3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。",
+    "context": "专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP019",
+    "options": null,
+    "focus_word_ids": [
+      "V02296",
+      "V02326",
+      "V02347",
+      "V02309"
+    ],
+    "grammar_ids": [
+      "G001",
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V02295",
+      "G031",
+      "G032",
+      "V02325",
+      "G011",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_2",
+      "G001",
+      "G032",
+      "G033",
+      "EP019",
+      "ai_timeseries_embodied_writing",
+      "anti_ai_style",
+      "end_weight"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少准确融入候选词群（significant（重要的）、soar（迅速大幅上升）、spare（额外备用的）、simple（简单的））中的 2 个词条及其规约搭配",
+      "词数 45–80 词（2–3 句），主谓紧凑，遵守尾重原则（End-Weight）",
+      "零 AI 浮夸套话，必须包含具体技术条件或实验边界"
+    ],
+    "max_score": 5
+  },
+  {
+    "question_id": "Q_D0027_36",
+    "day_id": "day_0027",
+    "stage": 2,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 2,
+    "training_objective": "撰写融合 significant、society 与 except 的 3–5 句六级/雅思托福/演讲实证论证段落。",
+    "prompt": "【day_0027·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】\n应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。\n写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（significant（重要的）、society（社会）、specific（具体的）、except（除……外）），写出一段 3–5 句、逻辑严密的完整段落：\n1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；\n2. 运用语法规则【G006】（核心介词规约搭配与名/动/形+介词固定结构）与表达模式【EP003】（客观归属文献观点或档案记录来源）；\n3. 句式自然地道，杜绝死板模板句与头重脚轻。",
+    "context": "文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G006 & G036",
+    "options": null,
+    "focus_word_ids": [
+      "V02297",
+      "V02330",
+      "V02354",
+      "V00954"
+    ],
+    "grammar_ids": [
+      "G006",
+      "G028",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V02296",
+      "G031",
+      "G032",
+      "G006",
+      "G001",
+      "G004",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_2",
+      "G006",
+      "G028",
+      "G036",
+      "EP003",
+      "cet6_ielts_toefl_writing",
+      "concrete_exemplification",
+      "concession_rebuttal"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少自然融入候选词群（significant（重要的）、society（社会）、specific（具体的）、except（除……外））中的 3 个词条",
+      "必须包含具体实例或机制说明，严禁只喊口号或堆砌夸张词",
+      "3–5 个完整英文句（65–110 词），标点与指代规范"
+    ],
+    "max_score": 5
+  }
+]

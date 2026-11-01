@@ -1,0 +1,500 @@
+[
+  {
+    "task_id": "D0021_T01",
+    "day": "day_0021",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+        "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+        "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+        "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+        "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP21`（极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis））与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T02",
+    "day": "day_0021",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+        "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+        "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+        "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP33`（议论文破题首段：具象趋势锚定 + 争议张力 + 明确中心论点（Zero-Template Hook & Thesis））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Concrete Phenomenon (No Cliché) -> Balanced Tension -> Conditional & Specific Thesis Statement. 绑定逻辑规则：L023, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（汇集了中国考生三大扣分重灾区：① With the rapid development of...；② more and more popular / good vs. bad；③ Every coin has two sides（零立场的废话中心论点）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T03",
+    "day": "day_0021",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+        "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+        "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+        "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+        "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP21`（极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis））与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T04",
+    "day": "day_0021",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+        "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+        "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+        "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP33`（议论文破题首段：具象趋势锚定 + 争议张力 + 明确中心论点（Zero-Template Hook & Thesis））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Concrete Phenomenon (No Cliché) -> Balanced Tension -> Conditional & Specific Thesis Statement. 绑定逻辑规则：L023, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（汇集了中国考生三大扣分重灾区：① With the rapid development of...；② more and more popular / good vs. bad；③ Every coin has two sides（零立场的废话中心论点）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T05",
+    "day": "day_0021",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+        "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+        "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+        "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+        "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP21`（极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis））与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T06",
+    "day": "day_0021",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+        "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+        "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+        "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP33`（议论文破题首段：具象趋势锚定 + 争议张力 + 明确中心论点（Zero-Template Hook & Thesis））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Concrete Phenomenon (No Cliché) -> Balanced Tension -> Conditional & Specific Thesis Statement. 绑定逻辑规则：L023, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（汇集了中国考生三大扣分重灾区：① With the rapid development of...；② more and more popular / good vs. bad；③ Every coin has two sides（零立场的废话中心论点）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T07",
+    "day": "day_0021",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+        "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+        "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+        "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+        "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 5,
+        "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+        "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP46`（顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段）与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Clarify Distinction -> Explain Why Naive Stacking Fails -> Highlight Core Coupling Mechanism -> Prove with 'Naive A+B' Ablation Data. 绑定逻辑规则：L019, L016.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T08",
+    "day": "day_0021",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+        "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+        "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+        "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+        "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP21`（极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis））与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T09",
+    "day": "day_0021",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+        "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+        "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+        "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP33`（议论文破题首段：具象趋势锚定 + 争议张力 + 明确中心论点（Zero-Template Hook & Thesis））与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Concrete Phenomenon (No Cliché) -> Balanced Tension -> Conditional & Specific Thesis Statement. 绑定逻辑规则：L023, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（汇集了中国考生三大扣分重灾区：① With the rapid development of...；② more and more popular / good vs. bad；③ Every coin has two sides（零立场的废话中心论点）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T10",
+    "day": "day_0021",
+    "task_type": "cross_genre_transformation",
+    "model_response_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+        "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+        "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+        "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+        "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 5,
+        "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+        "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP46`（顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段）与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Clarify Distinction -> Explain Why Naive Stacking Fails -> Highlight Core Coupling Mechanism -> Prove with 'Naive A+B' Ablation Data. 绑定逻辑规则：L019, L016.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T11",
+    "day": "day_0021",
+    "task_type": "full_composition_project",
+    "model_response_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+        "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+        "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+        "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+        "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP21`（极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis））与逻辑法则 `L021`（具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。衔接公式：Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0021_T12",
+    "day": "day_0021",
+    "task_type": "full_composition_project",
+    "model_response_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+        "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+        "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+        "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+        "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 5,
+        "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+        "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP46`（顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段）与逻辑法则 `L029`（篇章级去 AI 味手术：砍掉空洞修辞外壳，直奔命题内核（Zero AI-ese Discourse Surgery））。衔接公式：Clarify Distinction -> Explain Why Naive Stacking Fails -> Highlight Core Coupling Mechanism -> Prove with 'Naive A+B' Ablation Data. 绑定逻辑规则：L019, L016.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  }
+]

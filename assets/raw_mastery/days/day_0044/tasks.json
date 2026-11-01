@@ -1,0 +1,374 @@
+[
+  {
+    "task_id": "D0044_T01",
+    "day": "day_0044",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "学术演讲收尾页 & Q&A 现场问答",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【学术演讲收尾页 & Q&A 现场问答】。你这一段的核心表达意图是：“我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。”。请严格按照 `BP44` 的逐句功能骨架（4 步法）与逻辑法则 `L014`（公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+    "structural_constraints": [
+      "S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle].",
+      "S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset].",
+      "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion].",
+      "S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]."
+    ],
+    "linked_blueprint_id": "BP44",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T02",
+    "day": "day_0044",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "论文 Abstract 全段，或学术演讲摘要（Talk Abstract）",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【论文 Abstract 全段，或学术演讲摘要（Talk Abstract）】。你这一段的核心表达意图是：“我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。”。请按 `BP08` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+    "structural_constraints": [
+      "S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。",
+      "S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause].",
+      "S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]...",
+      "S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]."
+    ],
+    "linked_blueprint_id": "BP08",
+    "linked_logic_ids": [
+      "L022",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T03",
+    "day": "day_0044",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "学术演讲收尾页 & Q&A 现场问答",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L014`（公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+    "structural_constraints": [
+      "S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle].",
+      "S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset].",
+      "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion].",
+      "S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]."
+    ],
+    "linked_blueprint_id": "BP44",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T04",
+    "day": "day_0044",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "论文 Abstract 全段，或学术演讲摘要（Talk Abstract）",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L022`（杜绝循环论证与同义反复（Eliminating Circular Reasoning / Tautology））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+    "structural_constraints": [
+      "S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。",
+      "S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause].",
+      "S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]...",
+      "S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]."
+    ],
+    "linked_blueprint_id": "BP08",
+    "linked_logic_ids": [
+      "L022",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T05",
+    "day": "day_0044",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "学术演讲收尾页 & Q&A 现场问答",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+    "prompt_zh": "【深度病段修改诊所 1：专治过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+    "structural_constraints": [
+      "S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle].",
+      "S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset].",
+      "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion].",
+      "S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]."
+    ],
+    "linked_blueprint_id": "BP44",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T06",
+    "day": "day_0044",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "论文 Abstract 全段，或学术演讲摘要（Talk Abstract）",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+    "prompt_zh": "【深度病段修改诊所 2：专治过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+    "structural_constraints": [
+      "S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。",
+      "S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause].",
+      "S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]...",
+      "S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]."
+    ],
+    "linked_blueprint_id": "BP08",
+    "linked_logic_ids": [
+      "L022",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T07",
+    "day": "day_0044",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "顶会 Author Rebuttal 置顶总括段（Official Global Response）",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想写 ICLR / NeurIPS / ICML / CVPR 审稿回复（Rebuttal）最顶部的致全体审稿人总括段（Global Response）：在 150 词内用最提气的语气感谢审稿人肯定，并一眼亮出我们在 Rebuttal 期间赶做出的所有硬核新增实验。",
+    "prompt_zh": "【深度病段修改诊所 3：专治重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "Our model is very fast and uses little memory. It only takes 4.2 ms to run, so it can be used in real-time applications easily.",
+    "structural_constraints": [
+      "S1 [致谢并提炼审稿人共同好评 Gratitude & Shared Praise]：We thank all reviewers for their constructive feedback and for recognizing our work's [Quote Reviewer 1 Praise] (R1), [Quote Reviewer 2 Praise] (R2), and [Quote Reviewer 3 Praise] (R3).",
+      "S2 [概览新增实证工作 Overview of New Experiments]：In response to your valuable suggestions, we have conducted [N] sets of new experiments and theoretical analyses, summarized below and highlighted in blue in the revised PDF:",
+      "S3 [分条列出硬核新增实验 Bullet Summary of Additions]：(1) Added comparisons against recent baselines [A, B] on [Dataset] (Table R1, addressing R1, R3); (2) Evaluated real-world robustness under [Harsh Condition] (Appendix D, R2); (3) Provided wall-clock latency and memory profiling across sequence lengths up to $L=4,096$ (Appendix E, R3).",
+      "S4 [诚挚收束 Closing Courtesies]：We address each specific question in the individual responses below and welcome any further discussion."
+    ],
+    "linked_blueprint_id": "BP45",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T08",
+    "day": "day_0044",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "学术演讲收尾页 & Q&A 现场问答",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“演讲总结页（Take-home Message）与问答（Q&A）从容应答段”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+    "structural_constraints": [
+      "S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle].",
+      "S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset].",
+      "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion].",
+      "S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]."
+    ],
+    "linked_blueprint_id": "BP44",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T09",
+    "day": "day_0044",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "论文 Abstract 全段，或学术演讲摘要（Talk Abstract）",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+    "structural_constraints": [
+      "S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。",
+      "S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause].",
+      "S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]...",
+      "S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]."
+    ],
+    "linked_blueprint_id": "BP08",
+    "linked_logic_ids": [
+      "L022",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T10",
+    "day": "day_0044",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "顶会 Author Rebuttal 置顶总括段（Official Global Response）",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想写 ICLR / NeurIPS / ICML / CVPR 审稿回复（Rebuttal）最顶部的致全体审稿人总括段（Global Response）：在 150 词内用最提气的语气感谢审稿人肯定，并一眼亮出我们在 Rebuttal 期间赶做出的所有硬核新增实验。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP44`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "Our model is very fast and uses little memory. It only takes 4.2 ms to run, so it can be used in real-time applications easily.",
+    "structural_constraints": [
+      "S1 [致谢并提炼审稿人共同好评 Gratitude & Shared Praise]：We thank all reviewers for their constructive feedback and for recognizing our work's [Quote Reviewer 1 Praise] (R1), [Quote Reviewer 2 Praise] (R2), and [Quote Reviewer 3 Praise] (R3).",
+      "S2 [概览新增实证工作 Overview of New Experiments]：In response to your valuable suggestions, we have conducted [N] sets of new experiments and theoretical analyses, summarized below and highlighted in blue in the revised PDF:",
+      "S3 [分条列出硬核新增实验 Bullet Summary of Additions]：(1) Added comparisons against recent baselines [A, B] on [Dataset] (Table R1, addressing R1, R3); (2) Evaluated real-world robustness under [Harsh Condition] (Appendix D, R2); (3) Provided wall-clock latency and memory profiling across sequence lengths up to $L=4,096$ (Appendix E, R3).",
+      "S4 [诚挚收束 Closing Courtesies]：We address each specific question in the individual responses below and welcome any further discussion."
+    ],
+    "linked_blueprint_id": "BP45",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T11",
+    "day": "day_0044",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "学术演讲收尾页 & Q&A 现场问答",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+    "prompt_zh": "【多段贯通写作实战 1：CET6_Essay 核心章节连写】参照全文样板 `FT20 (六级写作（CET-6）满分范文：科研评价体系中抵制数据造假与强化可复现性治理)` 的段落蓝图链 `BP33 -> BP35 -> BP37`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+    "structural_constraints": [
+      "S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle].",
+      "S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset].",
+      "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion].",
+      "S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]."
+    ],
+    "linked_blueprint_id": "BP44",
+    "linked_logic_ids": [
+      "L014",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0044_T12",
+    "day": "day_0044",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "顶会 Author Rebuttal 置顶总括段（Official Global Response）",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想写 ICLR / NeurIPS / ICML / CVPR 审稿回复（Rebuttal）最顶部的致全体审稿人总括段（Global Response）：在 150 词内用最提气的语气感谢审稿人肯定，并一眼亮出我们在 Rebuttal 期间赶做出的所有硬核新增实验。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP45` 与全文样板 `FT20` 的后半部分（`BP39 -> BP40`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "Our model is very fast and uses little memory. It only takes 4.2 ms to run, so it can be used in real-time applications easily.",
+    "structural_constraints": [
+      "S1 [致谢并提炼审稿人共同好评 Gratitude & Shared Praise]：We thank all reviewers for their constructive feedback and for recognizing our work's [Quote Reviewer 1 Praise] (R1), [Quote Reviewer 2 Praise] (R2), and [Quote Reviewer 3 Praise] (R3).",
+      "S2 [概览新增实证工作 Overview of New Experiments]：In response to your valuable suggestions, we have conducted [N] sets of new experiments and theoretical analyses, summarized below and highlighted in blue in the revised PDF:",
+      "S3 [分条列出硬核新增实验 Bullet Summary of Additions]：(1) Added comparisons against recent baselines [A, B] on [Dataset] (Table R1, addressing R1, R3); (2) Evaluated real-world robustness under [Harsh Condition] (Appendix D, R2); (3) Provided wall-clock latency and memory profiling across sequence lengths up to $L=4,096$ (Appendix E, R3).",
+      "S4 [诚挚收束 Closing Courtesies]：We address each specific question in the individual responses below and welcome any further discussion."
+    ],
+    "linked_blueprint_id": "BP45",
+    "linked_logic_ids": [
+      "L022",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

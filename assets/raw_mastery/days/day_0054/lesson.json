@@ -1,0 +1,333 @@
+{
+  "day": "day_0054",
+  "day_number": 54,
+  "stage": 4,
+  "stage_name_zh": "Stage 4: 学术演讲、科研叙事与六级/雅思/托福整篇大小作文满分实战",
+  "daily_focus_title_zh": "第 54 天：实验证言与性能突破预览段（Quantitative Empirical Preview） × 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP06",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "实验证言与性能突破预览段（Quantitative Empirical Preview）",
+      "user_intent_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+      "when_to_use_zh": "Introduction 倒数第二段（Empirical Validation Preview）",
+      "paragraph_move_structure": [
+        "S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks].",
+        "S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。",
+        "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。"
+      ],
+      "cohesion_and_logic_formula": "Evaluation Scope -> Accuracy Gain over Strongest Baselines -> Efficiency/Generalization Gain. 绑定逻辑规则：L010, L015.",
+      "defective_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+      "defect_diagnosis_zh": "全段零数字（many datasets, a large margin, very fast），没有任何实质信息。",
+      "model_paragraph_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors. Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions. Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [评测广度 Scope of Evaluation]",
+          "sentence_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心精度突破 Primary Accuracy Gain]",
+          "sentence_en": "Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]",
+          "sentence_en": "Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 8 个基准、1,400 个传感器、12.8%/17.4% MSE 降幅、45% FLOPs 削减支撑论点，零 AI 形容词却极具震撼力。"
+    },
+    {
+      "blueprint_id": "BP18",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "主实验结果整体对比与核心胜出原因剖析段（Main Results Analysis）",
+      "user_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+      "when_to_use_zh": "Experiments 第 4.2 节 Main Results",
+      "paragraph_move_structure": [
+        "S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations.",
+        "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical.",
+        "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism].",
+        "S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$."
+      ],
+      "cohesion_and_logic_formula": "Global Win Rate -> Advantage over Family A -> Resilience at Long Horizon vs. Family B -> Mechanistic Takeaway. 绑定逻辑规则：L015, L013, L010.",
+      "defective_draft": "As shown in Table 1, our model gets the best MSE on ETTm1, ETTm2, Weather, and Traffic. On Weather dataset, our MSE is 0.165, which is 12% lower than PatchTST. On Traffic, our MSE is 0.382, which beats iTransformer. This proves our model is the best.",
+      "defect_diagnosis_zh": "典型的“报账式朗读表格”，只报数字不分析机理，末句 This proves our model is the best 毫无信息量。",
+      "model_paragraph_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations. Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical. Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts. By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [全局统治力概述 Overall Dominance]",
+          "sentence_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]",
+          "sentence_en": "Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]",
+          "sentence_en": "Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [回扣本文核心机制 Mechanistic Confirmation]",
+          "sentence_en": "By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "把冷冰冰的表格数字还原为生动的算法博弈：为什么在 Traffic 上赢 PatchTST（需要跨传感器空间传播），为什么在 $H=720$ Weather 上赢 iTransformer（抑制阵风过拟合与长程漂移）。"
+    },
+    {
+      "blueprint_id": "BP31",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "托福综合写作 / 学术争议正反交锋段（Point-by-Point Reading vs. Lecture Synthesis）",
+      "user_intent_zh": "我这一段想写托福综合写作（Integrated Writing）或文献争议交锋段：先用 1 句话精准概括阅读材料（或正方文献）的分论点，再用 2–3 句话详细呈现教授讲座（或反方实证）是如何釜底抽薪推翻该论点的。",
+      "when_to_use_zh": "TOEFL Integrated Writing 主体段 / 论文理论争议辨析段",
+      "paragraph_move_structure": [
+        "S1 [正方/阅读论点概括 Reading Claim & Rationale]：The reading passage contends that [Claim A], arguing that [Reading's Supporting Mechanism].",
+        "S2 [反方/听力直接反驳 Lecture Direct Refutation]：The lecturer directly challenges this assertion by pointing out that [Core Flaw / Neglected Factor in Reading's Premise].",
+        "S3 [反方具体反证展开 Empirical Counter-Evidence]：Specifically, she explains that when [Real-World Condition], [Mechanism B occurs instead], which [Negates the Claimed Benefit].",
+        "S4 [结论锁定 Refutation Closure]：Consequently, rather than achieving [Reading's Goal], the proposed measure actually exacerbates [Negative Outcome]."
+      ],
+      "cohesion_and_logic_formula": "Reading Claim -> Lecturer's Direct Challenge -> Specific Counter-Mechanism -> Reversed Outcome. 绑定逻辑规则：L008, L019.",
+      "defective_draft": "The reading says that replacing all delivery trucks with autonomous drones will save energy. The professor disagrees. She says drones use a lot of battery to stay in the air and can only carry one package at a time.",
+      "defect_diagnosis_zh": "句式碎片化（The reading says... The professor disagrees. She says...），缺乏紧凑的逻辑因果嵌套。",
+      "model_paragraph_en": "The reading passage contends that replacing urban delivery vans with autonomous quadcopter drones will substantially reduce last-mile transportation energy consumption, citing the lighter weight of aerial vehicles. The lecturer directly challenges this premise by examining energy efficiency per kilogram of delivered freight. Specifically, she points out that unlike ground vehicles supported passively by road surfaces, multi-rotor drones must expend continuous battery power simply to counteract gravity and headwinds while carrying only a single parcel per trip. Consequently, servicing a dense apartment block via individual drone flights consumes nearly three times more energy per package than a single consolidated van route.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [正方/阅读论点概括 Reading Claim & Rationale]",
+          "sentence_en": "The reading passage contends that replacing urban delivery vans with autonomous quadcopter drones will substantially reduce last-mile transportation energy consumption, citing the lighter weight of aerial vehicles.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [正方/阅读论点概括 Reading Claim & Rationale]：The reading passage contends that [Claim A], arguing that [Reading's Supporting Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反方/听力直接反驳 Lecture Direct Refutation]",
+          "sentence_en": "The lecturer directly challenges this premise by examining energy efficiency per kilogram of delivered freight.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反方/听力直接反驳 Lecture Direct Refutation]：The lecturer directly challenges this assertion by pointing out that [Core Flaw / Neglected Factor in Reading's Premise]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反方具体反证展开 Empirical Counter-Evidence]",
+          "sentence_en": "Specifically, she points out that unlike ground vehicles supported passively by road surfaces, multi-rotor drones must expend continuous battery power simply to counteract gravity and headwinds while carrying only a single parcel per trip.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反方具体反证展开 Empirical Counter-Evidence]：Specifically, she explains that when [Real-World Condition], [Mechanism B occurs instead], which [Negates the Claimed Benefit]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结论锁定 Refutation Closure]",
+          "sentence_en": "Consequently, servicing a dense apartment block via individual drone flights consumes nearly three times more energy per package than a single consolidated van route.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结论锁定 Refutation Closure]：Consequently, rather than achieving [Reading's Goal], the proposed measure actually exacerbates [Negative Outcome]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 contends that..., citing... 紧凑概括阅读，再用 directly challenges this premise by examining... -> Specifically, she points out that unlike... -> Consequently... 形成极具压迫感的反驳闭环。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L024",
+      "category": "Domain Discourse (时间序列专属论证)",
+      "name_zh": "时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic）",
+      "name_en": "Non-Stationary Drift and Multi-Scale Decomposition Logic",
+      "core_principle_zh": "论述时间序列问题时，必须清晰区分两类矛盾：① 统计分布漂移（Distribution Shift：均值/方差随时间突变）与局部时序语义（Intrinsic Temporal Dependency）之间的矛盾；② 短期高频波动（High-frequency Fluctuations）与长期宏观趋势（Long-term Trend）的混叠干扰。",
+      "structural_formula": "Naive normalization removes [Non-stationary shift] at the expense of [Intrinsic scale information]. -> Our reversible/decoupled module disentangles [Component A] from [Component B], restoring [Target Property].",
+      "common_pitfall_zh": "笼统说 time series data is very complex and hard to predict，说不清究竟是协变量偏移、频率混叠还是采样不规则。",
+      "bad_example_en": "Real-world time series are very complicated and change all the time, so normal normalization makes predictions bad.",
+      "good_example_en": "While instance normalization mitigates non-stationary mean and variance shifts across lookback windows, stripping these statistics discards amplitude cues essential for forecasting peak electricity loads. Our adaptive de-stationary projection restores horizon-specific scale statistics during decoding, preserving both stationarity in attention computation and physical amplitude fidelity in the final output.",
+      "analysis_zh": "精准切中时间序列领域最核心的“去平稳化归一化抹除物理幅值信息 vs. 注意力层需要平稳分布”的张力。"
+    },
+    {
+      "logic_id": "L002",
+      "category": "Information Flow (信息流推进)",
+      "name_zh": "平行主位推进模式（Constant Theme Progression）",
+      "name_en": "Constant Theme Progression",
+      "core_principle_zh": "当一段话旨在从多个互补维度刻画同一个核心模型、算法或社会现象时，连续 2–3 句保持相同或同指代的主语（如 Our framework / The temporal encoder / It），让谓语动词承担信息递进。",
+      "structural_formula": "S1: [Theme T] + [Action 1 (Architecture)]. | S2: [T / It] + [Action 2 (Optimization)]. | S3: [By combining both, T] + [Action 3 (Empirical Outcome)].",
+      "common_pitfall_zh": "为了所谓“句式多变”强行每句换主语、频繁在主动与被动之间横跳，导致读者搞不清到底是谁在执行模块动作。",
+      "bad_example_en": "The encoder extracts multi-scale patches first. Then frequency spectrum filtering is performed by a Fourier block. Finally, high-resolution predictions are generated by the decoder.",
+      "good_example_en": "Our architecture processes non-stationary sequences in three stages. It first partitions the raw series into multi-scale temporal patches, then filters high-frequency noise in the Fourier domain, and finally decodes these refined representations into multi-horizon forecasts.",
+      "analysis_zh": "修改前主语在 encoder、filtering、predictions 之间无序跳转且混用被动语态；修改后以 Our architecture / It 为统一主位，用三个并列强动词 partitions -> filters -> decodes 清晰串联数据流。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC54",
+      "domain_en": "CET-6 & IELTS Task 2 Technology & Society Essay",
+      "domain_zh": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP06",
+      "linked_logic_id": "L024",
+      "communicative_goal_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+      "original_defective_paragraph": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L024 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "全段零数字（many datasets, a large margin, very fast），没有任何实质信息。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors. Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions. Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [评测广度 Scope of Evaluation]",
+          "sentence_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心精度突破 Primary Accuracy Gain]",
+          "sentence_en": "Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]",
+          "sentence_en": "Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC14",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP14",
+      "linked_logic_id": "L014",
+      "communicative_goal_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+      "original_defective_paragraph": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L014 公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "描述过于粗浅（gets global features, gets local features, add them together），像本科生课程作业报告。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum. To reconcile both scales, our dual-domain block processes input patches along two complementary pathways. The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies. An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单域局限性 Single-Domain Limitation]",
+          "sentence_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [频域分支设计 Frequency Branch]",
+          "sentence_en": "To reconcile both scales, our dual-domain block processes input patches along two complementary pathways.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [时域分支设计 Temporal Branch]",
+          "sentence_en": "The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [自适应门控融合 Adaptive Fusion]",
+          "sentence_en": "An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC32",
+      "domain_en": "Academic Tech Talk & Conference Oral Delivery",
+      "domain_zh": "顶会口头汇报（Tech Talk）与图表引导",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP32",
+      "linked_logic_id": "L002",
+      "communicative_goal_zh": "我这一段想在图表或实验结果段中，专门挑出违背总体规律的 1–2 个异常点（Outliers）或局部反常尖峰进行精准描述与成因剖析。",
+      "original_defective_paragraph": "Most datasets follow this rule, except Exchange dataset. On Exchange dataset, deep models are worse than simple linear models. This is because financial data has strong random walk noise.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L002 平行主位推进模式（Constant Theme Progression））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "表达平淡（follow this rule, except, worse than），缺乏量化的偏离描述与深层统计定性。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Although deep spectral transformers outperform linear baselines across six of the seven benchmarks, a notable departure emerges on the financial Exchange-Rate dataset. Whereas complex attention models reduce MSE by 12%–18% on periodic energy and weather streams, they trail a single-layer DLinear baseline by 4.3% on Exchange-Rate. Autocorrelation analysis reveals that this reversal stems from the near-martingale nature of daily currency returns, where weak seasonal periodicity causes high-capacity attention layers to overfit transient market shocks. This anomaly confirms that model capacity must be matched to the intrinsic signal-to-noise ratio of the underlying stochastic process.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总体规律背景下的特例锚定 Outlier Identification]",
+          "sentence_en": "Although deep spectral transformers outperform linear baselines across six of the seven benchmarks, a notable departure emerges on the financial Exchange-Rate dataset.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总体规律背景下的特例锚定 Outlier Identification]：Although [General Trend holds across most groups/steps], a notable departure from this pattern occurs in [Specific Point/Group]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反常幅度量化 Quantitative Deviation]",
+          "sentence_en": "Whereas complex attention models reduce MSE by 12%–18% on periodic energy and weather streams, they trail a single-layer DLinear baseline by 4.3% on Exchange-Rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反常幅度量化 Quantitative Deviation]：Whereas peer categories cluster tightly within $[A, B]$, [Outlier Entity] spikes/drops to [Extreme Value], deviating by more than [X%] from the group median. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [底层物理/统计成因剖析 Root Cause Analysis]",
+          "sentence_en": "Autocorrelation analysis reveals that this reversal stems from the near-martingale nature of daily currency returns, where weak seasonal periodicity causes high-capacity attention layers to overfit transient market shocks.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [底层物理/统计成因剖析 Root Cause Analysis]：Closer inspection indicates that this anomaly stems from [Specific Structural/External Factor] rather than random variance. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [方法论启示 Methodological Implication]",
+          "sentence_en": "This anomaly confirms that model capacity must be matched to the intrinsic signal-to-noise ratio of the underlying stochastic process.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [方法论启示 Methodological Implication]：Accounting for such localized departures is critical when calibrating [Downstream Model/Policy]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT06",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "面向高维传感器网络的稀疏相位图注意力完整小论文（PhaseGraph: Scalable Spatio-Temporal Forecasting）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP01",
+      "BP09",
+      "BP11",
+      "BP12",
+      "BP13",
+      "BP17",
+      "BP18",
+      "BP19",
+      "BP20",
+      "BP24"
+    ]
+  }
+}

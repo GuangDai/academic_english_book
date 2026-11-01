@@ -1,0 +1,374 @@
+[
+  {
+    "task_id": "D0046_T01",
+    "day": "day_0046",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "顶会 Rebuttal 核心争议攻防段（Novelty Defense）",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【顶会 Rebuttal 核心争议攻防段（Novelty Defense）】。你这一段的核心表达意图是：“我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。”。请严格按照 `BP46` 的逐句功能骨架（4 步法）与逻辑法则 `L016`（消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+    "structural_constraints": [
+      "S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B].",
+      "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference].",
+      "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee].",
+      "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking."
+    ],
+    "linked_blueprint_id": "BP46",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T02",
+    "day": "day_0046",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Related Work 小节末段，或 Rebuttal 创新性辨析段】。你这一段的核心表达意图是：“我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。”。请按 `BP10` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T03",
+    "day": "day_0046",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "顶会 Rebuttal 核心争议攻防段（Novelty Defense）",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L016`（消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+    "structural_constraints": [
+      "S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B].",
+      "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference].",
+      "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee].",
+      "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking."
+    ],
+    "linked_blueprint_id": "BP46",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T04",
+    "day": "day_0046",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L024`（时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T05",
+    "day": "day_0046",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "顶会 Rebuttal 核心争议攻防段（Novelty Defense）",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+    "prompt_zh": "【深度病段修改诊所 1：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+    "structural_constraints": [
+      "S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B].",
+      "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference].",
+      "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee].",
+      "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking."
+    ],
+    "linked_blueprint_id": "BP46",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T06",
+    "day": "day_0046",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【深度病段修改诊所 2：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T07",
+    "day": "day_0046",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "顶会 Rebuttal 实验补全与公平性自证段",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+    "prompt_zh": "【深度病段修改诊所 3：专治过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+    "structural_constraints": [
+      "S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3.",
+      "S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%].",
+      "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%].",
+      "S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count."
+    ],
+    "linked_blueprint_id": "BP47",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T08",
+    "day": "day_0046",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "顶会 Rebuttal 核心争议攻防段（Novelty Defense）",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“顶会 Rebuttal 针对“创新性存疑（Limited Novelty / Incremental）”的有力澄清段”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+    "structural_constraints": [
+      "S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B].",
+      "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference].",
+      "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee].",
+      "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking."
+    ],
+    "linked_blueprint_id": "BP46",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T09",
+    "day": "day_0046",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T10",
+    "day": "day_0046",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "顶会 Rebuttal 实验补全与公平性自证段",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP46`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+    "structural_constraints": [
+      "S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3.",
+      "S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%].",
+      "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%].",
+      "S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count."
+    ],
+    "linked_blueprint_id": "BP47",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T11",
+    "day": "day_0046",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "顶会 Rebuttal 核心争议攻防段（Novelty Defense）",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+    "prompt_zh": "【多段贯通写作实战 1：IELTS_Task2_AgreeDisagree 核心章节连写】参照全文样板 `FT22 (雅思大作文（Task 2 To What Extent Agree）8.5 分范文：开源大模型权重的科学透明收益是否远超其滥用风险)` 的段落蓝图链 `BP33 -> BP38 -> BP36`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+    "structural_constraints": [
+      "S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B].",
+      "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference].",
+      "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee].",
+      "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking."
+    ],
+    "linked_blueprint_id": "BP46",
+    "linked_logic_ids": [
+      "L016",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0046_T12",
+    "day": "day_0046",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "顶会 Rebuttal 实验补全与公平性自证段",
+    "domain_context": "多模态灵巧操作与力触觉闭环反馈",
+    "communicative_intent_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP47` 与全文样板 `FT22` 的后半部分（`BP39 -> BP40`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+    "structural_constraints": [
+      "S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3.",
+      "S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%].",
+      "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%].",
+      "S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count."
+    ],
+    "linked_blueprint_id": "BP47",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

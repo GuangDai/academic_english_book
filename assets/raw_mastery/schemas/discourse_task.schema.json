@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DiscourseAndCompositionTask",
+  "type": "object",
+  "required": [
+    "task_id",
+    "day",
+    "task_number",
+    "task_type",
+    "genre_target",
+    "domain_context",
+    "communicative_intent_zh",
+    "prompt_zh",
+    "source_material_or_draft",
+    "structural_constraints",
+    "linked_blueprint_id",
+    "linked_logic_ids",
+    "target_defects_to_fix"
+  ]
+}

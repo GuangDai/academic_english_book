@@ -1,0 +1,370 @@
+[
+  {
+    "task_id": "D0028_T01",
+    "day": "day_0028",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【IELTS Task 1 双图组合题 / 论文多指标联合分析段】。你这一段的核心表达意图是：“我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。”。请严格按照 `BP28` 的逐句功能骨架（4 步法）与逻辑法则 `L028`（诊断与修复逻辑跳跃（Bridging Logical Leaps / Missing Premises）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+      "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+      "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+      "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+    ],
+    "linked_blueprint_id": "BP28",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T02",
+    "day": "day_0028",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【CET-6 / IELTS Task 2 / TOEFL 结尾段】。你这一段的核心表达意图是：“我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。”。请按 `BP40` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L006",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T03",
+    "day": "day_0028",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L028`（诊断与修复逻辑跳跃（Bridging Logical Leaps / Missing Premises））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+      "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+      "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+      "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+    ],
+    "linked_blueprint_id": "BP28",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T04",
+    "day": "day_0028",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L006`（图尔敏五步微论证模型（Toulmin Micro-Argumentation））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L006",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T05",
+    "day": "day_0028",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+    "prompt_zh": "【深度病段修改诊所 1：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+      "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+      "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+      "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+    ],
+    "linked_blueprint_id": "BP28",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T06",
+    "day": "day_0028",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【深度病段修改诊所 2：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L006",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T07",
+    "day": "day_0028",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "IELTS Task 1 流程图（Process Diagram）/ 论文系统工程 Pipeline 描述段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+    "prompt_zh": "【深度病段修改诊所 3：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage].",
+      "S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers].",
+      "S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B].",
+      "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement."
+    ],
+    "linked_blueprint_id": "BP29",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T08",
+    "day": "day_0028",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“双图关联与互补/因果印证段（Synthesizing Dual Charts）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+      "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+      "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+      "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+    ],
+    "linked_blueprint_id": "BP28",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T09",
+    "day": "day_0028",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L006",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T10",
+    "day": "day_0028",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "IELTS Task 1 流程图（Process Diagram）/ 论文系统工程 Pipeline 描述段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP28`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage].",
+      "S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers].",
+      "S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B].",
+      "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement."
+    ],
+    "linked_blueprint_id": "BP29",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T11",
+    "day": "day_0028",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+    "prompt_zh": "【多段贯通写作实战 1：AI_Mini_Paper 核心章节连写】参照全文样板 `FT04 (具身智能视觉-力触觉闭环操作与 Sim-to-Real 自适应完整小论文（TacFlow: Contact-Aware Visuomotor Policy）)` 的段落蓝图链 `BP08 -> BP01 -> BP03`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+    "structural_constraints": [
+      "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+      "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+      "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+      "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+    ],
+    "linked_blueprint_id": "BP28",
+    "linked_logic_ids": [
+      "L028",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0028_T12",
+    "day": "day_0028",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "IELTS Task 1 流程图（Process Diagram）/ 论文系统工程 Pipeline 描述段",
+    "domain_context": "非平稳时间序列预测与分布漂移消除",
+    "communicative_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP29` 与全文样板 `FT04` 的后半部分（`BP05 -> BP07 -> BP11`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage].",
+      "S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers].",
+      "S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B].",
+      "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement."
+    ],
+    "linked_blueprint_id": "BP29",
+    "linked_logic_ids": [
+      "L006",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

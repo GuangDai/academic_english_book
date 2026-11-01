@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DiscourseAndCompositionAnswer",
+  "type": "object",
+  "required": [
+    "task_id",
+    "day",
+    "task_type",
+    "model_response_en",
+    "alternative_natural_version_en",
+    "sentence_by_sentence_anatomy",
+    "logic_and_cohesion_analysis_zh",
+    "defect_eliminated_notes_zh",
+    "self_check_rubric"
+  ]
+}

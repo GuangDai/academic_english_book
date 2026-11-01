@@ -1,0 +1,173 @@
+{
+  "text_id": "FT22",
+  "genre": "IELTS_Task2_AgreeDisagree",
+  "title_zh": "雅思大作文（Task 2 To What Extent Agree）8.5 分范文：开源大模型权重的科学透明收益是否远超其滥用风险",
+  "paragraph_count": 5,
+  "structural_blueprint_chain": [
+    "BP33",
+    "BP38",
+    "BP36",
+    "BP39",
+    "BP40"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "议论文破题首段：具象趋势锚定 + 争议张力 + 明确中心论点（Zero-Template Hook & Thesis）",
+      "blueprint_id": "BP33",
+      "paragraph_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的第一段（Introduction）：彻底扔掉 'With the rapid development of science and technology, more and more people...' 等烂大街模板，用 3 句话写出考官眼前一亮的母语级破题段。",
+      "cohesion_formula": "Concrete Phenomenon (No Cliché) -> Balanced Tension -> Conditional & Specific Thesis Statement. 绑定逻辑规则：L023, L029.",
+      "paragraph_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+          "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+          "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+          "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis）",
+      "blueprint_id": "BP38",
+      "paragraph_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+      "cohesion_formula": "Asymmetry Thesis -> Bound the Drawback (Temporary & Mitigable) -> Highlight Compounding Advantage (Irreplaceable) -> Rational Verdict. 绑定逻辑规则：L008, L023.",
+      "paragraph_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [权衡定性主题句 Asymmetry Thesis]",
+          "sentence_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [将弊端限定为可收敛成本 Bounding the Drawback]",
+          "sentence_en": "While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]",
+          "sentence_en": "By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [权衡结论 Trade-off Verdict]",
+          "sentence_en": "Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation）",
+      "blueprint_id": "BP36",
+      "paragraph_intent_zh": "我这一段想在议论文中回应反方观点（Some people argue that...）：先大度承认反方担忧在短期或局部确实存在，再用结构性证据或制度设计证明该问题完全可控，从而锁死我方立场。",
+      "cohesion_formula": "Admittedly (Valid Concern) -> Short-term Reality -> However (Zero-Sum Fallacy Pivot) -> Historical Analogy & Policy Mitigation. 绑定逻辑规则：L008, L023.",
+      "paragraph_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+          "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+          "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+          "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+          "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "反事实推理段：如果不采取某项原则，系统将如何一步步滑向失控（Counterfactual Escalation）",
+      "blueprint_id": "BP39",
+      "paragraph_intent_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+      "cohesion_formula": "Positive Safeguard -> Counterfactual Premise (Absent X...) -> Cascading Breakdown -> Precedent Confirmation. 绑定逻辑规则：L020, L003.",
+      "paragraph_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models. Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations. In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse. This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [正面基准命题 Positive Baseline]",
+          "sentence_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反事实假设切入 Counterfactual Premise]",
+          "sentence_en": "Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [连锁恶化传导 Cascading Deterioration]",
+          "sentence_en": "In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证印证或结论锁定 Empirical Echo]",
+          "sentence_en": "This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "议论文收尾段：跳出简单重复，完成核心权衡整合与边界升华（Synthesis Conclusion）",
+      "blueprint_id": "BP40",
+      "paragraph_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+      "cohesion_formula": "Balanced Restatment -> Dual-Pillar Synthesis -> Grounded Governance Principle (Zero Slogans!). 绑定逻辑规则：L023, L029.",
+      "paragraph_en": "In conclusion, while automated decision systems inevitably introduce transitional labor friction and verification challenges, integrating them into industrial and academic workflows yields substantial long-term productivity gains. By pairing algorithmic deployment with transparent audit trails and targeted workforce retraining, institutions can capture efficiency breakthroughs without eroding human analytical oversight. Ultimately, the value of intelligent automation rests not on replacing human judgment, but on elevating the precision of the evidence upon which human judgment acts.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [重申核心权衡与立场 Restate Nuanced Thesis]",
+          "sentence_en": "In conclusion, while automated decision systems inevitably introduce transitional labor friction and verification challenges, integrating them into industrial and academic workflows yields substantial long-term productivity gains.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]",
+          "sentence_en": "By pairing algorithmic deployment with transparent audit trails and targeted workforce retraining, institutions can capture efficiency breakthroughs without eroding human analytical oversight.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [理性边界展望（可选）Grounded Forward Look]",
+          "sentence_en": "Ultimately, the value of intelligent automation rests not on replacing human judgment, but on elevating the precision of the evidence upon which human judgment acts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

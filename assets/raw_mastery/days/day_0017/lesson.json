@@ -1,0 +1,334 @@
+{
+  "day": "day_0017",
+  "day_number": 17,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 17 天：实验设置、数据集特性与强基线选型说明段（Experimental Setup & Baselines） × 局限性（Limitations）的无损诚实写法：界定适用边界而非自毁贡献 × Technical_Benchmark_Report 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP17",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "实验设置、数据集特性与强基线选型说明段（Experimental Setup & Baselines）",
+      "user_intent_zh": "我这一段想在 Experiments 开篇说明：我们为什么选这几类数据集和这几类基线模型，证明我们的实验设计是全面、公平且直击痛点的。",
+      "when_to_use_zh": "Experiments 第 4.1 节 Experimental Setup",
+      "paragraph_move_structure": [
+        "S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3].",
+        "S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels].",
+        "S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3].",
+        "S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets."
+      ],
+      "cohesion_and_logic_formula": "Dataset Diversity -> Challenging Regime Highlights -> Categorized Strong Baselines -> Strict Fairness Protocol. 绑定逻辑规则：L009, L010.",
+      "defective_draft": "We use ETT, Weather, Electricity, and Traffic datasets. We compare with Autoformer, PatchTST, iTransformer, and DLinear. We use MSE and MAE as metrics, and the lookback window is 96.",
+      "defect_diagnosis_zh": "只是把数据集名字和基线名字干巴巴列了一遍，没有说明选这些数据集和基线背后的科学验证意图。",
+      "model_paragraph_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic). Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability. We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer). All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [数据集选型逻辑 Dataset Selection Rationale]",
+          "sentence_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [极端/困难特性突出 Challenging Dataset Properties]",
+          "sentence_en": "Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [基线流派全覆盖 Baseline Family Coverage]",
+          "sentence_en": "We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer).",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [公平评测协议 Fair Evaluation Protocol]",
+          "sentence_en": "All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "让审稿人立刻感受到实验设计的严密性：每个数据集测什么极限能力、每个基线代表什么流派、评测协议如何保证绝对公平。"
+    },
+    {
+      "blueprint_id": "BP29",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "流程图/算法流水线与闭环工序衔接段（Process & Closed-Loop Lifecycle）",
+      "user_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+      "when_to_use_zh": "IELTS Task 1 流程图（Process Diagram）/ 论文系统工程 Pipeline 描述段",
+      "paragraph_move_structure": [
+        "S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage].",
+        "S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers].",
+        "S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B].",
+        "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement."
+      ],
+      "cohesion_and_logic_formula": "Pipeline Overview -> Ingestion & Filtering -> Parallel Bifurcation -> Terminal Merger & Feedback Loop. 绑定逻辑规则：L003, L005.",
+      "defective_draft": "First, raw data is collected. Then it is cleaned. Then it goes into two branches. Branch 1 does A, and Branch 2 does B. Then they are combined. Finally, bad samples go back to the beginning.",
+      "defect_diagnosis_zh": "连续四个 Then，词汇贫乏（cleaned, goes into, does A, bad samples go back）。",
+      "model_paragraph_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining. The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames. Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates. These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [流程总括与起止界定 Lifecycle Overview]",
+          "sentence_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [前段采集与预处理 Initial Ingestion & Filtering]",
+          "sentence_en": "The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [中段并行分流 Parallel Branching]",
+          "sentence_en": "Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]",
+          "sentence_en": "These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 The cycle begins when... -> Once validated, the stream bifurcates into... -> These processed streams are subsequently synchronized..., whose failures are fed back... 完美呈现分支与闭环。"
+    },
+    {
+      "blueprint_id": "BP42",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "演讲幻灯片与复杂图表视觉引导段（Visual Signposting in Tech Talks）",
+      "user_intent_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+      "when_to_use_zh": "学术演讲图表/架构讲解逐字稿（Visual Walkthrough）",
+      "paragraph_move_structure": [
+        "S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE.",
+        "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically.",
+        "S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps.",
+        "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift."
+      ],
+      "cohesion_and_logic_formula": "Spatial Coordinate -> Notice Baseline Failure -> Compare Our Curve -> One-Sentence Mechanistic Takeaway. 绑定逻辑规则：L018, L015.",
+      "defective_draft": "Here is Figure 3. You can see many lines here. Our model is the blue line and it is the lowest, which means our model is the best on all horizons.",
+      "defect_diagnosis_zh": "没有给听众任何坐标引导（You can see many lines here），听众还在找坐标轴是什么意思时你已经翻页了。",
+      "model_paragraph_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+          "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+          "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+          "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+          "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "像激光笔一样精准引导听众视线：先定坐标轴 -> 再看橙色虚线在 336 小时后飙升 -> 再对比底部蓝色实线的平稳 -> 最后点出右侧 17% 差距的来源。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L017",
+      "category": "Discussion & Hedging (边界与审慎表达)",
+      "name_zh": "局限性（Limitations）的无损诚实写法：界定适用边界而非自毁贡献",
+      "name_en": "Constructive Boundary Framing in Limitations",
+      "core_principle_zh": "顶会强制要求写 Limitations。高水平写法是：明确指出当前方法在什么极端假设违背下（如极端稀疏采样、毫秒级超高速碰撞）性能会受限，并立即给出造成该边界的客观算力/物理原因及可行的下一步演进路径。",
+      "structural_formula": "While our framework performs robustly under [Standard Regime], its accuracy/efficiency is currently bounded when [Extreme Condition]. This limitation arises because [Objective Mechanism], suggesting a promising direction in [Concrete Future Fix].",
+      "common_pitfall_zh": "要么写成虚假自夸（Our only limitation is that our model is too general），要么写成致命自毁（Our model fails completely on real data）。",
+      "bad_example_en": "Our model has some limitations. It is too slow when there are many variables and does not work well on irregular time series.",
+      "good_example_en": "While our cross-variate graph module scales linearly with sequence length, its quadratic complexity with respect to channel count ($O(C^2)$) increases memory overhead when $C > 1,000$. Incorporating low-rank channel projection or sparse k-NN graph routing offers a direct path to scaling toward ultra-high-dimensional sensor arrays.",
+      "analysis_zh": "把“慢”精确化为通道维度的 $O(C^2)$ 复杂度边界（$C > 1,000$），并顺势给出低秩投影或稀疏 k-NN 路由的建设性解法。"
+    },
+    {
+      "logic_id": "L025",
+      "category": "Domain Discourse (具身智能专属论证)",
+      "name_zh": "具身智能感知-决策-控制闭环与 Sim-to-Real 论证规范（Embodied AI Closed-Loop Logic）",
+      "name_en": "Embodied Perception-Action Loop and Sim-to-Real Logic",
+      "core_principle_zh": "论述具身智能（Embodied AI）与机器人策略时，严禁将其等同于静态图像识别。必须突出**闭环反馈（Closed-loop feedback）**、**分布外状态累积偏移（Covariate shift in sequential decision-making）**、**接触动力学不确定性（Contact-rich dynamics）**以及**机载实时推理延迟约束（Onboard real-time latency）**。",
+      "structural_formula": "Unlike static perception where errors remain isolated, closed-loop manipulation compounds small action deviations into out-of-distribution states. -> To maintain stability under contact uncertainty, our policy [Mechanism].",
+      "common_pitfall_zh": "把机器人控制写得像普通分类任务（The robot looks at the image and outputs the right class of movement）。",
+      "bad_example_en": "The robot sees the image from the camera and predicts the action to pick up the cup accurately.",
+      "good_example_en": "Unlike static visual recognition where prediction errors remain isolated across samples, closed-loop robotic manipulation compounds minor trajectory deviations into unfamiliar contact states. To prevent this covariate drift during precision assembly, our visuomotor policy conditions short-horizon action chunks on real-time wrist force-torque feedback.",
+      "analysis_zh": "鲜明对比静态视觉与闭环操作中的误差累积（covariate drift），并引出视觉-力觉多模态短视野动作块控制机制。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC17",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP17",
+      "linked_logic_id": "L017",
+      "communicative_goal_zh": "我这一段想在 Experiments 开篇说明：我们为什么选这几类数据集和这几类基线模型，证明我们的实验设计是全面、公平且直击痛点的。",
+      "original_defective_paragraph": "We use ETT, Weather, Electricity, and Traffic datasets. We compare with Autoformer, PatchTST, iTransformer, and DLinear. We use MSE and MAE as metrics, and the lookback window is 96.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L017 局限性（Limitations）的无损诚实写法：界定适用边界而非自毁贡献）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "只是把数据集名字和基线名字干巴巴列了一遍，没有说明选这些数据集和基线背后的科学验证意图。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic). Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability. We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer). All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [数据集选型逻辑 Dataset Selection Rationale]",
+          "sentence_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [极端/困难特性突出 Challenging Dataset Properties]",
+          "sentence_en": "Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [基线流派全覆盖 Baseline Family Coverage]",
+          "sentence_en": "We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer).",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [公平评测协议 Fair Evaluation Protocol]",
+          "sentence_en": "All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC37",
+      "domain_en": "Conference Author Rebuttal & Reviewer Defense",
+      "domain_zh": "顶会审稿回复（Rebuttal）与消融防御",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP37",
+      "linked_logic_id": "L007",
+      "communicative_goal_zh": "我这一段想写 Problem-Solution 类作文的解决方案段：针对前文诊断出的两个具体根源，提出两项可操作、有明确执行主体和传导机制的靶向对策，拒绝只喊 'The government should make laws and raise awareness'。",
+      "original_defective_paragraph": "To solve this problem, first, the government should pass strict laws to punish bad people. Second, schools and media should educate the public and raise their awareness. Only in this way can we build a harmonious society.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L007 因果机制链 vs. 表面相关性切分（Causality vs. Correlation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+          "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对策 1",
+          "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对策 2",
+          "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+          "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC55",
+      "domain_en": "TOEFL Independent & Integrated Academic Writing",
+      "domain_zh": "托福独立与综合写作：理论基础与工程实践权衡",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP07",
+      "linked_logic_id": "L025",
+      "communicative_goal_zh": "我这一段想在 Introduction 最末尾清晰列出本文的三点核心贡献（理论/视角贡献 + 核心算法/架构贡献 + 实验与开源实证贡献）。",
+      "original_defective_paragraph": "Our contributions are: 1. A new model is proposed. 2. Solving the non-stationary problem. 3. Good results on datasets.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L025 具身智能感知-决策-控制闭环与 Sim-to-Real 论证规范（Embodied AI Closed-Loop Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "语法结构完全不平行（被动句 + 动名词短语 + 名词短语），且内容空泛。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability. (2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker. (3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总起引导句 Lead-in]",
+          "sentence_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总起引导句 Lead-in]：In summary, our main contributions are threefold: | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [贡献 1",
+          "sentence_en": "(2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [贡献 1：新视角/问题形式化 Conceptual/Formulation Contribution]：用强动词名物化或动词原形开头（We identify and formalize... / We establish...），点明打破了什么传统局限。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [贡献 2",
+          "sentence_en": "(3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [贡献 2：核心方法与模块 Algorithmic/Architectural Contribution]：We propose [Model/Mechanism], which integrates [A] and [B] to achieve [Theoretical/Functional Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT17",
+    "genre": "Technical_Benchmark_Report",
+    "title_zh": "AI 系统评测报告全文：长序列预测与生成模型在历史实测与未来算力扩展下的精度-延迟帕累托报告",
+    "structural_blueprint_chain": [
+      "BP17",
+      "BP18",
+      "BP22",
+      "BP28",
+      "BP30"
+    ]
+  }
+}

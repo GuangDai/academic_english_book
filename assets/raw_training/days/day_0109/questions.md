@@ -1,0 +1,382 @@
+# DAY_0109 学术英语写作训练 V2.0（第 109 天 / 共 116 天）
+
+- **所属阶段**：阶段 4：顶会论文、具身智能/生成建模、学术演讲与全周期综合复习（Day 76–116）
+- **训练模式**：末期词汇全周期复习与多文体（AI论文/演讲/六级/雅思托福）综合实战
+- **今日目标词条数**：0 | **预定复习词条数**：24 | **总题量**：36 题（总分 103 分）
+- **核心语法与句法分析**：G001 五大基本句型（SV, SVO, SVC, SVOO, SVOC）与动词配价边界, G006 核心介词规约搭配与名/动/形+介词固定结构, G012 数值、比例、分位数、矩阵量纲与增减幅度的精确语法
+- **核心表达模式**：EP013 严辨统计相关与因果机制（Correlation vs. Causality & Confounding）, EP016 多目标权衡（Trade-offs）与成本收益约束评估
+
+## 一、今日核心词群与熟词生义（Polysemy）精讲
+
+| 词条 ID | 词条 (Lemma) | 词性 | 熟词日常义 vs. 学术目标义 | 核心规约搭配 | 典型学术例句与句子成分主干 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `V01282` | **in sum** | phrase | **日常/基础**：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）<br>**学术目标**：当前单元特定学术义：概括而言（phrase） | `in sum` | In sum, the evidence supports further investigation.<br>*【前置状语/条件框架】In sum + 【主句核心主谓宾/表】the evidence supports further investigation. （目标词“in sum”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01283` | **in summary** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：概括而言（adv. phrase） | `in summary` | In summary, the results apply to the sampled schools.<br>*【前置状语/条件框架】In summary + 【主句核心主谓宾/表】the results apply to the sampled schools. （目标词“in summary”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01288` | **in that** | conjunction | **日常/基础**：基础字面义：因为<br>**学术目标**：多义项/多词性完整映射：因为；在……这一点上（conjunction） | `differs in that it uses interviews` | The study differs in that it uses interviews rather than a questionnaire.<br>*【紧凑主语】The study differs in... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01289` | **in the absence of** | prep. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在缺乏……时（prep. phrase） | `in the absence of instructions` | In the absence of instructions, we request clarification.<br>*【前置状语/条件框架】In the absence of instructions + 【主句核心主谓宾/表】we request clarification. （目标词“in the absence of”作 prep. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01290` | **in the case of** | phrase | **日常/基础**：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）<br>**学术目标**：当前单元特定学术义：在……的情况下；就……而言（phrase） | `in the case of` | In the case of incomplete records, the exclusion rule must be stated.<br>*【前置状语/条件框架】In the case of incomplete records + 【主句核心主谓宾/表】the exclusion rule must be stated. （目标词“in the case of”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01291` | **in the case of** | 介词短语 | **日常/基础**：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）<br>**学术目标**：当前单元特定学术义：就…这种情况而言（介词短语） | `in the case of small samples` | In the case of small samples, uncertainty may be substantial.<br>*【前置状语/条件框架】In the case of small samples + 【主句核心主谓宾/表】uncertainty may be substantial. （目标词“in the case of”作 介词短语 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01292` | **in the distant future** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在遥远的将来（adv. phrase） | `in the distant future` | The essay considers transport needs in the distant future.<br>*【紧凑主语】The essay considers transport... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01293` | **in the end** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：最终（adv. phrase） | `in the end` | In the end, the committee selected the lower-cost design.<br>*【前置状语/条件框架】In the end + 【主句核心主谓宾/表】the committee selected the lower-cost design. （目标词“in the end”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01294` | **in the final analysis** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：最终权衡后（adv. phrase） | `in the final analysis` | In the final analysis, the decision depends on the stated objective.<br>*【前置状语/条件框架】In the final analysis + 【主句核心主谓宾/表】the decision depends on the stated objective. （目标词“in the final analysis”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V01295` | **in the long term** | adv. phr. | **日常/基础**：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）<br>**学术目标**：当前单元特定学术义：从长期看；在长期内（adv. phr.） | `evaluate in the long term` | The programme’s effects need evaluation in the long term.<br>*【紧凑主语】The programme’s effects need... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01296` | **in the long term** | adv. phrase | **日常/基础**：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）<br>**学术目标**：当前单元特定学术义：从长期看；在长期内（adv. phrase） | `benefits in the long term` | The study examines possible benefits in the long term.<br>*【紧凑主语】The study examines possible... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01297` | **in the near future** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在不久的将来（adv. phrase） | `publish in the near future` | The team plans to release the code in the near future.<br>*【紧凑主语】The team plans to... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01298` | **in the next section** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在下一节（adv. phrase） | `in the next section` | We define the scoring rule in the next section.<br>*【紧凑主语】We define the scoring... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01299` | **in the preceding section** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在上一节（adv. phrase） | `in the preceding section` | We defined the task in the preceding section.<br>*【紧凑主语】We defined the task... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01300` | **in the process** | phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在此过程中（phrase） | `in the process` | We checked the dates and corrected several labels in the process.<br>*【紧凑主语】We checked the dates... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01301` | **in the right area** | adv. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在大致合理的范围内（adv. phrase） | `be in the right area` | The rough estimate suggests that the answer is in the right area.<br>*【紧凑主语】The rough estimate suggests... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+
+## 二、36 道完整训练题（涵盖词形、搭配、辨析、去口语/去AI腔替换、尾重改写、中译英、语篇逻辑、语态与多文体微写作）
+
+### 第 1 题 `Q_D0109_01` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 in sum (V01282) 的学术多义项与语境词形，并联动巩固 in the end (V01293)。
+- **关联词条**：`V01282, V01293` | **语法点**：`G001`
+- **成分与语境提示**：熟词生义与用法边界：一词多义与跨语境迁移对比：[V01281 adv. phrase] 概括而言（例：In sum, the two mechanisms require separate tests.）；[V01282 phrase] 概括而言（例：In sum, the evidence supports further investigation.） | 本条用法约束：正式总结表达；证据支持继续研究不等于证明结论。 | 句子成分结构：【前置状语/条件框架】In sum + 【主句核心主谓宾/表】the evidence supports further investigation. （目标词“in sum”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+【day_0109·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“概括而言”，phrase；注意区别于日常义：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）），填写唯一准确的英文词形：
+Sentence 1: ________, the evidence supports further investigation. （句意：概括而言，这些证据支持继续调查。）
+Sentence 2 (Companion Context with 'in the end'): In the end, the committee selected the lower-cost design.
+
+### 第 2 题 `Q_D0109_02` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 in summary (V01283) 的学术多义项与语境词形，并联动巩固 in the final analysis (V01294)。
+- **关联词条**：`V01283, V01294` | **语法点**：`G001`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：保留适用范围。 | 句子成分结构：【前置状语/条件框架】In summary + 【主句核心主谓宾/表】the results apply to the sampled schools. （目标词“in summary”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+【day_0109·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“概括而言”，adv. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: ________, the results apply to the sampled schools. （句意：概括而言，结果适用于抽样的学校。）
+Sentence 2 (Companion Context with 'in the final analysis'): In the final analysis, the decision depends on the stated objective.
+
+### 第 3 题 `Q_D0109_03` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 in that (V01288) 的学术多义项与语境词形，并联动巩固 in the long term (V01295)。
+- **关联词条**：`V01288, V01295` | **语法点**：`G001`
+- **成分与语境提示**：熟词生义与用法边界：词义与句法边界：引出具体解释，后接完整从句。 | 句子成分结构：【紧凑主语】The study differs in... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0109·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“因为”，conjunction；注意区别于日常义：基础字面义：因为），填写唯一准确的英文词形：
+Sentence 1: The study differs ________ it uses interviews rather than a questionnaire. （句意：该研究的不同之处在于它使用访谈，而非问卷。）
+Sentence 2 (Companion Context with 'in the long term'): The programme’s effects need evaluation in the long term.
+
+### 第 4 题 `Q_D0109_04` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 in the absence of (V01289) 的学术多义项与语境词形，并联动巩固 in the long term (V01296)。
+- **关联词条**：`V01289, V01296` | **语法点**：`G001`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：of 后接名词短语。 | 句子成分结构：【前置状语/条件框架】In the absence of instructions + 【主句核心主谓宾/表】we request clarification. （目标词“in the absence of”作 prep. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+【day_0109·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“在缺乏……时”，prep. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: ________ instructions, we request clarification. （句意：缺少说明时，我们请求澄清。）
+Sentence 2 (Companion Context with 'in the long term'): The study examines possible benefits in the long term.
+
+### 第 5 题 `Q_D0109_05` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 in the case of (V01290) 的学术多义项与语境词形，并联动巩固 in the near future (V01297)。
+- **关联词条**：`V01290, V01297` | **语法点**：`G001`
+- **成分与语境提示**：熟词生义与用法边界：一词多义与跨语境迁移对比：[V01290 phrase] 在……的情况下；就……而言（例：In the case of incomplete records, the exclusion rule must be stated.）；[V01291 介词短语] 就…这种情况而言（例：In the case of small samples, uncertainty may be substantial.） | 本条用法约束：后接具体对象或情形。 | 句子成分结构：【前置状语/条件框架】In the case of incomplete records + 【主句核心主谓宾/表】the exclusion rule must be stated. （目标词“in the case of”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+【day_0109·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“在……的情况下”，phrase；注意区别于日常义：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）），填写唯一准确的英文词形：
+Sentence 1: ________ incomplete records, the exclusion rule must be stated. （句意：对于不完整记录，必须说明排除规则。）
+Sentence 2 (Companion Context with 'in the near future'): The team plans to release the code in the near future.
+
+### 第 6 题 `Q_D0109_06` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 in the case of (V01291) 的学术多义项与语境词形，并联动巩固 in the next section (V01298)。
+- **关联词条**：`V01291, V01298` | **语法点**：`G001`
+- **成分与语境提示**：熟词生义与用法边界：一词多义与跨语境迁移对比：[V01290 phrase] 在……的情况下；就……而言（例：In the case of incomplete records, the exclusion rule must be stated.）；[V01291 介词短语] 就…这种情况而言（例：In the case of small samples, uncertainty may be substantial.） | 本条用法约束：指一个具体类别或案例。 | 句子成分结构：【前置状语/条件框架】In the case of small samples + 【主句核心主谓宾/表】uncertainty may be substantial. （目标词“in the case of”作 介词短语 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+【day_0109·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“就…这种情况而言”，介词短语；注意区别于日常义：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）），填写唯一准确的英文词形：
+Sentence 1: ________ small samples, uncertainty may be substantial. （句意：在小样本的情况下，不确定性可能很大。）
+Sentence 2 (Companion Context with 'in the next section'): We define the scoring rule in the next section.
+
+### 第 7 题 `Q_D0109_07` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 in the distant future 的自然搭配“in the distant future”并消除中式直译搭配错误。
+- **关联词条**：`V01292, V01299` | **语法点**：`G001, G006`
+- **成分与语境提示**：搭配类型：adv+adj_or_verb | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“in the distant future”精确表述“在遥远的将来”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0109·常见学术搭配 1】根据搭配类型（adv+adj_or_verb）与用法规范，使用目标词“in the distant future”（在遥远的将来）的规约搭配补全并写出下列完整英文学术句（表达：“文章讨论遥远将来的交通需求。”），使其与后句中的“in the preceding section”（in the preceding section）构成自然衔接：
+待完成句语义：文章讨论遥远将来的交通需求。（核心搭配提示：in the distant future）
+后续衔接句：We defined the task in the preceding section.
+
+### 第 8 题 `Q_D0109_08` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 in the end 的自然搭配“in the end”并消除中式直译搭配错误。
+- **关联词条**：`V01293, V01300` | **语法点**：`G001, G006`
+- **成分与语境提示**：搭配类型：adv+adj_or_verb | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“in the end”精确表述“最终”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0109·常见学术搭配 2】根据搭配类型（adv+adj_or_verb）与用法规范，使用目标词“in the end”（最终）的规约搭配补全并写出下列完整英文学术句（表达：“最终，委员会选择了成本较低的设计。”），使其与后句中的“in the process”（in the process）构成自然衔接：
+待完成句语义：最终，委员会选择了成本较低的设计。（核心搭配提示：in the end）
+后续衔接句：We checked the dates and corrected several labels in the process.
+
+### 第 9 题 `Q_D0109_09` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 in the final analysis 的自然搭配“in the final analysis”并消除中式直译搭配错误。
+- **关联词条**：`V01294, V01301` | **语法点**：`G001, G006`
+- **成分与语境提示**：搭配类型：adv+adj_or_verb | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“in the final analysis”精确表述“最终权衡后”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0109·常见学术搭配 3】根据搭配类型（adv+adj_or_verb）与用法规范，使用目标词“in the final analysis”（最终权衡后）的规约搭配补全并写出下列完整英文学术句（表达：“最终权衡后，决定取决于所述目标。”），使其与后句中的“in the right area”（be in the right area）构成自然衔接：
+待完成句语义：最终权衡后，决定取决于所述目标。（核心搭配提示：in the final analysis）
+后续衔接句：The rough estimate suggests that the answer is in the right area.
+
+### 第 10 题 `Q_D0109_10` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 in the long term 的自然搭配“evaluate in the long term”并消除中式直译搭配错误。
+- **关联词条**：`V01295, V01302` | **语法点**：`G001, G006`
+- **成分与语境提示**：搭配类型：verb+prep | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“evaluate in the long term”精确表述“从长期看；在长期内”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0109·常见学术搭配 4】根据搭配类型（verb+prep）与用法规范，使用目标词“in the long term”（从长期看）的规约搭配补全并写出下列完整英文学术句（表达：“该项目的影响需要长期评估。”），使其与后句中的“in the sense that”（useful in the sense that）构成自然衔接：
+待完成句语义：该项目的影响需要长期评估。（核心搭配提示：evaluate in the long term）
+后续衔接句：The estimate is useful in the sense that it summarises variation.
+
+### 第 11 题 `Q_D0109_11` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 in the long term 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V01296, V01303` | **语法点**：`G001`
+- **成分与语境提示**：目标句意：研究考察长期可能获得的益处。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0109·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 in the long term）：
+Context: The study examines possible benefits ________. Furthermore, regarding 'in the sense that', the pilot was useful in the sense that it revealed problems with recruitment.
+
+- A. in the final analysis
+- B. in the long term
+- C. in the near future
+- D. in the next section
+
+### 第 12 题 `Q_D0109_12` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 in the near future 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V01297, V01304` | **语法点**：`G001`
+- **成分与语境提示**：目标句意：团队计划在不久的将来发布代码。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0109·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 in the near future）：
+Context: The team plans to release the code ________. Furthermore, regarding 'in the shadow of', the account describes schooling in the shadow of conflict.
+
+- A. on the one hand
+- B. on the other hand
+- C. in the near future
+- D. on the whole
+
+### 第 13 题 `Q_D0109_13` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 in the next section 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V01298, V01305` | **语法点**：`G001`
+- **成分与语境提示**：目标句意：我们在下一节定义评分规则。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0109·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 in the next section）：
+Context: We define the scoring rule ________. Furthermore, regarding 'in the short term', the policy may increase costs in the short term.
+
+- A. under no circumstances
+- B. as a rule
+- C. as a whole
+- D. in the next section
+
+### 第 14 题 `Q_D0109_14` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 in the preceding section 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V01299, V01306` | **语法点**：`G001`
+- **成分与语境提示**：目标句意：我们在上一节定义了任务。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0109·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 in the preceding section）：
+Context: We defined the task ________. Furthermore, regarding 'in total', forty participants took part in total.
+
+- A. in the preceding section
+- B. by no means
+- C. by the same token
+- D. even so
+
+### 第 15 题 `Q_D0109_15` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 in the process (in the process) 替换英文初稿中的口语/模糊表达“do or handle”。
+- **关联词条**：`V01300, V01307` | **语法点**：`G001, G034`
+- **成分与语境提示**：目标语义：我们检查日期，并在此过程中更正了数个标签。 | 熟词生义提醒：精准学术定义：在此过程中（phrase）
+
+【day_0109·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“in the process”的恰当词形，并写出完整修正句（需同时保留后半句中关于“in turn”的语境信息）：
+English Draft: We checked the dates and corrected several labels <u>do or handle</u>. (Context note: The revised form reduced ambiguity, which in turn simplified coding.)
+
+### 第 16 题 `Q_D0109_16` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 in the right area (in the right area) 替换英文初稿中的口语/模糊表达“in a rough way”。
+- **关联词条**：`V01301, V01308` | **语法点**：`G001, G034`
+- **成分与语境提示**：目标语义：粗略估计表明答案处于大致合理的范围。 | 熟词生义提醒：精准学术定义：在大致合理的范围内（adv. phrase）
+
+【day_0109·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`in a rough way`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“in the right area”的恰当词形，并写出完整修正句（需同时保留后半句中关于“in view of”的语境信息）：
+English Draft: The rough estimate suggests that the answer is <u>in a rough way</u>. (Context note: In view of the missing records, we postponed the analysis.)
+
+### 第 17 题 `Q_D0109_17` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 in the sense that (in the sense that) 替换英文初稿中的口语/模糊表达“talking about”。
+- **关联词条**：`V01302, V01312` | **语法点**：`G001, G034`
+- **成分与语境提示**：目标语义：这个估计的用途在于概括变异。 | 熟词生义提醒：当前单元特定学术义：在……意义上（conj. phrase）
+
+【day_0109·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`talking about`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“in the sense that”的恰当词形，并写出完整修正句（需同时保留后半句中关于“in-sessional / pre-sessional”的语境信息）：
+English Draft: The estimate is useful <u>talking about</u> it summarises variation. (Context note: The in-sessional course runs alongside the main programme.)
+
+### 第 18 题 `Q_D0109_18` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“useful in the sense that”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V01303, V01828` | **语法点**：`G006, G034`
+- **成分与语境提示**：目标规约短语：useful in the sense that | 配合表达模式：【EP013】严辨统计相关与因果机制（Correlation vs. Causality & Confounding）
+
+【day_0109·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“in the sense that”的核心学术短语/搭配（“useful in the sense that”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The pilot was useful <u>make a basic handling in a general way regarding talking about</u> it revealed problems with recruitment.
+Companion Context ('past'): The display contrasts past lifestyles with present practices. （目标句意：这次试点的价值在于它揭示了招募中的问题。）
+
+### 第 19 题 `Q_D0109_19` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“in the shadow of conflict”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V01304, V01829` | **语法点**：`G006, G034`
+- **成分与语境提示**：目标规约短语：in the shadow of conflict | 配合表达模式：【EP013】严辨统计相关与因果机制（Correlation vs. Causality & Confounding）
+
+【day_0109·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“in the shadow of”的核心学术短语/搭配（“in the shadow of conflict”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The account describes schooling <u>make a basic handling in a general way regarding talking about</u> conflict.
+Companion Context ('pattern'): The records show a seasonal pattern of attendance. （目标句意：该记述描述了冲突影响下的教育。）
+
+### 第 20 题 `Q_D0109_20` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“costs in the short term”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V01305, V01832` | **语法点**：`G006, G034`
+- **成分与语境提示**：目标规约短语：costs in the short term | 配合表达模式：【EP013】严辨统计相关与因果机制（Correlation vs. Causality & Confounding）
+
+【day_0109·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“in the short term”的核心学术短语/搭配（“costs in the short term”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The policy may increase costs <u>make a basic handling in a general way regarding in a rough way</u>.
+Companion Context ('peak'): Demand peaked at 80 visits per day. （目标句意：政策可能在短期内增加成本。）
+
+### 第 21 题 `Q_D0109_21` 【句子改写】（3 分）
+- **训练目标**：围绕 in total 与 in sum 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V01306, V01282` | **语法点**：`G001, G032`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】Forty participants took part... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：正式可用；不要把 total 与 response rate 混为一谈。
+
+【day_0109·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】
+Top-Heavy Draft: *The question of how the research team can properly handle the fact that forty participants took part in total. in the experiment is what we look at.*
+改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“in total”（搭配：in total）将其改写为紧凑、有力的学术句子（并结合“in sum”的语境边界）。
+
+### 第 22 题 `Q_D0109_22` 【句子改写】（3 分）
+- **训练目标**：围绕 in turn 与 in summary 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V01307, V01283` | **语法点**：`G001, G033`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The revised form reduced... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：过程连锁关系须有依据。
+
+【day_0109·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】
+AI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: The revised form reduced ambiguity, which in turn simplified coding.*
+改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“in turn”写出零 AI 痕迹、克制精准的学术句子（关联词条：in summary）。
+
+### 第 23 题 `Q_D0109_23` 【句子改写】（3 分）
+- **训练目标**：围绕 in view of 与 in that 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V01308, V01288` | **语法点**：`G001, G021`
+- **成分与语境提示**：核心成分拆解：【前置状语/条件框架】In view of the missing records + 【主句核心主谓宾/表】we postponed the analysis. （目标词“in view of”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。 | 用法与多义边界：词义与句法边界：引入决策依据。
+
+【day_0109·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】
+Source Statement: In view of the missing records, we postponed the analysis. （中文句意：考虑到记录缺失，我们推迟了分析。）
+改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“in view of”（注意其学术义：多义项/多词性完整映射：考虑到；由于（phrase））及协同词“in that”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。
+
+### 第 24 题 `Q_D0109_24` 【句子改写】（3 分）
+- **训练目标**：围绕 in-sessional / pre-sessional 与 in the absence of 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V01312, V01289` | **语法点**：`G001, G018`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The in-sessional course runs... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：pre-sessional 在正式学习期之前；实际时间安排由机构决定。
+
+【day_0109·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】
+Verbose Draft: *When we consider the context of the analysis, it is true that the in-sessional course runs alongside the main programme.*
+改写指令：消除句首拖沓的从句，运用目标词“in-sessional / pre-sessional”（搭配：an in-sessional EAP course）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：in the absence of），严禁产生悬垂修饰或增删原意。
+
+### 第 25 题 `Q_D0109_25` 【句子改写】（3 分）
+- **训练目标**：围绕 past 与 in the case of 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V01828, V01290` | **语法点**：`G001, G036`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The display contrasts past... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：本段past在perceptions/lifestyles前为形容词，不是动词pass的过去式。
+
+【day_0109·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】
+Base Observation: The display contrasts past lifestyles with present practices. (Paired concept: 'in the case of' — In the case of incomplete records, the exclusion rule must be stated.)
+改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“past”与“in the case of”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。
+
+### 第 26 题 `Q_D0109_26` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 pattern (a pattern of) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V01829, V01291` | **语法点**：`G006, G031`
+- **成分与语境提示**：多义与用法提示：学术语境与搭配约束：规律不直接给出因果解释。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位
+
+【day_0109·中译英与句子成分构建 1（实证研究方法与数据核查场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“pattern”的学术义“规律，模式”及其搭配“a pattern of”，并兼顾协同词“in the case of”的语境标准）：
+中文题干：记录显示出勤情况有季节性规律。
+句子成分构建提示：【紧凑主语】The records show a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 27 题 `Q_D0109_27` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 peak (reach a peak) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V01832, V01292` | **语法点**：`G006, G035`
+- **成分与语境提示**：多义与用法提示：词义与句法边界：peak at后可接峰值；peak in常接月份、年份等时段。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法
+
+【day_0109·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“peak”的学术义“峰值”及其搭配“reach a peak”，并兼顾协同词“in the distant future”的语境标准）：
+中文题干：需求达到每天 80 次的峰值。
+句子成分构建提示：【紧凑主语】Demand peaked at 80... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 28 题 `Q_D0109_28` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 in sum (in sum) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V01282, V01293` | **语法点**：`G006, G032`
+- **成分与语境提示**：多义与用法提示：一词多义与跨语境迁移对比：[V01281 adv. phrase] 概括而言（例：In sum, the two mechanisms require separate tests.）；[V01282 phrase] 概括而言（例：In sum, the evidence supports further investigation.） | 本条用法约束：正式总结表达；证据支持继续研究不等于证明结论。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）
+
+【day_0109·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“in sum”的学术义“概括而言”及其搭配“in sum”，并兼顾协同词“in the end”的语境标准）：
+中文题干：概括而言，这些证据支持继续调查。
+句子成分构建提示：【前置状语/条件框架】In sum + 【主句核心主谓宾/表】the evidence supports further investigation. （目标词“in sum”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+### 第 29 题 `Q_D0109_29` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 in summary (in summary) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V01283, V01294` | **语法点**：`G006, G036`
+- **成分与语境提示**：多义与用法提示：学术语境与搭配约束：保留适用范围。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文
+
+【day_0109·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“in summary”的学术义“概括而言”及其搭配“in summary”，并兼顾协同词“in the final analysis”的语境标准）：
+中文题干：概括而言，结果适用于抽样的学校。
+句子成分构建提示：【前置状语/条件框架】In summary + 【主句核心主谓宾/表】the results apply to the sampled schools. （目标词“in summary”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。
+
+### 第 30 题 `Q_D0109_30` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：用包含 in that 与 in the near future 的具体机制与实例替换“只有夸张而无实例”的空洞断言。
+- **关联词条**：`V01288, V01297, V01306` | **语法点**：`G001, G033`
+- **成分与语境提示**：核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）
+
+【day_0109·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】
+下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：
+Hollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*
+任务要求：请摒弃上述空洞吹嘘，结合目标词条“in that”（因为）与“in the near future”（在不久的将来），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。
+
+### 第 31 题 `Q_D0109_31` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：通过含 in the absence of 与 in the next section 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。
+- **关联词条**：`V01289, V01298, V01307` | **语法点**：`G006, G009`
+- **成分与语境提示**：语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指
+
+【day_0109·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】
+将下列包含目标词“in the absence of”与“in the next section”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：
+(1) When examining the empirical outputs, a second consideration arises: We define the scoring rule in the next section.
+(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.
+(3) First, we specify the methodological setup: In the absence of instructions, we request clarification.
+(4) This setup ensures that the evaluation criteria remain consistent across all test runs.
+
+### 第 32 题 `Q_D0109_32` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：修复含 in the case of 与 in the preceding section 段落中的逗号粘连、连接词误用与因果外推跳跃。
+- **关联词条**：`V01290, V01299, V01308` | **语法点**：`G012, G023`
+- **成分与语境提示**：综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）
+
+【day_0109·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】
+审阅下列包含“in the case of”与“in the preceding section”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：
+Flawed Draft: *In the case of incomplete records, the exclusion rule must be stated, on the contrary, we defined the task in the preceding section., which proves 100% universal causality in all real-world regimes.*
+
+### 第 33 题 `Q_D0109_33` 【主动与被动语态】（4 分）
+- **训练目标**：结合及物性边界（linking_or_prep）与旧新信息焦点训练 in the case of 与 in the process 的语态选择。
+- **关联词条**：`V01291, V01300, V01312` | **语法点**：`G011, G001`
+- **成分与语境提示**：及物性：linking_or_prep | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）
+
+【day_0109·信息焦点与语态转换 1】阅读下列包含“in the case of”（就…这种情况而言）与“in the process”（在此过程中）的学术表达：
+Reference Sequence: (1) In the case of small samples, uncertainty may be substantial. (2) We checked the dates and corrected several labels in the process.
+改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。
+
+### 第 34 题 `Q_D0109_34` 【主动与被动语态】（4 分）
+- **训练目标**：结合及物性边界（linking_or_prep）与旧新信息焦点训练 in the distant future 与 in the right area 的语态选择。
+- **关联词条**：`V01292, V01301, V01828` | **语法点**：`G011, G001`
+- **成分与语境提示**：及物性：linking_or_prep | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）
+
+【day_0109·信息焦点与语态转换 2】阅读下列包含“in the distant future”（在遥远的将来）与“in the right area”（在大致合理的范围内）的学术表达：
+Reference Sequence: (1) The essay considers transport needs in the distant future. (2) The rough estimate suggests that the answer is in the right area.
+改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。
+
+### 第 35 题 `Q_D0109_35` 【独立微型写作】（5 分）
+- **训练目标**：在 AI/时序/生成建模/具身智能场景下运用 in the end、in the sense that 撰写零 AI 腔的技术微段落。
+- **关联词条**：`V01293, V01302, V01829, V01297` | **语法点**：`G001, G032, G033`
+- **成分与语境提示**：专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP013
+
+【day_0109·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】
+应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。
+写作要求：围绕以下候选目标词群中的至少 2–3 个词条（in the end（最终）、in the sense that（在……意义上）、pattern（规律，模式）、in the near future（在不久的将来）），写出一段 2–3 句、紧凑自然的英文技术微段落：
+1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；
+2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；
+3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。
+
+### 第 36 题 `Q_D0109_36` 【独立微型写作】（5 分）
+- **训练目标**：撰写融合 in the final analysis、in the sense that 与 peak 的 3–5 句六级/雅思托福/演讲实证论证段落。
+- **关联词条**：`V01294, V01303, V01832` | **语法点**：`G006, G028, G036`
+- **成分与语境提示**：文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G006 & G036
+
+【day_0109·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】
+应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。
+写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（in the final analysis（最终权衡后）、in the sense that（在…这一意义上）、peak（峰值）），写出一段 3–5 句、逻辑严密的完整段落：
+1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；
+2. 运用语法规则【G006】（核心介词规约搭配与名/动/形+介词固定结构）与表达模式【EP016】（多目标权衡（Trade-offs）与成本收益约束评估）；
+3. 句式自然地道，杜绝死板模板句与头重脚轻。
+

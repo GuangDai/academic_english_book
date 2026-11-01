@@ -1,0 +1,1715 @@
+[
+  {
+    "question_id": "Q_D0035_01",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 definition (V00693) 的学术多义项与语境词形，并联动巩固 development (V00734)。",
+    "prompt": "【day_0035·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“定义”，n.；注意区别于日常义：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）），填写唯一准确的英文词形：\nSentence 1: The introduction provides a ________ of participation. （句意：引言提供了参与的定义。）\nSentence 2 (Companion Context with 'development'): The report discusses industrial development in coastal regions.",
+    "context": "熟词生义与用法边界：一词多义与跨语境迁移对比：[V00693 n.] 定义（例：The introduction provides a definition of participation.）；[V00694 n.] 定义；释义（例：The methods section provides an operational definition of participation.） | 本条用法约束：词族 define；definition of。 | 句子成分结构：【紧凑主语】The introduction provides a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00693",
+      "V00734"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G008",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 definition）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_02",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 definition (V00694) 的学术多义项与语境词形，并联动巩固 development (V00735)。",
+    "prompt": "【day_0035·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“定义”，n.；注意区别于日常义：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）），填写唯一准确的英文词形：\nSentence 1: The methods section provides an operational ________ of participation. （句意：方法部分给出了参与的操作性定义。）\nSentence 2 (Companion Context with 'development'): The development of the instrument required several pilot tests.",
+    "context": "熟词生义与用法边界：一词多义与跨语境迁移对比：[V00693 n.] 定义（例：The introduction provides a definition of participation.）；[V00694 n.] 定义；释义（例：The methods section provides an operational definition of participation.） | 本条用法约束：可数名词；与 define 对应。 | 句子成分结构：【紧凑主语】The methods section provides... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00694",
+      "V00735"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00693",
+      "G031",
+      "G002",
+      "G032",
+      "V00734",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G008",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 definition）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_03",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 demonstration (V00703) 的学术多义项与语境词形，并联动巩固 difference (V00745)。",
+    "prompt": "【day_0035·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“展示”，n.；注意区别于日常义：基础字面义：展示），填写唯一准确的英文词形：\nSentence 1: The example gives a ________ of the way in which missing data affect a summary. （句意：该例展示缺失数据如何影响概括。）\nSentence 2 (Companion Context with 'difference'): The table records differences between the groups.",
+    "context": "熟词生义与用法边界：词义与句法边界：of 后接所展示的内容；区分动词 demonstrate。 | 句子成分结构：【紧凑主语】The example gives a... + 【核心谓语与宾补/状语后置扩展】全句共 15 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00703",
+      "V00745"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G008",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 demonstration）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_04",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 description (V00719) 的学术多义项与语境词形，并联动巩固 different (V00748)。",
+    "prompt": "【day_0035·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“描述”，n.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：\nSentence 1: The appendix provides a ________ of the interview protocol. （句意：附录描述了访谈方案。）\nSentence 2 (Companion Context with 'different'): The two labels have different meanings.",
+    "context": "熟词生义与用法边界：学术语境与搭配约束：接 of。 | 句子成分结构：【紧凑主语】The appendix provides a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00719",
+      "V00748"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G008",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 description）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_05",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 descriptive (V00720) 的学术多义项与语境词形，并联动巩固 digestion (V00755)。",
+    "prompt": "【day_0035·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“描述性的”，adj.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：\nSentence 1: The table presents ________ statistics. （句意：该表给出描述性统计量。）\nSentence 2 (Companion Context with 'digestion'): The chapter introduces vocabulary for the process of digestion.",
+    "context": "熟词生义与用法边界：学术语境与搭配约束：不能仅凭描述统计推断因果。 | 句子成分结构：【紧凑主语】The table presents descriptive... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00720",
+      "V00755"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G008",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 descriptive）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_06",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 2,
+    "training_objective": "激活 desirable (V00723) 的学术多义项与语境词形，并联动巩固 discovery (V00769)。",
+    "prompt": "【day_0035·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“希望具备的”，adj.；注意区别于日常义：基础字面义：希望具备的），填写唯一准确的英文词形：\nSentence 1: Robustness to small measurement errors is a ________ property of the estimator. （句意：对小幅测量误差保持稳健是该估计量希望具备的性质。）\nSentence 2 (Companion Context with 'discovery'): The discovery of the error prompted a reanalysis.",
+    "context": "熟词生义与用法边界：词义与句法边界：评价需说明目标与代价；desirable 不等于必需或已实现，desire 是名词或动词。 | 句子成分结构：【紧凑主语】Robustness to small measurement... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00723",
+      "V00769"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_2",
+      "G008",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 desirable）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_07",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 detailed 的自然搭配“a detailed account”并消除中式直译搭配错误。",
+    "prompt": "【day_0035·常见学术搭配 1】根据搭配类型（adj+noun）与用法规范，使用目标词“detailed”（详细的）的规约搭配补全并写出下列完整英文学术句（表达：“该个案研究详细呈现了该决策。”），使其与后句中的“disposal”（waste disposal）构成自然衔接：\n待完成句语义：该个案研究详细呈现了该决策。（核心搭配提示：a detailed account）\n后续衔接句：The report examined waste disposal practices.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“a detailed account”精确表述“详细的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00726",
+      "V00778"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G013"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G005",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G008",
+      "G013",
+      "EP019",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“a detailed account”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_08",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 development 的自然搭配“industrial development”并消除中式直译搭配错误。",
+    "prompt": "【day_0035·常见学术搭配 2】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“development”（发展）的规约搭配补全并写出下列完整英文学术句（表达：“报告讨论沿海地区的工业发展。”），使其与后句中的“distinction”（be awarded a distinction）构成自然衔接：\n待完成句语义：报告讨论沿海地区的工业发展。（核心搭配提示：industrial development）\n后续衔接句：The course handbook explains the conditions for a distinction.",
+    "context": "搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“industrial development”精确表述“发展；开发”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00734",
+      "V00789"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G013"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G001",
+      "G005",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G008",
+      "G013",
+      "EP019",
+      "collocation_accuracy",
+      "fixed_academic_phrase"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“industrial development”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_09",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 development 的自然搭配“the development of”并消除中式直译搭配错误。",
+    "prompt": "【day_0035·常见学术搭配 3】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“development”（开发）的规约搭配补全并写出下列完整英文学术句（表达：“仪器开发需要多次试测。”），使其与后句中的“distinction”（the distinction between）构成自然衔接：\n待完成句语义：仪器开发需要多次试测。（核心搭配提示：the development of）\n后续衔接句：The distinction between association and causation is essential here.",
+    "context": "搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“the development of”精确表述“开发；发展”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00735",
+      "V00790"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G013"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "V00734",
+      "G031",
+      "G032",
+      "V00789",
+      "G001",
+      "G005",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G008",
+      "G013",
+      "EP019",
+      "collocation_accuracy",
+      "fixed_academic_phrase"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“the development of”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_10",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 2,
+    "training_objective": "掌握 difference 的自然搭配“differences between”并消除中式直译搭配错误。",
+    "prompt": "【day_0035·常见学术搭配 4】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“difference”（差异）的规约搭配补全并写出下列完整英文学术句（表达：“表格记录了组间差异。”），使其与后句中的“distinction”（a distinction between）构成自然衔接：\n待完成句语义：表格记录了组间差异。（核心搭配提示：differences between）\n后续衔接句：The distinction between a label and an observation should be clear.",
+    "context": "搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“differences between”精确表述“差异”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00745",
+      "V00791"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G013"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00790",
+      "G001",
+      "G005",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_2",
+      "G008",
+      "G013",
+      "EP019",
+      "collocation_accuracy",
+      "fixed_academic_phrase"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“differences between”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_11",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 different 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0035·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 different）：\nContext: The two labels have ________ meanings. Furthermore, regarding 'distribution', the distribution of scores was strongly skewed.",
+    "context": "目标句意：两个标签含义不同。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. descriptive",
+      "B. desirable",
+      "C. detailed",
+      "D. different"
+    ],
+    "focus_word_ids": [
+      "V00748",
+      "V00798"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G008",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_12",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 digestion 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0035·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 digestion）：\nContext: The chapter introduces vocabulary for the process of ________. Furthermore, regarding 'diversity', the study considers linguistic diversity in the sample.",
+    "context": "目标句意：该章介绍描述消化过程的词汇。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. digestion",
+      "B. table",
+      "C. target",
+      "D. technique"
+    ],
+    "focus_word_ids": [
+      "V00755",
+      "V00799"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G008",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_13",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 discovery 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0035·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 discovery）：\nContext: The ________ of the error prompted a reanalysis. Furthermore, regarding 'documentary', the historian compared documentary evidence with later accounts.",
+    "context": "目标句意：这一错误的发现促使研究者重新分析。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. type",
+      "B. discovery",
+      "C. unit",
+      "D. use"
+    ],
+    "focus_word_ids": [
+      "V00769",
+      "V00805"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G008",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_14",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 2,
+    "training_objective": "辨析 disposal 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0035·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 disposal）：\nContext: The report examined waste ________ practices. Furthermore, regarding 'easily', the revised labels allow users to identify the categories easily.",
+    "context": "目标句意：报告考察废物处理做法。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. accident",
+      "B. accuracy",
+      "C. disposal",
+      "D. achievement"
+    ],
+    "focus_word_ids": [
+      "V00778",
+      "V00836"
+    ],
+    "grammar_ids": [
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_2",
+      "G008",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0035_15",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 2,
+    "training_objective": "用精准学术词 distinction (distinction) 替换英文初稿中的口语/模糊表达“clear conceptual separation”。",
+    "prompt": "【day_0035·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`clear conceptual separation`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“distinction”的恰当词形，并写出完整修正句（需同时保留后半句中关于“elimination”的语境信息）：\nEnglish Draft: The course handbook explains the conditions for a <u>clear conceptual separation</u>. (Context note: The elimination of duplicate entries reduced the file size.)",
+    "context": "目标语义：课程手册说明了获得优等成绩的条件。 | 熟词生义提醒：n. ① 关键概念区分（the conceptual distinction between prediction and causal explanation）；② 学位优等成绩（be awarded a distinction）",
+    "options": null,
+    "focus_word_ids": [
+      "V00789",
+      "V00855"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_2",
+      "G008",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "cet6_ielts_toefl_education_and_academic_life",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_16",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 2,
+    "training_objective": "用精准学术词 distinction (distinction) 替换英文初稿中的口语/模糊表达“clear conceptual separation”。",
+    "prompt": "【day_0035·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`clear conceptual separation`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“distinction”的恰当词形，并写出完整修正句（需同时保留后半句中关于“emergence”的语境信息）：\nEnglish Draft: The <u>clear conceptual separation</u> between association and causation is essential here. (Context note: The emergence of new devices changed the monitoring procedure.)",
+    "context": "目标语义：此处需要区分关联与因果。 | 熟词生义提醒：n. ① 关键概念区分（the conceptual distinction between prediction and causal explanation）；② 学位优等成绩（be awarded a distinction）",
+    "options": null,
+    "focus_word_ids": [
+      "V00790",
+      "V00860"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00789",
+      "G031",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_2",
+      "G008",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_17",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 2,
+    "training_objective": "用精准学术词 distinction (distinction) 替换英文初稿中的口语/模糊表达“clear conceptual separation”。",
+    "prompt": "【day_0035·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`clear conceptual separation`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“distinction”的恰当词形，并写出完整修正句（需同时保留后半句中关于“emission”的语境信息）：\nEnglish Draft: The <u>clear conceptual separation</u> between a label and an observation should be clear. (Context note: The proposal aims to reduce emissions from commuting.)",
+    "context": "目标语义：标签与观测之间的区别应当明确。 | 熟词生义提醒：n. ① 关键概念区分（the conceptual distinction between prediction and causal explanation）；② 学位优等成绩（be awarded a distinction）",
+    "options": null,
+    "focus_word_ids": [
+      "V00791",
+      "V00863"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00790",
+      "G031",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_2",
+      "G008",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_18",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 2,
+    "training_objective": "使用地道学术搭配“the distribution of scores”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0035·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“distribution”的核心学术短语/搭配（“the distribution of scores”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The <u>make a basic handling in a general way regarding general thing or part</u> of scores was strongly skewed.\nCompanion Context ('employee'): Each employee received the same questionnaire. （目标句意：分数分布明显偏斜。）",
+    "context": "目标规约短语：the distribution of scores | 配合表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定",
+    "options": null,
+    "focus_word_ids": [
+      "V00798",
+      "V00876"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_2",
+      "G013",
+      "G034",
+      "EP019",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“the distribution of scores”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_19",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 2,
+    "training_objective": "使用地道学术搭配“linguistic diversity”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0035·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“diversity”的核心学术短语/搭配（“linguistic diversity”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The study considers linguistic <u>make a basic handling in a general way regarding general thing or part</u> in the sample.\nCompanion Context ('employment'): The study records employment status. （目标句意：研究考虑样本的语言多样性。）",
+    "context": "目标规约短语：linguistic diversity | 配合表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定",
+    "options": null,
+    "focus_word_ids": [
+      "V00799",
+      "V00877"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_2",
+      "G013",
+      "G034",
+      "EP019",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“linguistic diversity”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_20",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 2,
+    "training_objective": "使用地道学术搭配“documentary evidence”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0035·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“documentary”的核心学术短语/搭配（“documentary evidence”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The historian compared <u>make a basic handling in a general way regarding big or special</u> evidence with later accounts.\nCompanion Context ('encouraging'): The preliminary results are encouraging but require replication. （目标句意：历史学家比较了文献证据与后续叙述。）",
+    "context": "目标规约短语：documentary evidence | 配合表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定",
+    "options": null,
+    "focus_word_ids": [
+      "V00805",
+      "V00882"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_2",
+      "G013",
+      "G034",
+      "EP019",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“documentary evidence”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_21",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 easily 与 definition 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0035·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】\nTop-Heavy Draft: *The question of how the research team can properly handle the fact that the revised labels allow users to identify the categories easily. in the experiment is what we look at.*\n改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“easily”（搭配：easily identify）将其改写为紧凑、有力的学术句子（并结合“definition”的语境边界）。",
+    "context": "核心成分拆解：【紧凑主语】The revised labels allow... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：是方式或难度，不能用作比较准确性的证据。",
+    "options": null,
+    "focus_word_ids": [
+      "V00836",
+      "V00693"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G008",
+      "G032",
+      "EP019",
+      "sentence_rewriting",
+      "G032",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 easily 的搭配“easily identify”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_22",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 elimination 与 definition 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0035·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】\nAI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: The elimination of duplicate entries reduced the file size.*\n改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“elimination”写出零 AI 痕迹、克制精准的学术句子（关联词条：definition）。",
+    "context": "核心成分拆解：【紧凑主语】The elimination of duplicate... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：eliminate为动词；完全消除须有证据。",
+    "options": null,
+    "focus_word_ids": [
+      "V00855",
+      "V00694"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00693",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G008",
+      "G033",
+      "EP019",
+      "sentence_rewriting",
+      "G033",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 elimination 的搭配“the elimination of duplicate entries”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_23",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 emergence 与 demonstration 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0035·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】\nSource Statement: The emergence of new devices changed the monitoring procedure. （中文句意：新设备的出现改变了监测程序。）\n改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“emergence”（注意其学术义：多义项/多词性完整映射：出现；兴起（n.））及协同词“demonstration”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。",
+    "context": "核心成分拆解：【紧凑主语】The emergence of new... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：与 emergency（紧急情况）不同。",
+    "options": null,
+    "focus_word_ids": [
+      "V00860",
+      "V00703"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G021"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G008",
+      "G021",
+      "EP019",
+      "sentence_rewriting",
+      "G021",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 emergence 的搭配“the emergence of a problem”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_24",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 emission 与 description 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0035·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】\nVerbose Draft: *When we consider the context of the analysis, it is true that the proposal aims to reduce emissions from commuting.*\n改写指令：消除句首拖沓的从句，运用目标词“emission”（搭配：reduce emissions）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：description），严禁产生悬垂修饰或增删原意。",
+    "context": "核心成分拆解：【紧凑主语】The proposal aims to... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：谈多种或持续排放时常用 emissions。",
+    "options": null,
+    "focus_word_ids": [
+      "V00863",
+      "V00719"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G018"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G008",
+      "G018",
+      "EP019",
+      "sentence_rewriting",
+      "G018",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 emission 的搭配“reduce emissions”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_25",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 2,
+    "training_objective": "围绕 employee 与 descriptive 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0035·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】\nBase Observation: Each employee received the same questionnaire. (Paired concept: 'descriptive' — The table presents descriptive statistics.)\n改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“employee”与“descriptive”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。",
+    "context": "核心成分拆解：【紧凑主语】Each employee received the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+    "options": null,
+    "focus_word_ids": [
+      "V00876",
+      "V00720"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_2",
+      "G008",
+      "G036",
+      "EP019",
+      "sentence_rewriting",
+      "G036",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 employee 的搭配“survey employees”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_26",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 employment (employment status) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0035·中译英与句子成分构建 1（实证研究方法与数据核查场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“employment”的学术义“就业”及其搭配“employment status”，并兼顾协同词“desirable”的语境标准）：\n中文题干：研究记录就业状态。\n句子成分构建提示：【紧凑主语】The study records employment... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：词义与句法边界：不把家庭照料解释为没有劳动。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "options": null,
+    "focus_word_ids": [
+      "V00877",
+      "V00723"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G031"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G013",
+      "G031",
+      "EP002",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G031"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 employment 及其搭配“employment status”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_27",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 encouraging (encouraging results) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0035·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“encouraging”的学术义“令人认为可能有进展的”及其搭配“encouraging results”，并兼顾协同词“detailed”的语境标准）：\n中文题干：初步结果显示可能有进展，但还需要重复验证。\n句子成分构建提示：【紧凑主语】The preliminary results are... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：学术语境与搭配约束：带评价色彩，不等于 conclusive。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "options": null,
+    "focus_word_ids": [
+      "V00882",
+      "V00726"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G035"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G013",
+      "G035",
+      "EP002",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G035"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 encouraging 及其搭配“encouraging results”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_28",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 definition (provide a definition) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0035·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“definition”的学术义“定义”及其搭配“provide a definition”，并兼顾协同词“development”的语境标准）：\n中文题干：引言提供了参与的定义。\n句子成分构建提示：【紧凑主语】The introduction provides a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V00693 n.] 定义（例：The introduction provides a definition of participation.）；[V00694 n.] 定义；释义（例：The methods section provides an operational definition of participation.） | 本条用法约束：词族 define；definition of。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "options": null,
+    "focus_word_ids": [
+      "V00693",
+      "V00734"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G005",
+      "G006",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G013",
+      "G032",
+      "EP002",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G032"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 definition 及其搭配“provide a definition”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_29",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 2,
+    "training_objective": "运用句子成分分析法与 definition (an operational definition) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0035·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“definition”的学术义“定义”及其搭配“an operational definition”，并兼顾协同词“development”的语境标准）：\n中文题干：方法部分给出了参与的操作性定义。\n句子成分构建提示：【紧凑主语】The methods section provides... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V00693 n.] 定义（例：The introduction provides a definition of participation.）；[V00694 n.] 定义；释义（例：The methods section provides an operational definition of participation.） | 本条用法约束：可数名词；与 define 对应。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "options": null,
+    "focus_word_ids": [
+      "V00694",
+      "V00735"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00693",
+      "G031",
+      "G002",
+      "G032",
+      "V00734",
+      "G005",
+      "G006",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_2",
+      "G013",
+      "G036",
+      "EP002",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G036"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 definition 及其搭配“an operational definition”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0035_30",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 2,
+    "training_objective": "用包含 demonstration 与 digestion 的具体机制与实例替换“只有夸张而无实例”的空洞断言。",
+    "prompt": "【day_0035·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】\n下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：\nHollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*\n任务要求：请摒弃上述空洞吹嘘，结合目标词条“demonstration”（展示）与“digestion”（消化），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。",
+    "context": "核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）",
+    "options": null,
+    "focus_word_ids": [
+      "V00703",
+      "V00755",
+      "V00836"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_2",
+      "G008",
+      "G033",
+      "EP019",
+      "anti_hyperbole",
+      "concrete_evidence_grounding",
+      "paragraph_logic"
+    ],
+    "scene": "tech_talk_presentation_and_rebuttal",
+    "register": "formal_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "严禁使用 groundbreaking / unparalleled / extremely great 等无根据夸张词",
+      "必须包含 demonstration 与 digestion 的具体语境陈述"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0035_31",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 2,
+    "training_objective": "通过含 description 与 discovery 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。",
+    "prompt": "【day_0035·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】\n将下列包含目标词“description”与“discovery”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：\n(1) When examining the empirical outputs, a second consideration arises: The discovery of the error prompted a reanalysis.\n(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.\n(3) First, we specify the methodological setup: The appendix provides a description of the interview protocol.\n(4) This setup ensures that the evaluation criteria remain consistent across all test runs.",
+    "context": "语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指",
+    "options": null,
+    "focus_word_ids": [
+      "V00719",
+      "V00769",
+      "V00855"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_2",
+      "G013",
+      "G009",
+      "EP002",
+      "sentence_ordering",
+      "given_new_contract",
+      "referential_cohesion"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "写出正确的四句排列顺序",
+      "指出句间实现无缝咬合的总结性指代短语"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0035_32",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 2,
+    "training_objective": "修复含 descriptive 与 disposal 段落中的逗号粘连、连接词误用与因果外推跳跃。",
+    "prompt": "【day_0035·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】\n审阅下列包含“descriptive”与“disposal”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：\nFlawed Draft: *The table presents descriptive statistics, on the contrary, the report examined waste disposal practices., which proves 100% universal causality in all real-world regimes.*",
+    "context": "综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）",
+    "options": null,
+    "focus_word_ids": [
+      "V00720",
+      "V00778",
+      "V00860"
+    ],
+    "grammar_ids": [
+      "G021",
+      "G023"
+    ],
+    "expression_pattern_ids": [
+      "EP019",
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_2",
+      "G021",
+      "G023",
+      "EP019",
+      "EP002",
+      "comma_splice_repair",
+      "causality_boundary",
+      "connector_precision"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "修正 Comma Splice 与 on the contrary 的误用",
+      "用审慎的范围限定替换 *proves 100% universal causality*"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0035_33",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 2,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 desirable 与 distinction 的语态选择。",
+    "prompt": "【day_0035·信息焦点与语态转换 1】阅读下列包含“desirable”（希望具备的）与“distinction”（优等成绩）的学术表达：\nReference Sequence: (1) Robustness to small measurement errors is a desirable property of the estimator. (2) The course handbook explains the conditions for a distinction.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00723",
+      "V00789",
+      "V00863"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_2",
+      "G011",
+      "G008",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0035_34",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 2,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 detailed 与 distinction 的语态选择。",
+    "prompt": "【day_0035·信息焦点与语态转换 2】阅读下列包含“detailed”（详细的）与“distinction”（区别）的学术表达：\nReference Sequence: (1) The case study provides a detailed account of the decision. (2) The distinction between association and causation is essential here.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00726",
+      "V00790",
+      "V00876"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G008"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00789",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_2",
+      "G011",
+      "G008",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0035_35",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 2,
+    "training_objective": "在 AI/时序/生成建模/具身智能场景下运用 development、distinction 撰写零 AI 腔的技术微段落。",
+    "prompt": "【day_0035·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】\n应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。\n写作要求：围绕以下候选目标词群中的至少 2–3 个词条（development（发展）、distinction（区别）、employment（就业）、digestion（消化）），写出一段 2–3 句、紧凑自然的英文技术微段落：\n1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；\n2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；\n3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。",
+    "context": "专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP019",
+    "options": null,
+    "focus_word_ids": [
+      "V00734",
+      "V00791",
+      "V00877",
+      "V00755"
+    ],
+    "grammar_ids": [
+      "G008",
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP019"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V00790",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_2",
+      "G008",
+      "G032",
+      "G033",
+      "EP019",
+      "ai_timeseries_embodied_writing",
+      "anti_ai_style",
+      "end_weight"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少准确融入候选词群（development（发展）、distinction（区别）、employment（就业）、digestion（消化））中的 2 个词条及其规约搭配",
+      "词数 45–80 词（2–3 句），主谓紧凑，遵守尾重原则（End-Weight）",
+      "零 AI 浮夸套话，必须包含具体技术条件或实验边界"
+    ],
+    "max_score": 5
+  },
+  {
+    "question_id": "Q_D0035_36",
+    "day_id": "day_0035",
+    "stage": 2,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 2,
+    "training_objective": "撰写融合 development、distribution 与 absence 的 3–5 句六级/雅思托福/演讲实证论证段落。",
+    "prompt": "【day_0035·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】\n应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。\n写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（development（开发）、distribution（分布）、encouraging（令人认为可能有进展的）、absence（缺失）），写出一段 3–5 句、逻辑严密的完整段落：\n1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；\n2. 运用语法规则【G013】（近义词与多义词深度辨析：语义范围、褒贬色彩、技术定义与语域）与表达模式【EP002】（精确区分可数样本量与不可数开销/证据）；\n3. 句式自然地道，杜绝死板模板句与头重脚轻。",
+    "context": "文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G013 & G036",
+    "options": null,
+    "focus_word_ids": [
+      "V00735",
+      "V00798",
+      "V00882",
+      "V00021"
+    ],
+    "grammar_ids": [
+      "G013",
+      "G028",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP002"
+    ],
+    "prerequisite_ids": [
+      "V00734",
+      "G031",
+      "G032",
+      "G005",
+      "G006",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_2",
+      "G013",
+      "G028",
+      "G036",
+      "EP002",
+      "cet6_ielts_toefl_writing",
+      "concrete_exemplification",
+      "concession_rebuttal"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "general_academic",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少自然融入候选词群（development（开发）、distribution（分布）、encouraging（令人认为可能有进展的）、absence（缺失））中的 3 个词条",
+      "必须包含具体实例或机制说明，严禁只喊口号或堆砌夸张词",
+      "3–5 个完整英文句（65–110 词），标点与指代规范"
+    ],
+    "max_score": 5
+  }
+]

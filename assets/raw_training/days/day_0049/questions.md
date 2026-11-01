@@ -1,0 +1,397 @@
+# DAY_0049 学术英语写作训练 V2.0（第 49 天 / 共 116 天）
+
+- **所属阶段**：阶段 2：准确表达、一词多义辨析与时序/AI 基础句法（Day 26–50）
+- **训练模式**：8 大熟词生义/多义词群高密度激活 + 间隔复习
+- **今日目标词条数**：27 | **预定复习词条数**：24 | **总题量**：36 题（总分 103 分）
+- **核心语法与句法分析**：G020 语态的语篇决策：基于研究对象、旧信息前置与施事责任的主动/被动选择, G032 消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）, G002 可数名词、不可数名词及多义词在不同义项下的可数性切换
+- **核心表达模式**：EP004 界定概念的操作性定义与数学符号表示, EP007 同时报告绝对差值与相对变化（区分 % 与百分点）
+
+## 一、今日核心词群与熟词生义（Polysemy）精讲
+
+| 词条 ID | 词条 (Lemma) | 词性 | 熟词日常义 vs. 学术目标义 | 核心规约搭配 | 典型学术例句与句子成分主干 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `V00699` | **demolish** | v. | **日常/基础**：基础字面义：彻底驳倒<br>**学术目标**：多义项/多词性完整映射：彻底驳倒；拆除（v.） | `demolish an argument; demolish a theory` | A counterexample can demolish a universal claim.<br>*【紧凑主语】A counterexample can demolish... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00704` | **demote** | v. | **日常/基础**：基础字面义：降低级别<br>**学术目标**：多义项/多词性完整映射：降低级别；降级（v.） | `be demoted to` | In this hypothetical classification, the item is demoted to a lower tier.<br>*【紧凑主语】In this hypothetical classification,... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00721` | **descriptively** | adv. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：以描述方式（adv.） | `compare descriptively` | The groups are compared descriptively.<br>*【紧凑主语】The groups are compared... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00751` | **differently** | adv. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：以不同方式（adv.） | `label differently` | The two annotators labelled the sentence differently.<br>*【紧凑主语】The two annotators labelled... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00759` | **directly** | adv. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：直接地（adv.） | `directly observed; directly linked to` | The variable was directly observed rather than estimated from another measure.<br>*【紧凑主语】The variable was directly... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00760` | **disadvantage** | n. | **日常/基础**：基础字面义：缺点<br>**学术目标**：多义项/多词性完整映射：缺点；不利之处（n.） | `advantages and disadvantages` | A disadvantage is the lack of repeated measurements.<br>*【紧凑主语】A disadvantage is the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00780` | **disprove** | v. | **日常/基础**：基础字面义：证伪<br>**学术目标**：多义项/多词性完整映射：证伪；证明错误（v.） | `disprove a hypothesis` | One valid counterexample can disprove a universal mathematical claim.<br>*【紧凑主语】One valid counterexample can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00782` | **disseminate** | v. | **日常/基础**：基础字面义：传播<br>**学术目标**：多义项/多词性完整映射：传播；发布（v.） | `disseminate findings` | The project will disseminate its findings in an accessible summary.<br>*【紧凑主语】The project will disseminate... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00831` | **e-learning** | n. | **日常/基础**：基础字面义：电子学习<br>**学术目标**：多义项/多词性完整映射：电子学习；数字化学习（n.） | `e-learning platform` | The e-learning platform stores course materials.<br>*【紧凑主语】The e-learning platform stores... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00832` | **e.g.** | abbr. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：例如（abbr.） | `e.g. climate data` | Several domains, e.g. transport and energy, require forecasting.<br>*【前置状语/条件框架】Several domains + 【主句核心主谓宾/表】e.g. transport and energy, require forecasting. （目标词“e.g.”作 abbr. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V00833` | **EAP** | abbr. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：专门用于学术目的的英语（abbr.） | `English for Academic Purposes` | The EAP course focuses on reading and research writing.<br>*【紧凑主语】The EAP course focuses... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00834` | **earlier** | adv. | **日常/基础**：基础字面义：先前<br>**学术目标**：多义项/多词性完整映射：先前；在前文（adv.） | `noted earlier` | As noted earlier, the sample is small.<br>*【前置状语/条件框架】As noted earlier + 【主句核心主谓宾/表】the sample is small. （目标词“earlier”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V00838` | **eco-friendly** | adj. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：环保的（adj.） | `an eco-friendly design` | The report questions whether the design is genuinely eco-friendly.<br>*【紧凑主语】The report questions whether... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00839` | **eco-tourism** | n. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：生态旅游（n.） | `the effects of eco-tourism` | The study examines the effects of eco-tourism on local communities.<br>*【紧凑主语】The study examines the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00864` | **emissions** | n. pl. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：排放（n. pl.） | `reduce emissions` | The proposal targets emissions from campus transport.<br>*【紧凑主语】The proposal targets emissions... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00884` | **end-of-semester** | adj. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：学期末的（adj.） | `end-of-semester assignment` | The end-of-semester assignment requires a literature review.<br>*【紧凑主语】The end-of-semester assignment requires... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00895` | **entitlement** | n. | **日常/基础**：基础字面义：获得资格<br>**学术目标**：多义项/多词性完整映射：获得资格；应享权益（n.） | `entitlement to funding` | Entitlement to funding depends on the stated eligibility rules.<br>*【紧凑主语】Entitlement to funding depends... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00902` | **equinox** | n. | **日常/基础**：基础字面义：春分<br>**学术目标**：多义项/多词性完整映射：春分；秋分（n.） | `the spring equinox; the autumn equinox` | The calendar marks both the spring and autumn equinoxes.<br>*【紧凑主语】The calendar marks both... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00915` | **essentially** | adv. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：就基本特征而言（adv.） | `essentially different` | The procedures are essentially different in their aims.<br>*【紧凑主语】The procedures are essentially... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00924` | **etc.** | abbr. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：等等（abbr.） | `books, articles, etc.` | The bibliography lists books, articles, etc.<br>*【紧凑主语】The bibliography lists books,... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00925` | **ethical** | adj. | **日常/基础**：基础字面义：符合伦理的<br>**学术目标**：多义项/多词性完整映射：符合伦理的；伦理方面的（adj.） | `ethical review` | Ethical review should consider how participants are protected.<br>*【紧凑主语】Ethical review should consider... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00947` | **exactly** | adv. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：恰好，准确地（adv.） | `exactly the same number` | Both groups contained exactly the same number of completed records.<br>*【紧凑主语】Both groups contained exactly... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00973` | **explicitness** | n. | **日常/基础**：基础字面义：明确程度<br>**学术目标**：多义项/多词性完整映射：明确程度；直白性（n.） | `the explicitness of instructions` | The reviewer comments on the explicitness of the instructions.<br>*【紧凑主语】The reviewer comments on... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00988` | **extensively** | adv. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：广泛地（adv.） | `consult sources extensively` | The team consulted local archives extensively.<br>*【紧凑主语】The team consulted local... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00991` | **extra-curricular** | adj. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：课外的（adj.） | `extra-curricular activities` | The timetable leaves room for extra-curricular activities.<br>*【紧凑主语】The timetable leaves room... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00997` | **extrinsic** | adj. | **日常/基础**：基础字面义：外在的<br>**学术目标**：多义项/多词性完整映射：外在的；来自外部的（adj.） | `an extrinsic influence` | The analysis separates intrinsic properties from extrinsic influences.<br>*【紧凑主语】The analysis separates intrinsic... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V01007` | **falsify** | v. | **日常/基础**：v. 伪造篡改<br>**学术目标**：v. ①（科研不端）编造篡改实验结果（falsify results）；②（科学方法论）用有效反例证伪全称命题或假说（falsify a hypothesis） | `falsify results; falsify a claim` | Inventing observations in a results table would falsify the reported data.<br>*【紧凑主语】Inventing observations in a... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+
+### 辅助语境生词提前释义（不计入目标词掌握情况）
+- **annotators**：标注者（n. pl.）
+- **archives**：档案；档案馆（n. pl.）
+
+## 二、36 道完整训练题（涵盖词形、搭配、辨析、去口语/去AI腔替换、尾重改写、中译英、语篇逻辑、语态与多文体微写作）
+
+### 第 1 题 `Q_D0049_01` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 demolish (V00699) 的学术多义项与语境词形，并联动巩固 disseminate (V00782)。
+- **关联词条**：`V00699, V00782` | **语法点**：`G020`
+- **成分与语境提示**：熟词生义与用法边界：词义与句法边界：强断言只适用于逻辑条件充分时；一般经验研究不能轻率用此词。 | 句子成分结构：【紧凑主语】A counterexample can demolish... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0049·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“彻底驳倒”，v.；注意区别于日常义：基础字面义：彻底驳倒），填写唯一准确的英文词形：
+Sentence 1: A counterexample can ________ a universal claim. （句意：一个反例可以驳倒一个全称断言。）
+Sentence 2 (Companion Context with 'disseminate'): The project will disseminate its findings in an accessible summary.
+
+### 第 2 题 `Q_D0049_02` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 demote (V00704) 的学术多义项与语境词形，并联动巩固 e-learning (V00831)。
+- **关联词条**：`V00704, V00831` | **语法点**：`G020`
+- **成分与语境提示**：熟词生义与用法边界：词义与句法边界：原文demoted保留过去分词；不据此误称Charon当前为矮行星。 | 句子成分结构：【紧凑主语】In this hypothetical classification,... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0049·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“降低级别”，v.；注意区别于日常义：基础字面义：降低级别），填写唯一准确的英文词形：
+Sentence 1: In this hypothetical classification, the item is ________ to a lower tier. （句意：在这个假设分类中，该项目被降到较低层级。）
+Sentence 2 (Companion Context with 'e-learning'): The e-learning platform stores course materials.
+
+### 第 3 题 `Q_D0049_03` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 descriptively (V00721) 的学术多义项与语境词形，并联动巩固 e.g. (V00832)。
+- **关联词条**：`V00721, V00832` | **语法点**：`G020`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：副词；不承诺因果识别。 | 句子成分结构：【紧凑主语】The groups are compared... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0049·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“以描述方式”，adv.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: The groups are compared ________. （句意：以描述方式对各组进行比较。）
+Sentence 2 (Companion Context with 'e.g.'): Several domains, e.g. transport and energy, require forecasting.
+
+### 第 4 题 `Q_D0049_04` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 differently (V00751) 的学术多义项与语境词形，并联动巩固 EAP (V00833)。
+- **关联词条**：`V00751, V00833` | **语法点**：`G020`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：副词；区别 difference 名词。 | 句子成分结构：【紧凑主语】The two annotators labelled... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0049·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“以不同方式”，adv.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: The two annotators labelled the sentence ________. （句意：两位标注者给该句打了不同标签。）
+Sentence 2 (Companion Context with 'EAP'): The EAP course focuses on reading and research writing.
+
+### 第 5 题 `Q_D0049_05` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 directly (V00759) 的学术多义项与语境词形，并联动巩固 earlier (V00834)。
+- **关联词条**：`V00759, V00834` | **语法点**：`G020`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：直接关联仍不必然是直接因果效应。 | 句子成分结构：【紧凑主语】The variable was directly... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0049·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“直接地”，adv.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: The variable was ________ observed rather than estimated from another measure. （句意：这个变量是直接观测的，而非由其他指标估计的。）
+Sentence 2 (Companion Context with 'earlier'): As noted earlier, the sample is small.
+
+### 第 6 题 `Q_D0049_06` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 disadvantage (V00760) 的学术多义项与语境词形，并联动巩固 eco-friendly (V00838)。
+- **关联词条**：`V00760, V00838` | **语法点**：`G020`
+- **成分与语境提示**：熟词生义与用法边界：词义与句法边界：不必等同于研究错误。 | 句子成分结构：【紧凑主语】A disadvantage is the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0049·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“缺点”，n.；注意区别于日常义：基础字面义：缺点），填写唯一准确的英文词形：
+Sentence 1: A ________ is the lack of repeated measurements. （句意：一个缺点是缺少重复测量。）
+Sentence 2 (Companion Context with 'eco-friendly'): The report questions whether the design is genuinely eco-friendly.
+
+### 第 7 题 `Q_D0049_07` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 disprove 的自然搭配“disprove a hypothesis”并消除中式直译搭配错误。
+- **关联词条**：`V00780, V00839` | **语法点**：`G020, G032`
+- **成分与语境提示**：搭配类型：verb+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“disprove a hypothesis”精确表述“证伪；证明错误”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0049·常见学术搭配 1】根据搭配类型（verb+noun）与用法规范，使用目标词“disprove”（证伪）的规约搭配补全并写出下列完整英文学术句（表达：“一个有效反例可以证伪声称对所有情况都成立的数学命题。”），使其与后句中的“eco-tourism”（the effects of eco-tourism）构成自然衔接：
+待完成句语义：一个有效反例可以证伪声称对所有情况都成立的数学命题。（核心搭配提示：disprove a hypothesis）
+后续衔接句：The study examines the effects of eco-tourism on local communities.
+
+### 第 8 题 `Q_D0049_08` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 disseminate 的自然搭配“disseminate findings”并消除中式直译搭配错误。
+- **关联词条**：`V00782, V00864` | **语法点**：`G020, G032`
+- **成分与语境提示**：搭配类型：verb+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“disseminate findings”精确表述“传播；发布”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0049·常见学术搭配 2】根据搭配类型（verb+noun）与用法规范，使用目标词“disseminate”（传播）的规约搭配补全并写出下列完整英文学术句（表达：“项目将以易懂的摘要发布研究发现。”），使其与后句中的“emissions”（reduce emissions）构成自然衔接：
+待完成句语义：项目将以易懂的摘要发布研究发现。（核心搭配提示：disseminate findings）
+后续衔接句：The proposal targets emissions from campus transport.
+
+### 第 9 题 `Q_D0049_09` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 e-learning 的自然搭配“e-learning platform”并消除中式直译搭配错误。
+- **关联词条**：`V00831, V00884` | **语法点**：`G020, G032`
+- **成分与语境提示**：搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“e-learning platform”精确表述“电子学习；数字化学习”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0049·常见学术搭配 3】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“e-learning”（电子学习）的规约搭配补全并写出下列完整英文学术句（表达：“电子学习平台存放课程材料。”），使其与后句中的“end-of-semester”（end-of-semester assignment）构成自然衔接：
+待完成句语义：电子学习平台存放课程材料。（核心搭配提示：e-learning platform）
+后续衔接句：The end-of-semester assignment requires a literature review.
+
+### 第 10 题 `Q_D0049_10` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 e.g. 的自然搭配“e.g. climate data”并消除中式直译搭配错误。
+- **关联词条**：`V00832, V00895` | **语法点**：`G020, G032`
+- **成分与语境提示**：搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“e.g. climate data”精确表述“例如”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0049·常见学术搭配 4】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“e.g.”（例如）的规约搭配补全并写出下列完整英文学术句（表达：“若干领域，例如交通和能源，需要预测。”），使其与后句中的“entitlement”（entitlement to funding）构成自然衔接：
+待完成句语义：若干领域，例如交通和能源，需要预测。（核心搭配提示：e.g. climate data）
+后续衔接句：Entitlement to funding depends on the stated eligibility rules.
+
+### 第 11 题 `Q_D0049_11` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 EAP 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00833, V00902` | **语法点**：`G020`
+- **成分与语境提示**：目标句意：该学术英语课程聚焦阅读与研究写作。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0049·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 EAP）：
+Context: The ________ course focuses on reading and research writing. Furthermore, regarding 'equinox', the calendar marks both the spring and autumn equinoxes.
+
+- A. CV
+- B. EAP
+- C. e.g.
+- D. etc.
+
+### 第 12 题 `Q_D0049_12` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 earlier 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00834, V00915` | **语法点**：`G020`
+- **成分与语境提示**：目标句意：如前文所述，样本较小。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0049·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 earlier）：
+Context: As noted ________, the sample is small. Furthermore, regarding 'essentially', the procedures are essentially different in their aims.
+
+- A. carefully
+- B. coincidentally
+- C. earlier
+- D. comparatively
+
+### 第 13 题 `Q_D0049_13` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 eco-friendly 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00838, V00924` | **语法点**：`G020`
+- **成分与语境提示**：目标句意：报告质疑这一设计是否确实环保。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0049·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 eco-friendly）：
+Context: The report questions whether the design is genuinely ________. Furthermore, regarding 'etc.', the bibliography lists books, articles, etc.
+
+- A. documented
+- B. drastic
+- C. efficient
+- D. eco-friendly
+
+### 第 14 题 `Q_D0049_14` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 eco-tourism 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00839, V00925` | **语法点**：`G020`
+- **成分与语境提示**：目标句意：该研究考察生态旅游对当地社区的影响。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0049·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 eco-tourism）：
+Context: The study examines the effects of ________ on local communities. Furthermore, regarding 'ethical', ethical review should consider how participants are protected.
+
+- A. eco-tourism
+- B. significance
+- C. silence
+- D. similarity
+
+### 第 15 题 `Q_D0049_15` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 emissions (emissions) 替换英文初稿中的口语/模糊表达“general thing or part”。
+- **关联词条**：`V00864, V00947` | **语法点**：`G020, G034`
+- **成分与语境提示**：目标语义：方案针对校园交通的排放。 | 熟词生义提醒：精准学术定义：排放（n. pl.）
+
+【day_0049·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`general thing or part`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“emissions”的恰当词形，并写出完整修正句（需同时保留后半句中关于“exactly”的语境信息）：
+English Draft: The proposal targets <u>general thing or part</u> from campus transport. (Context note: Both groups contained exactly the same number of completed records.)
+
+### 第 16 题 `Q_D0049_16` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 end-of-semester (end-of-semester) 替换英文初稿中的口语/模糊表达“big or special”。
+- **关联词条**：`V00884, V00973` | **语法点**：`G020, G034`
+- **成分与语境提示**：目标语义：学期末作业要求撰写文献综述。 | 熟词生义提醒：精准学术定义：学期末的（adj.）
+
+【day_0049·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`big or special`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“end-of-semester”的恰当词形，并写出完整修正句（需同时保留后半句中关于“explicitness”的语境信息）：
+English Draft: The <u>big or special</u> assignment requires a literature review. (Context note: The reviewer comments on the explicitness of the instructions.)
+
+### 第 17 题 `Q_D0049_17` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 entitlement (Entitlement) 替换英文初稿中的口语/模糊表达“general thing or part”。
+- **关联词条**：`V00895, V00988` | **语法点**：`G020, G034`
+- **成分与语境提示**：目标语义：获得经费的资格取决于列明的资格规则。 | 熟词生义提醒：多义项/多词性完整映射：获得资格；应享权益（n.）
+
+【day_0049·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`general thing or part`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“entitlement”的恰当词形，并写出完整修正句（需同时保留后半句中关于“extensively”的语境信息）：
+English Draft: <u>general thing or part</u> to funding depends on the stated eligibility rules. (Context note: The team consulted local archives extensively.)
+
+### 第 18 题 `Q_D0049_18` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“the spring equinox”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V00902, V00991` | **语法点**：`G032, G034`
+- **成分与语境提示**：目标规约短语：the spring equinox | 配合表达模式：【EP004】界定概念的操作性定义与数学符号表示
+
+【day_0049·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“equinox”的核心学术短语/搭配（“the spring equinox”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The calendar marks both the spring and autumn <u>make a basic handling in a general way regarding general thing or part</u>.
+Companion Context ('extra-curricular'): The timetable leaves room for extra-curricular activities. （目标句意：该历法标出春分和秋分。）
+
+### 第 19 题 `Q_D0049_19` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“essentially different”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V00915, V00997` | **语法点**：`G032, G034`
+- **成分与语境提示**：目标规约短语：essentially different | 配合表达模式：【EP004】界定概念的操作性定义与数学符号表示
+
+【day_0049·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“essentially”的核心学术短语/搭配（“essentially different”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The procedures are <u>make a basic handling in a general way regarding in a rough way</u> different in their aims.
+Companion Context ('extrinsic'): The analysis separates intrinsic properties from extrinsic influences. （目标句意：这些程序的目标存在基本差异。）
+
+### 第 20 题 `Q_D0049_20` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“books, articles, etc.”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V00924, V01007` | **语法点**：`G032, G034`
+- **成分与语境提示**：目标规约短语：books, articles, etc. | 配合表达模式：【EP004】界定概念的操作性定义与数学符号表示
+
+【day_0049·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“etc.”的核心学术短语/搭配（“books, articles, etc.”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The bibliography <u>make a basic handling in a general way regarding general thing or part</u> books, articles, etc.
+Companion Context ('falsify'): Inventing observations in a results table would falsify the reported data. （目标句意：参考文献列出了书籍、文章等。）
+
+### 第 21 题 `Q_D0049_21` 【句子改写】（3 分）
+- **训练目标**：围绕 ethical 与 demolish 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00925, V00699` | **语法点**：`G020, G032`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】Ethical review should consider... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：用具体保护措施说明，不靠标签替代论证。
+
+【day_0049·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】
+Top-Heavy Draft: *The question of how the research team can properly handle the fact that ethical review should consider how participants are protected. in the experiment is what we look at.*
+改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“ethical”（搭配：ethical review）将其改写为紧凑、有力的学术句子（并结合“demolish”的语境边界）。
+
+### 第 22 题 `Q_D0049_22` 【句子改写】（3 分）
+- **训练目标**：围绕 exactly 与 demote 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00947, V00704` | **语法点**：`G020, G033`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】Both groups contained exactly... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：数值同一性；不能用于实际仅近似相等。
+
+【day_0049·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】
+AI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: Both groups contained exactly the same number of completed records.*
+改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“exactly”写出零 AI 痕迹、克制精准的学术句子（关联词条：demote）。
+
+### 第 23 题 `Q_D0049_23` 【句子改写】（3 分）
+- **训练目标**：围绕 explicitness 与 descriptively 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00973, V00721` | **语法点**：`G020, G021`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The reviewer comments on... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：由explicit派生；指表达有多明确直接，不同于正确性。
+
+【day_0049·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】
+Source Statement: The reviewer comments on the explicitness of the instructions. （中文句意：审稿人评论了说明写得是否明确。）
+改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“explicitness”（注意其学术义：多义项/多词性完整映射：明确程度；直白性（n.））及协同词“descriptively”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。
+
+### 第 24 题 `Q_D0049_24` 【句子改写】（3 分）
+- **训练目标**：围绕 extensively 与 differently 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00988, V00751` | **语法点**：`G020, G018`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The team consulted local... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：修饰动词，不替代 extensive 修饰名词。
+
+【day_0049·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】
+Verbose Draft: *When we consider the context of the analysis, it is true that the team consulted local archives extensively.*
+改写指令：消除句首拖沓的从句，运用目标词“extensively”（搭配：consult sources extensively）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：differently），严禁产生悬垂修饰或增删原意。
+
+### 第 25 题 `Q_D0049_25` 【句子改写】（3 分）
+- **训练目标**：围绕 extra-curricular 与 directly 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00991, V00759` | **语法点**：`G020, G036`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The timetable leaves room... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：extracurricular 拼法也通用。
+
+【day_0049·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】
+Base Observation: The timetable leaves room for extra-curricular activities. (Paired concept: 'directly' — The variable was directly observed rather than estimated from another measure.)
+改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“extra-curricular”与“directly”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。
+
+### 第 26 题 `Q_D0049_26` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 extrinsic (an extrinsic influence) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00997, V00760` | **语法点**：`G032, G031`
+- **成分与语境提示**：多义与用法提示：词义与句法边界：intrinsic 的反义词。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位
+
+【day_0049·中译英与句子成分构建 1（实证研究方法与数据核查场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“extrinsic”的学术义“外在的”及其搭配“an extrinsic influence”，并兼顾协同词“disadvantage”的语境标准）：
+中文题干：分析区分固有性质与外部影响。
+句子成分构建提示：【紧凑主语】The analysis separates intrinsic... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 27 题 `Q_D0049_27` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 falsify (falsify results) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V01007, V00780` | **语法点**：`G032, G035`
+- **成分与语境提示**：多义与用法提示：必须据宾语区分：falsify data 是学术造假；falsify a hypothesis 是波普尔可证伪性（falsifiability）的科学检验。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法
+
+【day_0049·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“falsify”的学术义“伪造”及其搭配“falsify results”，并兼顾协同词“disprove”的语境标准）：
+中文题干：在结果表中编造观测会构成伪造报告数据。
+句子成分构建提示：【紧凑主语】Inventing observations in a... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 28 题 `Q_D0049_28` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 demolish (demolish an argument) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00699, V00782` | **语法点**：`G032`
+- **成分与语境提示**：多义与用法提示：词义与句法边界：强断言只适用于逻辑条件充分时；一般经验研究不能轻率用此词。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）
+
+【day_0049·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“demolish”的学术义“彻底驳倒”及其搭配“demolish an argument”，并兼顾协同词“disseminate”的语境标准）：
+中文题干：一个反例可以驳倒一个全称断言。
+句子成分构建提示：【紧凑主语】A counterexample can demolish... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 29 题 `Q_D0049_29` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 demote (be demoted to) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00704, V00831` | **语法点**：`G032, G036`
+- **成分与语境提示**：多义与用法提示：词义与句法边界：原文demoted保留过去分词；不据此误称Charon当前为矮行星。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文
+
+【day_0049·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“demote”的学术义“降低级别”及其搭配“be demoted to”，并兼顾协同词“e-learning”的语境标准）：
+中文题干：在这个假设分类中，该项目被降到较低层级。
+句子成分构建提示：【紧凑主语】In this hypothetical classification,... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 30 题 `Q_D0049_30` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：用包含 descriptively 与 earlier 的具体机制与实例替换“只有夸张而无实例”的空洞断言。
+- **关联词条**：`V00721, V00834, V00925` | **语法点**：`G020, G033`
+- **成分与语境提示**：核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）
+
+【day_0049·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】
+下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：
+Hollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*
+任务要求：请摒弃上述空洞吹嘘，结合目标词条“descriptively”（以描述方式）与“earlier”（先前），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。
+
+### 第 31 题 `Q_D0049_31` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：通过含 differently 与 eco-friendly 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。
+- **关联词条**：`V00751, V00838, V00947` | **语法点**：`G032, G009`
+- **成分与语境提示**：语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指
+
+【day_0049·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】
+将下列包含目标词“differently”与“eco-friendly”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：
+(1) When examining the empirical outputs, a second consideration arises: The report questions whether the design is genuinely eco-friendly.
+(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.
+(3) First, we specify the methodological setup: The two annotators labelled the sentence differently.
+(4) This setup ensures that the evaluation criteria remain consistent across all test runs.
+
+### 第 32 题 `Q_D0049_32` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：修复含 directly 与 eco-tourism 段落中的逗号粘连、连接词误用与因果外推跳跃。
+- **关联词条**：`V00759, V00839, V00973` | **语法点**：`G002, G023`
+- **成分与语境提示**：综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）
+
+【day_0049·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】
+审阅下列包含“directly”与“eco-tourism”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：
+Flawed Draft: *The variable was directly observed rather than estimated from another measure, on the contrary, the study examines the effects of eco-tourism on local communities., which proves 100% universal causality in all real-world regimes.*
+
+### 第 33 题 `Q_D0049_33` 【主动与被动语态】（4 分）
+- **训练目标**：结合及物性边界（not_applicable）与旧新信息焦点训练 disadvantage 与 emissions 的语态选择。
+- **关联词条**：`V00760, V00864, V00988` | **语法点**：`G011, G020`
+- **成分与语境提示**：及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）
+
+【day_0049·信息焦点与语态转换 1】阅读下列包含“disadvantage”（缺点）与“emissions”（排放）的学术表达：
+Reference Sequence: (1) A disadvantage is the lack of repeated measurements. (2) The proposal targets emissions from campus transport.
+改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。
+
+### 第 34 题 `Q_D0049_34` 【主动与被动语态】（4 分）
+- **训练目标**：结合及物性边界（transitive）与旧新信息焦点训练 disprove 与 end-of-semester 的语态选择。
+- **关联词条**：`V00780, V00884, V00991` | **语法点**：`G011, G020`
+- **成分与语境提示**：及物性：transitive | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）
+
+【day_0049·信息焦点与语态转换 2】阅读下列包含“disprove”（证伪）与“end-of-semester”（学期末的）的学术表达：
+Reference Sequence: (1) One valid counterexample can disprove a universal mathematical claim. (2) The end-of-semester assignment requires a literature review.
+改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。
+
+### 第 35 题 `Q_D0049_35` 【独立微型写作】（5 分）
+- **训练目标**：在 AI/时序/生成建模/具身智能场景下运用 disseminate、entitlement 撰写零 AI 腔的技术微段落。
+- **关联词条**：`V00782, V00895, V00997, V00834` | **语法点**：`G020, G032, G033`
+- **成分与语境提示**：专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP004
+
+【day_0049·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】
+应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。
+写作要求：围绕以下候选目标词群中的至少 2–3 个词条（disseminate（传播）、entitlement（获得资格）、extrinsic（外在的）、earlier（先前）），写出一段 2–3 句、紧凑自然的英文技术微段落：
+1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；
+2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；
+3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。
+
+### 第 36 题 `Q_D0049_36` 【独立微型写作】（5 分）
+- **训练目标**：撰写融合 e-learning、equinox 与 calibration 的 3–5 句六级/雅思托福/演讲实证论证段落。
+- **关联词条**：`V00831, V00902, V01007, V00359` | **语法点**：`G032, G028, G036`
+- **成分与语境提示**：文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G032 & G036
+
+【day_0049·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】
+应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。
+写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（e-learning（电子学习）、equinox（春分）、falsify（伪造）、calibration（概率校准）），写出一段 3–5 句、逻辑严密的完整段落：
+1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；
+2. 运用语法规则【G032】（消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle））与表达模式【EP007】（同时报告绝对差值与相对变化（区分 % 与百分点））；
+3. 句式自然地道，杜绝死板模板句与头重脚轻。
+

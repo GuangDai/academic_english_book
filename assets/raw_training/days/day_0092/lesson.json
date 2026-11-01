@@ -1,0 +1,2552 @@
+{
+  "day_id": "day_0092",
+  "day_number": 92,
+  "stage": 4,
+  "stage_name_zh": "阶段 4：顶会论文、具身智能/生成建模、学术演讲与全周期综合复习（Day 76–116）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 28 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G020】语态的语篇决策：基于研究对象、旧信息前置与施事责任的主动/被动选择；【G025】句法歧义消除（介词短语附着、修辞辖域与比较基准排歧）。",
+    "掌握学术表达模式：【EP020】生成模型与概率预测：分布校准、不确定性量化与尾部风险，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V02324",
+        "V02360",
+        "V02377",
+        "V02400"
+      ],
+      "lemmas": [
+        "so to speak",
+        "spider diagram",
+        "stark contrast",
+        "student counsellor"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V02328",
+        "V02362",
+        "V02379",
+        "V02401"
+      ],
+      "lemmas": [
+        "social class",
+        "sports centre",
+        "stated briefly",
+        "student loan"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V02329",
+        "V02363",
+        "V02384",
+        "V02402"
+      ],
+      "lemmas": [
+        "social instability",
+        "sports ground / sports grounds",
+        "status quo",
+        "student union / students’ union"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V02331",
+        "V02364",
+        "V02385",
+        "V02403"
+      ],
+      "lemmas": [
+        "solar day",
+        "spring from",
+        "stem from",
+        "study of"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V02332",
+        "V02368",
+        "V02386"
+      ],
+      "lemmas": [
+        "solar year",
+        "staff / faculty (AmE)",
+        "stem from the fact that"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V02340",
+        "V02369",
+        "V02387"
+      ],
+      "lemmas": [
+        "solve a problem",
+        "staff car park",
+        "step in"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V02350",
+        "V02372",
+        "V02391"
+      ],
+      "lemmas": [
+        "speak of",
+        "stage in",
+        "storm of protest"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V02351",
+        "V02375",
+        "V02399"
+      ],
+      "lemmas": [
+        "speak to",
+        "standard deviation",
+        "student accommodation"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V02324",
+      "lemma": "so to speak",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V02324_S01",
+          "pos": "phrase",
+          "meaning_zh": "可以这样说（非字面义）",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：可以这样说（非字面义）（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The archive gives the project a memory, so to speak.",
+          "example_zh": "可以这样说，这份档案为项目留下了记忆。",
+          "sentence_constituents_zh": "【紧凑主语】The archive gives the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "标示比喻，正式实证论文宜少用。 | 熟词生义与多义辨析：学术语境与搭配约束：标示比喻，正式实证论文宜少用。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：可以这样说（非字面义）（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：标示比喻，正式实证论文宜少用。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“so to speak”精确表述“可以这样说（非字面义）”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“so to speak”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "so to speak",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "so to speak"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02324_01",
+          "phrase": "so to speak",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：so to speak（可以这样说（非字面义））"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02324"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：标示比喻，正式实证论文宜少用。",
+        "source_tags": [
+          "V02324",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V02328",
+      "lemma": "social class",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02328_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "社会阶层",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：社会阶层（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The survey records social class background using stated criteria.",
+          "example_zh": "调查按明确标准记录社会阶层背景。",
+          "sentence_constituents_zh": "【紧凑主语】The survey records social... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "阶层定义依研究而异。 | 熟词生义与多义辨析：学术语境与搭配约束：阶层定义依研究而异。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：社会阶层（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：阶层定义依研究而异。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“social class background”精确表述“社会阶层”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“social class background”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "social class",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "social class"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02328_01",
+          "phrase": "social class background",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：social class background（社会阶层）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02327",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02328"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：阶层定义依研究而异。",
+        "source_tags": [
+          "V02328",
+          "U38"
+        ]
+      }
+    },
+    {
+      "word_id": "V02329",
+      "lemma": "social instability",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02329_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "社会不稳定",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：社会不稳定（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The archive covers periods of social instability.",
+          "example_zh": "档案涵盖社会不稳定时期。",
+          "sentence_constituents_zh": "【紧凑主语】The archive covers periods... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "具体描述研究时期，不泛指个人状态。 | 熟词生义与多义辨析：学术语境与搭配约束：具体描述研究时期，不泛指个人状态。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：社会不稳定（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：具体描述研究时期，不泛指个人状态。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“periods of social instability”精确表述“社会不稳定”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“periods of social instability”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "social instability",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "social instability"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02329_01",
+          "phrase": "periods of social instability",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：periods of social instability（社会不稳定）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02327",
+        "V01380",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02329"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：具体描述研究时期，不泛指个人状态。",
+        "source_tags": [
+          "V02329",
+          "U45"
+        ]
+      }
+    },
+    {
+      "word_id": "V02331",
+      "lemma": "solar day",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02331_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "太阳日",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：太阳日（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The table labels the cycles as a solar day, a lunar month and a solar year.",
+          "example_zh": "该表将这些周期标为太阳日、太阴月和太阳年。",
+          "sentence_constituents_zh": "【紧凑主语】The table labels the... + 【核心谓语与宾补/状语后置扩展】全句共 16 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本文将明暗交替与地球自转相联系；不要与一年或月相周期混淆。 | 熟词生义与多义辨析：学术语境与搭配约束：本文将明暗交替与地球自转相联系；不要与一年或月相周期混淆。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：太阳日（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：本文将明暗交替与地球自转相联系；不要与一年或月相周期混淆。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the solar day”精确表述“太阳日”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the solar day”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "solar day",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "solar day"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02331_01",
+          "phrase": "the solar day",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the solar day（太阳日）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02331"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：本文将明暗交替与地球自转相联系；不要与一年或月相周期混淆。",
+        "source_tags": [
+          "V02331"
+        ]
+      }
+    },
+    {
+      "word_id": "V02332",
+      "lemma": "solar year",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02332_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "太阳年",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：太阳年（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The table compares the calendar year with the solar year.",
+          "example_zh": "该表比较历法年与太阳年。",
+          "sentence_constituents_zh": "【紧凑主语】The table compares the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "solar与太阳有关；不同历法年的长度未必完全相同。 | 熟词生义与多义辨析：学术语境与搭配约束：solar与太阳有关；不同历法年的长度未必完全相同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：太阳年（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：solar与太阳有关；不同历法年的长度未必完全相同。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the solar year”精确表述“太阳年”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the solar year”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "solar year",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "solar year"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02332_01",
+          "phrase": "the solar year",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the solar year（太阳年）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02332"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：solar与太阳有关；不同历法年的长度未必完全相同。",
+        "source_tags": [
+          "V02332"
+        ]
+      }
+    },
+    {
+      "word_id": "V02340",
+      "lemma": "solve a problem",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V02340_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "解决问题",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：解决问题（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The patch solved the formatting problem.",
+          "example_zh": "补丁解决了格式问题。",
+          "sentence_constituents_zh": "【紧凑主语】The patch solved the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "具体问题已得到解决。 | 熟词生义与多义辨析：学术语境与搭配约束：具体问题已得到解决。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：解决问题（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：具体问题已得到解决。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“solve a formatting problem”精确表述“解决问题”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“solve a formatting problem”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "solve a problem",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "solve a problem"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02340_01",
+          "phrase": "solve a formatting problem",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：solve a formatting problem（解决问题）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02340"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：具体问题已得到解决。",
+        "source_tags": [
+          "V02340",
+          "U44"
+        ]
+      }
+    },
+    {
+      "word_id": "V02350",
+      "lemma": "speak of",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V02350_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "谈到",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：谈到（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The report speaks of competing priorities.",
+          "example_zh": "报告谈到了相互竞争的优先事项。",
+          "sentence_constituents_zh": "【紧凑主语】The report speaks of... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "较正式；不必为了正式而替代 discuss。 | 熟词生义与多义辨析：学术语境与搭配约束：较正式；不必为了正式而替代 discuss。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：谈到（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：较正式；不必为了正式而替代 discuss。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“speak of”精确表述“谈到”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“speak of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "speak of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "speak of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02350_01",
+          "phrase": "speak of",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：speak of（谈到）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02350"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：较正式；不必为了正式而替代 discuss。",
+        "source_tags": [
+          "V02350",
+          "U14"
+        ]
+      }
+    },
+    {
+      "word_id": "V02351",
+      "lemma": "speak to",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V02351_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "正式谈论某主题",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：正式谈论某主题（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The keynote speaker will speak to the topic of public trust.",
+          "example_zh": "主旨发言人将谈论公众信任这一主题。",
+          "sentence_constituents_zh": "【紧凑主语】The keynote speaker will... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "口头正式表达。 | 熟词生义与多义辨析：学术语境与搭配约束：口头正式表达。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：正式谈论某主题（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：口头正式表达。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“speak to the topic of”精确表述“正式谈论某主题”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“speak to the topic of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "speak to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "speak to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02351_01",
+          "phrase": "speak to the topic of",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：speak to the topic of（正式谈论某主题）"
+        }
+      ],
+      "register": "spoken_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02351"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：口头正式表达。",
+        "source_tags": [
+          "V02351",
+          "U50"
+        ]
+      }
+    },
+    {
+      "word_id": "V02360",
+      "lemma": "spider diagram",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02360_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "蜘蛛图",
+          "core_meaning_zh": "基础字面义：蜘蛛图",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：蜘蛛图；放射式思维图（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A spider diagram shows links between the key concepts.",
+          "example_zh": "蜘蛛图显示关键概念间的联系。",
+          "sentence_constituents_zh": "【紧凑主语】A spider diagram shows... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "与本单元的 mind map 用法相近。 | 熟词生义与多义辨析：词义与句法边界：与本单元的 mind map 用法相近。"
+        },
+        {
+          "sense_id": "V02360_S02",
+          "pos": "n. phrase",
+          "meaning_zh": "放射式思维图",
+          "core_meaning_zh": "基础字面义：蜘蛛图",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：蜘蛛图；放射式思维图（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A spider diagram shows links between the key concepts.",
+          "example_zh": "蜘蛛图显示关键概念间的联系。",
+          "sentence_constituents_zh": "【紧凑主语】A spider diagram shows... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "与本单元的 mind map 用法相近。 | 熟词生义与多义辨析：词义与句法边界：与本单元的 mind map 用法相近。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：蜘蛛图",
+        "academic_target_sense_zh": "多义项/多词性完整映射：蜘蛛图；放射式思维图（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：与本单元的 mind map 用法相近。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“draw a spider diagram”精确表述“蜘蛛图；放射式思维图”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“draw a spider diagram”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "spider diagram",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "spider diagram"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02360_01",
+          "phrase": "draw a spider diagram",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：draw a spider diagram（蜘蛛图；放射式思维图）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00742",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02360"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：与本单元的 mind map 用法相近。",
+        "source_tags": [
+          "V02360",
+          "U25"
+        ]
+      }
+    },
+    {
+      "word_id": "V02362",
+      "lemma": "sports centre",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02362_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "体育中心",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：体育中心（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The sports centre offers facilities for students and staff.",
+          "example_zh": "体育中心为学生和工作人员提供设施。",
+          "sentence_constituents_zh": "【紧凑主语】The sports centre offers... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "center 为美式拼写。 | 熟词生义与多义辨析：学术语境与搭配约束：center 为美式拼写。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：体育中心（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：center 为美式拼写。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the university sports centre”精确表述“体育中心”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the university sports centre”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "sports centre",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "sports centre"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02362_01",
+          "phrase": "the university sports centre",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the university sports centre（体育中心）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02362"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：center 为美式拼写。",
+        "source_tags": [
+          "V02362",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02363",
+      "lemma": "sports ground / sports grounds",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02363_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "运动场",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：运动场（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The sports grounds are closed during maintenance.",
+          "example_zh": "维修期间运动场关闭。",
+          "sentence_constituents_zh": "【紧凑主语】The sports grounds are... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "单复数依具体场地而定。 | 熟词生义与多义辨析：学术语境与搭配约束：单复数依具体场地而定。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：运动场（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：单复数依具体场地而定。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“use the sports grounds”精确表述“运动场”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“use the sports grounds”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "sports ground",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "sports ground",
+          "sports grounds"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02363_01",
+          "phrase": "use the sports grounds",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：use the sports grounds（运动场）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "multi_form_or_slash_group",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02363"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：单复数依具体场地而定。",
+        "source_tags": [
+          "V02363",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02364",
+      "lemma": "spring from",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V02364_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "源于",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：源于（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The research question springs from a concern about access.",
+          "example_zh": "研究问题源于对可及性的担忧。",
+          "sentence_constituents_zh": "【紧凑主语】The research question springs... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不及物词组；过去式 sprang。 | 熟词生义与多义辨析：学术语境与搭配约束：不及物词组；过去式 sprang。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：源于（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：不及物词组；过去式 sprang。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“spring from a concern”精确表述“源于”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“spring from a concern”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "spring from",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "spring from"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02364_01",
+          "phrase": "spring from a concern",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：spring from a concern（源于）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02364"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：不及物词组；过去式 sprang。",
+        "source_tags": [
+          "V02364",
+          "U37"
+        ]
+      }
+    },
+    {
+      "word_id": "V02368",
+      "lemma": "staff / faculty (AmE)",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02368_S01",
+          "pos": "n.",
+          "meaning_zh": "工作人员",
+          "core_meaning_zh": "基础字面义：工作人员",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：工作人员；教职工／大学教师群体（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Faculty members discussed the new curriculum.",
+          "example_zh": "教师们讨论了新课程体系。",
+          "sentence_constituents_zh": "【紧凑主语】Faculty members discussed the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "staff 可含非教学人员；美式 faculty 通常指教师群体。 | 熟词生义与多义辨析：词义与句法边界：staff 可含非教学人员；美式 faculty 通常指教师群体。"
+        },
+        {
+          "sense_id": "V02368_S02",
+          "pos": "n.",
+          "meaning_zh": "教职工",
+          "core_meaning_zh": "基础字面义：工作人员",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：工作人员；教职工／大学教师群体（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Faculty members discussed the new curriculum.",
+          "example_zh": "教师们讨论了新课程体系。",
+          "sentence_constituents_zh": "【紧凑主语】Faculty members discussed the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "staff 可含非教学人员；美式 faculty 通常指教师群体。 | 熟词生义与多义辨析：词义与句法边界：staff 可含非教学人员；美式 faculty 通常指教师群体。"
+        },
+        {
+          "sense_id": "V02368_S03",
+          "pos": "n.",
+          "meaning_zh": "大学教师群体",
+          "core_meaning_zh": "基础字面义：工作人员",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：工作人员；教职工／大学教师群体（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Faculty members discussed the new curriculum.",
+          "example_zh": "教师们讨论了新课程体系。",
+          "sentence_constituents_zh": "【紧凑主语】Faculty members discussed the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "staff 可含非教学人员；美式 faculty 通常指教师群体。 | 熟词生义与多义辨析：词义与句法边界：staff 可含非教学人员；美式 faculty 通常指教师群体。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：工作人员",
+        "academic_target_sense_zh": "多义项/多词性完整映射：工作人员；教职工／大学教师群体（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：staff 可含非教学人员；美式 faculty 通常指教师群体。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“academic staff”精确表述“工作人员；教职工／大学教师群体”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“academic staff”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "staff",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "staff",
+          "faculty (AmE)"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02368_01",
+          "phrase": "academic staff",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：academic staff（工作人员；教职工／大学教师群体）"
+        },
+        {
+          "collocation_id": "C_V02368_02",
+          "phrase": "faculty members",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：faculty members（工作人员；教职工／大学教师群体）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "multi_form_or_slash_group",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02368"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "词义与句法边界：staff 可含非教学人员；美式 faculty 通常指教师群体。",
+        "source_tags": [
+          "V02368",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02369",
+      "lemma": "staff car park",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02369_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "教职工停车场",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：教职工停车场（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "Visitors should not assume they may use the staff car park.",
+          "example_zh": "访客不应假定可以使用教职工停车场。",
+          "sentence_constituents_zh": "【紧凑主语】Visitors should not assume... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "car park 为英式；parking lot 为美式。 | 熟词生义与多义辨析：学术语境与搭配约束：car park 为英式；parking lot 为美式。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：教职工停车场（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：car park 为英式；parking lot 为美式。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“use the staff car park”精确表述“教职工停车场”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“use the staff car park”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "staff car park",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "staff car park"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02369_01",
+          "phrase": "use the staff car park",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：use the staff car park（教职工停车场）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02369"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：car park 为英式；parking lot 为美式。",
+        "source_tags": [
+          "V02369",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02372",
+      "lemma": "stage in",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02372_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "某过程中的阶段",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：某过程中的阶段（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "Consent is obtained at an early stage in data collection.",
+          "example_zh": "在数据收集的早期阶段取得知情同意。",
+          "sentence_constituents_zh": "【紧凑主语】Consent is obtained at... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "stage in a process；at a stage。 | 熟词生义与多义辨析：学术语境与搭配约束：stage in a process；at a stage。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：某过程中的阶段（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：stage in a process；at a stage。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a stage in data collection”精确表述“某过程中的阶段”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a stage in data collection”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "stage in",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "stage in"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02372_01",
+          "phrase": "a stage in data collection",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a stage in data collection（某过程中的阶段）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02370",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02372"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：stage in a process；at a stage。",
+        "source_tags": [
+          "V02372",
+          "U41"
+        ]
+      }
+    },
+    {
+      "word_id": "V02375",
+      "lemma": "standard deviation",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02375_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "标准差",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：标准差（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The standard deviation summarises dispersion in the original measurement units.",
+          "example_zh": "标准差用原测量单位概括离散程度。",
+          "sentence_constituents_zh": "【紧凑主语】The standard deviation summarises... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "是方差的平方根；不等于平均绝对偏差，样本与总体公式不同。 | 熟词生义与多义辨析：学术语境与搭配约束：是方差的平方根；不等于平均绝对偏差，样本与总体公式不同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：标准差（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：是方差的平方根；不等于平均绝对偏差，样本与总体公式不同。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“sample standard deviation”精确表述“标准差”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“sample standard deviation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "standard deviation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "standard deviation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02375_01",
+          "phrase": "sample standard deviation",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：sample standard deviation（标准差）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00737",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02375"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：是方差的平方根；不等于平均绝对偏差，样本与总体公式不同。",
+        "source_tags": [
+          "V02375",
+          "U34"
+        ]
+      }
+    },
+    {
+      "word_id": "V02377",
+      "lemma": "stark contrast",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02377_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "十分鲜明的反差",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：十分鲜明的反差（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The survey found a stark contrast in access to libraries.",
+          "example_zh": "调查发现图书馆使用机会存在十分鲜明的差异。",
+          "sentence_constituents_zh": "【紧凑主语】The survey found a... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "stark比普通contrast强调更强。 | 熟词生义与多义辨析：学术语境与搭配约束：stark比普通contrast强调更强。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：十分鲜明的反差（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：stark比普通contrast强调更强。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a stark contrast in access”精确表述“十分鲜明的反差”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a stark contrast in access”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "stark contrast",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "stark contrast"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02377_01",
+          "phrase": "a stark contrast in access",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a stark contrast in access（十分鲜明的反差）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00590",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02377"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：stark比普通contrast强调更强。",
+        "source_tags": [
+          "V02377",
+          "U46"
+        ]
+      }
+    },
+    {
+      "word_id": "V02379",
+      "lemma": "stated briefly",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V02379_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "简要表述为",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：简要表述为（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "Stated briefly, the question concerns access to education.",
+          "example_zh": "简要地说，这个问题涉及受教育机会。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Stated briefly + 【主句核心主谓宾/表】the question concerns access to education. （目标词“stated briefly”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "比to put it briefly正式。 | 熟词生义与多义辨析：学术语境与搭配约束：比to put it briefly正式。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：简要表述为（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：比to put it briefly正式。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“stated briefly”精确表述“简要表述为”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“stated briefly”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "stated briefly",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "stated briefly"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02379_01",
+          "phrase": "stated briefly",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：stated briefly（简要表述为）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V00338",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02379"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：比to put it briefly正式。",
+        "source_tags": [
+          "V02379",
+          "U49"
+        ]
+      }
+    },
+    {
+      "word_id": "V02384",
+      "lemma": "status quo",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02384_S01",
+          "pos": "n.",
+          "meaning_zh": "现状",
+          "core_meaning_zh": "基础字面义：现状",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：现状；既有状态（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The proposal would maintain the status quo in funding.",
+          "example_zh": "该提案将维持经费安排的现状。",
+          "sentence_constituents_zh": "【紧凑主语】The proposal would maintain... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常带the；不是转变的同义词。 | 熟词生义与多义辨析：词义与句法边界：通常带the；不是转变的同义词。"
+        },
+        {
+          "sense_id": "V02384_S02",
+          "pos": "n.",
+          "meaning_zh": "既有状态",
+          "core_meaning_zh": "基础字面义：现状",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：现状；既有状态（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The proposal would maintain the status quo in funding.",
+          "example_zh": "该提案将维持经费安排的现状。",
+          "sentence_constituents_zh": "【紧凑主语】The proposal would maintain... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常带the；不是转变的同义词。 | 熟词生义与多义辨析：词义与句法边界：通常带the；不是转变的同义词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：现状",
+        "academic_target_sense_zh": "多义项/多词性完整映射：现状；既有状态（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：通常带the；不是转变的同义词。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“maintain the status quo”精确表述“现状；既有状态”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“maintain the status quo”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "status quo",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "status quo"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02384_01",
+          "phrase": "maintain the status quo",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：maintain the status quo（现状；既有状态）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02383",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02384"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：通常带the；不是转变的同义词。",
+        "source_tags": [
+          "V02384",
+          "U48"
+        ]
+      }
+    },
+    {
+      "word_id": "V02385",
+      "lemma": "stem from",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V02385_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "源于",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：源于（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The discrepancy may stem from missing information.",
+          "example_zh": "这一差异可能源于信息缺失。",
+          "sentence_constituents_zh": "【紧凑主语】The discrepancy may stem... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "后接原因，不把原因结果颠倒。 | 熟词生义与多义辨析：学术语境与搭配约束：后接原因，不把原因结果颠倒。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：源于（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：后接原因，不把原因结果颠倒。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“stem from missing information”精确表述“源于”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“stem from missing information”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "stem from",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "stem from"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02385_01",
+          "phrase": "stem from missing information",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：stem from missing information（源于）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02385"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：后接原因，不把原因结果颠倒。",
+        "source_tags": [
+          "V02385",
+          "U37"
+        ]
+      }
+    },
+    {
+      "word_id": "V02386",
+      "lemma": "stem from the fact that",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V02386_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "源于某事实",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：源于某事实（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The discrepancy stems from the fact that the samples differ.",
+          "example_zh": "差异源于样本不同。",
+          "sentence_constituents_zh": "【紧凑主语】The discrepancy stems from... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "因果判断需要依据；stem from 为起因。 | 熟词生义与多义辨析：学术语境与搭配约束：因果判断需要依据；stem from 为起因。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：源于某事实（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：因果判断需要依据；stem from 为起因。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“stem from the fact that samples differ”精确表述“源于某事实”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“stem from the fact that samples differ”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "stem from the fact that",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "stem from the fact that"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02386_01",
+          "phrase": "stem from the fact that samples differ",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：stem from the fact that samples differ（源于某事实）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02386"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：因果判断需要依据；stem from 为起因。",
+        "source_tags": [
+          "V02386",
+          "U42"
+        ]
+      }
+    },
+    {
+      "word_id": "V02387",
+      "lemma": "step in",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02387_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "某过程中的步骤",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：某过程中的步骤（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The next step in the analysis is to inspect missing values.",
+          "example_zh": "分析的下一步是检查缺失值。",
+          "sentence_constituents_zh": "【紧凑主语】The next step in... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "step in 后接过程；take a step。 | 熟词生义与多义辨析：学术语境与搭配约束：step in 后接过程；take a step。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：某过程中的步骤（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：step in 后接过程；take a step。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the next step in the analysis”精确表述“某过程中的步骤”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the next step in the analysis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "step in",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "step in"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02387_01",
+          "phrase": "the next step in the analysis",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：the next step in the analysis（某过程中的步骤）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02387"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：step in 后接过程；take a step。",
+        "source_tags": [
+          "V02387",
+          "U41"
+        ]
+      }
+    },
+    {
+      "word_id": "V02391",
+      "lemma": "storm of protest",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phr.",
+      "senses": [
+        {
+          "sense_id": "V02391_S01",
+          "pos": "n. phr.",
+          "meaning_zh": "一阵强烈抗议",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：一阵强烈抗议（n. phr.）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The proposal prompted a storm of protest from local groups.",
+          "example_zh": "该提案引发地方团体强烈抗议。",
+          "sentence_constituents_zh": "【紧凑主语】The proposal prompted a... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "描述反应强烈时须有实际资料支持。 | 熟词生义与多义辨析：学术语境与搭配约束：描述反应强烈时须有实际资料支持。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：一阵强烈抗议（n. phr.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：描述反应强烈时须有实际资料支持。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a storm of protest”精确表述“一阵强烈抗议”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a storm of protest”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "storm of protest",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "storm of protest"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02391_01",
+          "phrase": "a storm of protest",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a storm of protest（一阵强烈抗议）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02391"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：描述反应强烈时须有实际资料支持。",
+        "source_tags": [
+          "V02391",
+          "U28"
+        ]
+      }
+    },
+    {
+      "word_id": "V02399",
+      "lemma": "student accommodation",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02399_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "学生住宿",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：学生住宿（n. phrase）",
+          "countability": "uncountable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The applicant asked about accessible student accommodation.",
+          "example_zh": "申请者询问了无障碍学生住宿。",
+          "sentence_constituents_zh": "【紧凑主语】The applicant asked about... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "accommodation 英式通常不可数；美式 accommodations 常复数。 | 熟词生义与多义辨析：学术语境与搭配约束：accommodation 英式通常不可数；美式 accommodations 常复数。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：学生住宿（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：accommodation 英式通常不可数；美式 accommodations 常复数。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“apply for student accommodation”精确表述“学生住宿”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“apply for student accommodation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "student accommodation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "student accommodation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02399_01",
+          "phrase": "apply for student accommodation",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：apply for student accommodation（学生住宿）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02399"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：accommodation 英式通常不可数；美式 accommodations 常复数。",
+        "source_tags": [
+          "V02399",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02400",
+      "lemma": "student counsellor",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02400_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "学生咨询辅导人员",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：学生咨询辅导人员（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A student counsellor can provide support with personal difficulties.",
+          "example_zh": "学生咨询辅导人员可为个人困难提供支持。",
+          "sentence_constituents_zh": "【紧凑主语】A student counsellor can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "counselor 为美式拼写；并非论文方法指导角色。 | 熟词生义与多义辨析：学术语境与搭配约束：counselor 为美式拼写；并非论文方法指导角色。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：学生咨询辅导人员（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：counselor 为美式拼写；并非论文方法指导角色。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consult a student counsellor”精确表述“学生咨询辅导人员”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consult a student counsellor”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "student counsellor",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "student counsellor",
+          "counselor"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02400_01",
+          "phrase": "consult a student counsellor",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：consult a student counsellor（学生咨询辅导人员）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02400"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：counselor 为美式拼写；并非论文方法指导角色。",
+        "source_tags": [
+          "V02400",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02401",
+      "lemma": "student loan",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02401_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "学生贷款",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：学生贷款（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A student loan must normally be repaid under the applicable terms.",
+          "example_zh": "学生贷款通常须按适用条款偿还。",
+          "sentence_constituents_zh": "【紧凑主语】A student loan must... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "区别于 grant / scholarship；不要推定统一偿还条件。 | 熟词生义与多义辨析：学术语境与搭配约束：区别于 grant / scholarship；不要推定统一偿还条件。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：学生贷款（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：区别于 grant / scholarship；不要推定统一偿还条件。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“take out a student loan”精确表述“学生贷款”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“take out a student loan”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "student loan",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "student loan"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02401_01",
+          "phrase": "take out a student loan",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：take out a student loan（学生贷款）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01523",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02401"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：区别于 grant / scholarship；不要推定统一偿还条件。",
+        "source_tags": [
+          "V02401",
+          "U18"
+        ]
+      }
+    },
+    {
+      "word_id": "V02402",
+      "lemma": "student union / students’ union",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02402_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "学生会",
+          "core_meaning_zh": "基础字面义：学生会",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：学生会；学生会活动建筑（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The students’ union provides information about student societies.",
+          "example_zh": "学生会提供学生社团信息。",
+          "sentence_constituents_zh": "【紧凑主语】The students’ union provides... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "机构名与建筑名依地区不同，须按语境区分。 | 熟词生义与多义辨析：词义与句法边界：机构名与建筑名依地区不同，须按语境区分。"
+        },
+        {
+          "sense_id": "V02402_S02",
+          "pos": "n. phrase",
+          "meaning_zh": "学生会活动建筑",
+          "core_meaning_zh": "基础字面义：学生会",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：学生会；学生会活动建筑（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The students’ union provides information about student societies.",
+          "example_zh": "学生会提供学生社团信息。",
+          "sentence_constituents_zh": "【紧凑主语】The students’ union provides... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "机构名与建筑名依地区不同，须按语境区分。 | 熟词生义与多义辨析：词义与句法边界：机构名与建筑名依地区不同，须按语境区分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：学生会",
+        "academic_target_sense_zh": "多义项/多词性完整映射：学生会；学生会活动建筑（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：机构名与建筑名依地区不同，须按语境区分。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the students’ union building”精确表述“学生会；学生会活动建筑”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the students’ union building”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "student union",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "student union",
+          "students’ union"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02402_01",
+          "phrase": "the students’ union building",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the students’ union building（学生会；学生会活动建筑）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "multi_form_or_slash_group",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02402"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：机构名与建筑名依地区不同，须按语境区分。",
+        "source_tags": [
+          "V02402",
+          "U19"
+        ]
+      }
+    },
+    {
+      "word_id": "V02403",
+      "lemma": "study of",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02403_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "对……的研究",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：对……的研究（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The study of regional differences uses census data.",
+          "example_zh": "对地区差异的研究使用普查数据。",
+          "sentence_constituents_zh": "【紧凑主语】The study of regional... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "study在这里为名词，of引出研究对象；动词study可直接接宾语。 | 熟词生义与多义辨析：学术语境与搭配约束：study在这里为名词，of引出研究对象；动词study可直接接宾语。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：对……的研究（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：study在这里为名词，of引出研究对象；动词study可直接接宾语。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“study of”精确表述“对……的研究”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“study of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "study of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "study of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02403_01",
+          "phrase": "study of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：study of（对……的研究）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02403"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：study在这里为名词，of引出研究对象；动词study可直接接宾语。",
+        "source_tags": [
+          "V02403",
+          "U15"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G020",
+      "name": "语态的语篇决策：基于研究对象、旧信息前置与施事责任的主动/被动选择",
+      "category": "D_voice_selection_strategy",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G011",
+        "G015",
+        "G032"
+      ],
+      "explanation_zh": "破除“被动语态一定比主动语态更学术”的迷思。语态选择服务于：(1) 维持句间话题链连贯（把上句提到的受事对象作为本句被动主语，满足 Given-before-New），(2) 明确谁对设计决策或核验承担责任。",
+      "rules": [
+        "当描述标准化数据清洗、传感器部署或客观流程，且受事对象是段落主题时，选用被动语态（The records are arranged in chronological order before the time-series analysis）。",
+        "当阐述本文核心创新设计、范围限定决策或强调多名标注者独立操作时，选用主动语态（We confine the analysis to...; Two analysts analysed the data independently; The algorithm exploits the sparsity of the matrix）。"
+      ],
+      "examples": [
+        "Passive for topic continuity: The predictions are compared with ground-truth labels that were checked by two annotators.",
+        "Active for clear methodological agency: We reformulate the constrained problem as an equivalent optimization problem."
+      ],
+      "common_errors": [
+        "通篇机械使用被动语态导致语句冗长、施事责任模糊（如分不清是前人文献做的还是本文做的）。"
+      ]
+    },
+    {
+      "grammar_id": "G025",
+      "name": "句法歧义消除（介词短语附着、修辞辖域与比较基准排歧）",
+      "category": "C11_syntactic_ambiguity_resolution",
+      "stage": 3,
+      "first_day": "day_0062",
+      "first_day_num": 62,
+      "prerequisites": [
+        "G009",
+        "G015",
+        "G022"
+      ],
+      "explanation_zh": "消除句子中的结构性多解（Structural Ambiguity），确保读者无需猜测修饰语究竟挂靠在哪个词上。",
+      "rules": [
+        "调整介词短语位置或改写为定语从句，消除“V + NP + PP”中的 PP 附着歧义。",
+        "明确区分绝对差值（in absolute terms）与相对变化（in relative terms），并交代基准分母（denominator）。"
+      ],
+      "examples": [
+        "The absolute difference was reported alongside the relative change.",
+        "The revised definition is unambiguous."
+      ],
+      "common_errors": [
+        "修饰语远离核心词导致语义滑稽或产生双重解释。"
+      ]
+    },
+    {
+      "grammar_id": "G031",
+      "name": "句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+      "category": "C1_sentence_constituents_analysis",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G001"
+      ],
+      "explanation_zh": "自然地道的英语写作建立在清晰的句子成分（Constituents）分工之上：主语（Subject，建议用简短核心名词短语）+ 谓语动词（Predicate Verb，承载核心动作或状态关系）+ 宾语/表语/补语（Object/Complement），而将限定范围、实验条件、时间窗口等次要信息合理分配给后置定语（Post-modifier）或状语（Adverbial）。",
+      "rules": [
+        "主语（S）与谓语（V）的距离应尽可能紧凑：避免在主语核心词和谓语动词之间插入过长的非必要修饰成分，防止读者丢失句子主干。",
+        "区分定语（修饰名词，回答 which/what kind of）与状语（修饰动词或全句，回答 how/when/where/under what condition）：英語长定语一律后置（介词短语、分词短语、定语从句），切忌按中文习惯把长串修饰语全部堆在名词前面。",
+        "同位语（Appositive，如 a random walk, an archetypal example of a nonstationary process）用于紧随名词后补充等价定义或量纲说明，比单独另起一句更紧凑。"
+      ],
+      "examples": [
+        "[主语 The affine function f(x) = ax + b] [谓语 includes] [宾语 an intercept b].",
+        "[状语 When the relevant variances are finite and nonzero], [主语 lag-one Pearson autocorrelation] [谓语 measures] [宾语 the linear association] [后置定语 between observations one time step apart].",
+        "[主语 The team] [谓语 abandoned] [宾语 the approach] [原因状语 after repeated calibration failures]."
+      ],
+      "common_errors": [
+        "中式前置长定语堆砌：*The collected from three rural clinics during the two-year pilot study data were noisy（应改为 The data collected from three rural clinics during the two-year pilot study were noisy）。",
+        "把状语介词短语误当成主语：*In Table 1 shows the ablation results（应为 Table 1 shows... 或 In Table 1, we report...）。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP020",
+      "name": "生成模型与概率预测：分布校准、不确定性量化与尾部风险",
+      "function_category": "generative_and_probabilistic_modeling",
+      "stage": 2,
+      "first_day": "day_0030",
+      "first_day_num": 30,
+      "template": "A probabilistic/generative model assigns probabilities to possible outcomes, allowing us to quantify uncertainty and evaluate both calibration and sharpness.",
+      "explanation_zh": "用于生成模型（Generative Models）与概率预测论文，阐述为何需要学习完整条件分布而非单一点估计（point estimate）。",
+      "register": "technical_specialized",
+      "examples": [
+        "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+        "Forecast calibration concerns statistical consistency between forecasts and observations."
+      ],
+      "common_errors": [
+        "将高集中度（sharpness）误认为已经过概率校准（calibrated）。"
+      ],
+      "prerequisites": [
+        "G014",
+        "G035"
+      ]
+    },
+    {
+      "pattern_id": "EP023",
+      "name": "六级与雅思托福（CET-6 / IELTS / TOEFL）议论文：去模板化“主张—机制—具体实例—让步”结构",
+      "function_category": "cet6_ielts_toefl_essay_writing",
+      "stage": 3,
+      "first_day": "day_0068",
+      "first_day_num": 68,
+      "template": "While [Concession: competing view/cost], [Main Claim: policy/technology] can [Verb: facilitate/mitigate] [Outcome] by [Concrete Mechanism], as illustrated by [Specific Real-World Case].",
+      "explanation_zh": "专为六级、雅思 Task 2 与托福独立写作设计：告别陈腐套话，用一句话完成让步对比，紧接着给出具体作用机制与可信实例。",
+      "register": "general_academic",
+      "examples": [
+        "While expanding public transport requires substantial infrastructure investment, subsidising bus fares can facilitate access to education for low-income students by reducing daily commuting costs.",
+        "Asynchronous online courses allow working adults to study at their own pace; nevertheless, they cannot wholly replace face-to-face seminars that stimulate spontaneous debate."
+      ],
+      "common_errors": [
+        "只写夸张口号（如 *Online education is a double-edged sword and plays a vital role*）而不展开具体原因机制与实例。"
+      ],
+      "prerequisites": [
+        "G018",
+        "G034",
+        "G036"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00012",
+        "lemma": "a contradiction in terms",
+        "pos": "noun_phrase",
+        "meaning_zh": "用词本身自相矛盾",
+        "polysemy_trap_zh": "学术语境与搭配约束：这里按圆和正方形的普通几何定义判断；不同于两个观测结果不一致。",
+        "key_collocations": [
+          "a contradiction in terms"
+        ],
+        "example_en": "In ordinary Euclidean geometry, a circular square is a contradiction in terms.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00013",
+        "lemma": "a drain on one's finances",
+        "pos": "phrase",
+        "meaning_zh": "对财务的持续消耗",
+        "polysemy_trap_zh": "学术语境与搭配约束：drain on 固定介词搭配。",
+        "key_collocations": [
+          "a drain on household finances"
+        ],
+        "example_en": "Repeated travel is a drain on the student's finances.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00014",
+        "lemma": "a great deal of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "大量的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00014 quant.phr.] 大量的（例：The transcription required a great deal of effort.）；[V00015 量词短语] 大量（修饰不可数名词）（例：A careful literature review requires a great deal of time.） | 本条用法约束：后接不可数名词；不写 a great deal of participants。",
+        "key_collocations": [
+          "a great deal of time",
+          "a great deal of effort"
+        ],
+        "example_en": "The transcription required a great deal of effort.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00015",
+        "lemma": "a great deal of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "大量（修饰不可数名词）",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00014 quant.phr.] 大量的（例：The transcription required a great deal of effort.）；[V00015 量词短语] 大量（修饰不可数名词）（例：A careful literature review requires a great deal of time.） | 本条用法约束：后接不可数名词；可数复数用 many 或 a large number of。",
+        "key_collocations": [
+          "a great deal of time"
+        ],
+        "example_en": "A careful literature review requires a great deal of time.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00016",
+        "lemma": "a handful of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "少量的",
+        "polysemy_trap_zh": "词义与句法边界：模糊数量；方法和结果需精确计数时应给实际数字。",
+        "key_collocations": [
+          "a handful of cases",
+          "a handful of respondents"
+        ],
+        "example_en": "A handful of respondents requested a paper questionnaire.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00017",
+        "lemma": "a large number of",
+        "pos": "noun_phrase",
+        "meaning_zh": "大量的",
+        "polysemy_trap_zh": "学术语境与搭配约束：接可数名词复数；a large amount of通常接不可数名词。",
+        "key_collocations": [
+          "a large number of records"
+        ],
+        "example_en": "A large number of records still require checking.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00018",
+        "lemma": "a wide range of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "种类广泛的",
+        "polysemy_trap_zh": "学术语境与搭配约束：range 单数；介词 of 后说明范围。",
+        "key_collocations": [
+          "a wide range of sources"
+        ],
+        "example_en": "The review draws on a wide range of sources.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00023",
+        "lemma": "absolutely critical",
+        "pos": "adjective_phrase",
+        "meaning_zh": "极其重要的",
+        "polysemy_trap_zh": "学术语境与搭配约束：强语气须有实际理由，例如涉及隐私义务。",
+        "key_collocations": [
+          "it is absolutely critical that"
+        ],
+        "example_en": "It is absolutely critical that the consent records remain secure.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00038",
+        "lemma": "accompanied by",
+        "pos": "verb_phrase",
+        "meaning_zh": "伴随有",
+        "polysemy_trap_zh": "学术语境与搭配约束：被动形式 by。",
+        "key_collocations": [
+          "a release accompanied by documentation"
+        ],
+        "example_en": "The data release is accompanied by documentation.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00039",
+        "lemma": "according to",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "根据某人或某来源的说法",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00039 prep. phr.] 根据某人或某来源的说法（例：According to the authors, the evaluation uses synthetic sentences.）；[V00040 prep. phr.] 根据；依照（例：According to the records, the event began before sunset.） | 本条用法约束：用于归属他人观点；自己的论点写 I argue 等，不写 according to me。",
+        "key_collocations": [
+          "according to the authors"
+        ],
+        "example_en": "According to the authors, the evaluation uses synthetic sentences.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00040",
+        "lemma": "according to",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "根据",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00039 prep. phr.] 根据某人或某来源的说法（例：According to the authors, the evaluation uses synthetic sentences.）；[V00040 prep. phr.] 根据；依照（例：According to the records, the event began before sunset.） | 本条用法约束：可归属来源，也可说明依据或随某条件变化。",
+        "key_collocations": [
+          "according to the records"
+        ],
+        "example_en": "According to the records, the event began before sunset.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00041",
+        "lemma": "account for",
+        "pos": "phrasal_verb",
+        "meaning_zh": "占",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for a proportion"
+        ],
+        "example_en": "Missing responses account for a small proportion of the records.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00042",
+        "lemma": "account for",
+        "pos": "phrase",
+        "meaning_zh": "解释",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for a difference",
+          "account for a proportion"
+        ],
+        "example_en": "Measurement error may account for part of the discrepancy.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00043",
+        "lemma": "account for",
+        "pos": "verb_phrase",
+        "meaning_zh": "占据",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for"
+        ],
+        "example_en": "Missing records account for the discrepancy between the totals.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00044",
+        "lemma": "account for",
+        "pos": "verb_phrase",
+        "meaning_zh": "解释",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for variation"
+        ],
+        "example_en": "The review asks which mechanisms account for the variation.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00045",
+        "lemma": "account for the fact that",
+        "pos": "verb_phrase",
+        "meaning_zh": "解释某事实",
+        "polysemy_trap_zh": "学术语境与搭配约束：account for 后接名词短语或 the fact that 从句。",
+        "key_collocations": [
+          "account for the fact that rates differ"
+        ],
+        "example_en": "The model cannot account for the fact that rates differ across sites.",
+        "first_day": "day_0062"
+      }
+    ]
+  }
+}

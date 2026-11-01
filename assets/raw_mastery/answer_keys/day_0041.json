@@ -1,0 +1,506 @@
+[
+  {
+    "task_id": "D0041_T01",
+    "day": "day_0041",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+        "sentence_en": "Good morning everyone.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+        "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+        "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+        "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP41`（学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T02",
+    "day": "day_0041",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+        "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+        "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+        "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+        "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP05`（挑战与机制一对一映射段（Challenge-to-Mechanism Mapping））与逻辑法则 `L019`（顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）。衔接公式：Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T03",
+    "day": "day_0041",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+        "sentence_en": "Good morning everyone.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+        "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+        "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+        "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP41`（学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T04",
+    "day": "day_0041",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+        "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+        "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+        "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+        "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP05`（挑战与机制一对一映射段（Challenge-to-Mechanism Mapping））与逻辑法则 `L019`（顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）。衔接公式：Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T05",
+    "day": "day_0041",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+        "sentence_en": "Good morning everyone.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+        "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+        "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+        "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP41`（学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T06",
+    "day": "day_0041",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+        "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+        "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+        "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+        "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP05`（挑战与机制一对一映射段（Challenge-to-Mechanism Mapping））与逻辑法则 `L019`（顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）。衔接公式：Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T07",
+    "day": "day_0041",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+        "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+        "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+        "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+        "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP42`（演讲幻灯片与复杂图表视觉引导段（Visual Signposting in Tech Talks））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Spatial Coordinate -> Notice Baseline Failure -> Compare Our Curve -> One-Sentence Mechanistic Takeaway. 绑定逻辑规则：L018, L015.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（没有给听众任何坐标引导（You can see many lines here），听众还在找坐标轴是什么意思时你已经翻页了。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T08",
+    "day": "day_0041",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+        "sentence_en": "Good morning everyone.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+        "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+        "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+        "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP41`（学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T09",
+    "day": "day_0041",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+        "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+        "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+        "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+        "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP05`（挑战与机制一对一映射段（Challenge-to-Mechanism Mapping））与逻辑法则 `L019`（顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）。衔接公式：Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T10",
+    "day": "day_0041",
+    "task_type": "cross_genre_transformation",
+    "model_response_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+        "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+        "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+        "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+        "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP42`（演讲幻灯片与复杂图表视觉引导段（Visual Signposting in Tech Talks））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Spatial Coordinate -> Notice Baseline Failure -> Compare Our Curve -> One-Sentence Mechanistic Takeaway. 绑定逻辑规则：L018, L015.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（没有给听众任何坐标引导（You can see many lines here），听众还在找坐标轴是什么意思时你已经翻页了。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T11",
+    "day": "day_0041",
+    "task_type": "full_composition_project",
+    "model_response_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+        "sentence_en": "Good morning everyone.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+        "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+        "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+        "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP41`（学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0041_T12",
+    "day": "day_0041",
+    "task_type": "full_composition_project",
+    "model_response_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+        "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+        "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+        "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+        "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP42`（演讲幻灯片与复杂图表视觉引导段（Visual Signposting in Tech Talks））与逻辑法则 `L019`（顶会 Rebuttal 黄金四步：致谢认同 -> 结论前置 -> 新增证据/表格 -> 修订位置锚定）。衔接公式：Spatial Coordinate -> Notice Baseline Failure -> Compare Our Curve -> One-Sentence Mechanistic Takeaway. 绑定逻辑规则：L018, L015.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（没有给听众任何坐标引导（You can see many lines here），听众还在找坐标轴是什么意思时你已经翻页了。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  }
+]

@@ -1,0 +1,352 @@
+{
+  "day": "day_0008",
+  "day_number": 8,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 8 天：高密度四句式 Abstract 全段构建（Complete 4-Move Abstract） × 先让步、再釜底抽薪式反驳（Concession-Pivot-Refutation） × Academic_Speech 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP08",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "高密度四句式 Abstract 全段构建（Complete 4-Move Abstract）",
+      "user_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+      "when_to_use_zh": "论文 Abstract 全段，或学术演讲摘要（Talk Abstract）",
+      "paragraph_move_structure": [
+        "S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。",
+        "S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause].",
+        "S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]...",
+        "S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]."
+      ],
+      "cohesion_and_logic_formula": "Context (S1) -> Gap (S2) -> Method & Mechanism (S3-S4) -> Quantitative Proof (S5). 绑定逻辑规则：L001, L008, L010, L029.",
+      "defective_draft": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+      "defect_diagnosis_zh": "包含 in the era of big data, delve into, novel, state-of-the-art 等典型低质套话，且没有任何具体机制因果与量化数字。",
+      "model_paragraph_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series. While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively. We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps. Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer. Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [背景与任务重要性 Context]",
+          "sentence_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [现有局限与痛点 Gap/Bottleneck]",
+          "sentence_en": "While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3-S4 [本文方法与核心机制 Approach & Mechanism]",
+          "sentence_en": "We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]... | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "108 个词的黄金顶会摘要：无一字废话，痛点具体（50% 连续块缺失 + 采样延迟），机制清晰（频谱先验直线传输路径 + 傅里叶相位正则），数据硬核（MAE 降 19.3%，提速 24 倍）。"
+    },
+    {
+      "blueprint_id": "BP20",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "超参数敏感性与极端噪声鲁棒性分析段（Sensitivity & Robustness Analysis）",
+      "user_intent_zh": "我这一段想回应审稿人最常问的：你的模型是不是对超参数很敏感？在缺失值或传感器强噪声下会不会突然崩盘？",
+      "when_to_use_zh": "Experiments 第 4.4 节 Sensitivity & Robustness",
+      "paragraph_move_structure": [
+        "S1 [分析目的 Objective]：We further examine sensitivity to key hyperparameters and resilience against severe sensor corruption in Figure 4.",
+        "S2 [超参数平坦区间 Plateau Stability]：Varying [Hyperparameter $\\lambda$] across two orders of magnitude ($[0.01, 1.0]$) alters validation MSE by less than [1.8%], demonstrating a wide stable operating plateau.",
+        "S3 [极端边缘工况压力测试 Stress Test under Corruption]：Under synthetic sensor dropouts up to [40%] and Gaussian noise ($\\sigma=0.3$), baseline accuracy plummets by over [35%], whereas our model degrades by less than [6.5%].",
+        "S4 [鲁棒性物理归因 Robustness Mechanism]：This resilience stems from [Specific Mechanism], which filters out corrupted channels before global aggregation."
+      ],
+      "cohesion_and_logic_formula": "Goal -> Wide Hyperparameter Plateau -> Stress-Test Comparison -> Mechanistic Explanation. 绑定逻辑规则：L010, L019.",
+      "defective_draft": "Figure 4 shows hyperparameter sensitivity. When lambda changes from 0.1 to 1.0, the result does not change much. Also, when we add noise, our model is still very stable.",
+      "defect_diagnosis_zh": "模糊口语（does not change much, still very stable），缺乏量化波动范围与抗噪机理。",
+      "model_paragraph_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption. Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$. Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%. This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分析目的 Objective]",
+          "sentence_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分析目的 Objective]：We further examine sensitivity to key hyperparameters and resilience against severe sensor corruption in Figure 4. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [超参数平坦区间 Plateau Stability]",
+          "sentence_en": "Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [超参数平坦区间 Plateau Stability]：Varying [Hyperparameter $\\lambda$] across two orders of magnitude ($[0.01, 1.0]$) alters validation MSE by less than [1.8%], demonstrating a wide stable operating plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [极端边缘工况压力测试 Stress Test under Corruption]",
+          "sentence_en": "Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [极端边缘工况压力测试 Stress Test under Corruption]：Under synthetic sensor dropouts up to [40%] and Gaussian noise ($\\sigma=0.3$), baseline accuracy plummets by over [35%], whereas our model degrades by less than [6.5%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [鲁棒性物理归因 Robustness Mechanism]",
+          "sentence_en": "This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [鲁棒性物理归因 Robustness Mechanism]：This resilience stems from [Specific Mechanism], which filters out corrupted channels before global aggregation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "给出 $<1.4\\%$ 的超参平坦区间与 $4.8\\%$ vs. $34.2\\%$ 的强噪声衰减对比，彻底封堵审稿人对调参难度的质疑。"
+    },
+    {
+      "blueprint_id": "BP33",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "议论文破题首段：具象趋势锚定 + 争议张力 + 明确中心论点（Zero-Template Hook & Thesis）",
+      "user_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的第一段（Introduction）：彻底扔掉 'With the rapid development of science and technology, more and more people...' 等烂大街模板，用 3 句话写出考官眼前一亮的母语级破题段。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL Independent Essay 首段",
+      "paragraph_move_structure": [
+        "S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。",
+        "S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality].",
+        "S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]."
+      ],
+      "cohesion_and_logic_formula": "Concrete Phenomenon (No Cliché) -> Balanced Tension -> Conditional & Specific Thesis Statement. 绑定逻辑规则：L023, L029.",
+      "defective_draft": "With the rapid development of science and technology, artificial intelligence is becoming more and more popular in universities. Some people think it is good, while others think it is bad. In my opinion, every coin has two sides and we should use it properly.",
+      "defect_diagnosis_zh": "汇集了中国考生三大扣分重灾区：① With the rapid development of...；② more and more popular / good vs. bad；③ Every coin has two sides（零立场的废话中心论点）。",
+      "model_paragraph_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses. While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation. In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [具象现象锚定 Concrete Trend Anchor]",
+          "sentence_en": "Large language models and automated code assistants have rapidly become routine study aids across university campuses.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [具象现象锚定 Concrete Trend Anchor]：直接从具体技术变革或制度调整切入（如 Generative AI tools now draft code and summarize literature across university campuses），绝不用 With the development of...。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心争议张力 Core Tension / Debate]",
+          "sentence_en": "While proponents contend that these tools accelerate literature synthesis and lower programming barriers, critics warn that unchecked reliance erodes students' capacity for independent problem formulation.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心争议张力 Core Tension / Debate]：While proponents argue that [View A: efficiency/accessibility], critics warn that [View B: skill erosion/inequality]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [带条件的中心论点 Nuanced Thesis Statement]",
+          "sentence_en": "In my view, universities should integrate generative tools into advanced coursework only after students master foundational analytical skills, as premature delegation weakens debugging competence and obscures underlying mathematical principles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [带条件的中心论点 Nuanced Thesis Statement]：In my view, rather than banning [X] outright or adopting it uncritically, [Institution/Society] should [Core Stance], because [Primary Reason 1] and [Primary Reason 2]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "第一句直接点出大语言模型与代码助手进入大学校园；第二句精准提炼正反双方核心交锋；第三句给出清晰、可操作且带明确理由的中心论点（先掌握基础分析能力再在进阶课程引入）。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L008",
+      "category": "Argumentation (论证结构)",
+      "name_zh": "先让步、再釜底抽薪式反驳（Concession-Pivot-Refutation）",
+      "name_en": "Concession, Pivot, and Structural Refutation",
+      "core_principle_zh": "无论是论文引言批评前人方法、Rebuttal 回复审稿人，还是六级/雅思大作文回应反方观点，最高级的说服力都来自“先承认对方在特定受限条件下确实有效（Concession），再指出该条件在真实/复杂场景下不成立（Pivot & Refutation）”。",
+      "structural_formula": "Admittedly / While [Prior Method / Opposing View] achieves [Specific Merit] under [Strict Assumption A], this assumption breaks down when [Real-World Condition B], resulting in [Concrete Failure].",
+      "common_pitfall_zh": "一上来全盘否定前人工作（Previous works are totally wrong/useless），显得极不客观且容易激怒审稿人。",
+      "bad_example_en": "MLP-based forecasters are too simple and cannot model complex dependencies, so our Transformer model is necessary.",
+      "good_example_en": "While lightweight MLP forecasters achieve competitive accuracy on stationary sequences with stable periodicity, their fixed temporal weights cannot adapt dynamically when industrial sensor streams undergo abrupt regime shifts.",
+      "analysis_zh": "先肯定 MLP 在平稳周期序列上的竞争力，再精准指出其“固定时间权重无法适应突发工况漂移”的结构性软肋，有理有据。"
+    },
+    {
+      "logic_id": "L016",
+      "category": "Experimental Writing (实验章节逻辑)",
+      "name_zh": "消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution）",
+      "name_en": "Counterfactual Ablation Attribution",
+      "core_principle_zh": "消融实验段落（Ablation Study）的核心逻辑是“反事实归因”：不仅要报告拿掉模块 A 后指标下降了多少，更要指出拿掉 A 后模型具体在什么子任务/子场景上出现了什么退化，从而锁定模块 A 的不可替代性。",
+      "structural_formula": "Removing [Module A] (w/o A) causes [Metric] to drop by [X%], with the sharpest degradation occurring under [Specific Hard Condition]. This drop indicates that without [Module A], the model fails to [Specific Function].",
+      "common_pitfall_zh": "只写 Without module A, accuracy drops by 3%, which proves module A is very important and effective（同义反复，未解释为什么降）。",
+      "bad_example_en": "When we remove the kinematics constraint loss, the success rate drops by 14%. This shows that the kinematics constraint loss is very important for our robot.",
+      "good_example_en": "Removing the kinematic feasibility loss (w/o $\\mathcal{L}_{\\text{kin}}$) reduces real-world drawer-opening success from 86% to 72%. Inspection of failed trajectories reveals that without $\\mathcal{L}_{\\text{kin}}$, the diffusion policy frequently generates wrist orientations that exceed joint torque limits during the pull phase.",
+      "analysis_zh": "不仅给出 86%->72% 的量化回落，还通过轨迹检查揭示了“缺少运动学约束导致手腕姿态超出关节扭矩极限”的具体物理死因。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC08",
+      "domain_en": "Diffusion & Flow-Matching Time Series Imputation",
+      "domain_zh": "基于扩散/流匹配的缺失时序插补与生成",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP08",
+      "linked_logic_id": "L008",
+      "communicative_goal_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+      "original_defective_paragraph": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L008 先让步、再釜底抽薪式反驳（Concession-Pivot-Refutation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "包含 in the era of big data, delve into, novel, state-of-the-art 等典型低质套话，且没有任何具体机制因果与量化数字。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series. While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively. We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps. Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer. Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [背景与任务重要性 Context]",
+          "sentence_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [现有局限与痛点 Gap/Bottleneck]",
+          "sentence_en": "While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3-S4 [本文方法与核心机制 Approach & Mechanism]",
+          "sentence_en": "We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]... | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC28",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP28",
+      "linked_logic_id": "L028",
+      "communicative_goal_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "original_defective_paragraph": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L028 诊断与修复逻辑跳跃（Bridging Logical Leaps / Missing Premises））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC46",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP46",
+      "linked_logic_id": "L016",
+      "communicative_goal_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+      "original_defective_paragraph": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L016 消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+          "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+          "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+          "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT08",
+    "genre": "Academic_Speech",
+    "title_zh": "顶会 5 分钟 Spotlight 演讲完整逐字稿：具身智能实时视觉运动控制（含真机视频解说与延迟对比）",
+    "structural_blueprint_chain": [
+      "BP41",
+      "BP05",
+      "BP16",
+      "BP42",
+      "BP22",
+      "BP44"
+    ]
+  }
+}

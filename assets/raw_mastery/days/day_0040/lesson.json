@@ -1,0 +1,326 @@
+{
+  "day": "day_0040",
+  "day_number": 40,
+  "stage": 3,
+  "stage_name_zh": "Stage 3: AI/时间序列/生成/具身智能小论文全章节贯通（Abstract/Intro/Method/Exp/Rebuttal）",
+  "daily_focus_title_zh": "第 40 天：议论文收尾段：跳出简单重复，完成核心权衡整合与边界升华（Synthesis Conclusion） × 定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad） × TOEFL_Integrated 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP40",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "议论文收尾段：跳出简单重复，完成核心权衡整合与边界升华（Synthesis Conclusion）",
+      "user_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+      "paragraph_move_structure": [
+        "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+        "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+        "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+      ],
+      "cohesion_and_logic_formula": "Balanced Restatment -> Dual-Pillar Synthesis -> Grounded Governance Principle (Zero Slogans!). 绑定逻辑规则：L023, L029.",
+      "defective_draft": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+      "defect_diagnosis_zh": "结尾段最忌讳的三句废话全中：既有好处也有坏处 + 扬长避短 + 让我们携手共创美好未来（口号感叹句）。",
+      "model_paragraph_en": "In conclusion, while automated decision systems inevitably introduce transitional labor friction and verification challenges, integrating them into industrial and academic workflows yields substantial long-term productivity gains. By pairing algorithmic deployment with transparent audit trails and targeted workforce retraining, institutions can capture efficiency breakthroughs without eroding human analytical oversight. Ultimately, the value of intelligent automation rests not on replacing human judgment, but on elevating the precision of the evidence upon which human judgment acts.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [重申核心权衡与立场 Restate Nuanced Thesis]",
+          "sentence_en": "In conclusion, while automated decision systems inevitably introduce transitional labor friction and verification challenges, integrating them into industrial and academic workflows yields substantial long-term productivity gains.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]",
+          "sentence_en": "By pairing algorithmic deployment with transparent audit trails and targeted workforce retraining, institutions can capture efficiency breakthroughs without eroding human analytical oversight.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [理性边界展望（可选）Grounded Forward Look]",
+          "sentence_en": "Ultimately, the value of intelligent automation rests not on replacing human judgment, but on elevating the precision of the evidence upon which human judgment acts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "第一句让步重申立场，第二句合并“透明审计轨迹 + 靶向技能培训”两大抓手，第三句用 not on replacing..., but on elevating... 理性收尾，格调高雅。"
+    },
+    {
+      "blueprint_id": "BP04",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "亮出本文核心洞察与破局方法总览（Key Insight & Method Overview）",
+      "user_intent_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+      "when_to_use_zh": "Introduction 第三段（Our Approach & Key Insight）",
+      "paragraph_move_structure": [
+        "S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal].",
+        "S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。",
+        "S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。",
+        "S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。"
+      ],
+      "cohesion_and_logic_formula": "Problem Anchor -> Key Insight -> Dual-Module Mechanism -> Pareto Resolution. 绑定逻辑规则：L002, L023.",
+      "defective_draft": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+      "defect_diagnosis_zh": "① 典型 AI 自吹词（novel and groundbreaking, delve into, state-of-the-art）；② 机械报菜名（Module A, B, C），完全没讲清为什么这套组合能解决上一段的痛点。",
+      "model_paragraph_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation. Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system. Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch. Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [方法登场与定位 Method Introduction]",
+          "sentence_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心直觉洞察 Key Insight]",
+          "sentence_en": "Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [模块协同主干 Module Synergy]",
+          "sentence_en": "Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [闭环收益总结 Closed-Loop Benefit]",
+          "sentence_en": "Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "先给 Key Insight（核心直觉），再讲模块分工，审稿人一眼就能看懂你的创新不是拼积木，而是有严密的理论动机。"
+    },
+    {
+      "blueprint_id": "BP41",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook）",
+      "user_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+      "when_to_use_zh": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+      "paragraph_move_structure": [
+        "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+        "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+        "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+        "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+      ],
+      "cohesion_and_logic_formula": "Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.",
+      "defective_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+      "defect_diagnosis_zh": "最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。",
+      "model_paragraph_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+          "sentence_en": "Good morning everyone.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+          "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+          "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+          "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用一个风暴突袭风电场的具象画面 + 一个直击灵魂的设问（why do their predictions lag right when the storm hits?）瞬间抓住全场注意力。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L010",
+      "category": "Precision & Grounding (精确度与实证落地)",
+      "name_zh": "定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad）",
+      "name_en": "The Metric-Baseline-Condition Precision Triad",
+      "core_principle_zh": "任何宣称“更好、更快、更鲁棒、影响深远”的句子，必须同时交代三个维度：① 具体评估指标与幅度（Metric & Magnitude）、② 对比参照系（Baseline）、③ 评测工况或数据集条件（Condition）。",
+      "structural_formula": "[Method/Policy] improves/reduces [Metric] by [Exact %/Value] compared with [Strongest Baseline] under [Specific Dataset/Horizon/Noise Regime].",
+      "common_pitfall_zh": "只写 significantly improves performance 或 achieves state-of-the-art results，属于典型的“不精确 + 空洞夸张”。",
+      "bad_example_en": "Our generative policy achieves much better success rates and runs much faster than previous methods.",
+      "good_example_en": "Our consistency-distilled policy increases bimanual peg-insertion success rates from 64% to 89% while cutting inference latency from 180 ms to 12 ms relative to a 50-step DDPM baseline.",
+      "analysis_zh": "用 64%->89%（指标）、180ms->12ms（延迟）、relative to a 50-step DDPM baseline（基线）和 bimanual peg-insertion（任务条件）彻底消灭空洞形容词。"
+    },
+    {
+      "logic_id": "L018",
+      "category": "Presentation & Speech (学术演讲与汇报)",
+      "name_zh": "口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting）",
+      "name_en": "Spoken Rhythm, Visual Anchoring, and Rhetorical Signposting",
+      "core_principle_zh": "听众无法像读论文那样倒回去重读长定语从句。把书面段转化为演讲稿时，必须：① 砍掉多重嵌套从句，拆为 10–15 词的清晰短句；② 先给视觉坐标（Look at the red curve in the upper-right panel）再讲结论；③ 用轻量设问（Why does this spike happen? Because...）引导注意力。",
+      "structural_formula": "[Visual Anchor: Turning to the right panel of Slide 4,] -> [Short Rhetorical Question: why does the baseline diverge after step 50?] -> [Crisp Causal Answer: The answer lies in compound orientation drift.]",
+      "common_pitfall_zh": "拿着书面论文原封不动照念长达 40 个词的复合句，台下听众在前 10 秒就丢失了主谓关系。",
+      "bad_example_en": "As illustrated in Figure 4, the trajectory generated by the baseline model without temporal consistency regularization exhibits substantial oscillation around the target waypoint.",
+      "good_example_en": "Take a look at the dashed blue trajectory in Figure 4. Notice how violently the robot arm oscillates near the target waypoint. Why does this happen? Without temporal consistency regularization, adjacent action chunks conflict with one another.",
+      "analysis_zh": "用 Take a look at... -> Notice how... -> Why does this happen? -> Without X, Y conflicts... 营造极具现场掌控力的母语级 Tech Talk 节奏。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC40",
+      "domain_en": "Conference Author Rebuttal & Reviewer Defense",
+      "domain_zh": "顶会审稿回复（Rebuttal）与消融防御",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP40",
+      "linked_logic_id": "L010",
+      "communicative_goal_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+      "original_defective_paragraph": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L010 定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "结尾段最忌讳的三句废话全中：既有好处也有坏处 + 扬长避短 + 让我们携手共创美好未来（口号感叹句）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In conclusion, while automated decision systems inevitably introduce transitional labor friction and verification challenges, integrating them into industrial and academic workflows yields substantial long-term productivity gains. By pairing algorithmic deployment with transparent audit trails and targeted workforce retraining, institutions can capture efficiency breakthroughs without eroding human analytical oversight. Ultimately, the value of intelligent automation rests not on replacing human judgment, but on elevating the precision of the evidence upon which human judgment acts.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [重申核心权衡与立场 Restate Nuanced Thesis]",
+          "sentence_en": "In conclusion, while automated decision systems inevitably introduce transitional labor friction and verification challenges, integrating them into industrial and academic workflows yields substantial long-term productivity gains.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]",
+          "sentence_en": "By pairing algorithmic deployment with transparent audit trails and targeted workforce retraining, institutions can capture efficiency breakthroughs without eroding human analytical oversight.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [理性边界展望（可选）Grounded Forward Look]",
+          "sentence_en": "Ultimately, the value of intelligent automation rests not on replacing human judgment, but on elevating the precision of the evidence upon which human judgment acts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC60",
+      "domain_en": "TOEFL Independent & Integrated Academic Writing",
+      "domain_zh": "托福独立与综合写作：理论基础与工程实践权衡",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP12",
+      "linked_logic_id": "L030",
+      "communicative_goal_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+      "original_defective_paragraph": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L030 成段后七维自检清单（The 7-Point Paragraph Audit Checklist））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "写成看图说话的静态空间方位描述（on the left, in the middle, on the right），没有体现张量变换的数据流动与功能因果。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Figure 2 illustrates the overall architecture of DyTS-Net, which maps raw sensor streams to multi-horizon forecasts through three sequential stages. Given an input sequence $\\mathbf{X}$, the Adaptive De-stationary Tokenizer first separates local trend-scale statistics from normalized sub-series patches $\\mathbf{Z}_0$. These normalized patches then pass through stacked Spectral-Spatial Mixing blocks, which jointly filter high-frequency channel noise in the Fourier domain and propagate cross-sensor phase dependencies via a sparse directed graph. Finally, the Scale-Guided Decoder fuses the refined structural representations with the projected neural-ODE scale trajectory to reconstruct the multi-horizon output $\\hat{\\mathbf{Y}}$.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]",
+          "sentence_en": "Figure 2 illustrates the overall architecture of DyTS-Net, which maps raw sensor streams to multi-horizon forecasts through three sequential stages.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [阶段 1 数据流 Stage 1 Flow]",
+          "sentence_en": "Given an input sequence $\\mathbf{X}$, the Adaptive De-stationary Tokenizer first separates local trend-scale statistics from normalized sub-series patches $\\mathbf{Z}_0$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阶段 2 数据流 Stage 2 Flow]",
+          "sentence_en": "These normalized patches then pass through stacked Spectral-Spatial Mixing blocks, which jointly filter high-frequency channel noise in the Fourier domain and propagate cross-sensor phase dependencies via a sparse directed graph.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]",
+          "sentence_en": "Finally, the Scale-Guided Decoder fuses the refined structural representations with the projected neural-ODE scale trajectory to reconstruct the multi-horizon output $\\hat{\\mathbf{Y}}$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC18",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP18",
+      "linked_logic_id": "L018",
+      "communicative_goal_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+      "original_defective_paragraph": "As shown in Table 1, our model gets the best MSE on ETTm1, ETTm2, Weather, and Traffic. On Weather dataset, our MSE is 0.165, which is 12% lower than PatchTST. On Traffic, our MSE is 0.382, which beats iTransformer. This proves our model is the best.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L018 口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "典型的“报账式朗读表格”，只报数字不分析机理，末句 This proves our model is the best 毫无信息量。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations. Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical. Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts. By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [全局统治力概述 Overall Dominance]",
+          "sentence_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]",
+          "sentence_en": "Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]",
+          "sentence_en": "Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [回扣本文核心机制 Mechanistic Confirmation]",
+          "sentence_en": "By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT16",
+    "genre": "TOEFL_Integrated",
+    "title_zh": "托福综合写作（Integrated Writing）满分范文：自主无人机配送能否取代城市货车（阅读三论点 vs. 听力逐点反驳）",
+    "structural_blueprint_chain": [
+      "BP31",
+      "BP27",
+      "BP28",
+      "BP32"
+    ]
+  }
+}

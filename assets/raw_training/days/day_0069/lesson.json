@@ -1,0 +1,2520 @@
+{
+  "day_id": "day_0069",
+  "day_number": 69,
+  "stage": 3,
+  "stage_name_zh": "阶段 3：逻辑写作、消融对比与六级/雅思托福高分论证（Day 51–75）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G003】主谓一致、数量短语一致与邻近名词干扰排除；【G008】语序、否定辖域、部分否定与句首否定倒装。",
+    "掌握学术表达模式：【EP009】谨慎归因与多因素解释（May Account For / Be Attributable To），彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V00465",
+        "V00485",
+        "V00530",
+        "V00592"
+      ],
+      "lemmas": [
+        "come down on one side",
+        "compared to",
+        "conflict resolution",
+        "contribute to"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V00466",
+        "V00486",
+        "V00537",
+        "V00593"
+      ],
+      "lemmas": [
+        "come to a conclusion",
+        "compared with",
+        "consent to",
+        "contribute to"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V00467",
+        "V00488",
+        "V00539",
+        "V00594"
+      ],
+      "lemmas": [
+        "come to a conclusion",
+        "comparison between",
+        "consequence of",
+        "contribute to"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V00468",
+        "V00489",
+        "V00547"
+      ],
+      "lemmas": [
+        "come to a conclusion",
+        "comparison of",
+        "consider evidence"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V00469",
+        "V00497",
+        "V00548"
+      ],
+      "lemmas": [
+        "come to light",
+        "composed predominantly of",
+        "consider seriously"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V00470",
+        "V00506",
+        "V00552"
+      ],
+      "lemmas": [
+        "come up with a solution",
+        "concentrate on",
+        "consist of"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V00472",
+        "V00523",
+        "V00553"
+      ],
+      "lemmas": [
+        "comment on",
+        "conduct an interview",
+        "consist of"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V00477",
+        "V00527",
+        "V00577"
+      ],
+      "lemmas": [
+        "common method",
+        "confine to",
+        "contain inconsistencies"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V00465",
+      "lemma": "come down on one side",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phr.",
+      "senses": [
+        {
+          "sense_id": "V00465_S01",
+          "pos": "v. phr.",
+          "meaning_zh": "作出支持某一方的判断",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：作出支持某一方的判断（v. phr.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The committee came down on one side after weighing the evidence.",
+          "example_zh": "委员会权衡证据后支持了其中一方。",
+          "sentence_constituents_zh": "【紧凑主语】The committee came down... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "较形象的表达，正式分析中也可写 favour。 | 熟词生义与多义辨析：学术语境与搭配约束：较形象的表达，正式分析中也可写 favour。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：作出支持某一方的判断（v. phr.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：较形象的表达，正式分析中也可写 favour。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“come down on one side of an argument”精确表述“作出支持某一方的判断”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“come down on one side of an argument”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "come down on one side",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "come down on one side"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00465_01",
+          "phrase": "come down on one side of an argument",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：come down on one side of an argument（作出支持某一方的判断）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00465"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：较形象的表达，正式分析中也可写 favour。",
+        "source_tags": [
+          "V00465",
+          "U28"
+        ]
+      }
+    },
+    {
+      "word_id": "V00466",
+      "lemma": "come to a conclusion",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phr.",
+      "senses": [
+        {
+          "sense_id": "V00466_S01",
+          "pos": "v. phr.",
+          "meaning_zh": "得出结论",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：得出结论（v. phr.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The committee came to a conclusion after reviewing the evidence.",
+          "example_zh": "委员会审查证据后得出了结论。",
+          "sentence_constituents_zh": "【紧凑主语】The committee came to... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "come to、reach、draw 与 conclusion 均可搭配。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：come to、reach、draw 与 conclusion 均可搭配。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：得出结论（v. phr.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：come to、reach、draw 与 conclusion 均可搭配。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“come to a conclusion about an issue”精确表述“得出结论”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“come to a conclusion about an issue”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "come to a conclusion",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "come to a conclusion"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00466_01",
+          "phrase": "come to a conclusion about an issue",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：come to a conclusion about an issue（得出结论）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00466",
+          "V00467",
+          "V00468"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：come to、reach、draw 与 conclusion 均可搭配。",
+        "source_tags": [
+          "V00466",
+          "U28"
+        ]
+      }
+    },
+    {
+      "word_id": "V00467",
+      "lemma": "come to a conclusion",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00467_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "得出结论",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：得出结论（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The panel came to the conclusion that the proposal needed revision.",
+          "example_zh": "小组得出结论，认为提案需要修订。",
+          "sentence_constituents_zh": "【紧凑主语】The panel came to... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "to是介词。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：to是介词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：得出结论（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：to是介词。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“come to the following conclusion”精确表述“得出结论”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“come to the following conclusion”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "come to a conclusion",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "come to a conclusion"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00467_01",
+          "phrase": "come to the following conclusion",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：come to the following conclusion（得出结论）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00466",
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00466",
+          "V00467",
+          "V00468"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：to是介词。",
+        "source_tags": [
+          "V00467",
+          "U49"
+        ]
+      }
+    },
+    {
+      "word_id": "V00468",
+      "lemma": "come to a conclusion",
+      "pos": "verb_phrase",
+      "raw_pos": "v.phr.",
+      "senses": [
+        {
+          "sense_id": "V00468_S01",
+          "pos": "v.phr.",
+          "meaning_zh": "得出结论",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：得出结论（v.phr.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "We cannot yet come to a conclusion about long-term effects.",
+          "example_zh": "我们还不能就长期影响得出结论。",
+          "sentence_constituents_zh": "【紧凑主语】We cannot yet come... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "about 后接名词；从句前常用 that。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：about 后接名词；从句前常用 that。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：得出结论（v.phr.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：about 后接名词；从句前常用 that。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“come to a conclusion about”精确表述“得出结论”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“come to a conclusion about”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "come to a conclusion",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "come to a conclusion"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00468_01",
+          "phrase": "come to a conclusion about",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：come to a conclusion about（得出结论）"
+        },
+        {
+          "collocation_id": "C_V00468_02",
+          "phrase": "come to a conclusion that",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：come to a conclusion that（得出结论）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00467",
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00466",
+          "V00467",
+          "V00468"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00466 v. phr.] 得出结论（例：The committee came to a conclusion after reviewing the evidence.）；[V00467 v. phrase] 得出结论（例：The panel came to the conclusion that the proposal needed revision.）；[V00468 v.phr.] 得出结论（例：We cannot yet come to a conclusion about long-term effects.） | 本条用法约束：about 后接名词；从句前常用 that。",
+        "source_tags": [
+          "V00468",
+          "U06"
+        ]
+      }
+    },
+    {
+      "word_id": "V00469",
+      "lemma": "come to light",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00469_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "被发现",
+          "core_meaning_zh": "基础字面义：被发现",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：被发现；为人所知（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "New evidence came to light during the audit.",
+          "example_zh": "审计中发现了新证据。",
+          "sentence_constituents_zh": "【紧凑主语】New evidence came to... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不及物，过去式 came。 | 熟词生义与多义辨析：词义与句法边界：不及物，过去式 came。"
+        },
+        {
+          "sense_id": "V00469_S02",
+          "pos": "v. phrase",
+          "meaning_zh": "为人所知",
+          "core_meaning_zh": "基础字面义：被发现",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：被发现；为人所知（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "New evidence came to light during the audit.",
+          "example_zh": "审计中发现了新证据。",
+          "sentence_constituents_zh": "【紧凑主语】New evidence came to... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不及物，过去式 came。 | 熟词生义与多义辨析：词义与句法边界：不及物，过去式 came。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：被发现",
+        "academic_target_sense_zh": "多义项/多词性完整映射：被发现；为人所知（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：不及物，过去式 came。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“new evidence comes to light”精确表述“被发现；为人所知”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“new evidence comes to light”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "come to light",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "come to light"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00469_01",
+          "phrase": "new evidence comes to light",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：new evidence comes to light（被发现；为人所知）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00469"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：不及物，过去式 came。",
+        "source_tags": [
+          "V00469",
+          "U42"
+        ]
+      }
+    },
+    {
+      "word_id": "V00470",
+      "lemma": "come up with a solution",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00470_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "提出解决办法",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：提出解决办法（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The students came up with a solution to the scheduling problem.",
+          "example_zh": "学生提出了排期问题的解决办法。",
+          "sentence_constituents_zh": "【紧凑主语】The students came up... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "come up with；solution to。 | 熟词生义与多义辨析：学术语境与搭配约束：come up with；solution to。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：提出解决办法（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：come up with；solution to。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“come up with a solution to a problem”精确表述“提出解决办法”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“come up with a solution to a problem”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "come up with a solution",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "come up with a solution"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00470_01",
+          "phrase": "come up with a solution to a problem",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：come up with a solution to a problem（提出解决办法）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02338",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00470"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：come up with；solution to。",
+        "source_tags": [
+          "V00470",
+          "U44"
+        ]
+      }
+    },
+    {
+      "word_id": "V00472",
+      "lemma": "comment on",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00472_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "评论",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：评论（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The reviewer comments briefly on the sampling method.",
+          "example_zh": "审稿人简短评论了抽样方法。",
+          "sentence_constituents_zh": "【紧凑主语】The reviewer comments briefly... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "on 后接评论对象。 | 熟词生义与多义辨析：学术语境与搭配约束：on 后接评论对象。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：评论（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：on 后接评论对象。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“comment on”精确表述“评论”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“comment on”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "comment on",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "comment on"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00472_01",
+          "phrase": "comment on",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：comment on（评论）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00471",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00472"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：on 后接评论对象。",
+        "source_tags": [
+          "V00472",
+          "U14"
+        ]
+      }
+    },
+    {
+      "word_id": "V00477",
+      "lemma": "common method",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phr.",
+      "senses": [
+        {
+          "sense_id": "V00477_S01",
+          "pos": "n. phr.",
+          "meaning_zh": "常用方法",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：常用方法（n. phr.）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "Random sampling is a common method of selecting participants.",
+          "example_zh": "随机抽样是选取参与者的一种常用方法。",
+          "sentence_constituents_zh": "【紧凑主语】Random sampling is a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "common 表示常见，不直接评价质量。 | 熟词生义与多义辨析：学术语境与搭配约束：common 表示常见，不直接评价质量。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：常用方法（n. phr.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：common 表示常见，不直接评价质量。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a common method of sampling”精确表述“常用方法”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a common method of sampling”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "common method",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "common method"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00477_01",
+          "phrase": "a common method of sampling",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a common method of sampling（常用方法）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00474",
+        "V01598",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00477"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：common 表示常见，不直接评价质量。",
+        "source_tags": [
+          "V00477",
+          "U26"
+        ]
+      }
+    },
+    {
+      "word_id": "V00485",
+      "lemma": "compared to",
+      "pos": "prepositional_phrase",
+      "raw_pos": "prep. phrase",
+      "senses": [
+        {
+          "sense_id": "V00485_S01",
+          "pos": "prep. phrase",
+          "meaning_zh": "与……相比",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：与……相比（prep. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The treatment group reported less pain compared to the control group.",
+          "example_zh": "与对照组相比，治疗组报告的疼痛较轻。",
+          "sentence_constituents_zh": "【紧凑主语】The treatment group reported... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "当结果为自报结果时保留reported。 | 熟词生义与多义辨析：学术语境与搭配约束：当结果为自报结果时保留reported。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：与……相比（prep. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：当结果为自报结果时保留reported。",
+        "informal_english_substitute": "talking about"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“compared to the control group”精确表述“与……相比”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“compared to the control group”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "compared to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "compared to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00485_01",
+          "phrase": "compared to the control group",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：compared to the control group（与……相比）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00485"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：当结果为自报结果时保留reported。",
+        "source_tags": [
+          "V00485",
+          "U46"
+        ]
+      }
+    },
+    {
+      "word_id": "V00486",
+      "lemma": "compared with",
+      "pos": "prepositional_phrase",
+      "raw_pos": "prep. phrase",
+      "senses": [
+        {
+          "sense_id": "V00486_S01",
+          "pos": "prep. phrase",
+          "meaning_zh": "与……相比",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：与……相比（prep. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "Compared with earlier studies, this study used a larger sample.",
+          "example_zh": "与早期研究相比，本研究采用了更大的样本。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Compared with earlier studies + 【主句核心主谓宾/表】this study used a larger sample. （目标词“compared with”作 prep. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "compared to也常见；避免悬垂比较。 | 熟词生义与多义辨析：学术语境与搭配约束：compared to也常见；避免悬垂比较。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：与……相比（prep. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：compared to也常见；避免悬垂比较。",
+        "informal_english_substitute": "talking about"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“compared with earlier studies”精确表述“与……相比”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“compared with earlier studies”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "compared with",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "compared with"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00486_01",
+          "phrase": "compared with earlier studies",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：compared with earlier studies（与……相比）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00486"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：compared to也常见；避免悬垂比较。",
+        "source_tags": [
+          "V00486",
+          "U46"
+        ]
+      }
+    },
+    {
+      "word_id": "V00488",
+      "lemma": "comparison between",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V00488_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "两者之间的比较",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：两者之间的比较（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A comparison between the two groups requires the same outcome measure.",
+          "example_zh": "比较这两组需要采用相同的结果指标。",
+          "sentence_constituents_zh": "【紧凑主语】A comparison between the... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "between突出比较的两个对象。 | 熟词生义与多义辨析：学术语境与搭配约束：between突出比较的两个对象。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：两者之间的比较（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：between突出比较的两个对象。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a comparison between two groups”精确表述“两者之间的比较”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a comparison between two groups”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "comparison between",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "comparison between"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00488_01",
+          "phrase": "a comparison between two groups",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a comparison between two groups（两者之间的比较）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00487",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00488"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：between突出比较的两个对象。",
+        "source_tags": [
+          "V00488",
+          "U46"
+        ]
+      }
+    },
+    {
+      "word_id": "V00489",
+      "lemma": "comparison of",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V00489_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "同类项目的比较",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：同类项目的比较（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We conducted a comparison of three sampling methods.",
+          "example_zh": "我们比较了三种抽样方法。",
+          "sentence_constituents_zh": "【紧凑主语】We conducted a comparison... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "of引出被比较的同类方法或实例。 | 熟词生义与多义辨析：学术语境与搭配约束：of引出被比较的同类方法或实例。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：同类项目的比较（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：of引出被比较的同类方法或实例。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a comparison of methods”精确表述“同类项目的比较”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a comparison of methods”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "comparison of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "comparison of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00489_01",
+          "phrase": "a comparison of methods",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a comparison of methods（同类项目的比较）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00487",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00489"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：of引出被比较的同类方法或实例。",
+        "source_tags": [
+          "V00489",
+          "U46"
+        ]
+      }
+    },
+    {
+      "word_id": "V00497",
+      "lemma": "composed predominantly of",
+      "pos": "adjective_phrase",
+      "raw_pos": "adj. phr.",
+      "senses": [
+        {
+          "sense_id": "V00497_S01",
+          "pos": "adj. phr.",
+          "meaning_zh": "主要由……组成",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：主要由……组成（adj. phr.）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The hypothetical archive is composed predominantly of letters.",
+          "example_zh": "这个假设档案主要由信件组成。",
+          "sentence_constituents_zh": "【紧凑主语】The hypothetical archive is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "predominantly是副词；of后接组成部分，保留主要而非全部的范围。 | 熟词生义与多义辨析：学术语境与搭配约束：predominantly是副词；of后接组成部分，保留主要而非全部的范围。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：主要由……组成（adj. phr.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：predominantly是副词；of后接组成部分，保留主要而非全部的范围。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“be composed predominantly of”精确表述“主要由……组成”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“be composed predominantly of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "composed predominantly of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "composed predominantly of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00497_01",
+          "phrase": "be composed predominantly of",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：be composed predominantly of（主要由……组成）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01917",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00497"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：predominantly是副词；of后接组成部分，保留主要而非全部的范围。",
+        "source_tags": [
+          "V00497"
+        ]
+      }
+    },
+    {
+      "word_id": "V00506",
+      "lemma": "concentrate on",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00506_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "集中于",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：集中于（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The analysis concentrates on regional differences.",
+          "example_zh": "分析集中讨论地区差异。",
+          "sentence_constituents_zh": "【紧凑主语】The analysis concentrates on... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "on 不用 in。 | 熟词生义与多义辨析：学术语境与搭配约束：on 不用 in。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：集中于（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：on 不用 in。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“concentrate on”精确表述“集中于”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“concentrate on”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "concentrate on",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "concentrate on"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00506_01",
+          "phrase": "concentrate on",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：concentrate on（集中于）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00506"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：on 不用 in。",
+        "source_tags": [
+          "V00506",
+          "U14"
+        ]
+      }
+    },
+    {
+      "word_id": "V00523",
+      "lemma": "conduct an interview",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V00523_S01",
+          "pos": "phrase",
+          "meaning_zh": "进行访谈",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：进行访谈（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The researchers conducted interviews with local teachers.",
+          "example_zh": "研究者访谈了当地教师。",
+          "sentence_constituents_zh": "【紧凑主语】The researchers conducted interviews... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "conduct 不等于构造 interview；do interviews 语气较普通。 | 熟词生义与多义辨析：学术语境与搭配约束：conduct 不等于构造 interview；do interviews 语气较普通。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：进行访谈（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：conduct 不等于构造 interview；do interviews 语气较普通。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“conduct interviews with participants”精确表述“进行访谈”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“conduct interviews with participants”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "conduct an interview",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "conduct an interview"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00523_01",
+          "phrase": "conduct interviews with participants",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：conduct interviews with participants（进行访谈）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00520",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00523"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：conduct 不等于构造 interview；do interviews 语气较普通。",
+        "source_tags": [
+          "V00523",
+          "U25"
+        ]
+      }
+    },
+    {
+      "word_id": "V00527",
+      "lemma": "confine to",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00527_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "限于……",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：限于……（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We confine the analysis to one region.",
+          "example_zh": "我们将分析限定于一个地区。",
+          "sentence_constituents_zh": "【紧凑主语】We confine the analysis... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "confine X to Y；被动 confined to。 | 熟词生义与多义辨析：学术语境与搭配约束：confine X to Y；被动 confined to。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：限于……（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：confine X to Y；被动 confined to。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“confine the analysis to one region”精确表述“限于……”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“confine the analysis to one region”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "confine to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "confine to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00527_01",
+          "phrase": "confine the analysis to one region",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：confine the analysis to one region（限于……）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00526",
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00527"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：confine X to Y；被动 confined to。",
+        "source_tags": [
+          "V00527",
+          "U45"
+        ]
+      }
+    },
+    {
+      "word_id": "V00530",
+      "lemma": "conflict resolution",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V00530_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "冲突解决",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：冲突解决（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The course introduces methods of conflict resolution.",
+          "example_zh": "课程介绍冲突解决方法。",
+          "sentence_constituents_zh": "【紧凑主语】The course introduces methods... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "固定名词组合。 | 熟词生义与多义辨析：学术语境与搭配约束：固定名词组合。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：冲突解决（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：固定名词组合。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a course on conflict resolution”精确表述“冲突解决”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a course on conflict resolution”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "conflict resolution",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "conflict resolution"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00530_01",
+          "phrase": "a course on conflict resolution",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：a course on conflict resolution（冲突解决）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02160",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00530"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：固定名词组合。",
+        "source_tags": [
+          "V00530",
+          "U44"
+        ]
+      }
+    },
+    {
+      "word_id": "V00537",
+      "lemma": "consent to",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00537_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "同意",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：同意（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Participants consented to audio recording.",
+          "example_zh": "参与者同意录音。",
+          "sentence_constituents_zh": "【紧凑主语】Participants consented to audio... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "to 为介词，后接名词或动名词。 | 熟词生义与多义辨析：学术语境与搭配约束：to 为介词，后接名词或动名词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：同意（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：to 为介词，后接名词或动名词。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consent to”精确表述“同意”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consent to”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "consent to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "consent to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00537_01",
+          "phrase": "consent to",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：consent to（同意）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00536",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00537"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：to 为介词，后接名词或动名词。",
+        "source_tags": [
+          "V00537",
+          "U14"
+        ]
+      }
+    },
+    {
+      "word_id": "V00539",
+      "lemma": "consequence of",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V00539_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "……的结果",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：……的结果（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The delay was a consequence of missing records.",
+          "example_zh": "延期是记录缺失的结果。",
+          "sentence_constituents_zh": "【紧凑主语】The delay was a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "of引出造成该结果的原因；因果表达须与材料证据一致。 | 熟词生义与多义辨析：学术语境与搭配约束：of引出造成该结果的原因；因果表达须与材料证据一致。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：……的结果（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：of引出造成该结果的原因；因果表达须与材料证据一致。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consequence of”精确表述“……的结果”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consequence of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "consequence of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "consequence of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00539_01",
+          "phrase": "consequence of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：consequence of（……的结果）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00538",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00539"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：of引出造成该结果的原因；因果表达须与材料证据一致。",
+        "source_tags": [
+          "V00539",
+          "U15"
+        ]
+      }
+    },
+    {
+      "word_id": "V00547",
+      "lemma": "consider evidence",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00547_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "考虑证据",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：考虑证据（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The review considers conflicting evidence from several studies.",
+          "example_zh": "综述考虑了几项研究中相互矛盾的证据。",
+          "sentence_constituents_zh": "【紧凑主语】The review considers conflicting... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "考虑不代表接受其结论。 | 熟词生义与多义辨析：学术语境与搭配约束：考虑不代表接受其结论。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：考虑证据（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：考虑不代表接受其结论。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consider conflicting evidence”精确表述“考虑证据”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consider conflicting evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "consider evidence",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "consider evidence"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00547_01",
+          "phrase": "consider conflicting evidence",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：consider conflicting evidence（考虑证据）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00544",
+        "V00938",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00547"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：考虑不代表接受其结论。",
+        "source_tags": [
+          "V00547",
+          "U42"
+        ]
+      }
+    },
+    {
+      "word_id": "V00548",
+      "lemma": "consider seriously",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00548_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "认真考虑",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：认真考虑（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The panel seriously considered the impact on rural residents.",
+          "example_zh": "小组认真考虑了对农村居民的影响。",
+          "sentence_constituents_zh": "【紧凑主语】The panel seriously considered... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "表示考虑做某事，用consider doing；表示认为A具有B性质，可用consider A to be B。consider后也可接名词宾语。 | 熟词生义与多义辨析：学术语境与搭配约束：表示考虑做某事，用consider doing；表示认为A具有B性质，可用consider A to be B。consider后也可接名词宾语。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：认真考虑（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：表示考虑做某事，用consider doing；表示认为A具有B性质，可用consider A to be B。consider后也可接名词宾语。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“seriously consider the impact”精确表述“认真考虑”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“seriously consider the impact”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "consider seriously",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "consider seriously"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00548_01",
+          "phrase": "seriously consider the impact",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：seriously consider the impact（认真考虑）"
+        },
+        {
+          "collocation_id": "C_V00548_02",
+          "phrase": "seriously consider an alternative",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：seriously consider an alternative（认真考虑）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00544",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00548"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：表示考虑做某事，用consider doing；表示认为A具有B性质，可用consider A to be B。consider后也可接名词宾语。",
+        "source_tags": [
+          "V00548",
+          "U12"
+        ]
+      }
+    },
+    {
+      "word_id": "V00552",
+      "lemma": "consist of",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00552_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "由……组成",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：由……组成（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The index consists of three parts.",
+          "example_zh": "该索引由三个部分组成。",
+          "sentence_constituents_zh": "【紧凑主语】The index consists of... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "主动形式，不用 is consisted of。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00552 v. phrase] 由……组成（例：The index consists of three parts.）；[V00553 v.phr.] 由……组成（例：The questionnaire consists of three sections.） | 本条用法约束：主动形式，不用 is consisted of。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：由……组成（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00552 v. phrase] 由……组成（例：The index consists of three parts.）；[V00553 v.phr.] 由……组成（例：The questionnaire consists of three sections.） | 本条用法约束：主动形式，不用 is consisted of。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consist of three parts”精确表述“由……组成”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consist of three parts”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "consist of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "consist of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00552_01",
+          "phrase": "consist of three parts",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：consist of three parts（由……组成）"
+        },
+        {
+          "collocation_id": "C_V00552_02",
+          "phrase": "consist of four parts",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：consist of four parts（由……组成）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00552",
+          "V00553"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00552 v. phrase] 由……组成（例：The index consists of three parts.）；[V00553 v.phr.] 由……组成（例：The questionnaire consists of three sections.） | 本条用法约束：主动形式，不用 is consisted of。",
+        "source_tags": [
+          "V00552",
+          "U38",
+          "U40"
+        ]
+      }
+    },
+    {
+      "word_id": "V00553",
+      "lemma": "consist of",
+      "pos": "verb_phrase",
+      "raw_pos": "v.phr.",
+      "senses": [
+        {
+          "sense_id": "V00553_S01",
+          "pos": "v.phr.",
+          "meaning_zh": "由……组成",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：由……组成（v.phr.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The questionnaire consists of three sections.",
+          "example_zh": "问卷由三个部分组成。",
+          "sentence_constituents_zh": "【紧凑主语】The questionnaire consists of... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不用于被动语态：不能写 is consisted of。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00552 v. phrase] 由……组成（例：The index consists of three parts.）；[V00553 v.phr.] 由……组成（例：The questionnaire consists of three sections.） | 本条用法约束：不用于被动语态：不能写 is consisted of。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：由……组成（v.phr.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00552 v. phrase] 由……组成（例：The index consists of three parts.）；[V00553 v.phr.] 由……组成（例：The questionnaire consists of three sections.） | 本条用法约束：不用于被动语态：不能写 is consisted of。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consist of three sections”精确表述“由……组成”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consist of three sections”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "consist of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "consist of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00553_01",
+          "phrase": "consist of three sections",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：consist of three sections（由……组成）"
+        },
+        {
+          "collocation_id": "C_V00553_02",
+          "phrase": "consist of participants",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：consist of participants（由……组成）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00552",
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00552",
+          "V00553"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00552 v. phrase] 由……组成（例：The index consists of three parts.）；[V00553 v.phr.] 由……组成（例：The questionnaire consists of three sections.） | 本条用法约束：不用于被动语态：不能写 is consisted of。",
+        "source_tags": [
+          "V00553",
+          "U06"
+        ]
+      }
+    },
+    {
+      "word_id": "V00577",
+      "lemma": "contain inconsistencies",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00577_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "含有不一致之处",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：含有不一致之处（v. phrase）",
+          "countability": "countable",
+          "transitivity": "transitive",
+          "example_en": "The draft contains internal inconsistencies in its definitions.",
+          "example_zh": "草稿中的定义存在内部不一致。",
+          "sentence_constituents_zh": "【紧凑主语】The draft contains internal... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "inconsistency 可数。 | 熟词生义与多义辨析：学术语境与搭配约束：inconsistency 可数。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：含有不一致之处（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：inconsistency 可数。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“contain internal inconsistencies”精确表述“含有不一致之处”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“contain internal inconsistencies”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "contain inconsistencies",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "contain inconsistencies"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00577_01",
+          "phrase": "contain internal inconsistencies",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：contain internal inconsistencies（含有不一致之处）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00575",
+        "G031",
+        "G002",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00577"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：inconsistency 可数。",
+        "source_tags": [
+          "V00577",
+          "U44"
+        ]
+      }
+    },
+    {
+      "word_id": "V00592",
+      "lemma": "contribute to",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V00592_S01",
+          "pos": "phrase",
+          "meaning_zh": "促成",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：促成；对……有贡献（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "Several changes may contribute to an improvement in attendance.",
+          "example_zh": "若干变化可能共同促进出勤改善。",
+          "sentence_constituents_zh": "【紧凑主语】Several changes may contribute... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "比单一原因断言更有限；后接名词或动名词。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：比单一原因断言更有限；后接名词或动名词。"
+        },
+        {
+          "sense_id": "V00592_S02",
+          "pos": "phrase",
+          "meaning_zh": "对……有贡献",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：促成；对……有贡献（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "Several changes may contribute to an improvement in attendance.",
+          "example_zh": "若干变化可能共同促进出勤改善。",
+          "sentence_constituents_zh": "【紧凑主语】Several changes may contribute... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "比单一原因断言更有限；后接名词或动名词。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：比单一原因断言更有限；后接名词或动名词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：促成；对……有贡献（phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：比单一原因断言更有限；后接名词或动名词。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“contribute to an improvement”精确表述“促成；对……有贡献”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“contribute to an improvement”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "contribute to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "contribute to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00592_01",
+          "phrase": "contribute to an improvement",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：contribute to an improvement（促成；对……有贡献）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00592",
+          "V00593",
+          "V00594"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：比单一原因断言更有限；后接名词或动名词。",
+        "source_tags": [
+          "V00592",
+          "U37"
+        ]
+      }
+    },
+    {
+      "word_id": "V00593",
+      "lemma": "contribute to",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00593_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "为……作出贡献",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：为……作出贡献；促成（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The review contributes to understanding of the research question.",
+          "example_zh": "综述有助于理解研究问题。",
+          "sentence_constituents_zh": "【紧凑主语】The review contributes to... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "to 为介词，接名词或动名词。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：to 为介词，接名词或动名词。"
+        },
+        {
+          "sense_id": "V00593_S02",
+          "pos": "v. phrase",
+          "meaning_zh": "促成",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：为……作出贡献；促成（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The review contributes to understanding of the research question.",
+          "example_zh": "综述有助于理解研究问题。",
+          "sentence_constituents_zh": "【紧凑主语】The review contributes to... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "to 为介词，接名词或动名词。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：to 为介词，接名词或动名词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：为……作出贡献；促成（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：to 为介词，接名词或动名词。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“contribute to understanding”精确表述“为……作出贡献；促成”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“contribute to understanding”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "contribute to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "contribute to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00593_01",
+          "phrase": "contribute to understanding",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：contribute to understanding（为……作出贡献；促成）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00592",
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00592",
+          "V00593",
+          "V00594"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：to 为介词，接名词或动名词。",
+        "source_tags": [
+          "V00593",
+          "U24"
+        ]
+      }
+    },
+    {
+      "word_id": "V00594",
+      "lemma": "contribute to",
+      "pos": "verb_phrase",
+      "raw_pos": "v. phrase",
+      "senses": [
+        {
+          "sense_id": "V00594_S01",
+          "pos": "v. phrase",
+          "meaning_zh": "促成",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：促成；是……的一个因素（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "Several factors may contribute to unequal access.",
+          "example_zh": "多种因素可能造成可及性不平等。",
+          "sentence_constituents_zh": "【紧凑主语】Several factors may contribute... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "后接名词或动名词；不表示唯一原因。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：后接名词或动名词；不表示唯一原因。"
+        },
+        {
+          "sense_id": "V00594_S02",
+          "pos": "v. phrase",
+          "meaning_zh": "是……的一个因素",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：促成；是……的一个因素（v. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "Several factors may contribute to unequal access.",
+          "example_zh": "多种因素可能造成可及性不平等。",
+          "sentence_constituents_zh": "【紧凑主语】Several factors may contribute... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "后接名词或动名词；不表示唯一原因。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：后接名词或动名词；不表示唯一原因。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：促成；是……的一个因素（v. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：后接名词或动名词；不表示唯一原因。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“contribute to an outcome”精确表述“促成；是……的一个因素”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“contribute to an outcome”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "contribute to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "contribute to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00594_01",
+          "phrase": "contribute to an outcome",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：contribute to an outcome（促成；是……的一个因素）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00593",
+        "G031",
+        "G011",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00592",
+          "V00593",
+          "V00594"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00592 phrase] 促成；对……有贡献（例：Several changes may contribute to an improvement in attendance.）；[V00593 v. phrase] 为……作出贡献；促成（例：The review contributes to understanding of the research question.）；[V00594 v. phrase] 促成；是……的一个因素（例：Several factors may contribute to unequal access.） | 本条用法约束：后接名词或动名词；不表示唯一原因。",
+        "source_tags": [
+          "V00594",
+          "U37"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "sampling",
+      "meaning_zh": "抽样；采样（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "rural",
+      "meaning_zh": "农村的；乡村的（adj.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G003",
+      "name": "主谓一致、数量短语一致与邻近名词干扰排除",
+      "category": "C2_subject_verb_agreement",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G001",
+        "G002"
+      ],
+      "explanation_zh": "复杂主语的主谓一致取决于核心名词（Head Noun）而非后置介词短语中的邻近名词。尤其需区分 a number of 与 the number of，以及 along with / accompanied by / as well as 连接的附加成分。",
+      "rules": [
+        "the number of + 复数名词作主语，谓语用单数；a (large/small) number of + 复数名词作主语，谓语用复数。",
+        "主语后接 along with, together with, accompanied by, as well as 时，谓语动词与前面的核心主语保持一致。",
+        "the bulk of / a proportion of / a percentage of + 名词作主语时，谓语单复数取决于 of 后的名词是不可数/单数还是复数可数名词。",
+        "means, series 单复数同形，谓语由限定词决定（a series of observations was vs two series were）。"
+      ],
+      "examples": [
+        "The number of completed interviews was recorded separately.",
+        "A small number of respondents left this item blank.",
+        "The bulk of the evidence comes from observational studies.",
+        "One of the surveys was conducted online."
+      ],
+      "common_errors": [
+        "被 of 短语中的复数名词误导：*The analysis of interview responses show（应为 shows）。",
+        "把 as well as 误当成 and 改变主语单复数。"
+      ]
+    },
+    {
+      "grammar_id": "G008",
+      "name": "语序、否定辖域、部分否定与句首否定倒装",
+      "category": "C2_word_order_and_negation",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G001"
+      ],
+      "explanation_zh": "精确控制否定与限定副词（only, solely, merely, by no means, under no circumstances, rarely, seldom）的辖域。当否定或唯一下界短语置于句首时，主句必须采用部分倒装。",
+      "rules": [
+        "区分全部否定（none of, in no way, under no circumstances, by no means）与部分否定（not all, not necessarily, not always）。",
+        "当 by no means, in no way, under no circumstances, in no circumstances, on no account, rarely, seldom, only when... 置于句首时，主句必须部分倒装（助动词/be/情态动词提至主语前）。",
+        "间接疑问从句（assess to what extent the results depend on...）一律保持陈述语序，不倒装。"
+      ],
+      "examples": [
+        "By no means is the result certain. (对比句中：A large sample is by no means sufficient to eliminate systematic bias.)",
+        "Under no circumstances should test labels be used for model tuning.",
+        "Only when the protocol was approved did recruitment begin."
+      ],
+      "common_errors": [
+        "句首否定强调漏掉倒装：*Under no circumstances test labels should be used。",
+        "间接疑问句误用倒装：*examine how does the system behave（应为 how the system behaves）。"
+      ]
+    },
+    {
+      "grammar_id": "G014",
+      "name": "情态动词、确定性梯度与科学谨慎表达（Epistemic Hedging）",
+      "category": "C6_E_modals_and_hedging",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [],
+      "explanation_zh": "科学写作要求结论的语气强度与实验/数据证据的完备度严格对齐。通过情态动词（may, might, can, could）、认知副词（arguably, apparently, plausibly, relatively, typically）及谨慎动词（suggest, indicate, point to, appear to）控制断言边界。",
+      "rules": [
+        "当存在未测混杂（unmeasured confounding）、小样本或仿真环境限制时，必须使用 may be attributable to / suggests that / supports a tentative conclusion。",
+        "禁止在经验研究中滥用 irrefutable, undeniable, inevitable, universal, conclusively prove；只有经核实的数学反例推翻全称命题时才可用 disprove / irrefutable。"
+      ],
+      "examples": [
+        "The observed discrepancy may be attributable to differences in measurement procedures.",
+        "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+        "The verified counterexample provides irrefutable evidence that the universal mathematical claim is false."
+      ],
+      "common_errors": [
+        "在改写或总结时删去原句的 may / arguably / in this sample 等限定词，造成过度绝对化。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP009",
+      "name": "谨慎归因与多因素解释（May Account For / Be Attributable To）",
+      "function_category": "hedging_and_attribution",
+      "stage": 2,
+      "first_day": "day_0029",
+      "first_day_num": 29,
+      "template": "The observed discrepancy may be attributable to / stem from [Factor A] rather than [Factor B].",
+      "explanation_zh": "在分析实验误差或异常现象时，客观提出可能成因而不武断定论。",
+      "register": "formal_academic",
+      "examples": [
+        "The observed discrepancy may be attributable to differences in measurement procedures.",
+        "Measurement error may account for part of the discrepancy."
+      ],
+      "common_errors": [
+        "*attributable for / 把可能成因直接写成唯一确定原因。"
+      ],
+      "prerequisites": [
+        "G014"
+      ]
+    },
+    {
+      "pattern_id": "EP012",
+      "name": "显式声明模型假设、研究范围与成立前提",
+      "function_category": "stating_assumptions_and_constraints",
+      "stage": 2,
+      "first_day": "day_0046",
+      "first_day_num": 46,
+      "template": "We confine the analysis to [domain/regime]; the bound holds provided that [regularity/stationarity assumption] is satisfied.",
+      "explanation_zh": "用于理论推导或实证边界说明，体现科学严谨性。",
+      "register": "formal_academic",
+      "examples": [
+        "We confine the analysis to observations collected before the policy change.",
+        "A sufficient condition guarantees the stated result when that condition holds."
+      ],
+      "common_errors": [
+        "隐瞒模型成立的强假设。"
+      ],
+      "prerequisites": [
+        "G018",
+        "G021"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00012",
+        "lemma": "a contradiction in terms",
+        "pos": "noun_phrase",
+        "meaning_zh": "用词本身自相矛盾",
+        "polysemy_trap_zh": "学术语境与搭配约束：这里按圆和正方形的普通几何定义判断；不同于两个观测结果不一致。",
+        "key_collocations": [
+          "a contradiction in terms"
+        ],
+        "example_en": "In ordinary Euclidean geometry, a circular square is a contradiction in terms.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00013",
+        "lemma": "a drain on one's finances",
+        "pos": "phrase",
+        "meaning_zh": "对财务的持续消耗",
+        "polysemy_trap_zh": "学术语境与搭配约束：drain on 固定介词搭配。",
+        "key_collocations": [
+          "a drain on household finances"
+        ],
+        "example_en": "Repeated travel is a drain on the student's finances.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00014",
+        "lemma": "a great deal of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "大量的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00014 quant.phr.] 大量的（例：The transcription required a great deal of effort.）；[V00015 量词短语] 大量（修饰不可数名词）（例：A careful literature review requires a great deal of time.） | 本条用法约束：后接不可数名词；不写 a great deal of participants。",
+        "key_collocations": [
+          "a great deal of time",
+          "a great deal of effort"
+        ],
+        "example_en": "The transcription required a great deal of effort.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00015",
+        "lemma": "a great deal of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "大量（修饰不可数名词）",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00014 quant.phr.] 大量的（例：The transcription required a great deal of effort.）；[V00015 量词短语] 大量（修饰不可数名词）（例：A careful literature review requires a great deal of time.） | 本条用法约束：后接不可数名词；可数复数用 many 或 a large number of。",
+        "key_collocations": [
+          "a great deal of time"
+        ],
+        "example_en": "A careful literature review requires a great deal of time.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00016",
+        "lemma": "a handful of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "少量的",
+        "polysemy_trap_zh": "词义与句法边界：模糊数量；方法和结果需精确计数时应给实际数字。",
+        "key_collocations": [
+          "a handful of cases",
+          "a handful of respondents"
+        ],
+        "example_en": "A handful of respondents requested a paper questionnaire.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00017",
+        "lemma": "a large number of",
+        "pos": "noun_phrase",
+        "meaning_zh": "大量的",
+        "polysemy_trap_zh": "学术语境与搭配约束：接可数名词复数；a large amount of通常接不可数名词。",
+        "key_collocations": [
+          "a large number of records"
+        ],
+        "example_en": "A large number of records still require checking.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00018",
+        "lemma": "a wide range of",
+        "pos": "quantifier_phrase",
+        "meaning_zh": "种类广泛的",
+        "polysemy_trap_zh": "学术语境与搭配约束：range 单数；介词 of 后说明范围。",
+        "key_collocations": [
+          "a wide range of sources"
+        ],
+        "example_en": "The review draws on a wide range of sources.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00023",
+        "lemma": "absolutely critical",
+        "pos": "adjective_phrase",
+        "meaning_zh": "极其重要的",
+        "polysemy_trap_zh": "学术语境与搭配约束：强语气须有实际理由，例如涉及隐私义务。",
+        "key_collocations": [
+          "it is absolutely critical that"
+        ],
+        "example_en": "It is absolutely critical that the consent records remain secure.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00038",
+        "lemma": "accompanied by",
+        "pos": "verb_phrase",
+        "meaning_zh": "伴随有",
+        "polysemy_trap_zh": "学术语境与搭配约束：被动形式 by。",
+        "key_collocations": [
+          "a release accompanied by documentation"
+        ],
+        "example_en": "The data release is accompanied by documentation.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00039",
+        "lemma": "according to",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "根据某人或某来源的说法",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00039 prep. phr.] 根据某人或某来源的说法（例：According to the authors, the evaluation uses synthetic sentences.）；[V00040 prep. phr.] 根据；依照（例：According to the records, the event began before sunset.） | 本条用法约束：用于归属他人观点；自己的论点写 I argue 等，不写 according to me。",
+        "key_collocations": [
+          "according to the authors"
+        ],
+        "example_en": "According to the authors, the evaluation uses synthetic sentences.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00040",
+        "lemma": "according to",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "根据",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00039 prep. phr.] 根据某人或某来源的说法（例：According to the authors, the evaluation uses synthetic sentences.）；[V00040 prep. phr.] 根据；依照（例：According to the records, the event began before sunset.） | 本条用法约束：可归属来源，也可说明依据或随某条件变化。",
+        "key_collocations": [
+          "according to the records"
+        ],
+        "example_en": "According to the records, the event began before sunset.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00041",
+        "lemma": "account for",
+        "pos": "phrasal_verb",
+        "meaning_zh": "占",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for a proportion"
+        ],
+        "example_en": "Missing responses account for a small proportion of the records.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00042",
+        "lemma": "account for",
+        "pos": "phrase",
+        "meaning_zh": "解释",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for a difference",
+          "account for a proportion"
+        ],
+        "example_en": "Measurement error may account for part of the discrepancy.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00043",
+        "lemma": "account for",
+        "pos": "verb_phrase",
+        "meaning_zh": "占据",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for"
+        ],
+        "example_en": "Missing records account for the discrepancy between the totals.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00044",
+        "lemma": "account for",
+        "pos": "verb_phrase",
+        "meaning_zh": "解释",
+        "polysemy_trap_zh": "双核心学术义必须据宾语区分：接 discrepancy/variation 时表“解释原因”；接 proportion/percentage/variance 时表“占比（近义于 constitute / make up）”。 | 词表跨单元多义对比：[V00041 phr. v.] 占；解释（例：Missing responses account for a small proportion of the records.）；[V00042 phrase] 解释；占……比例（例：Measurement error may account for part of the discrepancy.）；[V00043 v. phrase] 占据；解释（例：Missing records account for the discrepancy between the totals.）",
+        "key_collocations": [
+          "account for variation"
+        ],
+        "example_en": "The review asks which mechanisms account for the variation.",
+        "first_day": "day_0062"
+      },
+      {
+        "word_id": "V00045",
+        "lemma": "account for the fact that",
+        "pos": "verb_phrase",
+        "meaning_zh": "解释某事实",
+        "polysemy_trap_zh": "学术语境与搭配约束：account for 后接名词短语或 the fact that 从句。",
+        "key_collocations": [
+          "account for the fact that rates differ"
+        ],
+        "example_en": "The model cannot account for the fact that rates differ across sites.",
+        "first_day": "day_0062"
+      }
+    ]
+  }
+}

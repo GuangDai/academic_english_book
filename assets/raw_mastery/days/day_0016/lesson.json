@@ -1,0 +1,333 @@
+{
+  "day": "day_0016",
+  "day_number": 16,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 16 天：具身智能专属：多模态感知-动作闭环与 Sim-to-Real 阐述段（Embodied AI Policy） × 消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution） × TOEFL_Integrated 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP16",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "具身智能专属：多模态感知-动作闭环与 Sim-to-Real 阐述段（Embodied AI Policy）",
+      "user_intent_zh": "我这一段想阐述具身智能机器人策略（Embodied Policy）如何融合视觉、本体感觉（Proprioception）或触觉，并克服仿真到真实硬件的动力学差距（Sim-to-Real Gap）。",
+      "when_to_use_zh": "具身智能 / 机器人操作（Robotic Manipulation）论文 Methodology 章节",
+      "paragraph_move_structure": [
+        "S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact.",
+        "S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories.",
+        "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling.",
+        "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning."
+      ],
+      "cohesion_and_logic_formula": "Visual Occlusion Bottleneck -> Asynchronous Multimodal Alignment -> Action Chunking -> Online Sim-to-Real System Identification. 绑定逻辑规则：L025, L003.",
+      "defective_draft": "When the robot hand blocks the camera, the robot cannot see the object clearly. So we add force sensors and joint angles. Also, we predict multiple steps of actions and use an adapter to transfer from simulation to the real robot.",
+      "defect_diagnosis_zh": "全是大白话（blocks the camera, cannot see clearly, add force sensors），没有体现异步采样率对齐、SE(3) 动作块与在线隐空间动力学辨识。",
+      "model_paragraph_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object. To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings. Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling. At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单模态开环局限 Open-Loop Visual Limitation]",
+          "sentence_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多模态时空对齐 Multi-Modal Alignment]",
+          "sentence_en": "To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]",
+          "sentence_en": "Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]",
+          "sentence_en": "At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "精准涵盖 self-occlusion, contact-rich manipulation, 30 Hz visual vs. 500 Hz proprioception, SE(3) action chunks, exponential temporal ensembling, online system identification。"
+    },
+    {
+      "blueprint_id": "BP28",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "双图关联与互补/因果印证段（Synthesizing Dual Charts）",
+      "user_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "when_to_use_zh": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+      "paragraph_move_structure": [
+        "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+        "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+        "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+        "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+      ],
+      "cohesion_and_logic_formula": "Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.",
+      "defective_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+      "defect_diagnosis_zh": "极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。",
+      "model_paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "将两张图的数据有机编织在一起，精准点出 $40M 拐点后的边际收益递减（diminishing returns）与 Plant D 高效特例。"
+    },
+    {
+      "blueprint_id": "BP41",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook）",
+      "user_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+      "when_to_use_zh": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+      "paragraph_move_structure": [
+        "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+        "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+        "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+        "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+      ],
+      "cohesion_and_logic_formula": "Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.",
+      "defective_draft": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+      "defect_diagnosis_zh": "最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。",
+      "model_paragraph_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+          "sentence_en": "Good morning everyone.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+          "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+          "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+          "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用一个风暴突袭风电场的具象画面 + 一个直击灵魂的设问（why do their predictions lag right when the storm hits?）瞬间抓住全场注意力。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L016",
+      "category": "Experimental Writing (实验章节逻辑)",
+      "name_zh": "消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution）",
+      "name_en": "Counterfactual Ablation Attribution",
+      "core_principle_zh": "消融实验段落（Ablation Study）的核心逻辑是“反事实归因”：不仅要报告拿掉模块 A 后指标下降了多少，更要指出拿掉 A 后模型具体在什么子任务/子场景上出现了什么退化，从而锁定模块 A 的不可替代性。",
+      "structural_formula": "Removing [Module A] (w/o A) causes [Metric] to drop by [X%], with the sharpest degradation occurring under [Specific Hard Condition]. This drop indicates that without [Module A], the model fails to [Specific Function].",
+      "common_pitfall_zh": "只写 Without module A, accuracy drops by 3%, which proves module A is very important and effective（同义反复，未解释为什么降）。",
+      "bad_example_en": "When we remove the kinematics constraint loss, the success rate drops by 14%. This shows that the kinematics constraint loss is very important for our robot.",
+      "good_example_en": "Removing the kinematic feasibility loss (w/o $\\mathcal{L}_{\\text{kin}}$) reduces real-world drawer-opening success from 86% to 72%. Inspection of failed trajectories reveals that without $\\mathcal{L}_{\\text{kin}}$, the diffusion policy frequently generates wrist orientations that exceed joint torque limits during the pull phase.",
+      "analysis_zh": "不仅给出 86%->72% 的量化回落，还通过轨迹检查揭示了“缺少运动学约束导致手腕姿态超出关节扭矩极限”的具体物理死因。"
+    },
+    {
+      "logic_id": "L024",
+      "category": "Domain Discourse (时间序列专属论证)",
+      "name_zh": "时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic）",
+      "name_en": "Non-Stationary Drift and Multi-Scale Decomposition Logic",
+      "core_principle_zh": "论述时间序列问题时，必须清晰区分两类矛盾：① 统计分布漂移（Distribution Shift：均值/方差随时间突变）与局部时序语义（Intrinsic Temporal Dependency）之间的矛盾；② 短期高频波动（High-frequency Fluctuations）与长期宏观趋势（Long-term Trend）的混叠干扰。",
+      "structural_formula": "Naive normalization removes [Non-stationary shift] at the expense of [Intrinsic scale information]. -> Our reversible/decoupled module disentangles [Component A] from [Component B], restoring [Target Property].",
+      "common_pitfall_zh": "笼统说 time series data is very complex and hard to predict，说不清究竟是协变量偏移、频率混叠还是采样不规则。",
+      "bad_example_en": "Real-world time series are very complicated and change all the time, so normal normalization makes predictions bad.",
+      "good_example_en": "While instance normalization mitigates non-stationary mean and variance shifts across lookback windows, stripping these statistics discards amplitude cues essential for forecasting peak electricity loads. Our adaptive de-stationary projection restores horizon-specific scale statistics during decoding, preserving both stationarity in attention computation and physical amplitude fidelity in the final output.",
+      "analysis_zh": "精准切中时间序列领域最核心的“去平稳化归一化抹除物理幅值信息 vs. 注意力层需要平稳分布”的张力。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC16",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP16",
+      "linked_logic_id": "L016",
+      "communicative_goal_zh": "我这一段想阐述具身智能机器人策略（Embodied Policy）如何融合视觉、本体感觉（Proprioception）或触觉，并克服仿真到真实硬件的动力学差距（Sim-to-Real Gap）。",
+      "original_defective_paragraph": "When the robot hand blocks the camera, the robot cannot see the object clearly. So we add force sensors and joint angles. Also, we predict multiple steps of actions and use an adapter to transfer from simulation to the real robot.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L016 消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "全是大白话（blocks the camera, cannot see clearly, add force sensors），没有体现异步采样率对齐、SE(3) 动作块与在线隐空间动力学辨识。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object. To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings. Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling. At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单模态开环局限 Open-Loop Visual Limitation]",
+          "sentence_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多模态时空对齐 Multi-Modal Alignment]",
+          "sentence_en": "To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]",
+          "sentence_en": "Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]",
+          "sentence_en": "At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC36",
+      "domain_en": "Academic Tech Talk & Conference Oral Delivery",
+      "domain_zh": "顶会口头汇报（Tech Talk）与图表引导",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP36",
+      "linked_logic_id": "L006",
+      "communicative_goal_zh": "我这一段想在议论文中回应反方观点（Some people argue that...）：先大度承认反方担忧在短期或局部确实存在，再用结构性证据或制度设计证明该问题完全可控，从而锁死我方立场。",
+      "original_defective_paragraph": "Some people think robots will take all our jobs and make everyone poor. This is wrong. Robots will create new jobs, and people can learn new skills to find better jobs easily.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L006 图尔敏五步微论证模型（Toulmin Micro-Argumentation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+          "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+          "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+          "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+          "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC54",
+      "domain_en": "CET-6 & IELTS Task 2 Technology & Society Essay",
+      "domain_zh": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP06",
+      "linked_logic_id": "L024",
+      "communicative_goal_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+      "original_defective_paragraph": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L024 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "全段零数字（many datasets, a large margin, very fast），没有任何实质信息。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors. Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions. Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [评测广度 Scope of Evaluation]",
+          "sentence_en": "We evaluate DyTS-Net across eight long-horizon forecasting benchmarks and a real-world wind-turbine telemetry system spanning 1,400 sensors.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心精度突破 Primary Accuracy Gain]",
+          "sentence_en": "Across all prediction horizons up to 720 steps, DyTS-Net reduces MSE by 12.8% over PatchTST and 17.4% over iTransformer, with the largest gains emerging during sudden weather-front transitions.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]",
+          "sentence_en": "Furthermore, our architecture requires 45% fewer FLOPs than full channel-mixing Transformers and transfers zero-shot to newly deployed turbine units without fine-tuning.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT16",
+    "genre": "TOEFL_Integrated",
+    "title_zh": "托福综合写作（Integrated Writing）满分范文：自主无人机配送能否取代城市货车（阅读三论点 vs. 听力逐点反驳）",
+    "structural_blueprint_chain": [
+      "BP31",
+      "BP27",
+      "BP28",
+      "BP32"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "text_id": "FT18",
+  "genre": "Failure_Mode_Report",
+  "title_zh": "科研实验反常现象与极端工况诊断报告全文：为何高容量注意力模型在强随机游走序列上退化及改进方案",
+  "paragraph_count": 5,
+  "structural_blueprint_chain": [
+    "BP32",
+    "BP19",
+    "BP20",
+    "BP21",
+    "BP23"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "异常数据点（Outliers）与局部背离现象精准批注段（Outlier & Anomaly Annotation）",
+      "blueprint_id": "BP32",
+      "paragraph_intent_zh": "我这一段想在图表或实验结果段中，专门挑出违背总体规律的 1–2 个异常点（Outliers）或局部反常尖峰进行精准描述与成因剖析。",
+      "cohesion_formula": "General Rule vs. Notable Departure -> Quantitative Deviation -> Root Cause Attribution -> Calibration Takeaway. 绑定逻辑规则：L007, L013.",
+      "paragraph_en": "Although deep spectral transformers outperform linear baselines across six of the seven benchmarks, a notable departure emerges on the financial Exchange-Rate dataset. Whereas complex attention models reduce MSE by 12%–18% on periodic energy and weather streams, they trail a single-layer DLinear baseline by 4.3% on Exchange-Rate. Autocorrelation analysis reveals that this reversal stems from the near-martingale nature of daily currency returns, where weak seasonal periodicity causes high-capacity attention layers to overfit transient market shocks. This anomaly confirms that model capacity must be matched to the intrinsic signal-to-noise ratio of the underlying stochastic process.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总体规律背景下的特例锚定 Outlier Identification]",
+          "sentence_en": "Although deep spectral transformers outperform linear baselines across six of the seven benchmarks, a notable departure emerges on the financial Exchange-Rate dataset.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总体规律背景下的特例锚定 Outlier Identification]：Although [General Trend holds across most groups/steps], a notable departure from this pattern occurs in [Specific Point/Group]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反常幅度量化 Quantitative Deviation]",
+          "sentence_en": "Whereas complex attention models reduce MSE by 12%–18% on periodic energy and weather streams, they trail a single-layer DLinear baseline by 4.3% on Exchange-Rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反常幅度量化 Quantitative Deviation]：Whereas peer categories cluster tightly within $[A, B]$, [Outlier Entity] spikes/drops to [Extreme Value], deviating by more than [X%] from the group median. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [底层物理/统计成因剖析 Root Cause Analysis]",
+          "sentence_en": "Autocorrelation analysis reveals that this reversal stems from the near-martingale nature of daily currency returns, where weak seasonal periodicity causes high-capacity attention layers to overfit transient market shocks.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [底层物理/统计成因剖析 Root Cause Analysis]：Closer inspection indicates that this anomaly stems from [Specific Structural/External Factor] rather than random variance. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [方法论启示 Methodological Implication]",
+          "sentence_en": "This anomaly confirms that model capacity must be matched to the intrinsic signal-to-noise ratio of the underlying stochastic process.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [方法论启示 Methodological Implication]：Accounting for such localized departures is critical when calibrating [Downstream Model/Policy]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "消融实验逐组件归因论证段（Counterfactual Ablation Study）",
+      "blueprint_id": "BP19",
+      "paragraph_intent_zh": "我这一段想汇报消融实验（Table 2）：证明我们的模块 A、模块 B 和正则项 C 每一个都不可或缺，且各自负责解决不同的特定子问题。",
+      "cohesion_formula": "Ablation Overview -> w/o Module A (Specific Failure) -> w/o Module B (Specific Failure) -> Cross-Module Synergy. 绑定逻辑规则：L016, L007.",
+      "paragraph_en": "To isolate the contribution of each design choice, Table 2 compares full DyTS-Net against three ablated variants across ETTm2 and ECL. Removing the neural-ODE scale tracker (w/o Scale-ODE) triggers the sharpest degradation during seasonal transition months on ETTm2, raising 720-step MSE by 19.4% as the decoder fails to track shifting baseline temperatures. Conversely, replacing phase-aligned graph attention with standard dot-product attention (w/o Phase-Attn) degrades performance most severely on the 321-channel ECL grid (+13.8% MSE), where unaligned high-frequency load spikes corrupt cross-substation aggregation. Jointly deploying both modules yields complementary gains, as accurate scale tracking prevents amplitude distortion from biasing phase estimation.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [消融实验总括 Ablation Setup]",
+          "sentence_en": "To isolate the contribution of each design choice, Table 2 compares full DyTS-Net against three ablated variants across ETTm2 and ECL.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [消融实验总括 Ablation Setup]：To isolate the contribution of each architectural component, we evaluate four ablated variants in Table 2 by progressively removing [Mod A], [Mod B], and [Loss C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [移除模块 A 的冲击与归因 Impact of Removing Mod A]",
+          "sentence_en": "Removing the neural-ODE scale tracker (w/o Scale-ODE) triggers the sharpest degradation during seasonal transition months on ETTm2, raising 720-step MSE by 19.4% as the decoder fails to track shifting baseline temperatures.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [移除模块 A 的冲击与归因 Impact of Removing Mod A]：Removing [Mod A] (w/o A) causes the largest degradation on [Non-stationary/Volatile Subset], increasing MSE by [X%] because the model loses [Specific Capability A]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [移除模块 B 的冲击与归因 Impact of Removing Mod B]",
+          "sentence_en": "Conversely, replacing phase-aligned graph attention with standard dot-product attention (w/o Phase-Attn) degrades performance most severely on the 321-channel ECL grid (+13.8% MSE), where unaligned high-frequency load spikes corrupt cross-substation aggregation.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [移除模块 B 的冲击与归因 Impact of Removing Mod B]：Similarly, replacing [Mod B] with standard [Naive Operator] degrades performance by [Y%] on high-dimensional benchmarks, confirming its role in [Specific Capability B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [协同效应总结 Synergistic Conclusion]",
+          "sentence_en": "Jointly deploying both modules yields complementary gains, as accurate scale tracking prevents amplitude distortion from biasing phase estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [协同效应总结 Synergistic Conclusion]：Combining all components yields super-additive gains, as [Mod A] stabilizes input statistics for [Mod B]'s relational reasoning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "超参数敏感性与极端噪声鲁棒性分析段（Sensitivity & Robustness Analysis）",
+      "blueprint_id": "BP20",
+      "paragraph_intent_zh": "我这一段想回应审稿人最常问的：你的模型是不是对超参数很敏感？在缺失值或传感器强噪声下会不会突然崩盘？",
+      "cohesion_formula": "Goal -> Wide Hyperparameter Plateau -> Stress-Test Comparison -> Mechanistic Explanation. 绑定逻辑规则：L010, L019.",
+      "paragraph_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption. Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$. Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%. This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分析目的 Objective]",
+          "sentence_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分析目的 Objective]：We further examine sensitivity to key hyperparameters and resilience against severe sensor corruption in Figure 4. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [超参数平坦区间 Plateau Stability]",
+          "sentence_en": "Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [超参数平坦区间 Plateau Stability]：Varying [Hyperparameter $\\lambda$] across two orders of magnitude ($[0.01, 1.0]$) alters validation MSE by less than [1.8%], demonstrating a wide stable operating plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [极端边缘工况压力测试 Stress Test under Corruption]",
+          "sentence_en": "Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [极端边缘工况压力测试 Stress Test under Corruption]：Under synthetic sensor dropouts up to [40%] and Gaussian noise ($\\sigma=0.3$), baseline accuracy plummets by over [35%], whereas our model degrades by less than [6.5%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [鲁棒性物理归因 Robustness Mechanism]",
+          "sentence_en": "This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [鲁棒性物理归因 Robustness Mechanism]：This resilience stems from [Specific Mechanism], which filters out corrupted channels before global aggregation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis）",
+      "blueprint_id": "BP21",
+      "paragraph_intent_zh": "我这一段想通过可视化案例（Case Study / Qualitative Analysis），既展示模型在复杂跳变下的精准跟踪，又坦诚剖析一个模型预测失准的极端案例。",
+      "cohesion_formula": "Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.",
+      "paragraph_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+          "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+          "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+          "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+          "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations）",
+      "blueprint_id": "BP23",
+      "paragraph_intent_zh": "我这一段想写论文末尾或 NeurIPS/ICLR Checklist 要求的 Limitations 段落：诚实指出当前方法的两个客观边界，但绝不贬损论文的核心贡献。",
+      "cohesion_formula": "Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.",
+      "paragraph_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [边界 1",
+          "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+          "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [边界 2",
+          "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来演进方向 Future Extension]",
+          "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

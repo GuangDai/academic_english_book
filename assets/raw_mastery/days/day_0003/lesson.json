@@ -1,0 +1,346 @@
+{
+  "day": "day_0003",
+  "day_number": 3,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 3 天：尖锐指出核心技术瓶颈与失效机理（Gap Identification） × 延续链式推进模式（Linear Chain Progression） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP03",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "尖锐指出核心技术瓶颈与失效机理（Gap Identification）",
+      "user_intent_zh": "我这一段想深入剖析现有方法在特定难题（如非平稳突变、长程自回归误差累积、Sim-to-Real 接触失配）上为什么会失效，把机理讲透。",
+      "when_to_use_zh": "Introduction 第二/三段核心痛点段（Problem Diagnosis）",
+      "paragraph_move_structure": [
+        "S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。",
+        "S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。",
+        "S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。",
+        "S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。"
+      ],
+      "cohesion_and_logic_formula": "因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.",
+      "defective_draft": "The problem of error accumulation in long-term forecasting and the losing of scale information when using RevIN normalization is very serious and hard to solve by simple ways.",
+      "defect_diagnosis_zh": "① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。",
+      "model_paragraph_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+          "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+          "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+          "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+          "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "通过 While [Fix A]..., it erases...; Conversely, [Fix B] exposes... 构建极具张力的“两难困境（Dilemma）”，为亮出你的新方法做最完美的铺垫。"
+    },
+    {
+      "blueprint_id": "BP15",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "生成模型专属：条件控制与采样去噪轨迹阐述段（Generative Modeling Mechanism）",
+      "user_intent_zh": "我这一段想阐述生成模型（Diffusion / Flow Matching / Autoregressive）如何在满足外部物理约束或条件观测的前提下，生成高质量且多样化的序列/轨迹。",
+      "when_to_use_zh": "生成模型 / 时序生成 / 轨迹生成论文 Methodology 章节",
+      "paragraph_move_structure": [
+        "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts.",
+        "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel.",
+        "S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories.",
+        "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration."
+      ],
+      "cohesion_and_logic_formula": "Guidance Artifact Problem -> Intrinsic Velocity Conditioning -> Tangent Projection Step -> Fast Exact Convergence. 绑定逻辑规则：L026, L014.",
+      "defective_draft": "Normal diffusion guidance makes the generated time series look unnatural when we add constraints. So we put the constraint inside the flow matching model, and it generates realistic samples in only 4 steps.",
+      "defect_diagnosis_zh": "缺乏生成模型核心术语（data manifold, velocity field, tangent projection, Euler integration），解释过于口语化。",
+      "model_paragraph_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations. To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field. At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator. This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]",
+          "sentence_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]",
+          "sentence_en": "To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [具体轨迹更新方程 Trajectory Update Formulation]",
+          "sentence_en": "At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]",
+          "sentence_en": "This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "地道运用 off the data manifold, conditional flow-matching velocity field, null space projection, straight transport paths 等生成模型顶会核心表达。"
+    },
+    {
+      "blueprint_id": "BP28",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "双图关联与互补/因果印证段（Synthesizing Dual Charts）",
+      "user_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "when_to_use_zh": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+      "paragraph_move_structure": [
+        "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+        "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+        "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+        "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+      ],
+      "cohesion_and_logic_formula": "Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.",
+      "defective_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+      "defect_diagnosis_zh": "极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。",
+      "model_paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "将两张图的数据有机编织在一起，精准点出 $40M 拐点后的边际收益递减（diminishing returns）与 Plant D 高效特例。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L003",
+      "category": "Information Flow (信息流推进)",
+      "name_zh": "延续链式推进模式（Linear Chain Progression）",
+      "name_en": "Linear Rheme-to-Theme Chain",
+      "core_principle_zh": "阐述因果机制、算法推导或仿真到真实迁移（Sim-to-Real）链条时，严格采用 A -> B，B -> C，C -> D 的咬合结构，上一句的宾语转化为下一句的主语。",
+      "structural_formula": "S1: A induces B. -> S2: This B distorts C. -> S3: Once C degrades, D collapses.",
+      "common_pitfall_zh": "中间跳过关键传导环节（如直接从 A 跳到 D），或者链条顺序颠倒。",
+      "bad_example_en": "Unmodeled friction in simulated joints causes real-world grasping failure. Domain randomization often fails because state transitions diverge.",
+      "good_example_en": "Unmodeled joint friction in simulators creates a systematic discrepancy between synthetic and physical state transitions. This transition mismatch misleads visuomotor policies during contact-rich phases, ultimately causing real-world grasping failures.",
+      "analysis_zh": "通过 synthetic and physical state transitions -> This transition mismatch -> contact-rich phases -> grasping failures 形成严密的四环机械传导链。"
+    },
+    {
+      "logic_id": "L011",
+      "category": "Sentence & Paragraph Rhythm (节奏与尾重)",
+      "name_zh": "段落内主语瘦身与尾重平衡（Subject Compression & End-Weight）",
+      "name_en": "Subject Compression and End-Weight Balance",
+      "core_principle_zh": "在多句段落中，严禁出现超过 10–12 个单词的臃肿主语从句或连环 of 短语作主语（头重脚轻）。把已知的短核心名词放在主语位置（≤6 词），将复杂的条件、机制和结果顺延到谓语动词之后的宾语或状语从句中。",
+      "structural_formula": "Bad: [The phenomenon that A with B under C fails to D] is common. -> Good: [Short Subject A] frequently fails to [Verb D] when [Condition B and C occur].",
+      "common_pitfall_zh": "受中文“……的现象/问题/事实表明……”影响，写出 The fact that... is... 或 The problem of the degradation of... is... 的畸形句。",
+      "bad_example_en": "The phenomenon that autoregressive language models hallucinate unverified citations when prompted with out-of-distribution academic queries is a serious obstacle.",
+      "good_example_en": "Autoregressive language models frequently hallucinate unverified citations when prompted with out-of-distribution academic queries, posing a serious obstacle to automated literature review.",
+      "analysis_zh": "主语从 17 个词压缩为 3 个词（Autoregressive language models），强动词 hallucinate 提前，句尾用分词结果状语自然收束。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC03",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP03",
+      "linked_logic_id": "L003",
+      "communicative_goal_zh": "我这一段想深入剖析现有方法在特定难题（如非平稳突变、长程自回归误差累积、Sim-to-Real 接触失配）上为什么会失效，把机理讲透。",
+      "original_defective_paragraph": "The problem of error accumulation in long-term forecasting and the losing of scale information when using RevIN normalization is very serious and hard to solve by simple ways.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L003 延续链式推进模式（Linear Chain Progression））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+          "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+          "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+          "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+          "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC23",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP23",
+      "linked_logic_id": "L023",
+      "communicative_goal_zh": "我这一段想写论文末尾或 NeurIPS/ICLR Checklist 要求的 Limitations 段落：诚实指出当前方法的两个客观边界，但绝不贬损论文的核心贡献。",
+      "original_defective_paragraph": "Our paper has some limitations. We did not test on very big datasets because we do not have enough GPUs. In the future, we will try more datasets and make the model better.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L023 破除二元对立谬误：展现多维权衡（Transcending False Dichotomies））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [边界 1",
+          "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+          "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [边界 2",
+          "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来演进方向 Future Extension]",
+          "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC41",
+      "domain_en": "Conference Author Rebuttal & Reviewer Defense",
+      "domain_zh": "顶会审稿回复（Rebuttal）与消融防御",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP41",
+      "linked_logic_id": "L011",
+      "communicative_goal_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+      "original_defective_paragraph": "Hello everyone, my name is XXX. Today the title of my presentation is 'Adaptive De-stationary Spectral-Spatial Transformer for Multivariate Time Series Forecasting'. First I will talk about background, second methodology, third experiments, and finally conclusion.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L011 段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "最催眠的开场方式：念一遍长标题 + 报一遍八股目录（First background, second methodology...），台下听众前 30 秒就开始看手机。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+          "sentence_en": "Good morning everyone.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+          "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+          "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+          "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT03",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "时频双域解耦的长序列异常检测与预测完整小论文（WavePatch: Multi-Scale Wavelet-Temporal Mixing）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP02",
+      "BP03",
+      "BP05",
+      "BP06",
+      "BP12",
+      "BP14",
+      "BP18",
+      "BP19",
+      "BP21",
+      "BP24"
+    ]
+  }
+}

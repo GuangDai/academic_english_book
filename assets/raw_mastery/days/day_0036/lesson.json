@@ -1,0 +1,348 @@
+{
+  "day": "day_0036",
+  "day_number": 36,
+  "stage": 3,
+  "stage_name_zh": "Stage 3: AI/时间序列/生成/具身智能小论文全章节贯通（Abstract/Intro/Method/Exp/Rebuttal）",
+  "daily_focus_title_zh": "第 36 天：让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation） × 图尔敏五步微论证模型（Toulmin Micro-Argumentation） × Research_Proposal 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP36",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation）",
+      "user_intent_zh": "我这一段想在议论文中回应反方观点（Some people argue that...）：先大度承认反方担忧在短期或局部确实存在，再用结构性证据或制度设计证明该问题完全可控，从而锁死我方立场。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 让步反驳段（Body Paragraph 2 or 3）",
+      "paragraph_move_structure": [
+        "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers].",
+        "S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified.",
+        "S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment.",
+        "S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles."
+      ],
+      "cohesion_and_logic_formula": "Admittedly (Valid Concern) -> Short-term Reality -> However (Zero-Sum Fallacy Pivot) -> Historical Analogy & Policy Mitigation. 绑定逻辑规则：L008, L023.",
+      "defective_draft": "Some people think robots will take all our jobs and make everyone poor. This is wrong. Robots will create new jobs, and people can learn new skills to find better jobs easily.",
+      "defect_diagnosis_zh": "生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。",
+      "model_paragraph_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+          "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+          "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+          "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+          "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "先用 Admittedly... does create localized employment friction 展现客观严谨，再用 However, treating X as a fixed-pie zero-sum game overlooks... + 电子表格软件的历史类比彻底瓦解反方悲观论。"
+    },
+    {
+      "blueprint_id": "BP48",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "科研个人陈述（SoP / Research Narrative）：从时间序列/生成建模迈向具身智能的闭环叙事段",
+      "user_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+      "when_to_use_zh": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+      "paragraph_move_structure": [
+        "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+        "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+        "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+        "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+      ],
+      "cohesion_and_logic_formula": "Past Core Thread -> Concrete Method & Metric -> Intellectual Bridge (Passive Forecasting -> Active Closed-Loop Control) -> Future Embodied AI Agenda. 绑定逻辑规则：L003, L025, L029.",
+      "defective_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+      "defect_diagnosis_zh": "包含 SoP 两大禁忌：① 童年情怀套话（Since I was a child, I have been fascinated by...）；② 盲目追热点（because it is a very hot topic），没讲清你过去的时序/生成建模背景赋予了你做具身智能什么独特优势。",
+      "model_paragraph_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data. While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%. Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions. Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [过往研究主线凝练 Past Research Thread]",
+          "sentence_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [代表作攻克过程与硬核成果 Concrete Achievement]",
+          "sentence_en": "While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]",
+          "sentence_en": "Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来研究愿景 Future Research Agenda]",
+          "sentence_en": "Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "没有一句童年套话！将“过去的非平稳时间序列与快速流匹配生成模型”通过“从被动观测序列演进到主动闭环物理交互”的深刻科学洞察，自然推演出“构建自适应具身智能世界模型”的未来蓝图。"
+    },
+    {
+      "blueprint_id": "BP37",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "问题诊断与靶向解决方案段：拒绝“政府应该立法”万金油（Targeted Problem-Solution）",
+      "user_intent_zh": "我这一段想写 Problem-Solution 类作文的解决方案段：针对前文诊断出的两个具体根源，提出两项可操作、有明确执行主体和传导机制的靶向对策，拒绝只喊 'The government should make laws and raise awareness'。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / 政策与工程治理方案段",
+      "paragraph_move_structure": [
+        "S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance].",
+        "S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1].",
+        "S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct].",
+        "S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation."
+      ],
+      "cohesion_and_logic_formula": "Dual-Level Intervention -> Actor 1 + Concrete Mechanism -> Actor 2 + Concrete Standard -> Balanced Closure. 绑定逻辑规则：L002, L010.",
+      "defective_draft": "To solve this problem, first, the government should pass strict laws to punish bad people. Second, schools and media should educate the public and raise their awareness. Only in this way can we build a harmonious society.",
+      "defect_diagnosis_zh": "典型的中式六级万金油套话（pass strict laws, raise awareness, Only in this way can we...），放之四海而皆空，考官已产生严重审美疲劳。",
+      "model_paragraph_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria. First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review. Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies. Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [对策总起句 Targeted Solution Thesis]",
+          "sentence_en": "Curbing the proliferation of fabricated academic data requires coordinated reforms across both peer-review protocols and institutional promotion criteria.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [对策总起句 Targeted Solution Thesis]：Mitigating [Problem X] effectively requires coordinated intervention across both [Level A: Technical/Curriculum Design] and [Level B: Institutional Governance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对策 1",
+          "sentence_en": "First, journal editorial boards should mandate that empirical submissions include executable code containers and raw sensor logs, enabling automated reproducibility checks before external review.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对策 1：操作层可验证改革 Actionable Measure 1]：First, [Specific Actor 1, e.g., university departments] should replace [Vulnerable Practice] with [Verifiable Mechanism, e.g., oral defense and in-class iterative drafting], ensuring that [Specific Effect 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对策 2",
+          "sentence_en": "Concurrently, university tenure committees must shift evaluation weight from raw publication counts toward verified open-source contributions and replication studies.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对策 2：制度/标准层激励对齐 Actionable Measure 2]：Concurrently, [Specific Actor 2, e.g., regulatory agencies / industry consortia] must establish [Concrete Standard, e.g., mandatory provenance watermarking and audit logs] to penalize [Misconduct]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [协同闭环效果 Combined Outcome]",
+          "sentence_en": "Aligning technical verification with career incentives removes the underlying pressure to fabricate incremental results.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [协同闭环效果 Combined Outcome]：Together, aligning pedagogical verification with technical traceability curbs misuse without stifling legitimate innovation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "每一项对策都有明确的动作主体（期刊编委会 / 高校聘任委员会）、具体抓手（强制提交可执行代码容器与原始传感器日志 / 考核权重向开源与复现倾斜）及因果闭环。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L006",
+      "category": "Argumentation (论证结构)",
+      "name_zh": "图尔敏五步微论证模型（Toulmin Micro-Argumentation）",
+      "name_en": "Claim-Mechanism-Evidence-Warrant-Qualification",
+      "core_principle_zh": "任何一个独立成段的学术或议论主张，都必须具备完整的五要素：① 主张（Claim）、② 机理解释（Mechanism/Reason）、③ 实证数据或具象案例（Evidence）、④ 逻辑桥梁（Warrant：为什么该证据能证明该主张）、⑤ 边界限定（Qualification/Hedging）。",
+      "structural_formula": "[S1: Claim] -> [S2: Underlying Mechanism] -> [S3: Concrete Metric/Instance] -> [S4: Warrant/Implication] -> [S5: Boundary/Scope Qualification].",
+      "common_pitfall_zh": "只有 Claim + 换句话重复一遍 Claim + 空洞夸张形容词，中间既无传导机制也无具象证据。",
+      "bad_example_en": "Patch-level tokenization is much better than point-wise tokenization. It captures local information very well and improves time series forecasting significantly in all cases.",
+      "good_example_en": "Patch-level tokenization outperforms point-wise representations in long-horizon time series forecasting [Claim]. Whereas single time steps lack semantic context and amplify high-frequency noise, contiguous sub-series patches preserve local slope and periodicity [Mechanism]. On the ETTm2 benchmark, grouping 16 consecutive steps reduces 720-step MSE by 18.7% compared with point-wise attention [Evidence]. This gain confirms that local structural aggregation mitigates attention dispersion over long lookback windows [Warrant], although excessively large patches may blur abrupt transient anomalies [Qualification].",
+      "analysis_zh": "五句话各司其职：立论 -> 对比机理 -> ETTm2 实证数据 -> 理论印证 -> 诚实指出过大 Patch 的边界局限，无懈可击。"
+    },
+    {
+      "logic_id": "L014",
+      "category": "Methodology Writing (方法章节逻辑)",
+      "name_zh": "公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math）",
+      "name_en": "Intuition-First Equation Integration",
+      "core_principle_zh": "在 Methodology 段落中引入数学公式时，严禁突兀甩出 'The equation is defined as follows:'。必须遵循三步曲：① 物理/算法直觉（为什么要算这个量） -> ② 数学定义（把公式作为句子的语法宾语或同位语自然嵌入） -> ③ 关键符号的物理含义与边界。",
+      "structural_formula": "To [Intuitive Goal], we formulate [Concept] as: [Equation], where [Symbol A] denotes [Meaning] and [Symbol B] constrains [Boundary].",
+      "common_pitfall_zh": "公式前后全是碎片句（Here is the formula: ... In the formula, x is input, y is output.），破坏段落连贯。",
+      "bad_example_en": "We use a gating weight. The formula is w = sigmoid(Wx + b). In this formula, x is the feature and w is the weight.",
+      "good_example_en": "To suppress high-frequency sensor jitter before temporal aggregation, we compute a channel-wise attenuation gate $g_t = \\sigma(W_g h_t + b_g)$, where $h_t \\in \\mathbb{R}^d$ denotes the instantaneous hidden state and $g_t \\in (0, 1)^d$ dynamically scales down noisy channels.",
+      "analysis_zh": "一句话之内完成“目的状语（抑制高频抖动）+ 核心主谓宾（计算通道衰减门）+ 公式同位语 + where 定语从句解释符号维度与物理作用”，紧凑专业。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC36",
+      "domain_en": "Academic Tech Talk & Conference Oral Delivery",
+      "domain_zh": "顶会口头汇报（Tech Talk）与图表引导",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP36",
+      "linked_logic_id": "L006",
+      "communicative_goal_zh": "我这一段想在议论文中回应反方观点（Some people argue that...）：先大度承认反方担忧在短期或局部确实存在，再用结构性证据或制度设计证明该问题完全可控，从而锁死我方立场。",
+      "original_defective_paragraph": "Some people think robots will take all our jobs and make everyone poor. This is wrong. Robots will create new jobs, and people can learn new skills to find better jobs easily.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L006 图尔敏五步微论证模型（Toulmin Micro-Argumentation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+          "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+          "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+          "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+          "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC56",
+      "domain_en": "TOEFL Independent & Integrated Academic Writing",
+      "domain_zh": "托福独立与综合写作：理论基础与工程实践权衡",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP08",
+      "linked_logic_id": "L026",
+      "communicative_goal_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+      "original_defective_paragraph": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L026 生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "包含 in the era of big data, delve into, novel, state-of-the-art 等典型低质套话，且没有任何具体机制因果与量化数字。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series. While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively. We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps. Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer. Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [背景与任务重要性 Context]",
+          "sentence_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [现有局限与痛点 Gap/Bottleneck]",
+          "sentence_en": "While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3-S4 [本文方法与核心机制 Approach & Mechanism]",
+          "sentence_en": "We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]... | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC14",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP14",
+      "linked_logic_id": "L014",
+      "communicative_goal_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+      "original_defective_paragraph": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L014 公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "描述过于粗浅（gets global features, gets local features, add them together），像本科生课程作业报告。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum. To reconcile both scales, our dual-domain block processes input patches along two complementary pathways. The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies. An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单域局限性 Single-Domain Limitation]",
+          "sentence_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [频域分支设计 Frequency Branch]",
+          "sentence_en": "To reconcile both scales, our dual-domain block processes input patches along two complementary pathways.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [时域分支设计 Temporal Branch]",
+          "sentence_en": "The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [自适应门控融合 Adaptive Fusion]",
+          "sentence_en": "An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT12",
+    "genre": "Research_Proposal",
+    "title_zh": "具身智能与非平稳时序建模交叉课题立项申请书（Research Proposal 全文：研究背景、核心科学问题、技术路线与预期成果）",
+    "structural_blueprint_chain": [
+      "BP01",
+      "BP02",
+      "BP03",
+      "BP04",
+      "BP05",
+      "BP06",
+      "BP07"
+    ]
+  }
+}

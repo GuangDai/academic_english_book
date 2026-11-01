@@ -1,0 +1,919 @@
+[
+  {
+    "grammar_id": "G001",
+    "name": "五大基本句型（SV, SVO, SVC, SVOO, SVOC）与动词配价边界",
+    "category": "C1_basic_clause_patterns",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [],
+    "explanation_zh": "英语句子的核心骨架由谓语动词的及物性与配价决定：不及物动词构成 SV（Evidence accumulates / A problem arose），系动词构成 SVC（The label is meaningless），单及物动词构成 SVO（The team abandoned the approach），双及物动词构成 SVOO，复合宾语动词构成 SVOC（The pronoun makes the final sentence ambiguous）。严禁把不及物动词当及物动词用，或把及物动词误加介词。",
+    "rules": [
+      "不及物动词（arise, emerge, occur, differ, fluctuate, accumulate, oscillate）后不直接接名词宾语，需用状语或介词短语扩展。",
+      "单及物动词（address, discuss, access, affect, investigate, assess, warrant）直接接宾语，禁止按中文习惯误加介词（禁止写 *discuss about, *address to, *access to 作动词）。",
+      "SVOC 结构中宾语补足语用形容词或分词说明宾语状态（keep the room temperature constant, make the task easier）。"
+    ],
+    "examples": [
+      "SV: A problem arose when the data formats changed.",
+      "SVO: This paper addresses unequal access to educational resources.",
+      "SVC: Without a clear definition, the label is meaningless.",
+      "SVOC: The pronoun makes the final sentence ambiguous."
+    ],
+    "common_errors": [
+      "误将不及物动词用于被动或直接加宾语：*A problem was arisen / *differ two groups。",
+      "在及物动词后添加冗余介词：*discuss about the findings / *address to the limitation。",
+      "SVOC 中误用副词作宾补：*keep the room temperature constantly（应为 constant）。"
+    ]
+  },
+  {
+    "grammar_id": "G002",
+    "name": "可数名词、不可数名词及多义词在不同义项下的可数性切换",
+    "category": "C4_A2_nouns_countability_across_senses",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001"
+    ],
+    "explanation_zh": "不仅要区分绝对不可数名词（evidence, information, research, literature, equipment, apparatus, documentation, feedback, knowledge）与可数名词（study, finding, discrepancy, anomaly, covariate），更要掌握“同一单词在不同词义下的可数性切换”（Rule A.2）。",
+    "rules": [
+      "不可数学术名词不加 a/an 或复数 -s（严禁写 *an evidence, *researches, *equipments, *feedbacks）；表单项用 a piece/item of evidence, a research study, a piece of equipment。",
+      "一词多义下的可数性切换：discipline 表“纪律”不可数，表“学科”可数（two academic disciplines）；work 表“研究工作”不可数，workings 表“计算步骤”；experience 表“经验”不可数，表“经历”可数（experiences in childhood）；paper 表“纸”不可数，表“论文”可数。",
+      "量词精确匹配：修饰不可数用 a great deal of, a large amount of, much, less and less；修饰可数复数用 a large number of, a handful of, many, fewer and fewer。"
+    ],
+    "examples": [
+      "The transcription required a great deal of effort.",
+      "A large number of records still require checking.",
+      "The project draws on two academic disciplines.",
+      "All apparatus was checked before the experiment."
+    ],
+    "common_errors": [
+      "量词与可数性错配：*a great deal of participants / *an amount of respondents / *fewer time。",
+      "不可数名词误加复数：*many evidences / *new equipments / *useful feedbacks。"
+    ]
+  },
+  {
+    "grammar_id": "G003",
+    "name": "主谓一致、数量短语一致与邻近名词干扰排除",
+    "category": "C2_subject_verb_agreement",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001",
+      "G002"
+    ],
+    "explanation_zh": "复杂主语的主谓一致取决于核心名词（Head Noun）而非后置介词短语中的邻近名词。尤其需区分 a number of 与 the number of，以及 along with / accompanied by / as well as 连接的附加成分。",
+    "rules": [
+      "the number of + 复数名词作主语，谓语用单数；a (large/small) number of + 复数名词作主语，谓语用复数。",
+      "主语后接 along with, together with, accompanied by, as well as 时，谓语动词与前面的核心主语保持一致。",
+      "the bulk of / a proportion of / a percentage of + 名词作主语时，谓语单复数取决于 of 后的名词是不可数/单数还是复数可数名词。",
+      "means, series 单复数同形，谓语由限定词决定（a series of observations was vs two series were）。"
+    ],
+    "examples": [
+      "The number of completed interviews was recorded separately.",
+      "A small number of respondents left this item blank.",
+      "The bulk of the evidence comes from observational studies.",
+      "One of the surveys was conducted online."
+    ],
+    "common_errors": [
+      "被 of 短语中的复数名词误导：*The analysis of interview responses show（应为 shows）。",
+      "把 as well as 误当成 and 改变主语单复数。"
+    ]
+  },
+  {
+    "grammar_id": "G004",
+    "name": "冠词系统（a/an, the, 零冠词）与学术特指/泛指边界",
+    "category": "C4_articles_and_specificity",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G002"
+    ],
+    "explanation_zh": "冠词决定名词短语的指称范围：单数可数泛指用 a/an；指代本研究特定样本/模型（the sample, the model）或带 of 后置限定的属性（the accuracy of the measurements, the nature of the task）用 the；复数可数或不可数表普遍概念用零冠词。",
+    "rules": [
+      "单数可数名词在句中不可裸奔（bare singular），必须带冠词或限定词（a limitation, the protocol, each trajectory）。",
+      "注意冠词改变词义：nature（零冠词）指“大自然”，而 the nature of the problem 指“问题的基本性质”；in charge of（主动负责） vs in the charge of（由他人看管负责）。",
+      "图表编号直接作专名指称时不加 the（see Table 1, Figure 2 shows），但普通名词需加冠词（in the table below）。"
+    ],
+    "examples": [
+      "Equity is an abstract concept that requires an operational definition.",
+      "The nature of the task determines which measures are appropriate.",
+      "As can be seen in Table 1, the groups differ in size."
+    ],
+    "common_errors": [
+      "单数可数名词漏掉冠词：*We conducted survey / *Trained model achieved lower error。",
+      "图表编号前误加冠词：*See the Table 2（应为 See Table 2）。"
+    ]
+  },
+  {
+    "grammar_id": "G005",
+    "name": "词形变化、词缀构词与词性语法槽位匹配（名、动、形、副）",
+    "category": "A4_word_forms_and_morphology",
+    "stage": 1,
+    "first_day": "day_0004",
+    "first_day_num": 4,
+    "prerequisites": [
+      "G001",
+      "G002"
+    ],
+    "explanation_zh": "掌握学术词族与常见词缀（-able, -cy, -ify, -ise/-ize, -ism/-ist, -less, anti-, co-, il-/im-/in-/ir-, multi-, over-, pre-, post-）的转换，确保名词充当主宾表、动词充当谓语、形容词修饰名词或作表语、副词修饰动词/形容词/全句。",
+    "rules": [
+      "严禁词性混填：accurate (adj.) / accuracy (n.) / accurately (adv.)；analyse (v.) / analysis (n., 复数 analyses) / analytical (adj.)；vary (v.) / variable (n./adj.) / variation (n.)。",
+      "警惕词缀语义陷阱：predictable 表示“可预测的”而非“已被预测的”；successive 表示“连续相继的”而非“成功的（successful）”；priceless/meaningless 语义受语境限定；bi-monthly 有歧义，学术写作应改写为 every two months 或 twice a month。",
+      "英美拼写（analyse/analyze, behaviour/behavior, parametrisation/parameterization）在同一篇文稿中必须统一。"
+    ],
+    "examples": [
+      "Accurate records are essential for checking the analysis.",
+      "Attendance increased in three successive years.",
+      "The appendix clarifies the coding procedure."
+    ],
+    "common_errors": [
+      "形容词与名词混用：*assess the accurate of measurements（应为 accuracy）。",
+      "混淆同根异义派生词：把 successive（连续的）误作 successful（成功的），把stationary（平稳的）误拼为 stationery（文具）。"
+    ]
+  },
+  {
+    "grammar_id": "G006",
+    "name": "核心介词规约搭配与名/动/形+介词固定结构",
+    "category": "B_collocations_and_prepositions",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001",
+      "G004"
+    ],
+    "explanation_zh": "学术词汇的介词搭配高度固定，且同一词族的名词、动词和形容词常要求不同介词（如 access a database [v.] vs access to services [n.] vs accessible to users [adj.]；emphasise the need [v.] vs place emphasis on [n.]）。",
+    "rules": [
+      "动词+介词固定搭配：account for, attribute A to B, base A on B, confine A to B, consist of, contribute to, correlate with, decompose A into B, depend on, differ from, disentangle A from B, draw on, focus on, incorporate A into B, rely on, stem from。",
+      "名词/形容词+介词精确方向：change in (某指标变化) vs change of (更换)；increase/decrease in (指标) vs of (数值)；attributable to, akin to, amenable to, analogous to, compatible with, consistent with, invariant under, proportional to, superior to, synonymous with。",
+      "当 to 为介词时（an approach to, contribute to, be devoted to, prior to, with regard to, amenable to, receptive to, subject to），后接动词必须用动名词（-ing）！"
+    ],
+    "examples": [
+      "The team developed an approach to handling missing observations.",
+      "The simplified model is amenable to analytical treatment.",
+      "The distance between two points is invariant under a common translation."
+    ],
+    "common_errors": [
+      "把介词 to 误当成不定式符号：*an approach to handle / *contribute to improve / *be devoted to solve。",
+      "介词错配：*superior than（应为 superior to）、*synonymous to（应为 synonymous with）、*attributable for（应为 attributable to）。"
+    ]
+  },
+  {
+    "grammar_id": "G007",
+    "name": "时态、体与学术论文各章节的方法论时间分工",
+    "category": "C3_tense_aspect_time",
+    "stage": 1,
+    "first_day": "day_0008",
+    "first_day_num": 8,
+    "prerequisites": [
+      "G001",
+      "G003"
+    ],
+    "explanation_zh": "学术论文的时态传递方法论状态：一般过去时描述本研究特定实验步骤与过去采样结果；一般现在时描述数学定义、图表展示内容、模型架构属性及本文篇章导引；现在完成时总结某领域迄今的研究演进或前文已完成论证。",
+    "rules": [
+      "描述本研究特定数据集采集、预处理步骤与单次实验观测用一般过去时（The team abandoned the approach; Two analysts analysed the data independently）。",
+      "描述数学性质、算法机制、图表内容及普遍事实用一般现在时（The affine function f(x) = ax + b includes an intercept b; Table 1 shows...）。",
+      "描述近十年研究趋势或前文已展现的内容用现在完成时（The field has developed in recent years; As we have seen, the two estimates use different denominators）。"
+    ],
+    "examples": [
+      "The team accessed the database before the policy changed.",
+      "A weakly stationary process has a constant finite mean and autocovariance that depends only on the lag.",
+      "As has been shown in Table 2, attendance varied by site."
+    ],
+    "common_errors": [
+      "把尚未开展的 Future Work 写成已完成的一般过去时。",
+      "在明确过去时间状语（during the pilot）下误用现在完成时。"
+    ]
+  },
+  {
+    "grammar_id": "G008",
+    "name": "语序、否定辖域、部分否定与句首否定倒装",
+    "category": "C2_word_order_and_negation",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001"
+    ],
+    "explanation_zh": "精确控制否定与限定副词（only, solely, merely, by no means, under no circumstances, rarely, seldom）的辖域。当否定或唯一下界短语置于句首时，主句必须采用部分倒装。",
+    "rules": [
+      "区分全部否定（none of, in no way, under no circumstances, by no means）与部分否定（not all, not necessarily, not always）。",
+      "当 by no means, in no way, under no circumstances, in no circumstances, on no account, rarely, seldom, only when... 置于句首时，主句必须部分倒装（助动词/be/情态动词提至主语前）。",
+      "间接疑问从句（assess to what extent the results depend on...）一律保持陈述语序，不倒装。"
+    ],
+    "examples": [
+      "By no means is the result certain. (对比句中：A large sample is by no means sufficient to eliminate systematic bias.)",
+      "Under no circumstances should test labels be used for model tuning.",
+      "Only when the protocol was approved did recruitment begin."
+    ],
+    "common_errors": [
+      "句首否定强调漏掉倒装：*Under no circumstances test labels should be used。",
+      "间接疑问句误用倒装：*examine how does the system behave（应为 how the system behaves）。"
+    ]
+  },
+  {
+    "grammar_id": "G009",
+    "name": "代词指代一致性、比较替代词（that/those of）与消除指代悬空",
+    "category": "C5_pronouns_and_reference",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G002",
+      "G003"
+    ],
+    "explanation_zh": "代词必须具有唯一、明确的先行词。学术写作中严禁出现可同时指向多个名词的歧义代词（ambiguous pronoun）或缺乏总结名词的裸奔 this。",
+    "rules": [
+      "当句中有两个同数名词时，不用裸 it/they/this，应改用 the former / the latter 或 This + 总结性范畴名词（this discrepancy, this constraint, these observations）。",
+      "比较结构中必须用 that of 替代前文单数/不可数名词，用 those of 替代前文复数可数名词，确保比较对象同范畴（The cost is low relative to that of the earlier procedure）。"
+    ],
+    "examples": [
+      "The pronoun makes the final sentence ambiguous.",
+      "The cost is low relative to that of the earlier procedure.",
+      "These findings differ from those reported in the earlier study.",
+      "We compare interviews and surveys; the former allow follow-up questions."
+    ],
+    "common_errors": [
+      "比较结构漏掉 that/those of，导致拿“误差”直接跟“基线模型”相比：*The error of our model is lower than the baseline（应为 lower than that of the baseline）。"
+    ]
+  },
+  {
+    "grammar_id": "G010",
+    "name": "不定式与动名词的补足语分工及非谓语动词搭配",
+    "category": "C7_nonfinite_infinitives_gerunds",
+    "stage": 1,
+    "first_day": "day_0016",
+    "first_day_num": 16,
+    "prerequisites": [
+      "G001",
+      "G006"
+    ],
+    "explanation_zh": "动词后接不定式（to do）还是动名词（doing）取决于动词配价规约；同时注意 warrant, facilitate, advocate, involve, consider, anticipate 等核心学术动词的补足语限制。",
+    "rules": [
+      "接动名词（doing）或名词、不接不定式的典型动词：consider, involve, advocate, anticipate, recommend, suggest, warrant（warrant further investigation / warrant revising），facilitate（facilitate comparison，严禁写 *facilitate sb to do）。",
+      "接不定式（to do）的典型动词：aim, attempt, tend, seek, intend, resolve, enable sb to do, allow sb to do, force sb to do, oblige sb to do。"
+    ],
+    "examples": [
+      "The report advocates providing clearer information to applicants.",
+      "The procedure involves checking every record twice.",
+      "A common reporting format can facilitate comparison across studies."
+    ],
+    "common_errors": [
+      "误用不定式：*warrant to conclude / *facilitate researchers to compare / *advocate to provide / *involve to check。"
+    ]
+  },
+  {
+    "grammar_id": "G011",
+    "name": "主动语态与被动语态的基本结构、时态/情态变形与及物性限制",
+    "category": "D_active_and_passive_voice",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001"
+    ],
+    "explanation_zh": "被动语态由 be + 过去分词构成，可结合各种时态与情态动词。转换时必须保持原句时态、体、情态、否定和逻辑关系，且严禁将不及物动词或状态短语强行变为被动。",
+    "rules": [
+      "只有及物动词或带受事宾语的短语动词（analyse, allocate, carry out, account for, base on, expose to, confine to）才能转换为被动语态，且短语介词不可遗漏。",
+      "不及物动词及状态短语绝不可用于被动语态：consist of, occur, arise, emerge, happen, belong to, differ, appear, exist, take place, stem from, result from, coincide with（严禁写 *is consisted of, *was occurred, *was belonged to）。"
+    ],
+    "examples": [
+      "Active only: The questionnaire consists of three sections. (绝不可写 *is consisted of)",
+      "Passive with modal: An anomalous observation should be investigated before it is removed.",
+      "Passive progressive: A handout is being distributed before the seminar."
+    ],
+    "common_errors": [
+      "将不及物动词被动化：*The index is consisted of three parts / *A problem was arisen / *The pattern was emerged。"
+    ]
+  },
+  {
+    "grammar_id": "G012",
+    "name": "数值、比例、分位数、矩阵量纲与增减幅度的精确语法",
+    "category": "A1_C4_numerical_and_quantitative_grammar",
+    "stage": 1,
+    "first_day": "day_0022",
+    "first_day_num": 22,
+    "prerequisites": [
+      "G002",
+      "G006"
+    ],
+    "explanation_zh": "定量描述必须严格区分“差值（by）”、“终值（to）”、“比例（proportion/percentage）”、“比值（ratio）”、“百分点（percentage points）”以及“均值（mean）、中位数（median）、众数（mode）、中程数（midrange）”。",
+    "rules": [
+      "动词 + by + 差值（decreased by 5 units） vs 动词 + to + 终值（decreased to 15）；名词 + of + 变化量（growth of 10%） vs 名词 + in + 变化对象（growth in demand）。",
+      "从 20% 升至 25% 是 an increase of 5 percentage points（绝对百分点变化），而相对增幅为 25%（relative percentage change）。",
+      "double 表示增至两倍，halve 表示减半（不可写 *halve by half）；midrange 是 (min+max)/2，median 是排序后居中的分位数（0.5 quantile），二者绝不可混同。"
+    ],
+    "examples": [
+      "The count increased by ten, from twenty to thirty.",
+      "A rise from 20% to 25% is five percentage points.",
+      "For the values 7, 8, 8, 8, 11 and 12, the midrange is 9.5, whereas the median is 8."
+    ],
+    "common_errors": [
+      "介词 by 与 to 混用导致差值与终值颠倒。",
+      "把 percentage point（百分点）与 per cent（百分比）混同。"
+    ]
+  },
+  {
+    "grammar_id": "G013",
+    "name": "近义词与多义词深度辨析：语义范围、褒贬色彩、技术定义与语域",
+    "category": "A1_A5_A6_A7_A8_lexical_and_polysemy_precision",
+    "stage": 2,
+    "first_day": "day_0026",
+    "first_day_num": 26,
+    "prerequisites": [
+      "G005",
+      "G006"
+    ],
+    "explanation_zh": "区分近义词与一词多义在语义范围、判断强度、褒贬色彩及学科专有定义上的差别。禁止把仅有部分重合的词当作完全同义词替换，禁止为堆砌大词而改变事实或判断强度。",
+    "rules": [
+      "测量与统计核心辨析：accuracy（准确度，接近真值） vs precision（精密度，重复测量一致）；reliable（稳定一致） vs valid（有效测量目标构念或推理成立）；efficacy（受控试验效力） vs effectiveness（真实场景效果）；equal（均等） vs equitable（按需求公平分配）；seasonality（固定日历周期） vs cyclicality（非固定周期的波动）；isotonic（保序的/等渗的） vs isotropic（各向同性的）。",
+      "褒贬与语域辨析：simple（简明清晰的） vs simplistic（过度简化的，贬义）；exploit structure（中性：利用结构） vs exploit workers（贬义：剥削）；manipulate a variable（中性：实验操纵自变量） vs falsify data（贬义：伪造数据）。"
+    ],
+    "examples": [
+      "An equitable allocation of resources may differ from an equal allocation.",
+      "Business cyclicality may involve expansions and contractions of varying duration, whereas seasonality follows a fixed calendar period.",
+      "An isotropic covariance function depends on distance rather than direction, whereas isotonic regression enforces a monotonicity constraint."
+    ],
+    "common_errors": [
+      "把 suggest/indicate 机械替换为 prove/demonstrate 导致过度推断。",
+      "混淆形近学术词：adapt/adopt, adverse/averse, discrete/discreet, temporal/temporary, stationary/stationery, isotonic/isotropic。"
+    ]
+  },
+  {
+    "grammar_id": "G014",
+    "name": "情态动词、确定性梯度与科学谨慎表达（Epistemic Hedging）",
+    "category": "C6_E_modals_and_hedging",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [],
+    "explanation_zh": "科学写作要求结论的语气强度与实验/数据证据的完备度严格对齐。通过情态动词（may, might, can, could）、认知副词（arguably, apparently, plausibly, relatively, typically）及谨慎动词（suggest, indicate, point to, appear to）控制断言边界。",
+    "rules": [
+      "当存在未测混杂（unmeasured confounding）、小样本或仿真环境限制时，必须使用 may be attributable to / suggests that / supports a tentative conclusion。",
+      "禁止在经验研究中滥用 irrefutable, undeniable, inevitable, universal, conclusively prove；只有经核实的数学反例推翻全称命题时才可用 disprove / irrefutable。"
+    ],
+    "examples": [
+      "The observed discrepancy may be attributable to differences in measurement procedures.",
+      "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+      "The verified counterexample provides irrefutable evidence that the universal mathematical claim is false."
+    ],
+    "common_errors": [
+      "在改写或总结时删去原句的 may / arguably / in this sample 等限定词，造成过度绝对化。"
+    ]
+  },
+  {
+    "grammar_id": "G015",
+    "name": "分词短语（现在分词与过去分词）作后置定语与状语及悬垂修饰防范",
+    "category": "C7_C11_participles_and_dangling_modifiers",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G011"
+    ],
+    "explanation_zh": "分词短语能将冗长的从句浓缩为紧凑的后置定语或状语；但句首分词短语的逻辑主语必须与主句主语完全一致，绝不可产生悬垂修饰（Dangling Modifier）。",
+    "rules": [
+      "后置分词定语：records exceeding the limit (= that exceed...)；predictions compared with ground-truth labels (= that are compared...)。",
+      "句首分词状语主语一致铁律：Using a 48-step look-back window, the model reduces MSE（the model 可以 use window；但不能写 *Using a 48-step window, the MSE decreases，因为 MSE 不会自己 use window！）。"
+    ],
+    "examples": [
+      "Records exceeding the stated size limit were excluded.",
+      "Compared with earlier studies, this study used a larger sample.",
+      "Halving the sampling interval doubles the sampling frequency."
+    ],
+    "common_errors": [
+      "悬垂分词：*Training on synthetic data, the generalization error remained high（应改为 When the model was trained on synthetic data, ... 或 Training on synthetic data left the model with high generalization error）。"
+    ]
+  },
+  {
+    "grammar_id": "G016",
+    "name": "限制性/非限制性定语从句与“介词 + which/whom”精确修饰",
+    "category": "C8_relative_clauses",
+    "stage": 2,
+    "first_day": "day_0033",
+    "first_day_num": 33,
+    "prerequisites": [
+      "G006",
+      "G009"
+    ],
+    "explanation_zh": "定语从句是构建精确后置定语、避免中式前置长定语的核心工具。必须严格区分限制性（无逗号，界定子集）与非限制性（有逗号，补充评注，不可用 that），并掌握介词前置结构。",
+    "rules": [
+      "限制性定语从句缩窄先行词范围：The analogy breaks down where the two systems differ in the feature on which the comparison depends。",
+      "介词 + which 结构由从句动词或先行词搭配决定：the age at which, the point at which, the rate at which, the extent to which, a protocol by means of which, the assumptions on which the model rests。"
+    ],
+    "examples": [
+      "We devised a protocol by means of which records could be checked.",
+      "The study examines the degree to which access varies by region.",
+      "Before accepting an inference, we check the information on which it depends."
+    ],
+    "common_errors": [
+      "非限制性定语从句逗号后误用 that。",
+      "介词 + which 遗漏固定介词：*the extent which the findings generalise（漏掉 to）。"
+    ]
+  },
+  {
+    "grammar_id": "G017",
+    "name": "名词性从句与同位语从句（the claim/assumption/fact that...）",
+    "category": "C8_noun_clauses",
+    "stage": 2,
+    "first_day": "day_0038",
+    "first_day_num": 38,
+    "prerequisites": [
+      "G008",
+      "G016"
+    ],
+    "explanation_zh": "同位语从句（the claim/assumption/hypothesis/notion/contention/fact that + 完整句）用于精确展开抽象学术名词的内涵；介词后若需接完整陈述句，必须借助 the fact that 或 in that。",
+    "rules": [
+      "同位语从句连接词 that 不作成分但不可省略，也不可换为 which（The contention that all data are interchangeable needs justification）。",
+      "介词（account for, despite, due to, stem from）不能直接接 that 从句，必须用 account for the fact that / despite the fact that / stem from the fact that。"
+    ],
+    "examples": [
+      "The model cannot account for the fact that rates differ across sites.",
+      "The scheme was adopted despite the fact that it was costly.",
+      "The discrepancy stems from the fact that the samples differ."
+    ],
+    "common_errors": [
+      "介词直接接 that 从句：*despite that it was costly / *due to that several records were missing。"
+    ]
+  },
+  {
+    "grammar_id": "G018",
+    "name": "状语从句、让步/条件结构与介词短语的紧凑转换",
+    "category": "C8_C9_adverbial_clauses",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G006"
+    ],
+    "explanation_zh": "掌握从属连词（although, whereas, while, provided that, because, in that）、介词短语（despite, in spite of, due to, prior to, in light of, in the absence of）与连接副词（nevertheless, nonetheless, consequently, conversely）之间的句法转换。",
+    "rules": [
+      "让步压缩：Although the approach has limitations -> Albeit with limitations / Despite its limitations（严禁写 *despite of）。",
+      "条件限定：provided that / as long as + 完整分句 <-> subject to / under + 名词短语。",
+      "对照结构：whereas / while 连接两个对称分句（The first model uses monthly data, whereas the second uses daily data）。"
+    ],
+    "examples": [
+      "The approach is informative, albeit with limitations.",
+      "The result applies provided that the assumptions hold.",
+      "The estimate remains uncertain despite the larger sample."
+    ],
+    "common_errors": [
+      "混淆介词与连词：*despite the sample is large。",
+      "while 表对比时与时间含义发生歧义（在时序/并发场景中表对比优先用 whereas）。"
+    ]
+  },
+  {
+    "grammar_id": "G019",
+    "name": "比较结构、拉丁比较级（superior/prior to）与比较维度限定（in terms of）",
+    "category": "C9_comparison_structures",
+    "stage": 2,
+    "first_day": "day_0044",
+    "first_day_num": 44,
+    "prerequisites": [
+      "G009",
+      "G012"
+    ],
+    "explanation_zh": "科学比较必须做到：(1) 比较主体语法同构，(2) 明确比较指标与条件（in terms of / with respect to / under comparable conditions），(3) 正确使用拉丁比较级与类比结构。",
+    "rules": [
+      "superior to, inferior to, prior to, analogous to, akin to 一律用介词 to，严禁用 than。",
+      "声明某方法更优（superior / optimal / outperform）时，必须限定评估指标与数据集范围，禁止无条件宣称“处处最优”。"
+    ],
+    "examples": [
+      "The method was superior to the baseline on this metric, but other outcomes were not assessed.",
+      "The procedure is akin to stratified sampling, although the allocation rule differs.",
+      "The two protocols differ with respect to measurement error."
+    ],
+    "common_errors": [
+      "误用 *superior than / *prior than。",
+      "省略比较基准（baseline）或评价维度。"
+    ]
+  },
+  {
+    "grammar_id": "G020",
+    "name": "语态的语篇决策：基于研究对象、旧信息前置与施事责任的主动/被动选择",
+    "category": "D_voice_selection_strategy",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G011",
+      "G015",
+      "G032"
+    ],
+    "explanation_zh": "破除“被动语态一定比主动语态更学术”的迷思。语态选择服务于：(1) 维持句间话题链连贯（把上句提到的受事对象作为本句被动主语，满足 Given-before-New），(2) 明确谁对设计决策或核验承担责任。",
+    "rules": [
+      "当描述标准化数据清洗、传感器部署或客观流程，且受事对象是段落主题时，选用被动语态（The records are arranged in chronological order before the time-series analysis）。",
+      "当阐述本文核心创新设计、范围限定决策或强调多名标注者独立操作时，选用主动语态（We confine the analysis to...; Two analysts analysed the data independently; The algorithm exploits the sparsity of the matrix）。"
+    ],
+    "examples": [
+      "Passive for topic continuity: The predictions are compared with ground-truth labels that were checked by two annotators.",
+      "Active for clear methodological agency: We reformulate the constrained problem as an equivalent optimization problem."
+    ],
+    "common_errors": [
+      "通篇机械使用被动语态导致语句冗长、施事责任模糊（如分不清是前人文献做的还是本文做的）。"
+    ]
+  },
+  {
+    "grammar_id": "G021",
+    "name": "句子改写核心规范：语义等价、限定守恒与消除四大改写偏差",
+    "category": "F_sentence_rewriting_rules",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G014",
+      "G018"
+    ],
+    "explanation_zh": "句子改写必须在改变句法或词汇结构的同时，100% 保持原句的事实范围、否定、时间、程度和认知确定性，并能准确诊断语法错误、表达不自然、语域不当与语义扭曲。",
+    "rules": [
+      "限定守恒：原句的 provided that, in this sample, under Gaussian-kernel assumptions, may, arguably 等在改写后必须保留等价限定。",
+      "多路径自然改写：支持动词 <-> 派生名词转换、从句 <-> 介词短语转换、主动 <-> 被动焦点转换，提供多个自然可接受版本。"
+    ],
+    "examples": [
+      "Source: Missing records account for the discrepancy between the totals.\nRewrite 1: The discrepancy between the totals is attributable to missing records.\nRewrite 2: Missing records explain why the two totals differ."
+    ],
+    "common_errors": [
+      "在改写中偷换概念或将相关关系升级为因果结论。"
+    ]
+  },
+  {
+    "grammar_id": "G022",
+    "name": "并列、从属、平行结构（Parallelism）与对比对称性",
+    "category": "C10_parallelism_and_subordination",
+    "stage": 3,
+    "first_day": "day_0051",
+    "first_day_num": 51,
+    "prerequisites": [
+      "G010",
+      "G018"
+    ],
+    "explanation_zh": "由 and, or, rather than, as opposed to, as well as, both... and... 连接的成分必须在词性、句法层级与逻辑角色上严格平行。",
+    "rules": [
+      "对比排除连接词（rather than, as opposed to）两侧结构必须平行：reporting observed values as opposed to predictions；measured an association rather than a causal effect。",
+      "分别对应结构（A and B ... X and Y, respectively）两侧元素个数与顺序必须严格一一对应。"
+    ],
+    "examples": [
+      "The table reports observed values as opposed to predictions.",
+      "The symbols x and y denote temperature and demand, respectively."
+    ],
+    "common_errors": [
+      "两侧词性不对称：*combines quantitative measurements with interviewing participants（名词短语与动名词不对称）。"
+    ]
+  },
+  {
+    "grammar_id": "G023",
+    "name": "学术标点规范、分号/冒号逻辑功能与逗号粘连（Comma Splice）根治",
+    "category": "C11_punctuation_and_clause_combining",
+    "stage": 3,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G018"
+    ],
+    "explanation_zh": "根治中国学生写作中最普遍的标点语法错误——逗号粘连（Comma Splice，即仅用逗号连接两个独立句子，或把 nevertheless, therefore, however 当连词用逗号连接两句）。",
+    "rules": [
+      "连接副词（however, therefore, hence, nevertheless, nonetheless, consequently, moreover, furthermore, conversely, likewise）连接两个独立分句时，前句末尾必须用分号（;）或句号（.）！",
+      "前置复合修饰语加连字符（a small-scale study, an in-depth analysis, ground-truth labels, blue-collar occupations），后置作表语或状语时不加连字符（examine the issue in depth）。"
+    ],
+    "examples": [
+      "The observations are dependent; hence, the usual independence assumption does not apply.",
+      "The sample is small; nevertheless, the measurements identify a useful question for further study."
+    ],
+    "common_errors": [
+      "Comma Splice：*The sample is small, however, the protocol is reproducible（第一个逗号必须改为分号或句号）。"
+    ]
+  },
+  {
+    "grammar_id": "G024",
+    "name": "适度名词化（Nominalization）、复杂名词短语与动词活力平衡",
+    "category": "C12_nominalization_and_complex_np",
+    "stage": 3,
+    "first_day": "day_0058",
+    "first_day_num": 58,
+    "prerequisites": [
+      "G005",
+      "G021",
+      "G032"
+    ],
+    "explanation_zh": "名词化可将前句的过程浓缩为后句主语（如 The relaxation of this assumption...），实现紧凑衔接；但绝不能认为“名词化越多越学术”，过度名词化会导致句子僵化、头重脚轻。",
+    "rules": [
+      "用“The + 派生名词 + of + 核心对象”打包已知过程作主语，谓语仍使用清晰有力的动词（The elimination of duplicate entries reduced the file size）。",
+      "当主语和宾语都已是长抽象名词时，中间谓语直接用强动词（affects, constrains, clarifies），不要写 *conducts an influence on。"
+    ],
+    "examples": [
+      "The emergence of new devices changed the monitoring procedure.",
+      "The quantification of uncertainty is central to this analysis."
+    ],
+    "common_errors": [
+      "僵尸名词堆砌（Zombie Nouns）：*The implementation of the reduction of parameters was carried out（应直接写 We reduced the number of parameters）。"
+    ]
+  },
+  {
+    "grammar_id": "G025",
+    "name": "句法歧义消除（介词短语附着、修辞辖域与比较基准排歧）",
+    "category": "C11_syntactic_ambiguity_resolution",
+    "stage": 3,
+    "first_day": "day_0062",
+    "first_day_num": 62,
+    "prerequisites": [
+      "G009",
+      "G015",
+      "G022"
+    ],
+    "explanation_zh": "消除句子中的结构性多解（Structural Ambiguity），确保读者无需猜测修饰语究竟挂靠在哪个词上。",
+    "rules": [
+      "调整介词短语位置或改写为定语从句，消除“V + NP + PP”中的 PP 附着歧义。",
+      "明确区分绝对差值（in absolute terms）与相对变化（in relative terms），并交代基准分母（denominator）。"
+    ],
+    "examples": [
+      "The absolute difference was reported alongside the relative change.",
+      "The revised definition is unambiguous."
+    ],
+    "common_errors": [
+      "修饰语远离核心词导致语义滑稽或产生双重解释。"
+    ]
+  },
+  {
+    "grammar_id": "G026",
+    "name": "因果关系、统计相关、混杂（Confounding）与反事实（Counterfactual）表达边界",
+    "category": "E_G_causality_vs_correlation",
+    "stage": 3,
+    "first_day": "day_0066",
+    "first_day_num": 66,
+    "prerequisites": [
+      "G014",
+      "G018"
+    ],
+    "explanation_zh": "在机器学习、流行病学、经济学与社会科学写作中，必须严格区分预测准确率/统计相关（prediction accuracy / correlation / association）与因果效应（causal effect / causality）。",
+    "rules": [
+      "观察性关联用 correlate with, be associated with, coincide with；不能仅凭高预测精度或滞后项相关性（lagged correlation）声称确立了 causality。",
+      "讨论因果识别时，准确使用 confounding（混杂因素）、counterfactual outcome（反事实结局）、exogenous（外生的，需写明与扰动项关系）及 disentangle A from B（分离交织效应）。"
+    ],
+    "examples": [
+      "Predictive accuracy alone cannot establish causality.",
+      "Unmeasured confounding may bias an estimated treatment effect.",
+      "For a treated individual, the outcome under no treatment is a counterfactual outcome."
+    ],
+    "common_errors": [
+      "在观察性数据或纯预测模型论文中滥用 cause, determine, prove a causal link。"
+    ]
+  },
+  {
+    "grammar_id": "G027",
+    "name": "文献综述、观点归属与报道动词（Reporting Verbs）的认知立场控制",
+    "category": "E_reporting_verbs_and_attribution",
+    "stage": 3,
+    "first_day": "day_0070",
+    "first_day_num": 70,
+    "prerequisites": [
+      "G014",
+      "G017"
+    ],
+    "explanation_zh": "在 Related Work 与议论文引用中，通过精准选择报道动词（argue, claim, assert, contend, maintain, suggest, note, observe, point out, demonstrate, show, acknowledge, question, challenge）体现对前人工作的客观定位。",
+    "rules": [
+      "区分事实呈现（show, demonstrate, reveal）、作者主观论断（claim, assert, contend, maintain）与审慎提议（suggest, propose, hypothesize）。",
+      "According to the authors 仅用于引述他人或外部记录，绝不可写 *According to me。"
+    ],
+    "examples": [
+      "The authors argue that simpler baselines deserve attention.",
+      "The author asserts that the categories are exhaustive, whereas recent benchmarks challenge this assumption."
+    ],
+    "common_errors": [
+      "用一成不变的 *Author A says that... 贯穿整个 Related Work 章节。"
+    ]
+  },
+  {
+    "grammar_id": "G028",
+    "name": "学术段落逻辑架构：主题句—机制解释—实证/实例支撑—范围限定",
+    "category": "G_paragraph_structure_and_argumentation",
+    "stage": 4,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [],
+    "explanation_zh": "无论是顶会论文 Discussion 还是六级/雅思托福主体段，高质量段落都必须具备“清晰主题句（Topic Sentence）-> 作用机制或理论解释（Mechanism/Warrant）-> 具体数据或实例（Concrete Evidence/Instance）-> 边界限定（Qualification）”四层逻辑，拒绝仅靠连接词填空。",
+    "rules": [
+      "防范逻辑跳跃（Logical Leap）：从“某现象存在或某指标提升”到“应全面推广某政策/模型”之间，必须补充成本、可行性（feasibility）或分布偏移（distribution shift）的权衡（trade-off）。",
+      "正确区分对比连接词：on the contrary 仅用于否定刚提及的命题（“恰恰相反”），而对比两个不同群体的表现必须用 by contrast / in contrast / on the other hand。"
+    ],
+    "examples": [
+      "The report claims that every village was sampled. On the contrary, remote villages were excluded.",
+      "Urban use increased; by contrast, rural use remained stable."
+    ],
+    "common_errors": [
+      "把 on the contrary 误当作 on the other hand / by contrast 使用。",
+      "段落只有空洞观点句和夸张形容词，缺乏具体机制解释与可核验实例。"
+    ]
+  },
+  {
+    "grammar_id": "G029",
+    "name": "语篇信息流推进（Given-New Contract）与跨句主题链构建",
+    "category": "C12_G_information_packaging",
+    "stage": 4,
+    "first_day": "day_0080",
+    "first_day_num": 80,
+    "prerequisites": [
+      "G020",
+      "G024",
+      "G028",
+      "G032"
+    ],
+    "explanation_zh": "地道英语段落之所以流畅自然、毫无生硬拼接感，核心在于遵守“旧信息在前（Given）、新信息在后（New）”的信息契约，用总结性指代或语态转换实现句间无缝咬合。",
+    "rules": [
+      "链式推进（Linear Progression）：第 N 句句末引入的新概念（如 an anomaly in the sensor readings），在第 N+1 句句首打包为旧信息主语（This anomaly / Such discrepancies...）。",
+      "避免连续多句使用毫无关联的全新长主语，造成读者认知断层。"
+    ],
+    "examples": [
+      "An anomaly in the sensor readings prompted a check of the calibration procedure. This check revealed a drift in the reference voltage."
+    ],
+    "common_errors": [
+      "把旧信息放在句末，而把长达 15 词的全新复杂概念硬塞在句首主语位置。"
+    ]
+  },
+  {
+    "grammar_id": "G030",
+    "name": "让步反驳（Concession-Rebuttal）、局限性陈述与外推边界（Extrapolation Limits）",
+    "category": "E_G_concession_rebuttal_and_limitations",
+    "stage": 4,
+    "first_day": "day_0085",
+    "first_day_num": 85,
+    "prerequisites": [
+      "G018",
+      "G027",
+      "G028"
+    ],
+    "explanation_zh": "顶会论文 Limitations 章节、Rebuttal 及高分议论文的核心技能：坦诚承认方法或样本的约束条件（acknowledge constraints），同时清楚界定在什么范围内结论依然稳健（robust），并指出何时外推（extrapolation）会失效。",
+    "rules": [
+      "区分内插（interpolation，在已观测范围内估计）与外推（extrapolation，向观测年龄、工况或分布范围外推断，需更强假设）。",
+      "用 While / Although / Despite 承认局限，用 nevertheless / aún / provided that 说明受控范围内的有效性与后续改进方向（warrant further investigation）。"
+    ],
+    "examples": [
+      "Extrapolation beyond the observed age range requires additional justification.",
+      "The discrepancy warrants further investigation, but it does not warrant a causal conclusion."
+    ],
+    "common_errors": [
+      "要么完全隐瞒局限，要么自相矛盾地声称局限毫无影响。"
+    ]
+  },
+  {
+    "grammar_id": "G031",
+    "name": "句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "category": "C1_sentence_constituents_analysis",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001"
+    ],
+    "explanation_zh": "自然地道的英语写作建立在清晰的句子成分（Constituents）分工之上：主语（Subject，建议用简短核心名词短语）+ 谓语动词（Predicate Verb，承载核心动作或状态关系）+ 宾语/表语/补语（Object/Complement），而将限定范围、实验条件、时间窗口等次要信息合理分配给后置定语（Post-modifier）或状语（Adverbial）。",
+    "rules": [
+      "主语（S）与谓语（V）的距离应尽可能紧凑：避免在主语核心词和谓语动词之间插入过长的非必要修饰成分，防止读者丢失句子主干。",
+      "区分定语（修饰名词，回答 which/what kind of）与状语（修饰动词或全句，回答 how/when/where/under what condition）：英語长定语一律后置（介词短语、分词短语、定语从句），切忌按中文习惯把长串修饰语全部堆在名词前面。",
+      "同位语（Appositive，如 a random walk, an archetypal example of a nonstationary process）用于紧随名词后补充等价定义或量纲说明，比单独另起一句更紧凑。"
+    ],
+    "examples": [
+      "[主语 The affine function f(x) = ax + b] [谓语 includes] [宾语 an intercept b].",
+      "[状语 When the relevant variances are finite and nonzero], [主语 lag-one Pearson autocorrelation] [谓语 measures] [宾语 the linear association] [后置定语 between observations one time step apart].",
+      "[主语 The team] [谓语 abandoned] [宾语 the approach] [原因状语 after repeated calibration failures]."
+    ],
+    "common_errors": [
+      "中式前置长定语堆砌：*The collected from three rural clinics during the two-year pilot study data were noisy（应改为 The data collected from three rural clinics during the two-year pilot study were noisy）。",
+      "把状语介词短语误当成主语：*In Table 1 shows the ablation results（应为 Table 1 shows... 或 In Table 1, we report...）。"
+    ]
+  },
+  {
+    "grammar_id": "G032",
+    "name": "消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "category": "C10_C12_end_weight_and_anti_top_heavy",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G001",
+      "G031"
+    ],
+    "explanation_zh": "中国学习者与劣质机翻最常见的句法缺陷是“头重脚轻（Top-Heavy Sentence）”——主语长达十几个词，谓语却只是一个软弱的 is / occurs / exists。地道英语严格遵循“尾重原则（End-Weight）”：主语简短（旧信息），把复杂的从句、长列表或重信息放在谓语之后（句末焦点位置）。",
+    "rules": [
+      "诊断头重脚轻：当主语超过 8–10 个词且包含从句或多层 of 短语，而谓语仅为 be/have/exist 时，必须重构句子。",
+      "重构方法 1（换用核心实体作主语+强动词）：把长主语中的行动者、模型或实验设为短主语，将原抽象名词还原为谓语动词（如把 *The investigation of how irregular sampling intervals affect autocorrelation estimation is important 改为 *We investigate how irregular sampling intervals affect autocorrelation estimation* 或 *Irregular sampling intervals can distort autocorrelation estimates*）。",
+      "重构方法 2（右移重成分或使用先行 it / 存在结构）：当需要评价某个复杂命题时，用 It is critical that... 或將状语条件移至句首/句末。"
+    ],
+    "examples": [
+      "头重脚轻病句：*Whether the learned policy can generalize from simulation to a physical robot with actuator delays and sensor noise is uncertain.*\n地道改写：*It remains uncertain whether the learned policy can generalize from simulation to a physical robot with actuator delays and sensor noise.* 或 *Actuator delays and sensor noise make sim-to-real policy transfer uncertain.*",
+      "头重脚轻病句：*A discrepancy between the recorded timestamps and the sensor logs in the second rollout was found.*\n地道改写：*The audit revealed a discrepancy between the recorded timestamps and the sensor logs in the second rollout.*"
+    ],
+    "common_errors": [
+      "主语塞满三四个 of 嵌套短语，导致读者读到句尾才看到一个单薄的 is。",
+      "用 Whether / That 名词性从句作长主语而谓语只有一个形容词。"
+    ]
+  },
+  {
+    "grammar_id": "G033",
+    "name": "去除“AI 味（Anti-AI-ese）”与过度修辞：用具体机制、指标与实例替代空洞夸张",
+    "category": "E_anti_ai_style_and_concreteness",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G031",
+      "G032"
+    ],
+    "explanation_zh": "典型 AI 生成文本充斥着空洞的套话与浮夸副词/形容词（如 delve into, testament to, tapestry, underscores the paramount importance, revolutionize, unparalleled, groundbreaking），却缺乏具体技术细节。地道顶会论文（NeurIPS/ICLR/CoRL）与高分雅思/托福/六级写作追求“低修辞密度、高信息密度”：用具体动词、明确指标和真实实例说话。",
+    "rules": [
+      "删除无实质信息的“清嗓子”套话（Throat-clearing）：少用 *It is worth noting that / It is undeniable that / In the realm of modern artificial intelligence*，直接陈述事实主干。",
+      "禁止“只有夸张形容词而不给实例或数据支撑”：不要写 *The model achieves an enormous, unparalleled improvement*，而要写 *The proposed parametrization reduces MSE by 8.4% relative to the seasonal naive baseline on hourly electricity demand*。",
+      "优先选用朴素、精准的单音节或核心学术动词（examine, test, compare, constrain, decompose, bound, mitigate）替代故作高深的修辞词。"
+    ],
+    "examples": [
+      "AI 腔/空洞夸张：*This groundbreaking paradigm delves into the intricate tapestry of temporal dynamics and achieves unparalleled accuracy.*\n地道学术改写：*This model decomposes the series into trend and seasonal components, achieving lower forecasting error than the linear baseline on three benchmarks.*",
+      "六级/雅思空洞句：*Technology has an enormous impact on education in many ways.*\n地道具体展开：*Asynchronous learning platforms allow part-time students to review lecture recordings at their own pace, reducing scheduling conflicts.*"
+    ],
+    "common_errors": [
+      "堆砌 paramount, unprecedented, revolutionize, multifaceted 等宣传式词汇，违反客观学术语域。",
+      "只下宏大判断（如 *This method is very efficient*）而不给出具体的计算复杂度、内存占用或延迟数据。"
+    ]
+  },
+  {
+    "grammar_id": "G034",
+    "name": "四大常见表达病灶诊断：口语化、过度表达（Over-expression）、不精确表达与指代悬空",
+    "category": "A_E_F_four_major_writing_defects",
+    "stage": 1,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G031",
+      "G033"
+    ],
+    "explanation_zh": "针对中国学习者在论文、雅思托福及六级写作中的四大高频失分点建立系统修正机制：(1) 口语化表达混入书面语，(2) 过度表达（语义重复或情态过满），(3) 不精确表达（缺少比较基准、分母或时间单位），(4) 悬空指代。",
+    "rules": [
+      "修正口语化（Colloquialism）：书面论文中将 a lot of 改为 substantial / a large number of；将 get 改为 obtain / acquire；将 big 改为 substantial / marked；将 do a study 改为 conduct / carry out a study；将 pretty up / dumb down 改为 refine the visual layout / oversimplify。",
+      "修正过度表达与语义冗余（Over-expression & Pleonasm）：禁止写 *halve by 50%*（halve 已含 50%）、*mutually collaborate with each other*、*completely eliminate all*、*future forthcoming*。",
+      "修正不精确表达（Imprecision）：报告 lag（滞后）、rate（速率）或 relative change（相对变化）时，必须指明采样时间单位（sampling interval）、基线（baseline）与分母（denominator）。"
+    ],
+    "examples": [
+      "口语化病句：*We did a small study and got a lot of data, which pretty up our paper.*\n修正：*We conducted a pilot study and collected a substantial amount of data to test the protocol.*",
+      "不精确病句：*The error dropped by 5%.*\n精确修正：*The classification error rate decreased by 5 percentage points (from 20% to 15%) relative to the baseline.*"
+    ],
+    "common_errors": [
+      "把口头演讲过渡语（如 *Getting back to the question / That is all very well, but*）直接写进正式期刊论文正文。",
+      "混淆相对百分比变化（per cent）与绝对百分点变化（percentage points）。"
+    ]
+  },
+  {
+    "grammar_id": "G035",
+    "name": "机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "category": "E_cs_ai_timeseries_embodied_syntax",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G033",
+      "G034"
+    ],
+    "explanation_zh": "面向深度学习、时间序列预测、生成式建模与具身智能（Embodied AI）写作，训练如何用精准、克制、零 AI 腔的英语句式描述数学符号、分布特性、物理/几何约束、感知—动作闭环（perception-action loop）及实验消融。",
+    "rules": [
+      "问题与符号定义：用 Let X denote... / Here, N denotes... / We parameterize the predictive distribution as... 保持全篇符号（notation）一致，严格区分标量（scalar）、向量（vector）与矩阵（matrix）。",
+      "时间序列与生成模型：严格区分平稳性（stationarity）与遍历性（ergodicity）、季节性（seasonality，固定日历周期）与周期波动（cyclicality，非固定时长）、概率校准（calibration，预测分布与观测频率一致）与锐度（sharpness，预测分布集中度）。",
+      "具身智能（Embodied AI）：准确使用 spatial orientation（空间方位）、trajectory（运动/策略轨迹）、velocity（速度矢量，含方向）、perturbation（外部扰动）、closed-loop feedback（闭环反馈）及 physical/kinematic constraints（物理与运动学约束），不把仿真结果（simulation）直接冒充真实物理部署（real-world deployment）。"
+    ],
+    "examples": [
+      "Time Series & Generative: Forecast calibration concerns statistical consistency between predictive distributions and observations, whereas sharpness refers to the concentration of the predictive distribution.",
+      "Embodied AI: The controller enforces velocity and torque constraints while tracking the reference trajectory under external perturbations.",
+      "Ablation & Baseline: Removing the seasonal decomposition module degrades performance on long-horizon benchmarks, confirming its contribution to stability."
+    ],
+    "common_errors": [
+      "把仿真环境（simulation）中的策略表现直接写成真实世界因果有效，忽略 sim-to-real discrepancy。",
+      "混淆 covariance（协方差，受量纲缩放影响）与 correlation（标准化相关系数），或混淆 isotonic（保序的）与 isotropic（各向同性的）。"
+    ]
+  },
+  {
+    "grammar_id": "G036",
+    "name": "跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "category": "E_G_multi_genre_adaptation",
+    "stage": 2,
+    "first_day": "day_0001",
+    "first_day_num": 1,
+    "prerequisites": [
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "explanation_zh": "同一核心词汇库在不同应用场景下需要灵活切换语域与句式结构：学术论文重实证边界与方法可复现；口头演讲（Presentation/Seminar）重听众引导与简洁路标；六级/雅思托福（CET-6/IELTS/TOEFL）重观点清晰、让步权衡与具体民生/科技/教育实例。",
+    "rules": [
+      "顶会论文与审稿回复（Paper & Rebuttal）：用 We thank the reviewer for pointing out this limitation; to address this concern, we conducted an additional sensitivity analysis... 礼貌、有据地回应质疑（take issue with / respond to / clarify）。",
+      "学术演讲与海报展示（Tech Talk & Oral Presentation）：合理使用路标句（I would like to begin by explaining... / As this slide shows... / Let us now turn to... / I will leave five minutes for questions），句子宜短，避免听众无法跟上的多重嵌套从句。",
+      "六级与雅思托福写作（CET-6 & IELTS/TOEFL Writing）：摒弃万能废话模板，采用“明确立场句（adopt a principled stance）+ 具体机制解释（account for / facilitate / mitigate）+ 落地实例（concrete example，如远程教育、可再生能源补贴、公共交通可及性）+ 让步权衡（albeit / on balance / outweigh）”。"
+    ],
+    "examples": [
+      "Tech Talk (Spoken Academic): As this slide shows, the naive baseline performs competitively when the look-back horizon is short; let us now turn to why complex models overfit noisy series.",
+      "IELTS/CET-6 Argumentative Essay: Subsidising public transport can facilitate access to education for rural students; however, municipal authorities must weigh this benefit against long-term infrastructure maintenance costs.",
+      "Research Statement / SoP: My undergraduate project drew on multivariate time-series methods to detect sensor anomalies, which motivated my interest in robust perception for embodied agents."
+    ],
+    "common_errors": [
+      "在雅思/六级作文中使用生硬虚假的统计编造（如 *According to a 2025 Harvard survey, 93.7% of people...*），而不是使用合理的机制论证与具体生活/政策实例。",
+      "在口头报告结束语与书面论文结论之间混用语域（如在论文结尾写 *That is all I have to say, thank you for listening*）。"
+    ]
+  }
+]

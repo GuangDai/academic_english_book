@@ -1,0 +1,340 @@
+{
+  "day": "day_0023",
+  "day_number": 23,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 23 天：局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations） × 破除二元对立谬误：展现多维权衡（Transcending False Dichotomies） × TOEFL_Independent 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP23",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations）",
+      "user_intent_zh": "我这一段想写论文末尾或 NeurIPS/ICLR Checklist 要求的 Limitations 段落：诚实指出当前方法的两个客观边界，但绝不贬损论文的核心贡献。",
+      "when_to_use_zh": "Discussion / Limitations 章节",
+      "paragraph_move_structure": [
+        "S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries.",
+        "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy.",
+        "S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets.",
+        "S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work."
+      ],
+      "cohesion_and_logic_formula": "Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.",
+      "defective_draft": "Our paper has some limitations. We did not test on very big datasets because we do not have enough GPUs. In the future, we will try more datasets and make the model better.",
+      "defect_diagnosis_zh": "写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。",
+      "model_paragraph_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [边界 1",
+          "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+          "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [边界 2",
+          "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来演进方向 Future Extension]",
+          "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "极具学者风范的 Limitations：精准指出 $O(C^2)$ 通道复杂度与分段平滑假设的数学边界，并分别给出“锚点低秩图稀疏化”与“跳跃扩散随机微分方程”的高阶解法。"
+    },
+    {
+      "blueprint_id": "BP35",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "深层原因剖析段：表层诱因与结构性根源双层挖掘（Dual-Layer Causal Diagnosis）",
+      "user_intent_zh": "我这一段想在问题分析类作文（Why is this happening?）中，剖析某个社会/科研痛点背后的深层原因（既指出直接表层诱因，又挖出底层的考核激励或结构性根源）。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 原因分析段，或学术评论文章",
+      "paragraph_move_structure": [
+        "S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives.",
+        "S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action].",
+        "S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor.",
+        "S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated."
+      ],
+      "cohesion_and_logic_formula": "Dual-Cause Opening -> Immediate Operational Driver -> Deeper Institutional Root -> Systemic Compounding. 绑定逻辑规则：L007, L005.",
+      "defective_draft": "Why do many students copy AI answers directly? First, AI is very easy and fast to use. Second, students are lazy and have too much homework. So they just copy and paste.",
+      "defect_diagnosis_zh": "把复杂社会教育现象简单归结为“学生懒（students are lazy）”，缺乏操作成本与评价体系两个层面的结构化深度。",
+      "model_paragraph_en": "The growing tendency among undergraduates to submit unverified AI-generated essays stems from both lowered friction costs and flawed assessment design. At an immediate level, conversational models produce grammatically polished drafts within seconds, tempting time-pressed students to bypass the arduous process of outlining and primary reading. More fundamentally, many university courses still rely on generic, formulaic essay prompts that reward surface fluency rather than original empirical critique. When effortless text generation meets standardized grading rubrics that fail to penalize hollow reasoning, superficial compliance inevitably crowds out deep inquiry.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [原因总起句 Dual-Cause Thesis]",
+          "sentence_en": "The growing tendency among undergraduates to submit unverified AI-generated essays stems from both lowered friction costs and flawed assessment design.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层",
+          "sentence_en": "At an immediate level, conversational models produce grammatically polished drafts within seconds, tempting time-pressed students to bypass the arduous process of outlining and primary reading.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层",
+          "sentence_en": "More fundamentally, many university courses still rely on generic, formulaic essay prompts that reward surface fluency rather than original empirical critique.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [双因叠加后果 Compounding Effect]",
+          "sentence_en": "When effortless text generation meets standardized grading rubrics that fail to penalize hollow reasoning, superficial compliance inevitably crowds out deep inquiry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 At an immediate level... 与 More fundamentally... 剥洋葱般剖析“极低生成摩擦成本”与“奖励表面流利度的公式化命题考核”，末句 When A meets B, C inevitably crowds out D 极具思辨穿透力。"
+    },
+    {
+      "blueprint_id": "BP48",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "科研个人陈述（SoP / Research Narrative）：从时间序列/生成建模迈向具身智能的闭环叙事段",
+      "user_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+      "when_to_use_zh": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+      "paragraph_move_structure": [
+        "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+        "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+        "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+        "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+      ],
+      "cohesion_and_logic_formula": "Past Core Thread -> Concrete Method & Metric -> Intellectual Bridge (Passive Forecasting -> Active Closed-Loop Control) -> Future Embodied AI Agenda. 绑定逻辑规则：L003, L025, L029.",
+      "defective_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+      "defect_diagnosis_zh": "包含 SoP 两大禁忌：① 童年情怀套话（Since I was a child, I have been fascinated by...）；② 盲目追热点（because it is a very hot topic），没讲清你过去的时序/生成建模背景赋予了你做具身智能什么独特优势。",
+      "model_paragraph_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data. While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%. Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions. Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [过往研究主线凝练 Past Research Thread]",
+          "sentence_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [代表作攻克过程与硬核成果 Concrete Achievement]",
+          "sentence_en": "While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]",
+          "sentence_en": "Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来研究愿景 Future Research Agenda]",
+          "sentence_en": "Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "没有一句童年套话！将“过去的非平稳时间序列与快速流匹配生成模型”通过“从被动观测序列演进到主动闭环物理交互”的深刻科学洞察，自然推演出“构建自适应具身智能世界模型”的未来蓝图。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L023",
+      "category": "Logical Fallacy Prevention (逻辑谬误防范)",
+      "name_zh": "破除二元对立谬误：展现多维权衡（Transcending False Dichotomies）",
+      "name_en": "Moving Beyond False Dichotomies to Pareto Trade-offs",
+      "core_principle_zh": "无论是讨论模型设计（精度 vs. 速度、生成多样性 vs. 保真度）还是社会议题（发展 AI vs. 保护就业、基础理论 vs. 工程应用），避免非黑即白的极端断言；用兼容性或帕累托改进框架（reconcile / bridge / balance X and Y by...）构建高阶论点。",
+      "structural_formula": "Rather than treating [Goal A] and [Goal B] as mutually exclusive, [Approach/Policy] reconciles both by [Mechanism C].",
+      "common_pitfall_zh": "非此即彼，为了夸大一端而把另一端贬得一无是处。",
+      "bad_example_en": "Universities should stop teaching theoretical courses and only teach practical coding skills.",
+      "good_example_en": "Rather than treating mathematical foundations and engineering practice as mutually exclusive, computer science curricula can integrate both by embedding convex optimization and probability theory directly into hands-on machine learning studio projects.",
+      "analysis_zh": "用 Rather than treating A and B as mutually exclusive, ... reconciles/integrates both by... 展现成熟严密的学术思辨。"
+    },
+    {
+      "logic_id": "L001",
+      "category": "Information Flow (信息流推进)",
+      "name_zh": "旧信息在前、新信息在后原则（Given-to-New Principle）",
+      "name_en": "Given-to-New Information Flow",
+      "core_principle_zh": "英语段落连贯的第一动力不是连接词，而是每一句的句首（主位 Theme）承接上一句句末已经出现过的概念（旧信息 Given），再在句末（述位 Rheme）抛出本句真正要推进的核心增量（新信息 New）。",
+      "structural_formula": "Sentence A: [Subject X] -> [Verb] -> [New Concept Y]. | Sentence B: [This/Such Y or Pronoun] -> [Verb] -> [New Concept Z].",
+      "common_pitfall_zh": "每一句都突兀地以一个全新概念作长主语，而把指代上一句的词塞在句尾，导致读者每读一句都要重新建立思维锚点。",
+      "bad_example_en": "Autoregressive transformers suffer from severe error accumulation over long horizons. A sudden distribution shift in non-stationary sensor streams further amplifies this error accumulation.",
+      "good_example_en": "Autoregressive transformers suffer from severe error accumulation over long horizons. This cumulative drift accelerates sharply when non-stationary sensor streams undergo sudden distribution shifts.",
+      "analysis_zh": "修改前第二句以长新名词 A sudden distribution shift... 开头，旧信息 this error accumulation 被甩在句末；修改后第二句用 This cumulative drift 紧扣上一句句尾的 error accumulation，再引出新信息 distribution shifts，段落瞬间丝滑。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC23",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP23",
+      "linked_logic_id": "L023",
+      "communicative_goal_zh": "我这一段想写论文末尾或 NeurIPS/ICLR Checklist 要求的 Limitations 段落：诚实指出当前方法的两个客观边界，但绝不贬损论文的核心贡献。",
+      "original_defective_paragraph": "Our paper has some limitations. We did not test on very big datasets because we do not have enough GPUs. In the future, we will try more datasets and make the model better.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L023 破除二元对立谬误：展现多维权衡（Transcending False Dichotomies））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "写成了“因为没卡所以没做完实验”的借口，不仅毫无学术价值，反而会诱发审稿人拒稿。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [边界 1",
+          "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+          "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [边界 2",
+          "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来演进方向 Future Extension]",
+          "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC43",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP43",
+      "linked_logic_id": "L013",
+      "communicative_goal_zh": "我这一段想在 PPT 上出现核心损失函数或注意力公式时，用 4 句通俗、精准的口语把公式背后的物理/几何直觉讲透，而不是在台上干巴巴念希腊字母。",
+      "original_defective_paragraph": "The formula on this slide is Q times K transpose divided by square root of d minus lambda times delta phi L1 norm, and then softmax times V.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L013 演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "在台上把公式符号逐字念一遍（Q times K transpose divided by...）是学术演讲的大忌，听众听得云里雾里。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Before looking at the equation in the middle box, here is the physical intuition behind it. When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase. That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax. Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [先讲直觉目标 Intuition First]",
+          "sentence_en": "Before looking at the equation in the middle box, here is the physical intuition behind it.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [先讲直觉目标 Intuition First]：Before looking at the math at the bottom of the slide, here is the simple physical intuition we want to capture. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [日常/物理类比 Physical Analogy]",
+          "sentence_en": "When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [日常/物理类比 Physical Analogy]：When two sensors monitor the same mechanical shaft, genuine vibrations share a consistent phase lag, whereas random electrical glitches fire out of phase. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [指向公式核心项 Point to Key Term]",
+          "sentence_en": "That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [指向公式核心项 Point to Key Term]：That is exactly what the red penalty term $\\|\\Delta \\Phi\\|_1$ inside the softmax does: it measures phase mismatch between channels. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话总结效果 Operational Effect]",
+          "sentence_en": "Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话总结效果 Operational Effect]：Whenever two channels fall out of phase, this term suppresses their attention weight automatically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC01",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP01",
+      "linked_logic_id": "L001",
+      "communicative_goal_zh": "我这一段想作为 Introduction 第一段：说明多变量时间序列预测或具身智能控制在实际工业系统中的关键作用，以及高可靠性的刚需。",
+      "original_defective_paragraph": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L001 旧信息在前、新信息在后原则（Given-to-New Principle））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务锚定 Topic Anchor]",
+          "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+          "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+          "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+          "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT23",
+    "genre": "TOEFL_Independent",
+    "title_zh": "托福独立写作满分范文：计算机高等教育应孤立偏向工程编码还是将数学基础与项目实践深度融合",
+    "structural_blueprint_chain": [
+      "BP33",
+      "BP34",
+      "BP36",
+      "BP39",
+      "BP40"
+    ]
+  }
+}

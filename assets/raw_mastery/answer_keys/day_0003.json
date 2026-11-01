@@ -1,0 +1,506 @@
+[
+  {
+    "task_id": "D0003_T01",
+    "day": "day_0003",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+        "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+        "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+        "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+        "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP03`（尖锐指出核心技术瓶颈与失效机理（Gap Identification））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T02",
+    "day": "day_0003",
+    "task_type": "intent_to_paragraph",
+    "model_response_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations. To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field. At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator. This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]",
+        "sentence_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]",
+        "sentence_en": "To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [具体轨迹更新方程 Trajectory Update Formulation]",
+        "sentence_en": "At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]",
+        "sentence_en": "This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP15`（生成模型专属：条件控制与采样去噪轨迹阐述段（Generative Modeling Mechanism））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Guidance Artifact Problem -> Intrinsic Velocity Conditioning -> Tangent Projection Step -> Fast Exact Convergence. 绑定逻辑规则：L026, L014.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（缺乏生成模型核心术语（data manifold, velocity field, tangent projection, Euler integration），解释过于口语化。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T03",
+    "day": "day_0003",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+        "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+        "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+        "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+        "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP03`（尖锐指出核心技术瓶颈与失效机理（Gap Identification））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T04",
+    "day": "day_0003",
+    "task_type": "logic_and_cohesion_repair",
+    "model_response_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations. To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field. At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator. This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]",
+        "sentence_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]",
+        "sentence_en": "To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [具体轨迹更新方程 Trajectory Update Formulation]",
+        "sentence_en": "At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]",
+        "sentence_en": "This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP15`（生成模型专属：条件控制与采样去噪轨迹阐述段（Generative Modeling Mechanism））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Guidance Artifact Problem -> Intrinsic Velocity Conditioning -> Tangent Projection Step -> Fast Exact Convergence. 绑定逻辑规则：L026, L014.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（缺乏生成模型核心术语（data manifold, velocity field, tangent projection, Euler integration），解释过于口语化。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T05",
+    "day": "day_0003",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+        "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+        "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+        "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+        "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP03`（尖锐指出核心技术瓶颈与失效机理（Gap Identification））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T06",
+    "day": "day_0003",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations. To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field. At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator. This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]",
+        "sentence_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]",
+        "sentence_en": "To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [具体轨迹更新方程 Trajectory Update Formulation]",
+        "sentence_en": "At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]",
+        "sentence_en": "This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP15`（生成模型专属：条件控制与采样去噪轨迹阐述段（Generative Modeling Mechanism））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Guidance Artifact Problem -> Intrinsic Velocity Conditioning -> Tangent Projection Step -> Fast Exact Convergence. 绑定逻辑规则：L026, L014.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（缺乏生成模型核心术语（data manifold, velocity field, tangent projection, Euler integration），解释过于口语化。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T07",
+    "day": "day_0003",
+    "task_type": "paragraph_revision_clinic",
+    "model_response_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+        "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+        "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+        "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+        "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP28`（双图关联与互补/因果印证段（Synthesizing Dual Charts））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T08",
+    "day": "day_0003",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+        "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+        "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+        "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+        "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP03`（尖锐指出核心技术瓶颈与失效机理（Gap Identification））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T09",
+    "day": "day_0003",
+    "task_type": "argumentation_and_rebuttal",
+    "model_response_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations. To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field. At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator. This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]",
+        "sentence_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]",
+        "sentence_en": "To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [具体轨迹更新方程 Trajectory Update Formulation]",
+        "sentence_en": "At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]",
+        "sentence_en": "This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP15`（生成模型专属：条件控制与采样去噪轨迹阐述段（Generative Modeling Mechanism））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Guidance Artifact Problem -> Intrinsic Velocity Conditioning -> Tangent Projection Step -> Fast Exact Convergence. 绑定逻辑规则：L026, L014.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（缺乏生成模型核心术语（data manifold, velocity field, tangent projection, Euler integration），解释过于口语化。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T10",
+    "day": "day_0003",
+    "task_type": "cross_genre_transformation",
+    "model_response_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+        "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+        "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+        "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+        "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP28`（双图关联与互补/因果印证段（Synthesizing Dual Charts））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T11",
+    "day": "day_0003",
+    "task_type": "full_composition_project",
+    "model_response_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+        "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+        "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+        "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+        "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP03`（尖锐指出核心技术瓶颈与失效机理（Gap Identification））与逻辑法则 `L003`（延续链式推进模式（Linear Chain Progression））。衔接公式：因果链式推进（A induces B -> This B compounds into C -> Naive fix D sacrifices E）。绑定逻辑规则：L003, L004, L024/L025.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  },
+  {
+    "task_id": "D0003_T12",
+    "day": "day_0003",
+    "task_type": "full_composition_project",
+    "model_response_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "alternative_natural_version_en": "[Tech Talk / Oral Adaptation]: Look at how this mechanism operates in practice. Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+    "sentence_by_sentence_anatomy": [
+      {
+        "sentence_index": 1,
+        "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+        "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+        "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 2,
+        "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+        "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+        "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 3,
+        "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+        "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+        "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      },
+      {
+        "sentence_index": 4,
+        "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+        "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+        "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+      }
+    ],
+    "logic_and_cohesion_analysis_zh": "本段严格遵循蓝图 `BP28`（双图关联与互补/因果印证段（Synthesizing Dual Charts））与逻辑法则 `L011`（段落内主语瘦身与尾重平衡（Subject Compression & End-Weight））。衔接公式：Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.。句与句之间通过旧信息前置与汇总指代名词实现零机械连接词的自然过渡。",
+    "defect_eliminated_notes_zh": "针对原草稿病灶（极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。），定稿完成了四项关键手术：第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。；第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。；第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。；第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。",
+    "self_check_rubric": {
+      "1_single_controlling_idea": "Pass — 首句直接锁定本段唯一核心主张，无杂音分支。",
+      "2_subject_compression_end_weight": "Pass — 每句主语均控制在 3–7 个词以内，复杂机制与条件后置，彻底杜绝头重脚轻。",
+      "3_given_to_new_cohesion": "Pass — 严格遵循旧信息在前、新信息在后，使用 This/Such + Summary Noun 精准指代。",
+      "4_zero_ai_and_zero_colloquial": "Pass — 零 AI 套话（无 delve/tapestry/pivotal），零口语词（无 a lot/very good/get）。",
+      "5_precision_and_concrete_instance": "Pass — 所有性能主张或社会论点均配有具体指标、基线或微观行业场景。"
+    }
+  }
+]

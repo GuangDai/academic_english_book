@@ -1,0 +1,2847 @@
+{
+  "day_id": "day_0016",
+  "day_number": 16,
+  "stage": 1,
+  "stage_name_zh": "阶段 1：词汇激活、熟词生义破冰与句子主干剖析（Day 1–25）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G021】句子改写核心规范：语义等价、限定守恒与消除四大改写偏差；【G033】去除“AI 味（Anti-AI-ese）”与过度修辞：用具体机制、指标与实例替代空洞夸张。",
+    "掌握学术表达模式：【EP002】精确区分可数样本量与不可数开销/证据，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V01215",
+        "V01319",
+        "V01346",
+        "V01370"
+      ],
+      "lemmas": [
+        "illustrate",
+        "incidence",
+        "infinite",
+        "input"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V01220",
+        "V01320",
+        "V01347",
+        "V01373"
+      ],
+      "lemmas": [
+        "immense",
+        "include",
+        "influence",
+        "insert"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V01221",
+        "V01330",
+        "V01350",
+        "V01375"
+      ],
+      "lemmas": [
+        "impact",
+        "increase",
+        "inform",
+        "insight"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V01222",
+        "V01331",
+        "V01356"
+      ],
+      "lemmas": [
+        "impact",
+        "increase",
+        "infrastructure"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V01224",
+        "V01336",
+        "V01357"
+      ],
+      "lemmas": [
+        "implement",
+        "indicate",
+        "infrastructure"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V01229",
+        "V01340",
+        "V01358"
+      ],
+      "lemmas": [
+        "imply",
+        "induce",
+        "infrastructure"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V01231",
+        "V01342",
+        "V01366"
+      ],
+      "lemmas": [
+        "important",
+        "inevitable",
+        "initial"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V01233",
+        "V01343",
+        "V01367"
+      ],
+      "lemmas": [
+        "impossible",
+        "infer",
+        "initial"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V01215",
+      "lemma": "illustrate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01215_S01",
+          "pos": "v.",
+          "meaning_zh": "用例子或图形说明",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：用例子或图形说明（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A diagram illustrates the stages of the procedure.",
+          "example_zh": "一张图说明了程序的各个阶段。",
+          "sentence_constituents_zh": "【紧凑主语】A diagram illustrates the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不等于数值计算 find/calculate。 | 熟词生义与多义辨析：学术语境与搭配约束：不等于数值计算 find/calculate。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：用例子或图形说明（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：不等于数值计算 find/calculate。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“illustrate with a graph”精确表述“用例子或图形说明”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“illustrate with a graph”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "illustrate",
+        "third_person_singular": "illustrates",
+        "present_participle": "illustrating",
+        "past_tense": "illustrated",
+        "past_participle": "illustrated",
+        "plural": null,
+        "derived_forms": [
+          "illustrate"
+        ],
+        "variants": [
+          "illustrate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01215_01",
+          "phrase": "illustrate with a graph",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：illustrate with a graph（用例子或图形说明）"
+        },
+        {
+          "collocation_id": "C_V01215_02",
+          "phrase": "illustrate a point",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：illustrate a point（用例子或图形说明）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01215"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：不等于数值计算 find/calculate。",
+        "source_tags": [
+          "V01215",
+          "U03",
+          "AWL3词族:illustrate",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01220",
+      "lemma": "immense",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01220_S01",
+          "pos": "adj.",
+          "meaning_zh": "巨大的",
+          "core_meaning_zh": "基础字面义：巨大的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：巨大的；极大的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive contains an immense volume of handwritten material.",
+          "example_zh": "该档案馆保存了数量巨大的手写材料。",
+          "sentence_constituents_zh": "【紧凑主语】The archive contains an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "强程度形容词；学术报告最好用可核查规模支持判断，普通 large 足以表达一般的大。 | 熟词生义与多义辨析：词义与句法边界：强程度形容词；学术报告最好用可核查规模支持判断，普通 large 足以表达一般的大。"
+        },
+        {
+          "sense_id": "V01220_S02",
+          "pos": "adj.",
+          "meaning_zh": "极大的",
+          "core_meaning_zh": "基础字面义：巨大的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：巨大的；极大的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive contains an immense volume of handwritten material.",
+          "example_zh": "该档案馆保存了数量巨大的手写材料。",
+          "sentence_constituents_zh": "【紧凑主语】The archive contains an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "强程度形容词；学术报告最好用可核查规模支持判断，普通 large 足以表达一般的大。 | 熟词生义与多义辨析：词义与句法边界：强程度形容词；学术报告最好用可核查规模支持判断，普通 large 足以表达一般的大。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：巨大的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：巨大的；极大的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：强程度形容词；学术报告最好用可核查规模支持判断，普通 large 足以表达一般的大。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“immense variation”精确表述“巨大的；极大的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“immense variation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "immense",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "immense"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01220_01",
+          "phrase": "immense variation",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：immense variation（巨大的；极大的）"
+        },
+        {
+          "collocation_id": "C_V01220_02",
+          "phrase": "immense pressure",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：immense pressure（巨大的；极大的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01220"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：强程度形容词；学术报告最好用可核查规模支持判断，普通 large 足以表达一般的大。",
+        "source_tags": [
+          "V01220",
+          "Personal_036",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01221",
+      "lemma": "impact",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01221_S01",
+          "pos": "n.",
+          "meaning_zh": "影响",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：影响（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The review examines the policy's impact on rural residents.",
+          "example_zh": "综述考察政策对农村居民的影响。",
+          "sentence_constituents_zh": "【紧凑主语】The review examines the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "impact on 对象；是否因果需证据。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01221 n.] 影响（例：The review examines the policy's impact on rural residents.）；[V01222 n./v.] 影响（例：We assessed the impact of the timetable on attendance.） | 本条用法约束：impact on 对象；是否因果需证据。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：影响（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01221 n.] 影响（例：The review examines the policy's impact on rural residents.）；[V01222 n./v.] 影响（例：We assessed the impact of the timetable on attendance.） | 本条用法约束：impact on 对象；是否因果需证据。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an impact on”精确表述“影响”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an impact on”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "impact",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "impacts",
+        "derived_forms": [
+          "impact"
+        ],
+        "variants": [
+          "impact"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01221_01",
+          "phrase": "an impact on",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：an impact on（影响）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01221",
+          "V01222"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01221 n.] 影响（例：The review examines the policy's impact on rural residents.）；[V01222 n./v.] 影响（例：We assessed the impact of the timetable on attendance.） | 本条用法约束：impact on 对象；是否因果需证据。",
+        "source_tags": [
+          "V01221",
+          "U37",
+          "AWL2词族:impact",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01222",
+      "lemma": "impact",
+      "pos": "n./v.",
+      "raw_pos": "n./v.",
+      "senses": [
+        {
+          "sense_id": "V01222_S01",
+          "pos": "n.",
+          "meaning_zh": "影响",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：影响（n./v.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "We assessed the impact of the timetable on attendance.",
+          "example_zh": "我们评估了课程表对出勤的影响。",
+          "sentence_constituents_zh": "【紧凑主语】We assessed the impact... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "名词常用of ... on ...；因果含义需设计支持。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01221 n.] 影响（例：The review examines the policy's impact on rural residents.）；[V01222 n./v.] 影响（例：We assessed the impact of the timetable on attendance.） | 本条用法约束：名词常用of ... on ...；因果含义需设计支持。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：影响（n./v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01221 n.] 影响（例：The review examines the policy's impact on rural residents.）；[V01222 n./v.] 影响（例：We assessed the impact of the timetable on attendance.） | 本条用法约束：名词常用of ... on ...；因果含义需设计支持。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“have an impact on”精确表述“影响”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“have an impact on”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "impact",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "impact"
+        ],
+        "variants": [
+          "impact"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01222_01",
+          "phrase": "have an impact on",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：have an impact on（影响）"
+        },
+        {
+          "collocation_id": "C_V01222_02",
+          "phrase": "the impact of A on B",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：the impact of A on B（影响）"
+        },
+        {
+          "collocation_id": "C_V01222_03",
+          "phrase": "a significant impact",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：a significant impact（影响）"
+        },
+        {
+          "collocation_id": "C_V01222_04",
+          "phrase": "impact on",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：impact on（影响）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01221",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01221",
+          "V01222"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01221 n.] 影响（例：The review examines the policy's impact on rural residents.）；[V01222 n./v.] 影响（例：We assessed the impact of the timetable on attendance.） | 本条用法约束：名词常用of ... on ...；因果含义需设计支持。",
+        "source_tags": [
+          "V01222",
+          "U48",
+          "AWL2词族:impact",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01224",
+      "lemma": "implement",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01224_S01",
+          "pos": "v.",
+          "meaning_zh": "实施",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：实施（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The institution will review the evidence before implementing the policy.",
+          "example_zh": "机构将在实施政策前审查证据。",
+          "sentence_constituents_zh": "【紧凑主语】The institution will review... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "implement a plan/policy；名词 implementation，不等于仅提出方案。 | 熟词生义与多义辨析：学术语境与搭配约束：implement a plan/policy；名词 implementation，不等于仅提出方案。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：实施（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：implement a plan/policy；名词 implementation，不等于仅提出方案。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“implement a policy”精确表述“实施”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“implement a policy”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "implement",
+        "third_person_singular": "implements",
+        "present_participle": "implementing",
+        "past_tense": "implemented",
+        "past_participle": "implemented",
+        "plural": null,
+        "derived_forms": [
+          "implement"
+        ],
+        "variants": [
+          "implement"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01224_01",
+          "phrase": "implement a policy",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：implement a policy（实施）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01224"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：implement a plan/policy；名词 implementation，不等于仅提出方案。",
+        "source_tags": [
+          "V01224",
+          "AWL4词族:implement",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01229",
+      "lemma": "imply",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01229_S01",
+          "pos": "v.",
+          "meaning_zh": "暗示",
+          "core_meaning_zh": "基础字面义：暗示",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：暗示；逻辑上意味着（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A failure to reject the null does not imply that it is true.",
+          "example_zh": "未能拒绝原假设不意味着原假设为真。",
+          "sentence_constituents_zh": "【紧凑主语】A failure to reject... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "逻辑义与间接暗示义须由语境区分。 | 熟词生义与多义辨析：词义与句法边界：逻辑义与间接暗示义须由语境区分。"
+        },
+        {
+          "sense_id": "V01229_S02",
+          "pos": "v.",
+          "meaning_zh": "逻辑上意味着",
+          "core_meaning_zh": "基础字面义：暗示",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：暗示；逻辑上意味着（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A failure to reject the null does not imply that it is true.",
+          "example_zh": "未能拒绝原假设不意味着原假设为真。",
+          "sentence_constituents_zh": "【紧凑主语】A failure to reject... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "逻辑义与间接暗示义须由语境区分。 | 熟词生义与多义辨析：词义与句法边界：逻辑义与间接暗示义须由语境区分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：暗示",
+        "academic_target_sense_zh": "多义项/多词性完整映射：暗示；逻辑上意味着（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：逻辑义与间接暗示义须由语境区分。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“imply that”精确表述“暗示；逻辑上意味着”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“imply that”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "imply",
+        "third_person_singular": "implies",
+        "present_participle": "implying",
+        "past_tense": "implied",
+        "past_participle": "implied",
+        "plural": null,
+        "derived_forms": [
+          "imply"
+        ],
+        "variants": [
+          "imply"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01229_01",
+          "phrase": "imply that",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：imply that（暗示；逻辑上意味着）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01229"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：逻辑义与间接暗示义须由语境区分。",
+        "source_tags": [
+          "V01229",
+          "U30",
+          "AWL3词族:imply",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01231",
+      "lemma": "important",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01231_S01",
+          "pos": "adj.",
+          "meaning_zh": "重要的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：重要的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Privacy is an important aspect of survey design.",
+          "example_zh": "隐私是问卷设计的重要方面。",
+          "sentence_constituents_zh": "【紧凑主语】Privacy is an important... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "同一组名词也可与 significant 搭配；significant 不一定表示统计显著。 | 熟词生义与多义辨析：学术语境与搭配约束：同一组名词也可与 significant 搭配；significant 不一定表示统计显著。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：重要的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：同一组名词也可与 significant 搭配；significant 不一定表示统计显著。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“important aspect”精确表述“重要的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“important aspect”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "important",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "important"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01231_01",
+          "phrase": "important aspect",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important aspect（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_02",
+          "phrase": "important contribution",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important contribution（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_03",
+          "phrase": "important differences",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important differences（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_04",
+          "phrase": "important implications",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important implications（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_05",
+          "phrase": "important point",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important point（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_06",
+          "phrase": "important question",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important question（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_07",
+          "phrase": "important reason",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important reason（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_08",
+          "phrase": "important element",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important element（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_09",
+          "phrase": "important difference",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：important difference（重要的）"
+        },
+        {
+          "collocation_id": "C_V01231_10",
+          "phrase": "an important limitation",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an important limitation（重要的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01231"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：同一组名词也可与 significant 搭配；significant 不一定表示统计显著。",
+        "source_tags": [
+          "V01231",
+          "U11",
+          "U47",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01233",
+      "lemma": "impossible",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01233_S01",
+          "pos": "adj.",
+          "meaning_zh": "不可能的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：不可能的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Exact recovery is impossible under these assumptions.",
+          "example_zh": "在这些假设下，精确恢复不可能实现。",
+          "sentence_constituents_zh": "【紧凑主语】Exact recovery is impossible... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。 | 熟词生义与多义辨析：学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：不可能的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“impossible under the assumptions”精确表述“不可能的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“impossible under the assumptions”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "impossible",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "impossible"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01233_01",
+          "phrase": "impossible under the assumptions",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：impossible under the assumptions（不可能的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01233"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "source_tags": [
+          "V01233",
+          "U17",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01319",
+      "lemma": "incidence",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01319_S01",
+          "pos": "n.",
+          "meaning_zh": "事件发生频率",
+          "core_meaning_zh": "基础字面义：事件发生频率",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：事件发生频率；发生率（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The report states the incidence of newly recorded cases.",
+          "example_zh": "报告说明新记录病例的发生情况。",
+          "sentence_constituents_zh": "【紧凑主语】The report states the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "统计或医学中发生率需说明观察时间与分母，区别 prevalence。 | 熟词生义与多义辨析：词义与句法边界：统计或医学中发生率需说明观察时间与分母，区别 prevalence。"
+        },
+        {
+          "sense_id": "V01319_S02",
+          "pos": "n.",
+          "meaning_zh": "发生率",
+          "core_meaning_zh": "基础字面义：事件发生频率",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：事件发生频率；发生率（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The report states the incidence of newly recorded cases.",
+          "example_zh": "报告说明新记录病例的发生情况。",
+          "sentence_constituents_zh": "【紧凑主语】The report states the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "统计或医学中发生率需说明观察时间与分母，区别 prevalence。 | 熟词生义与多义辨析：词义与句法边界：统计或医学中发生率需说明观察时间与分母，区别 prevalence。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：事件发生频率",
+        "academic_target_sense_zh": "多义项/多词性完整映射：事件发生频率；发生率（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：统计或医学中发生率需说明观察时间与分母，区别 prevalence。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the incidence of”精确表述“事件发生频率；发生率”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the incidence of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "incidence",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "incidence"
+        ],
+        "variants": [
+          "incidence"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01319_01",
+          "phrase": "the incidence of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the incidence of（事件发生频率；发生率）"
+        },
+        {
+          "collocation_id": "C_V01319_02",
+          "phrase": "incidence rate",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：incidence rate（事件发生频率；发生率）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01319"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：统计或医学中发生率需说明观察时间与分母，区别 prevalence。",
+        "source_tags": [
+          "V01319",
+          "U33",
+          "AWL6词族:incidence",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01320",
+      "lemma": "include",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01320_S01",
+          "pos": "v.",
+          "meaning_zh": "包含",
+          "core_meaning_zh": "基础字面义：包含",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：包含；纳入（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The report includes a discussion of uncertainty.",
+          "example_zh": "报告包含对不确定性的讨论。",
+          "sentence_constituents_zh": "【紧凑主语】The report includes a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "include 不等于包括了所有内容。 | 熟词生义与多义辨析：词义与句法边界：include 不等于包括了所有内容。"
+        },
+        {
+          "sense_id": "V01320_S02",
+          "pos": "v.",
+          "meaning_zh": "纳入",
+          "core_meaning_zh": "基础字面义：包含",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：包含；纳入（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The report includes a discussion of uncertainty.",
+          "example_zh": "报告包含对不确定性的讨论。",
+          "sentence_constituents_zh": "【紧凑主语】The report includes a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "include 不等于包括了所有内容。 | 熟词生义与多义辨析：词义与句法边界：include 不等于包括了所有内容。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：包含",
+        "academic_target_sense_zh": "多义项/多词性完整映射：包含；纳入（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：include 不等于包括了所有内容。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“include a discussion of”精确表述“包含；纳入”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“include a discussion of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "include",
+        "third_person_singular": "includes",
+        "present_participle": "including",
+        "past_tense": "included",
+        "past_participle": "included",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "include"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01320_01",
+          "phrase": "include a discussion of",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：include a discussion of（包含；纳入）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01320"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：include 不等于包括了所有内容。",
+        "source_tags": [
+          "V01320",
+          "U03",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01330",
+      "lemma": "increase",
+      "pos": "v./n.",
+      "raw_pos": "v./n.",
+      "senses": [
+        {
+          "sense_id": "V01330_S01",
+          "pos": "v.",
+          "meaning_zh": "增加",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：增加；上升（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "There was an increase in recorded attendance.",
+          "example_zh": "记录的出勤人数增加了。",
+          "sentence_constituents_zh": "【紧凑主语】There was an increase... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "副词increasingly表示越来越；明确指标和范围。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：副词increasingly表示越来越；明确指标和范围。"
+        },
+        {
+          "sense_id": "V01330_S02",
+          "pos": "n.",
+          "meaning_zh": "上升",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：增加；上升（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "There was an increase in recorded attendance.",
+          "example_zh": "记录的出勤人数增加了。",
+          "sentence_constituents_zh": "【紧凑主语】There was an increase... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "副词increasingly表示越来越；明确指标和范围。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：副词increasingly表示越来越；明确指标和范围。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：增加；上升（v./n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：副词increasingly表示越来越；明确指标和范围。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an increase in”精确表述“增加；上升”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an increase in”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "increase",
+        "third_person_singular": "increases",
+        "present_participle": "increasing",
+        "past_tense": "increased",
+        "past_participle": "increased",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "increase"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01330_01",
+          "phrase": "an increase in",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：an increase in（增加；上升）"
+        },
+        {
+          "collocation_id": "C_V01330_02",
+          "phrase": "increase over time",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：increase over time（增加；上升）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01330",
+          "V01331"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：副词increasingly表示越来越；明确指标和范围。",
+        "source_tags": [
+          "V01330",
+          "U48",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01331",
+      "lemma": "increase",
+      "pos": "v./n.",
+      "raw_pos": "v./n.",
+      "senses": [
+        {
+          "sense_id": "V01331_S01",
+          "pos": "v.",
+          "meaning_zh": "增加",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：增加；增幅（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The count increased by ten, from twenty to thirty.",
+          "example_zh": "计数从二十增至三十，增加十。",
+          "sentence_constituents_zh": "【紧凑主语】The count increased by... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词 by 为变化量、to 为终值；名词 of 为变化量、in 为对象。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：动词 by 为变化量、to 为终值；名词 of 为变化量、in 为对象。"
+        },
+        {
+          "sense_id": "V01331_S02",
+          "pos": "n.",
+          "meaning_zh": "增幅",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：增加；增幅（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "The count increased by ten, from twenty to thirty.",
+          "example_zh": "计数从二十增至三十，增加十。",
+          "sentence_constituents_zh": "【紧凑主语】The count increased by... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词 by 为变化量、to 为终值；名词 of 为变化量、in 为对象。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：动词 by 为变化量、to 为终值；名词 of 为变化量、in 为对象。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：增加；增幅（v./n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：动词 by 为变化量、to 为终值；名词 of 为变化量、in 为对象。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“increase by”精确表述“增加；增幅”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“increase by”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "increase",
+        "third_person_singular": "increases",
+        "present_participle": "increasing",
+        "past_tense": "increased",
+        "past_participle": "increased",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "increase"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01331_01",
+          "phrase": "increase by",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：increase by（增加；增幅）"
+        },
+        {
+          "collocation_id": "C_V01331_02",
+          "phrase": "an increase of",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：an increase of（增加；增幅）"
+        },
+        {
+          "collocation_id": "C_V01331_03",
+          "phrase": "an increase in",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：an increase in（增加；增幅）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01330",
+        "G031",
+        "G011",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01330",
+          "V01331"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01330 v./n.] 增加；上升（例：There was an increase in recorded attendance.）；[V01331 v./n.] 增加；增幅（例：The count increased by ten, from twenty to thirty.） | 本条用法约束：动词 by 为变化量、to 为终值；名词 of 为变化量、in 为对象。",
+        "source_tags": [
+          "V01331",
+          "U35",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01336",
+      "lemma": "indicate",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01336_S01",
+          "pos": "v.",
+          "meaning_zh": "表明",
+          "core_meaning_zh": "基础字面义：表明",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：表明；提示（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The data indicate a difference between the groups.",
+          "example_zh": "数据表明两组存在差异。",
+          "sentence_constituents_zh": "【紧凑主语】The data indicate a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "是否存在因果关系需另外论证。 | 熟词生义与多义辨析：词义与句法边界：是否存在因果关系需另外论证。"
+        },
+        {
+          "sense_id": "V01336_S02",
+          "pos": "v.",
+          "meaning_zh": "提示",
+          "core_meaning_zh": "基础字面义：表明",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：表明；提示（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The data indicate a difference between the groups.",
+          "example_zh": "数据表明两组存在差异。",
+          "sentence_constituents_zh": "【紧凑主语】The data indicate a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "是否存在因果关系需另外论证。 | 熟词生义与多义辨析：词义与句法边界：是否存在因果关系需另外论证。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：表明",
+        "academic_target_sense_zh": "多义项/多词性完整映射：表明；提示（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：是否存在因果关系需另外论证。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“indicate a difference”精确表述“表明；提示”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“indicate a difference”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "indicate",
+        "third_person_singular": "indicates",
+        "present_participle": "indicating",
+        "past_tense": "indicated",
+        "past_participle": "indicated",
+        "plural": null,
+        "derived_forms": [
+          "indicate"
+        ],
+        "variants": [
+          "indicate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01336_01",
+          "phrase": "indicate a difference",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：indicate a difference（表明；提示）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01336"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：是否存在因果关系需另外论证。",
+        "source_tags": [
+          "V01336",
+          "U42",
+          "AWL1词族:indicate",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01340",
+      "lemma": "induce",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01340_S01",
+          "pos": "v.",
+          "meaning_zh": "诱发",
+          "core_meaning_zh": "基础字面义：诱发",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：诱发；导致（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The hypothetical protocol records symptoms that treatment might induce.",
+          "example_zh": "假设规程记录治疗可能诱发的症状。",
+          "sentence_constituents_zh": "【紧凑主语】The hypothetical protocol records... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常见医学搭配；不用此例声称真实药物副作用。 | 熟词生义与多义辨析：词义与句法边界：常见医学搭配；不用此例声称真实药物副作用。"
+        },
+        {
+          "sense_id": "V01340_S02",
+          "pos": "v.",
+          "meaning_zh": "导致",
+          "core_meaning_zh": "基础字面义：诱发",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：诱发；导致（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The hypothetical protocol records symptoms that treatment might induce.",
+          "example_zh": "假设规程记录治疗可能诱发的症状。",
+          "sentence_constituents_zh": "【紧凑主语】The hypothetical protocol records... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常见医学搭配；不用此例声称真实药物副作用。 | 熟词生义与多义辨析：词义与句法边界：常见医学搭配；不用此例声称真实药物副作用。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：诱发",
+        "academic_target_sense_zh": "多义项/多词性完整映射：诱发；导致（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：常见医学搭配；不用此例声称真实药物副作用。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“induce nausea”精确表述“诱发；导致”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“induce nausea”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "induce",
+        "third_person_singular": "induces",
+        "present_participle": "inducing",
+        "past_tense": "induced",
+        "past_participle": "induced",
+        "plural": null,
+        "derived_forms": [
+          "induce"
+        ],
+        "variants": [
+          "induce"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01340_01",
+          "phrase": "induce nausea",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：induce nausea（诱发；导致）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01340"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：常见医学搭配；不用此例声称真实药物副作用。",
+        "source_tags": [
+          "V01340",
+          "U37",
+          "AWL8词族:induce",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01342",
+      "lemma": "inevitable",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01342_S01",
+          "pos": "adj.",
+          "meaning_zh": "无法避免的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：无法避免的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Without any power source, shutdown is an inevitable consequence.",
+          "example_zh": "没有任何电源时，关机是不可避免的结果。",
+          "sentence_constituents_zh": "【前置状语/条件框架】Without any power source + 【主句核心主谓宾/表】shutdown is an inevitable consequence. （目标词“inevitable”作 adj. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "强确定性表达；不能只因存在风险就写 inevitable。 | 熟词生义与多义辨析：学术语境与搭配约束：强确定性表达；不能只因存在风险就写 inevitable。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：无法避免的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：强确定性表达；不能只因存在风险就写 inevitable。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inevitable consequence”精确表述“无法避免的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inevitable consequence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inevitable",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "inevitable"
+        ],
+        "variants": [
+          "inevitable"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01342_01",
+          "phrase": "inevitable consequence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable consequence（无法避免的）"
+        },
+        {
+          "collocation_id": "C_V01342_02",
+          "phrase": "inevitable outcome",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable outcome（无法避免的）"
+        },
+        {
+          "collocation_id": "C_V01342_03",
+          "phrase": "inevitable collapse",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable collapse（无法避免的）"
+        },
+        {
+          "collocation_id": "C_V01342_04",
+          "phrase": "inevitable decline",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable decline（无法避免的）"
+        },
+        {
+          "collocation_id": "C_V01342_05",
+          "phrase": "inevitable conflict",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable conflict（无法避免的）"
+        },
+        {
+          "collocation_id": "C_V01342_06",
+          "phrase": "inevitable effect",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable effect（无法避免的）"
+        },
+        {
+          "collocation_id": "C_V01342_07",
+          "phrase": "inevitable developments",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：inevitable developments（无法避免的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01342"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：强确定性表达；不能只因存在风险就写 inevitable。",
+        "source_tags": [
+          "V01342",
+          "U11",
+          "AWL8词族:inevitable",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01343",
+      "lemma": "infer",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01343_S01",
+          "pos": "v.",
+          "meaning_zh": "根据证据推断",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：根据证据推断（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We cannot infer causation from this association alone.",
+          "example_zh": "仅凭这种关联，我们不能推断因果关系。",
+          "sentence_constituents_zh": "【紧凑主语】We cannot infer causation... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "infer 指根据证据作推断，作者或读者都可以 infer；imply 指表述或证据暗示某个结论，不直接说出它。 | 熟词生义与多义辨析：学术语境与搭配约束：infer 指根据证据作推断，作者或读者都可以 infer；imply 指表述或证据暗示某个结论，不直接说出它。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：根据证据推断（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：infer 指根据证据作推断，作者或读者都可以 infer；imply 指表述或证据暗示某个结论，不直接说出它。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“infer from evidence”精确表述“根据证据推断”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“infer from evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "infer",
+        "third_person_singular": "infers",
+        "present_participle": "infering",
+        "past_tense": "infered",
+        "past_participle": "infered",
+        "plural": null,
+        "derived_forms": [
+          "infer"
+        ],
+        "variants": [
+          "infer"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01343_01",
+          "phrase": "infer from evidence",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：infer from evidence（根据证据推断）"
+        },
+        {
+          "collocation_id": "C_V01343_02",
+          "phrase": "infer that",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：infer that（根据证据推断）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01343"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：infer 指根据证据作推断，作者或读者都可以 infer；imply 指表述或证据暗示某个结论，不直接说出它。",
+        "source_tags": [
+          "V01343",
+          "U31",
+          "AWL7词族:infer",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01346",
+      "lemma": "infinite",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01346_S01",
+          "pos": "adj.",
+          "meaning_zh": "无限的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：无限的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The definition considers an infinite sequence of forecasts.",
+          "example_zh": "该定义考虑无限的预测序列。",
+          "sentence_constituents_zh": "【紧凑主语】The definition considers an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "数学无限，不能与 very large 等同。 | 熟词生义与多义辨析：学术语境与搭配约束：数学无限，不能与 very large 等同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：无限的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：数学无限，不能与 very large 等同。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“an infinite sequence”精确表述“无限的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“an infinite sequence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "infinite",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "finite"
+        ],
+        "variants": [
+          "infinite"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01346_01",
+          "phrase": "an infinite sequence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：an infinite sequence（无限的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01346"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：数学无限，不能与 very large 等同。",
+        "source_tags": [
+          "V01346",
+          "U45",
+          "AWL7词族:finite",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01347",
+      "lemma": "influence",
+      "pos": "v./n.",
+      "raw_pos": "v./n.",
+      "senses": [
+        {
+          "sense_id": "V01347_S01",
+          "pos": "v.",
+          "meaning_zh": "影响",
+          "core_meaning_zh": "基础字面义：影响",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：影响（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The availability of records may influence the research design.",
+          "example_zh": "记录是否可用可能影响研究设计。",
+          "sentence_constituents_zh": "【紧凑主语】The availability of records... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "及物动词；noun influence on。 | 熟词生义与多义辨析：词义与句法边界：及物动词；noun influence on。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：影响",
+        "academic_target_sense_zh": "多义项/多词性完整映射：影响（v./n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：及物动词；noun influence on。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“influence a decision”精确表述“影响”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“influence a decision”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "influence",
+        "third_person_singular": "influences",
+        "present_participle": "influencing",
+        "past_tense": "influenced",
+        "past_participle": "influenced",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "influence"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01347_01",
+          "phrase": "influence a decision",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：influence a decision（影响）"
+        },
+        {
+          "collocation_id": "C_V01347_02",
+          "phrase": "have an influence on",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：have an influence on（影响）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01347"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：及物动词；noun influence on。",
+        "source_tags": [
+          "V01347",
+          "U03",
+          "U37",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01350",
+      "lemma": "inform",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01350_S01",
+          "pos": "v.",
+          "meaning_zh": "为……提供依据",
+          "core_meaning_zh": "v. 通知某人",
+          "extended_or_contextual_meaning_zh": "v. 为（下游决策、策略设计或先验分布）提供信息支撑、指导（The findings may inform future policy decisions）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The findings may inform future policy decisions.",
+          "example_zh": "发现可能为今后的政策决定提供依据。",
+          "sentence_constituents_zh": "【紧凑主语】The findings may inform... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "此义宾语常为 policy 或 decision；不等同证明决策正确。 | 熟词生义与多义辨析：inform policy / inform model design 意为“为政策/模型设计提供实证或先验依据”，绝不是“通知模型”。"
+        },
+        {
+          "sense_id": "V01350_S02",
+          "pos": "v.",
+          "meaning_zh": "影响",
+          "core_meaning_zh": "v. 通知某人",
+          "extended_or_contextual_meaning_zh": "v. 为（下游决策、策略设计或先验分布）提供信息支撑、指导（The findings may inform future policy decisions）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The findings may inform future policy decisions.",
+          "example_zh": "发现可能为今后的政策决定提供依据。",
+          "sentence_constituents_zh": "【紧凑主语】The findings may inform... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "此义宾语常为 policy 或 decision；不等同证明决策正确。 | 熟词生义与多义辨析：inform policy / inform model design 意为“为政策/模型设计提供实证或先验依据”，绝不是“通知模型”。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "v. 通知某人",
+        "academic_target_sense_zh": "v. 为（下游决策、策略设计或先验分布）提供信息支撑、指导（The findings may inform future policy decisions）",
+        "cross_sense_and_usage_trap_zh": "inform policy / inform model design 意为“为政策/模型设计提供实证或先验依据”，绝不是“通知模型”。",
+        "informal_english_substitute": "guide with evidence"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“inform policy”精确表述“为……提供依据；影响”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“inform policy”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "inform",
+        "third_person_singular": "informs",
+        "present_participle": "informing",
+        "past_tense": "informed",
+        "past_participle": "informed",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "inform"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01350_01",
+          "phrase": "inform policy",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：inform policy（为……提供依据；影响）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01350"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "inform policy / inform model design 意为“为政策/模型设计提供实证或先验依据”，绝不是“通知模型”。",
+        "source_tags": [
+          "V01350",
+          "U24",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01356",
+      "lemma": "infrastructure",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01356_S01",
+          "pos": "n.",
+          "meaning_zh": "基础设施",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：基础设施（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The budget must cover the cost of maintaining infrastructure.",
+          "example_zh": "预算须覆盖基础设施维护成本。",
+          "sentence_constituents_zh": "【紧凑主语】The budget must cover... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数，不用 infrastructures 泛指基础设施。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数，不用 infrastructures 泛指基础设施。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：基础设施（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数，不用 infrastructures 泛指基础设施。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“maintain infrastructure”精确表述“基础设施”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“maintain infrastructure”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "infrastructure",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "infrastructure"
+        ],
+        "variants": [
+          "infrastructure"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01356_01",
+          "phrase": "maintain infrastructure",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：maintain infrastructure（基础设施）"
+        },
+        {
+          "collocation_id": "C_V01356_02",
+          "phrase": "transport infrastructure",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：transport infrastructure（基础设施）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01356",
+          "V01357",
+          "V01358"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数，不用 infrastructures 泛指基础设施。",
+        "source_tags": [
+          "V01356",
+          "AWL8词族:infrastructure",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01357",
+      "lemma": "infrastructure",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01357_S01",
+          "pos": "n.",
+          "meaning_zh": "基础设施",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：基础设施；基本系统（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Shared research infrastructure supports secure data storage.",
+          "example_zh": "共享研究基础设施支持安全的数据存储。",
+          "sentence_constituents_zh": "【紧凑主语】Shared research infrastructure supports... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；不限于道路电力。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；不限于道路电力。"
+        },
+        {
+          "sense_id": "V01357_S02",
+          "pos": "n.",
+          "meaning_zh": "基本系统",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：基础设施；基本系统（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Shared research infrastructure supports secure data storage.",
+          "example_zh": "共享研究基础设施支持安全的数据存储。",
+          "sentence_constituents_zh": "【紧凑主语】Shared research infrastructure supports... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；不限于道路电力。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；不限于道路电力。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：基础设施；基本系统（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；不限于道路电力。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“research infrastructure”精确表述“基础设施；基本系统”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“research infrastructure”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "infrastructure",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "infrastructure"
+        ],
+        "variants": [
+          "infrastructure"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01357_01",
+          "phrase": "research infrastructure",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：research infrastructure（基础设施；基本系统）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01356",
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01356",
+          "V01357",
+          "V01358"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；不限于道路电力。",
+        "source_tags": [
+          "V01357",
+          "U45",
+          "AWL8词族:infrastructure",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01358",
+      "lemma": "infrastructure",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01358_S01",
+          "pos": "n.",
+          "meaning_zh": "基础设施",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：基础设施；支撑体系（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The grant supports research infrastructure rather than a single experiment.",
+          "example_zh": "资助支持研究支撑体系，而非仅一项实验。",
+          "sentence_constituents_zh": "【紧凑主语】The grant supports research... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；可包括系统和服务。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；可包括系统和服务。"
+        },
+        {
+          "sense_id": "V01358_S02",
+          "pos": "n.",
+          "meaning_zh": "支撑体系",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：基础设施；支撑体系（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The grant supports research infrastructure rather than a single experiment.",
+          "example_zh": "资助支持研究支撑体系，而非仅一项实验。",
+          "sentence_constituents_zh": "【紧凑主语】The grant supports research... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；可包括系统和服务。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；可包括系统和服务。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：基础设施；支撑体系（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；可包括系统和服务。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“research infrastructure”精确表述“基础设施；支撑体系”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“research infrastructure”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "infrastructure",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "infrastructure"
+        ],
+        "variants": [
+          "infrastructure"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01358_01",
+          "phrase": "research infrastructure",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：research infrastructure（基础设施；支撑体系）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01357",
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01356",
+          "V01357",
+          "V01358"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01356 n.] 基础设施（例：The budget must cover the cost of maintaining infrastructure.）；[V01357 n.] 基础设施；基本系统（例：Shared research infrastructure supports secure data storage.）；[V01358 n.] 基础设施；支撑体系（例：The grant supports research infrastructure rather than a single experiment.） | 本条用法约束：通常不可数；可包括系统和服务。",
+        "source_tags": [
+          "V01358",
+          "U24",
+          "AWL8词族:infrastructure",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01366",
+      "lemma": "initial",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01366_S01",
+          "pos": "adj.",
+          "meaning_zh": "初始的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：初始的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The initial phase focused on recruitment.",
+          "example_zh": "初始阶段侧重招募。",
+          "sentence_constituents_zh": "【紧凑主语】The initial phase focused... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "阶段顺序需符合研究实际。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01366 adj.] 初始的（例：The initial phase focused on recruitment.）；[V01367 adj.] 最初的（例：The initial phase involved pilot interviews.） | 本条用法约束：阶段顺序需符合研究实际。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：初始的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01366 adj.] 初始的（例：The initial phase focused on recruitment.）；[V01367 adj.] 最初的（例：The initial phase involved pilot interviews.） | 本条用法约束：阶段顺序需符合研究实际。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the initial phase”精确表述“初始的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the initial phase”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "initial",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "initial"
+        ],
+        "variants": [
+          "initial"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01366_01",
+          "phrase": "the initial phase",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：the initial phase（初始的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01366",
+          "V01367"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01366 adj.] 初始的（例：The initial phase focused on recruitment.）；[V01367 adj.] 最初的（例：The initial phase involved pilot interviews.） | 本条用法约束：阶段顺序需符合研究实际。",
+        "source_tags": [
+          "V01366",
+          "U36",
+          "AWL3词族:initial",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01367",
+      "lemma": "initial",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01367_S01",
+          "pos": "adj.",
+          "meaning_zh": "最初的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：最初的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The initial phase involved pilot interviews.",
+          "example_zh": "最初阶段包括试访谈。",
+          "sentence_constituents_zh": "【紧凑主语】The initial phase involved... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常与 phase、assessment、results 搭配。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01366 adj.] 初始的（例：The initial phase focused on recruitment.）；[V01367 adj.] 最初的（例：The initial phase involved pilot interviews.） | 本条用法约束：常与 phase、assessment、results 搭配。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：最初的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01366 adj.] 初始的（例：The initial phase focused on recruitment.）；[V01367 adj.] 最初的（例：The initial phase involved pilot interviews.） | 本条用法约束：常与 phase、assessment、results 搭配。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the initial phase”精确表述“最初的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the initial phase”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "initial",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "initial"
+        ],
+        "variants": [
+          "initial"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01367_01",
+          "phrase": "the initial phase",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：the initial phase（最初的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01366",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01366",
+          "V01367"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01366 adj.] 初始的（例：The initial phase focused on recruitment.）；[V01367 adj.] 最初的（例：The initial phase involved pilot interviews.） | 本条用法约束：常与 phase、assessment、results 搭配。",
+        "source_tags": [
+          "V01367",
+          "U36",
+          "AWL3词族:initial",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01370",
+      "lemma": "input",
+      "pos": "v./n.",
+      "raw_pos": "v./n.",
+      "senses": [
+        {
+          "sense_id": "V01370_S01",
+          "pos": "v.",
+          "meaning_zh": "输入",
+          "core_meaning_zh": "基础字面义：输入",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：输入；输入数据（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Staff input the responses into a database.",
+          "example_zh": "工作人员将回答输入数据库。",
+          "sentence_constituents_zh": "【紧凑主语】Staff input the responses... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "input X into Y；名词可指输入内容。 | 熟词生义与多义辨析：词义与句法边界：input X into Y；名词可指输入内容。"
+        },
+        {
+          "sense_id": "V01370_S02",
+          "pos": "n.",
+          "meaning_zh": "输入数据",
+          "core_meaning_zh": "基础字面义：输入",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：输入；输入数据（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Staff input the responses into a database.",
+          "example_zh": "工作人员将回答输入数据库。",
+          "sentence_constituents_zh": "【紧凑主语】Staff input the responses... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "input X into Y；名词可指输入内容。 | 熟词生义与多义辨析：词义与句法边界：input X into Y；名词可指输入内容。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：输入",
+        "academic_target_sense_zh": "多义项/多词性完整映射：输入；输入数据（v./n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：input X into Y；名词可指输入内容。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“input data into a database”精确表述“输入；输入数据”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“input data into a database”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "input",
+        "third_person_singular": "inputs",
+        "present_participle": "inputing",
+        "past_tense": "inputed",
+        "past_participle": "inputed",
+        "plural": null,
+        "derived_forms": [
+          "input"
+        ],
+        "variants": [
+          "input"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01370_01",
+          "phrase": "input data into a database",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：input data into a database（输入；输入数据）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01370"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：input X into Y；名词可指输入内容。",
+        "source_tags": [
+          "V01370",
+          "U41",
+          "AWL6词族:input",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01373",
+      "lemma": "insert",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V01373_S01",
+          "pos": "v.",
+          "meaning_zh": "插入",
+          "core_meaning_zh": "基础字面义：插入",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：插入；加入（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Insert a footnote into the document to identify the source.",
+          "example_zh": "在文档中插入脚注以标明来源。",
+          "sentence_constituents_zh": "【紧凑主语】Insert a footnote into... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "insert X into Y。 | 熟词生义与多义辨析：词义与句法边界：insert X into Y。"
+        },
+        {
+          "sense_id": "V01373_S02",
+          "pos": "v.",
+          "meaning_zh": "加入",
+          "core_meaning_zh": "基础字面义：插入",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：插入；加入（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "Insert a footnote into the document to identify the source.",
+          "example_zh": "在文档中插入脚注以标明来源。",
+          "sentence_constituents_zh": "【紧凑主语】Insert a footnote into... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "insert X into Y。 | 熟词生义与多义辨析：词义与句法边界：insert X into Y。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：插入",
+        "academic_target_sense_zh": "多义项/多词性完整映射：插入；加入（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：insert X into Y。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“insert a footnote into a document”精确表述“插入；加入”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“insert a footnote into a document”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "insert",
+        "third_person_singular": "inserts",
+        "present_participle": "inserting",
+        "past_tense": "inserted",
+        "past_participle": "inserted",
+        "plural": null,
+        "derived_forms": [
+          "insert"
+        ],
+        "variants": [
+          "insert"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01373_01",
+          "phrase": "insert a footnote into a document",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：insert a footnote into a document（插入；加入）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01373"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：insert X into Y。",
+        "source_tags": [
+          "V01373",
+          "U41",
+          "AWL7词族:insert",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V01375",
+      "lemma": "insight",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01375_S01",
+          "pos": "n.",
+          "meaning_zh": "帮助理解的认识",
+          "core_meaning_zh": "基础字面义：帮助理解的认识",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：帮助理解的认识；见解（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The interviews provide insights into residents' transport needs.",
+          "example_zh": "访谈帮助理解居民的交通需求。",
+          "sentence_constituents_zh": "【紧凑主语】The interviews provide insights... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "insights into，不写 insights of 表示对问题的认识。 | 熟词生义与多义辨析：词义与句法边界：insights into，不写 insights of 表示对问题的认识。"
+        },
+        {
+          "sense_id": "V01375_S02",
+          "pos": "n.",
+          "meaning_zh": "见解",
+          "core_meaning_zh": "基础字面义：帮助理解的认识",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：帮助理解的认识；见解（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The interviews provide insights into residents' transport needs.",
+          "example_zh": "访谈帮助理解居民的交通需求。",
+          "sentence_constituents_zh": "【紧凑主语】The interviews provide insights... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "insights into，不写 insights of 表示对问题的认识。 | 熟词生义与多义辨析：词义与句法边界：insights into，不写 insights of 表示对问题的认识。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：帮助理解的认识",
+        "academic_target_sense_zh": "多义项/多词性完整映射：帮助理解的认识；见解（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：insights into，不写 insights of 表示对问题的认识。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“provide insights into a problem”精确表述“帮助理解的认识；见解”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“provide insights into a problem”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "insight",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "insights",
+        "derived_forms": [
+          "insight"
+        ],
+        "variants": [
+          "insight"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01375_01",
+          "phrase": "provide insights into a problem",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：provide insights into a problem（帮助理解的认识；见解）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01375"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：insights into，不写 insights of 表示对问题的认识。",
+        "source_tags": [
+          "V01375",
+          "U28",
+          "AWL9词族:insight",
+          "CET4基础主词"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "archive",
+      "meaning_zh": "档案；档案馆（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "rural",
+      "meaning_zh": "农村的；乡村的（adj.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "protocol",
+      "meaning_zh": "研究方案；规程（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G021",
+      "name": "句子改写核心规范：语义等价、限定守恒与消除四大改写偏差",
+      "category": "F_sentence_rewriting_rules",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G014",
+        "G018"
+      ],
+      "explanation_zh": "句子改写必须在改变句法或词汇结构的同时，100% 保持原句的事实范围、否定、时间、程度和认知确定性，并能准确诊断语法错误、表达不自然、语域不当与语义扭曲。",
+      "rules": [
+        "限定守恒：原句的 provided that, in this sample, under Gaussian-kernel assumptions, may, arguably 等在改写后必须保留等价限定。",
+        "多路径自然改写：支持动词 <-> 派生名词转换、从句 <-> 介词短语转换、主动 <-> 被动焦点转换，提供多个自然可接受版本。"
+      ],
+      "examples": [
+        "Source: Missing records account for the discrepancy between the totals.\nRewrite 1: The discrepancy between the totals is attributable to missing records.\nRewrite 2: Missing records explain why the two totals differ."
+      ],
+      "common_errors": [
+        "在改写中偷换概念或将相关关系升级为因果结论。"
+      ]
+    },
+    {
+      "grammar_id": "G033",
+      "name": "去除“AI 味（Anti-AI-ese）”与过度修辞：用具体机制、指标与实例替代空洞夸张",
+      "category": "E_anti_ai_style_and_concreteness",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "explanation_zh": "典型 AI 生成文本充斥着空洞的套话与浮夸副词/形容词（如 delve into, testament to, tapestry, underscores the paramount importance, revolutionize, unparalleled, groundbreaking），却缺乏具体技术细节。地道顶会论文（NeurIPS/ICLR/CoRL）与高分雅思/托福/六级写作追求“低修辞密度、高信息密度”：用具体动词、明确指标和真实实例说话。",
+      "rules": [
+        "删除无实质信息的“清嗓子”套话（Throat-clearing）：少用 *It is worth noting that / It is undeniable that / In the realm of modern artificial intelligence*，直接陈述事实主干。",
+        "禁止“只有夸张形容词而不给实例或数据支撑”：不要写 *The model achieves an enormous, unparalleled improvement*，而要写 *The proposed parametrization reduces MSE by 8.4% relative to the seasonal naive baseline on hourly electricity demand*。",
+        "优先选用朴素、精准的单音节或核心学术动词（examine, test, compare, constrain, decompose, bound, mitigate）替代故作高深的修辞词。"
+      ],
+      "examples": [
+        "AI 腔/空洞夸张：*This groundbreaking paradigm delves into the intricate tapestry of temporal dynamics and achieves unparalleled accuracy.*\n地道学术改写：*This model decomposes the series into trend and seasonal components, achieving lower forecasting error than the linear baseline on three benchmarks.*",
+        "六级/雅思空洞句：*Technology has an enormous impact on education in many ways.*\n地道具体展开：*Asynchronous learning platforms allow part-time students to review lecture recordings at their own pace, reducing scheduling conflicts.*"
+      ],
+      "common_errors": [
+        "堆砌 paramount, unprecedented, revolutionize, multifaceted 等宣传式词汇，违反客观学术语域。",
+        "只下宏大判断（如 *This method is very efficient*）而不给出具体的计算复杂度、内存占用或延迟数据。"
+      ]
+    },
+    {
+      "grammar_id": "G003",
+      "name": "主谓一致、数量短语一致与邻近名词干扰排除",
+      "category": "C2_subject_verb_agreement",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G001",
+        "G002"
+      ],
+      "explanation_zh": "复杂主语的主谓一致取决于核心名词（Head Noun）而非后置介词短语中的邻近名词。尤其需区分 a number of 与 the number of，以及 along with / accompanied by / as well as 连接的附加成分。",
+      "rules": [
+        "the number of + 复数名词作主语，谓语用单数；a (large/small) number of + 复数名词作主语，谓语用复数。",
+        "主语后接 along with, together with, accompanied by, as well as 时，谓语动词与前面的核心主语保持一致。",
+        "the bulk of / a proportion of / a percentage of + 名词作主语时，谓语单复数取决于 of 后的名词是不可数/单数还是复数可数名词。",
+        "means, series 单复数同形，谓语由限定词决定（a series of observations was vs two series were）。"
+      ],
+      "examples": [
+        "The number of completed interviews was recorded separately.",
+        "A small number of respondents left this item blank.",
+        "The bulk of the evidence comes from observational studies.",
+        "One of the surveys was conducted online."
+      ],
+      "common_errors": [
+        "被 of 短语中的复数名词误导：*The analysis of interview responses show（应为 shows）。",
+        "把 as well as 误当成 and 改变主语单复数。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP002",
+      "name": "精确区分可数样本量与不可数开销/证据",
+      "function_category": "describing_methods_and_quantities",
+      "stage": 1,
+      "first_day": "day_0002",
+      "first_day_num": 2,
+      "template": "While a large number of [plural countable nouns] were collected, the procedure required only a small amount of [uncountable noun].",
+      "explanation_zh": "在数据集与实验开销描述中准确搭配可数与不可数量词。",
+      "register": "general_academic",
+      "examples": [
+        "A large number of records still require checking.",
+        "The protocol requires a small amount of additional information."
+      ],
+      "common_errors": [
+        "*a great deal of participants / *an amount of records。"
+      ],
+      "prerequisites": [
+        "G002"
+      ]
+    },
+    {
+      "pattern_id": "EP005",
+      "name": "描述系统模块、数据集或分类体系的构成",
+      "function_category": "classification_and_composition",
+      "stage": 1,
+      "first_day": "day_0008",
+      "first_day_num": 8,
+      "template": "[Whole System/Dataset] consists of / comprises [N] components, whereas [Subset] accounts for / constitutes [Proportion].",
+      "explanation_zh": "用主动语态的 consist of / comprise 表整体由部分组成，用 constitute / account for 表部分占整体的比例。",
+      "register": "formal_academic",
+      "examples": [
+        "The questionnaire consists of three sections.",
+        "Missing responses account for a small proportion of the records."
+      ],
+      "common_errors": [
+        "*is consisted of / *comprise of。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G011"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00025",
+        "lemma": "abstract",
+        "pos": "n.",
+        "meaning_zh": "摘要",
+        "polysemy_trap_zh": "一词多词性多义：作形容词指抽象概念，作可数名词指论文摘要（摘要中的指标结论必须与正文实验表严格一致）。 | 词表跨单元多义对比：[V00024 adj.] 抽象的（例：Equity is an abstract concept that requires an operational definition.）；[V00025 n.] 摘要（例：The abstract states the study aim and its principal limitation.）",
+        "key_collocations": [
+          "a structured abstract",
+          "write an abstract"
+        ],
+        "example_en": "The abstract states the study aim and its principal limitation.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00026",
+        "lemma": "abundant",
+        "pos": "adj.",
+        "meaning_zh": "大量的",
+        "polysemy_trap_zh": "学术语境与搭配约束：说明数量多，未必质量高。",
+        "key_collocations": [
+          "abundant evidence"
+        ],
+        "example_en": "There is abundant evidence that the archive contains duplicate records.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00028",
+        "lemma": "access",
+        "pos": "n.",
+        "meaning_zh": "使用或获取的机会",
+        "polysemy_trap_zh": "词性与介词铁律：作名词必须接介词 to（access to services）；作动词直接接宾语（accessed the database），严禁写 *accessed to the database。 | 词表跨单元多义对比：[V00028 n.] 使用或获取的机会（例：Opening hours are only one factor affecting access to services.）；[V00029 n.] 获取或使用的机会（例：Travel costs can restrict access to education.）；[V00030 v./n.] 访问（动词）；使用、查阅的机会或权限（名词）（例：The team accessed the database before the policy changed.）",
+        "key_collocations": [
+          "access to services"
+        ],
+        "example_en": "Opening hours are only one factor affecting access to services.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00029",
+        "lemma": "access",
+        "pos": "n.",
+        "meaning_zh": "获取或使用的机会",
+        "polysemy_trap_zh": "词性与介词铁律：作名词必须接介词 to（access to services）；作动词直接接宾语（accessed the database），严禁写 *accessed to the database。 | 词表跨单元多义对比：[V00028 n.] 使用或获取的机会（例：Opening hours are only one factor affecting access to services.）；[V00029 n.] 获取或使用的机会（例：Travel costs can restrict access to education.）；[V00030 v./n.] 访问（动词）；使用、查阅的机会或权限（名词）（例：The team accessed the database before the policy changed.）",
+        "key_collocations": [
+          "access to education"
+        ],
+        "example_en": "Travel costs can restrict access to education.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00030",
+        "lemma": "access",
+        "pos": "v./n.",
+        "meaning_zh": "访问（动词）",
+        "polysemy_trap_zh": "词性与介词铁律：作名词必须接介词 to（access to services）；作动词直接接宾语（accessed the database），严禁写 *accessed to the database。 | 词表跨单元多义对比：[V00028 n.] 使用或获取的机会（例：Opening hours are only one factor affecting access to services.）；[V00029 n.] 获取或使用的机会（例：Travel costs can restrict access to education.）；[V00030 v./n.] 访问（动词）；使用、查阅的机会或权限（名词）（例：The team accessed the database before the policy changed.）",
+        "key_collocations": [
+          "access a database"
+        ],
+        "example_en": "The team accessed the database before the policy changed.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00033",
+        "lemma": "accident",
+        "pos": "n.",
+        "meaning_zh": "事故，意外事件",
+        "polysemy_trap_zh": "学术语境与搭配约束：可数名词；by accident 表示意外地。",
+        "key_collocations": [
+          "an accident",
+          "by accident"
+        ],
+        "example_en": "The sample was damaged by accident during transport.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00036",
+        "lemma": "accommodate",
+        "pos": "v.",
+        "meaning_zh": "容纳",
+        "polysemy_trap_zh": "熟词生义高频词：在机器学习与方法论语境中指“（模型/框架）兼容或纳入新特征/异质性”，切勿译为“提供住宿”；注意双 c 双 m 拼写。 | 词表跨单元多义对比：[V00036 v.] 容纳；调整以适应（例：The framework was revised to accommodate new evidence.）；[V00037 v.] 容纳；适应；在方法或设计中纳入考虑（例：The revised protocol accommodates participants who cannot attend in person.）",
+        "key_collocations": [
+          "accommodate new evidence",
+          "accommodate different approaches"
+        ],
+        "example_en": "The framework was revised to accommodate new evidence.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00037",
+        "lemma": "accommodate",
+        "pos": "v.",
+        "meaning_zh": "容纳",
+        "polysemy_trap_zh": "熟词生义高频词：在机器学习与方法论语境中指“（模型/框架）兼容或纳入新特征/异质性”，切勿译为“提供住宿”；注意双 c 双 m 拼写。 | 词表跨单元多义对比：[V00036 v.] 容纳；调整以适应（例：The framework was revised to accommodate new evidence.）；[V00037 v.] 容纳；适应；在方法或设计中纳入考虑（例：The revised protocol accommodates participants who cannot attend in person.）",
+        "key_collocations": [
+          "accommodate variation",
+          "accommodate different needs"
+        ],
+        "example_en": "The revised protocol accommodates participants who cannot attend in person.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00046",
+        "lemma": "accountable",
+        "pos": "adj.",
+        "meaning_zh": "应负责的",
+        "polysemy_trap_zh": "学术语境与搭配约束：accountable for 行为/决定，to 向谁负责。",
+        "key_collocations": [
+          "accountable for decisions"
+        ],
+        "example_en": "The research team remains accountable for the reported conclusions.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00047",
+        "lemma": "accumulate",
+        "pos": "v.",
+        "meaning_zh": "逐渐积累",
+        "polysemy_trap_zh": "学术语境与搭配约束：此处不及物；单数 evidence accumulates。",
+        "key_collocations": [
+          "evidence accumulates"
+        ],
+        "example_en": "Evidence accumulates as independent studies are published.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00052",
+        "lemma": "accurate",
+        "pos": "adj.",
+        "meaning_zh": "准确的",
+        "polysemy_trap_zh": "学术语境与搭配约束：修饰 measurement/estimate；名词为 accuracy，副词为 accurately。",
+        "key_collocations": [
+          "accurate measurement",
+          "an accurate measurement",
+          "accurate measurements"
+        ],
+        "example_en": "Accurate measurements are essential for a useful comparison.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00054",
+        "lemma": "acknowledge",
+        "pos": "v.",
+        "meaning_zh": "承认",
+        "polysemy_trap_zh": "acknowledge a limitation 体现科学严谨性，不等于推翻全文核心贡献。 | 词表跨单元多义对比：[V00054 v.] 承认（例：The conclusion acknowledges the limitations of the evidence.）；[V00055 v.] 承认；认可（例：The authors acknowledge uncertainty in the estimates.）；[V00056 v.] 承认；说明（例：The authors acknowledge that the sample excludes rural clinics.）",
+        "key_collocations": [
+          "acknowledge limitations"
+        ],
+        "example_en": "The conclusion acknowledges the limitations of the evidence.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00055",
+        "lemma": "acknowledge",
+        "pos": "v.",
+        "meaning_zh": "承认",
+        "polysemy_trap_zh": "acknowledge a limitation 体现科学严谨性，不等于推翻全文核心贡献。 | 词表跨单元多义对比：[V00054 v.] 承认（例：The conclusion acknowledges the limitations of the evidence.）；[V00055 v.] 承认；认可（例：The authors acknowledge uncertainty in the estimates.）；[V00056 v.] 承认；说明（例：The authors acknowledge that the sample excludes rural clinics.）",
+        "key_collocations": [
+          "acknowledge uncertainty"
+        ],
+        "example_en": "The authors acknowledge uncertainty in the estimates.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00056",
+        "lemma": "acknowledge",
+        "pos": "v.",
+        "meaning_zh": "承认",
+        "polysemy_trap_zh": "acknowledge a limitation 体现科学严谨性，不等于推翻全文核心贡献。 | 词表跨单元多义对比：[V00054 v.] 承认（例：The conclusion acknowledges the limitations of the evidence.）；[V00055 v.] 承认；认可（例：The authors acknowledge uncertainty in the estimates.）；[V00056 v.] 承认；说明（例：The authors acknowledge that the sample excludes rural clinics.）",
+        "key_collocations": [
+          "acknowledge a limitation"
+        ],
+        "example_en": "The authors acknowledge that the sample excludes rural clinics.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00058",
+        "lemma": "acquire",
+        "pos": "v.",
+        "meaning_zh": "获取",
+        "polysemy_trap_zh": "词义与句法边界：较正式；须避免学习效果保证。",
+        "key_collocations": [
+          "acquire data",
+          "acquire a language"
+        ],
+        "example_en": "Learners acquire vocabulary through repeated meaningful use.",
+        "first_day": "day_0002"
+      },
+      {
+        "word_id": "V00060",
+        "lemma": "adapt",
+        "pos": "v.",
+        "meaning_zh": "调整使适用",
+        "polysemy_trap_zh": "形近词必辨：adapt（调整修改以适配新分布/新工况）vs. adopt（直接采纳既有方法或超参数约定）。 | 词表跨单元多义对比：[V00060 v.] 调整使适用；改编（例：We may adapt the catalogue to describe a different collection.）；[V00061 v.] 适应；调整以适应（例：Researchers adapted to the new reporting system.）；[V00062 v.] 适应；调整使适用（例：The method was adapted for irregular observations.）",
+        "key_collocations": [
+          "adapt a method to a context"
+        ],
+        "example_en": "We may adapt the catalogue to describe a different collection.",
+        "first_day": "day_0002"
+      }
+    ]
+  }
+}

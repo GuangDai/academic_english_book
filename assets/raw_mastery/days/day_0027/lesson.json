@@ -1,0 +1,346 @@
+{
+  "day": "day_0027",
+  "day_number": 27,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 27 天：静态多组数据横向对比与倍差/占比凸显段（Cross-Group Proportions） × 段尾留钩与段首咬合：跨段落无缝过渡法则（Paragraph-to-Paragraph Handshake） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP27",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "静态多组数据横向对比与倍差/占比凸显段（Cross-Group Proportions）",
+      "user_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+      "when_to_use_zh": "IELTS Task 1 静态图表段 / 论文开销拆解（Breakdown）段",
+      "paragraph_move_structure": [
+        "S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]).",
+        "S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%].",
+        "S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups.",
+        "S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]."
+      ],
+      "cohesion_and_logic_formula": "Dominant Item with Multiplier -> Sharp Cross-Group Contrast -> Pooled Minor Items -> Structural Synthesis. 绑定逻辑规则：L009, L010.",
+      "defective_draft": "In Group 1, A is 46%, B is 24%, C is 18%, D is 7%, and E is 5%. In Group 2, C is 52%, B is 22%, A is 15%, D is 6%, and E is 5%.",
+      "defect_diagnosis_zh": "把文字写成了 CSV 表格转储，完全没有归并次要项，也没有提炼倍差与结构反差。",
+      "model_paragraph_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%). A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%. Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption. This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [主导项锁定 Dominant Category]",
+          "sentence_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [组间横向反差 Cross-Group Contrast]",
+          "sentence_en": "A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [次要项合并归纳 Minor Categories Grouping]",
+          "sentence_en": "Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结构性差异提炼 Structural Takeaway]",
+          "sentence_en": "This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "第一句用倍数（48%, exactly double... 24%），第二句抓跨组反转（51% vs. 16%），第三句用 collectively account for under 11% 打包次要项，末句点破深层规律。"
+    },
+    {
+      "blueprint_id": "BP39",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "反事实推理段：如果不采取某项原则，系统将如何一步步滑向失控（Counterfactual Escalation）",
+      "user_intent_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 深化论证段，或论文 Motivation 强化段",
+      "paragraph_move_structure": [
+        "S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y].",
+        "S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge.",
+        "S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation].",
+        "S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience."
+      ],
+      "cohesion_and_logic_formula": "Positive Safeguard -> Counterfactual Premise (Absent X...) -> Cascading Breakdown -> Precedent Confirmation. 绑定逻辑规则：L020, L003.",
+      "defective_draft": "Curating clean human data is very important. If we do not use clean human data and only use AI-generated data to train new AI models, the models will become worse and worse and finally collapse.",
+      "defect_diagnosis_zh": "虽然有如果……就会……的意思，但表达过于口语化（worse and worse），缺少“尾部稀缺分布丢失 -> 方差坍缩”的机制链条。",
+      "model_paragraph_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models. Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations. In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse. This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [正面基准命题 Positive Baseline]",
+          "sentence_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反事实假设切入 Counterfactual Premise]",
+          "sentence_en": "Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [连锁恶化传导 Cascading Deterioration]",
+          "sentence_en": "In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证印证或结论锁定 Empirical Echo]",
+          "sentence_en": "This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "正面立论 -> Absent this human data anchor (反事实切入) -> 尾部稀疏事件被截断导致分布向高密度模式坍缩（机理传导） -> 点名模型自噬（model autophagy）实证结论。"
+    },
+    {
+      "blueprint_id": "BP28",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "双图关联与互补/因果印证段（Synthesizing Dual Charts）",
+      "user_intent_zh": "我这一段想写双图题（如一张图是算力投入/研发经费变化，另一张图是模型误差/碳排放强度变化）的综合关联段，阐明两张图之间的内在协同或背离关系。",
+      "when_to_use_zh": "IELTS Task 1 双图组合题 / 论文多指标联合分析段",
+      "paragraph_move_structure": [
+        "S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point].",
+        "S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%].",
+        "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns.",
+        "S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]."
+      ],
+      "cohesion_and_logic_formula": "Global Correlation -> Co-movement Phase -> Diminishing Returns / Divergence -> Notable Outlier. 绑定逻辑规则：L007, L013.",
+      "defective_draft": "Chart 1 shows R&D spending and Chart 2 shows defect rates. When R&D spending goes up, defect rates go down. Country Z spends little money but has low defect rates.",
+      "defect_diagnosis_zh": "极其简陋，未能刻画“初期强相关 -> 超过阈值后边际收益递减 -> 特例分析”的层次感。",
+      "model_paragraph_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold. Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2). Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points. Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [双图联动锚定 Cross-Chart Link]",
+          "sentence_en": "Cross-referencing both figures reveals a strong inverse relationship between automated inspection investment and manufacturing defect rates up to a $40 million threshold.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [双图联动锚定 Cross-Chart Link]：Synthesizing both charts reveals a clear inverse / positive relationship between [Chart 1 Variable] and [Chart 2 Variable] up to [Threshold Point]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [区间 1 协同变化 Phase 1 Co-movement]",
+          "sentence_en": "Specifically, across plants investing between $10 million and $40 million (Figure 1), surface defect incidence dropped steeply from 4.8% to 0.9% (Figure 2).",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [区间 1 协同变化 Phase 1 Co-movement]：Specifically, as [Variable X in Chart 1] expanded from [A] to [B] during [Period 1], [Variable Y in Chart 2] dropped correspondingly by [C%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]",
+          "sentence_en": "Beyond $40 million, however, further capital expenditure yielded diminishing returns: doubling investment to $80 million reduced defects by only an additional 0.1 percentage points.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [区间 2 边际递减/背离 Diminishing Returns / Divergence]：However, beyond [Threshold Point], although [Variable X] continued to double, [Variable Y] plateaued around [Value], indicating diminishing marginal returns. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [例外个体点拨 Exception Highlight]",
+          "sentence_en": "Notably, Plant D defied this expenditure curve, achieving a 0.7% defect rate with just $22 million through closed-loop sensor calibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [例外个体点拨 Exception Highlight]：An exception to this pattern is [Entity Z], which achieved the lowest [Variable Y] despite maintaining moderate [Variable X]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "将两张图的数据有机编织在一起，精准点出 $40M 拐点后的边际收益递减（diminishing returns）与 Plant D 高效特例。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L027",
+      "category": "Paragraph Transitions (段间衔接)",
+      "name_zh": "段尾留钩与段首咬合：跨段落无缝过渡法则（Paragraph-to-Paragraph Handshake）",
+      "name_en": "Inter-Paragraph Handshake and Bridge Clauses",
+      "core_principle_zh": "整篇小论文或大作文不是几个孤立段落的拼盘。上一段的末句应为下一段埋下伏笔，或者下一段的首句用前置状语短语（Having established [Paragraph N's core], we now turn to [Paragraph N+1's core] / While [Paragraph N's factor] accounts for X, [Paragraph N+1's factor] governs Y）完成段间握手。",
+      "structural_formula": "End of Para A: ...resolving [Issue X] in isolation is insufficient without addressing [Issue Y]. -> Start of Para B: To address this [Issue Y], we introduce [Module B]...",
+      "common_pitfall_zh": "段落之间毫无过渡，上一段讲完频域特征，下一段突然毫无征兆地讲损失函数，像看幻灯片跳页。",
+      "bad_example_en": "[End of Para 1] ...thus extracting periodic features. [Start of Para 2] Next, we use a contrastive loss function to train the network.",
+      "good_example_en": "[End of Para 1] ...thus extracting multi-period representations from raw sensor streams. [Start of Para 2] Having isolated these periodic representations, we next align them across heterogeneous operating regimes via a regime-aware contrastive objective.",
+      "analysis_zh": "用 Having isolated these periodic representations, we next... 将上一段的输出直接作为下一段损失函数设计的输入，全篇浑然一体。"
+    },
+    {
+      "logic_id": "L005",
+      "category": "Cohesion & Reference (指代与衔接)",
+      "name_zh": "去机械连接词化：用语义钩子替代 First/Second/Moreover",
+      "name_en": "Semantic Hooks over Mechanical Connectors",
+      "core_principle_zh": "母语学者与高分作文极少每句句首都贴 Firstly, Secondly, Moreover, What is more, In addition 等膏药。应使用语义承接状语（Beyond accuracy gains, / Alongside temporal drift, / At the hardware level,）实现自然递进。",
+      "structural_formula": "Instead of 'Moreover, X does Y', use: 'Beyond [Summary of Prior Point], [Subject X] also [Verb Y].'",
+      "common_pitfall_zh": "一段 5 句话连续用 First, Second, Besides, Moreover，而句子内部毫无词汇呼应，形成典型的中式“八股排比腔”或 AI 列表腔。",
+      "bad_example_en": "First, our model reduces MSE by 15%. Second, our model uses 40% less memory. Moreover, our model generalizes to unseen sensors.",
+      "good_example_en": "Our model reduces forecasting MSE by 15.4% across six benchmarks. Beyond accuracy gains, its sparse attention mechanism cuts peak GPU memory by 40%, enabling zero-shot deployment on unseen sensor arrays.",
+      "analysis_zh": "用 Beyond accuracy gains 承上启下，用 enabling... 自然引出第三层泛化收益，彻底摆脱机械序数词。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC27",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP27",
+      "linked_logic_id": "L027",
+      "communicative_goal_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+      "original_defective_paragraph": "In Group 1, A is 46%, B is 24%, C is 18%, D is 7%, and E is 5%. In Group 2, C is 52%, B is 22%, A is 15%, D is 6%, and E is 5%.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L027 段尾留钩与段首咬合：跨段落无缝过渡法则（Paragraph-to-Paragraph Handshake））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "把文字写成了 CSV 表格转储，完全没有归并次要项，也没有提炼倍差与结构反差。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%). A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%. Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption. This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [主导项锁定 Dominant Category]",
+          "sentence_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [组间横向反差 Cross-Group Contrast]",
+          "sentence_en": "A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [次要项合并归纳 Minor Categories Grouping]",
+          "sentence_en": "Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结构性差异提炼 Structural Takeaway]",
+          "sentence_en": "This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC47",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP47",
+      "linked_logic_id": "L017",
+      "communicative_goal_zh": "我这一段想回复审稿人要求补测最新基线模型，或者质疑我们的提升是不是因为参数量更大/训练更久。",
+      "original_defective_paragraph": "We added the baseline X you asked for. Our model is 0.182 and X is 0.205, so we are still better. Also our model does not have many parameters.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L017 局限性（Limitations）的无损诚实写法：界定适用边界而非自毁贡献）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "过于单薄，特别是回应参数量质疑时只口头说 does not have many parameters，远不如构造一个缩小版 `Ours-Small` 依然吊打对手有说服力。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3. Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS. Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE. This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [直接响应并呈上新表 Direct Fulfilment]",
+          "sentence_en": "Following your suggestion, we benchmarked against the two recent baselines (TimeMixer and FreTS) and evaluated a capacity-reduced variant of our architecture (`DyTS-Lite`) in Table R3.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [直接响应并呈上新表 Direct Fulfilment]：Following your suggestion, we have evaluated [Requested Baselines X and Y] under identical splits and added a parameter-matched variant of our model in Table R3. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比最新基线结果 Performance vs. New Baselines]",
+          "sentence_en": "Across all horizons on Weather and ECL, standard DyTS-Net reduces MSE by 9.6% over TimeMixer and 13.4% over FreTS.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比最新基线结果 Performance vs. New Baselines]：Across all four horizons on [Datasets], our method outperforms [New Baseline X] by an average of [9.8%] in MSE and [New Baseline Y] by [12.1%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]",
+          "sentence_en": "Furthermore, to ensure strict capacity fairness, `DyTS-Lite` shrinks the hidden dimension to $d=64$—requiring 42% fewer parameters and 55% fewer FLOPs than TimeMixer—yet still outperforms TimeMixer by 6.8% in average MSE.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [打消参数量/算力质疑 Parameter & FLOPs Parity Proof]：Regarding model capacity, even when we scale down our hidden dimension from $d=256$ to $d=128$ (`Ours-Small`, using 38% fewer parameters and 52% fewer FLOPs than [Baseline X]), `Ours-Small` still outperforms [Baseline X] by [7.4%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结论锁定 Conclusion]",
+          "sentence_en": "This confirms that our gains stem from structural-scale disentanglement rather than model size.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结论锁定 Conclusion]：These results confirm that our improvements derive from inductive bias rather than increased parameter count. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC05",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP05",
+      "linked_logic_id": "L005",
+      "communicative_goal_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+      "original_defective_paragraph": "There are two challenges. The first challenge is that noise is big. We use a filter. The second challenge is that speed is slow. We use distillation.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L005 去机械连接词化：用语义钩子替代 First/Second/Moreover）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "全部是散装幼稚短句（is big, is slow, We use...），毫无学术机制深度。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+          "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+          "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+          "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+          "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT03",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "时频双域解耦的长序列异常检测与预测完整小论文（WavePatch: Multi-Scale Wavelet-Temporal Mixing）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP02",
+      "BP03",
+      "BP05",
+      "BP06",
+      "BP12",
+      "BP14",
+      "BP18",
+      "BP19",
+      "BP21",
+      "BP24"
+    ]
+  }
+}

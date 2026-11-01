@@ -1,0 +1,185 @@
+{
+  "verdict": "APPROVE",
+  "all_passed": true,
+  "timestamp": "2026-10-31T14:32:15Z",
+  "results": {
+    "TEST_1_ADV_WL_04_DEEP": {
+      "status": "PASS",
+      "details": {
+        "page_count": 3,
+        "lines_per_page": [
+          16,
+          23,
+          11
+        ],
+        "total_lines_drawn": 50,
+        "expected_lines": 50,
+        "overfull_hboxes": 0,
+        "duration": 0.748
+      }
+    },
+    "TEST_2_BOUNDARY_SWEEPS": {
+      "N_0": {
+        "status": "PASS",
+        "page_count": 1,
+        "lines_per_page": [
+          0
+        ],
+        "total_lines_drawn": 0,
+        "expected_lines": 0,
+        "overfull_hboxes": 0,
+        "duration": 0.682
+      },
+      "N_1": {
+        "status": "PASS",
+        "page_count": 1,
+        "lines_per_page": [
+          1
+        ],
+        "total_lines_drawn": 1,
+        "expected_lines": 1,
+        "overfull_hboxes": 0,
+        "duration": 0.678
+      },
+      "N_20": {
+        "status": "PASS",
+        "page_count": 2,
+        "lines_per_page": [
+          17,
+          3
+        ],
+        "total_lines_drawn": 20,
+        "expected_lines": 20,
+        "overfull_hboxes": 0,
+        "duration": 0.68
+      },
+      "N_21": {
+        "status": "PASS",
+        "page_count": 2,
+        "lines_per_page": [
+          17,
+          4
+        ],
+        "total_lines_drawn": 21,
+        "expected_lines": 21,
+        "overfull_hboxes": 0,
+        "duration": 0.69
+      },
+      "N_35": {
+        "status": "PASS",
+        "page_count": 2,
+        "lines_per_page": [
+          17,
+          18
+        ],
+        "total_lines_drawn": 35,
+        "expected_lines": 35,
+        "overfull_hboxes": 0,
+        "duration": 0.727
+      },
+      "N_50": {
+        "status": "PASS",
+        "page_count": 3,
+        "lines_per_page": [
+          17,
+          23,
+          10
+        ],
+        "total_lines_drawn": 50,
+        "expected_lines": 50,
+        "overfull_hboxes": 0,
+        "duration": 0.731
+      },
+      "N_75": {
+        "status": "PASS",
+        "page_count": 4,
+        "lines_per_page": [
+          17,
+          23,
+          23,
+          12
+        ],
+        "total_lines_drawn": 75,
+        "expected_lines": 75,
+        "overfull_hboxes": 0,
+        "duration": 0.75
+      }
+    },
+    "TEST_3_NEAR_BOUNDARY_SPLIT": {
+      "status": "PASS",
+      "details": {
+        "page_count": 2,
+        "lines_per_page": [
+          3,
+          22
+        ],
+        "total_lines_drawn": 25,
+        "expected_lines": 25,
+        "overfull_hboxes": 0,
+        "duration": 0.7
+      }
+    },
+    "TEST_4_EXTREME_100": {
+      "status": "PASS",
+      "details": {
+        "page_count": 5,
+        "lines_per_page": [
+          17,
+          23,
+          23,
+          23,
+          14
+        ],
+        "total_lines_drawn": 100,
+        "expected_lines": 100,
+        "overfull_hboxes": 0,
+        "duration": 0.812
+      }
+    },
+    "TEST_5_CONSECUTIVE_BOXES": {
+      "status": "PASS",
+      "details": {
+        "page_count": 3,
+        "lines_per_page": [
+          17,
+          21,
+          7
+        ],
+        "total_lines_drawn": 45,
+        "expected_lines": 45,
+        "overfull_hboxes": 0,
+        "duration": 0.75
+      }
+    },
+    "TEST_6_CUSTOM_SPACING": {
+      "status": "PASS",
+      "details": {
+        "page_count": 4,
+        "lines_per_page": [
+          25,
+          10,
+          16,
+          14
+        ],
+        "total_lines_drawn": 65,
+        "expected_lines": 65,
+        "overfull_hboxes": 0,
+        "duration": 0.745
+      }
+    },
+    "TEST_7_PARAGRAPH_REVISION_SCOPING": {
+      "status": "PASS",
+      "details": {
+        "page_count": 2,
+        "lines_per_page": [
+          14,
+          4
+        ],
+        "total_lines_drawn": 18,
+        "expected_lines": 18,
+        "overfull_hboxes": 0,
+        "duration": 0.67
+      }
+    }
+  }
+}

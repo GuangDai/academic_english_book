@@ -1,0 +1,214 @@
+{
+  "text_id": "FT08",
+  "genre": "Academic_Speech",
+  "title_zh": "顶会 5 分钟 Spotlight 演讲完整逐字稿：具身智能实时视觉运动控制（含真机视频解说与延迟对比）",
+  "paragraph_count": 6,
+  "structural_blueprint_chain": [
+    "BP41",
+    "BP05",
+    "BP16",
+    "BP42",
+    "BP22",
+    "BP44"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "学术演讲开场 60 秒 Hook：用直观痛点或反直觉现象抓住全场（Oral Opening Hook）",
+      "blueprint_id": "BP41",
+      "paragraph_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+      "cohesion_formula": "Concrete Visual Scenario -> Rhetorical Question -> Crisp Culprit Identification -> Talk Promise. 绑定逻辑规则：L018, L029.",
+      "paragraph_en": "Good morning everyone. Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines. Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads. In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [场景直觉切入 Concrete Scenario Hook]",
+          "sentence_en": "Good morning everyone.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反直觉痛点设问 Counter-intuitive Breakdown]",
+          "sentence_en": "Suppose you are operating a regional wind-power grid when a sudden cold front sweeps across the turbines.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift? | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [一针见血揭晓答案 Crisp Root Cause]",
+          "sentence_en": "Standard Transformer forecasters look accurate during calm weather, yet why do their predictions lag by hours right when the storm hits? The culprit is instance normalization: in trying to stabilize attention weights, it strips away the exact amplitude surges needed to predict peak loads.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [亮出今日主旨 Talk Roadmap]",
+          "sentence_en": "In the next five minutes, I will show how our model, DyTS-Net, resolves this trade-off—cutting extreme-weather forecasting error by 17% while running twice as fast.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "挑战与机制一对一映射段（Challenge-to-Mechanism Mapping）",
+      "blueprint_id": "BP05",
+      "paragraph_intent_zh": "我这一段想说明：把我们的核心思想落地时遇到了两个具体工程/数学难点，我们分别设计了什么精巧机制去攻克它们。",
+      "cohesion_formula": "Challenge 1 -> Mechanism 1; Challenge 2 -> Mechanism 2 -> Joint System Property. 绑定逻辑规则：L003, L011.",
+      "paragraph_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges. First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset. Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps. Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [落地难点总起 Implementation Hurdle]",
+          "sentence_en": "Instantiating closed-loop visuomotor diffusion on physical robots entails two technical challenges.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [落地难点总起 Implementation Hurdle]：Translating this principle into a scalable architecture entails two technical challenges. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [难点 1 + 靶向设计 1]",
+          "sentence_en": "First, because raw depth camera streams contain occlusion artifacts around reflective object edges, we introduce a tactile-guided cross-attention gate that reweights visual tokens upon contact onset.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [难点 1 + 靶向设计 1]：First, because [Challenge 1], we design [Mechanism 1] to [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [难点 2 + 靶向设计 2]",
+          "sentence_en": "Second, to eliminate the 200 ms sampling bottleneck of iterative denoising, we formulate a trajectory consistency distillation objective that maps Gaussian noise directly to collision-free action chunks in two forward steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [难点 2 + 靶向设计 2]：Second, to prevent [Challenge 2] under [Constraint], we introduce [Mechanism 2] that [Specific Function]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [整体计算/泛化特性 System Property]",
+          "sentence_en": "Together, these designs sustain 50 Hz reactive control under partial visual occlusion.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [整体计算/泛化特性 System Property]：Together, these components enable [Model] to operate at [Efficiency/Robustness Metric]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "具身智能专属：多模态感知-动作闭环与 Sim-to-Real 阐述段（Embodied AI Policy）",
+      "blueprint_id": "BP16",
+      "paragraph_intent_zh": "我这一段想阐述具身智能机器人策略（Embodied Policy）如何融合视觉、本体感觉（Proprioception）或触觉，并克服仿真到真实硬件的动力学差距（Sim-to-Real Gap）。",
+      "cohesion_formula": "Visual Occlusion Bottleneck -> Asynchronous Multimodal Alignment -> Action Chunking -> Online Sim-to-Real System Identification. 绑定逻辑规则：L025, L003.",
+      "paragraph_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object. To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings. Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling. At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单模态开环局限 Open-Loop Visual Limitation]",
+          "sentence_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多模态时空对齐 Multi-Modal Alignment]",
+          "sentence_en": "To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]",
+          "sentence_en": "Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]",
+          "sentence_en": "At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "演讲幻灯片与复杂图表视觉引导段（Visual Signposting in Tech Talks）",
+      "blueprint_id": "BP42",
+      "paragraph_intent_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+      "cohesion_formula": "Spatial Coordinate -> Notice Baseline Failure -> Compare Our Curve -> One-Sentence Mechanistic Takeaway. 绑定逻辑规则：L018, L015.",
+      "paragraph_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+          "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+          "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+          "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+          "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "计算开销、推理延迟与精度帕累托权衡段（Efficiency-Accuracy Pareto Analysis）",
+      "blueprint_id": "BP22",
+      "paragraph_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+      "cohesion_formula": "Hardware Benchmark -> Complexity Reduction & Memory Gain -> Real-Time Latency Margin -> Pareto Conclusion. 绑定逻辑规则：L010, L023.",
+      "paragraph_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module. By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer. At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [硬件与测试基准 Hardware Setup]",
+          "sentence_en": "Figure 6 plots the MSE-latency Pareto frontier measured on an onboard NVIDIA Orin AGX module.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [复杂度理论与实测对比 Complexity & Runtime]",
+          "sentence_en": "By replacing $O(L^2)$ point-wise self-attention with $O(L \\log L)$ spectral filtering and compact patch tokens, DyTS-Net reduces peak GPU memory by 62% and training wall-clock time by 3.4x compared with iTransformer.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实时闭环部署可行性 Real-Time Viability]",
+          "sentence_en": "At inference time, generating a 16-step visuomotor trajectory requires only 6.8 ms—well below the 20 ms cycle budget of a 50 Hz industrial robot controller—while outperforming a 200 ms DDPM baseline by 11.4% in task success rate.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 6,
+      "section_or_role_zh": "演讲总结页（Take-home Message）与问答（Q&A）从容应答段",
+      "blueprint_id": "BP44",
+      "paragraph_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+      "cohesion_formula": "Single Takeaway -> Quantitative Triad -> Q&A Direct Answer -> Empirical Grounding. 绑定逻辑规则：L018, L019.",
+      "paragraph_en": "To wrap up, the key takeaway from our work is that non-stationary forecasting requires separating shift-invariant phase structure from continuous amplitude dynamics. Doing so lets DyTS-Net cut long-horizon error by up to 17% while running at half the computational cost, and our full code and weights are live at the QR code on screen. — [Q&A Response]: Thank you for that sharp question on irregular missing timestamps. The short answer is that our neural-ODE branch handles arbitrary time intervals natively: in our 30% random-dropout stress test, MSE degraded by less than 5%, and we can share the backup slide on irregular sampling right here.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [凝练核心带走信息 Core Take-Home Message]",
+          "sentence_en": "To wrap up, the key takeaway from our work is that non-stationary forecasting requires separating shift-invariant phase structure from continuous amplitude dynamics.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成果三点速览 Rapid Recap]",
+          "sentence_en": "Doing so lets DyTS-Net cut long-horizon error by up to 17% while running at half the computational cost, and our full code and weights are live at the QR code on screen.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]",
+          "sentence_en": "Thank you for that sharp question on irregular missing timestamps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Q&A 展开与诚实边界 Q&A Elaboration]",
+          "sentence_en": "The short answer is that our neural-ODE branch handles arbitrary time intervals natively: in our 30% random-dropout stress test, MSE degraded by less than 5%, and we can share the backup slide on irregular sampling right here.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "day": "day_0001",
+  "day_number": 1,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 1 天：确立研究背景与真实工程价值（拒绝空喊口号） × 旧信息在前、新信息在后原则（Given-to-New Principle） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP01",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "确立研究背景与真实工程价值（拒绝空喊口号）",
+      "user_intent_zh": "我这一段想作为 Introduction 第一段：说明多变量时间序列预测或具身智能控制在实际工业系统中的关键作用，以及高可靠性的刚需。",
+      "when_to_use_zh": "论文 Introduction 首段，或开题报告背景首段",
+      "paragraph_move_structure": [
+        "S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。",
+        "S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。",
+        "S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。",
+        "S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。"
+      ],
+      "cohesion_and_logic_formula": "Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.",
+      "defective_draft": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+      "defect_diagnosis_zh": "① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。",
+      "model_paragraph_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务锚定 Topic Anchor]",
+          "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+          "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+          "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+          "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "Paper Intro 首段直奔领域实体；若改用于学术演讲开场，可将 S1-S2 压缩为一句设问 + 一张故障代价对比图；若用于六级/雅思科技类首段，可将工业传感器替换为更通用的公共基础设施场景。"
+    },
+    {
+      "blueprint_id": "BP13",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "核心子模块：直觉动机与数学设计无缝衔接段（Intuition-before-Math）",
+      "user_intent_zh": "我这一段想详细介绍我们提出的某个核心创新模块：先用两句话讲清楚为什么直接用传统算子会出问题，再顺理成章推导出我们的新公式。",
+      "when_to_use_zh": "Methodology 核心子章节（Section 3.3 / 3.4）",
+      "paragraph_move_structure": [
+        "S1 [传统算子缺陷 Motivation]：Standard [Conventional Operator, e.g., softmax self-attention] computes [Operation], which suffers from [Pathology] when applied to [Domain Condition].",
+        "S2 [物理/统计直觉 Physical Intuition]：To overcome this pathology, we observe that [Key Domain Property] can be effectively regularized by [Intuitive Operation].",
+        "S3 [数学公式定义 Mathematical Formulation]：Formally, given input representation $H \\in \\mathbb{R}^{N \\times d}$, we formulate the [Module Name] as: [Equation], where [Symbol Explanations].",
+        "S4 [理论/计算性质 Guarantee]：By construction, this formulation guarantees [Desirable Property, e.g., $O(N)$ complexity / translation invariance]."
+      ],
+      "cohesion_and_logic_formula": "Pathology of Standard Operator -> Physical Intuition -> Equation Integration -> Theoretical Guarantee. 绑定逻辑规则：L014, L003.",
+      "defective_draft": "In this subsection, we introduce the Phase-Aware Attention. The formula is Attention(Q, K, V) = softmax(QK^T / sqrt(d) + M)V. Here M is a phase matrix. It makes the model work better.",
+      "defect_diagnosis_zh": "直接空降公式，读者完全不知道矩阵 $M$ 是从哪冒出来的、为什么要加在 softmax 里面。",
+      "model_paragraph_en": "Standard dot-product attention measures token similarity purely by instantaneous amplitude alignment, often matching noisy spikes across unrelated time steps. To enforce temporal coherence, we observe that genuine physical interactions between industrial sensors exhibit consistent phase lag across dominant frequencies. Formally, given query and key projections $Q, K \\in \\mathbb{R}^{N \\times d}$, we modulate the attention logits via a phase-alignment mask: $\\mathcal{A}(Q, K, V) = \\text{softmax}\\big(\\frac{QK^\\top}{\\sqrt{d}} - \\lambda \\|\\Delta \\Phi_{Q,K}\\|_1\\big)V$, where $\\Delta \\Phi_{Q,K} \\in [-\\pi, \\pi]^{N \\times N}$ denotes the instantaneous Hilbert phase difference matrix and $\\lambda > 0$ controls phase selectivity. Penalizing large phase discrepancies prevents spurious attention weights between out-of-phase noise bursts.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [传统算子缺陷 Motivation]",
+          "sentence_en": "Standard dot-product attention measures token similarity purely by instantaneous amplitude alignment, often matching noisy spikes across unrelated time steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [传统算子缺陷 Motivation]：Standard [Conventional Operator, e.g., softmax self-attention] computes [Operation], which suffers from [Pathology] when applied to [Domain Condition]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [物理/统计直觉 Physical Intuition]",
+          "sentence_en": "To enforce temporal coherence, we observe that genuine physical interactions between industrial sensors exhibit consistent phase lag across dominant frequencies.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [物理/统计直觉 Physical Intuition]：To overcome this pathology, we observe that [Key Domain Property] can be effectively regularized by [Intuitive Operation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [数学公式定义 Mathematical Formulation]",
+          "sentence_en": "Formally, given query and key projections $Q, K \\in \\mathbb{R}^{N \\times d}$, we modulate the attention logits via a phase-alignment mask: $\\mathcal{A}(Q, K, V) = \\text{softmax}\\big(\\frac{QK^\\top}{\\sqrt{d}} - \\lambda \\|\\Delta \\Phi_{Q,K}\\|_1\\big)V$, where $\\Delta \\Phi_{Q,K} \\in [-\\pi, \\pi]^{N \\times N}$ denotes the instantaneous Hilbert phase difference matrix and $\\lambda > 0$ controls phase selectivity.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [数学公式定义 Mathematical Formulation]：Formally, given input representation $H \\in \\mathbb{R}^{N \\times d}$, we formulate the [Module Name] as: [Equation], where [Symbol Explanations]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [理论/计算性质 Guarantee]",
+          "sentence_en": "Penalizing large phase discrepancies prevents spurious attention weights between out-of-phase noise bursts.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [理论/计算性质 Guarantee]：By construction, this formulation guarantees [Desirable Property, e.g., $O(N)$ complexity / translation invariance]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "从传统点积注意力的缺陷（只看幅值对齐易受噪声尖峰误导）自然推导出希尔伯特相位差惩罚项 $-\\lambda \\|\\Delta \\Phi_{Q,K}\\|_1$，公式嵌入如行云流水。"
+    },
+    {
+      "blueprint_id": "BP26",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "动态时间序列趋势分段描述（暴涨、缓降、平台期与拐点）",
+      "user_intent_zh": "我这一段想写动态折线图（或模型训练收敛曲线）的主体细节段：把一条经历“初期缓慢爬升 -> 中期爆发增长 -> 后期高位平台期”的曲线，以及另一条“冲高回落”的曲线对比写活。",
+      "when_to_use_zh": "IELTS Task 1 动态图主体段 / 论文训练动力学与收敛曲线分析段",
+      "paragraph_move_structure": [
+        "S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]).",
+        "S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau.",
+        "S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025].",
+        "S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year."
+      ],
+      "cohesion_and_logic_formula": "Initial Disparity -> Multi-Phase Surge & Plateau (Entity A) -> Peak-then-Decline (Entity B) -> Gap Reversal. 绑定逻辑规则：L010, L013.",
+      "defective_draft": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+      "defect_diagnosis_zh": "典型的“流水账报年份数字”（In 2000... In 2005... In 2018...），句式单一且毫无趋势洞察。",
+      "model_paragraph_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%. Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025. By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey. This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [起始点位对比 Initial Standing]",
+          "sentence_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多阶段演进",
+          "sentence_en": "Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反向曲线对比",
+          "sentence_en": "By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [终局交叉总结 Terminal Comparison]",
+          "sentence_en": "This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "灵活交替使用 accounted for a mere 4%, trailing..., Following five years of marginal fluctuation, quadrupling to..., leveling off at..., underwent a sustained contraction，句式富于韵律且零AI套话。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L001",
+      "category": "Information Flow (信息流推进)",
+      "name_zh": "旧信息在前、新信息在后原则（Given-to-New Principle）",
+      "name_en": "Given-to-New Information Flow",
+      "core_principle_zh": "英语段落连贯的第一动力不是连接词，而是每一句的句首（主位 Theme）承接上一句句末已经出现过的概念（旧信息 Given），再在句末（述位 Rheme）抛出本句真正要推进的核心增量（新信息 New）。",
+      "structural_formula": "Sentence A: [Subject X] -> [Verb] -> [New Concept Y]. | Sentence B: [This/Such Y or Pronoun] -> [Verb] -> [New Concept Z].",
+      "common_pitfall_zh": "每一句都突兀地以一个全新概念作长主语，而把指代上一句的词塞在句尾，导致读者每读一句都要重新建立思维锚点。",
+      "bad_example_en": "Autoregressive transformers suffer from severe error accumulation over long horizons. A sudden distribution shift in non-stationary sensor streams further amplifies this error accumulation.",
+      "good_example_en": "Autoregressive transformers suffer from severe error accumulation over long horizons. This cumulative drift accelerates sharply when non-stationary sensor streams undergo sudden distribution shifts.",
+      "analysis_zh": "修改前第二句以长新名词 A sudden distribution shift... 开头，旧信息 this error accumulation 被甩在句末；修改后第二句用 This cumulative drift 紧扣上一句句尾的 error accumulation，再引出新信息 distribution shifts，段落瞬间丝滑。"
+    },
+    {
+      "logic_id": "L009",
+      "category": "Paragraph Architecture (段落架构)",
+      "name_zh": "分类矩阵综述法：拒绝 A did X, B did Y 流水账（Taxonomy over Laundry List）",
+      "name_en": "Taxonomic Synthesis vs. Chronological Laundry List",
+      "core_principle_zh": "撰写 Related Work 或文献背景段时，严禁以人名作主语逐句罗列（Smith (2022) proposed X. Lee (2023) proposed Y. Wang (2024) used Z.）。必须以“方法流派/技术范式”为主语进行聚类，把文献引用退居句尾括号或作同位语例证。",
+      "structural_formula": "Existing approaches to [Problem] fall into two primary paradigms: [Paradigm A] and [Paradigm B]. [Paradigm A] methods (e.g., [1, 2]) rely on..., whereas [Paradigm B] architectures [3, 4] leverage... However, neither paradigm resolves [Core Bottleneck].",
+      "common_pitfall_zh": "连续 6 句话全部是 [Author] et al. proposed/introduced/developed...，只有罗列没有批判性归类。",
+      "bad_example_en": "Wu et al. proposed Autoformer in 2021. Zhou et al. proposed FEDformer in 2022. Nie et al. proposed PatchTST in 2023. They all improved time series forecasting.",
+      "good_example_en": "Recent deep forecasters mitigate long-range attention complexity either by decomposing seasonal-trend components in the frequency domain (e.g., Autoformer, FEDformer) or by aggregating local sub-series into channel-independent patches (e.g., PatchTST). Yet both paradigms treat cross-variable correlations as static over time, overlooking transient inter-sensor coupling during system faults.",
+      "analysis_zh": "两句话完成流派二分法归纳 + 代表作锚定 + 共同盲区提炼，学术密度提升数倍。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC01",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP01",
+      "linked_logic_id": "L001",
+      "communicative_goal_zh": "我这一段想作为 Introduction 第一段：说明多变量时间序列预测或具身智能控制在实际工业系统中的关键作用，以及高可靠性的刚需。",
+      "original_defective_paragraph": "In the rapidly developing modern world, time series forecasting plays a pivotal role in many fields. The fact that industrial sensors often have noise and distribution changes makes forecasting very hard and bad for decision making.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L001 旧信息在前、新信息在后原则（Given-to-New Principle））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 首句 AI 套话（In the rapidly developing... plays a pivotal role）；② 第二句严重头重脚轻（The fact that... 11词从句作主语）且用词口语化（very hard and bad）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务锚定 Topic Anchor]",
+          "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+          "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+          "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+          "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC21",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP21",
+      "linked_logic_id": "L021",
+      "communicative_goal_zh": "我这一段想通过可视化案例（Case Study / Qualitative Analysis），既展示模型在复杂跳变下的精准跟踪，又坦诚剖析一个模型预测失准的极端案例。",
+      "original_defective_paragraph": "Figure 5 shows that our prediction curve is very close to the ground truth curve, while baseline curves are far away. Sometimes our model also makes small errors when the data changes too suddenly.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L021 具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+          "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+          "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+          "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+          "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC39",
+      "domain_en": "Conference Author Rebuttal & Reviewer Defense",
+      "domain_zh": "顶会审稿回复（Rebuttal）与消融防御",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP39",
+      "linked_logic_id": "L009",
+      "communicative_goal_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+      "original_defective_paragraph": "Curating clean human data is very important. If we do not use clean human data and only use AI-generated data to train new AI models, the models will become worse and worse and finally collapse.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L009 分类矩阵综述法：拒绝 A did X, B did Y 流水账（Taxonomy over Laundry List））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "虽然有如果……就会……的意思，但表达过于口语化（worse and worse），缺少“尾部稀缺分布丢失 -> 方差坍缩”的机制链条。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models. Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations. In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse. This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [正面基准命题 Positive Baseline]",
+          "sentence_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反事实假设切入 Counterfactual Premise]",
+          "sentence_en": "Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [连锁恶化传导 Cascading Deterioration]",
+          "sentence_en": "In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证印证或结论锁定 Empirical Echo]",
+          "sentence_en": "This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT01",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "非平稳多变量时间序列预测完整小论文（DyTS-Net: Decoupling Spectral Phase and Continuous Scale）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP01",
+      "BP02",
+      "BP03",
+      "BP04",
+      "BP07",
+      "BP11",
+      "BP12",
+      "BP13",
+      "BP18",
+      "BP19",
+      "BP24"
+    ]
+  }
+}

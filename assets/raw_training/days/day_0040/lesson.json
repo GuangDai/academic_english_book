@@ -1,0 +1,2757 @@
+{
+  "day_id": "day_0040",
+  "day_number": 40,
+  "stage": 2,
+  "stage_name_zh": "阶段 2：准确表达、一词多义辨析与时序/AI 基础句法（Day 26–50）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G012】数值、比例、分位数、矩阵量纲与增减幅度的精确语法；【G017】名词性从句与同位语从句（the claim/assumption/fact that...）。",
+    "掌握学术表达模式：【EP001】明确陈述研究目标、问题定义与讨论边界，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V01963",
+        "V02022",
+        "V02046",
+        "V02090"
+      ],
+      "lemmas": [
+        "probability",
+        "qualitative",
+        "rarely",
+        "reference"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V01977",
+        "V02023",
+        "V02060",
+        "V02099"
+      ],
+      "lemmas": [
+        "production",
+        "qualitative",
+        "reaction",
+        "relation"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V01979",
+        "V02027",
+        "V02062",
+        "V02101"
+      ],
+      "lemmas": [
+        "proficiency",
+        "quantification",
+        "reactionary",
+        "relationship"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V01983",
+        "V02028",
+        "V02068"
+      ],
+      "lemmas": [
+        "progressive",
+        "quantification",
+        "reasonable"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V01984",
+        "V02031",
+        "V02074"
+      ],
+      "lemmas": [
+        "progressive",
+        "quantitative",
+        "recently"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V01989",
+        "V02032",
+        "V02075"
+      ],
+      "lemmas": [
+        "pronunciation",
+        "quantitative",
+        "receptive"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V02011",
+        "V02035",
+        "V02088"
+      ],
+      "lemmas": [
+        "purify",
+        "quarterly",
+        "reference"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V02020",
+        "V02037",
+        "V02089"
+      ],
+      "lemmas": [
+        "qualification",
+        "questionnaire",
+        "reference"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V01963",
+      "lemma": "probability",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01963_S01",
+          "pos": "n.",
+          "meaning_zh": "概率",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：概率（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The probability of an event lies between zero and one.",
+          "example_zh": "事件概率在零到一之间。",
+          "sentence_constituents_zh": "【紧凑主语】The probability of an... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "含边界值零和一。 | 熟词生义与多义辨析：学术语境与搭配约束：含边界值零和一。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：概率（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：含边界值零和一。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the probability of”精确表述“概率”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the probability of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "probability",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "probabilities",
+        "derived_forms": [],
+        "variants": [
+          "probability"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01963_01",
+          "phrase": "the probability of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the probability of（概率）"
+        },
+        {
+          "collocation_id": "C_V01963_02",
+          "phrase": "assign a probability",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：assign a probability（概率）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01963"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：含边界值零和一。",
+        "source_tags": [
+          "V01963",
+          "U34",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01977",
+      "lemma": "production",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01977_S01",
+          "pos": "n.",
+          "meaning_zh": "生产",
+          "core_meaning_zh": "基础字面义：生产",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：生产；产生（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The production of synthetic materials requires careful process control.",
+          "example_zh": "合成材料的生产需要细致的流程控制。",
+          "sentence_constituents_zh": "【紧凑主语】The production of synthetic... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "来自 produce。 | 熟词生义与多义辨析：词义与句法边界：来自 produce。"
+        },
+        {
+          "sense_id": "V01977_S02",
+          "pos": "n.",
+          "meaning_zh": "产生",
+          "core_meaning_zh": "基础字面义：生产",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：生产；产生（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The production of synthetic materials requires careful process control.",
+          "example_zh": "合成材料的生产需要细致的流程控制。",
+          "sentence_constituents_zh": "【紧凑主语】The production of synthetic... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "来自 produce。 | 熟词生义与多义辨析：词义与句法边界：来自 produce。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：生产",
+        "academic_target_sense_zh": "多义项/多词性完整映射：生产；产生（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：来自 produce。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the production of”精确表述“生产；产生”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the production of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "production",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "productions",
+        "derived_forms": [],
+        "variants": [
+          "production"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01977_01",
+          "phrase": "the production of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the production of（生产；产生）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01977"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：来自 produce。",
+        "source_tags": [
+          "V01977",
+          "U01",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01979",
+      "lemma": "proficiency",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01979_S01",
+          "pos": "n.",
+          "meaning_zh": "熟练程度",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：熟练程度（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The assessment measures language proficiency in practical tasks.",
+          "example_zh": "这项评估通过实际任务衡量语言熟练程度。",
+          "sentence_constituents_zh": "【紧凑主语】The assessment measures language... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；proficiency in a language；区分参与或完成率。 | 熟词生义与多义辨析：学术语境与搭配约束：通常不可数；proficiency in a language；区分参与或完成率。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：熟练程度（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：通常不可数；proficiency in a language；区分参与或完成率。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“language proficiency”精确表述“熟练程度”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“language proficiency”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "proficiency",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "proficiency"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01979_01",
+          "phrase": "language proficiency",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：language proficiency（熟练程度）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01979"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：通常不可数；proficiency in a language；区分参与或完成率。",
+        "source_tags": [
+          "V01979",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01983",
+      "lemma": "progressive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01983_S01",
+          "pos": "adj.",
+          "meaning_zh": "支持改革的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：支持改革的；逐步推进的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The article compares conservative and progressive views on education.",
+          "example_zh": "文章比较关于教育的保守观点与改革观点。",
+          "sentence_constituents_zh": "【紧凑主语】The article compares conservative... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "此处为观点义；技术中的 progressive 可指逐步进行。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：此处为观点义；技术中的 progressive 可指逐步进行。"
+        },
+        {
+          "sense_id": "V01983_S02",
+          "pos": "adj.",
+          "meaning_zh": "逐步推进的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：支持改革的；逐步推进的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The article compares conservative and progressive views on education.",
+          "example_zh": "文章比较关于教育的保守观点与改革观点。",
+          "sentence_constituents_zh": "【紧凑主语】The article compares conservative... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "此处为观点义；技术中的 progressive 可指逐步进行。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：此处为观点义；技术中的 progressive 可指逐步进行。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：支持改革的；逐步推进的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：此处为观点义；技术中的 progressive 可指逐步进行。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“progressive views”精确表述“支持改革的；逐步推进的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“progressive views”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "progressive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "progressive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01983_01",
+          "phrase": "progressive views",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：progressive views（支持改革的；逐步推进的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01983",
+          "V01984"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：此处为观点义；技术中的 progressive 可指逐步进行。",
+        "source_tags": [
+          "V01983",
+          "U32",
+          "Personal_029",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01984",
+      "lemma": "progressive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V01984_S01",
+          "pos": "adj.",
+          "meaning_zh": "逐步发展的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：逐步发展的；逐渐加重的；改革取向的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The protocol allows a progressive increase in task difficulty.",
+          "example_zh": "该方案允许任务难度逐步提高。",
+          "sentence_constituents_zh": "【紧凑主语】The protocol allows a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。"
+        },
+        {
+          "sense_id": "V01984_S02",
+          "pos": "adj.",
+          "meaning_zh": "逐渐加重的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：逐步发展的；逐渐加重的；改革取向的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The protocol allows a progressive increase in task difficulty.",
+          "example_zh": "该方案允许任务难度逐步提高。",
+          "sentence_constituents_zh": "【紧凑主语】The protocol allows a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。"
+        },
+        {
+          "sense_id": "V01984_S03",
+          "pos": "adj.",
+          "meaning_zh": "改革取向的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：逐步发展的；逐渐加重的；改革取向的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The protocol allows a progressive increase in task difficulty.",
+          "example_zh": "该方案允许任务难度逐步提高。",
+          "sentence_constituents_zh": "【紧凑主语】The protocol allows a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：逐步发展的；逐渐加重的；改革取向的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“progressive increase”精确表述“逐步发展的；逐渐加重的；改革取向的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“progressive increase”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "progressive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "progressive"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01984_01",
+          "phrase": "progressive increase",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：progressive increase（逐步发展的；逐渐加重的；改革取向的）"
+        },
+        {
+          "collocation_id": "C_V01984_02",
+          "phrase": "progressive policy",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：progressive policy（逐步发展的；逐渐加重的；改革取向的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V01983",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01983",
+          "V01984"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01983 adj.] 支持改革的；逐步推进的（例：The article compares conservative and progressive views on education.）；[V01984 adj.] 逐步发展的；逐渐加重的；改革取向的（例：The protocol allows a progressive increase in task difficulty.） | 本条用法约束：意义依语境：progressive disease 指进行性疾病，progressive taxation 指累进税；不总表示“先进”。",
+        "source_tags": [
+          "V01984",
+          "Personal_029",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V01989",
+      "lemma": "pronunciation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V01989_S01",
+          "pos": "n.",
+          "meaning_zh": "发音",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：发音（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The pronunciation of the two related words differs.",
+          "example_zh": "这两个相关词的发音不同。",
+          "sentence_constituents_zh": "【紧凑主语】The pronunciation of the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词pronounce；名词pronunciation，不写pronounciation。 | 熟词生义与多义辨析：学术语境与搭配约束：动词pronounce；名词pronunciation，不写pronounciation。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：发音（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：动词pronounce；名词pronunciation，不写pronounciation。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the pronunciation of”精确表述“发音”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the pronunciation of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "pronunciation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "pronunciation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01989_01",
+          "phrase": "the pronunciation of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the pronunciation of（发音）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01989"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：动词pronounce；名词pronunciation，不写pronounciation。",
+        "source_tags": [
+          "V01989",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02011",
+      "lemma": "purify",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02011_S01",
+          "pos": "v.",
+          "meaning_zh": "净化",
+          "core_meaning_zh": "基础字面义：净化",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：净化；提纯（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The laboratory purified the sample before testing.",
+          "example_zh": "实验室在测试前提纯了样本。",
+          "sentence_constituents_zh": "【紧凑主语】The laboratory purified the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。 | 熟词生义与多义辨析：词义与句法边界：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。"
+        },
+        {
+          "sense_id": "V02011_S02",
+          "pos": "v.",
+          "meaning_zh": "提纯",
+          "core_meaning_zh": "基础字面义：净化",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：净化；提纯（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The laboratory purified the sample before testing.",
+          "example_zh": "实验室在测试前提纯了样本。",
+          "sentence_constituents_zh": "【紧凑主语】The laboratory purified the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。 | 熟词生义与多义辨析：词义与句法边界：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：净化",
+        "academic_target_sense_zh": "多义项/多词性完整映射：净化；提纯（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“purify a sample”精确表述“净化；提纯”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“purify a sample”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "purify",
+        "third_person_singular": "purifies",
+        "present_participle": "purifying",
+        "past_tense": "purified",
+        "past_participle": "purified",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "purify"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02011_01",
+          "phrase": "purify a sample",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：purify a sample（净化；提纯）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02011"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "词义与句法边界：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+        "source_tags": [
+          "V02011",
+          "U17",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02020",
+      "lemma": "qualification",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02020_S01",
+          "pos": "n.",
+          "meaning_zh": "资格",
+          "core_meaning_zh": "n. 学历资格证书",
+          "extended_or_contextual_meaning_zh": "n. ① 对结论适用范围附加的限定条件、保留说明（The conclusion needs a clearer qualification）；② 学历资格",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The form asks applicants to list their academic qualifications.",
+          "example_zh": "表格要求申请者列出学历。",
+          "sentence_constituents_zh": "【紧凑主语】The form asks applicants... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "是否认可某项学历须查具体项目规定。 | 熟词生义与多义辨析：逻辑写作核心词：state a qualification 意为“写明结论成立的限定条件”，防止把局部结论说死。"
+        },
+        {
+          "sense_id": "V02020_S02",
+          "pos": "n.",
+          "meaning_zh": "学历证书",
+          "core_meaning_zh": "n. 学历资格证书",
+          "extended_or_contextual_meaning_zh": "n. ① 对结论适用范围附加的限定条件、保留说明（The conclusion needs a clearer qualification）；② 学历资格",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The form asks applicants to list their academic qualifications.",
+          "example_zh": "表格要求申请者列出学历。",
+          "sentence_constituents_zh": "【紧凑主语】The form asks applicants... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "是否认可某项学历须查具体项目规定。 | 熟词生义与多义辨析：逻辑写作核心词：state a qualification 意为“写明结论成立的限定条件”，防止把局部结论说死。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "n. 学历资格证书",
+        "academic_target_sense_zh": "n. ① 对结论适用范围附加的限定条件、保留说明（The conclusion needs a clearer qualification）；② 学历资格",
+        "cross_sense_and_usage_trap_zh": "逻辑写作核心词：state a qualification 意为“写明结论成立的限定条件”，防止把局部结论说死。",
+        "informal_english_substitute": "scope limitation or credential"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“academic qualifications”精确表述“资格；学历证书”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“academic qualifications”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "qualification",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "qualifications",
+        "derived_forms": [],
+        "variants": [
+          "qualification"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02020_01",
+          "phrase": "academic qualifications",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：academic qualifications（资格；学历证书）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02020"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "逻辑写作核心词：state a qualification 意为“写明结论成立的限定条件”，防止把局部结论说死。",
+        "source_tags": [
+          "V02020",
+          "U18",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02022",
+      "lemma": "qualitative",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02022_S01",
+          "pos": "adj.",
+          "meaning_zh": "定性的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：定性的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The qualitative interviews explored participants' experiences.",
+          "example_zh": "定性访谈考察了参与者的经历。",
+          "sentence_constituents_zh": "【紧凑主语】The qualitative interviews explored... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "非数值取向；访谈也可编码量化，需说明实际分析方法。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：非数值取向；访谈也可编码量化，需说明实际分析方法。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：定性的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：非数值取向；访谈也可编码量化，需说明实际分析方法。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“qualitative research”精确表述“定性的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“qualitative research”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "qualitative",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "qualitative"
+        ],
+        "variants": [
+          "qualitative"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02022_01",
+          "phrase": "qualitative research",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：qualitative research（定性的）"
+        },
+        {
+          "collocation_id": "C_V02022_02",
+          "phrase": "qualitative interviews",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：qualitative interviews（定性的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02022",
+          "V02023"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：非数值取向；访谈也可编码量化，需说明实际分析方法。",
+        "source_tags": [
+          "V02022",
+          "U04",
+          "Personal_030",
+          "AWL9词族:qualitative",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02023",
+      "lemma": "qualitative",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02023_S01",
+          "pos": "adj.",
+          "meaning_zh": "定性的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：定性的；描述性质而非数量的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The interviews provide qualitative evidence about students' experiences.",
+          "example_zh": "这些访谈提供了有关学生经历的定性证据。",
+          "sentence_constituents_zh": "【紧凑主语】The interviews provide qualitative... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "定性研究可系统编码，不能解释成“没有方法”或“不严谨”；qualitative difference 也指性质上的区别。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：定性研究可系统编码，不能解释成“没有方法”或“不严谨”；qualitative difference 也指性质上的区别。"
+        },
+        {
+          "sense_id": "V02023_S02",
+          "pos": "adj.",
+          "meaning_zh": "描述性质而非数量的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：定性的；描述性质而非数量的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The interviews provide qualitative evidence about students' experiences.",
+          "example_zh": "这些访谈提供了有关学生经历的定性证据。",
+          "sentence_constituents_zh": "【紧凑主语】The interviews provide qualitative... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "定性研究可系统编码，不能解释成“没有方法”或“不严谨”；qualitative difference 也指性质上的区别。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：定性研究可系统编码，不能解释成“没有方法”或“不严谨”；qualitative difference 也指性质上的区别。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：定性的；描述性质而非数量的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：定性研究可系统编码，不能解释成“没有方法”或“不严谨”；qualitative difference 也指性质上的区别。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“qualitative analysis”精确表述“定性的；描述性质而非数量的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“qualitative analysis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "qualitative",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "qualitative"
+        ],
+        "variants": [
+          "qualitative"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02023_01",
+          "phrase": "qualitative analysis",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：qualitative analysis（定性的；描述性质而非数量的）"
+        },
+        {
+          "collocation_id": "C_V02023_02",
+          "phrase": "qualitative difference",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：qualitative difference（定性的；描述性质而非数量的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V02022",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02022",
+          "V02023"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02022 adj.] 定性的（例：The qualitative interviews explored participants' experiences.）；[V02023 adj.] 定性的；描述性质而非数量的（例：The interviews provide qualitative evidence about students' experiences.） | 本条用法约束：定性研究可系统编码，不能解释成“没有方法”或“不严谨”；qualitative difference 也指性质上的区别。",
+        "source_tags": [
+          "V02023",
+          "U04",
+          "Personal_030",
+          "AWL9词族:qualitative",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02027",
+      "lemma": "quantification",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02027_S01",
+          "pos": "n.",
+          "meaning_zh": "量化",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：量化（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Quantification of exposure requires a stated measurement scale.",
+          "example_zh": "暴露的量化需要说明测量尺度。",
+          "sentence_constituents_zh": "【紧凑主语】Quantification of exposure requires... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "由相关 quantitative 家族补充，已在U01教学。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02027 n.] 量化（例：Quantification of exposure requires a stated measurement scale.）；[V02028 n.] 量化，数量测定（例：The quantification of uncertainty is central to this analysis.） | 本条用法约束：由相关 quantitative 家族补充，已在U01教学。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：量化（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02027 n.] 量化（例：Quantification of exposure requires a stated measurement scale.）；[V02028 n.] 量化，数量测定（例：The quantification of uncertainty is central to this analysis.） | 本条用法约束：由相关 quantitative 家族补充，已在U01教学。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“quantification of”精确表述“量化”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“quantification of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "quantification",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "quantification"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02027_01",
+          "phrase": "quantification of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：quantification of（量化）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02027",
+          "V02028"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02027 n.] 量化（例：Quantification of exposure requires a stated measurement scale.）；[V02028 n.] 量化，数量测定（例：The quantification of uncertainty is central to this analysis.） | 本条用法约束：由相关 quantitative 家族补充，已在U01教学。",
+        "source_tags": [
+          "V02027",
+          "U04",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02028",
+      "lemma": "quantification",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02028_S01",
+          "pos": "n.",
+          "meaning_zh": "量化，数量测定",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：量化，数量测定（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The quantification of uncertainty is central to this analysis.",
+          "example_zh": "不确定性的量化是这项分析的重要部分。",
+          "sentence_constituents_zh": "【紧凑主语】The quantification of uncertainty... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "由 quantify 派生；不等于消除不确定性。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02027 n.] 量化（例：Quantification of exposure requires a stated measurement scale.）；[V02028 n.] 量化，数量测定（例：The quantification of uncertainty is central to this analysis.） | 本条用法约束：由 quantify 派生；不等于消除不确定性。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：量化，数量测定（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02027 n.] 量化（例：Quantification of exposure requires a stated measurement scale.）；[V02028 n.] 量化，数量测定（例：The quantification of uncertainty is central to this analysis.） | 本条用法约束：由 quantify 派生；不等于消除不确定性。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“quantification of uncertainty”精确表述“量化，数量测定”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“quantification of uncertainty”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "quantification",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "quantification"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02028_01",
+          "phrase": "quantification of uncertainty",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：quantification of uncertainty（量化，数量测定）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02027",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02027",
+          "V02028"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02027 n.] 量化（例：Quantification of exposure requires a stated measurement scale.）；[V02028 n.] 量化，数量测定（例：The quantification of uncertainty is central to this analysis.） | 本条用法约束：由 quantify 派生；不等于消除不确定性。",
+        "source_tags": [
+          "V02028",
+          "U01",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02031",
+      "lemma": "quantitative",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02031_S01",
+          "pos": "adj.",
+          "meaning_zh": "定量的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：定量的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The survey provided quantitative evidence about attendance.",
+          "example_zh": "调查提供了有关出勤情况的定量证据。",
+          "sentence_constituents_zh": "【紧凑主语】The survey provided quantitative... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "以数量为依据；与 qualitative 区分。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：以数量为依据；与 qualitative 区分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：定量的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：以数量为依据；与 qualitative 区分。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“quantitative analysis”精确表述“定量的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“quantitative analysis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "quantitative",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "quantitative"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02031_01",
+          "phrase": "quantitative analysis",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：quantitative analysis（定量的）"
+        },
+        {
+          "collocation_id": "C_V02031_02",
+          "phrase": "quantitative evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：quantitative evidence（定量的）"
+        },
+        {
+          "collocation_id": "C_V02031_03",
+          "phrase": "quantitative research",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：quantitative research（定量的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02031",
+          "V02032"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：以数量为依据；与 qualitative 区分。",
+        "source_tags": [
+          "V02031",
+          "U01",
+          "U04",
+          "Personal_037",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02032",
+      "lemma": "quantitative",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02032_S01",
+          "pos": "adj.",
+          "meaning_zh": "定量的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：定量的；以数量测量或分析为基础的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The study combines quantitative measurements with interview data.",
+          "example_zh": "该研究结合了定量测量和访谈数据。",
+          "sentence_constituents_zh": "【紧凑主语】The study combines quantitative... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应 quantitative 与 qualitative；定量结果仍受测量、样本和模型假设限制。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：对应 quantitative 与 qualitative；定量结果仍受测量、样本和模型假设限制。"
+        },
+        {
+          "sense_id": "V02032_S02",
+          "pos": "adj.",
+          "meaning_zh": "以数量测量或分析为基础的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：定量的；以数量测量或分析为基础的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The study combines quantitative measurements with interview data.",
+          "example_zh": "该研究结合了定量测量和访谈数据。",
+          "sentence_constituents_zh": "【紧凑主语】The study combines quantitative... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应 quantitative 与 qualitative；定量结果仍受测量、样本和模型假设限制。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：对应 quantitative 与 qualitative；定量结果仍受测量、样本和模型假设限制。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：定量的；以数量测量或分析为基础的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：对应 quantitative 与 qualitative；定量结果仍受测量、样本和模型假设限制。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“quantitative analysis”精确表述“定量的；以数量测量或分析为基础的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“quantitative analysis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "quantitative",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "quantitative"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02032_01",
+          "phrase": "quantitative analysis",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：quantitative analysis（定量的；以数量测量或分析为基础的）"
+        },
+        {
+          "collocation_id": "C_V02032_02",
+          "phrase": "quantitative evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：quantitative evidence（定量的；以数量测量或分析为基础的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V02031",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02031",
+          "V02032"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02031 adj.] 定量的（例：The survey provided quantitative evidence about attendance.）；[V02032 adj.] 定量的；以数量测量或分析为基础的（例：The study combines quantitative measurements with interview data.） | 本条用法约束：对应 quantitative 与 qualitative；定量结果仍受测量、样本和模型假设限制。",
+        "source_tags": [
+          "V02032",
+          "U01",
+          "U04",
+          "Personal_037",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02035",
+      "lemma": "quarterly",
+      "pos": "adj./adv.",
+      "raw_pos": "adj./adv.",
+      "senses": [
+        {
+          "sense_id": "V02035_S01",
+          "pos": "adj.",
+          "meaning_zh": "每季度的",
+          "core_meaning_zh": "基础字面义：每季度的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：每季度的；每季度一次（adj./adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The committee conducts a quarterly review.",
+          "example_zh": "委员会每季度进行一次审查。",
+          "sentence_constituents_zh": "【紧凑主语】The committee conducts a... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常每年四次。 | 熟词生义与多义辨析：词义与句法边界：通常每年四次。"
+        },
+        {
+          "sense_id": "V02035_S02",
+          "pos": "adv.",
+          "meaning_zh": "每季度一次",
+          "core_meaning_zh": "基础字面义：每季度的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：每季度的；每季度一次（adj./adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The committee conducts a quarterly review.",
+          "example_zh": "委员会每季度进行一次审查。",
+          "sentence_constituents_zh": "【紧凑主语】The committee conducts a... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常每年四次。 | 熟词生义与多义辨析：词义与句法边界：通常每年四次。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：每季度的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：每季度的；每季度一次（adj./adv.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：通常每年四次。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a quarterly review”精确表述“每季度的；每季度一次”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a quarterly review”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "quarterly",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "quarterly"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02035_01",
+          "phrase": "a quarterly review",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a quarterly review（每季度的；每季度一次）"
+        },
+        {
+          "collocation_id": "C_V02035_02",
+          "phrase": "a quarterly journal",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a quarterly journal（每季度的；每季度一次）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02035"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：通常每年四次。",
+        "source_tags": [
+          "V02035",
+          "U36",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02037",
+      "lemma": "questionnaire",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02037_S01",
+          "pos": "n.",
+          "meaning_zh": "问卷",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：问卷（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Participants completed a questionnaire about study habits.",
+          "example_zh": "参与者完成了一份关于学习习惯的问卷。",
+          "sentence_constituents_zh": "【紧凑主语】Participants completed a questionnaire... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数；与 interview 区分。 | 熟词生义与多义辨析：学术语境与搭配约束：可数；与 interview 区分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：问卷（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：可数；与 interview 区分。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“complete a questionnaire”精确表述“问卷”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“complete a questionnaire”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "questionnaire",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "questionnaires",
+        "derived_forms": [],
+        "variants": [
+          "questionnaire"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02037_01",
+          "phrase": "complete a questionnaire",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：complete a questionnaire（问卷）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02037"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：可数；与 interview 区分。",
+        "source_tags": [
+          "V02037",
+          "U25",
+          "U26",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02046",
+      "lemma": "rarely",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V02046_S01",
+          "pos": "adv.",
+          "meaning_zh": "很少",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：很少（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "Rarely is one measurement sufficient to describe seasonal variation.",
+          "example_zh": "单次测量很少足以描述季节变化。",
+          "sentence_constituents_zh": "【紧凑主语】Rarely is one measurement... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "句首倒装；普通位置不倒装。 | 熟词生义与多义辨析：学术语境与搭配约束：句首倒装；普通位置不倒装。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：很少（adv.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：句首倒装；普通位置不倒装。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“rarely is”精确表述“很少”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“rarely is”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "rarely",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "rarely"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02046_01",
+          "phrase": "rarely is",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：rarely is（很少）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02046"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：句首倒装；普通位置不倒装。",
+        "source_tags": [
+          "V02046",
+          "U47",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02060",
+      "lemma": "reaction",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02060_S01",
+          "pos": "n.",
+          "meaning_zh": "反应",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：反应（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The reaction to the proposal was mixed.",
+          "example_zh": "对该提议的反应不一。",
+          "sentence_constituents_zh": "【紧凑主语】The reaction to the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "reaction to。 | 熟词生义与多义辨析：学术语境与搭配约束：reaction to。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：反应（n.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：reaction to。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a reaction to a proposal”精确表述“反应”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a reaction to a proposal”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "reaction",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "reactions",
+        "derived_forms": [
+          "react"
+        ],
+        "variants": [
+          "reaction"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02060_01",
+          "phrase": "a reaction to a proposal",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a reaction to a proposal（反应）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02060"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：reaction to。",
+        "source_tags": [
+          "V02060",
+          "U44",
+          "AWL3词族:react",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02062",
+      "lemma": "reactionary",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02062_S01",
+          "pos": "adj.",
+          "meaning_zh": "反对社会或政治改革的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：反对社会或政治改革的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The historian explains why opponents described those views as reactionary.",
+          "example_zh": "历史学家解释了反对者为何称这些观点反对改革。",
+          "sentence_constituents_zh": "【紧凑主语】The historian explains why... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "带贬义，不能随便等同 conservative。 | 熟词生义与多义辨析：学术语境与搭配约束：带贬义，不能随便等同 conservative。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：反对社会或政治改革的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：带贬义，不能随便等同 conservative。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“reactionary views”精确表述“反对社会或政治改革的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“reactionary views”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "reactionary",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "react"
+        ],
+        "variants": [
+          "reactionary"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02062_01",
+          "phrase": "reactionary views",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：reactionary views（反对社会或政治改革的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02062"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：带贬义，不能随便等同 conservative。",
+        "source_tags": [
+          "V02062",
+          "U32",
+          "AWL3词族:react",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02068",
+      "lemma": "reasonable",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02068_S01",
+          "pos": "adj.",
+          "meaning_zh": "合理的",
+          "core_meaning_zh": "基础字面义：合理的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：合理的；可以接受的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A reasonable amount of time was allocated to data checking.",
+          "example_zh": "为数据检查分配了合理的时间。",
+          "sentence_constituents_zh": "【紧凑主语】A reasonable amount of... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "需说明合理性的条件；不一定表示很多。 | 熟词生义与多义辨析：词义与句法边界：需说明合理性的条件；不一定表示很多。"
+        },
+        {
+          "sense_id": "V02068_S02",
+          "pos": "adj.",
+          "meaning_zh": "可以接受的",
+          "core_meaning_zh": "基础字面义：合理的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：合理的；可以接受的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A reasonable amount of time was allocated to data checking.",
+          "example_zh": "为数据检查分配了合理的时间。",
+          "sentence_constituents_zh": "【紧凑主语】A reasonable amount of... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "需说明合理性的条件；不一定表示很多。 | 熟词生义与多义辨析：词义与句法边界：需说明合理性的条件；不一定表示很多。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：合理的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：合理的；可以接受的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：需说明合理性的条件；不一定表示很多。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a reasonable amount of time”精确表述“合理的；可以接受的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a reasonable amount of time”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "reasonable",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "reasonable"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02068_01",
+          "phrase": "a reasonable amount of time",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a reasonable amount of time（合理的；可以接受的）"
+        },
+        {
+          "collocation_id": "C_V02068_02",
+          "phrase": "a reasonable number of observations",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a reasonable number of observations（合理的；可以接受的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02068"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：需说明合理性的条件；不一定表示很多。",
+        "source_tags": [
+          "V02068",
+          "U07",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02074",
+      "lemma": "recently",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V02074_S01",
+          "pos": "adv.",
+          "meaning_zh": "最近",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：最近（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The analysis uses recently collected interview data.",
+          "example_zh": "分析使用最近收集的访谈数据。",
+          "sentence_constituents_zh": "【紧凑主语】The analysis uses recently... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "相对时间表述；归档时宜给实际日期。 | 熟词生义与多义辨析：学术语境与搭配约束：相对时间表述；归档时宜给实际日期。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：最近（adv.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：相对时间表述；归档时宜给实际日期。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“recently collected”精确表述“最近”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“recently collected”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "recently",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "recently"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02074_01",
+          "phrase": "recently collected",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：recently collected（最近）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02074"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：相对时间表述；归档时宜给实际日期。",
+        "source_tags": [
+          "V02074",
+          "U05",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02075",
+      "lemma": "receptive",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02075_S01",
+          "pos": "adj.",
+          "meaning_zh": "愿意接受的",
+          "core_meaning_zh": "基础字面义：愿意接受的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：愿意接受的；容易接纳信息的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A research team should be receptive to evidence that challenges its preferred explanation.",
+          "example_zh": "研究团队应愿意接受挑战其偏好解释的证据。",
+          "sentence_constituents_zh": "【紧凑主语】A research team should... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "固定 receptive to + 名词；不等于已经同意或无条件接受；reception/receptor 在其他语境意义不同。 | 熟词生义与多义辨析：词义与句法边界：固定 receptive to + 名词；不等于已经同意或无条件接受；reception/receptor 在其他语境意义不同。"
+        },
+        {
+          "sense_id": "V02075_S02",
+          "pos": "adj.",
+          "meaning_zh": "容易接纳信息的",
+          "core_meaning_zh": "基础字面义：愿意接受的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：愿意接受的；容易接纳信息的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A research team should be receptive to evidence that challenges its preferred explanation.",
+          "example_zh": "研究团队应愿意接受挑战其偏好解释的证据。",
+          "sentence_constituents_zh": "【紧凑主语】A research team should... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "固定 receptive to + 名词；不等于已经同意或无条件接受；reception/receptor 在其他语境意义不同。 | 熟词生义与多义辨析：词义与句法边界：固定 receptive to + 名词；不等于已经同意或无条件接受；reception/receptor 在其他语境意义不同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：愿意接受的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：愿意接受的；容易接纳信息的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：固定 receptive to + 名词；不等于已经同意或无条件接受；reception/receptor 在其他语境意义不同。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“receptive to feedback”精确表述“愿意接受的；容易接纳信息的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“receptive to feedback”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "receptive",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "receptive",
+          "receptor"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02075_01",
+          "phrase": "receptive to feedback",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：receptive to feedback（愿意接受的；容易接纳信息的）"
+        },
+        {
+          "collocation_id": "C_V02075_02",
+          "phrase": "receptive to new evidence",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：receptive to new evidence（愿意接受的；容易接纳信息的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02075"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：固定 receptive to + 名词；不等于已经同意或无条件接受；reception/receptor 在其他语境意义不同。",
+        "source_tags": [
+          "V02075",
+          "U26",
+          "U27",
+          "U28",
+          "Personal_172",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02088",
+      "lemma": "reference",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02088_S01",
+          "pos": "n.",
+          "meaning_zh": "参考文献信息",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：参考文献信息；提及；参照（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Each reference includes enough information to locate the source.",
+          "example_zh": "每条参考文献都含有足够的信息以找到原始来源。",
+          "sentence_constituents_zh": "【紧凑主语】Each reference includes enough... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "主表义为出处信息；参考文献与正文引文需对应。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：主表义为出处信息；参考文献与正文引文需对应。"
+        },
+        {
+          "sense_id": "V02088_S02",
+          "pos": "n.",
+          "meaning_zh": "提及",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：参考文献信息；提及；参照（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Each reference includes enough information to locate the source.",
+          "example_zh": "每条参考文献都含有足够的信息以找到原始来源。",
+          "sentence_constituents_zh": "【紧凑主语】Each reference includes enough... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "主表义为出处信息；参考文献与正文引文需对应。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：主表义为出处信息；参考文献与正文引文需对应。"
+        },
+        {
+          "sense_id": "V02088_S03",
+          "pos": "n.",
+          "meaning_zh": "参照",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：参考文献信息；提及；参照（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Each reference includes enough information to locate the source.",
+          "example_zh": "每条参考文献都含有足够的信息以找到原始来源。",
+          "sentence_constituents_zh": "【紧凑主语】Each reference includes enough... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "主表义为出处信息；参考文献与正文引文需对应。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：主表义为出处信息；参考文献与正文引文需对应。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：参考文献信息；提及；参照（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：主表义为出处信息；参考文献与正文引文需对应。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a list of references”精确表述“参考文献信息；提及；参照”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a list of references”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "reference",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "reference"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02088_01",
+          "phrase": "a list of references",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a list of references（参考文献信息；提及；参照）"
+        },
+        {
+          "collocation_id": "C_V02088_02",
+          "phrase": "make reference to",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：make reference to（参考文献信息；提及；参照）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02088",
+          "V02089",
+          "V02090"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：主表义为出处信息；参考文献与正文引文需对应。",
+        "source_tags": [
+          "V02088",
+          "U08",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02089",
+      "lemma": "reference",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02089_S01",
+          "pos": "n.",
+          "meaning_zh": "推荐信",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：推荐信；推荐意见（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The referee submitted a reference through the online portal.",
+          "example_zh": "推荐人通过网上系统提交了推荐信。",
+          "sentence_constituents_zh": "【紧凑主语】The referee submitted a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "也指文献引用；本语境与 bibliography 不同。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：也指文献引用；本语境与 bibliography 不同。"
+        },
+        {
+          "sense_id": "V02089_S02",
+          "pos": "n.",
+          "meaning_zh": "推荐意见",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：推荐信；推荐意见（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The referee submitted a reference through the online portal.",
+          "example_zh": "推荐人通过网上系统提交了推荐信。",
+          "sentence_constituents_zh": "【紧凑主语】The referee submitted a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "也指文献引用；本语境与 bibliography 不同。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：也指文献引用；本语境与 bibliography 不同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：推荐信；推荐意见（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：也指文献引用；本语境与 bibliography 不同。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“submit a reference”精确表述“推荐信；推荐意见”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“submit a reference”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "reference",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "reference",
+          "bibliography"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02089_01",
+          "phrase": "submit a reference",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：submit a reference（推荐信；推荐意见）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02088",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02088",
+          "V02089",
+          "V02090"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：也指文献引用；本语境与 bibliography 不同。",
+        "source_tags": [
+          "V02089",
+          "U18",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02090",
+      "lemma": "reference",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02090_S01",
+          "pos": "n.",
+          "meaning_zh": "提及",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：提及；指称；参考（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The note contains a reference to the earlier definition.",
+          "example_zh": "该注释提及较早的定义。",
+          "sentence_constituents_zh": "【紧凑主语】The note contains a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词refer；refer to，不写refer about。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：动词refer；refer to，不写refer about。"
+        },
+        {
+          "sense_id": "V02090_S02",
+          "pos": "n.",
+          "meaning_zh": "指称",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：提及；指称；参考（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The note contains a reference to the earlier definition.",
+          "example_zh": "该注释提及较早的定义。",
+          "sentence_constituents_zh": "【紧凑主语】The note contains a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词refer；refer to，不写refer about。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：动词refer；refer to，不写refer about。"
+        },
+        {
+          "sense_id": "V02090_S03",
+          "pos": "n.",
+          "meaning_zh": "参考",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：提及；指称；参考（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The note contains a reference to the earlier definition.",
+          "example_zh": "该注释提及较早的定义。",
+          "sentence_constituents_zh": "【紧凑主语】The note contains a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "动词refer；refer to，不写refer about。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：动词refer；refer to，不写refer about。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：提及；指称；参考（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：动词refer；refer to，不写refer about。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a reference to”精确表述“提及；指称；参考”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a reference to”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "reference",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "reference"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02090_01",
+          "phrase": "a reference to",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：a reference to（提及；指称；参考）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02089",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02088",
+          "V02089",
+          "V02090"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02088 n.] 参考文献信息；提及；参照（例：Each reference includes enough information to locate the source.）；[V02089 n.] 推荐信；推荐意见（例：The referee submitted a reference through the online portal.）；[V02090 n.] 提及；指称；参考（例：The note contains a reference to the earlier definition.） | 本条用法约束：动词refer；refer to，不写refer about。",
+        "source_tags": [
+          "V02090",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02099",
+      "lemma": "relation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02099_S01",
+          "pos": "n.",
+          "meaning_zh": "关系",
+          "core_meaning_zh": "基础字面义：关系",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：关系；联系（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The study asks whether there is a relation between recorded rules and habitual practices.",
+          "example_zh": "研究探讨记录下来的规则与习惯做法之间是否存在联系。",
+          "sentence_constituents_zh": "【紧凑主语】The study asks whether... + 【核心谓语与宾补/状语后置扩展】全句共 14 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "related的同根名词；关系存在不等于因果已成立。 原文给出related，名词relation由本项目补充，不是原键原词。 | 熟词生义与多义辨析：词义与句法边界：related的同根名词；关系存在不等于因果已成立。 原文给出related，名词relation由本项目补充，不是原键原词。"
+        },
+        {
+          "sense_id": "V02099_S02",
+          "pos": "n.",
+          "meaning_zh": "联系",
+          "core_meaning_zh": "基础字面义：关系",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：关系；联系（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The study asks whether there is a relation between recorded rules and habitual practices.",
+          "example_zh": "研究探讨记录下来的规则与习惯做法之间是否存在联系。",
+          "sentence_constituents_zh": "【紧凑主语】The study asks whether... + 【核心谓语与宾补/状语后置扩展】全句共 14 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "related的同根名词；关系存在不等于因果已成立。 原文给出related，名词relation由本项目补充，不是原键原词。 | 熟词生义与多义辨析：词义与句法边界：related的同根名词；关系存在不等于因果已成立。 原文给出related，名词relation由本项目补充，不是原键原词。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：关系",
+        "academic_target_sense_zh": "多义项/多词性完整映射：关系；联系（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：related的同根名词；关系存在不等于因果已成立。 原文给出related，名词relation由本项目补充，不是原键原词。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a relation between practices”精确表述“关系；联系”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a relation between practices”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "relation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "relations",
+        "derived_forms": [],
+        "variants": [
+          "relation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02099_01",
+          "phrase": "a relation between practices",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a relation between practices（关系；联系）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02099"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：related的同根名词；关系存在不等于因果已成立。 原文给出related，名词relation由本项目补充，不是原键原词。",
+        "source_tags": [
+          "V02099",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    },
+    {
+      "word_id": "V02101",
+      "lemma": "relationship",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02101_S01",
+          "pos": "n.",
+          "meaning_zh": "关系",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：关系；关联（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The relationship between income and housing varies across regions.",
+          "example_zh": "收入与住房的关系因地区而异。",
+          "sentence_constituents_zh": "【紧凑主语】The relationship between income... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "between X and Y；若无因果依据，使用 association 等表述。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02101 n.] 关系；关联（例：The relationship between income and housing varies across regions.）；[V02102 n.] 关系；联系（例：The diagram shows relationships between the categories.） | 本条用法约束：between X and Y；若无因果依据，使用 association 等表述。"
+        },
+        {
+          "sense_id": "V02101_S02",
+          "pos": "n.",
+          "meaning_zh": "关联",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：关系；关联（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The relationship between income and housing varies across regions.",
+          "example_zh": "收入与住房的关系因地区而异。",
+          "sentence_constituents_zh": "【紧凑主语】The relationship between income... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "between X and Y；若无因果依据，使用 association 等表述。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02101 n.] 关系；关联（例：The relationship between income and housing varies across regions.）；[V02102 n.] 关系；联系（例：The diagram shows relationships between the categories.） | 本条用法约束：between X and Y；若无因果依据，使用 association 等表述。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：关系；关联（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02101 n.] 关系；关联（例：The relationship between income and housing varies across regions.）；[V02102 n.] 关系；联系（例：The diagram shows relationships between the categories.） | 本条用法约束：between X and Y；若无因果依据，使用 association 等表述。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a relationship between variables”精确表述“关系；关联”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a relationship between variables”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "relationship",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "relationships",
+        "derived_forms": [],
+        "variants": [
+          "relationship"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02101_01",
+          "phrase": "a relationship between variables",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a relationship between variables（关系；关联）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02101",
+          "V02102"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02101 n.] 关系；关联（例：The relationship between income and housing varies across regions.）；[V02102 n.] 关系；联系（例：The diagram shows relationships between the categories.） | 本条用法约束：between X and Y；若无因果依据，使用 association 等表述。",
+        "source_tags": [
+          "V02101",
+          "U26",
+          "CET4基础同排版行关联形式"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "synthetic",
+      "meaning_zh": "合成的；仿真生成的（adj.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "protocol",
+      "meaning_zh": "研究方案；规程（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G012",
+      "name": "数值、比例、分位数、矩阵量纲与增减幅度的精确语法",
+      "category": "A1_C4_numerical_and_quantitative_grammar",
+      "stage": 1,
+      "first_day": "day_0022",
+      "first_day_num": 22,
+      "prerequisites": [
+        "G002",
+        "G006"
+      ],
+      "explanation_zh": "定量描述必须严格区分“差值（by）”、“终值（to）”、“比例（proportion/percentage）”、“比值（ratio）”、“百分点（percentage points）”以及“均值（mean）、中位数（median）、众数（mode）、中程数（midrange）”。",
+      "rules": [
+        "动词 + by + 差值（decreased by 5 units） vs 动词 + to + 终值（decreased to 15）；名词 + of + 变化量（growth of 10%） vs 名词 + in + 变化对象（growth in demand）。",
+        "从 20% 升至 25% 是 an increase of 5 percentage points（绝对百分点变化），而相对增幅为 25%（relative percentage change）。",
+        "double 表示增至两倍，halve 表示减半（不可写 *halve by half）；midrange 是 (min+max)/2，median 是排序后居中的分位数（0.5 quantile），二者绝不可混同。"
+      ],
+      "examples": [
+        "The count increased by ten, from twenty to thirty.",
+        "A rise from 20% to 25% is five percentage points.",
+        "For the values 7, 8, 8, 8, 11 and 12, the midrange is 9.5, whereas the median is 8."
+      ],
+      "common_errors": [
+        "介词 by 与 to 混用导致差值与终值颠倒。",
+        "把 percentage point（百分点）与 per cent（百分比）混同。"
+      ]
+    },
+    {
+      "grammar_id": "G017",
+      "name": "名词性从句与同位语从句（the claim/assumption/fact that...）",
+      "category": "C8_noun_clauses",
+      "stage": 2,
+      "first_day": "day_0038",
+      "first_day_num": 38,
+      "prerequisites": [
+        "G008",
+        "G016"
+      ],
+      "explanation_zh": "同位语从句（the claim/assumption/hypothesis/notion/contention/fact that + 完整句）用于精确展开抽象学术名词的内涵；介词后若需接完整陈述句，必须借助 the fact that 或 in that。",
+      "rules": [
+        "同位语从句连接词 that 不作成分但不可省略，也不可换为 which（The contention that all data are interchangeable needs justification）。",
+        "介词（account for, despite, due to, stem from）不能直接接 that 从句，必须用 account for the fact that / despite the fact that / stem from the fact that。"
+      ],
+      "examples": [
+        "The model cannot account for the fact that rates differ across sites.",
+        "The scheme was adopted despite the fact that it was costly.",
+        "The discrepancy stems from the fact that the samples differ."
+      ],
+      "common_errors": [
+        "介词直接接 that 从句：*despite that it was costly / *due to that several records were missing。"
+      ]
+    },
+    {
+      "grammar_id": "G031",
+      "name": "句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+      "category": "C1_sentence_constituents_analysis",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G001"
+      ],
+      "explanation_zh": "自然地道的英语写作建立在清晰的句子成分（Constituents）分工之上：主语（Subject，建议用简短核心名词短语）+ 谓语动词（Predicate Verb，承载核心动作或状态关系）+ 宾语/表语/补语（Object/Complement），而将限定范围、实验条件、时间窗口等次要信息合理分配给后置定语（Post-modifier）或状语（Adverbial）。",
+      "rules": [
+        "主语（S）与谓语（V）的距离应尽可能紧凑：避免在主语核心词和谓语动词之间插入过长的非必要修饰成分，防止读者丢失句子主干。",
+        "区分定语（修饰名词，回答 which/what kind of）与状语（修饰动词或全句，回答 how/when/where/under what condition）：英語长定语一律后置（介词短语、分词短语、定语从句），切忌按中文习惯把长串修饰语全部堆在名词前面。",
+        "同位语（Appositive，如 a random walk, an archetypal example of a nonstationary process）用于紧随名词后补充等价定义或量纲说明，比单独另起一句更紧凑。"
+      ],
+      "examples": [
+        "[主语 The affine function f(x) = ax + b] [谓语 includes] [宾语 an intercept b].",
+        "[状语 When the relevant variances are finite and nonzero], [主语 lag-one Pearson autocorrelation] [谓语 measures] [宾语 the linear association] [后置定语 between observations one time step apart].",
+        "[主语 The team] [谓语 abandoned] [宾语 the approach] [原因状语 after repeated calibration failures]."
+      ],
+      "common_errors": [
+        "中式前置长定语堆砌：*The collected from three rural clinics during the two-year pilot study data were noisy（应改为 The data collected from three rural clinics during the two-year pilot study were noisy）。",
+        "把状语介词短语误当成主语：*In Table 1 shows the ablation results（应为 Table 1 shows... 或 In Table 1, we report...）。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP001",
+      "name": "明确陈述研究目标、问题定义与讨论边界",
+      "function_category": "stating_aims_and_scope",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "template": "This study/paper examines [specific problem] and aims to [verb] [measurable objective] within [stated scope].",
+      "explanation_zh": "开门见山说明研究问题与范围，主语简短，直接用强动词 examines / addresses / investigates。",
+      "register": "formal_academic",
+      "examples": [
+        "This paper addresses unequal access to educational resources.",
+        "The aim of this paper is to compare annotation rules."
+      ],
+      "common_errors": [
+        "使用冗长空洞的套话开头，或写 *address to a problem。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G031"
+      ]
+    },
+    {
+      "pattern_id": "EP004",
+      "name": "界定概念的操作性定义与数学符号表示",
+      "function_category": "defining_concepts_and_notation",
+      "stage": 1,
+      "first_day": "day_0006",
+      "first_day_num": 6,
+      "template": "For the purposes of this analysis, we define [term] as [operational criterion], where [symbol] denotes [quantity].",
+      "explanation_zh": "用于将抽象概念转化为可观测、可复现的操作性指标或符号。",
+      "register": "formal_academic",
+      "examples": [
+        "We define the outcome as the number of visits per week.",
+        "Here, N denotes the number of observations."
+      ],
+      "common_errors": [
+        "定义含糊或符号指代前后不一致。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G004"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00261",
+        "lemma": "automation",
+        "pos": "n.",
+        "meaning_zh": "自动化",
+        "polysemy_trap_zh": "学术语境与搭配约束：automation of；与 automated 区分。 本词为词族扩展，依据教材41单元物理92页的automate派生；教材该页未直接列本词。",
+        "key_collocations": [
+          "automation of data collection"
+        ],
+        "example_en": "Automation of data collection reduces repetitive work.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00267",
+        "lemma": "awareness",
+        "pos": "n.",
+        "meaning_zh": "知晓，意识",
+        "polysemy_trap_zh": "学术语境与搭配约束：接 of；不能保证行为改变。",
+        "key_collocations": [
+          "awareness of",
+          "raise awareness of"
+        ],
+        "example_en": "The campaign aims to raise awareness of water contamination.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00275",
+        "lemma": "basically",
+        "pos": "adv.",
+        "meaning_zh": "从基本特征看",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00275 adv.] 从基本特征看；基本上（例：The procedures are basically similar.）；[V00276 adv.] 基本上；从基本特征说（例：The two protocols are basically similar but use different sensors.） | 本条用法约束：教材 essentially 的解释词；不是可忽略所有细节。",
+        "key_collocations": [
+          "basically similar"
+        ],
+        "example_en": "The procedures are basically similar.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00276",
+        "lemma": "basically",
+        "pos": "adv.",
+        "meaning_zh": "基本上",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00275 adv.] 从基本特征看；基本上（例：The procedures are basically similar.）；[V00276 adv.] 基本上；从基本特征说（例：The two protocols are basically similar but use different sensors.） | 本条用法约束：不是所有场合都能替换 essentially；避免用它掩盖差异。",
+        "key_collocations": [
+          "basically similar"
+        ],
+        "example_en": "The two protocols are basically similar but use different sensors.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00302",
+        "lemma": "behaviour",
+        "pos": "n.",
+        "meaning_zh": "行为",
+        "polysemy_trap_zh": "学术语境与搭配约束：英式拼写 behaviour，美式 behavior。",
+        "key_collocations": [
+          "observed behaviour"
+        ],
+        "example_en": "Observed behaviour may change when participants notice a camera.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00336",
+        "lemma": "breadth",
+        "pos": "n.",
+        "meaning_zh": "广度",
+        "polysemy_trap_zh": "学术语境与搭配约束：broad 的名词；不写 broadth。",
+        "key_collocations": [
+          "breadth of coverage",
+          "the breadth of a review"
+        ],
+        "example_en": "The breadth of the review limits the detail available on each method.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00356",
+        "lemma": "calculation",
+        "pos": "n.",
+        "meaning_zh": "计算",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00356 n.] 计算（例：The calculation excludes incomplete observations.）；[V00357 n.] 计算；计算结果（例：The reviewer checked each calculation against the stated formula.） | 本条用法约束：由 calculate 派生。",
+        "key_collocations": [
+          "perform a calculation"
+        ],
+        "example_en": "The calculation excludes incomplete observations.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00357",
+        "lemma": "calculation",
+        "pos": "n.",
+        "meaning_zh": "计算",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00356 n.] 计算（例：The calculation excludes incomplete observations.）；[V00357 n.] 计算；计算结果（例：The reviewer checked each calculation against the stated formula.） | 本条用法约束：与calculate动词对应；calculations常用复数。",
+        "key_collocations": [
+          "check a calculation"
+        ],
+        "example_en": "The reviewer checked each calculation against the stated formula.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00390",
+        "lemma": "central",
+        "pos": "adj.",
+        "meaning_zh": "核心的",
+        "polysemy_trap_zh": "词义与句法边界：central argument 指文章核心论点。",
+        "key_collocations": [
+          "central role",
+          "central theme",
+          "central issue"
+        ],
+        "example_en": "The central question concerns access to public transport.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00393",
+        "lemma": "certainty",
+        "pos": "n.",
+        "meaning_zh": "确定性",
+        "polysemy_trap_zh": "词义与句法边界：对应certain确定的这一义；本段certain manners/diseases表示某些，意义并不完全相同。",
+        "key_collocations": [
+          "certainty about an interpretation"
+        ],
+        "example_en": "The surviving evidence does not allow certainty about the object’s use.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00407",
+        "lemma": "characteristic",
+        "pos": "adj.",
+        "meaning_zh": "有典型特征的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00407 adj.] 有典型特征的（例：This seasonal variation is characteristic of the region.）；[V00408 n.] 特征（例：The groups share several characteristics.） | 本条用法约束：接 of。",
+        "key_collocations": [
+          "characteristic of"
+        ],
+        "example_en": "This seasonal variation is characteristic of the region.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00408",
+        "lemma": "characteristic",
+        "pos": "n.",
+        "meaning_zh": "特征",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00407 adj.] 有典型特征的（例：This seasonal variation is characteristic of the region.）；[V00408 n.] 特征（例：The groups share several characteristics.） | 本条用法约束：须说明具体特征，不贴无证据群体标签。",
+        "key_collocations": [
+          "shared characteristics"
+        ],
+        "example_en": "The groups share several characteristics.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00419",
+        "lemma": "citation",
+        "pos": "n.",
+        "meaning_zh": "引文",
+        "polysemy_trap_zh": "词义与句法边界：区分 citation 引用与 quotation 逐字引语。",
+        "key_collocations": [
+          "provide a citation"
+        ],
+        "example_en": "Every source-based claim needs an appropriate citation.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00425",
+        "lemma": "clarification",
+        "pos": "n.",
+        "meaning_zh": "澄清",
+        "polysemy_trap_zh": "词义与句法边界：request/seek clarification of/about something；动词 clarify。",
+        "key_collocations": [
+          "request clarification"
+        ],
+        "example_en": "The student requested clarification of the submission rules.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00427",
+        "lemma": "clarify",
+        "pos": "v.",
+        "meaning_zh": "澄清",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00427 v.] 澄清；使明确（例：The author clarifies what is meant by a seasonal component.）；[V00428 v.] 澄清；讲清（例：The paragraph clarifies the distinction between a claim and its evidence.）；[V00429 v.] 澄清；说明清楚（例：The lecturer clarified the assessment criteria.） | 本条用法约束：可接名词或宾语从句。",
+        "key_collocations": [
+          "clarify a point",
+          "clarify what is meant"
+        ],
+        "example_en": "The author clarifies what is meant by a seasonal component.",
+        "first_day": "day_0033"
+      },
+      {
+        "word_id": "V00428",
+        "lemma": "clarify",
+        "pos": "v.",
+        "meaning_zh": "澄清",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00427 v.] 澄清；使明确（例：The author clarifies what is meant by a seasonal component.）；[V00428 v.] 澄清；讲清（例：The paragraph clarifies the distinction between a claim and its evidence.）；[V00429 v.] 澄清；说明清楚（例：The lecturer clarified the assessment criteria.） | 本条用法约束：词族 clarification；clarify something。",
+        "key_collocations": [
+          "clarify a distinction"
+        ],
+        "example_en": "The paragraph clarifies the distinction between a claim and its evidence.",
+        "first_day": "day_0033"
+      }
+    ]
+  }
+}

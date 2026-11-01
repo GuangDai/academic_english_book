@@ -1,0 +1,341 @@
+{
+  "day": "day_0057",
+  "day_number": 57,
+  "stage": 4,
+  "stage_name_zh": "Stage 4: 学术演讲、科研叙事与六级/雅思/托福整篇大小作文满分实战",
+  "daily_focus_title_zh": "第 57 天：相关工作分类综述段（拒绝 A did X, B did Y 流水账） × 段尾留钩与段首咬合：跨段落无缝过渡法则（Paragraph-to-Paragraph Handshake） × Conference_Rebuttal 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP09",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "相关工作分类综述段（拒绝 A did X, B did Y 流水账）",
+      "user_intent_zh": "我这一段想写 Related Work 的一个子方向：把过去三年的 6–8 篇代表性论文按技术路线分成两类进行归纳，并指出它们的共同盲区。",
+      "when_to_use_zh": "Related Work 章节各小节首段",
+      "paragraph_move_structure": [
+        "S1 [分类总纲 Taxonomic Thesis]：Existing methods for [Task] can be categorized into two main families: [Family A] and [Family B].",
+        "S2 [流派 A 归纳与代表作 Family A Synthesis]：[Family A] approaches (e.g., [Models]) focus on [Mechanism A], effectively addressing [Sub-problem 1].",
+        "S3 [流派 B 归纳与对比 Family B Synthesis]：By contrast, [Family B] architectures (e.g., [Models]) reformulate the problem via [Mechanism B] to reduce [Cost/Complexity].",
+        "S4 [共同盲区提炼 Shared Blind Spot]：Despite their respective strengths, both families overlook [Critical Factor], which degrades performance under [Target Scenario]."
+      ],
+      "cohesion_and_logic_formula": "Two-Branch Taxonomy -> Family A -> Contrastive Family B -> Shared Limitation. 绑定逻辑规则：L009, L008.",
+      "defective_draft": "In recent years, many works studied time series foundation models. TimeGPT trained a transformer on large data. Moment used masked pre-training. Chronos quantized time series into tokens. Lag-Llama used lag features. However, our model is different from them.",
+      "defect_diagnosis_zh": "典型的“报菜名流水账”（连续四句主语分别是四个模型名），末句 our model is different 毫无营养。",
+      "model_paragraph_en": "Pre-trained time series foundation models generally follow either continuous patch reconstruction or discrete vocabulary tokenization. Continuous reconstruction frameworks (e.g., PatchTST, MOMENT) pre-train encoders via masked patch regression, preserving fine-grained numerical resolution across continuous domains. Conversely, discrete tokenization approaches (e.g., Chronos) quantize scaled observations into fixed bins to leverage cross-entropy language modeling objectives. Despite their zero-shot transferability, both paradigms treat univariate channels independently during pre-training, ignoring physical cross-variable conservation laws that govern multivariate engineering systems.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分类总纲 Taxonomic Thesis]",
+          "sentence_en": "Pre-trained time series foundation models generally follow either continuous patch reconstruction or discrete vocabulary tokenization.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分类总纲 Taxonomic Thesis]：Existing methods for [Task] can be categorized into two main families: [Family A] and [Family B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [流派 A 归纳与代表作 Family A Synthesis]",
+          "sentence_en": "Continuous reconstruction frameworks (e.g., PatchTST, MOMENT) pre-train encoders via masked patch regression, preserving fine-grained numerical resolution across continuous domains.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [流派 A 归纳与代表作 Family A Synthesis]：[Family A] approaches (e.g., [Models]) focus on [Mechanism A], effectively addressing [Sub-problem 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [流派 B 归纳与对比 Family B Synthesis]",
+          "sentence_en": "Conversely, discrete tokenization approaches (e.g., Chronos) quantize scaled observations into fixed bins to leverage cross-entropy language modeling objectives.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [流派 B 归纳与对比 Family B Synthesis]：By contrast, [Family B] architectures (e.g., [Models]) reformulate the problem via [Mechanism B] to reduce [Cost/Complexity]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [共同盲区提炼 Shared Blind Spot]",
+          "sentence_en": "Despite their zero-shot transferability, both paradigms treat univariate channels independently during pre-training, ignoring physical cross-variable conservation laws that govern multivariate engineering systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [共同盲区提炼 Shared Blind Spot]：Despite their respective strengths, both families overlook [Critical Factor], which degrades performance under [Target Scenario]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "把散乱的文献提炼为“连续 Patch 重构 vs. 离散词表量化”两大阵营，最后一句切中“单通道独立预训练忽略多变量物理守恒约束”的共同软肋。"
+    },
+    {
+      "blueprint_id": "BP21",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "极端/反常情况与失败案例坦诚剖析段（Failure Case & Outlier Analysis）",
+      "user_intent_zh": "我这一段想通过可视化案例（Case Study / Qualitative Analysis），既展示模型在复杂跳变下的精准跟踪，又坦诚剖析一个模型预测失准的极端案例。",
+      "when_to_use_zh": "Experiments 第 4.5 节 Qualitative & Failure Case Analysis",
+      "paragraph_move_structure": [
+        "S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task].",
+        "S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps].",
+        "S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag.",
+        "S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions."
+      ],
+      "cohesion_and_logic_formula": "Visual Setup -> Success under Shift -> Honest Failure Case under Unobserved Exogenous Shock -> Actionable Insight. 绑定逻辑规则：L017, L018.",
+      "defective_draft": "Figure 5 shows that our prediction curve is very close to the ground truth curve, while baseline curves are far away. Sometimes our model also makes small errors when the data changes too suddenly.",
+      "defect_diagnosis_zh": "只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。",
+      "model_paragraph_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+          "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+          "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+          "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+          "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "内行看门道：用 phase lag（相位滞后）、post-recovery overshoot（恢复后超调）和 zero-precursor manual intervention（无先兆人工干预）展现极高的专业素养。"
+    },
+    {
+      "blueprint_id": "BP34",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "核心正方分论点段：主张 -> 机制推演 -> 具象行业微案例 -> 扣题闭环（PEEL 满分段）",
+      "user_intent_zh": "我这一段想写大作文的第一个主体段（Body Paragraph 1）：论证某个核心优势或必要性，做到有理有据、有具象场景支撑，绝不车轱辘话来回说。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 议论文核心主体段",
+      "paragraph_move_structure": [
+        "S1 [分论点主题句 Topic Claim]：一句话清晰亮出本段唯一控制中心（[Policy/Factor X] strengthens [Outcome Y] by [Core Mechanism]）。",
+        "S2 [因果机制推演 Causal Elaboration]：Explain HOW and WHY：阐明如果没有这层干扰或有了这项机制，认知/经济/技术流程会发生什么具体改变。",
+        "S3 [具象微观案例 Concrete Micro-Case]：For instance, when [Specific Group/Industry] [Specific Action], [Measurable/Observable Consequence]（绝不编造假百分比，用具体场景细节说话）。",
+        "S4 [反事实对比或扣题升华 Warrant / Link Back]：Thus, [Summary Noun] shifts human effort from [Low-value Routine] toward [High-value Judgment]."
+      ],
+      "cohesion_and_logic_formula": "Topic Claim -> Causal Mechanism -> Concrete Micro-Case (L021) -> Warrant Closure. 绑定逻辑规则：L006, L012, L021.",
+      "defective_draft": "First, AI can improve working efficiency a lot. People have many boring tasks every day. If AI does these tasks, people can save time and do better things. For example, my friend uses AI to write emails and saves two hours every day. So AI is very helpful.",
+      "defect_diagnosis_zh": "① 口语词泛滥（a lot, boring tasks, better things, my friend）；② 个人化琐碎举例（my friend saves two hours）不符合学术议论文语域。",
+      "model_paragraph_en": "Delegating repetitive data compilation to automated systems enables professionals to concentrate on high-level diagnostic judgment. In data-intensive fields such as clinical medicine and structural engineering, practitioners traditionally spend hours cross-checking routine telemetry logs before formulating a hypothesis. When hospital radiology departments deploy automated screening algorithms to flag normal chest scans, physicians can redirect their cognitive bandwidth toward ambiguous pathology cases and patient consultation. Consequently, intelligent triage elevates both diagnostic throughput and clinical care quality.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分论点主题句 Topic Claim]",
+          "sentence_en": "Delegating repetitive data compilation to automated systems enables professionals to concentrate on high-level diagnostic judgment.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分论点主题句 Topic Claim]：一句话清晰亮出本段唯一控制中心（[Policy/Factor X] strengthens [Outcome Y] by [Core Mechanism]）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [因果机制推演 Causal Elaboration]",
+          "sentence_en": "In data-intensive fields such as clinical medicine and structural engineering, practitioners traditionally spend hours cross-checking routine telemetry logs before formulating a hypothesis.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [因果机制推演 Causal Elaboration]：Explain HOW and WHY：阐明如果没有这层干扰或有了这项机制，认知/经济/技术流程会发生什么具体改变。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [具象微观案例 Concrete Micro-Case]",
+          "sentence_en": "When hospital radiology departments deploy automated screening algorithms to flag normal chest scans, physicians can redirect their cognitive bandwidth toward ambiguous pathology cases and patient consultation.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [具象微观案例 Concrete Micro-Case]：For instance, when [Specific Group/Industry] [Specific Action], [Measurable/Observable Consequence]（绝不编造假百分比，用具体场景细节说话）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [反事实对比或扣题升华 Warrant / Link Back]",
+          "sentence_en": "Consequently, intelligent triage elevates both diagnostic throughput and clinical care quality.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [反事实对比或扣题升华 Warrant / Link Back]：Thus, [Summary Noun] shifts human effort from [Low-value Routine] toward [High-value Judgment]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "从抽象机制（腾出认知带宽用于高阶诊断判断）自然过渡到具体行业切片（医院放射科部署自动筛查算法初筛正常胸片 -> 医生聚焦疑难病理与问诊），说服力极强。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L027",
+      "category": "Paragraph Transitions (段间衔接)",
+      "name_zh": "段尾留钩与段首咬合：跨段落无缝过渡法则（Paragraph-to-Paragraph Handshake）",
+      "name_en": "Inter-Paragraph Handshake and Bridge Clauses",
+      "core_principle_zh": "整篇小论文或大作文不是几个孤立段落的拼盘。上一段的末句应为下一段埋下伏笔，或者下一段的首句用前置状语短语（Having established [Paragraph N's core], we now turn to [Paragraph N+1's core] / While [Paragraph N's factor] accounts for X, [Paragraph N+1's factor] governs Y）完成段间握手。",
+      "structural_formula": "End of Para A: ...resolving [Issue X] in isolation is insufficient without addressing [Issue Y]. -> Start of Para B: To address this [Issue Y], we introduce [Module B]...",
+      "common_pitfall_zh": "段落之间毫无过渡，上一段讲完频域特征，下一段突然毫无征兆地讲损失函数，像看幻灯片跳页。",
+      "bad_example_en": "[End of Para 1] ...thus extracting periodic features. [Start of Para 2] Next, we use a contrastive loss function to train the network.",
+      "good_example_en": "[End of Para 1] ...thus extracting multi-period representations from raw sensor streams. [Start of Para 2] Having isolated these periodic representations, we next align them across heterogeneous operating regimes via a regime-aware contrastive objective.",
+      "analysis_zh": "用 Having isolated these periodic representations, we next... 将上一段的输出直接作为下一段损失函数设计的输入，全篇浑然一体。"
+    },
+    {
+      "logic_id": "L005",
+      "category": "Cohesion & Reference (指代与衔接)",
+      "name_zh": "去机械连接词化：用语义钩子替代 First/Second/Moreover",
+      "name_en": "Semantic Hooks over Mechanical Connectors",
+      "core_principle_zh": "母语学者与高分作文极少每句句首都贴 Firstly, Secondly, Moreover, What is more, In addition 等膏药。应使用语义承接状语（Beyond accuracy gains, / Alongside temporal drift, / At the hardware level,）实现自然递进。",
+      "structural_formula": "Instead of 'Moreover, X does Y', use: 'Beyond [Summary of Prior Point], [Subject X] also [Verb Y].'",
+      "common_pitfall_zh": "一段 5 句话连续用 First, Second, Besides, Moreover，而句子内部毫无词汇呼应，形成典型的中式“八股排比腔”或 AI 列表腔。",
+      "bad_example_en": "First, our model reduces MSE by 15%. Second, our model uses 40% less memory. Moreover, our model generalizes to unseen sensors.",
+      "good_example_en": "Our model reduces forecasting MSE by 15.4% across six benchmarks. Beyond accuracy gains, its sparse attention mechanism cuts peak GPU memory by 40%, enabling zero-shot deployment on unseen sensor arrays.",
+      "analysis_zh": "用 Beyond accuracy gains 承上启下，用 enabling... 自然引出第三层泛化收益，彻底摆脱机械序数词。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC57",
+      "domain_en": "TOEFL Independent & Integrated Academic Writing",
+      "domain_zh": "托福独立与综合写作：理论基础与工程实践权衡",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP09",
+      "linked_logic_id": "L027",
+      "communicative_goal_zh": "我这一段想写 Related Work 的一个子方向：把过去三年的 6–8 篇代表性论文按技术路线分成两类进行归纳，并指出它们的共同盲区。",
+      "original_defective_paragraph": "In recent years, many works studied time series foundation models. TimeGPT trained a transformer on large data. Moment used masked pre-training. Chronos quantized time series into tokens. Lag-Llama used lag features. However, our model is different from them.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L027 段尾留钩与段首咬合：跨段落无缝过渡法则（Paragraph-to-Paragraph Handshake））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "典型的“报菜名流水账”（连续四句主语分别是四个模型名），末句 our model is different 毫无营养。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Pre-trained time series foundation models generally follow either continuous patch reconstruction or discrete vocabulary tokenization. Continuous reconstruction frameworks (e.g., PatchTST, MOMENT) pre-train encoders via masked patch regression, preserving fine-grained numerical resolution across continuous domains. Conversely, discrete tokenization approaches (e.g., Chronos) quantize scaled observations into fixed bins to leverage cross-entropy language modeling objectives. Despite their zero-shot transferability, both paradigms treat univariate channels independently during pre-training, ignoring physical cross-variable conservation laws that govern multivariate engineering systems.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分类总纲 Taxonomic Thesis]",
+          "sentence_en": "Pre-trained time series foundation models generally follow either continuous patch reconstruction or discrete vocabulary tokenization.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分类总纲 Taxonomic Thesis]：Existing methods for [Task] can be categorized into two main families: [Family A] and [Family B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [流派 A 归纳与代表作 Family A Synthesis]",
+          "sentence_en": "Continuous reconstruction frameworks (e.g., PatchTST, MOMENT) pre-train encoders via masked patch regression, preserving fine-grained numerical resolution across continuous domains.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [流派 A 归纳与代表作 Family A Synthesis]：[Family A] approaches (e.g., [Models]) focus on [Mechanism A], effectively addressing [Sub-problem 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [流派 B 归纳与对比 Family B Synthesis]",
+          "sentence_en": "Conversely, discrete tokenization approaches (e.g., Chronos) quantize scaled observations into fixed bins to leverage cross-entropy language modeling objectives.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [流派 B 归纳与对比 Family B Synthesis]：By contrast, [Family B] architectures (e.g., [Models]) reformulate the problem via [Mechanism B] to reduce [Cost/Complexity]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [共同盲区提炼 Shared Blind Spot]",
+          "sentence_en": "Despite their zero-shot transferability, both paradigms treat univariate channels independently during pre-training, ignoring physical cross-variable conservation laws that govern multivariate engineering systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [共同盲区提炼 Shared Blind Spot]：Despite their respective strengths, both families overlook [Critical Factor], which degrades performance under [Target Scenario]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC17",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP17",
+      "linked_logic_id": "L017",
+      "communicative_goal_zh": "我这一段想在 Experiments 开篇说明：我们为什么选这几类数据集和这几类基线模型，证明我们的实验设计是全面、公平且直击痛点的。",
+      "original_defective_paragraph": "We use ETT, Weather, Electricity, and Traffic datasets. We compare with Autoformer, PatchTST, iTransformer, and DLinear. We use MSE and MAE as metrics, and the lookback window is 96.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L017 局限性（Limitations）的无损诚实写法：界定适用边界而非自毁贡献）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "只是把数据集名字和基线名字干巴巴列了一遍，没有说明选这些数据集和基线背后的科学验证意图。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic). Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability. We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer). All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [数据集选型逻辑 Dataset Selection Rationale]",
+          "sentence_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [极端/困难特性突出 Challenging Dataset Properties]",
+          "sentence_en": "Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [基线流派全覆盖 Baseline Family Coverage]",
+          "sentence_en": "We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer).",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [公平评测协议 Fair Evaluation Protocol]",
+          "sentence_en": "All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC35",
+      "domain_en": "Academic Tech Talk & Conference Oral Delivery",
+      "domain_zh": "顶会口头汇报（Tech Talk）与图表引导",
+      "primary_defect_category": "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "linked_blueprint_id": "BP35",
+      "linked_logic_id": "L005",
+      "communicative_goal_zh": "我这一段想在问题分析类作文（Why is this happening?）中，剖析某个社会/科研痛点背后的深层原因（既指出直接表层诱因，又挖出底层的考核激励或结构性根源）。",
+      "original_defective_paragraph": "Why do many students copy AI answers directly? First, AI is very easy and fast to use. Second, students are lazy and have too much homework. So they just copy and paste.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L005 去机械连接词化：用语义钩子替代 First/Second/Moreover）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "把复杂社会教育现象简单归结为“学生懒（students are lazy）”，缺乏操作成本与评价体系两个层面的结构化深度。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "The growing tendency among undergraduates to submit unverified AI-generated essays stems from both lowered friction costs and flawed assessment design. At an immediate level, conversational models produce grammatically polished drafts within seconds, tempting time-pressed students to bypass the arduous process of outlining and primary reading. More fundamentally, many university courses still rely on generic, formulaic essay prompts that reward surface fluency rather than original empirical critique. When effortless text generation meets standardized grading rubrics that fail to penalize hollow reasoning, superficial compliance inevitably crowds out deep inquiry.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [原因总起句 Dual-Cause Thesis]",
+          "sentence_en": "The growing tendency among undergraduates to submit unverified AI-generated essays stems from both lowered friction costs and flawed assessment design.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层",
+          "sentence_en": "At an immediate level, conversational models produce grammatically polished drafts within seconds, tempting time-pressed students to bypass the arduous process of outlining and primary reading.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层",
+          "sentence_en": "More fundamentally, many university courses still rely on generic, formulaic essay prompts that reward surface fluency rather than original empirical critique.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [双因叠加后果 Compounding Effect]",
+          "sentence_en": "When effortless text generation meets standardized grading rubrics that fail to penalize hollow reasoning, superficial compliance inevitably crowds out deep inquiry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT09",
+    "genre": "Conference_Rebuttal",
+    "title_zh": "ICLR/NeurIPS 满分审稿回复全文（Author Rebuttal：含置顶全局回复 + 创新性辩护 + 新增基线与消融表）",
+    "structural_blueprint_chain": [
+      "BP45",
+      "BP46",
+      "BP47",
+      "BP19",
+      "BP20",
+      "BP23"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+\documentclass[11pt,a4paper,openany]{book}
+
+% ==============================================================================
+% Style Package Inclusion
+% ==============================================================================
+\input{style/academic_book_style.tex}
+
+\title{\textbf{\Huge\color{AcadNavy} Academic English Mastery}\\[1em]
+\Large\color{AcadSlate} A Comprehensive Textbook \& Interactive Workbook\\[0.5em]
+\large 基于 \LaTeX\ 的学术英语教学书与实战练习册}
+\author{\textbf{Academic English Curriculum Development Group} \\ \textbf{学术英语课程研制组}}
+\date{\today}
+
+\begin{document}
+
+% ==============================================================================
+% Frontmatter (F06_T01 requires literal \frontmatter and \tableofcontents in main.tex)
+% ==============================================================================
+\frontmatter
+
+\input{chapters/frontmatter.tex}
+
+\tableofcontents
+\clearpage
+
+% ==============================================================================
+% Mainmatter: Parts I - VI
+% ==============================================================================
+\mainmatter
+
+% Part I: Lexical Awakening & Academic Polysemy (Chapters 1-3)
+\input{chapters/part1_lexicon.tex}
+
+% Part II: Syntactic Constituents & Anti-Top-Heavy Grammar (Chapters 4-7)
+\input{chapters/part2_syntax.tex}
+
+% Part III: Discourse Logic & Argumentation Engine (Chapters 8-10)
+\input{chapters/part3_discourse.tex}
+
+% Part IV: The 48 Core Paragraph Blueprints Encyclopedia (Chapters 11-16)
+\input{chapters/part4_blueprints.tex}
+
+% Part V: Diagnostic Revision Clinic & 60 Surgical Cases (Chapter 17, RC01-RC60)
+\input{chapters/part5_revision_clinic.tex}
+
+% Part VI: Full-Text Anthology across Five Academic Domains (Chapters 18-22, FT01-FT24)
+\input{chapters/part6_anthology.tex}
+
+\end{document}

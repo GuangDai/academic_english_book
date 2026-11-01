@@ -1,0 +1,352 @@
+{
+  "day": "day_0026",
+  "day_number": 26,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 26 天：动态时间序列趋势分段描述（暴涨、缓降、平台期与拐点） × 生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP26",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "动态时间序列趋势分段描述（暴涨、缓降、平台期与拐点）",
+      "user_intent_zh": "我这一段想写动态折线图（或模型训练收敛曲线）的主体细节段：把一条经历“初期缓慢爬升 -> 中期爆发增长 -> 后期高位平台期”的曲线，以及另一条“冲高回落”的曲线对比写活。",
+      "when_to_use_zh": "IELTS Task 1 动态图主体段 / 论文训练动力学与收敛曲线分析段",
+      "paragraph_move_structure": [
+        "S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]).",
+        "S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau.",
+        "S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025].",
+        "S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year."
+      ],
+      "cohesion_and_logic_formula": "Initial Disparity -> Multi-Phase Surge & Plateau (Entity A) -> Peak-then-Decline (Entity B) -> Gap Reversal. 绑定逻辑规则：L010, L013.",
+      "defective_draft": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+      "defect_diagnosis_zh": "典型的“流水账报年份数字”（In 2000... In 2005... In 2018...），句式单一且毫无趋势洞察。",
+      "model_paragraph_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%. Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025. By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey. This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [起始点位对比 Initial Standing]",
+          "sentence_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多阶段演进",
+          "sentence_en": "Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反向曲线对比",
+          "sentence_en": "By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [终局交叉总结 Terminal Comparison]",
+          "sentence_en": "This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "灵活交替使用 accounted for a mere 4%, trailing..., Following five years of marginal fluctuation, quadrupling to..., leveling off at..., underwent a sustained contraction，句式富于韵律且零AI套话。"
+    },
+    {
+      "blueprint_id": "BP38",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "利弊权衡段：证明结构性长期收益远超短期可管可控成本（Outweigh / Trade-off Analysis）",
+      "user_intent_zh": "我这一段想回应 'Do the advantages outweigh the disadvantages?' 题型：把弊端定性为“暂时的、可通过技术/规则收敛的局部成本”，把优势定性为“不可替代的结构性长期突破”。",
+      "when_to_use_zh": "IELTS Task 2 (Advantages vs. Disadvantages) / 论文设计权衡（Trade-off）段",
+      "paragraph_move_structure": [
+        "S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs.",
+        "S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures.",
+        "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost.",
+        "S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain."
+      ],
+      "cohesion_and_logic_formula": "Asymmetry Thesis -> Bound the Drawback (Temporary & Mitigable) -> Highlight Compounding Advantage (Irreplaceable) -> Rational Verdict. 绑定逻辑规则：L008, L023.",
+      "defective_draft": "Every coin has two sides. Although open-source AI has some security risks, it also has many advantages like helping researchers and small companies. So I think the advantages are bigger than the disadvantages.",
+      "defect_diagnosis_zh": "只把好坏两边并列摆出来，然后生硬宣布 advantages are bigger than disadvantages，缺乏“为什么A大于B”的权衡标尺（可逆成本 vs. 不可替代收益）。",
+      "model_paragraph_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks. While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters. By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics. Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [权衡定性主题句 Asymmetry Thesis]",
+          "sentence_en": "Weighing both dimensions demonstrates that the structural scientific gains of open-weight foundation models far outweigh their manageable misuse risks.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [权衡定性主题句 Asymmetry Thesis]：Weighing both dimensions reveals that the long-term structural benefits of [X] far outweigh its manageable transitional costs. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [将弊端限定为可收敛成本 Bounding the Drawback]",
+          "sentence_en": "While公开 releasing model weights lowers the barrier for generating deceptive phishing content, such downstream abuse can be substantially contained through cryptographic provenance standards and endpoint spam filters.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [将弊端限定为可收敛成本 Bounding the Drawback]：While [Drawback A, e.g., initial capital outlay / training overhead] poses a tangible hurdle, this cost is bounded and diminishes rapidly as [Mitigating Factor, e.g., hardware amortization / open-source standardization] matures. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]",
+          "sentence_en": "By contrast, open weights provide academic laboratories and resource-constrained hospitals with transparent, auditable architectures that proprietary black-box APIs cannot substitute—accelerating reproducible breakthroughs in protein folding and rare-disease diagnostics.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [凸显优势的不可替代性 Highlighting Irreversible Gain]：By contrast, the core advantage—[Benefit B, e.g., eliminating human exposure to hazardous environments / discovering non-linear scientific laws]—delivers compounding value that manual methods cannot replicate at any cost. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [权衡结论 Trade-off Verdict]",
+          "sentence_en": "Because the security risks are mitigable via defense-in-depth whereas the scientific transparency is irreplaceable, open research ecosystems yield a decisive net benefit.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [权衡结论 Trade-off Verdict]：Therefore, addressing the friction through targeted safeguards is far more rational than forgoing the transformative gain. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "提供了一套无敌的权衡逻辑标尺：弊端是可被纵深防御缓解的（mitigable via defense-in-depth），而优势（科学可复现性与透明审计）是黑盒 API 无法替代的（irreplaceable）。"
+    },
+    {
+      "blueprint_id": "BP27",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "静态多组数据横向对比与倍差/占比凸显段（Cross-Group Proportions）",
+      "user_intent_zh": "我这一段想写静态柱状图或饼图的主体段：横向对比不同国家/不同模型在不同开销维度上的占比差异，灵活运用倍数（double/triple）、分数（nearly a third）与排序结构。",
+      "when_to_use_zh": "IELTS Task 1 静态图表段 / 论文开销拆解（Breakdown）段",
+      "paragraph_move_structure": [
+        "S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]).",
+        "S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%].",
+        "S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups.",
+        "S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]."
+      ],
+      "cohesion_and_logic_formula": "Dominant Item with Multiplier -> Sharp Cross-Group Contrast -> Pooled Minor Items -> Structural Synthesis. 绑定逻辑规则：L009, L010.",
+      "defective_draft": "In Group 1, A is 46%, B is 24%, C is 18%, D is 7%, and E is 5%. In Group 2, C is 52%, B is 22%, A is 15%, D is 6%, and E is 5%.",
+      "defect_diagnosis_zh": "把文字写成了 CSV 表格转储，完全没有归并次要项，也没有提炼倍差与结构反差。",
+      "model_paragraph_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%). A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%. Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption. This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [主导项锁定 Dominant Category]",
+          "sentence_en": "Within edge-device inference workloads, attention matrix computation consumes the largest fraction of total energy at 48%, exactly double the power drawn by feed-forward layers (24%).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [主导项锁定 Dominant Category]：Regarding [Group 1], [Category A] claims the largest share at [46%], nearly double the proportion allocated to [Category B] ([24%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [组间横向反差 Cross-Group Contrast]",
+          "sentence_en": "A strikingly different profile emerges in onboard robotic control loops, where high-frequency sensor preprocessing dominates energy usage at 51%, while attention overhead contracts to just 16%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [组间横向反差 Cross-Group Contrast]：A markedly different allocation pattern emerges in [Group 2], where [Category C] dominates at [52%], while [Category A] shrinks to just [15%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [次要项合并归纳 Minor Categories Grouping]",
+          "sentence_en": "Across both deployment settings, memory offloading and actuation decoding collectively account for under 11% of total consumption.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [次要项合并归纳 Minor Categories Grouping]：Meanwhile, the remaining categories—[Category D and E]—collectively account for less than [12%] across both groups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [结构性差异提炼 Structural Takeaway]",
+          "sentence_en": "This contrast highlights that optimization bottlenecks shift from quadratic token mixing on cloud servers to raw sensory I/O on physical robots.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [结构性差异提炼 Structural Takeaway]：These figures indicate that whereas [Group 1] prioritizes [Function A], [Group 2] concentrates resources heavily on [Function C]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "第一句用倍数（48%, exactly double... 24%），第二句抓跨组反转（51% vs. 16%），第三句用 collectively account for under 11% 打包次要项，末句点破深层规律。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L026",
+      "category": "Domain Discourse (生成模型专属论证)",
+      "name_zh": "生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic）",
+      "name_en": "Fidelity, Mode Coverage, and Sampling Efficiency Trilemma",
+      "core_principle_zh": "分析生成模型（Diffusion, Flow Matching, Autoregressive, GAN, VAE）时，段落逻辑应围绕生成三难困境（Trilemma）展开：① 样本保真度（Sample Fidelity / Temporal Realism）、② 分布模式覆盖度/多样性（Mode Coverage / Diversity，防止 Mode Collapse）、③ 推理采样步数与速度（Inference NFE / Sampling Latency）。",
+      "structural_formula": "While [Model Family A] excels at [Fidelity/Diversity], it incurs [High NFE / Mode Collapse]. -> By reformulating the generation trajectory via [Rectified Flow / Consistency Distillation], our approach preserves [Property 1] while reducing sampling steps from [N] to [k].",
+      "common_pitfall_zh": "只说 the generated samples look very good and realistic，缺乏分布覆盖度与采样效率维度的严谨坐标。",
+      "bad_example_en": "Diffusion models generate very realistic data, but they are too slow. Our model makes them fast and still good.",
+      "good_example_en": "While denoising diffusion models capture multi-modal trajectory distributions without mode collapse, their reliance on tens of iterative solver steps precludes real-time control. By straightening the probability flow ODE via reflow distillation, our generator preserves multi-modal path diversity while compressing inference to a single forward pass.",
+      "analysis_zh": "精准使用 multi-modal trajectory distributions、without mode collapse、iterative solver steps、straightening the probability flow ODE 等领域高阶表达。"
+    },
+    {
+      "logic_id": "L004",
+      "category": "Cohesion & Reference (指代与衔接)",
+      "name_zh": "概念浓缩指代词（This/Such + Summary Noun）",
+      "name_en": "Shell Noun / Summary Noun Anaphora",
+      "core_principle_zh": "严禁单独使用裸露的 This / That / It 指代上一整句话！必须在指示代词后紧跟一个精准概括上一句本质的抽象范畴名词（如 This discrepancy / Such degradation / These computational constraints / This trade-off）。",
+      "structural_formula": "Sentence 1: [Full empirical observation or limitation]. -> Sentence 2: This/Such [Summary Noun: bottleneck / discrepancy / vulnerability / shift] + [Active Verb: motivates / necessitates / limits / explains]...",
+      "common_pitfall_zh": "句首单写 'This makes the model slow' 或 'Which causes error'，审稿人和雅思考官无法判断 This 究竟指上一句的主语、宾语还是整件事。",
+      "bad_example_en": "Diffusion models require hundreds of iterative denoising steps at inference time. This prevents them from running on onboard robot controllers.",
+      "good_example_en": "Diffusion policies require hundreds of iterative denoising steps at inference time. This computational latency prevents them from running at closed-loop control frequencies on onboard robot hardware.",
+      "analysis_zh": "用 This computational latency 将上一句“数百步去噪迭代”精准定性为“计算延迟”，既消除了指代歧义，又完成了因果定性。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC26",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP26",
+      "linked_logic_id": "L026",
+      "communicative_goal_zh": "我这一段想写动态折线图（或模型训练收敛曲线）的主体细节段：把一条经历“初期缓慢爬升 -> 中期爆发增长 -> 后期高位平台期”的曲线，以及另一条“冲高回落”的曲线对比写活。",
+      "original_defective_paragraph": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L026 生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "典型的“流水账报年份数字”（In 2000... In 2005... In 2018...），句式单一且毫无趋势洞察。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%. Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025. By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey. This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [起始点位对比 Initial Standing]",
+          "sentence_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多阶段演进",
+          "sentence_en": "Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反向曲线对比",
+          "sentence_en": "By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [终局交叉总结 Terminal Comparison]",
+          "sentence_en": "This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC46",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP46",
+      "linked_logic_id": "L016",
+      "communicative_goal_zh": "我这一段想回复审稿人最致命的质疑：'The method seems like a simple combination of existing Module A and Module B (limited novelty).' 既不顶撞审稿人，又能用理论+消融数据证明“绝对不是简单拼凑”。",
+      "original_defective_paragraph": "We disagree that our paper lacks novelty. Although A and B existed before, nobody used them together on time series forecasting. Also our results are very good, so our paper is novel.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L016 消融实验归因逻辑：移除模块 -> 暴露失效模式 -> 反证模块必要性（Ablation Attribution））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "承认了“只是把现成的 A 和 B 第一次拿到这个任务上拼起来（nobody used them together）”，等于坐实了審稿人的 A+B 拼凑指控！",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs. Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory. Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq. 7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention. To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [礼貌接招并定位误解核心 Courteous Reframing]",
+          "sentence_en": "We appreciate the opportunity to clarify how our architecture differs fundamentally from a naive combination of spectral filtering and neural ODEs.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [礼貌接招并定位误解核心 Courteous Reframing]：We appreciate Reviewer X's comment on architectural design and would like to clarify the fundamental distinction between our coupled formulation and a naive combination of [A] and [B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [点破简单拼接为何会失败 Why Naive Combination Fails]",
+          "sentence_en": "Directly stacking an FFT block with a standard neural ODE fails under abrupt regime shifts because spectral normalization strips the exact boundary values required to initialize the ODE trajectory.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [点破简单拼接为何会失败 Why Naive Combination Fails]：Directly stacking standard [A] and [B] fails on [Problem] because [Theoretical Conflict / Gradient Interference]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]",
+          "sentence_en": "Our core technical innovation lies in the bidirectional phase-scale coupling operator (Eq.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阐明本文核心数学/机制桥梁 Our Core Coupling Innovation]：Our core contribution lies not in using [A] or [B] in isolation, but in deriving the [Specific Coupling Mechanism C], which resolves [Conflict] by [Mathematical Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "7), which uses instantaneous spectral entropy to gate ODE stiffness while feeding predicted scale bounds back to regularize frequency attention.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]",
+          "sentence_en": "To verify this empirically, we implemented a direct `Naive FFT + ODE` concatenation baseline in Table R2 below: our coupled formulation reduces 720-step MSE by 15.2% over `Naive FFT + ODE`, confirming that the gain stems from our mathematical coupling rather than module stacking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [用直接对比实验一锤定音 Empirical Proof of Non-Triviality]：To verify this empirically, we implemented the exact naive concatenation baseline (`Naive A+B`) in Table R2: our coupled formulation outperforms `Naive A+B` by [14.6%] in MSE, confirming that the performance gain stems from our coupling mechanism rather than mere module stacking. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC04",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP04",
+      "linked_logic_id": "L004",
+      "communicative_goal_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+      "original_defective_paragraph": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L004 概念浓缩指代词（This/Such + Summary Noun））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 典型 AI 自吹词（novel and groundbreaking, delve into, state-of-the-art）；② 机械报菜名（Module A, B, C），完全没讲清为什么这套组合能解决上一段的痛点。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation. Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system. Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch. Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [方法登场与定位 Method Introduction]",
+          "sentence_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心直觉洞察 Key Insight]",
+          "sentence_en": "Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [模块协同主干 Module Synergy]",
+          "sentence_en": "Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [闭环收益总结 Closed-Loop Benefit]",
+          "sentence_en": "Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT02",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "基于条件流匹配的块缺失时间序列生成与插补完整小论文（FlowImp: Manifold-Consistent Time Series Imputation）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP01",
+      "BP09",
+      "BP10",
+      "BP11",
+      "BP15",
+      "BP17",
+      "BP18",
+      "BP20",
+      "BP23",
+      "BP24"
+    ]
+  }
+}

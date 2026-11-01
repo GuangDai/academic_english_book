@@ -1,0 +1,374 @@
+[
+  {
+    "task_id": "D0010_T01",
+    "day": "day_0010",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【Related Work 小节末段，或 Rebuttal 创新性辨析段】。你这一段的核心表达意图是：“我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。”。请严格按照 `BP10` 的逐句功能骨架（4 步法）与逻辑法则 `L010`（定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T02",
+    "day": "day_0010",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Experiments 第 4.6 节 Computational Efficiency",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Experiments 第 4.6 节 Computational Efficiency】。你这一段的核心表达意图是：“我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。”。请按 `BP22` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+    "structural_constraints": [
+      "S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU.",
+      "S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%].",
+      "S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline.",
+      "S4 [帕累托结论 Pareto Takeaway]：Consequently, [Our Model] achieves superior accuracy at a fraction of the computational footprint required by heavyweight foundation models."
+    ],
+    "linked_blueprint_id": "BP22",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T03",
+    "day": "day_0010",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L010`（定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T04",
+    "day": "day_0010",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Experiments 第 4.6 节 Computational Efficiency",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L018`（口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+    "structural_constraints": [
+      "S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU.",
+      "S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%].",
+      "S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline.",
+      "S4 [帕累托结论 Pareto Takeaway]：Consequently, [Our Model] achieves superior accuracy at a fraction of the computational footprint required by heavyweight foundation models."
+    ],
+    "linked_blueprint_id": "BP22",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T05",
+    "day": "day_0010",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【深度病段修改诊所 1：专治机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T06",
+    "day": "day_0010",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Experiments 第 4.6 节 Computational Efficiency",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+    "prompt_zh": "【深度病段修改诊所 2：专治机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+    "structural_constraints": [
+      "S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU.",
+      "S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%].",
+      "S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline.",
+      "S4 [帕累托结论 Pareto Takeaway]：Consequently, [Our Model] achieves superior accuracy at a fraction of the computational footprint required by heavyweight foundation models."
+    ],
+    "linked_blueprint_id": "BP22",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T07",
+    "day": "day_0010",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "CET-6 / IELTS Task 2 原因分析段，或学术评论文章",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想在问题分析类作文（Why is this happening?）中，剖析某个社会/科研痛点背后的深层原因（既指出直接表层诱因，又挖出底层的考核激励或结构性根源）。",
+    "prompt_zh": "【深度病段修改诊所 3：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives.",
+      "S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action].",
+      "S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor.",
+      "S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated."
+    ],
+    "linked_blueprint_id": "BP35",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T08",
+    "day": "day_0010",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“对比现有流派优劣并精准定位本文差异（Contrastive Positioning）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T09",
+    "day": "day_0010",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Experiments 第 4.6 节 Computational Efficiency",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想说明我们的模型不仅准，而且算得快、显存省，在“精度-延迟/显存”帕累托前沿（Pareto Frontier）上显著优于现有大模型。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "From 2010 to 2025, demand increased from 200 to 460. In 2035, it will increase to 1050. AI was 10% in 2023 and will be 45% in 2040.",
+    "structural_constraints": [
+      "S1 [硬件与测试基准 Hardware Setup]：Figure 6 compares the accuracy-efficiency Pareto frontier across all baselines measured on a single NVIDIA RTX 4090 GPU.",
+      "S2 [复杂度理论与实测对比 Complexity & Runtime]：By replacing $O(L^2)$ point-wise attention with $O(L \\log L)$ spectral filtering and patch aggregation, our model cuts training time per epoch by [X%] and peak VRAM by [Y%].",
+      "S3 [实时闭环部署可行性 Real-Time Viability]：At inference time, generating a 720-step forecast (or 16-step robot action chunk) requires only [4.2 ms], well below the [20 ms] real-time control deadline.",
+      "S4 [帕累托结论 Pareto Takeaway]：Consequently, [Our Model] achieves superior accuracy at a fraction of the computational footprint required by heavyweight foundation models."
+    ],
+    "linked_blueprint_id": "BP22",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T10",
+    "day": "day_0010",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "CET-6 / IELTS Task 2 原因分析段，或学术评论文章",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想在问题分析类作文（Why is this happening?）中，剖析某个社会/科研痛点背后的深层原因（既指出直接表层诱因，又挖出底层的考核激励或结构性根源）。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP10`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives.",
+      "S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action].",
+      "S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor.",
+      "S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated."
+    ],
+    "linked_blueprint_id": "BP35",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T11",
+    "day": "day_0010",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "Related Work 小节末段，或 Rebuttal 创新性辨析段",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+    "prompt_zh": "【多段贯通写作实战 1：Academic_QA_Defense 核心章节连写】参照全文样板 `FT10 (学术答辩与组会 6 大高频刁钻提问应答全案（Novelty、超参敏感性、极端噪声、计算复杂度、失败案例与未来扩展）)` 的段落蓝图链 `BP44 -> BP46 -> BP20`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "Some works also use frequency domain like us, such as FEDformer and TimesNet. But our method is much better and more novel because we use a new module.",
+    "structural_constraints": [
+      "S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach.",
+      "S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting].",
+      "S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism].",
+      "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]."
+    ],
+    "linked_blueprint_id": "BP10",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0010_T12",
+    "day": "day_0010",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "CET-6 / IELTS Task 2 原因分析段，或学术评论文章",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想在问题分析类作文（Why is this happening?）中，剖析某个社会/科研痛点背后的深层原因（既指出直接表层诱因，又挖出底层的考核激励或结构性根源）。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP35` 与全文样板 `FT10` 的后半部分（`BP21 -> BP22 -> BP23`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [原因总起句 Dual-Cause Thesis]：The widespread emergence of [Problem X] stems from both immediate technological pressures and deeper institutional incentives.",
+      "S2 [第一层：直接操作/技术诱因 Immediate Driver]：At the operational level, [Factor A] lowers the cost of [Behavior], tempting individuals/organizations to [Short-term Action].",
+      "S3 [第二层：深层制度/激励根源 Structural Root Cause]：More fundamentally, existing evaluation systems reward [Superficial Metric] rather than [Long-term Quality], creating powerful pressure to prioritize speed over rigor.",
+      "S4 [双因叠加后果 Compounding Effect]：When effortless generation meets quantity-driven evaluation, [Problem X] becomes systemic rather than isolated."
+    ],
+    "linked_blueprint_id": "BP35",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

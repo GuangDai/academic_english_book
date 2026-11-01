@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IntentToParagraphBlueprint",
+  "type": "object",
+  "required": [
+    "blueprint_id",
+    "track_id",
+    "track_name_zh",
+    "title_zh",
+    "user_intent_zh",
+    "when_to_use_zh",
+    "paragraph_move_structure",
+    "cohesion_and_logic_formula",
+    "defective_draft",
+    "defect_diagnosis_zh",
+    "model_paragraph_en",
+    "sentence_by_sentence_breakdown",
+    "genre_adaptation_notes"
+  ]
+}

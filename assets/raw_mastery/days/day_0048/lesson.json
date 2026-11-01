@@ -1,0 +1,339 @@
+{
+  "day": "day_0048",
+  "day_number": 48,
+  "stage": 4,
+  "stage_name_zh": "Stage 4: 学术演讲、科研叙事与六级/雅思/托福整篇大小作文满分实战",
+  "daily_focus_title_zh": "第 48 天：科研个人陈述（SoP / Research Narrative）：从时间序列/生成建模迈向具身智能的闭环叙事段 × 口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting） × TOEFL_Independent 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP48",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "科研个人陈述（SoP / Research Narrative）：从时间序列/生成建模迈向具身智能的闭环叙事段",
+      "user_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+      "when_to_use_zh": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+      "paragraph_move_structure": [
+        "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+        "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+        "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+        "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+      ],
+      "cohesion_and_logic_formula": "Past Core Thread -> Concrete Method & Metric -> Intellectual Bridge (Passive Forecasting -> Active Closed-Loop Control) -> Future Embodied AI Agenda. 绑定逻辑规则：L003, L025, L029.",
+      "defective_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+      "defect_diagnosis_zh": "包含 SoP 两大禁忌：① 童年情怀套话（Since I was a child, I have been fascinated by...）；② 盲目追热点（because it is a very hot topic），没讲清你过去的时序/生成建模背景赋予了你做具身智能什么独特优势。",
+      "model_paragraph_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data. While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%. Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions. Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [过往研究主线凝练 Past Research Thread]",
+          "sentence_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [代表作攻克过程与硬核成果 Concrete Achievement]",
+          "sentence_en": "While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]",
+          "sentence_en": "Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来研究愿景 Future Research Agenda]",
+          "sentence_en": "Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "没有一句童年套话！将“过去的非平稳时间序列与快速流匹配生成模型”通过“从被动观测序列演进到主动闭环物理交互”的深刻科学洞察，自然推演出“构建自适应具身智能世界模型”的未来蓝图。"
+    },
+    {
+      "blueprint_id": "BP12",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "整体模型架构数据流俯瞰段（Framework Overview & Pipeline Walkthrough）",
+      "user_intent_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+      "when_to_use_zh": "Methodology 第 3.2 节 Architecture Overview",
+      "paragraph_move_structure": [
+        "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3].",
+        "S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1].",
+        "S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$].",
+        "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]."
+      ],
+      "cohesion_and_logic_formula": "严格的链式数据流（$\\mathbf{X} \\to \\mathbf{Z}^{(1)} \\to \\mathbf{Z}^{(2)} \\to \\hat{\\mathbf{Y}}$），每一句句首承接上一句的输出张量。绑定逻辑规则：L001, L003, L004.",
+      "defective_draft": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+      "defect_diagnosis_zh": "写成看图说话的静态空间方位描述（on the left, in the middle, on the right），没有体现张量变换的数据流动与功能因果。",
+      "model_paragraph_en": "Figure 2 illustrates the overall architecture of DyTS-Net, which maps raw sensor streams to multi-horizon forecasts through three sequential stages. Given an input sequence $\\mathbf{X}$, the Adaptive De-stationary Tokenizer first separates local trend-scale statistics from normalized sub-series patches $\\mathbf{Z}_0$. These normalized patches then pass through stacked Spectral-Spatial Mixing blocks, which jointly filter high-frequency channel noise in the Fourier domain and propagate cross-sensor phase dependencies via a sparse directed graph. Finally, the Scale-Guided Decoder fuses the refined structural representations with the projected neural-ODE scale trajectory to reconstruct the multi-horizon output $\\hat{\\mathbf{Y}}$.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]",
+          "sentence_en": "Figure 2 illustrates the overall architecture of DyTS-Net, which maps raw sensor streams to multi-horizon forecasts through three sequential stages.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [阶段 1 数据流 Stage 1 Flow]",
+          "sentence_en": "Given an input sequence $\\mathbf{X}$, the Adaptive De-stationary Tokenizer first separates local trend-scale statistics from normalized sub-series patches $\\mathbf{Z}_0$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [阶段 2 数据流 Stage 2 Flow]",
+          "sentence_en": "These normalized patches then pass through stacked Spectral-Spatial Mixing blocks, which jointly filter high-frequency channel noise in the Fourier domain and propagate cross-sensor phase dependencies via a sparse directed graph.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]",
+          "sentence_en": "Finally, the Scale-Guided Decoder fuses the refined structural representations with the projected neural-ODE scale trajectory to reconstruct the multi-horizon output $\\hat{\\mathbf{Y}}$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "不讲“左边有什么右边有什么”，而是沿着张量 $\\mathbf{X} \\to \\mathbf{Z}_0 \\to \\text{refined representations} \\to \\hat{\\mathbf{Y}}$ 的变换链条，每一步都带出明确的目的状语。"
+    },
+    {
+      "blueprint_id": "BP25",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "图表小作文首段：题目改写与总体趋势概览（Paraphrase + Macro Overview）",
+      "user_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+      "when_to_use_zh": "IELTS Academic Task 1 首段（Introduction + Overview）或实验趋势总览段",
+      "paragraph_move_structure": [
+        "S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B].",
+        "S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year].",
+        "S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor."
+      ],
+      "cohesion_and_logic_formula": "Paraphrase -> Overall Trajectory Contrast -> Dominant Crossover/Extremum (Zero raw numbers in Overview!). 绑定逻辑规则：L013, L015.",
+      "defective_draft": "The chart shows the energy consumption from 2000 to 2025. We can see that solar energy went up a lot from 5% to 35%, and coal went down from 60% to 25%. Wind also went up.",
+      "defect_diagnosis_zh": "① 词汇低幼（went up a lot, went down）；② 把具体百分比过早塞进了 Overview，导致后面细节段无话可写。",
+      "model_paragraph_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025. Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily. Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [图表命题同义改写 Prompt Paraphrase]",
+          "sentence_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [宏观趋势 1",
+          "sentence_en": "Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [宏观趋势 2",
+          "sentence_en": "Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "不露一个具体数字，却精准抓住了“可再生能源上扬 vs. 煤炭萎缩”的总基调以及“2018 年主次反转（crossover）”的决定性拐点，稳拿 Task Achievement 8+。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L018",
+      "category": "Presentation & Speech (学术演讲与汇报)",
+      "name_zh": "口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting）",
+      "name_en": "Spoken Rhythm, Visual Anchoring, and Rhetorical Signposting",
+      "core_principle_zh": "听众无法像读论文那样倒回去重读长定语从句。把书面段转化为演讲稿时，必须：① 砍掉多重嵌套从句，拆为 10–15 词的清晰短句；② 先给视觉坐标（Look at the red curve in the upper-right panel）再讲结论；③ 用轻量设问（Why does this spike happen? Because...）引导注意力。",
+      "structural_formula": "[Visual Anchor: Turning to the right panel of Slide 4,] -> [Short Rhetorical Question: why does the baseline diverge after step 50?] -> [Crisp Causal Answer: The answer lies in compound orientation drift.]",
+      "common_pitfall_zh": "拿着书面论文原封不动照念长达 40 个词的复合句，台下听众在前 10 秒就丢失了主谓关系。",
+      "bad_example_en": "As illustrated in Figure 4, the trajectory generated by the baseline model without temporal consistency regularization exhibits substantial oscillation around the target waypoint.",
+      "good_example_en": "Take a look at the dashed blue trajectory in Figure 4. Notice how violently the robot arm oscillates near the target waypoint. Why does this happen? Without temporal consistency regularization, adjacent action chunks conflict with one another.",
+      "analysis_zh": "用 Take a look at... -> Notice how... -> Why does this happen? -> Without X, Y conflicts... 营造极具现场掌控力的母语级 Tech Talk 节奏。"
+    },
+    {
+      "logic_id": "L026",
+      "category": "Domain Discourse (生成模型专属论证)",
+      "name_zh": "生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic）",
+      "name_en": "Fidelity, Mode Coverage, and Sampling Efficiency Trilemma",
+      "core_principle_zh": "分析生成模型（Diffusion, Flow Matching, Autoregressive, GAN, VAE）时，段落逻辑应围绕生成三难困境（Trilemma）展开：① 样本保真度（Sample Fidelity / Temporal Realism）、② 分布模式覆盖度/多样性（Mode Coverage / Diversity，防止 Mode Collapse）、③ 推理采样步数与速度（Inference NFE / Sampling Latency）。",
+      "structural_formula": "While [Model Family A] excels at [Fidelity/Diversity], it incurs [High NFE / Mode Collapse]. -> By reformulating the generation trajectory via [Rectified Flow / Consistency Distillation], our approach preserves [Property 1] while reducing sampling steps from [N] to [k].",
+      "common_pitfall_zh": "只说 the generated samples look very good and realistic，缺乏分布覆盖度与采样效率维度的严谨坐标。",
+      "bad_example_en": "Diffusion models generate very realistic data, but they are too slow. Our model makes them fast and still good.",
+      "good_example_en": "While denoising diffusion models capture multi-modal trajectory distributions without mode collapse, their reliance on tens of iterative solver steps precludes real-time control. By straightening the probability flow ODE via reflow distillation, our generator preserves multi-modal path diversity while compressing inference to a single forward pass.",
+      "analysis_zh": "精准使用 multi-modal trajectory distributions、without mode collapse、iterative solver steps、straightening the probability flow ODE 等领域高阶表达。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC48",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP48",
+      "linked_logic_id": "L018",
+      "communicative_goal_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+      "original_defective_paragraph": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L018 口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "包含 SoP 两大禁忌：① 童年情怀套话（Since I was a child, I have been fascinated by...）；② 盲目追热点（because it is a very hot topic），没讲清你过去的时序/生成建模背景赋予了你做具身智能什么独特优势。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data. While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%. Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions. Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [过往研究主线凝练 Past Research Thread]",
+          "sentence_en": "My research focuses on learning reliable representations and generative trajectories from non-stationary sequential data.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [代表作攻克过程与硬核成果 Concrete Achievement]",
+          "sentence_en": "While investigating multivariate industrial telemetry, I found that conventional attention mechanisms collapse when underlying system dynamics shift—motivating me to design a neural-ODE coupled spectral forecaster that reduced long-range drift by 17.4%.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]",
+          "sentence_en": "Yet passive sequence forecasting only observes how a system evolves; intelligent physical agents must actively intervene within that loop, where every motor command alters future state distributions.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来研究愿景 Future Research Agenda]",
+          "sentence_en": "Bridging my background in non-stationary time-series modeling and fast flow-matching samplers, my future research aims to build adaptive visuomotor world models that allow embodied robots to generalize across unfamiliar contact regimes in real time.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC08",
+      "domain_en": "Diffusion & Flow-Matching Time Series Imputation",
+      "domain_zh": "基于扩散/流匹配的缺失时序插补与生成",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP08",
+      "linked_logic_id": "L008",
+      "communicative_goal_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+      "original_defective_paragraph": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L008 先让步、再釜底抽薪式反驳（Concession-Pivot-Refutation））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "包含 in the era of big data, delve into, novel, state-of-the-art 等典型低质套话，且没有任何具体机制因果与量化数字。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series. While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively. We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps. Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer. Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [背景与任务重要性 Context]",
+          "sentence_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [现有局限与痛点 Gap/Bottleneck]",
+          "sentence_en": "While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3-S4 [本文方法与核心机制 Approach & Mechanism]",
+          "sentence_en": "We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]... | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC26",
+      "domain_en": "Long-Horizon Transformer Efficiency & Patching",
+      "domain_zh": "长序列 Transformer 稀疏注意力与分块表征",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP26",
+      "linked_logic_id": "L026",
+      "communicative_goal_zh": "我这一段想写动态折线图（或模型训练收敛曲线）的主体细节段：把一条经历“初期缓慢爬升 -> 中期爆发增长 -> 后期高位平台期”的曲线，以及另一条“冲高回落”的曲线对比写活。",
+      "original_defective_paragraph": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L026 生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "典型的“流水账报年份数字”（In 2000... In 2005... In 2018...），句式单一且毫无趋势洞察。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%. Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025. By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey. This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [起始点位对比 Initial Standing]",
+          "sentence_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多阶段演进",
+          "sentence_en": "Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反向曲线对比",
+          "sentence_en": "By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [终局交叉总结 Terminal Comparison]",
+          "sentence_en": "This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT24",
+    "genre": "TOEFL_Independent",
+    "title_zh": "托福独立写作满分范文：生成模型训练中坚守真实人类语料锚点与防止模型自噬（Model Autophagy）",
+    "structural_blueprint_chain": [
+      "BP33",
+      "BP35",
+      "BP39",
+      "BP38",
+      "BP40"
+    ]
+  }
+}

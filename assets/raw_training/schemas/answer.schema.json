@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://academic-english-training.local/schemas/answer.schema.json",
+  "title": "Academic English Training Answer Key Schema V2.0",
+  "version": "2.0.0",
+  "type": "object",
+  "required": [
+    "question_id",
+    "reference_answer",
+    "acceptable_alternatives",
+    "explanation_zh",
+    "common_errors",
+    "rubric",
+    "target_knowledge"
+  ],
+  "properties": {
+    "question_id": {
+      "type": "string",
+      "pattern": "^Q_D[0-9]{4}_[0-9]{2}$"
+    },
+    "day_id": {
+      "type": "string",
+      "pattern": "^day_[0-9]{4}$"
+    },
+    "reference_answer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "acceptable_alternatives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "explanation_zh": {
+      "type": "string",
+      "minLength": 10
+    },
+    "sentence_constituents_and_style_zh": {
+      "type": "string"
+    },
+    "linguistic_analysis_zh": {
+      "type": "string"
+    },
+    "common_errors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "rubric": {
+      "type": "object",
+      "required": [
+        "max_score",
+        "criteria",
+        "evaluation_note_zh"
+      ],
+      "properties": {
+        "max_score": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "criteria": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "dimension",
+              "points",
+              "description_zh"
+            ],
+            "properties": {
+              "dimension": {
+                "type": "string"
+              },
+              "points": {
+                "type": "number"
+              },
+              "description_zh": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "evaluation_note_zh": {
+          "type": "string"
+        }
+      }
+    },
+    "target_knowledge": {
+      "type": "object",
+      "required": [
+        "word_ids",
+        "grammar_ids",
+        "knowledge_tags"
+      ],
+      "properties": {
+        "word_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "grammar_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "expression_pattern_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "knowledge_tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

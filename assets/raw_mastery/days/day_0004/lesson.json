@@ -1,0 +1,346 @@
+{
+  "day": "day_0004",
+  "day_number": 4,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 4 天：亮出本文核心洞察与破局方法总览（Key Insight & Method Overview） × 概念浓缩指代词（This/Such + Summary Noun） × AI_Mini_Paper 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP04",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "亮出本文核心洞察与破局方法总览（Key Insight & Method Overview）",
+      "user_intent_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+      "when_to_use_zh": "Introduction 第三段（Our Approach & Key Insight）",
+      "paragraph_move_structure": [
+        "S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal].",
+        "S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。",
+        "S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。",
+        "S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。"
+      ],
+      "cohesion_and_logic_formula": "Problem Anchor -> Key Insight -> Dual-Module Mechanism -> Pareto Resolution. 绑定逻辑规则：L002, L023.",
+      "defective_draft": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+      "defect_diagnosis_zh": "① 典型 AI 自吹词（novel and groundbreaking, delve into, state-of-the-art）；② 机械报菜名（Module A, B, C），完全没讲清为什么这套组合能解决上一段的痛点。",
+      "model_paragraph_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation. Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system. Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch. Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [方法登场与定位 Method Introduction]",
+          "sentence_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心直觉洞察 Key Insight]",
+          "sentence_en": "Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [模块协同主干 Module Synergy]",
+          "sentence_en": "Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [闭环收益总结 Closed-Loop Benefit]",
+          "sentence_en": "Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "先给 Key Insight（核心直觉），再讲模块分工，审稿人一眼就能看懂你的创新不是拼积木，而是有严密的理论动机。"
+    },
+    {
+      "blueprint_id": "BP16",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "具身智能专属：多模态感知-动作闭环与 Sim-to-Real 阐述段（Embodied AI Policy）",
+      "user_intent_zh": "我这一段想阐述具身智能机器人策略（Embodied Policy）如何融合视觉、本体感觉（Proprioception）或触觉，并克服仿真到真实硬件的动力学差距（Sim-to-Real Gap）。",
+      "when_to_use_zh": "具身智能 / 机器人操作（Robotic Manipulation）论文 Methodology 章节",
+      "paragraph_move_structure": [
+        "S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact.",
+        "S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories.",
+        "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling.",
+        "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning."
+      ],
+      "cohesion_and_logic_formula": "Visual Occlusion Bottleneck -> Asynchronous Multimodal Alignment -> Action Chunking -> Online Sim-to-Real System Identification. 绑定逻辑规则：L025, L003.",
+      "defective_draft": "When the robot hand blocks the camera, the robot cannot see the object clearly. So we add force sensors and joint angles. Also, we predict multiple steps of actions and use an adapter to transfer from simulation to the real robot.",
+      "defect_diagnosis_zh": "全是大白话（blocks the camera, cannot see clearly, add force sensors），没有体现异步采样率对齐、SE(3) 动作块与在线隐空间动力学辨识。",
+      "model_paragraph_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object. To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings. Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling. At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单模态开环局限 Open-Loop Visual Limitation]",
+          "sentence_en": "Relying solely on third-person RGB-D observations leaves visuomotor policies vulnerable to severe self-occlusion once the gripper approaches the target object.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单模态开环局限 Open-Loop Visual Limitation]：Relying solely on RGB-D point clouds leaves manipulation policies vulnerable to self-occlusion by the robot gripper during fine-grained contact. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多模态时空对齐 Multi-Modal Alignment]",
+          "sentence_en": "To preserve observability during contact-rich manipulation, our encoder aligns 30 Hz visual spatial tokens with 500 Hz joint proprioception and wrist force-torque histories via cross-modal rotary embeddings.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多模态时空对齐 Multi-Modal Alignment]：To maintain state observability during contact, our encoder aligns asynchronous 30 Hz visual tokens with 500 Hz joint proprioception and wrist force-torque histories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]",
+          "sentence_en": "Rather than issuing single-step commands prone to high-frequency jitter, the policy predicts 16-step SE(3) end-effector action chunks smoothed through exponential temporal ensembling.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [动作块预测与平滑执行 Action Chunking & Temporal Ensembling]：Rather than predicting single-step torques prone to jitter, the policy outputs overlapping $K$-step SE(3) end-effector action chunks smoothed via exponential temporal ensembling. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]",
+          "sentence_en": "At deployment, a recurrent history adapter estimates latent surface friction and payload mass online, bridging the sim-to-real dynamics gap in zero shot.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Sim-to-Real 自适应机制 Sim-to-Real Adaptation]：During physical deployment, a lightweight history adapter infers latent friction and payload parameters online, bridging the sim-to-real dynamics gap without policy fine-tuning. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "精准涵盖 self-occlusion, contact-rich manipulation, 30 Hz visual vs. 500 Hz proprioception, SE(3) action chunks, exponential temporal ensembling, online system identification。"
+    },
+    {
+      "blueprint_id": "BP29",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "流程图/算法流水线与闭环工序衔接段（Process & Closed-Loop Lifecycle）",
+      "user_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+      "when_to_use_zh": "IELTS Task 1 流程图（Process Diagram）/ 论文系统工程 Pipeline 描述段",
+      "paragraph_move_structure": [
+        "S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage].",
+        "S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers].",
+        "S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B].",
+        "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement."
+      ],
+      "cohesion_and_logic_formula": "Pipeline Overview -> Ingestion & Filtering -> Parallel Bifurcation -> Terminal Merger & Feedback Loop. 绑定逻辑规则：L003, L005.",
+      "defective_draft": "First, raw data is collected. Then it is cleaned. Then it goes into two branches. Branch 1 does A, and Branch 2 does B. Then they are combined. Finally, bad samples go back to the beginning.",
+      "defect_diagnosis_zh": "连续四个 Then，词汇贫乏（cleaned, goes into, does A, bad samples go back）。",
+      "model_paragraph_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining. The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames. Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates. These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [流程总括与起止界定 Lifecycle Overview]",
+          "sentence_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [前段采集与预处理 Initial Ingestion & Filtering]",
+          "sentence_en": "The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [中段并行分流 Parallel Branching]",
+          "sentence_en": "Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]",
+          "sentence_en": "These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "用 The cycle begins when... -> Once validated, the stream bifurcates into... -> These processed streams are subsequently synchronized..., whose failures are fed back... 完美呈现分支与闭环。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L004",
+      "category": "Cohesion & Reference (指代与衔接)",
+      "name_zh": "概念浓缩指代词（This/Such + Summary Noun）",
+      "name_en": "Shell Noun / Summary Noun Anaphora",
+      "core_principle_zh": "严禁单独使用裸露的 This / That / It 指代上一整句话！必须在指示代词后紧跟一个精准概括上一句本质的抽象范畴名词（如 This discrepancy / Such degradation / These computational constraints / This trade-off）。",
+      "structural_formula": "Sentence 1: [Full empirical observation or limitation]. -> Sentence 2: This/Such [Summary Noun: bottleneck / discrepancy / vulnerability / shift] + [Active Verb: motivates / necessitates / limits / explains]...",
+      "common_pitfall_zh": "句首单写 'This makes the model slow' 或 'Which causes error'，审稿人和雅思考官无法判断 This 究竟指上一句的主语、宾语还是整件事。",
+      "bad_example_en": "Diffusion models require hundreds of iterative denoising steps at inference time. This prevents them from running on onboard robot controllers.",
+      "good_example_en": "Diffusion policies require hundreds of iterative denoising steps at inference time. This computational latency prevents them from running at closed-loop control frequencies on onboard robot hardware.",
+      "analysis_zh": "用 This computational latency 将上一句“数百步去噪迭代”精准定性为“计算延迟”，既消除了指代歧义，又完成了因果定性。"
+    },
+    {
+      "logic_id": "L012",
+      "category": "Paragraph Architecture (段落架构)",
+      "name_zh": "一段一核：单一控制中心法则（Single Controlling Idea Rule）",
+      "name_en": "One Paragraph, One Controlling Idea",
+      "core_principle_zh": "一个自然段只能回答一个核心问题（例如：这一段只讲“为什么频域滤波能抑制传感器高频噪声”，就绝不要在同一段末尾顺手塞进“此外我们还开源了代码并降低了显存”）。",
+      "structural_formula": "Topic Sentence (Controlling Idea X) -> Mechanism of X -> Evidence for X -> Boundary/Synthesis of X. (Move Concept Y to Next Paragraph).",
+      "common_pitfall_zh": "一段话里既讲精度、又讲速度、还顺带抱怨数据集质量，导致段落像杂货铺一样失焦。",
+      "bad_example_en": "Our spatial-temporal attention block captures cross-sensor correlations accurately. Also, training takes only two hours on a single GPU, and the public dataset we used has some missing timestamps that we interpolated linearly.",
+      "good_example_en": "Our spatial-temporal attention block captures dynamic cross-sensor correlations by weighting neighbor nodes according to instantaneous phase lag. This phase-aware aggregation prevents faulty sensors from corrupting adjacent channels during localized hardware spikes, reducing multi-sensor MAE by 11.8%.",
+      "analysis_zh": "砍掉无关的训练耗时与数据清洗杂音，全段聚焦于“相移感知图注意力如何隔离故障传感器并提升多传感器预测精度”。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC04",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP04",
+      "linked_logic_id": "L004",
+      "communicative_goal_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+      "original_defective_paragraph": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L004 概念浓缩指代词（This/Such + Summary Noun））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 典型 AI 自吹词（novel and groundbreaking, delve into, state-of-the-art）；② 机械报菜名（Module A, B, C），完全没讲清为什么这套组合能解决上一段的痛点。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation. Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system. Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch. Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [方法登场与定位 Method Introduction]",
+          "sentence_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心直觉洞察 Key Insight]",
+          "sentence_en": "Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [模块协同主干 Module Synergy]",
+          "sentence_en": "Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [闭环收益总结 Closed-Loop Benefit]",
+          "sentence_en": "Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC24",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP24",
+      "linked_logic_id": "L024",
+      "communicative_goal_zh": "我这一段想写整篇小论文的 Conclusion：不简单复制粘贴 Abstract，而是从更高维度总结本文解决的科学矛盾、方法精髓、实证高度与领域启示。",
+      "original_defective_paragraph": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L024 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "机械重复摘要且句式干瘪，末句 We hope our work will inspire... 属于典型的中式客套收尾。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting. By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes. Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead. Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心科学问题闭合 Scientific Closure]",
+          "sentence_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [方法论精髓回顾 Methodological Synthesis]",
+          "sentence_en": "By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实证结果高度概括 Empirical Recap]",
+          "sentence_en": "Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [跨领域迁移展望 Broader Outlook]",
+          "sentence_en": "Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC42",
+      "domain_en": "Conference Author Rebuttal & Reviewer Defense",
+      "domain_zh": "顶会审稿回复（Rebuttal）与消融防御",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP42",
+      "linked_logic_id": "L012",
+      "communicative_goal_zh": "我这一段想在演讲到架构图或核心实验曲线（Slide 4 / Slide 7）时，用最自然的口语引导听众的眼睛先看哪、再看哪，瞬间读懂图表背后的胜出逻辑。",
+      "original_defective_paragraph": "Here is Figure 3. You can see many lines here. Our model is the blue line and it is the lowest, which means our model is the best on all horizons.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L012 一段一核：单一控制中心法则（Single Controlling Idea Rule））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "没有给听众任何坐标引导（You can see many lines here），听众还在找坐标轴是什么意思时你已经翻页了。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours. Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours. Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours. That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [视觉坐标锁定 Spatial Pointer]",
+          "sentence_en": "Let's focus on the right panel of Slide 6, which plots forecasting error as the prediction window stretches from 96 to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [视觉坐标锁定 Spatial Pointer]：Let's look at the comparison in the right panel of Slide 5, where the horizontal axis tracks prediction horizon and the vertical axis shows MSE. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]",
+          "sentence_en": "Follow the dashed orange curve for iTransformer—notice how rapidly the error climbs once we pass 336 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [引导观察反方崩溃曲线 Guide to Baseline Curve]：Notice the dashed orange curve representing the standard Transformer baseline: past 336 steps, error shoots up almost vertically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [引导观察我方稳定曲线 Guide to Our Curve]",
+          "sentence_en": "Now compare that against our solid blue curve along the bottom, which remains nearly flat all the way to 720 hours.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [引导观察我方稳定曲线 Guide to Our Curve]：Now compare that with our solid blue curve at the bottom, which stays flat even out to 720 steps. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话点破视觉差距原因 One-Sentence Takeaway]",
+          "sentence_en": "That 17% gap at the far right comes directly from decoupling phase attention from continuous scale tracking.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话点破视觉差距原因 One-Sentence Takeaway]：That gap comes directly from our neural-ODE scale tracker preventing long-range drift. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT04",
+    "genre": "AI_Mini_Paper",
+    "title_zh": "具身智能视觉-力触觉闭环操作与 Sim-to-Real 自适应完整小论文（TacFlow: Contact-Aware Visuomotor Policy）",
+    "structural_blueprint_chain": [
+      "BP08",
+      "BP01",
+      "BP03",
+      "BP05",
+      "BP07",
+      "BP11",
+      "BP16",
+      "BP18",
+      "BP19",
+      "BP22",
+      "BP24"
+    ]
+  }
+}

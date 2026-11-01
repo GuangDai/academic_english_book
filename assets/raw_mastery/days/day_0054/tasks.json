@@ -1,0 +1,369 @@
+[
+  {
+    "task_id": "D0054_T01",
+    "day": "day_0054",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Introduction 倒数第二段（Empirical Validation Preview）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【Introduction 倒数第二段（Empirical Validation Preview）】。你这一段的核心表达意图是：“我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。”。请严格按照 `BP06` 的逐句功能骨架（3 步法）与逻辑法则 `L024`（时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks].",
+      "S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。",
+      "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。"
+    ],
+    "linked_blueprint_id": "BP06",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T02",
+    "day": "day_0054",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Experiments 第 4.2 节 Main Results",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Experiments 第 4.2 节 Main Results】。你这一段的核心表达意图是：“我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。”。请按 `BP18` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+    "structural_constraints": [
+      "S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations.",
+      "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical.",
+      "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism].",
+      "S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$."
+    ],
+    "linked_blueprint_id": "BP18",
+    "linked_logic_ids": [
+      "L002",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T03",
+    "day": "day_0054",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Introduction 倒数第二段（Empirical Validation Preview）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L024`（时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks].",
+      "S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。",
+      "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。"
+    ],
+    "linked_blueprint_id": "BP06",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T04",
+    "day": "day_0054",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Experiments 第 4.2 节 Main Results",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L002`（平行主位推进模式（Constant Theme Progression））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+    "structural_constraints": [
+      "S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations.",
+      "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical.",
+      "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism].",
+      "S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$."
+    ],
+    "linked_blueprint_id": "BP18",
+    "linked_logic_ids": [
+      "L002",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T05",
+    "day": "day_0054",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Introduction 倒数第二段（Empirical Validation Preview）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+    "prompt_zh": "【深度病段修改诊所 1：专治过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks].",
+      "S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。",
+      "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。"
+    ],
+    "linked_blueprint_id": "BP06",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T06",
+    "day": "day_0054",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Experiments 第 4.2 节 Main Results",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+    "prompt_zh": "【深度病段修改诊所 2：专治过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+    "structural_constraints": [
+      "S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations.",
+      "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical.",
+      "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism].",
+      "S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$."
+    ],
+    "linked_blueprint_id": "BP18",
+    "linked_logic_ids": [
+      "L002",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T07",
+    "day": "day_0054",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "TOEFL Integrated Writing 主体段 / 论文理论争议辨析段",
+    "domain_context": "顶会口头汇报（Tech Talk）与图表引导",
+    "communicative_intent_zh": "我这一段想写托福综合写作（Integrated Writing）或文献争议交锋段：先用 1 句话精准概括阅读材料（或正方文献）的分论点，再用 2–3 句话详细呈现教授讲座（或反方实证）是如何釜底抽薪推翻该论点的。",
+    "prompt_zh": "【深度病段修改诊所 3：专治重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "Most datasets follow this rule, except Exchange dataset. On Exchange dataset, deep models are worse than simple linear models. This is because financial data has strong random walk noise.",
+    "structural_constraints": [
+      "S1 [正方/阅读论点概括 Reading Claim & Rationale]：The reading passage contends that [Claim A], arguing that [Reading's Supporting Mechanism].",
+      "S2 [反方/听力直接反驳 Lecture Direct Refutation]：The lecturer directly challenges this assertion by pointing out that [Core Flaw / Neglected Factor in Reading's Premise].",
+      "S3 [反方具体反证展开 Empirical Counter-Evidence]：Specifically, she explains that when [Real-World Condition], [Mechanism B occurs instead], which [Negates the Claimed Benefit].",
+      "S4 [结论锁定 Refutation Closure]：Consequently, rather than achieving [Reading's Goal], the proposed measure actually exacerbates [Negative Outcome]."
+    ],
+    "linked_blueprint_id": "BP31",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T08",
+    "day": "day_0054",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Introduction 倒数第二段（Empirical Validation Preview）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“实验证言与性能突破预览段（Quantitative Empirical Preview）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks].",
+      "S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。",
+      "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。"
+    ],
+    "linked_blueprint_id": "BP06",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T09",
+    "day": "day_0054",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Experiments 第 4.2 节 Main Results",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+    "structural_constraints": [
+      "S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations.",
+      "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical.",
+      "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism].",
+      "S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$."
+    ],
+    "linked_blueprint_id": "BP18",
+    "linked_logic_ids": [
+      "L002",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T10",
+    "day": "day_0054",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "TOEFL Integrated Writing 主体段 / 论文理论争议辨析段",
+    "domain_context": "顶会口头汇报（Tech Talk）与图表引导",
+    "communicative_intent_zh": "我这一段想写托福综合写作（Integrated Writing）或文献争议交锋段：先用 1 句话精准概括阅读材料（或正方文献）的分论点，再用 2–3 句话详细呈现教授讲座（或反方实证）是如何釜底抽薪推翻该论点的。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP06`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "Most datasets follow this rule, except Exchange dataset. On Exchange dataset, deep models are worse than simple linear models. This is because financial data has strong random walk noise.",
+    "structural_constraints": [
+      "S1 [正方/阅读论点概括 Reading Claim & Rationale]：The reading passage contends that [Claim A], arguing that [Reading's Supporting Mechanism].",
+      "S2 [反方/听力直接反驳 Lecture Direct Refutation]：The lecturer directly challenges this assertion by pointing out that [Core Flaw / Neglected Factor in Reading's Premise].",
+      "S3 [反方具体反证展开 Empirical Counter-Evidence]：Specifically, she explains that when [Real-World Condition], [Mechanism B occurs instead], which [Negates the Claimed Benefit].",
+      "S4 [结论锁定 Refutation Closure]：Consequently, rather than achieving [Reading's Goal], the proposed measure actually exacerbates [Negative Outcome]."
+    ],
+    "linked_blueprint_id": "BP31",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T11",
+    "day": "day_0054",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "Introduction 倒数第二段（Empirical Validation Preview）",
+    "domain_context": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+    "communicative_intent_zh": "我这一段想在 Introduction 结尾前，用三句话硬核总结我们在哪些基准数据集/真实硬件上做了实验，取得了多大幅度的领先。",
+    "prompt_zh": "【多段贯通写作实战 1：AI_Mini_Paper 核心章节连写】参照全文样板 `FT06 (面向高维传感器网络的稀疏相位图注意力完整小论文（PhaseGraph: Scalable Spatio-Temporal Forecasting）)` 的段落蓝图链 `BP08 -> BP01 -> BP09`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "We did comprehensive experiments on many datasets. The results show that our model beats all baselines by a large margin and is very fast.",
+    "structural_constraints": [
+      "S1 [评测广度 Scope of Evaluation]：We evaluate [Model] across [N] public benchmarks and [Real-world Hardware/Scenario], spanning [Tasks].",
+      "S2 [核心精度突破 Primary Accuracy Gain]：实验主指标对比（必须包含具体百分比、最强基线名称及困难场景表现）。",
+      "S3 [效率或泛化突破 Efficiency / Zero-Shot Gain]：报告计算速度、显存占用或零样本跨场景泛化收益。"
+    ],
+    "linked_blueprint_id": "BP06",
+    "linked_logic_ids": [
+      "L024",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0054_T12",
+    "day": "day_0054",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "TOEFL Integrated Writing 主体段 / 论文理论争议辨析段",
+    "domain_context": "顶会口头汇报（Tech Talk）与图表引导",
+    "communicative_intent_zh": "我这一段想写托福综合写作（Integrated Writing）或文献争议交锋段：先用 1 句话精准概括阅读材料（或正方文献）的分论点，再用 2–3 句话详细呈现教授讲座（或反方实证）是如何釜底抽薪推翻该论点的。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP31` 与全文样板 `FT06` 的后半部分（`BP11 -> BP12 -> BP13`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "Most datasets follow this rule, except Exchange dataset. On Exchange dataset, deep models are worse than simple linear models. This is because financial data has strong random walk noise.",
+    "structural_constraints": [
+      "S1 [正方/阅读论点概括 Reading Claim & Rationale]：The reading passage contends that [Claim A], arguing that [Reading's Supporting Mechanism].",
+      "S2 [反方/听力直接反驳 Lecture Direct Refutation]：The lecturer directly challenges this assertion by pointing out that [Core Flaw / Neglected Factor in Reading's Premise].",
+      "S3 [反方具体反证展开 Empirical Counter-Evidence]：Specifically, she explains that when [Real-World Condition], [Mechanism B occurs instead], which [Negates the Claimed Benefit].",
+      "S4 [结论锁定 Refutation Closure]：Consequently, rather than achieving [Reading's Goal], the proposed measure actually exacerbates [Negative Outcome]."
+    ],
+    "linked_blueprint_id": "BP31",
+    "linked_logic_ids": [
+      "L002",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

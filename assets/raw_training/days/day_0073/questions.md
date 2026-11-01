@@ -1,0 +1,396 @@
+# DAY_0073 学术英语写作训练 V2.0（第 73 天 / 共 116 天）
+
+- **所属阶段**：阶段 3：逻辑写作、消融对比与六级/雅思托福高分论证（Day 51–75）
+- **训练模式**：8 大熟词生义/多义词群高密度激活 + 间隔复习
+- **今日目标词条数**：27 | **预定复习词条数**：24 | **总题量**：36 题（总分 103 分）
+- **核心语法与句法分析**：G005 词形变化、词缀构词与词性语法槽位匹配（名、动、形、副）, G010 不定式与动名词的补足语分工及非谓语动词搭配, G016 限制性/非限制性定语从句与“介词 + which/whom”精确修饰
+- **核心表达模式**：EP013 严辨统计相关与因果机制（Correlation vs. Causality & Confounding）, EP019 机器学习与时间序列：问题定义、滞后项与符号约定
+
+## 一、今日核心词群与熟词生义（Polysemy）精讲
+
+| 词条 ID | 词条 (Lemma) | 词性 | 熟词日常义 vs. 学术目标义 | 核心规约搭配 | 典型学术例句与句子成分主干 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `V00881` | **encounter prejudice** | v. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：遭遇偏见（v. phrase） | `encounter prejudice in recruitment` | Applicants may encounter prejudice during recruitment.<br>*【紧凑主语】Applicants may encounter prejudice... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00886` | **energy bills** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：能源账单（n. phrase） | `pay energy bills` | The housemates share the energy bills.<br>*【紧凑主语】The housemates share the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00888` | **English-medium education** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：以英语为教学语言的教育（n. phrase） | `evidence of English-medium education` | The applicant provided evidence of English-medium education.<br>*【紧凑主语】The applicant provided evidence... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00892` | **enrol / enrolment** | v. / n. | **日常/基础**：基础字面义：注册选课<br>**学术目标**：多义项/多词性完整映射：注册选课／注册人数或过程（v. / n.） | `enrol on a course; enrol in a programme` | The applicant enrolled on the academic writing course.<br>*【紧凑主语】The applicant enrolled on... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00897` | **entry requirements / admission requirements** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：入学要求（n. phrase） | `meet the entry requirements` | Applicants should check whether they meet the entry requirements.<br>*【紧凑主语】Applicants should check whether... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00899` | **equal opportunities policy** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：平等机会政策（n. phrase） | `implement an equal opportunities policy` | The department explains its equal opportunities policy to applicants.<br>*【紧凑主语】The department explains its... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00903` | **equip with** | v. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：配备（v. phrase） | `equip with` | The laboratory is equipped with temperature sensors.<br>*【紧凑主语】The laboratory is equipped... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00906` | **equivalent to** | adj. phrase | **日常/基础**：基础字面义：等同于<br>**学术目标**：多义项/多词性完整映射：等同于；相当于（adj. phrase） | `equivalent to a code` | In this scheme, zero is equivalent to a code indicating that the information was not documented.<br>*【前置状语/条件框架】In this scheme + 【主句核心主谓宾/表】zero is equivalent to a code indicating that the information was not documented. （目标词“equivalent to”作 adj. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V00911` | **essay / project / portfolio** | n. | **日常/基础**：基础字面义：论文式文章<br>**学术目标**：多义项/多词性完整映射：论文式文章／项目／作品档案（n.） | `an assessed portfolio` | The portfolio contains a revised essay and a short project report.<br>*【紧凑主语】The portfolio contains a... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00912` | **essay about** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：关于……的文章（n. phrase） | `essay about; essay on` | The essay about public transport discusses regional access.<br>*【紧凑主语】The essay about public... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00913` | **essay on** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：关于……的文章（n. phrase） | `essay on` | The assignment is an essay on educational access.<br>*【紧凑主语】The assignment is an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00920` | **establish the facts** | v. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：查明事实（v. phrase） | `establish the relevant facts` | The inquiry aims to establish the relevant facts.<br>*【紧凑主语】The inquiry aims to... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00923` | **et al.** | abbr. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：及其他作者（abbr.） | `Zeng et al.` | Zeng et al. examine linear models for time series forecasting.<br>*【紧凑主语】Zeng et al. examine... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00926` | **ethical objection** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：伦理上的反对理由（n. phrase） | `raise an ethical objection` | The reviewer raised an ethical objection to covert recording.<br>*【紧凑主语】The reviewer raised an... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00927` | **ethical objections to** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：出于伦理理由的反对（n. phrase） | `have ethical objections to` | Participants may have ethical objections to sharing identifiable records.<br>*【紧凑主语】Participants may have ethical... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00928` | **ethnic background** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：族裔背景（n. phrase） | `self-reported ethnic background` | The survey uses self-reported ethnic background.<br>*【紧凑主语】The survey uses self-reported... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00931` | **even number** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：偶数（n. phrase） | `an even number` | Zero is an even number.<br>*【紧凑主语】Zero is an even... + 【核心谓语与宾补/状语后置扩展】全句共 5 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00932` | **even so** | adv. phrase | **日常/基础**：基础字面义：即使如此<br>**学术目标**：多义项/多词性完整映射：即使如此；尽管如此（adv. phrase） | `even so, further work` | The data are limited. Even so, the question merits study.<br>*【紧凑主语】The data are limited.... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00939` | **evidence exists** | clause | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：有证据存在（clause） | `evidence exists for a claim` | Some evidence exists for the claim, but it remains limited.<br>*【前置状语/条件框架】Some evidence exists for the claim + 【主句核心主谓宾/表】but it remains limited. （目标词“evidence exists”作 clause 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。* |
+| `V00940` | **evidence of** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：……的证据（n. phrase） | `evidence of missing information` | We found evidence of missing information in the records.<br>*【紧凑主语】We found evidence of... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00949` | **examination of** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：对……的检查或考察（n. phrase） | `examination of` | An examination of the records revealed inconsistent dates.<br>*【紧凑主语】An examination of the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00952` | **examine evidence** | v. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：审查证据（v. phrase） | `examine the available evidence` | We must examine the available evidence before drawing conclusions.<br>*【紧凑主语】We must examine the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00957` | **exclude from** | v. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：从……排除（v. phrase） | `exclude from` | Incomplete records were excluded from the main analysis.<br>*【紧凑主语】Incomplete records were excluded... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00964` | **experience difficulties with** | v. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：在……方面遇到困难（v. phrase） | `experience difficulties with software` | Several students experienced difficulties with the software.<br>*【紧凑主语】Several students experienced difficulties... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00966` | **experimental study** | n. phr. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：实验研究（n. phr.） | `an experimental study of learning` | The experimental study assigned participants to different practice schedules.<br>*【紧凑主语】The experimental study assigned... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00977` | **exploration of** | n. phrase | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：对……的探索（n. phrase） | `exploration of` | The review offers an exploration of competing interpretations.<br>*【紧凑主语】The review offers an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+| `V00978` | **exploratory study** | n. phr. | **日常/基础**：日常或通用英语近似概念<br>**学术目标**：精准学术定义：探索性研究（n. phr.） | `conduct an exploratory study` | An exploratory study identified issues for a later survey.<br>*【紧凑主语】An exploratory study identified... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。* |
+
+### 辅助语境生词提前释义（不计入目标词掌握情况）
+- **sensors**：传感器（n. pl.）
+
+## 二、36 道完整训练题（涵盖词形、搭配、辨析、去口语/去AI腔替换、尾重改写、中译英、语篇逻辑、语态与多文体微写作）
+
+### 第 1 题 `Q_D0073_01` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 encounter prejudice (V00881) 的学术多义项与语境词形，并联动巩固 equivalent to (V00906)。
+- **关联词条**：`V00881, V00906` | **语法点**：`G005`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：prejudice 多为不可数；具体成见可复数。 | 句子成分结构：【紧凑主语】Applicants may encounter prejudice... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0073·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“遭遇偏见”，v. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: Applicants may ________ during recruitment. （句意：申请者可能在招聘中遭遇偏见。）
+Sentence 2 (Companion Context with 'equivalent to'): In this scheme, zero is equivalent to a code indicating that the information was not documented.
+
+### 第 2 题 `Q_D0073_02` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 energy bills (V00886) 的学术多义项与语境词形，并联动巩固 essay / project / portfolio (V00911)。
+- **关联词条**：`V00886, V00911` | **语法点**：`G005`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：可含电、燃气等，具体范围依语境。 | 句子成分结构：【紧凑主语】The housemates share the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0073·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“能源账单”，n. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: The housemates share the ________. （句意：室友共同承担能源账单。）
+Sentence 2 (Companion Context with 'essay / project / portfolio'): The portfolio contains a revised essay and a short project report.
+
+### 第 3 题 `Q_D0073_03` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 English-medium education (V00888) 的学术多义项与语境词形，并联动巩固 essay about (V00912)。
+- **关联词条**：`V00888, V00912` | **语法点**：`G005`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：是否因此免语言考试取决于具体机构规定。 | 句子成分结构：【紧凑主语】The applicant provided evidence... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0073·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“以英语为教学语言的教育”，n. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: The applicant provided evidence of ________. （句意：申请者提供了接受英语授课教育的证明。）
+Sentence 2 (Companion Context with 'essay about'): The essay about public transport discusses regional access.
+
+### 第 4 题 `Q_D0073_04` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 enrol / enrolment (V00892) 的学术多义项与语境词形，并联动巩固 essay on (V00913)。
+- **关联词条**：`V00892, V00913` | **语法点**：`G005`
+- **成分与语境提示**：熟词生义与用法边界：词义与句法边界：enroll / enrollment 为美式；on 常见英式，in 常见美式。 | 句子成分结构：【紧凑主语】The applicant enrolled on... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0073·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“注册选课”，v. / n.；注意区别于日常义：基础字面义：注册选课），填写唯一准确的英文词形：
+Sentence 1: The applicant ________ on the academic writing course. （句意：该申请者注册了学术写作课。）
+Sentence 2 (Companion Context with 'essay on'): The assignment is an essay on educational access.
+
+### 第 5 题 `Q_D0073_05` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 entry requirements / admission requirements (V00897) 的学术多义项与语境词形，并联动巩固 establish the facts (V00920)。
+- **关联词条**：`V00897, V00920` | **语法点**：`G005`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：按课程、申请年份和个人情况核对，不沿用教材旧分数。 | 句子成分结构：【紧凑主语】Applicants should check whether... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0073·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“入学要求”，n. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: Applicants should check whether they meet the ________. （句意：申请者应核对自己是否符合入学要求。）
+Sentence 2 (Companion Context with 'establish the facts'): The inquiry aims to establish the relevant facts.
+
+### 第 6 题 `Q_D0073_06` 【单词主动回忆和词形】（2 分）
+- **训练目标**：激活 equal opportunities policy (V00899) 的学术多义项与语境词形，并联动巩固 et al. (V00923)。
+- **关联词条**：`V00899, V00923` | **语法点**：`G005`
+- **成分与语境提示**：熟词生义与用法边界：学术语境与搭配约束：不能由政策名称推出任何具体申请者将被录取。 | 句子成分结构：【紧凑主语】The department explains its... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+【day_0073·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“平等机会政策”，n. phrase；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：
+Sentence 1: The department explains its ________ to applicants. （句意：该系向申请者说明其平等机会政策。）
+Sentence 2 (Companion Context with 'et al.'): Zeng et al. examine linear models for time series forecasting.
+
+### 第 7 题 `Q_D0073_07` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 equip with 的自然搭配“equip with”并消除中式直译搭配错误。
+- **关联词条**：`V00903, V00926` | **语法点**：`G005, G010`
+- **成分与语境提示**：搭配类型：verb+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“equip with”精确表述“配备”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0073·常见学术搭配 1】根据搭配类型（verb+noun）与用法规范，使用目标词“equip with”（配备）的规约搭配补全并写出下列完整英文学术句（表达：“实验室配有温度传感器。”），使其与后句中的“ethical objection”（raise an ethical objection）构成自然衔接：
+待完成句语义：实验室配有温度传感器。（核心搭配提示：equip with）
+后续衔接句：The reviewer raised an ethical objection to covert recording.
+
+### 第 8 题 `Q_D0073_08` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 equivalent to 的自然搭配“equivalent to a code”并消除中式直译搭配错误。
+- **关联词条**：`V00906, V00927` | **语法点**：`G005, G010`
+- **成分与语境提示**：搭配类型：verb+prep | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“equivalent to a code”精确表述“等同于；相当于”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0073·常见学术搭配 2】根据搭配类型（verb+prep）与用法规范，使用目标词“equivalent to”（等同于）的规约搭配补全并写出下列完整英文学术句（表达：“在这套方案中，零等同于表示未记载的编码。”），使其与后句中的“ethical objections to”（have ethical objections to）构成自然衔接：
+待完成句语义：在这套方案中，零等同于表示未记载的编码。（核心搭配提示：equivalent to a code）
+后续衔接句：Participants may have ethical objections to sharing identifiable records.
+
+### 第 9 题 `Q_D0073_09` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 essay / project / portfolio 的自然搭配“an assessed portfolio”并消除中式直译搭配错误。
+- **关联词条**：`V00911, V00928` | **语法点**：`G005, G010`
+- **成分与语境提示**：搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“an assessed portfolio”精确表述“论文式文章／项目／作品档案”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0073·常见学术搭配 3】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“essay / project / portfolio”（论文式文章）的规约搭配补全并写出下列完整英文学术句（表达：“该作品档案包含修改后的文章和短项目报告。”），使其与后句中的“ethnic background”（self-reported ethnic background）构成自然衔接：
+待完成句语义：该作品档案包含修改后的文章和短项目报告。（核心搭配提示：an assessed portfolio）
+后续衔接句：The survey uses self-reported ethnic background.
+
+### 第 10 题 `Q_D0073_10` 【常见词汇搭配】（2 分）
+- **训练目标**：掌握 essay about 的自然搭配“essay about”并消除中式直译搭配错误。
+- **关联词条**：`V00912, V00931` | **语法点**：`G005, G010`
+- **成分与语境提示**：搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“essay about”精确表述“关于……的文章”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。
+
+【day_0073·常见学术搭配 4】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“essay about”（关于……的文章）的规约搭配补全并写出下列完整英文学术句（表达：“这篇关于公共交通的文章讨论地区可达性。”），使其与后句中的“even number”（an even number）构成自然衔接：
+待完成句语义：这篇关于公共交通的文章讨论地区可达性。（核心搭配提示：essay about）
+后续衔接句：Zero is an even number.
+
+### 第 11 题 `Q_D0073_11` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 essay on 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00913, V00932` | **语法点**：`G005`
+- **成分与语境提示**：目标句意：作业是一篇教育机会专题文章。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0073·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 essay on）：
+Context: The assignment is an ________ educational access. Furthermore, regarding 'even so', the data are limited. Even so, the question merits study.
+
+- A. attempt at
+- B. essay on
+- C. attention to
+- D. attitude to
+
+### 第 12 题 `Q_D0073_12` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 establish the facts 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00920, V00939` | **语法点**：`G005`
+- **成分与语境提示**：目标句意：调查旨在查明相关事实。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0073·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 establish）：
+Context: The inquiry aims to ________ the relevant facts. Furthermore, regarding 'evidence exists', some evidence exists for the claim, but it remains limited.
+
+- A. concentrate on
+- B. confine to
+- C. establish the facts
+- D. consent to
+
+### 第 13 题 `Q_D0073_13` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 et al. 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00923, V00940` | **语法点**：`G005`
+- **成分与语境提示**：目标句意：Zeng 等作者考察用于时间序列预测的线性模型。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0073·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 al）：
+Context: Zeng et ________. examine linear models for time series forecasting. Furthermore, regarding 'evidence of', we found evidence of missing information in the records.
+
+- A. cf.
+- B. CV
+- C. e.g.
+- D. et al.
+
+### 第 14 题 `Q_D0073_14` 【语境选词与近义词辨析】（2 分）
+- **训练目标**：辨析 ethical objection 与同词性干扰词在语义范围、搭配及熟词生义上的差别。
+- **关联词条**：`V00926, V00949` | **语法点**：`G005`
+- **成分与语境提示**：目标句意：审查者对秘密录音提出了伦理上的反对意见。 | 辨析焦点：语义范围、搭配规约与熟词生义边界
+
+【day_0073·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 ethical objection）：
+Context: The reviewer raised an ________ to covert recording. Furthermore, regarding 'examination of', an examination of the records revealed inconsistent dates.
+
+- A. ethical objection
+- B. cost of living
+- C. course of action
+- D. critical condition
+
+### 第 15 题 `Q_D0073_15` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 ethical objections to (ethical objections to) 替换英文初稿中的口语/模糊表达“do or handle”。
+- **关联词条**：`V00927, V00952` | **语法点**：`G005, G034`
+- **成分与语境提示**：目标语义：参与者可能出于伦理理由反对分享可识别身份的记录。 | 熟词生义提醒：精准学术定义：出于伦理理由的反对（n. phrase）
+
+【day_0073·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“ethical objections to”的恰当词形，并写出完整修正句（需同时保留后半句中关于“examine evidence”的语境信息）：
+English Draft: Participants may have <u>do or handle</u> sharing identifiable records. (Context note: We must examine the available evidence before drawing conclusions.)
+
+### 第 16 题 `Q_D0073_16` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 ethnic background (ethnic background) 替换英文初稿中的口语/模糊表达“do or handle”。
+- **关联词条**：`V00928, V00957` | **语法点**：`G005, G034`
+- **成分与语境提示**：目标语义：调查采用自报的族裔背景。 | 熟词生义提醒：精准学术定义：族裔背景（n. phrase）
+
+【day_0073·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“ethnic background”的恰当词形，并写出完整修正句（需同时保留后半句中关于“exclude from”的语境信息）：
+English Draft: The survey uses self-reported <u>do or handle</u>. (Context note: Incomplete records were excluded from the main analysis.)
+
+### 第 17 题 `Q_D0073_17` 【单词替换】（3 分）
+- **训练目标**：用精准学术词 even number (even number) 替换英文初稿中的口语/模糊表达“a lot of”。
+- **关联词条**：`V00931, V00964` | **语法点**：`G005, G034`
+- **成分与语境提示**：目标语义：零是偶数。 | 熟词生义提醒：精准学术定义：偶数（n. phrase）
+
+【day_0073·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`a lot of`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“even number”的恰当词形，并写出完整修正句（需同时保留后半句中关于“experience difficulties with”的语境信息）：
+English Draft: Zero is an <u>a lot of</u>. (Context note: Several students experienced difficulties with the software.)
+
+### 第 18 题 `Q_D0073_18` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“even so, further work”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V00932, V00966` | **语法点**：`G010, G034`
+- **成分与语境提示**：目标规约短语：even so, further work | 配合表达模式：【EP013】严辨统计相关与因果机制（Correlation vs. Causality & Confounding）
+
+【day_0073·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“even so”的核心学术短语/搭配（“even so, further work”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: The data are limited. <u>make a basic handling in a general way regarding in a rough way</u>, the question merits study.
+Companion Context ('experimental study'): The experimental study assigned participants to different practice schedules. （目标句意：数据有限。即使如此，这个问题仍值得研究。）
+
+### 第 19 题 `Q_D0073_19` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“evidence exists for a claim”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V00939, V00977` | **语法点**：`G010, G034`
+- **成分与语境提示**：目标规约短语：evidence exists for a claim | 配合表达模式：【EP013】严辨统计相关与因果机制（Correlation vs. Causality & Confounding）
+
+【day_0073·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“evidence exists”的核心学术短语/搭配（“evidence exists for a claim”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: Some <u>make a basic handling in a general way regarding general thing or part</u> for the claim, but it remains limited.
+Companion Context ('exploration of'): The review offers an exploration of competing interpretations. （目标句意：该主张有一些证据，但仍然有限。）
+
+### 第 20 题 `Q_D0073_20` 【词组与表达替换】（3 分）
+- **训练目标**：使用地道学术搭配“evidence of missing information”替换冗长生硬的英文草稿短语。
+- **关联词条**：`V00940, V00978` | **语法点**：`G010, G034`
+- **成分与语境提示**：目标规约短语：evidence of missing information | 配合表达模式：【EP013】严辨统计相关与因果机制（Correlation vs. Causality & Confounding）
+
+【day_0073·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“evidence of”的核心学术短语/搭配（“evidence of missing information”）对其进行精简替换，写出地道、紧凑的完整英文句：
+Awkward Draft: We found <u>make a basic handling in a general way regarding do or handle</u> missing information in the records.
+Companion Context ('exploratory study'): An exploratory study identified issues for a later survey. （目标句意：我们发现了记录中存在信息缺失的证据。）
+
+### 第 21 题 `Q_D0073_21` 【句子改写】（3 分）
+- **训练目标**：围绕 examination of 与 encounter prejudice 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00949, V00881` | **语法点**：`G005, G032`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】An examination of the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：examination在这里表示检查或考察，of引出所检查的资料或对象。
+
+【day_0073·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】
+Top-Heavy Draft: *The question of how the research team can properly handle the fact that an examination of the records revealed inconsistent dates. in the experiment is what we look at.*
+改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“examination of”（搭配：examination of）将其改写为紧凑、有力的学术句子（并结合“encounter prejudice”的语境边界）。
+
+### 第 22 题 `Q_D0073_22` 【句子改写】（3 分）
+- **训练目标**：围绕 examine evidence 与 energy bills 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00952, V00886` | **语法点**：`G005, G033`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】We must examine the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：examine 为及物动词。
+
+【day_0073·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】
+AI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: We must examine the available evidence before drawing conclusions.*
+改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“examine evidence”写出零 AI 痕迹、克制精准的学术句子（关联词条：energy bills）。
+
+### 第 23 题 `Q_D0073_23` 【句子改写】（3 分）
+- **训练目标**：围绕 exclude from 与 English-medium education 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00957, V00888` | **语法点**：`G005, G021`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】Incomplete records were excluded... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：报告排除理由，避免选择性汇报。
+
+【day_0073·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】
+Source Statement: Incomplete records were excluded from the main analysis. （中文句意：不完整记录被排除在主分析之外。）
+改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“exclude from”（注意其学术义：精准学术定义：从……排除（v. phrase））及协同词“English-medium education”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。
+
+### 第 24 题 `Q_D0073_24` 【句子改写】（3 分）
+- **训练目标**：围绕 experience difficulties with 与 enrol / enrolment 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00964, V00892` | **语法点**：`G005, G018`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】Several students experienced difficulties... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：with 后接名词。
+
+【day_0073·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】
+Verbose Draft: *When we consider the context of the analysis, it is true that several students experienced difficulties with the software.*
+改写指令：消除句首拖沓的从句，运用目标词“experience difficulties with”（搭配：experience difficulties with software）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：enrol / enrolment），严禁产生悬垂修饰或增删原意。
+
+### 第 25 题 `Q_D0073_25` 【句子改写】（3 分）
+- **训练目标**：围绕 experimental study 与 entry requirements / admission requirements 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。
+- **关联词条**：`V00966, V00897` | **语法点**：`G005, G036`
+- **成分与语境提示**：核心成分拆解：【紧凑主语】The experimental study assigned... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：学术语境与搭配约束：一般通过操纵变量研究变化；因果解释还需设计条件。
+
+【day_0073·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】
+Base Observation: The experimental study assigned participants to different practice schedules. (Paired concept: 'entry requirements / admission requirements' — Applicants should check whether they meet the entry requirements.)
+改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“experimental study”与“entry requirements / admission requirements”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。
+
+### 第 26 题 `Q_D0073_26` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 exploration of (exploration of) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00977, V00899` | **语法点**：`G010, G031`
+- **成分与语境提示**：多义与用法提示：学术语境与搭配约束：exploration表示探索或探究，of引出问题、可能性或解释。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位
+
+【day_0073·中译英与句子成分构建 1（实证研究方法与数据核查场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“exploration of”的学术义“对……的探索”及其搭配“exploration of”，并兼顾协同词“equal opportunities policy”的语境标准）：
+中文题干：综述探讨了相互竞争的解释。
+句子成分构建提示：【紧凑主语】The review offers an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 27 题 `Q_D0073_27` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 exploratory study (conduct an exploratory study) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00978, V00903` | **语法点**：`G010, G035`
+- **成分与语境提示**：多义与用法提示：学术语境与搭配约束：探索性研究通常形成初步问题或假设，不适合下确定结论。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法
+
+【day_0073·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“exploratory study”的学术义“探索性研究”及其搭配“conduct an exploratory study”，并兼顾协同词“equip with”的语境标准）：
+中文题干：探索性研究为后续调查发现了待研究的问题。
+句子成分构建提示：【紧凑主语】An exploratory study identified... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 28 题 `Q_D0073_28` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 encounter prejudice (encounter prejudice in recruitment) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00881, V00906` | **语法点**：`G010, G032`
+- **成分与语境提示**：多义与用法提示：学术语境与搭配约束：prejudice 多为不可数；具体成见可复数。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）
+
+【day_0073·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“encounter prejudice”的学术义“遭遇偏见”及其搭配“encounter prejudice in recruitment”，并兼顾协同词“equivalent to”的语境标准）：
+中文题干：申请者可能在招聘中遭遇偏见。
+句子成分构建提示：【紧凑主语】Applicants may encounter prejudice... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 29 题 `Q_D0073_29` 【中译英与主动表达】（3 分）
+- **训练目标**：运用句子成分分析法与 energy bills (pay energy bills) 完成地道、无头重脚轻的中译英输出。
+- **关联词条**：`V00886, V00911` | **语法点**：`G010, G036`
+- **成分与语境提示**：多义与用法提示：学术语境与搭配约束：可含电、燃气等，具体范围依语境。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文
+
+【day_0073·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】
+请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“energy bills”的学术义“能源账单”及其搭配“pay energy bills”，并兼顾协同词“essay / project / portfolio”的语境标准）：
+中文题干：室友共同承担能源账单。
+句子成分构建提示：【紧凑主语】The housemates share the... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。
+
+### 第 30 题 `Q_D0073_30` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：用包含 English-medium education 与 establish the facts 的具体机制与实例替换“只有夸张而无实例”的空洞断言。
+- **关联词条**：`V00888, V00920, V00949` | **语法点**：`G005, G033`
+- **成分与语境提示**：核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）
+
+【day_0073·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】
+下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：
+Hollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*
+任务要求：请摒弃上述空洞吹嘘，结合目标词条“English-medium education”（以英语为教学语言的教育）与“establish the facts”（查明事实），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。
+
+### 第 31 题 `Q_D0073_31` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：通过含 enrol / enrolment 与 et al. 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。
+- **关联词条**：`V00892, V00923, V00952` | **语法点**：`G010, G009`
+- **成分与语境提示**：语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指
+
+【day_0073·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】
+将下列包含目标词“enrol / enrolment”与“et al.”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：
+(1) When examining the empirical outputs, a second consideration arises: Zeng et al. examine linear models for time series forecasting.
+(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.
+(3) First, we specify the methodological setup: The applicant enrolled on the academic writing course.
+(4) This setup ensures that the evaluation criteria remain consistent across all test runs.
+
+### 第 32 题 `Q_D0073_32` 【逻辑衔接和语篇组织】（4 分）
+- **训练目标**：修复含 entry requirements / admission requirements 与 ethical objection 段落中的逗号粘连、连接词误用与因果外推跳跃。
+- **关联词条**：`V00897, V00926, V00957` | **语法点**：`G016, G023`
+- **成分与语境提示**：综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）
+
+【day_0073·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】
+审阅下列包含“entry requirements / admission requirements”与“ethical objection”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：
+Flawed Draft: *Applicants should check whether they meet the entry requirements, on the contrary, the reviewer raised an ethical objection to covert recording., which proves 100% universal causality in all real-world regimes.*
+
+### 第 33 题 `Q_D0073_33` 【主动与被动语态】（4 分）
+- **训练目标**：结合及物性边界（linking_or_prep）与旧新信息焦点训练 equal opportunities policy 与 ethical objections to 的语态选择。
+- **关联词条**：`V00899, V00927, V00964` | **语法点**：`G011, G005`
+- **成分与语境提示**：及物性：linking_or_prep | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）
+
+【day_0073·信息焦点与语态转换 1】阅读下列包含“equal opportunities policy”（平等机会政策）与“ethical objections to”（出于伦理理由的反对）的学术表达：
+Reference Sequence: (1) The department explains its equal opportunities policy to applicants. (2) Participants may have ethical objections to sharing identifiable records.
+改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。
+
+### 第 34 题 `Q_D0073_34` 【主动与被动语态】（4 分）
+- **训练目标**：结合及物性边界（transitive）与旧新信息焦点训练 equip with 与 ethnic background 的语态选择。
+- **关联词条**：`V00903, V00928, V00966` | **语法点**：`G011, G005`
+- **成分与语境提示**：及物性：transitive | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）
+
+【day_0073·信息焦点与语态转换 2】阅读下列包含“equip with”（配备）与“ethnic background”（族裔背景）的学术表达：
+Reference Sequence: (1) The laboratory is equipped with temperature sensors. (2) The survey uses self-reported ethnic background.
+改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。
+
+### 第 35 题 `Q_D0073_35` 【独立微型写作】（5 分）
+- **训练目标**：在 AI/时序/生成建模/具身智能场景下运用 equivalent to、even number 撰写零 AI 腔的技术微段落。
+- **关联词条**：`V00906, V00931, V00977, V00920` | **语法点**：`G005, G032, G033`
+- **成分与语境提示**：专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP013
+
+【day_0073·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】
+应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。
+写作要求：围绕以下候选目标词群中的至少 2–3 个词条（equivalent to（等同于）、even number（偶数）、exploration of（对……的探索）、establish the facts（查明事实）），写出一段 2–3 句、紧凑自然的英文技术微段落：
+1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；
+2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；
+3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。
+
+### 第 36 题 `Q_D0073_36` 【独立微型写作】（5 分）
+- **训练目标**：撰写融合 essay / project / portfolio、even so 与 be based on 的 3–5 句六级/雅思托福/演讲实证论证段落。
+- **关联词条**：`V00911, V00932, V00978, V00282` | **语法点**：`G010, G028, G036`
+- **成分与语境提示**：文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G010 & G036
+
+【day_0073·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】
+应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。
+写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（essay / project / portfolio（论文式文章）、even so（即使如此）、exploratory study（探索性研究）、be based on（以……为依据）），写出一段 3–5 句、逻辑严密的完整段落：
+1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；
+2. 运用语法规则【G010】（不定式与动名词的补足语分工及非谓语动词搭配）与表达模式【EP019】（机器学习与时间序列：问题定义、滞后项与符号约定）；
+3. 句式自然地道，杜绝死板模板句与头重脚轻。
+

@@ -1,0 +1,371 @@
+[
+  {
+    "task_id": "D0048_T01",
+    "day": "day_0048",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【Statement of Purpose (SoP) / Research Statement / 学术自我介绍】。你这一段的核心表达意图是：“我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。”。请严格按照 `BP48` 的逐句功能骨架（4 步法）与逻辑法则 `L018`（口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+      "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+      "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+      "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+    ],
+    "linked_blueprint_id": "BP48",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T02",
+    "day": "day_0048",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Methodology 第 3.2 节 Architecture Overview",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Methodology 第 3.2 节 Architecture Overview】。你这一段的核心表达意图是：“我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。”。请按 `BP12` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+    "structural_constraints": [
+      "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3].",
+      "S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1].",
+      "S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$].",
+      "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]."
+    ],
+    "linked_blueprint_id": "BP12",
+    "linked_logic_ids": [
+      "L026",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T03",
+    "day": "day_0048",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L018`（口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+      "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+      "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+      "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+    ],
+    "linked_blueprint_id": "BP48",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T04",
+    "day": "day_0048",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Methodology 第 3.2 节 Architecture Overview",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L026`（生成模型三元权衡论证规范：生成质量、模式覆盖度与采样效率（Generative Trilemma Logic））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+    "structural_constraints": [
+      "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3].",
+      "S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1].",
+      "S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$].",
+      "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]."
+    ],
+    "linked_blueprint_id": "BP12",
+    "linked_logic_ids": [
+      "L026",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T05",
+    "day": "day_0048",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+    "prompt_zh": "【深度病段修改诊所 1：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+      "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+      "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+      "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+    ],
+    "linked_blueprint_id": "BP48",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T06",
+    "day": "day_0048",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Methodology 第 3.2 节 Architecture Overview",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+    "prompt_zh": "【深度病段修改诊所 2：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+    "structural_constraints": [
+      "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3].",
+      "S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1].",
+      "S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$].",
+      "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]."
+    ],
+    "linked_blueprint_id": "BP12",
+    "linked_logic_ids": [
+      "L026",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T07",
+    "day": "day_0048",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "IELTS Academic Task 1 首段（Introduction + Overview）或实验趋势总览段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+    "prompt_zh": "【深度病段修改诊所 3：专治头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+    "structural_constraints": [
+      "S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B].",
+      "S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year].",
+      "S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor."
+    ],
+    "linked_blueprint_id": "BP25",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T08",
+    "day": "day_0048",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“科研个人陈述（SoP / Research Narrative）：从时间序列/生成建模迈向具身智能的闭环叙事段”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+      "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+      "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+      "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+    ],
+    "linked_blueprint_id": "BP48",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T09",
+    "day": "day_0048",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Methodology 第 3.2 节 Architecture Overview",
+    "domain_context": "基于扩散/流匹配的缺失时序插补与生成",
+    "communicative_intent_zh": "我这一段想配合论文里的 Figure 2（模型总架构图），用一段话把输入张量从左到右流经各个模块直到输出预测结果的完整全貌讲清楚。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "Time series imputation is very important in the era of big data. Existing generative models delve into the data distribution but are too slow and fail when missing rates are high. We propose FlowImp, a novel framework that uses conditional flow matching and frequency guidance. Extensive experiments show that FlowImp achieves state-of-the-art results on all benchmarks.",
+    "structural_constraints": [
+      "S1 [总图锚定与设计哲学 Visual Anchor & Philosophy]：Figure 2 illustrates the overall architecture of [Model], which processes [Input] through three sequential stages: [Stage 1], [Stage 2], and [Stage 3].",
+      "S2 [阶段 1 数据流 Stage 1 Flow]：Given raw input $\\mathbf{X}$, the [Module 1] first transforms [Raw Input] into [Intermediate Representation $\\mathbf{Z}^{(1)}$] to [Functional Purpose 1].",
+      "S3 [阶段 2 数据流 Stage 2 Flow]：Next, these [Summary Noun: representations $\\mathbf{Z}^{(1)}$] are fed into [Module 2], which [Mechanism 2] to produce [Refined State $\\mathbf{Z}^{(2)}$].",
+      "S4 [阶段 3 解码与闭环输出 Stage 3 Decoding]：Finally, the [Module 3] integrates $\\mathbf{Z}^{(2)}$ with [Prior/Scale Cue] to output the final [Prediction/Action Trajectory]."
+    ],
+    "linked_blueprint_id": "BP12",
+    "linked_logic_ids": [
+      "L026",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T10",
+    "day": "day_0048",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "IELTS Academic Task 1 首段（Introduction + Overview）或实验趋势总览段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP48`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+    "structural_constraints": [
+      "S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B].",
+      "S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year].",
+      "S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor."
+    ],
+    "linked_blueprint_id": "BP25",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T11",
+    "day": "day_0048",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "Statement of Purpose (SoP) / Research Statement / 学术自我介绍",
+    "domain_context": "雅思小作文动态/静态图表与实证数据综述",
+    "communicative_intent_zh": "我这一段想写申请博士/博后/访问学者或个人学术主页的 Research Statement / SoP 核心段：把我已经做过的深度学习/时间序列/生成模型工作，与我未来想探索的具身智能（Embodied AI）无缝串联成一条充满内驱力的科研主线。",
+    "prompt_zh": "【多段贯通写作实战 1：TOEFL_Independent 核心章节连写】参照全文样板 `FT24 (托福独立写作满分范文：生成模型训练中坚守真实人类语料锚点与防止模型自噬（Model Autophagy）)` 的段落蓝图链 `BP33 -> BP35 -> BP39`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "Since I was a child, I have been fascinated by artificial intelligence and robots. In my master's degree, I did some research on time series forecasting and published a paper. In the future, I want to study embodied AI because it is a very hot topic and can help humans a lot.",
+    "structural_constraints": [
+      "S1 [过往研究主线凝练 Past Research Thread]：My prior research has centered on modeling non-stationary dynamics and uncertainty in high-dimensional sequential data.",
+      "S2 [代表作攻克过程与硬核成果 Concrete Achievement]：In my recent work on [Time Series / Generative Modeling], I observed that [Core Bottleneck], which led me to formulate [Method]—reducing long-horizon drift by [X%] across industrial telemetry benchmarks.",
+      "S3 [向具身智能跃迁的科学顿悟 Scientific Pivot to Embodied AI]：While passive sequence forecasting predicts how an environment evolves, physical decision-making requires closing the loop: actions actively alter future state distributions.",
+      "S4 [未来研究愿景 Future Research Agenda]：Building on my foundation in continuous-time generative modeling, my doctoral/future research aims to develop sample-efficient visuomotor world models that enable robots to adapt online to non-stationary contact dynamics."
+    ],
+    "linked_blueprint_id": "BP48",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0048_T12",
+    "day": "day_0048",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "IELTS Academic Task 1 首段（Introduction + Overview）或实验趋势总览段",
+    "domain_context": "长序列 Transformer 稀疏注意力与分块表征",
+    "communicative_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP25` 与全文样板 `FT24` 的后半部分（`BP38 -> BP40`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+    "structural_constraints": [
+      "S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B].",
+      "S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year].",
+      "S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor."
+    ],
+    "linked_blueprint_id": "BP25",
+    "linked_logic_ids": [
+      "L026",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

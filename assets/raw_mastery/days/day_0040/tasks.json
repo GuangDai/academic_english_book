@@ -1,0 +1,369 @@
+[
+  {
+    "task_id": "D0040_T01",
+    "day": "day_0040",
+    "task_number": 1,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【表达意图→段落构建 1】假设你正在撰写【CET-6 / IELTS Task 2 / TOEFL 结尾段】。你这一段的核心表达意图是：“我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。”。请严格按照 `BP40` 的逐句功能骨架（3 步法）与逻辑法则 `L010`（定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad）），写出一段 4–5 句、零 AI 痕迹、主语紧凑（≤6词）的自然英文段落。",
+    "source_material_or_draft": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T02",
+    "day": "day_0040",
+    "task_number": 2,
+    "task_type": "intent_to_paragraph",
+    "genre_target": "Introduction 第三段（Our Approach & Key Insight）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+    "prompt_zh": "【表达意图→段落构建 2】假设你正在撰写【Introduction 第三段（Our Approach & Key Insight）】。你这一段的核心表达意图是：“我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。”。请按 `BP04` 的句子角色分工，先列出每句的主语核心词与谓语强动词，再连缀成完整段落。",
+    "source_material_or_draft": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+    "structural_constraints": [
+      "S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal].",
+      "S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。",
+      "S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。",
+      "S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。"
+    ],
+    "linked_blueprint_id": "BP04",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T03",
+    "day": "day_0040",
+    "task_number": 3,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【旧新信息流与逻辑衔接修复 1】阅读下方存在“信息流断裂、裸露代词指代或机械序数词堆砌”的草稿段落。请运用 `L010`（定量实证三元组：指标 + 基线 + 边界条件（Metric-Baseline-Condition Triad））与 `L004`（This/Such + 概念浓缩指代词），重构句间衔接链条，使每一句句首自然咬合上一句句尾的新信息。",
+    "source_material_or_draft": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T04",
+    "day": "day_0040",
+    "task_number": 4,
+    "task_type": "logic_and_cohesion_repair",
+    "genre_target": "Introduction 第三段（Our Approach & Key Insight）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+    "prompt_zh": "【逻辑跳跃诊断与前提补全 2】下方草稿从观测现象直接跳到了结论，中间缺失了关键的物理/统计传导机制（Missing Premise）。请运用 `L018`（口头学术演讲的听觉信息流：短分句、视觉锚点与设问引导（Oral Signposting））与 `L028`（修复逻辑跳跃），补齐中间机制句并理顺因果链条。",
+    "source_material_or_draft": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+    "structural_constraints": [
+      "S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal].",
+      "S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。",
+      "S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。",
+      "S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。"
+    ],
+    "linked_blueprint_id": "BP04",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T05",
+    "day": "day_0040",
+    "task_number": 5,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【深度病段修改诊所 1：专治机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】请诊断下方病段中的：① 头重脚轻长主语、② 口语化词汇、③ 空洞夸张与 AI 套话，并将其彻底重写为符合顶会/高分标准的紧凑段落（需附带修改前后的主谓宾成分对比）。",
+    "source_material_or_draft": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T06",
+    "day": "day_0040",
+    "task_number": 6,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Introduction 第三段（Our Approach & Key Insight）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+    "prompt_zh": "【深度病段修改诊所 2：专治机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）】下方段落充斥着“弱动词 + 名词化僵尸短语（make an improvement of...）”以及没有比较基准的模糊表述（much better and faster）。请运用 `L010`（指标-基线-条件三元组）与强及物动词对其进行瘦身重构。",
+    "source_material_or_draft": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+    "structural_constraints": [
+      "S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal].",
+      "S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。",
+      "S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。",
+      "S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。"
+    ],
+    "linked_blueprint_id": "BP04",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T07",
+    "day": "day_0040",
+    "task_number": 7,
+    "task_type": "paragraph_revision_clinic",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【深度病段修改诊所 3：专治口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】下方议论/分析段落使用了烂大街的万能模板句且缺乏具象实例支撑。请砍掉全部套话外壳，并运用 `L021`（一句话具象行业微观案例法）重写该段。",
+    "source_material_or_draft": "As shown in Table 1, our model gets the best MSE on ETTm1, ETTm2, Weather, and Traffic. On Weather dataset, our MSE is 0.165, which is 12% lower than PatchTST. On Traffic, our MSE is 0.382, which beats iTransformer. This proves our model is the best.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T08",
+    "day": "day_0040",
+    "task_number": 8,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【Toulmin 五步论证加固 1】围绕主张“议论文收尾段：跳出简单重复，完成核心权衡整合与边界升华（Synthesis Conclusion）”，构建包含 ① 明确主张（Claim）、② 底层机理（Mechanism）、③ 定量数据或微观实例（Evidence）、④ 逻辑桥梁（Warrant）、⑤ 适用边界限定（Qualification/Hedging）的五步闭环论证段。",
+    "source_material_or_draft": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T09",
+    "day": "day_0040",
+    "task_number": 9,
+    "task_type": "argumentation_and_rebuttal",
+    "genre_target": "Introduction 第三段（Our Approach & Key Insight）",
+    "domain_context": "托福独立与综合写作：理论基础与工程实践权衡",
+    "communicative_intent_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+    "prompt_zh": "【让步-反驳与审稿人质疑防御 2】假设审稿人或反方提出尖锐质疑：“现有轻量级基线或传统方案已经足够好，你们引入的新机制或新政策不仅增加复杂度，而且只是微创新（Incremental）。”请运用 `L008`（先让步肯定局部合理性，再指出其在非平稳/复杂交互场景下的结构性失效）与 `L019` 写出一段有理有据的反驳段。",
+    "source_material_or_draft": "Figure 2 shows our model. There is a Patch Encoder on the left. In the middle, there is a Spectral Block and a Graph Block. On the right, a Linear Decoder outputs the result.",
+    "structural_constraints": [
+      "S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal].",
+      "S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。",
+      "S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。",
+      "S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。"
+    ],
+    "linked_blueprint_id": "BP04",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T10",
+    "day": "day_0040",
+    "task_number": 10,
+    "task_type": "cross_genre_transformation",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【跨文体语域转换：书面论文段 → 现场学术演讲稿（Tech Talk）与考试议论段】请将参考材料中的书面技术/分析段落（`BP40`），分别改写为：(A) 适合在顶会 Oral 舞台上对着幻灯片脱口而出的 4 句自然口语演讲稿（含视觉引导与设问 Hook，遵守 `L018`）；(B) 适合六级/雅思 Task 2 读者的通用学术议论段落。",
+    "source_material_or_draft": "As shown in Table 1, our model gets the best MSE on ETTm1, ETTm2, Weather, and Traffic. On Weather dataset, our MSE is 0.165, which is 12% lower than PatchTST. On Traffic, our MSE is 0.382, which beats iTransformer. This proves our model is the best.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T11",
+    "day": "day_0040",
+    "task_number": 11,
+    "task_type": "full_composition_project",
+    "genre_target": "CET-6 / IELTS Task 2 / TOEFL 结尾段",
+    "domain_context": "顶会审稿回复（Rebuttal）与消融防御",
+    "communicative_intent_zh": "我这一段想写六级、雅思 Task 2 或托福独立写作的结尾段（Conclusion）：用 2–3 句话收束全文，做到既呼应中心论点、整合正反权衡，又绝不喊假大空口号（Let us work together for a better tomorrow）。",
+    "prompt_zh": "【多段贯通写作实战 1：TOEFL_Integrated 核心章节连写】参照全文样板 `FT16 (托福综合写作（Integrated Writing）满分范文：自主无人机配送能否取代城市货车（阅读三论点 vs. 听力逐点反驳）)` 的段落蓝图链 `BP31 -> BP27 -> BP28`，围绕你自己的研究方向（深度学习 / 时间序列 / 生成模型 / 具身智能）写出连续 3 个逻辑咬合的自然段，并标注段间过渡钩子（`L027`）。",
+    "source_material_or_draft": "In conclusion, AI has both advantages and disadvantages. We should make full use of its advantages and avoid its disadvantages. Let us work hand in hand to welcome a bright future of AI!",
+    "structural_constraints": [
+      "S1 [重申核心权衡与立场 Restate Nuanced Thesis]：In conclusion, while [Acknowledged Factor A] introduces real challenges in [Specific Aspect], [Core Thesis Stance] remains the most viable path forward.",
+      "S2 [整合全文两大支柱机制 Synthesize Dual Pillars]：By combining [Pillar 1 from Body 1] with [Pillar 2 / Safeguard from Body 2], [Actors] can harness [Core Benefit] while containing [Primary Risk].",
+      "S3 [理性边界展望（可选）Grounded Forward Look]：Ultimately, the success of [Technology/Policy] depends not on its standalone capability, but on the institutional rigor with which it is governed."
+    ],
+    "linked_blueprint_id": "BP40",
+    "linked_logic_ids": [
+      "L010",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "机械连接词膏药 + 旧新信息流断裂与逻辑跳跃（Mechanical Connectors & Logical Leap）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  },
+  {
+    "task_id": "D0040_T12",
+    "day": "day_0040",
+    "task_number": 12,
+    "task_type": "full_composition_project",
+    "genre_target": "Tech Talk / Conference Oral / 组会开场逐字稿（Slide 1–2）",
+    "domain_context": "具身智能视觉运动策略与仿真到真实迁移",
+    "communicative_intent_zh": "我这一段想作为顶会 Oral Presentation、组会汇报或博士面试 PPT 第一页的开场白：在 45–60 秒内不用任何晦涩公式，让全场听众立刻听懂“我们为什么要做这件事、现有方法到底卡在哪”。",
+    "prompt_zh": "【多段贯通写作实战 2：整篇小作文 / 演讲 / Rebuttal 闭环构建】结合今日所学蓝图 `BP41` 与全文样板 `FT16` 的后半部分（`BP32`），完成一篇包含“破题/总起 → 核心机制/正方论证 → 让步反驳/消融归因 → 边界收束”的完整短文，并用 `L030` 七维自检表逐项核验。",
+    "source_material_or_draft": "As shown in Table 1, our model gets the best MSE on ETTm1, ETTm2, Weather, and Traffic. On Weather dataset, our MSE is 0.165, which is 12% lower than PatchTST. On Traffic, our MSE is 0.382, which beats iTransformer. This proves our model is the best.",
+    "structural_constraints": [
+      "S1 [场景直觉切入 Concrete Scenario Hook]：Good morning everyone. Imagine deploying a humanoid robot to assemble flexible cables on a moving factory line—or forecasting grid load when a storm hits.",
+      "S2 [反直觉痛点设问 Counter-intuitive Breakdown]：Standard deep models perform remarkably well when conditions stay calm, yet why do they fail abruptly the moment contact dynamics or weather patterns shift?",
+      "S3 [一针见血揭晓答案 Crisp Root Cause]：The culprit is a hidden stationarity assumption baked into standard attention layers.",
+      "S4 [亮出今日主旨 Talk Roadmap]：In this talk, I will show how our framework, [Model Name], breaks this bottleneck and achieves [Key Metric Gain] in real-time deployment."
+    ],
+    "linked_blueprint_id": "BP41",
+    "linked_logic_ids": [
+      "L018",
+      "L001",
+      "L011",
+      "L029",
+      "L030"
+    ],
+    "target_defects_to_fix": [
+      "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "消除头重脚轻（主语 ≤ 6-8 词，遵循尾重原则 L011）",
+      "消除口语词与 AI 套话（delve into / pivotal role / testament to）",
+      "补全定量指标-基线-条件三元组或具象行业微案例"
+    ]
+  }
+]

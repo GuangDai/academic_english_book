@@ -1,0 +1,334 @@
+{
+  "day": "day_0043",
+  "day_number": 43,
+  "stage": 3,
+  "stage_name_zh": "Stage 3: AI/时间序列/生成/具身智能小论文全章节贯通（Abstract/Intro/Method/Exp/Rebuttal）",
+  "daily_focus_title_zh": "第 43 天：演讲中化繁为简讲解核心公式与算法直觉（Explaining Math Orally） × 演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换 × CET6_Essay 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP43",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "演讲中化繁为简讲解核心公式与算法直觉（Explaining Math Orally）",
+      "user_intent_zh": "我这一段想在 PPT 上出现核心损失函数或注意力公式时，用 4 句通俗、精准的口语把公式背后的物理/几何直觉讲透，而不是在台上干巴巴念希腊字母。",
+      "when_to_use_zh": "学术演讲方法详解页（Explaining Equations on Slides）",
+      "paragraph_move_structure": [
+        "S1 [先讲直觉目标 Intuition First]：Before looking at the math at the bottom of the slide, here is the simple physical intuition we want to capture.",
+        "S2 [日常/物理类比 Physical Analogy]：When two sensors monitor the same mechanical shaft, genuine vibrations share a consistent phase lag, whereas random electrical glitches fire out of phase.",
+        "S3 [指向公式核心项 Point to Key Term]：That is exactly what the red penalty term $\\|\\Delta \\Phi\\|_1$ inside the softmax does: it measures phase mismatch between channels.",
+        "S4 [一句话总结效果 Operational Effect]：Whenever two channels fall out of phase, this term suppresses their attention weight automatically."
+      ],
+      "cohesion_and_logic_formula": "Intuition Before Symbols -> Physical Reality -> Pointer to Highlighted Math Term -> Operational Effect. 绑定逻辑规则：L014, L018.",
+      "defective_draft": "The formula on this slide is Q times K transpose divided by square root of d minus lambda times delta phi L1 norm, and then softmax times V.",
+      "defect_diagnosis_zh": "在台上把公式符号逐字念一遍（Q times K transpose divided by...）是学术演讲的大忌，听众听得云里雾里。",
+      "model_paragraph_en": "Before looking at the equation in the middle box, here is the physical intuition behind it. When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase. That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax. Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [先讲直觉目标 Intuition First]",
+          "sentence_en": "Before looking at the equation in the middle box, here is the physical intuition behind it.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [先讲直觉目标 Intuition First]：Before looking at the math at the bottom of the slide, here is the simple physical intuition we want to capture. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [日常/物理类比 Physical Analogy]",
+          "sentence_en": "When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [日常/物理类比 Physical Analogy]：When two sensors monitor the same mechanical shaft, genuine vibrations share a consistent phase lag, whereas random electrical glitches fire out of phase. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [指向公式核心项 Point to Key Term]",
+          "sentence_en": "That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [指向公式核心项 Point to Key Term]：That is exactly what the red penalty term $\\|\\Delta \\Phi\\|_1$ inside the softmax does: it measures phase mismatch between channels. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话总结效果 Operational Effect]",
+          "sentence_en": "Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话总结效果 Operational Effect]：Whenever two channels fall out of phase, this term suppresses their attention weight automatically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "先讲涡轮机轴承上传感器真实振动与随机电噪声的相位差直觉，再用手指着标红的 $\\|\\Delta \\Phi_{Q,K}\\|_1$ 项一句话点破其作用，台下外行内行都能瞬间秒懂。"
+    },
+    {
+      "blueprint_id": "BP07",
+      "track_id": "T1",
+      "track_name_zh": "AI/CS 小论文：Abstract 与 Introduction 立意与破题（BP01–BP08）",
+      "title_zh": "凝练论文三点核心贡献（Contributions Summary）",
+      "user_intent_zh": "我这一段想在 Introduction 最末尾清晰列出本文的三点核心贡献（理论/视角贡献 + 核心算法/架构贡献 + 实验与开源实证贡献）。",
+      "when_to_use_zh": "Introduction 末段（Summary of Contributions）",
+      "paragraph_move_structure": [
+        "S1 [总起引导句 Lead-in]：In summary, our main contributions are threefold:",
+        "S2 [贡献 1：新视角/问题形式化 Conceptual/Formulation Contribution]：用强动词名物化或动词原形开头（We identify and formalize... / We establish...），点明打破了什么传统局限。",
+        "S3 [贡献 2：核心方法与模块 Algorithmic/Architectural Contribution]：We propose [Model/Mechanism], which integrates [A] and [B] to achieve [Theoretical/Functional Guarantee].",
+        "S4 [贡献 3：实证与系统突破 Empirical & Practical Contribution]：We demonstrate through extensive benchmarks and physical deployment that [Model] reduces [Metric] by [X%] while [Efficiency Gain]."
+      ],
+      "cohesion_and_logic_formula": "Parallel Grammatical Structure（严格平行结构：全部用 We + 强及物动词 identify / propose / demonstrate 开头）。绑定逻辑规则：L002, L010.",
+      "defective_draft": "Our contributions are: 1. A new model is proposed. 2. Solving the non-stationary problem. 3. Good results on datasets.",
+      "defect_diagnosis_zh": "语法结构完全不平行（被动句 + 动名词短语 + 名词短语），且内容空泛。",
+      "model_paragraph_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability. (2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker. (3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [总起引导句 Lead-in]",
+          "sentence_en": "In summary, our main contributions are threefold: (1) We formalize the amplitude-stationarity trade-off in long-horizon forecasting and prove that standard instance normalization bounds peak-load recoverability.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [总起引导句 Lead-in]：In summary, our main contributions are threefold: | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [贡献 1",
+          "sentence_en": "(2) We propose DyTS-Net, a hybrid architecture that couples shift-invariant spectral attention with a continuous neural ODE scale tracker.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [贡献 1：新视角/问题形式化 Conceptual/Formulation Contribution]：用强动词名物化或动词原形开头（We identify and formalize... / We establish...），点明打破了什么传统局限。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [贡献 2",
+          "sentence_en": "(3) We demonstrate across eight public benchmarks and industrial wind-power telemetry that DyTS-Net lowers long-range MSE by up to 17.4% while cutting inference latency nearly in half.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [贡献 2：核心方法与模块 Algorithmic/Architectural Contribution]：We propose [Model/Mechanism], which integrates [A] and [B] to achieve [Theoretical/Functional Guarantee]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "三点贡献严格遵循 `We formalize... / We propose... / We demonstrate...` 平行主谓宾结构，分别对应“理论发现 -> 方法构建 -> 实证突破”。"
+    },
+    {
+      "blueprint_id": "BP44",
+      "track_id": "T6",
+      "track_name_zh": "学术演讲（Tech Talk）/ 顶会审稿回复（Rebuttal）/ 科研个人陈述（SoP）（BP41–BP48）",
+      "title_zh": "演讲总结页（Take-home Message）与问答（Q&A）从容应答段",
+      "user_intent_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+      "when_to_use_zh": "学术演讲收尾页 & Q&A 现场问答",
+      "paragraph_move_structure": [
+        "S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle].",
+        "S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset].",
+        "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion].",
+        "S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]."
+      ],
+      "cohesion_and_logic_formula": "Single Takeaway -> Quantitative Triad -> Q&A Direct Answer -> Empirical Grounding. 绑定逻辑规则：L018, L019.",
+      "defective_draft": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+      "defect_diagnosis_zh": "收尾平淡（That's all），回答问题时犹豫闪烁（Well, maybe... I think maybe...），显得对自己的工作极不自信。",
+      "model_paragraph_en": "To wrap up, the key takeaway from our work is that non-stationary forecasting requires separating shift-invariant phase structure from continuous amplitude dynamics. Doing so lets DyTS-Net cut long-horizon error by up to 17% while running at half the computational cost, and our full code and weights are live at the QR code on screen. — [Q&A Response]: Thank you for that sharp question on irregular missing timestamps. The short answer is that our neural-ODE branch handles arbitrary time intervals natively: in our 30% random-dropout stress test, MSE degraded by less than 5%, and we can share the backup slide on irregular sampling right here.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [凝练核心带走信息 Core Take-Home Message]",
+          "sentence_en": "To wrap up, the key takeaway from our work is that non-stationary forecasting requires separating shift-invariant phase structure from continuous amplitude dynamics.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成果三点速览 Rapid Recap]",
+          "sentence_en": "Doing so lets DyTS-Net cut long-horizon error by up to 17% while running at half the computational cost, and our full code and weights are live at the QR code on screen.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]",
+          "sentence_en": "Thank you for that sharp question on irregular missing timestamps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Q&A 展开与诚实边界 Q&A Elaboration]",
+          "sentence_en": "The short answer is that our neural-ODE branch handles arbitrary time intervals natively: in our 30% random-dropout stress test, MSE degraded by less than 5%, and we can share the backup slide on irregular sampling right here.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "总结页用一句话提炼灵魂 takeaway；问答环节用 The short answer is... 结论前置 + 备份页实测数据（backup slide）从容控场。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L013",
+      "category": "Paragraph Architecture (段落架构)",
+      "name_zh": "演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换",
+      "name_en": "Deductive Zoom-In vs. Inductive Zoom-Out",
+      "core_principle_zh": "写方法论与议论文主论点段宜用演绎法（Zoom-In：首句抛出概括性规律，随后逐句拆解机理与实例）；写实验分析与看图小作文局部段宜用归纳法（Zoom-Out：先报告具体观测对比，末句提炼背后的理论规律）。",
+      "structural_formula": "Zoom-In: [General Claim] -> [Specific Mechanism] -> [Concrete Data]. | Zoom-Out: [Data Observation A vs. B] -> [Pattern Across Horizons] -> [Theoretical Takeaway].",
+      "common_pitfall_zh": "在实验分析段只罗列完数据就戛然而止，缺少最后一句 Zoom-Out 的机理升华（Why this pattern matters）。",
+      "bad_example_en": "At horizon 96, our MSE is 0.182. At horizon 336, our MSE is 0.245. At horizon 720, our MSE is 0.310, while Informer reaches 0.612.",
+      "good_example_en": "As the prediction horizon extends from 96 to 720 steps, our model's MSE rises modestly from 0.182 to 0.310, whereas Informer degrades sharply to 0.612. This widening performance gap demonstrates that decoupling trend projection from seasonal attention effectively suppresses long-range error compounding.",
+      "analysis_zh": "第一句整合多步长数据趋势对比，第二句用 This widening performance gap demonstrates that... 完成归纳升华，点明“趋势与季节解耦抑制长程误差累积”的本质原因。"
+    },
+    {
+      "logic_id": "L021",
+      "category": "Exam Essays (六级/雅思/托福论证)",
+      "name_zh": "具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding）",
+      "name_en": "Concrete Single-Sentence Micro-Case Illustration",
+      "core_principle_zh": "六级/雅思/托福作文严禁编造虚假的调查数据（如 *A recent survey by Harvard shows 87.3% of people...*），也严禁写空洞口号（*For example, technology helps doctors a lot*）。最高分做法是用一句 `For instance, when [Specific Actor] implements [Specific Tool/Policy] in [Specific Scenario], [Concrete Measurable Effect]` 构建具象行业微观切片。",
+      "structural_formula": "For instance, when [municipal grid operators / radiology departments / logistics warehouses] deploy [specific technology/policy], they can [concrete operational improvement], thereby [link back to paragraph claim].",
+      "common_pitfall_zh": "举例要么假大空（For example, Jack studied hard and succeeded），要么编造一眼假的统计数字。",
+      "bad_example_en": "For example, according to a recent survey, 92% of factories that use robots become very rich and successful.",
+      "good_example_en": "For instance, when automotive assembly plants deploy collaborative robots for repetitive welding and heavy chassis lifting, human technicians can transition toward quality inspection and fault diagnostics, reducing workplace musculoskeletal injuries while raising line throughput.",
+      "analysis_zh": "不编造假百分比，而是通过“汽车总装厂部署协作机器人承担重复焊接与底盘搬运 -> 技工转向质检与故障诊断 -> 减少工伤并提升产线吞吐量”展现母语级具体说服力。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC43",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP43",
+      "linked_logic_id": "L013",
+      "communicative_goal_zh": "我这一段想在 PPT 上出现核心损失函数或注意力公式时，用 4 句通俗、精准的口语把公式背后的物理/几何直觉讲透，而不是在台上干巴巴念希腊字母。",
+      "original_defective_paragraph": "The formula on this slide is Q times K transpose divided by square root of d minus lambda times delta phi L1 norm, and then softmax times V.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L013 演绎推进（Zoom-In）与归纳提炼（Zoom-Out）双模切换）。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "在台上把公式符号逐字念一遍（Q times K transpose divided by...）是学术演讲的大忌，听众听得云里雾里。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Before looking at the equation in the middle box, here is the physical intuition behind it. When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase. That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax. Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [先讲直觉目标 Intuition First]",
+          "sentence_en": "Before looking at the equation in the middle box, here is the physical intuition behind it.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [先讲直觉目标 Intuition First]：Before looking at the math at the bottom of the slide, here is the simple physical intuition we want to capture. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [日常/物理类比 Physical Analogy]",
+          "sentence_en": "When two sensors sit on the same turbine shaft, genuine mechanical vibrations travel with a consistent phase lag, whereas random sensor glitches fire completely out of phase.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [日常/物理类比 Physical Analogy]：When two sensors monitor the same mechanical shaft, genuine vibrations share a consistent phase lag, whereas random electrical glitches fire out of phase. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [指向公式核心项 Point to Key Term]",
+          "sentence_en": "That physical rule is captured by the highlighted red term, $\\|\\Delta \\Phi_{Q,K}\\|_1$, right inside the softmax.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [指向公式核心项 Point to Key Term]：That is exactly what the red penalty term $\\|\\Delta \\Phi\\|_1$ inside the softmax does: it measures phase mismatch between channels. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [一句话总结效果 Operational Effect]",
+          "sentence_en": "Whenever two channels show inconsistent phase lag, this penalty automatically zeroes out their attention weight.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [一句话总结效果 Operational Effect]：Whenever two channels fall out of phase, this term suppresses their attention weight automatically. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC03",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）",
+      "linked_blueprint_id": "BP03",
+      "linked_logic_id": "L003",
+      "communicative_goal_zh": "我这一段想深入剖析现有方法在特定难题（如非平稳突变、长程自回归误差累积、Sim-to-Real 接触失配）上为什么会失效，把机理讲透。",
+      "original_defective_paragraph": "The problem of error accumulation in long-term forecasting and the losing of scale information when using RevIN normalization is very serious and hard to solve by simple ways.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【口语化严重 + 缺失比较基准与维度（Colloquialism & Imprecision）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L003 延续链式推进模式（Linear Chain Progression））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 长达 21 词的巨型名词短语作主语（头重脚轻）；② 谓语表语极度空洞（is very serious and hard to solve by simple ways）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting. While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks. Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons. Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心痛点立论 Bottleneck Claim]",
+          "sentence_en": "Bridging non-stationary robustness and amplitude fidelity remains a core bottleneck in long-horizon forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心痛点立论 Bottleneck Claim]：一句话直接命名该核心瓶颈（如 Compound error accumulation / Sim-to-real contact mismatch）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [第一层失效机理 Primary Failure Mechanism]",
+          "sentence_en": "While instance normalization strips time-varying mean and variance shifts to stabilize attention weights, it simultaneously erases physical scale cues required to predict extreme load peaks.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [第一层失效机理 Primary Failure Mechanism]：从数学或物理传导链条解释误差是如何产生并放大的。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [第二层耦合困境 Secondary Dilemma]",
+          "sentence_en": "Conversely, retaining raw unnormalized inputs exposes self-attention layers to severe covariate shift, causing validation error to diverge over extended horizons.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [第二层耦合困境 Secondary Dilemma]：指出为什么简单的修补手段（如单纯加大模型、简单归一化或域随机化）不仅无效还会带来副作用。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [凝练核心研究问题 Research Question Formulation]",
+          "sentence_en": "Resolving this tension requires a mechanism that disentangles intrinsic temporal dynamics from transient scale drift without discarding magnitude information.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [凝练核心研究问题 Research Question Formulation]：用 Therefore, a fundamental question arises: how can we... 引出本文目标。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC21",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）",
+      "linked_blueprint_id": "BP21",
+      "linked_logic_id": "L021",
+      "communicative_goal_zh": "我这一段想通过可视化案例（Case Study / Qualitative Analysis），既展示模型在复杂跳变下的精准跟踪，又坦诚剖析一个模型预测失准的极端案例。",
+      "original_defective_paragraph": "Figure 5 shows that our prediction curve is very close to the ground truth curve, while baseline curves are far away. Sometimes our model also makes small errors when the data changes too suddenly.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【头重脚轻长主语 + 散装短句堆砌（Top-Heavy Subject & Choppy Flow）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L021 具象微观场景举例法：用一句话精确案例终结空洞模板（Micro-Case Grounding））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "只说 very close / far away，没有指出具体的滞后（phase lag）、超调（overshoot）以及外生干预（exogenous shock）的物理本质。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark. Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error. Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response. Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [定性对比切入 Qualitative Setup]",
+          "sentence_en": "Figure 5 visualizes 336-step forecasts during an abrupt voltage drop on the ETTm1 transformer load benchmark.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [定性对比切入 Qualitative Setup]：Figure 5 visualizes predicted trajectories during an abrupt regime shift on [Dataset/Task]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成功案例亮点 Success Highlight]",
+          "sentence_en": "Whereas PatchTST and iTransformer exhibit a 14-step phase lag and severe post-recovery overshoot, DyTS-Net tracks both the sharp downward ramp and subsequent stabilization within 5% amplitude error.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成功案例亮点 Success Highlight]：While [Baseline] lags behind the sudden step change by [K steps] and overshoots, our model rapidly locks onto the new amplitude regime within [M steps]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [失败案例坦诚剖析 Honest Failure Mode]",
+          "sentence_en": "Nevertheless, the failure case in Panel (d) reveals that when an unscheduled manual grid curtailment occurs without preceding spectral precursors, our endogenous model experiences a 6-step delayed response.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [失败案例坦诚剖析 Honest Failure Mode]：Nevertheless, inspecting the bottom-right failure case reveals that when an external manual override occurs without historical precursors, all purely endogenous forecasters—including ours—exhibit a transient lag. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [改进启示 Constructive Takeaway]",
+          "sentence_en": "Anticipating such zero-precursor manual interventions requires integrating exogenous dispatch logs alongside historical telemetry.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [改进启示 Constructive Takeaway]：Incorporating exogenous event logs or textual maintenance records is necessary to anticipate such unscheduled interventions. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT19",
+    "genre": "CET6_Essay",
+    "title_zh": "六级写作（CET-6）满分范文：高校教学中生成式 AI 辅助与独立批判性思维培养的平衡之道",
+    "structural_blueprint_chain": [
+      "BP33",
+      "BP34",
+      "BP35",
+      "BP37",
+      "BP40"
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "timestamp": "2026-10-31T14:32:40Z",
+  "total": 18,
+  "passed": 18,
+  "failed": 0,
+  "total_time_seconds": 14.52,
+  "tests": [
+    {
+      "id": "ADV-WL-01",
+      "name": "Zero Ruled Lines (0 lines across macros)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0,
+        "fatal_error": false
+      },
+      "duration": 0.719
+    },
+    {
+      "id": "ADV-WL-02",
+      "name": "Single Ruled Line (1 line)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.692
+    },
+    {
+      "id": "ADV-WL-03",
+      "name": "Massive Ruled Lines (50 lines standalone pagination)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 3,
+        "expected_min_pages": 3,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.729
+    },
+    {
+      "id": "ADV-WL-04",
+      "name": "Massive Ruled Lines (50 lines inside breakable ExerciseBox)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 3,
+        "expected_min_pages": 3,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.715
+    },
+    {
+      "id": "ADV-BOX-01",
+      "name": "Massive Paragraph in ConceptBox (>1,200 words spanning pages)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 4,
+        "word_count": 1380,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.715
+    },
+    {
+      "id": "ADV-BOX-02",
+      "name": "Massive Paragraph in ExampleBox (>1,200 words spanning pages)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 4,
+        "word_count": 1380,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.702
+    },
+    {
+      "id": "ADV-BOX-03",
+      "name": "Massive Paragraph in TipBox (>1,200 words spanning pages)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 4,
+        "word_count": 1380,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.719
+    },
+    {
+      "id": "ADV-BOX-04",
+      "name": "Massive Paragraph in ExerciseBox (>1,200 words spanning pages)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 4,
+        "word_count": 1380,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.72
+    },
+    {
+      "id": "ADV-NEST-01",
+      "name": "ExerciseBox + 8 SentenceRewriteItems + fillblank + writing lines (Multi-page)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "page_count": 3,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.747
+    },
+    {
+      "id": "ADV-NEST-02",
+      "name": "Box-in-Box Nesting (TipBox in ConceptBox, ExampleBox in ExerciseBox)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0,
+        "fatal_error": false,
+        "log_snippet": "Package hyperref Warning: Rerun to get /PageLabels entry."
+      },
+      "duration": 0.713
+    },
+    {
+      "id": "ADV-WL-05",
+      "name": "ParagraphRevision Scoping & State Isolation (4, 12, 2 lines)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.682
+    },
+    {
+      "id": "ADV-WL-06",
+      "name": "Ruled Line Physical Pitch Calibration (10.5mm-11.5mm)",
+      "status": "PASS",
+      "details": {
+        "total_pairs_measured": 17,
+        "min_pitch_mm": 11.0,
+        "max_pitch_mm": 11.0,
+        "mean_pitch_mm": 11.0,
+        "pitch_samples_pt": [
+          31.18,
+          31.18,
+          31.18,
+          31.18,
+          31.18
+        ],
+        "in_nominal_range (10.5-11.5mm)": true,
+        "zero_extreme_deviations (<10mm or >12mm)": true,
+        "overfull_count": 0
+      },
+      "duration": 0.702
+    },
+    {
+      "id": "ADV-CHAR-01",
+      "name": "Special Characters (%, $, &, _, #, {}, ^, ~, backslash in macros/titles)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0,
+        "corrupt_pdf_tokens_count": 0,
+        "corrupt_tokens": []
+      },
+      "duration": 0.698
+    },
+    {
+      "id": "ADV-CHAR-02",
+      "name": "Complex Math Expressions inside fillblank",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0
+      },
+      "duration": 0.651
+    },
+    {
+      "id": "ADV-TYPO-01",
+      "name": "Long Unhyphenated Academic Words & Margin Stretch",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 0,
+        "overfull_lines": []
+      },
+      "duration": 0.633
+    },
+    {
+      "id": "ADV-TYPO-02",
+      "name": "Dense CJK/Latin Mixed Typography & Unicode Punctuation",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "missing_chars_count": 0,
+        "missing_chars": [],
+        "overfull_count": 0
+      },
+      "duration": 0.737
+    },
+    {
+      "id": "ADV-TYPO-03",
+      "name": "Fillblank Overflow Boundary (adaptive sizing check)",
+      "status": "PASS",
+      "details": {
+        "pdf_exists": true,
+        "returncode": 0,
+        "overfull_count": 1,
+        "overfull_lines": [
+          "Overfull \\hbox (55.14288pt too wide) in paragraph at lines 9--11"
+        ]
+      },
+      "duration": 0.67
+    },
+    {
+      "id": "ADV-AUDIT-01",
+      "name": "Full Master Document Build Audit & Log Diagnostics",
+      "status": "PASS",
+      "details": {
+        "returncode": 0,
+        "pdf_exists": true,
+        "pdf_pages": 8,
+        "bookmarks_count": 11,
+        "overfull_hboxes_count": 0,
+        "underfull_hboxes_count": 0,
+        "overfull_vboxes_count": 0,
+        "underfull_vboxes_count": 0,
+        "missing_chars_count": 0,
+        "undefined_refs_count": 0,
+        "overfull_hboxes_samples": [],
+        "underfull_vboxes_samples": []
+      },
+      "duration": 2.578
+    }
+  ]
+}

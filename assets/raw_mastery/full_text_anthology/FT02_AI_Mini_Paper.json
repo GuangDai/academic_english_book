@@ -1,0 +1,395 @@
+{
+  "text_id": "FT02",
+  "genre": "AI_Mini_Paper",
+  "title_zh": "基于条件流匹配的块缺失时间序列生成与插补完整小论文（FlowImp: Manifold-Consistent Time Series Imputation）",
+  "paragraph_count": 11,
+  "structural_blueprint_chain": [
+    "BP08",
+    "BP01",
+    "BP09",
+    "BP10",
+    "BP11",
+    "BP15",
+    "BP17",
+    "BP18",
+    "BP20",
+    "BP23",
+    "BP24"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "高密度四句式 Abstract 全段构建（Complete 4-Move Abstract）",
+      "blueprint_id": "BP08",
+      "paragraph_intent_zh": "我这一段想写出整篇小论文的完整 Abstract（摘要）：在 150–180 词内一气呵成交代背景、核心痛点、方法机制与量化实验结果。",
+      "cohesion_formula": "Context (S1) -> Gap (S2) -> Method & Mechanism (S3-S4) -> Quantitative Proof (S5). 绑定逻辑规则：L001, L008, L010, L029.",
+      "paragraph_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series. While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively. We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps. Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer. Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [背景与任务重要性 Context]",
+          "sentence_en": "Recovering missing sensor observations is essential for reliable downstream monitoring in industrial and clinical time series.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [背景与任务重要性 Context]：1句话锁定任务目标与核心应用场景（≤20词）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [现有局限与痛点 Gap/Bottleneck]",
+          "sentence_en": "While diffusion-based imputation models generate plausible trajectories under random missingness, they suffer from high sampling latency and lose global periodic coherence when entire sensor blocks drop out consecutively.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [现有局限与痛点 Gap/Bottleneck]：While existing [Paradigms] achieve [Merit], they struggle with [Core Bottleneck] because [Underlying Cause]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3-S4 [本文方法与核心机制 Approach & Mechanism]",
+          "sentence_en": "We present FlowImp, a conditional flow-matching framework that reconstructs contiguous missing blocks in three ODE solver steps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3-S4 [本文方法与核心机制 Approach & Mechanism]：In this work, we present [Model], which [Core Idea]. Specifically, [Module 1]..., while [Module 2]... | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Specifically, FlowImp anchors straight transport paths on observed spectral priors and enforces cross-channel phase consistency via a lightweight Fourier regularizer.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 5,
+          "role_and_move": "S5 [量化实证结果 Quantitative Results]",
+          "sentence_en": "Across six multivariate benchmarks under 50% block missingness, FlowImp reduces imputation MAE by 19.3% compared with CSDI while accelerating inference by 24x.",
+          "constituent_and_flow_note_zh": "对应步骤：S5 [量化实证结果 Quantitative Results]：Experiments on [Benchmarks/Hardware] show that [Model] outperforms [Baselines] by [X%] in [Metric] and achieves [Efficiency/Real-world Result]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "确立研究背景与真实工程价值（拒绝空喊口号）",
+      "blueprint_id": "BP01",
+      "paragraph_intent_zh": "我这一段想作为 Introduction 第一段：说明多变量时间序列预测或具身智能控制在实际工业系统中的关键作用，以及高可靠性的刚需。",
+      "cohesion_formula": "Given-to-New 链：Core Task (S1) -> Practical Deployment (S2) -> Real-world Disturbances (S3) -> Consequence of Failure (S4). 绑定逻辑规则：L001, L011, L029.",
+      "paragraph_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing. In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload. However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise. Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务锚定 Topic Anchor]",
+          "sentence_en": "Multivariate time series forecasting underpins safety-critical scheduling across smart power grids, cloud clusters, and automated manufacturing.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务锚定 Topic Anchor]：直接用紧凑主谓宾点明研究对象及其在真实系统中的核心功能（≤16词，禁用 In the era of AI）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [应用场景展开 Concrete Scenarios]",
+          "sentence_en": "In these operational settings, control systems rely on multi-horizon predictions to balance supply fluctuations and prevent cascading overload.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [应用场景展开 Concrete Scenarios]：列举 2–3 个具体工程场景（如电网负荷调度、灵巧机械手装配）及其决策依赖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [苛刻工况约束 Operational Bottleneck]",
+          "sentence_en": "However, field sensors routinely operate under abrupt regime shifts, irregular sampling intervals, and high-frequency measurement noise.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [苛刻工况约束 Operational Bottleneck]：指出真实部署环境下不可避免的物理/统计挑战（如非平稳漂移、传感器缺失、毫秒级延迟约束）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [研究必要性收束 Imperative Hook]",
+          "sentence_en": "Failing to accommodate such non-stationary disturbances degrades long-range forecast reliability and triggers costly control oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [研究必要性收束 Imperative Hook]：点明若无法克服上述约束会造成什么具体系统后果，自然引出下一段对现有方法的审视。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "相关工作分类综述段（拒绝 A did X, B did Y 流水账）",
+      "blueprint_id": "BP09",
+      "paragraph_intent_zh": "我这一段想写 Related Work 的一个子方向：把过去三年的 6–8 篇代表性论文按技术路线分成两类进行归纳，并指出它们的共同盲区。",
+      "cohesion_formula": "Two-Branch Taxonomy -> Family A -> Contrastive Family B -> Shared Limitation. 绑定逻辑规则：L009, L008.",
+      "paragraph_en": "Pre-trained time series foundation models generally follow either continuous patch reconstruction or discrete vocabulary tokenization. Continuous reconstruction frameworks (e.g., PatchTST, MOMENT) pre-train encoders via masked patch regression, preserving fine-grained numerical resolution across continuous domains. Conversely, discrete tokenization approaches (e.g., Chronos) quantize scaled observations into fixed bins to leverage cross-entropy language modeling objectives. Despite their zero-shot transferability, both paradigms treat univariate channels independently during pre-training, ignoring physical cross-variable conservation laws that govern multivariate engineering systems.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分类总纲 Taxonomic Thesis]",
+          "sentence_en": "Pre-trained time series foundation models generally follow either continuous patch reconstruction or discrete vocabulary tokenization.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分类总纲 Taxonomic Thesis]：Existing methods for [Task] can be categorized into two main families: [Family A] and [Family B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [流派 A 归纳与代表作 Family A Synthesis]",
+          "sentence_en": "Continuous reconstruction frameworks (e.g., PatchTST, MOMENT) pre-train encoders via masked patch regression, preserving fine-grained numerical resolution across continuous domains.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [流派 A 归纳与代表作 Family A Synthesis]：[Family A] approaches (e.g., [Models]) focus on [Mechanism A], effectively addressing [Sub-problem 1]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [流派 B 归纳与对比 Family B Synthesis]",
+          "sentence_en": "Conversely, discrete tokenization approaches (e.g., Chronos) quantize scaled observations into fixed bins to leverage cross-entropy language modeling objectives.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [流派 B 归纳与对比 Family B Synthesis]：By contrast, [Family B] architectures (e.g., [Models]) reformulate the problem via [Mechanism B] to reduce [Cost/Complexity]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [共同盲区提炼 Shared Blind Spot]",
+          "sentence_en": "Despite their zero-shot transferability, both paradigms treat univariate channels independently during pre-training, ignoring physical cross-variable conservation laws that govern multivariate engineering systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [共同盲区提炼 Shared Blind Spot]：Despite their respective strengths, both families overlook [Critical Factor], which degrades performance under [Target Scenario]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 4,
+      "section_or_role_zh": "对比现有流派优劣并精准定位本文差异（Contrastive Positioning）",
+      "blueprint_id": "BP10",
+      "paragraph_intent_zh": "我这一段想在 Related Work 小节末尾，把我们的方法与最接近的 2 个竞争方案做精准对比，防止审稿人说我们只是对某篇旧文的微调（Incremental）。",
+      "cohesion_formula": "Acknowledge Overlap -> Pinpoint Structural Divergence -> Explain Functional Gain. 绑定逻辑规则：L008, L019.",
+      "paragraph_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach. While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes. In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases. Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [锁定最相近工作 Closest Prior Work]",
+          "sentence_en": "Among spectral forecasters, FEDformer and TimesNet are most closely related to our approach.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [锁定最相近工作 Closest Prior Work]：Among prior studies, [Closest Method A] and [Closest Method B] are most closely related to our approach. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [剖析其局限性 Structural Difference 1]",
+          "sentence_en": "While both methods transform temporal representations via fast Fourier transforms, they apply static top-k frequency selection globally across the entire lookback window, which blurs localized transient spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [剖析其局限性 Structural Difference 1]：While [Method A] also employs [Shared Concept], it relies on [Limitation 1], restricting its applicability to [Narrow Setting]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [剖析本文本质突破 Core Departure]",
+          "sentence_en": "In contrast, our wavelet-coupled attention dynamically adapts filter bandwidths over sliding sub-intervals, isolating non-stationary burst events without corrupting global seasonal bases.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [剖析本文本质突破 Core Departure]：In contrast, our framework introduces [Core Innovation], which fundamentally eliminates [Bottleneck] by [Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证或理论优势锁定 Empirical/Theoretical Edge]",
+          "sentence_en": "Consequently, our model captures localized fault transients without requiring pre-defined frequency thresholds.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证或理论优势锁定 Empirical/Theoretical Edge]：Consequently, our approach achieves [Capability] without requiring [Expensive Requirement of Prior Work]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 5,
+      "section_or_role_zh": "问题形式化定义与符号约定段（Problem Formulation & Notation）",
+      "blueprint_id": "BP11",
+      "paragraph_intent_zh": "我这一段想在 Methodology 开篇（Section 3.1 Problem Formulation），严谨、简洁地定义输入张量、输出目标、约束条件与优化目标。",
+      "cohesion_formula": "Input Space -> Auxiliary Conditions -> Target Mapping -> Crucial Distributional Constraint. 绑定逻辑规则：L014, L011.",
+      "paragraph_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$. Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$. Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [任务总体形式化 Task Definition]",
+          "sentence_en": "Consider a multivariate time series $\\mathbf{X}_{1:L} = [x_1, \\dots, x_L]^\\top \\in \\mathbb{R}^{L \\times C}$ recording $C$ correlated sensors over lookback horizon $L$.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [任务总体形式化 Task Definition]：Consider a [System/Dataset] observed over a lookback window of length $L$, denoted as $\\mathbf{X} = [x_1, \\dots, x_L] \\in \\mathbb{R}^{L \\times C}$, where $C$ represents [Meaning]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [补充条件或模态输入 Auxiliary/Condition Inputs]",
+          "sentence_en": "Given an binary observation mask $\\mathbf{M} \\in \\{0, 1\\}^{L \\times C}$ indicating irregular sensor dropouts, our objective is to learn a generative mapping $p_\\theta(\\mathbf{Y}_{L+1:L+H} \\mid \\mathbf{X}_{1:L} \\odot \\mathbf{M})$ over future horizon $H$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [补充条件或模态输入 Auxiliary/Condition Inputs]：At each step $t$, the system also receives [Condition/Observation] $z_t \\in \\mathcal{Z}$ under [Noise/Missingness/Dynamic Regime]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [预测/控制目标 Objective]",
+          "sentence_en": "Crucially, unlike standard settings that assume time-invariant marginal distributions, we explicitly account for non-stationary regime shifts where $\\mathbb{E}[x_t]$ and $\\text{Cov}(x_t)$ evolve continuously between the lookback and forecasting windows.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [预测/控制目标 Objective]：Our goal is to learn a parameterized mapping $f_\\theta(\\cdot)$ that predicts future states $\\hat{\\mathbf{Y}} \\in \\mathbb{R}^{H \\times C}$ over horizon $H$ (or action trajectory $a_{t:t+K}$). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 6,
+      "section_or_role_zh": "生成模型专属：条件控制与采样去噪轨迹阐述段（Generative Modeling Mechanism）",
+      "blueprint_id": "BP15",
+      "paragraph_intent_zh": "我这一段想阐述生成模型（Diffusion / Flow Matching / Autoregressive）如何在满足外部物理约束或条件观测的前提下，生成高质量且多样化的序列/轨迹。",
+      "cohesion_formula": "Guidance Artifact Problem -> Intrinsic Velocity Conditioning -> Tangent Projection Step -> Fast Exact Convergence. 绑定逻辑规则：L026, L014.",
+      "paragraph_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations. To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field. At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator. This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]",
+          "sentence_en": "Applying post-hoc gradient guidance during diffusion sampling often pushes intermediate noisy states off the data manifold, introducing unphysical high-frequency oscillations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [无条件/朴素引导缺陷 Naive Guidance Bottleneck]：Applying post-hoc classifier guidance to pre-trained diffusion samplers often pushes intermediate noisy states off the data manifold, inducing high-frequency artifacts. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]",
+          "sentence_en": "To enforce physical boundary constraints without manifold deviation, we incorporate observation consistency directly into the conditional flow-matching velocity field.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [本文流形内条件注入机制 Manifold-Consistent Conditioning]：To enforce hard boundary constraints without manifold deviation, we embed [Condition/Constraint] directly into the velocity field / denoising kernel. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [具体轨迹更新方程 Trajectory Update Formulation]",
+          "sentence_en": "At flow time $\\tau \\in [0, 1]$, our network predicts a residual velocity $v_\\theta(x_\\tau, \\tau \\mid c)$ that projects the transport trajectory onto the null space of the linear constraint operator.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [具体轨迹更新方程 Trajectory Update Formulation]：At solver step $\\tau \\in [0, 1]$, the conditional velocity field $v_\\theta(x_\\tau, \\tau \\mid c)$ projects the unconstrained flow onto the tangent space of feasible trajectories. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]",
+          "sentence_en": "This projection guarantees exact boundary satisfaction at terminal time $\\tau=1$ while maintaining straight transport paths amenable to 4-step Euler integration.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [采样效率与分布保真收益 Sampling & Fidelity Guarantee]：This tangent projection guarantees exact boundary satisfaction at $\\tau=1$ while permitting straight 4-step Euler integration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 7,
+      "section_or_role_zh": "实验设置、数据集特性与强基线选型说明段（Experimental Setup & Baselines）",
+      "blueprint_id": "BP17",
+      "paragraph_intent_zh": "我这一段想在 Experiments 开篇说明：我们为什么选这几类数据集和这几类基线模型，证明我们的实验设计是全面、公平且直击痛点的。",
+      "cohesion_formula": "Dataset Diversity -> Challenging Regime Highlights -> Categorized Strong Baselines -> Strict Fairness Protocol. 绑定逻辑规则：L009, L010.",
+      "paragraph_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic). Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability. We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer). All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [数据集选型逻辑 Dataset Selection Rationale]",
+          "sentence_en": "To evaluate robustness across diverse non-stationary regimes, we conduct experiments on seven public benchmarks spanning energy grid load (ETT, ECL), meteorological telemetry (Weather), and urban traffic flow (Traffic).",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [数据集选型逻辑 Dataset Selection Rationale]：To evaluate performance across diverse non-stationary regimes, we conduct experiments on [N] benchmarks spanning [Domain 1], [Domain 2], and [Domain 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [极端/困难特性突出 Challenging Dataset Properties]",
+          "sentence_en": "Notably, Weather contains abrupt atmospheric pressure transitions that test non-stationary adaptability, whereas Traffic spans 862 synchronized sensors that challenge high-dimensional scalability.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [极端/困难特性突出 Challenging Dataset Properties]：Notably, [Dataset A] exhibits [Hard Property 1, e.g., strong covariate shift], whereas [Dataset B] tests scalability across [Hard Property 2, e.g., 862 correlated channels]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [基线流派全覆盖 Baseline Family Coverage]",
+          "sentence_en": "We benchmark our approach against 11 state-of-the-art methods across three paradigms: channel-independent patch Transformers (PatchTST), variate-mixing architectures (iTransformer, Crossformer), and frequency-domain forecasters (TimesNet, FEDformer).",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [基线流派全覆盖 Baseline Family Coverage]：We compare our method against [K] competitive baselines grouped into three families: [Family 1], [Family 2], and [Family 3]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [公平评测协议 Fair Evaluation Protocol]",
+          "sentence_en": "All baselines are reproduced under identical lookback windows ($L=96$) and prediction horizons ($H \\in \\{96, 192, 336, 720\\}$) using standard MSE and MAE metrics.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [公平评测协议 Fair Evaluation Protocol]：All models are evaluated under identical lookback windows ($L=96$), prediction horizons ($H \\in \\{96, 192, 336, 720\\}$), and hyperparameter search budgets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 8,
+      "section_or_role_zh": "主实验结果整体对比与核心胜出原因剖析段（Main Results Analysis）",
+      "blueprint_id": "BP18",
+      "paragraph_intent_zh": "我这一段想解读主实验大表（Table 1）：既报告全局胜率，又挑出最有代表性的对比案例，解释为什么竞争对手在那里跌倒而我们稳赢。",
+      "cohesion_formula": "Global Win Rate -> Advantage over Family A -> Resilience at Long Horizon vs. Family B -> Mechanistic Takeaway. 绑定逻辑规则：L015, L013, L010.",
+      "paragraph_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations. Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical. Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts. By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [全局统治力概述 Overall Dominance]",
+          "sentence_en": "Table 1 reports the multivariate forecasting results, where DyTS-Net secures the lowest error in 25 out of 28 dataset-horizon configurations.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [全局统治力概述 Overall Dominance]：Table 1 summarizes the multivariate forecasting results, where [Our Model] achieves the lowest error in [X] out of [Y] dataset-horizon configurations. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]",
+          "sentence_en": "Compared with channel-independent PatchTST, DyTS-Net reduces average MSE by 14.2% on the 862-channel Traffic benchmark, where modeling spatial-temporal congestion propagation across adjacent road sensors is critical.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [对比流派 1 的差距与原因 Contrast vs. Family 1]：Compared with channel-independent baselines such as [Baseline A], our method reduces average MSE by [X%] on [Dataset], where strong cross-sensor coupling is critical. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]",
+          "sentence_en": "Furthermore, while variate-mixing iTransformer performs competitively at $H=96$, its MSE escalates by 68% at $H=720$ on volatile Weather series as unregularized cross-channel attention overfits transient wind gusts.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [对比流派 2 在困难场景下的崩溃 Contrast vs. Family 2 under Hard Regime]：Furthermore, while [Baseline B] performs competitively at short horizons ($H=96$), its error escalates by [Y%] at $H=720$ due to [Failure Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [回扣本文核心机制 Mechanistic Confirmation]",
+          "sentence_en": "By decoupling stationary phase coupling from neural-ODE scale projection, DyTS-Net suppresses long-horizon drift and maintains an 11.6% margin over the strongest baseline at $H=720$.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [回扣本文核心机制 Mechanistic Confirmation]：By contrast, our [Core Module] bounds long-range drift, maintaining a [Z%] margin over the second-best baseline at $H=720$. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 9,
+      "section_or_role_zh": "超参数敏感性与极端噪声鲁棒性分析段（Sensitivity & Robustness Analysis）",
+      "blueprint_id": "BP20",
+      "paragraph_intent_zh": "我这一段想回应审稿人最常问的：你的模型是不是对超参数很敏感？在缺失值或传感器强噪声下会不会突然崩盘？",
+      "cohesion_formula": "Goal -> Wide Hyperparameter Plateau -> Stress-Test Comparison -> Mechanistic Explanation. 绑定逻辑规则：L010, L019.",
+      "paragraph_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption. Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$. Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%. This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分析目的 Objective]",
+          "sentence_en": "Figure 4 evaluates hyperparameter sensitivity and resilience against severe observation corruption.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分析目的 Objective]：We further examine sensitivity to key hyperparameters and resilience against severe sensor corruption in Figure 4. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [超参数平坦区间 Plateau Stability]",
+          "sentence_en": "Varying the phase regularization weight $\\lambda$ across $[0.05, 0.50]$ alters validation MSE by less than 1.4%, indicating a wide, tuning-friendly operating plateau around $\\lambda=0.15$.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [超参数平坦区间 Plateau Stability]：Varying [Hyperparameter $\\lambda$] across two orders of magnitude ($[0.01, 1.0]$) alters validation MSE by less than [1.8%], demonstrating a wide stable operating plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [极端边缘工况压力测试 Stress Test under Corruption]",
+          "sentence_en": "Under stress tests where 30% of sensor readings are randomly masked or corrupted by impulse noise ($\\text{SNR} = 5\\text{ dB}$), point-wise Transformer baselines suffer a 34.2% error surge, whereas DyTS-Net degrades by only 4.8%.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [极端边缘工况压力测试 Stress Test under Corruption]：Under synthetic sensor dropouts up to [40%] and Gaussian noise ($\\sigma=0.3$), baseline accuracy plummets by over [35%], whereas our model degrades by less than [6.5%]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [鲁棒性物理归因 Robustness Mechanism]",
+          "sentence_en": "This robustness stems from our spectral energy gate, which automatically attenuates high-entropy corrupted channels prior to cross-variate message passing.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [鲁棒性物理归因 Robustness Mechanism]：This resilience stems from [Specific Mechanism], which filters out corrupted channels before global aggregation. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 10,
+      "section_or_role_zh": "局限性（Limitations）客观陈述与未来扩展段（Constructive Limitations）",
+      "blueprint_id": "BP23",
+      "paragraph_intent_zh": "我这一段想写论文末尾或 NeurIPS/ICLR Checklist 要求的 Limitations 段落：诚实指出当前方法的两个客观边界，但绝不贬损论文的核心贡献。",
+      "cohesion_formula": "Two Objective Boundaries -> [Boundary 1 + Technical Remedy] -> [Boundary 2 + Stochastic Extension]. 绑定逻辑规则：L017.",
+      "paragraph_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting. First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy. Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration. Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [边界 1",
+          "sentence_en": "Despite its strong empirical performance, our framework exhibits two theoretical boundaries worth noting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [边界 1：极端高维或极度稀疏场景 Boundary 1]：Despite its effectiveness across standard benchmarks, our framework currently exhibits two practical boundaries. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [边界 1 机理分析与解法 Mechanism & Solution 1]",
+          "sentence_en": "First, while our spectral branch scales quasi-linearly with sequence length, computing pairwise Hilbert phase differences scales quadratically with channel count ($O(C^2)$), which increases memory footprint when $C > 2,000$; incorporating anchor-based low-rank graph sparsification provides a direct remedy.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [边界 1 机理分析与解法 Mechanism & Solution 1]：First, when the variate dimension scales beyond $C > 5,000$ unclustered sensors, constructing the cross-channel phase graph incurs noticeable memory overhead; integrating hierarchical sensor clustering offers a natural remedy. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [边界 2",
+          "sentence_en": "Second, our continuous neural-ODE scale tracker assumes piece-wise smooth drift and may smooth over instantaneous step discontinuities caused by sensor recalibration.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [边界 2：特定假设限制 Boundary 2]：Second, our continuous scale tracker assumes piece-wise differentiable drift and may under-estimate instantaneous discontinuous jumps caused by hardware resets. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [未来演进方向 Future Extension]",
+          "sentence_en": "Extending the continuous drift prior to jump-diffusion stochastic differential equations offers a principled direction for future investigation.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [未来演进方向 Future Extension]：Coupling our neural ODE tracker with jump-diffusion stochastic processes represents a promising avenue for future work. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 11,
+      "section_or_role_zh": "全文总结与学术影响收尾段（Conclusion & Broader Outlook）",
+      "blueprint_id": "BP24",
+      "paragraph_intent_zh": "我这一段想写整篇小论文的 Conclusion：不简单复制粘贴 Abstract，而是从更高维度总结本文解决的科学矛盾、方法精髓、实证高度与领域启示。",
+      "cohesion_formula": "Tension Resolved -> Methodological Insight -> Empirical Confirmation -> Generalizable Blueprint. 绑定逻辑规则：L013, L023, L029.",
+      "paragraph_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting. By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes. Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead. Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心科学问题闭合 Scientific Closure]",
+          "sentence_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [方法论精髓回顾 Methodological Synthesis]",
+          "sentence_en": "By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实证结果高度概括 Empirical Recap]",
+          "sentence_en": "Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [跨领域迁移展望 Broader Outlook]",
+          "sentence_en": "Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

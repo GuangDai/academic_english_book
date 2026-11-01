@@ -1,0 +1,109 @@
+{
+  "text_id": "FT15",
+  "genre": "IELTS_Task1_Process",
+  "title_zh": "雅思小作文（Task 1）闭环工艺与算法流程图满分范文：具身智能遥操作数据采集、双支路增强与主动学习回环",
+  "paragraph_count": 3,
+  "structural_blueprint_chain": [
+    "BP25",
+    "BP29",
+    "BP30"
+  ],
+  "paragraphs": [
+    {
+      "paragraph_number": 1,
+      "section_or_role_zh": "图表小作文首段：题目改写与总体趋势概览（Paraphrase + Macro Overview）",
+      "blueprint_id": "BP25",
+      "paragraph_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+      "cohesion_formula": "Paraphrase -> Overall Trajectory Contrast -> Dominant Crossover/Extremum (Zero raw numbers in Overview!). 绑定逻辑规则：L013, L015.",
+      "paragraph_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025. Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily. Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [图表命题同义改写 Prompt Paraphrase]",
+          "sentence_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [宏观趋势 1",
+          "sentence_en": "Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [宏观趋势 2",
+          "sentence_en": "Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 2,
+      "section_or_role_zh": "流程图/算法流水线与闭环工序衔接段（Process & Closed-Loop Lifecycle）",
+      "blueprint_id": "BP29",
+      "paragraph_intent_zh": "我这一段想写雅思 Task 1 工艺/自然循环流程图（或论文算法数据预处理与闭环训练流水线）：把 5–6 个串联、分叉与回环步骤写得层次分明，绝不机械连用 Then, Then, Then。",
+      "cohesion_formula": "Pipeline Overview -> Ingestion & Filtering -> Parallel Bifurcation -> Terminal Merger & Feedback Loop. 绑定逻辑规则：L003, L005.",
+      "paragraph_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining. The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames. Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates. These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [流程总括与起止界定 Lifecycle Overview]",
+          "sentence_en": "The diagram illustrates the closed-loop data curation pipeline for embodied robot learning, spanning four primary stages from teleoperated collection to failure-driven retraining.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [流程总括与起止界定 Lifecycle Overview]：The diagram illustrates the closed-loop pipeline for [Process Name], comprising [N] main stages from initial [Input Stage] to continuous [Feedback/Output Stage]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [前段采集与预处理 Initial Ingestion & Filtering]",
+          "sentence_en": "The cycle begins when raw multimodal demonstrations are recorded via VR teleoperation and filtered to discard kinematic singularities and dropped frames.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [前段采集与预处理 Initial Ingestion & Filtering]：The process begins when raw [Material/Data] is collected via [Source] and passed through [Filter/Chamber] to remove [Impurities/Outliers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [中段并行分流 Parallel Branching]",
+          "sentence_en": "Once validated, the trajectory stream bifurcates into two parallel pathways: visual frames undergo background augmentation, while proprioceptive states are normalized into local gripper coordinates.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [中段并行分流 Parallel Branching]：Once purified, the stream bifurcates into two parallel pathways: [Fraction A] undergoes [Process A], whereas [Fraction B] is routed to [Process B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]",
+          "sentence_en": "These processed streams are subsequently synchronized to train the visuomotor policy, whose real-world rollout failures are logged and fed back into the teleoperation buffer to close the active-learning loop.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [末端合成与闭环回流 Synthesis & Closed-Loop Recycling]：The resulting outputs are subsequently merged in [Unit C], with residual by-products / high-error trajectories recycled back into the initial buffer for iterative refinement. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "paragraph_number": 3,
+      "section_or_role_zh": "历史实测与未来预测跨时态衔接段（Historical vs. Projected Trends）",
+      "blueprint_id": "BP30",
+      "paragraph_intent_zh": "我这一段想处理同时包含过去历史数据（如 2010–2025）和未来预测数据（如 2026–2040）的图表段落，严格区分过去实测时态与未来审慎预测表达。",
+      "cohesion_formula": "Historical Past (rose/accounted for) -> Pivot Year -> Future Projection Verbs (is projected/anticipated/expected to) -> Moderating Factor. 绑定逻辑规则：L010, L017.",
+      "paragraph_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh. From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035. Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040. However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+      "sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [历史实测轨迹 Historical Trajectory (Past Tense)]",
+          "sentence_en": "Between 2010 and 2025, global data-center electricity consumption more than doubled from 200 TWh to 460 TWh.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [历史实测轨迹 Historical Trajectory (Past Tense)]：Between [2010] and [2025], global data-center electricity demand rose steadily from [200 TWh] to [460 TWh], driven by cloud migration. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]",
+          "sentence_en": "From 2026 onward, total demand is projected to climb at a substantially steeper rate, with baseline forecasts pointing to 1,050 TWh by 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [当下转折与未来加速 Projected Acceleration (Projection Verbs)]：From [2026] onward, consumption is projected to accelerate sharply, with forecasts indicating a surge to [1,050 TWh] by [2035]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [结构占比重塑 Structural Shift in Projections]",
+          "sentence_en": "Within this expansion, AI model training and inference—which represented under 10% of server load in 2023—are anticipated to account for nearly half (46%) of total consumption by 2040.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [结构占比重塑 Structural Shift in Projections]：Within this projected expansion, generative AI training and inference—which accounted for less than [10%] in [2023]—are anticipated to represent over [45%] of total load by [2040]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [条件式审慎收尾 Conditional Hedging]",
+          "sentence_en": "However, widespread deployment of sparsity-aware accelerators is expected to temper the annual growth rate after 2035.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [条件式审慎收尾 Conditional Hedging]：Nevertheless, energy-efficient hardware adoption is expected to moderate the growth slope during the final five years. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ]
+}

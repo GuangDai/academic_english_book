@@ -1,0 +1,2963 @@
+{
+  "day_id": "day_0097",
+  "day_number": 97,
+  "stage": 4,
+  "stage_name_zh": "阶段 4：顶会论文、具身智能/生成建模、学术演讲与全周期综合复习（Day 76–116）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 28 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G025】句法歧义消除（介词短语附着、修辞辖域与比较基准排歧）；【G030】让步反驳（Concession-Rebuttal）、局限性陈述与外推边界（Extrapolation Limits）。",
+    "掌握学术表达模式：【EP001】明确陈述研究目标、问题定义与讨论边界，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V02717",
+        "V00169",
+        "V00387",
+        "V00631"
+      ],
+      "lemmas": [
+        "x axis",
+        "arguably",
+        "causality",
+        "covariate"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V02718",
+        "V00257",
+        "V00416",
+        "V00666"
+      ],
+      "lemmas": [
+        "y axis",
+        "autocorrelation",
+        "chronological",
+        "cyclicality"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V00088",
+        "V00363",
+        "V00435",
+        "V00680"
+      ],
+      "lemmas": [
+        "affine",
+        "canonical",
+        "climatology",
+        "decompose"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V00110",
+        "V00374",
+        "V00516",
+        "V00681"
+      ],
+      "lemmas": [
+        "amenable",
+        "cascade",
+        "concretely",
+        "decomposition"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V00130",
+        "V00383",
+        "V00533"
+      ],
+      "lemmas": [
+        "anomalous",
+        "causal",
+        "confounding"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V00131",
+        "V00385",
+        "V00622"
+      ],
+      "lemmas": [
+        "anomaly",
+        "causal relationship",
+        "correntropy"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V00138",
+        "V00386",
+        "V00626"
+      ],
+      "lemmas": [
+        "antidiabetic",
+        "causal study",
+        "counterfactual"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V00165",
+        "V00384",
+        "V00630"
+      ],
+      "lemmas": [
+        "archetypal",
+        "causal",
+        "covariance"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V02717",
+      "lemma": "x axis",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02717_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "横坐标轴",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：横坐标轴（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The x axis shows time in hours.",
+          "example_zh": "横坐标轴表示时间，单位是小时。",
+          "sentence_constituents_zh": "【紧凑主语】The x axis shows... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常写 x-axis；坐标内容由具体图决定。 | 熟词生义与多义辨析：学术语境与搭配约束：常写 x-axis；坐标内容由具体图决定。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：横坐标轴（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：常写 x-axis；坐标内容由具体图决定。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the x axis”精确表述“横坐标轴”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the x axis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "x axis",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "x axis"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02717_01",
+          "phrase": "the x axis",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the x axis（横坐标轴）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02717"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：常写 x-axis；坐标内容由具体图决定。",
+        "source_tags": [
+          "V02717",
+          "U35"
+        ]
+      }
+    },
+    {
+      "word_id": "V02718",
+      "lemma": "y axis",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phrase",
+      "senses": [
+        {
+          "sense_id": "V02718_S01",
+          "pos": "n. phrase",
+          "meaning_zh": "纵坐标轴",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：纵坐标轴（n. phrase）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The y axis gives demand in megawatts.",
+          "example_zh": "纵坐标轴表示需求，单位是兆瓦。",
+          "sentence_constituents_zh": "【紧凑主语】The y axis gives... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常写 y-axis。 | 熟词生义与多义辨析：学术语境与搭配约束：常写 y-axis。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：纵坐标轴（n. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：常写 y-axis。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the y axis”精确表述“纵坐标轴”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the y axis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "y axis",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "y axis"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02718_01",
+          "phrase": "the y axis",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：the y axis（纵坐标轴）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02718"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：常写 y-axis。",
+        "source_tags": [
+          "V02718",
+          "U35"
+        ]
+      }
+    },
+    {
+      "word_id": "V00088",
+      "lemma": "affine",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00088_S01",
+          "pos": "adj.",
+          "meaning_zh": "仿射的",
+          "core_meaning_zh": "基础字面义：仿射的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：仿射的；由线性映射加平移构成的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The affine function f(x) = ax + b includes an intercept b.",
+          "example_zh": "仿射函数 f(x) = ax + b 包含截距 b。",
+          "sentence_constituents_zh": "【紧凑主语】The affine function f(x)... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。 | 熟词生义与多义辨析：词义与句法边界：严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。"
+        },
+        {
+          "sense_id": "V00088_S02",
+          "pos": "adj.",
+          "meaning_zh": "由线性映射加平移构成的",
+          "core_meaning_zh": "基础字面义：仿射的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：仿射的；由线性映射加平移构成的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The affine function f(x) = ax + b includes an intercept b.",
+          "example_zh": "仿射函数 f(x) = ax + b 包含截距 b。",
+          "sentence_constituents_zh": "【紧凑主语】The affine function f(x)... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。 | 熟词生义与多义辨析：词义与句法边界：严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：仿射的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：仿射的；由线性映射加平移构成的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“affine transformation”精确表述“仿射的；由线性映射加平移构成的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“affine transformation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "affine",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "affine"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00088_01",
+          "phrase": "affine transformation",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：affine transformation（仿射的；由线性映射加平移构成的）"
+        },
+        {
+          "collocation_id": "C_V00088_02",
+          "phrase": "affine function",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：affine function（仿射的；由线性映射加平移构成的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00088"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。",
+        "source_tags": [
+          "V00088",
+          "Personal_053"
+        ]
+      }
+    },
+    {
+      "word_id": "V00110",
+      "lemma": "amenable",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00110_S01",
+          "pos": "adj.",
+          "meaning_zh": "适合接受某种处理的",
+          "core_meaning_zh": "adj. 顺从的，好商量的",
+          "extended_or_contextual_meaning_zh": "adj. （模型、方程或简化系统）适合接受某种数学/解析处理的（amenable to analytical treatment / convex optimization）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The simplified model is amenable to analytical treatment.",
+          "example_zh": "简化后的模型适合进行解析处理。",
+          "sentence_constituents_zh": "【紧凑主语】The simplified model is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "固定接 to + 名词/动名词；用于人时表示愿意接受，用于问题时表示可用某种方法处理。 | 熟词生义与多义辨析：理论推导高频词：固定接介词 to（be amenable to analytical treatment），意为“可用解析方法求解/处理”。"
+        },
+        {
+          "sense_id": "V00110_S02",
+          "pos": "adj.",
+          "meaning_zh": "愿意接受建议的",
+          "core_meaning_zh": "adj. 顺从的，好商量的",
+          "extended_or_contextual_meaning_zh": "adj. （模型、方程或简化系统）适合接受某种数学/解析处理的（amenable to analytical treatment / convex optimization）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The simplified model is amenable to analytical treatment.",
+          "example_zh": "简化后的模型适合进行解析处理。",
+          "sentence_constituents_zh": "【紧凑主语】The simplified model is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "固定接 to + 名词/动名词；用于人时表示愿意接受，用于问题时表示可用某种方法处理。 | 熟词生义与多义辨析：理论推导高频词：固定接介词 to（be amenable to analytical treatment），意为“可用解析方法求解/处理”。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "adj. 顺从的，好商量的",
+        "academic_target_sense_zh": "adj. （模型、方程或简化系统）适合接受某种数学/解析处理的（amenable to analytical treatment / convex optimization）",
+        "cross_sense_and_usage_trap_zh": "理论推导高频词：固定接介词 to（be amenable to analytical treatment），意为“可用解析方法求解/处理”。",
+        "informal_english_substitute": "suitable for"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“amenable to analysis”精确表述“适合接受某种处理的；愿意接受建议的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“amenable to analysis”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "amenable",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "amenable"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00110_01",
+          "phrase": "amenable to analysis",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：amenable to analysis（适合接受某种处理的；愿意接受建议的）"
+        },
+        {
+          "collocation_id": "C_V00110_02",
+          "phrase": "amenable to change",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：amenable to change（适合接受某种处理的；愿意接受建议的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00110"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "理论推导高频词：固定接介词 to（be amenable to analytical treatment），意为“可用解析方法求解/处理”。",
+        "source_tags": [
+          "V00110",
+          "Personal_091"
+        ]
+      }
+    },
+    {
+      "word_id": "V00130",
+      "lemma": "anomalous",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00130_S01",
+          "pos": "adj.",
+          "meaning_zh": "异常的",
+          "core_meaning_zh": "基础字面义：异常的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：异常的；偏离通常模式的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "An anomalous observation should be investigated before it is removed.",
+          "example_zh": "异常观测在被删除之前应接受调查。",
+          "sentence_constituents_zh": "【紧凑主语】An anomalous observation should... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。 | 熟词生义与多义辨析：词义与句法边界：对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。"
+        },
+        {
+          "sense_id": "V00130_S02",
+          "pos": "adj.",
+          "meaning_zh": "偏离通常模式的",
+          "core_meaning_zh": "基础字面义：异常的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：异常的；偏离通常模式的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "An anomalous observation should be investigated before it is removed.",
+          "example_zh": "异常观测在被删除之前应接受调查。",
+          "sentence_constituents_zh": "【紧凑主语】An anomalous observation should... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。 | 熟词生义与多义辨析：词义与句法边界：对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：异常的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：异常的；偏离通常模式的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“anomalous observation”精确表述“异常的；偏离通常模式的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“anomalous observation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "anomalous",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "anomalous"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00130_01",
+          "phrase": "anomalous observation",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：anomalous observation（异常的；偏离通常模式的）"
+        },
+        {
+          "collocation_id": "C_V00130_02",
+          "phrase": "anomalous behaviour",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：anomalous behaviour（异常的；偏离通常模式的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00130"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。",
+        "source_tags": [
+          "V00130",
+          "Personal_049"
+        ]
+      }
+    },
+    {
+      "word_id": "V00131",
+      "lemma": "anomaly",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00131_S01",
+          "pos": "n.",
+          "meaning_zh": "异常现象",
+          "core_meaning_zh": "基础字面义：异常现象",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：异常现象；偏离预期模式的情况（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "An anomaly in the sensor readings prompted a check of the calibration procedure.",
+          "example_zh": "传感器读数中的异常促使研究人员检查校准程序。",
+          "sentence_constituents_zh": "【紧凑主语】An anomaly in the... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。 | 熟词生义与多义辨析：词义与句法边界：可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。"
+        },
+        {
+          "sense_id": "V00131_S02",
+          "pos": "n.",
+          "meaning_zh": "偏离预期模式的情况",
+          "core_meaning_zh": "基础字面义：异常现象",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：异常现象；偏离预期模式的情况（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "An anomaly in the sensor readings prompted a check of the calibration procedure.",
+          "example_zh": "传感器读数中的异常促使研究人员检查校准程序。",
+          "sentence_constituents_zh": "【紧凑主语】An anomaly in the... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。 | 熟词生义与多义辨析：词义与句法边界：可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：异常现象",
+        "academic_target_sense_zh": "多义项/多词性完整映射：异常现象；偏离预期模式的情况（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“detect an anomaly”精确表述“异常现象；偏离预期模式的情况”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“detect an anomaly”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "anomaly",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "anomalies",
+        "derived_forms": [],
+        "variants": [
+          "anomaly"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00131_01",
+          "phrase": "detect an anomaly",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：detect an anomaly（异常现象；偏离预期模式的情况）"
+        },
+        {
+          "collocation_id": "C_V00131_02",
+          "phrase": "temperature anomaly",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：temperature anomaly（异常现象；偏离预期模式的情况）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00131"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。",
+        "source_tags": [
+          "V00131",
+          "Personal_005"
+        ]
+      }
+    },
+    {
+      "word_id": "V00138",
+      "lemma": "antidiabetic",
+      "pos": "adj.; n.",
+      "raw_pos": "adj.; n.",
+      "senses": [
+        {
+          "sense_id": "V00138_S01",
+          "pos": "adj.",
+          "meaning_zh": "抗糖尿病的",
+          "core_meaning_zh": "基础字面义：抗糖尿病的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：抗糖尿病的；降糖药物（adj.; n.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The study records the use of antidiabetic medication at baseline.",
+          "example_zh": "该研究记录了基线时抗糖尿病药物的使用情况。",
+          "sentence_constituents_zh": "【紧凑主语】The study records the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。 | 熟词生义与多义辨析：词义与句法边界：专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。"
+        },
+        {
+          "sense_id": "V00138_S02",
+          "pos": "n.",
+          "meaning_zh": "降糖药物",
+          "core_meaning_zh": "基础字面义：抗糖尿病的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：抗糖尿病的；降糖药物（adj.; n.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The study records the use of antidiabetic medication at baseline.",
+          "example_zh": "该研究记录了基线时抗糖尿病药物的使用情况。",
+          "sentence_constituents_zh": "【紧凑主语】The study records the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。 | 熟词生义与多义辨析：词义与句法边界：专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：抗糖尿病的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：抗糖尿病的；降糖药物（adj.; n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“antidiabetic medication”精确表述“抗糖尿病的；降糖药物”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“antidiabetic medication”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "antidiabetic",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "antidiabetic"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00138_01",
+          "phrase": "antidiabetic medication",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：antidiabetic medication（抗糖尿病的；降糖药物）"
+        },
+        {
+          "collocation_id": "C_V00138_02",
+          "phrase": "antidiabetic agent",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：antidiabetic agent（抗糖尿病的；降糖药物）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00138"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。",
+        "source_tags": [
+          "V00138",
+          "Personal_069"
+        ]
+      }
+    },
+    {
+      "word_id": "V00165",
+      "lemma": "archetypal",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00165_S01",
+          "pos": "adj.",
+          "meaning_zh": "典型的",
+          "core_meaning_zh": "基础字面义：典型的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：典型的；作为原型的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A random walk with independent identically distributed increments of positive finite variance is an archetypal example of a nonstationary process.",
+          "example_zh": "具有独立同分布增量且增量方差有限为正的随机游走，是非平稳过程的典型例子。",
+          "sentence_constituents_zh": "【紧凑主语】A random walk with... + 【核心谓语与宾补/状语后置扩展】全句共 20 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。 | 熟词生义与多义辨析：词义与句法边界：可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。"
+        },
+        {
+          "sense_id": "V00165_S02",
+          "pos": "adj.",
+          "meaning_zh": "作为原型的",
+          "core_meaning_zh": "基础字面义：典型的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：典型的；作为原型的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A random walk with independent identically distributed increments of positive finite variance is an archetypal example of a nonstationary process.",
+          "example_zh": "具有独立同分布增量且增量方差有限为正的随机游走，是非平稳过程的典型例子。",
+          "sentence_constituents_zh": "【紧凑主语】A random walk with... + 【核心谓语与宾补/状语后置扩展】全句共 20 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。 | 熟词生义与多义辨析：词义与句法边界：可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：典型的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：典型的；作为原型的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“archetypal example”精确表述“典型的；作为原型的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“archetypal example”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "archetypal",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "archetypal"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00165_01",
+          "phrase": "archetypal example",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：archetypal example（典型的；作为原型的）"
+        },
+        {
+          "collocation_id": "C_V00165_02",
+          "phrase": "archetypal pattern",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：archetypal pattern（典型的；作为原型的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00165"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。",
+        "source_tags": [
+          "V00165",
+          "Personal_176"
+        ]
+      }
+    },
+    {
+      "word_id": "V00169",
+      "lemma": "arguably",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V00169_S01",
+          "pos": "adv.",
+          "meaning_zh": "可以认为",
+          "core_meaning_zh": "基础字面义：可以认为",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：可以认为；存在合理理由认为（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+          "example_zh": "当决策取决于尾部风险时，可以认为分布预测提供的信息更多。",
+          "sentence_constituents_zh": "【紧凑主语】A distributional forecast is... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "表达可争论但有理由的判断，仍需说明理由和条件；并非给无证据的绝对判断加一个词就足够。 | 熟词生义与多义辨析：词义与句法边界：表达可争论但有理由的判断，仍需说明理由和条件；并非给无证据的绝对判断加一个词就足够。"
+        },
+        {
+          "sense_id": "V00169_S02",
+          "pos": "adv.",
+          "meaning_zh": "存在合理理由认为",
+          "core_meaning_zh": "基础字面义：可以认为",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：可以认为；存在合理理由认为（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+          "example_zh": "当决策取决于尾部风险时，可以认为分布预测提供的信息更多。",
+          "sentence_constituents_zh": "【紧凑主语】A distributional forecast is... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "表达可争论但有理由的判断，仍需说明理由和条件；并非给无证据的绝对判断加一个词就足够。 | 熟词生义与多义辨析：词义与句法边界：表达可争论但有理由的判断，仍需说明理由和条件；并非给无证据的绝对判断加一个词就足够。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：可以认为",
+        "academic_target_sense_zh": "多义项/多词性完整映射：可以认为；存在合理理由认为（adv.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：表达可争论但有理由的判断，仍需说明理由和条件；并非给无证据的绝对判断加一个词就足够。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“arguably more informative”精确表述“可以认为；存在合理理由认为”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“arguably more informative”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "arguably",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "arguably"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00169_01",
+          "phrase": "arguably more informative",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：arguably more informative（可以认为；存在合理理由认为）"
+        },
+        {
+          "collocation_id": "C_V00169_02",
+          "phrase": "arguably the most relevant",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：arguably the most relevant（可以认为；存在合理理由认为）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00169"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：表达可争论但有理由的判断，仍需说明理由和条件；并非给无证据的绝对判断加一个词就足够。",
+        "source_tags": [
+          "V00169",
+          "Personal_078"
+        ]
+      }
+    },
+    {
+      "word_id": "V00257",
+      "lemma": "autocorrelation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00257_S01",
+          "pos": "n.",
+          "meaning_zh": "自相关",
+          "core_meaning_zh": "基础字面义：自相关",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：自相关；序列与其滞后值之间的相关（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "When the relevant variances are finite and nonzero, lag-one Pearson autocorrelation measures the linear association between observations one time step apart.",
+          "example_zh": "当相关观测变量的方差有限且非零时，一阶滞后皮尔逊自相关衡量相隔一个时间步的观测之间的线性关联。",
+          "sentence_constituents_zh": "【紧凑主语】When the relevant variances... + 【核心谓语与宾补/状语后置扩展】全句共 21 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本例指标准化的 Pearson 自相关，要求相应方差有限且非零；恒定序列的归一化自相关因分母为零而未定义；若只写成滞后的函数，需要相应平稳条件；自相关不等于因果作用。 | 熟词生义与多义辨析：词义与句法边界：本例指标准化的 Pearson 自相关，要求相应方差有限且非零；恒定序列的归一化自相关因分母为零而未定义；若只写成滞后的函数，需要相应平稳条件；自相关不等于因果作用。"
+        },
+        {
+          "sense_id": "V00257_S02",
+          "pos": "n.",
+          "meaning_zh": "序列与其滞后值之间的相关",
+          "core_meaning_zh": "基础字面义：自相关",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：自相关；序列与其滞后值之间的相关（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "When the relevant variances are finite and nonzero, lag-one Pearson autocorrelation measures the linear association between observations one time step apart.",
+          "example_zh": "当相关观测变量的方差有限且非零时，一阶滞后皮尔逊自相关衡量相隔一个时间步的观测之间的线性关联。",
+          "sentence_constituents_zh": "【紧凑主语】When the relevant variances... + 【核心谓语与宾补/状语后置扩展】全句共 21 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本例指标准化的 Pearson 自相关，要求相应方差有限且非零；恒定序列的归一化自相关因分母为零而未定义；若只写成滞后的函数，需要相应平稳条件；自相关不等于因果作用。 | 熟词生义与多义辨析：词义与句法边界：本例指标准化的 Pearson 自相关，要求相应方差有限且非零；恒定序列的归一化自相关因分母为零而未定义；若只写成滞后的函数，需要相应平稳条件；自相关不等于因果作用。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：自相关",
+        "academic_target_sense_zh": "多义项/多词性完整映射：自相关；序列与其滞后值之间的相关（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：本例指标准化的 Pearson 自相关，要求相应方差有限且非零；恒定序列的归一化自相关因分母为零而未定义；若只写成滞后的函数，需要相应平稳条件；自相关不等于因果作用。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“autocorrelation at lag one”精确表述“自相关；序列与其滞后值之间的相关”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“autocorrelation at lag one”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "autocorrelation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "autocorrelations",
+        "derived_forms": [],
+        "variants": [
+          "autocorrelation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00257_01",
+          "phrase": "autocorrelation at lag one",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：autocorrelation at lag one（自相关；序列与其滞后值之间的相关）"
+        },
+        {
+          "collocation_id": "C_V00257_02",
+          "phrase": "autocorrelation function",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：autocorrelation function（自相关；序列与其滞后值之间的相关）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00257"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：本例指标准化的 Pearson 自相关，要求相应方差有限且非零；恒定序列的归一化自相关因分母为零而未定义；若只写成滞后的函数，需要相应平稳条件；自相关不等于因果作用。",
+        "source_tags": [
+          "V00257",
+          "Personal_153"
+        ]
+      }
+    },
+    {
+      "word_id": "V00363",
+      "lemma": "canonical",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00363_S01",
+          "pos": "adj.",
+          "meaning_zh": "规范的",
+          "core_meaning_zh": "基础字面义：规范的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：规范的；公认的；标准形式的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The appendix presents the equation in its canonical form.",
+          "example_zh": "附录以该方程的标准形式给出表达式。",
+          "sentence_constituents_zh": "【紧凑主语】The appendix presents the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。 | 熟词生义与多义辨析：词义与句法边界：含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。"
+        },
+        {
+          "sense_id": "V00363_S02",
+          "pos": "adj.",
+          "meaning_zh": "公认的",
+          "core_meaning_zh": "基础字面义：规范的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：规范的；公认的；标准形式的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The appendix presents the equation in its canonical form.",
+          "example_zh": "附录以该方程的标准形式给出表达式。",
+          "sentence_constituents_zh": "【紧凑主语】The appendix presents the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。 | 熟词生义与多义辨析：词义与句法边界：含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。"
+        },
+        {
+          "sense_id": "V00363_S03",
+          "pos": "adj.",
+          "meaning_zh": "标准形式的",
+          "core_meaning_zh": "基础字面义：规范的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：规范的；公认的；标准形式的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The appendix presents the equation in its canonical form.",
+          "example_zh": "附录以该方程的标准形式给出表达式。",
+          "sentence_constituents_zh": "【紧凑主语】The appendix presents the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。 | 熟词生义与多义辨析：词义与句法边界：含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：规范的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：规范的；公认的；标准形式的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“canonical form”精确表述“规范的；公认的；标准形式的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“canonical form”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "canonical",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "canonical"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00363_01",
+          "phrase": "canonical form",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：canonical form（规范的；公认的；标准形式的）"
+        },
+        {
+          "collocation_id": "C_V00363_02",
+          "phrase": "canonical example",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：canonical example（规范的；公认的；标准形式的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00363"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：含义依学科而定；canonical form 必须对应具体数学约定，canonical example 指具有代表性的标准例子。",
+        "source_tags": [
+          "V00363",
+          "Personal_019"
+        ]
+      }
+    },
+    {
+      "word_id": "V00374",
+      "lemma": "cascade",
+      "pos": "n.; v.",
+      "raw_pos": "n.; v.",
+      "senses": [
+        {
+          "sense_id": "V00374_S01",
+          "pos": "n.",
+          "meaning_zh": "级联",
+          "core_meaning_zh": "基础字面义：级联",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：级联；连锁过程；逐级传递（n.; v.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A local disruption can cascade through an interconnected supply network.",
+          "example_zh": "局部中断可能在相互连接的供应网络中引发连锁影响。",
+          "sentence_constituents_zh": "【紧凑主语】A local disruption can... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。 | 熟词生义与多义辨析：词义与句法边界：名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。"
+        },
+        {
+          "sense_id": "V00374_S02",
+          "pos": "v.",
+          "meaning_zh": "连锁过程",
+          "core_meaning_zh": "基础字面义：级联",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：级联；连锁过程；逐级传递（n.; v.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A local disruption can cascade through an interconnected supply network.",
+          "example_zh": "局部中断可能在相互连接的供应网络中引发连锁影响。",
+          "sentence_constituents_zh": "【紧凑主语】A local disruption can... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。 | 熟词生义与多义辨析：词义与句法边界：名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。"
+        },
+        {
+          "sense_id": "V00374_S03",
+          "pos": "v.",
+          "meaning_zh": "逐级传递",
+          "core_meaning_zh": "基础字面义：级联",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：级联；连锁过程；逐级传递（n.; v.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A local disruption can cascade through an interconnected supply network.",
+          "example_zh": "局部中断可能在相互连接的供应网络中引发连锁影响。",
+          "sentence_constituents_zh": "【紧凑主语】A local disruption can... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。 | 熟词生义与多义辨析：词义与句法边界：名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：级联",
+        "academic_target_sense_zh": "多义项/多词性完整映射：级联；连锁过程；逐级传递（n.; v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“cascade of effects”精确表述“级联；连锁过程；逐级传递”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“cascade of effects”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "cascade",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "cascade"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00374_01",
+          "phrase": "cascade of effects",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：cascade of effects（级联；连锁过程；逐级传递）"
+        },
+        {
+          "collocation_id": "C_V00374_02",
+          "phrase": "cascade through a system",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：cascade through a system（级联；连锁过程；逐级传递）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00374"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：名词常用 a cascade of；动词常用 cascade through；须说明传递路径，不能凭“连锁”一词暗示已验证的因果链。",
+        "source_tags": [
+          "V00374",
+          "Personal_015"
+        ]
+      }
+    },
+    {
+      "word_id": "V00383",
+      "lemma": "causal",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00383_S01",
+          "pos": "adj.",
+          "meaning_zh": "因果的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：因果的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A causal claim requires more than temporal overlap.",
+          "example_zh": "因果主张需要超出时间重合的证据。",
+          "sentence_constituents_zh": "【紧凑主语】A causal claim requires... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不能仅因先后或相关就断定。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：不能仅因先后或相关就断定。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：因果的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：不能仅因先后或相关就断定。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a causal relationship”精确表述“因果的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a causal relationship”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "causal",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "causal"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00383_01",
+          "phrase": "a causal relationship",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a causal relationship（因果的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00383",
+          "V00384"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：不能仅因先后或相关就断定。",
+        "source_tags": [
+          "V00383",
+          "U26",
+          "Personal_046"
+        ]
+      }
+    },
+    {
+      "word_id": "V00385",
+      "lemma": "causal relationship",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phr.",
+      "senses": [
+        {
+          "sense_id": "V00385_S01",
+          "pos": "n. phr.",
+          "meaning_zh": "因果关系",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：因果关系（n. phr.）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A causal relationship cannot be inferred from prediction accuracy alone.",
+          "example_zh": "不能仅凭预测准确率推断因果关系。",
+          "sentence_constituents_zh": "【紧凑主语】A causal relationship cannot... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "causal 与 casual 拼写、含义不同。 | 熟词生义与多义辨析：学术语境与搭配约束：causal 与 casual 拼写、含义不同。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：因果关系（n. phr.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：causal 与 casual 拼写、含义不同。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“identify a causal relationship”精确表述“因果关系”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“identify a causal relationship”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "causal relationship",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "causal relationship"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00385_01",
+          "phrase": "identify a causal relationship",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：identify a causal relationship（因果关系）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00383",
+        "V02101",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00385"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "学术语境与搭配约束：causal 与 casual 拼写、含义不同。",
+        "source_tags": [
+          "V00385",
+          "U26"
+        ]
+      }
+    },
+    {
+      "word_id": "V00386",
+      "lemma": "causal study",
+      "pos": "noun_phrase",
+      "raw_pos": "n. phr.",
+      "senses": [
+        {
+          "sense_id": "V00386_S01",
+          "pos": "n. phr.",
+          "meaning_zh": "研究因果关系的研究",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：研究因果关系的研究（n. phr.）",
+          "countability": "countable",
+          "transitivity": "linking_or_prep",
+          "example_en": "A causal study requires attention to alternative explanations.",
+          "example_zh": "因果研究需要考虑其他解释。",
+          "sentence_constituents_zh": "【紧凑主语】A causal study requires... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不能仅因变量相关就命名为因果证据。 | 熟词生义与多义辨析：学术语境与搭配约束：不能仅因变量相关就命名为因果证据。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：研究因果关系的研究（n. phr.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：不能仅因变量相关就命名为因果证据。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“design a causal study”精确表述“研究因果关系的研究”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“design a causal study”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "causal study",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "causal study"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00386_01",
+          "phrase": "design a causal study",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：design a causal study（研究因果关系的研究）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V00383",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00386"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：不能仅因变量相关就命名为因果证据。",
+        "source_tags": [
+          "V00386",
+          "U26"
+        ]
+      }
+    },
+    {
+      "word_id": "V00384",
+      "lemma": "causal",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00384_S01",
+          "pos": "adj.",
+          "meaning_zh": "因果的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：因果的；涉及原因与结果的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A causal interpretation requires assumptions that are stronger than those needed to describe an association.",
+          "example_zh": "因果解释所需的假设比描述关联所需的假设更强。",
+          "sentence_constituents_zh": "【紧凑主语】A causal interpretation requires... + 【核心谓语与宾补/状语后置扩展】全句共 15 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "causal effect/relationship；数据中的相关性不能单独确立 causal effect，必须说明研究设计和识别假设。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：causal effect/relationship；数据中的相关性不能单独确立 causal effect，必须说明研究设计和识别假设。"
+        },
+        {
+          "sense_id": "V00384_S02",
+          "pos": "adj.",
+          "meaning_zh": "涉及原因与结果的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：因果的；涉及原因与结果的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A causal interpretation requires assumptions that are stronger than those needed to describe an association.",
+          "example_zh": "因果解释所需的假设比描述关联所需的假设更强。",
+          "sentence_constituents_zh": "【紧凑主语】A causal interpretation requires... + 【核心谓语与宾补/状语后置扩展】全句共 15 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "causal effect/relationship；数据中的相关性不能单独确立 causal effect，必须说明研究设计和识别假设。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：causal effect/relationship；数据中的相关性不能单独确立 causal effect，必须说明研究设计和识别假设。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：因果的；涉及原因与结果的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：causal effect/relationship；数据中的相关性不能单独确立 causal effect，必须说明研究设计和识别假设。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“causal effect”精确表述“因果的；涉及原因与结果的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“causal effect”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "causal",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "causal"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00384_01",
+          "phrase": "causal effect",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：causal effect（因果的；涉及原因与结果的）"
+        },
+        {
+          "collocation_id": "C_V00384_02",
+          "phrase": "causal inference",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：causal inference（因果的；涉及原因与结果的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V00383",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V00383",
+          "V00384"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V00383 adj.] 因果的（例：A causal claim requires more than temporal overlap.）；[V00384 adj.] 因果的；涉及原因与结果的（例：A causal interpretation requires assumptions that are stronger than those needed to describe an association.） | 本条用法约束：causal effect/relationship；数据中的相关性不能单独确立 causal effect，必须说明研究设计和识别假设。",
+        "source_tags": [
+          "V00384",
+          "U26",
+          "U30",
+          "Personal_046"
+        ]
+      }
+    },
+    {
+      "word_id": "V00387",
+      "lemma": "causality",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00387_S01",
+          "pos": "n.",
+          "meaning_zh": "因果关系",
+          "core_meaning_zh": "基础字面义：因果关系",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：因果关系；因果性（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Predictive accuracy alone cannot establish causality.",
+          "example_zh": "仅有预测准确性不能确立因果关系。",
+          "sentence_constituents_zh": "【紧凑主语】Predictive accuracy alone cannot... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；correlation 指统计关联，causality 关乎干预或机制下的因果主张；Granger causality 有特定预测含义。 | 熟词生义与多义辨析：词义与句法边界：通常不可数；correlation 指统计关联，causality 关乎干预或机制下的因果主张；Granger causality 有特定预测含义。"
+        },
+        {
+          "sense_id": "V00387_S02",
+          "pos": "n.",
+          "meaning_zh": "因果性",
+          "core_meaning_zh": "基础字面义：因果关系",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：因果关系；因果性（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Predictive accuracy alone cannot establish causality.",
+          "example_zh": "仅有预测准确性不能确立因果关系。",
+          "sentence_constituents_zh": "【紧凑主语】Predictive accuracy alone cannot... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "通常不可数；correlation 指统计关联，causality 关乎干预或机制下的因果主张；Granger causality 有特定预测含义。 | 熟词生义与多义辨析：词义与句法边界：通常不可数；correlation 指统计关联，causality 关乎干预或机制下的因果主张；Granger causality 有特定预测含义。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：因果关系",
+        "academic_target_sense_zh": "多义项/多词性完整映射：因果关系；因果性（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：通常不可数；correlation 指统计关联，causality 关乎干预或机制下的因果主张；Granger causality 有特定预测含义。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“assess causality”精确表述“因果关系；因果性”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“assess causality”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "causality",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "causality"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00387_01",
+          "phrase": "assess causality",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：assess causality（因果关系；因果性）"
+        },
+        {
+          "collocation_id": "C_V00387_02",
+          "phrase": "assumptions about causality",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：assumptions about causality（因果关系；因果性）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00387"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：通常不可数；correlation 指统计关联，causality 关乎干预或机制下的因果主张；Granger causality 有特定预测含义。",
+        "source_tags": [
+          "V00387",
+          "U26",
+          "Personal_056"
+        ]
+      }
+    },
+    {
+      "word_id": "V00416",
+      "lemma": "chronological",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V00416_S01",
+          "pos": "adj.",
+          "meaning_zh": "按时间顺序的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：按时间顺序的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The records are arranged in chronological order before the time-series analysis.",
+          "example_zh": "这些记录在时序分析之前按时间顺序排列。",
+          "sentence_constituents_zh": "【紧凑主语】The records are arranged... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "in chronological order；chronological age 指实际年龄；不能仅按随机序号排列就称 chronological。 | 熟词生义与多义辨析：学术语境与搭配约束：in chronological order；chronological age 指实际年龄；不能仅按随机序号排列就称 chronological。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：按时间顺序的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：in chronological order；chronological age 指实际年龄；不能仅按随机序号排列就称 chronological。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“chronological order”精确表述“按时间顺序的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“chronological order”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "chronological",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "chronological"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00416_01",
+          "phrase": "chronological order",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：chronological order（按时间顺序的）"
+        },
+        {
+          "collocation_id": "C_V00416_02",
+          "phrase": "chronological split",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：chronological split（按时间顺序的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00416"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：in chronological order；chronological age 指实际年龄；不能仅按随机序号排列就称 chronological。",
+        "source_tags": [
+          "V00416",
+          "Personal_131"
+        ]
+      }
+    },
+    {
+      "word_id": "V00435",
+      "lemma": "climatology",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00435_S01",
+          "pos": "n.",
+          "meaning_zh": "气候学",
+          "core_meaning_zh": "基础字面义：气候学",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：气候学；某地区长期气候特征或气候统计基准（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The rainfall series is compared with the region's historical climatology.",
+          "example_zh": "该降雨序列与该地区历史气候统计基准进行比较。",
+          "sentence_constituents_zh": "【紧凑主语】The rainfall series is... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可指学科或长期气候统计描述；不同于单次天气预报，具体基准应说明时期与计算方式。 | 熟词生义与多义辨析：词义与句法边界：可指学科或长期气候统计描述；不同于单次天气预报，具体基准应说明时期与计算方式。"
+        },
+        {
+          "sense_id": "V00435_S02",
+          "pos": "n.",
+          "meaning_zh": "某地区长期气候特征或气候统计基准",
+          "core_meaning_zh": "基础字面义：气候学",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：气候学；某地区长期气候特征或气候统计基准（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "The rainfall series is compared with the region's historical climatology.",
+          "example_zh": "该降雨序列与该地区历史气候统计基准进行比较。",
+          "sentence_constituents_zh": "【紧凑主语】The rainfall series is... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可指学科或长期气候统计描述；不同于单次天气预报，具体基准应说明时期与计算方式。 | 熟词生义与多义辨析：词义与句法边界：可指学科或长期气候统计描述；不同于单次天气预报，具体基准应说明时期与计算方式。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：气候学",
+        "academic_target_sense_zh": "多义项/多词性完整映射：气候学；某地区长期气候特征或气候统计基准（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：可指学科或长期气候统计描述；不同于单次天气预报，具体基准应说明时期与计算方式。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“regional climatology”精确表述“气候学；某地区长期气候特征或气候统计基准”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“regional climatology”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "climatology",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "climatology"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00435_01",
+          "phrase": "regional climatology",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：regional climatology（气候学；某地区长期气候特征或气候统计基准）"
+        },
+        {
+          "collocation_id": "C_V00435_02",
+          "phrase": "climatology of precipitation",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：climatology of precipitation（气候学；某地区长期气候特征或气候统计基准）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00435"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：可指学科或长期气候统计描述；不同于单次天气预报，具体基准应说明时期与计算方式。",
+        "source_tags": [
+          "V00435",
+          "Personal_043"
+        ]
+      }
+    },
+    {
+      "word_id": "V00516",
+      "lemma": "concretely",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V00516_S01",
+          "pos": "adv.",
+          "meaning_zh": "具体地",
+          "core_meaning_zh": "基础字面义：具体地",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：具体地；用明确细节说明（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "More concretely, the procedure assigns one observation to each row of the table.",
+          "example_zh": "更具体地说，该程序把每次观测放在表格的一行中。",
+          "sentence_constituents_zh": "【前置状语/条件框架】More concretely + 【主句核心主谓宾/表】the procedure assigns one observation to each row of the table. （目标词“concretely”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "通常用于把抽象说明转为可操作细节；不必与 actually 混用，后者常用于纠正预期。 | 熟词生义与多义辨析：词义与句法边界：通常用于把抽象说明转为可操作细节；不必与 actually 混用，后者常用于纠正预期。"
+        },
+        {
+          "sense_id": "V00516_S02",
+          "pos": "adv.",
+          "meaning_zh": "用明确细节说明",
+          "core_meaning_zh": "基础字面义：具体地",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：具体地；用明确细节说明（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "More concretely, the procedure assigns one observation to each row of the table.",
+          "example_zh": "更具体地说，该程序把每次观测放在表格的一行中。",
+          "sentence_constituents_zh": "【前置状语/条件框架】More concretely + 【主句核心主谓宾/表】the procedure assigns one observation to each row of the table. （目标词“concretely”作 adv. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "通常用于把抽象说明转为可操作细节；不必与 actually 混用，后者常用于纠正预期。 | 熟词生义与多义辨析：词义与句法边界：通常用于把抽象说明转为可操作细节；不必与 actually 混用，后者常用于纠正预期。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：具体地",
+        "academic_target_sense_zh": "多义项/多词性完整映射：具体地；用明确细节说明（adv.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：通常用于把抽象说明转为可操作细节；不必与 actually 混用，后者常用于纠正预期。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“concretely illustrate”精确表述“具体地；用明确细节说明”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“concretely illustrate”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "concretely",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "concretely"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00516_01",
+          "phrase": "concretely illustrate",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：concretely illustrate（具体地；用明确细节说明）"
+        },
+        {
+          "collocation_id": "C_V00516_02",
+          "phrase": "more concretely",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：more concretely（具体地；用明确细节说明）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00516"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：通常用于把抽象说明转为可操作细节；不必与 actually 混用，后者常用于纠正预期。",
+        "source_tags": [
+          "V00516",
+          "Personal_057"
+        ]
+      }
+    },
+    {
+      "word_id": "V00533",
+      "lemma": "confounding",
+      "pos": "n.; adj.",
+      "raw_pos": "n.; adj.",
+      "senses": [
+        {
+          "sense_id": "V00533_S01",
+          "pos": "n.",
+          "meaning_zh": "混杂",
+          "core_meaning_zh": "基础字面义：混杂",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：混杂；使因果效应与其他因素影响难以分离的（n.; adj.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Unmeasured confounding may bias an estimated treatment effect.",
+          "example_zh": "未测量的混杂可能使估计的处理效应产生偏差。",
+          "sentence_constituents_zh": "【紧凑主语】Unmeasured confounding may bias... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应 confound/confounder；不能把所有与结局相关的变量都称为混杂因素，调整也须符合因果结构。 | 熟词生义与多义辨析：词义与句法边界：对应 confound/confounder；不能把所有与结局相关的变量都称为混杂因素，调整也须符合因果结构。"
+        },
+        {
+          "sense_id": "V00533_S02",
+          "pos": "adj.",
+          "meaning_zh": "使因果效应与其他因素影响难以分离的",
+          "core_meaning_zh": "基础字面义：混杂",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：混杂；使因果效应与其他因素影响难以分离的（n.; adj.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Unmeasured confounding may bias an estimated treatment effect.",
+          "example_zh": "未测量的混杂可能使估计的处理效应产生偏差。",
+          "sentence_constituents_zh": "【紧凑主语】Unmeasured confounding may bias... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "对应 confound/confounder；不能把所有与结局相关的变量都称为混杂因素，调整也须符合因果结构。 | 熟词生义与多义辨析：词义与句法边界：对应 confound/confounder；不能把所有与结局相关的变量都称为混杂因素，调整也须符合因果结构。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：混杂",
+        "academic_target_sense_zh": "多义项/多词性完整映射：混杂；使因果效应与其他因素影响难以分离的（n.; adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：对应 confound/confounder；不能把所有与结局相关的变量都称为混杂因素，调整也须符合因果结构。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“unmeasured confounding”精确表述“混杂；使因果效应与其他因素影响难以分离的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“unmeasured confounding”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "confounding",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "confounding"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00533_01",
+          "phrase": "unmeasured confounding",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：unmeasured confounding（混杂；使因果效应与其他因素影响难以分离的）"
+        },
+        {
+          "collocation_id": "C_V00533_02",
+          "phrase": "confounding factor",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：confounding factor（混杂；使因果效应与其他因素影响难以分离的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00533"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：对应 confound/confounder；不能把所有与结局相关的变量都称为混杂因素，调整也须符合因果结构。",
+        "source_tags": [
+          "V00533",
+          "U26",
+          "Personal_076"
+        ]
+      }
+    },
+    {
+      "word_id": "V00622",
+      "lemma": "correntropy",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00622_S01",
+          "pos": "n.",
+          "meaning_zh": "相关熵",
+          "core_meaning_zh": "基础字面义：相关熵",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：相关熵；基于核函数期望的局部相似性度量（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Gaussian-kernel correntropy measures similarity using the expected kernel value of the difference between two random variables.",
+          "example_zh": "高斯核相关熵通过两个随机变量之差的核函数值的期望来度量相似性。",
+          "sentence_constituents_zh": "【紧凑主语】Gaussian-kernel correntropy measures similarity... + 【核心谓语与宾补/状语后置扩展】全句共 16 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常写 V(X,Y)=E[k(X,Y)]，高斯核下取决于带宽并包含高阶信息；不是 Pearson correlation，也不是 Shannon entropy，稳健性须限定核与条件。 | 熟词生义与多义辨析：词义与句法边界：常写 V(X,Y)=E[k(X,Y)]，高斯核下取决于带宽并包含高阶信息；不是 Pearson correlation，也不是 Shannon entropy，稳健性须限定核与条件。"
+        },
+        {
+          "sense_id": "V00622_S02",
+          "pos": "n.",
+          "meaning_zh": "基于核函数期望的局部相似性度量",
+          "core_meaning_zh": "基础字面义：相关熵",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：相关熵；基于核函数期望的局部相似性度量（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Gaussian-kernel correntropy measures similarity using the expected kernel value of the difference between two random variables.",
+          "example_zh": "高斯核相关熵通过两个随机变量之差的核函数值的期望来度量相似性。",
+          "sentence_constituents_zh": "【紧凑主语】Gaussian-kernel correntropy measures similarity... + 【核心谓语与宾补/状语后置扩展】全句共 16 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "常写 V(X,Y)=E[k(X,Y)]，高斯核下取决于带宽并包含高阶信息；不是 Pearson correlation，也不是 Shannon entropy，稳健性须限定核与条件。 | 熟词生义与多义辨析：词义与句法边界：常写 V(X,Y)=E[k(X,Y)]，高斯核下取决于带宽并包含高阶信息；不是 Pearson correlation，也不是 Shannon entropy，稳健性须限定核与条件。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：相关熵",
+        "academic_target_sense_zh": "多义项/多词性完整映射：相关熵；基于核函数期望的局部相似性度量（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：常写 V(X,Y)=E[k(X,Y)]，高斯核下取决于带宽并包含高阶信息；不是 Pearson correlation，也不是 Shannon entropy，稳健性须限定核与条件。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“correntropy criterion”精确表述“相关熵；基于核函数期望的局部相似性度量”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“correntropy criterion”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "correntropy",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "correntropy"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00622_01",
+          "phrase": "correntropy criterion",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：correntropy criterion（相关熵；基于核函数期望的局部相似性度量）"
+        },
+        {
+          "collocation_id": "C_V00622_02",
+          "phrase": "Gaussian-kernel correntropy",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：Gaussian-kernel correntropy（相关熵；基于核函数期望的局部相似性度量）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00622"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：常写 V(X,Y)=E[k(X,Y)]，高斯核下取决于带宽并包含高阶信息；不是 Pearson correlation，也不是 Shannon entropy，稳健性须限定核与条件。",
+        "source_tags": [
+          "V00622",
+          "Personal_187"
+        ]
+      }
+    },
+    {
+      "word_id": "V00626",
+      "lemma": "counterfactual",
+      "pos": "n.; adj.",
+      "raw_pos": "n.; adj.",
+      "senses": [
+        {
+          "sense_id": "V00626_S01",
+          "pos": "n.",
+          "meaning_zh": "反事实",
+          "core_meaning_zh": "基础字面义：反事实",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：反事实；与实际发生的条件不同的假设情形或结局（n.; adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "For a treated individual, the outcome under no treatment is a counterfactual outcome.",
+          "example_zh": "对一名实际接受处理的人来说，未接受处理时的结局是反事实结局。",
+          "sentence_constituents_zh": "【前置状语/条件框架】For a treated individual + 【主句核心主谓宾/表】the outcome under no treatment is a counterfactual outcome. （目标词“counterfactual”作 n.; adj. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。 | 熟词生义与多义辨析：词义与句法边界：因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。"
+        },
+        {
+          "sense_id": "V00626_S02",
+          "pos": "adj.",
+          "meaning_zh": "与实际发生的条件不同的假设情形或结局",
+          "core_meaning_zh": "基础字面义：反事实",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：反事实；与实际发生的条件不同的假设情形或结局（n.; adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "For a treated individual, the outcome under no treatment is a counterfactual outcome.",
+          "example_zh": "对一名实际接受处理的人来说，未接受处理时的结局是反事实结局。",
+          "sentence_constituents_zh": "【前置状语/条件框架】For a treated individual + 【主句核心主谓宾/表】the outcome under no treatment is a counterfactual outcome. （目标词“counterfactual”作 n.; adj. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。 | 熟词生义与多义辨析：词义与句法边界：因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：反事实",
+        "academic_target_sense_zh": "多义项/多词性完整映射：反事实；与实际发生的条件不同的假设情形或结局（n.; adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“counterfactual outcome”精确表述“反事实；与实际发生的条件不同的假设情形或结局”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“counterfactual outcome”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "counterfactual",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "counterfactual"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00626_01",
+          "phrase": "counterfactual outcome",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：counterfactual outcome（反事实；与实际发生的条件不同的假设情形或结局）"
+        },
+        {
+          "collocation_id": "C_V00626_02",
+          "phrase": "counterfactual comparison",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：counterfactual comparison（反事实；与实际发生的条件不同的假设情形或结局）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00626"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。",
+        "source_tags": [
+          "V00626",
+          "U26",
+          "Personal_066"
+        ]
+      }
+    },
+    {
+      "word_id": "V00630",
+      "lemma": "covariance",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00630_S01",
+          "pos": "n.",
+          "meaning_zh": "协方差",
+          "core_meaning_zh": "基础字面义：协方差",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：协方差；两个变量共同变动的未标准化量（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The covariance is rescaled when the units of either variable are rescaled.",
+          "example_zh": "任一变量的计量单位重新缩放时，协方差按相应比例缩放。",
+          "sentence_constituents_zh": "【紧凑主语】The covariance is rescaled... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。 | 熟词生义与多义辨析：词义与句法边界：Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。"
+        },
+        {
+          "sense_id": "V00630_S02",
+          "pos": "n.",
+          "meaning_zh": "两个变量共同变动的未标准化量",
+          "core_meaning_zh": "基础字面义：协方差",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：协方差；两个变量共同变动的未标准化量（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The covariance is rescaled when the units of either variable are rescaled.",
+          "example_zh": "任一变量的计量单位重新缩放时，协方差按相应比例缩放。",
+          "sentence_constituents_zh": "【紧凑主语】The covariance is rescaled... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。 | 熟词生义与多义辨析：词义与句法边界：Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：协方差",
+        "academic_target_sense_zh": "多义项/多词性完整映射：协方差；两个变量共同变动的未标准化量（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“covariance matrix”精确表述“协方差；两个变量共同变动的未标准化量”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“covariance matrix”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "covariance",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "covariances",
+        "derived_forms": [],
+        "variants": [
+          "covariance"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00630_01",
+          "phrase": "covariance matrix",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：covariance matrix（协方差；两个变量共同变动的未标准化量）"
+        },
+        {
+          "collocation_id": "C_V00630_02",
+          "phrase": "covariance between variables",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：covariance between variables（协方差；两个变量共同变动的未标准化量）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00630"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。",
+        "source_tags": [
+          "V00630",
+          "Personal_065"
+        ]
+      }
+    },
+    {
+      "word_id": "V00631",
+      "lemma": "covariate",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00631_S01",
+          "pos": "n.",
+          "meaning_zh": "协变量",
+          "core_meaning_zh": "基础字面义：协变量",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：协变量；在模型或分析中共同考虑的变量（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Age is included as a baseline covariate in the analysis.",
+          "example_zh": "年龄作为基线协变量被纳入分析。",
+          "sentence_constituents_zh": "【紧凑主语】Age is included as... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。 | 熟词生义与多义辨析：词义与句法边界：可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。"
+        },
+        {
+          "sense_id": "V00631_S02",
+          "pos": "n.",
+          "meaning_zh": "在模型或分析中共同考虑的变量",
+          "core_meaning_zh": "基础字面义：协变量",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：协变量；在模型或分析中共同考虑的变量（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Age is included as a baseline covariate in the analysis.",
+          "example_zh": "年龄作为基线协变量被纳入分析。",
+          "sentence_constituents_zh": "【紧凑主语】Age is included as... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。 | 熟词生义与多义辨析：词义与句法边界：可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：协变量",
+        "academic_target_sense_zh": "多义项/多词性完整映射：协变量；在模型或分析中共同考虑的变量（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“baseline covariate”精确表述“协变量；在模型或分析中共同考虑的变量”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“baseline covariate”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "covariate",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "covariates",
+        "derived_forms": [],
+        "variants": [
+          "covariate"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00631_01",
+          "phrase": "baseline covariate",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：baseline covariate（协变量；在模型或分析中共同考虑的变量）"
+        },
+        {
+          "collocation_id": "C_V00631_02",
+          "phrase": "time-varying covariate",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：time-varying covariate（协变量；在模型或分析中共同考虑的变量）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00631"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。",
+        "source_tags": [
+          "V00631",
+          "U26",
+          "Personal_179"
+        ]
+      }
+    },
+    {
+      "word_id": "V00666",
+      "lemma": "cyclicality",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00666_S01",
+          "pos": "n.",
+          "meaning_zh": "周期性波动",
+          "core_meaning_zh": "基础字面义：周期性波动",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：周期性波动；与循环过程相关的起伏（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Business cyclicality may involve expansions and contractions of varying duration.",
+          "example_zh": "商业周期性可能包含持续时间不同的扩张与收缩。",
+          "sentence_constituents_zh": "【紧凑主语】Business cyclicality may involve... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。 | 熟词生义与多义辨析：词义与句法边界：经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。"
+        },
+        {
+          "sense_id": "V00666_S02",
+          "pos": "n.",
+          "meaning_zh": "与循环过程相关的起伏",
+          "core_meaning_zh": "基础字面义：周期性波动",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：周期性波动；与循环过程相关的起伏（n.）",
+          "countability": "uncountable",
+          "transitivity": "not_applicable",
+          "example_en": "Business cyclicality may involve expansions and contractions of varying duration.",
+          "example_zh": "商业周期性可能包含持续时间不同的扩张与收缩。",
+          "sentence_constituents_zh": "【紧凑主语】Business cyclicality may involve... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。 | 熟词生义与多义辨析：词义与句法边界：经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：周期性波动",
+        "academic_target_sense_zh": "多义项/多词性完整映射：周期性波动；与循环过程相关的起伏（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“business cyclicality”精确表述“周期性波动；与循环过程相关的起伏”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“business cyclicality”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "cyclicality",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "cyclicality"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00666_01",
+          "phrase": "business cyclicality",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：business cyclicality（周期性波动；与循环过程相关的起伏）"
+        },
+        {
+          "collocation_id": "C_V00666_02",
+          "phrase": "cyclicality in demand",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：cyclicality in demand（周期性波动；与循环过程相关的起伏）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00666"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。",
+        "source_tags": [
+          "V00666",
+          "Personal_184"
+        ]
+      }
+    },
+    {
+      "word_id": "V00680",
+      "lemma": "decompose",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V00680_S01",
+          "pos": "v.",
+          "meaning_zh": "分解",
+          "core_meaning_zh": "基础字面义：分解",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：分解；拆成组成部分；腐解（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We decompose the series into a trend component and a remainder for this illustration.",
+          "example_zh": "在这一示例中，我们把序列分为趋势成分和余项。",
+          "sentence_constituents_zh": "【紧凑主语】We decompose the series... + 【核心谓语与宾补/状语后置扩展】全句共 14 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。 | 熟词生义与多义辨析：词义与句法边界：decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。"
+        },
+        {
+          "sense_id": "V00680_S02",
+          "pos": "v.",
+          "meaning_zh": "拆成组成部分",
+          "core_meaning_zh": "基础字面义：分解",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：分解；拆成组成部分；腐解（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We decompose the series into a trend component and a remainder for this illustration.",
+          "example_zh": "在这一示例中，我们把序列分为趋势成分和余项。",
+          "sentence_constituents_zh": "【紧凑主语】We decompose the series... + 【核心谓语与宾补/状语后置扩展】全句共 14 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。 | 熟词生义与多义辨析：词义与句法边界：decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。"
+        },
+        {
+          "sense_id": "V00680_S03",
+          "pos": "v.",
+          "meaning_zh": "腐解",
+          "core_meaning_zh": "基础字面义：分解",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：分解；拆成组成部分；腐解（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "We decompose the series into a trend component and a remainder for this illustration.",
+          "example_zh": "在这一示例中，我们把序列分为趋势成分和余项。",
+          "sentence_constituents_zh": "【紧凑主语】We decompose the series... + 【核心谓语与宾补/状语后置扩展】全句共 14 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。 | 熟词生义与多义辨析：词义与句法边界：decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：分解",
+        "academic_target_sense_zh": "多义项/多词性完整映射：分解；拆成组成部分；腐解（v.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“decompose a series into components”精确表述“分解；拆成组成部分；腐解”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“decompose a series into components”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "decompose",
+        "third_person_singular": "decomposes",
+        "present_participle": "decomposing",
+        "past_tense": "decomposed",
+        "past_participle": "decomposed",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "decompose"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00680_01",
+          "phrase": "decompose a series into components",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：decompose a series into components（分解；拆成组成部分；腐解）"
+        },
+        {
+          "collocation_id": "C_V00680_02",
+          "phrase": "decompose a matrix",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：decompose a matrix（分解；拆成组成部分；腐解）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00680"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：decompose A into B；数学与时序分解需说明方法；生物化学中的 decompose 可指腐解或化学分解。",
+        "source_tags": [
+          "V00680",
+          "Personal_132"
+        ]
+      }
+    },
+    {
+      "word_id": "V00681",
+      "lemma": "decomposition",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V00681_S01",
+          "pos": "n.",
+          "meaning_zh": "分解",
+          "core_meaning_zh": "基础字面义：分解",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：分解；把整体分为成分（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Time-series decomposition separates a series into components such as trend, seasonality and remainder.",
+          "example_zh": "时间序列分解把序列分为趋势、季节性和余项等成分。",
+          "sentence_constituents_zh": "【紧凑主语】Time-series decomposition separates a... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "成分及其结合方式依方法而定；decomposition into；分解本身不保证成分有唯一或因果解释。 | 熟词生义与多义辨析：词义与句法边界：成分及其结合方式依方法而定；decomposition into；分解本身不保证成分有唯一或因果解释。"
+        },
+        {
+          "sense_id": "V00681_S02",
+          "pos": "n.",
+          "meaning_zh": "把整体分为成分",
+          "core_meaning_zh": "基础字面义：分解",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：分解；把整体分为成分（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Time-series decomposition separates a series into components such as trend, seasonality and remainder.",
+          "example_zh": "时间序列分解把序列分为趋势、季节性和余项等成分。",
+          "sentence_constituents_zh": "【紧凑主语】Time-series decomposition separates a... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "成分及其结合方式依方法而定；decomposition into；分解本身不保证成分有唯一或因果解释。 | 熟词生义与多义辨析：词义与句法边界：成分及其结合方式依方法而定；decomposition into；分解本身不保证成分有唯一或因果解释。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：分解",
+        "academic_target_sense_zh": "多义项/多词性完整映射：分解；把整体分为成分（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：成分及其结合方式依方法而定；decomposition into；分解本身不保证成分有唯一或因果解释。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“time-series decomposition”精确表述“分解；把整体分为成分”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“time-series decomposition”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "decomposition",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "decompositions",
+        "derived_forms": [],
+        "variants": [
+          "decomposition"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V00681_01",
+          "phrase": "time-series decomposition",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：time-series decomposition（分解；把整体分为成分）"
+        },
+        {
+          "collocation_id": "C_V00681_02",
+          "phrase": "matrix decomposition",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：matrix decomposition（分解；把整体分为成分）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V00681"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：成分及其结合方式依方法而定；decomposition into；分解本身不保证成分有唯一或因果解释。",
+        "source_tags": [
+          "V00681",
+          "Personal_121"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "intercept",
+      "meaning_zh": "截距（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "sensor",
+      "meaning_zh": "传感器（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "variance",
+      "meaning_zh": "方差（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "nonstationary",
+      "meaning_zh": "非平稳的（adj.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "variances",
+      "meaning_zh": "方差（n. pl.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "kernel",
+      "meaning_zh": "核；核函数（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G025",
+      "name": "句法歧义消除（介词短语附着、修辞辖域与比较基准排歧）",
+      "category": "C11_syntactic_ambiguity_resolution",
+      "stage": 3,
+      "first_day": "day_0062",
+      "first_day_num": 62,
+      "prerequisites": [
+        "G009",
+        "G015",
+        "G022"
+      ],
+      "explanation_zh": "消除句子中的结构性多解（Structural Ambiguity），确保读者无需猜测修饰语究竟挂靠在哪个词上。",
+      "rules": [
+        "调整介词短语位置或改写为定语从句，消除“V + NP + PP”中的 PP 附着歧义。",
+        "明确区分绝对差值（in absolute terms）与相对变化（in relative terms），并交代基准分母（denominator）。"
+      ],
+      "examples": [
+        "The absolute difference was reported alongside the relative change.",
+        "The revised definition is unambiguous."
+      ],
+      "common_errors": [
+        "修饰语远离核心词导致语义滑稽或产生双重解释。"
+      ]
+    },
+    {
+      "grammar_id": "G030",
+      "name": "让步反驳（Concession-Rebuttal）、局限性陈述与外推边界（Extrapolation Limits）",
+      "category": "E_G_concession_rebuttal_and_limitations",
+      "stage": 4,
+      "first_day": "day_0085",
+      "first_day_num": 85,
+      "prerequisites": [
+        "G018",
+        "G027",
+        "G028"
+      ],
+      "explanation_zh": "顶会论文 Limitations 章节、Rebuttal 及高分议论文的核心技能：坦诚承认方法或样本的约束条件（acknowledge constraints），同时清楚界定在什么范围内结论依然稳健（robust），并指出何时外推（extrapolation）会失效。",
+      "rules": [
+        "区分内插（interpolation，在已观测范围内估计）与外推（extrapolation，向观测年龄、工况或分布范围外推断，需更强假设）。",
+        "用 While / Although / Despite 承认局限，用 nevertheless / aún / provided that 说明受控范围内的有效性与后续改进方向（warrant further investigation）。"
+      ],
+      "examples": [
+        "Extrapolation beyond the observed age range requires additional justification.",
+        "The discrepancy warrants further investigation, but it does not warrant a causal conclusion."
+      ],
+      "common_errors": [
+        "要么完全隐瞒局限，要么自相矛盾地声称局限毫无影响。"
+      ]
+    },
+    {
+      "grammar_id": "G036",
+      "name": "跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+      "category": "E_G_multi_genre_adaptation",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G020",
+        "G033",
+        "G034"
+      ],
+      "explanation_zh": "同一核心词汇库在不同应用场景下需要灵活切换语域与句式结构：学术论文重实证边界与方法可复现；口头演讲（Presentation/Seminar）重听众引导与简洁路标；六级/雅思托福（CET-6/IELTS/TOEFL）重观点清晰、让步权衡与具体民生/科技/教育实例。",
+      "rules": [
+        "顶会论文与审稿回复（Paper & Rebuttal）：用 We thank the reviewer for pointing out this limitation; to address this concern, we conducted an additional sensitivity analysis... 礼貌、有据地回应质疑（take issue with / respond to / clarify）。",
+        "学术演讲与海报展示（Tech Talk & Oral Presentation）：合理使用路标句（I would like to begin by explaining... / As this slide shows... / Let us now turn to... / I will leave five minutes for questions），句子宜短，避免听众无法跟上的多重嵌套从句。",
+        "六级与雅思托福写作（CET-6 & IELTS/TOEFL Writing）：摒弃万能废话模板，采用“明确立场句（adopt a principled stance）+ 具体机制解释（account for / facilitate / mitigate）+ 落地实例（concrete example，如远程教育、可再生能源补贴、公共交通可及性）+ 让步权衡（albeit / on balance / outweigh）”。"
+      ],
+      "examples": [
+        "Tech Talk (Spoken Academic): As this slide shows, the naive baseline performs competitively when the look-back horizon is short; let us now turn to why complex models overfit noisy series.",
+        "IELTS/CET-6 Argumentative Essay: Subsidising public transport can facilitate access to education for rural students; however, municipal authorities must weigh this benefit against long-term infrastructure maintenance costs.",
+        "Research Statement / SoP: My undergraduate project drew on multivariate time-series methods to detect sensor anomalies, which motivated my interest in robust perception for embodied agents."
+      ],
+      "common_errors": [
+        "在雅思/六级作文中使用生硬虚假的统计编造（如 *According to a 2025 Harvard survey, 93.7% of people...*），而不是使用合理的机制论证与具体生活/政策实例。",
+        "在口头报告结束语与书面论文结论之间混用语域（如在论文结尾写 *That is all I have to say, thank you for listening*）。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP001",
+      "name": "明确陈述研究目标、问题定义与讨论边界",
+      "function_category": "stating_aims_and_scope",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "template": "This study/paper examines [specific problem] and aims to [verb] [measurable objective] within [stated scope].",
+      "explanation_zh": "开门见山说明研究问题与范围，主语简短，直接用强动词 examines / addresses / investigates。",
+      "register": "formal_academic",
+      "examples": [
+        "This paper addresses unequal access to educational resources.",
+        "The aim of this paper is to compare annotation rules."
+      ],
+      "common_errors": [
+        "使用冗长空洞的套话开头，或写 *address to a problem。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G031"
+      ]
+    },
+    {
+      "pattern_id": "EP004",
+      "name": "界定概念的操作性定义与数学符号表示",
+      "function_category": "defining_concepts_and_notation",
+      "stage": 1,
+      "first_day": "day_0006",
+      "first_day_num": 6,
+      "template": "For the purposes of this analysis, we define [term] as [operational criterion], where [symbol] denotes [quantity].",
+      "explanation_zh": "用于将抽象概念转化为可观测、可复现的操作性指标或符号。",
+      "register": "formal_academic",
+      "examples": [
+        "We define the outcome as the number of visits per week.",
+        "Here, N denotes the number of observations."
+      ],
+      "common_errors": [
+        "定义含糊或符号指代前后不一致。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G004"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00321",
+        "lemma": "blended learning",
+        "pos": "noun_phrase",
+        "meaning_zh": "混合式学习",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00321 n. phr.] 混合式学习（例：The course used blended learning, combining classroom work with online tasks.）；[V00322 n. phrase] 混合式学习（例：The blended learning course combines classroom discussion with online tasks.） | 本条用法约束：指实际组合；不保证比任何一种形式更有效。",
+        "key_collocations": [
+          "a blended-learning course"
+        ],
+        "example_en": "The course used blended learning, combining classroom work with online tasks.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00322",
+        "lemma": "blended learning",
+        "pos": "noun_phrase",
+        "meaning_zh": "混合式学习",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00321 n. phr.] 混合式学习（例：The course used blended learning, combining classroom work with online tasks.）；[V00322 n. phrase] 混合式学习（例：The blended learning course combines classroom discussion with online tasks.） | 本条用法约束：强调线下和线上教学的结合。",
+        "key_collocations": [
+          "blended learning course"
+        ],
+        "example_en": "The blended learning course combines classroom discussion with online tasks.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00323",
+        "lemma": "blending of ideas",
+        "pos": "noun_phrase",
+        "meaning_zh": "不同思想的结合",
+        "polysemy_trap_zh": "学术语境与搭配约束：blend 作动词可写 blend A with B。",
+        "key_collocations": [
+          "a blending of ideas"
+        ],
+        "example_en": "The approach involves a blending of ideas from two disciplines.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00325",
+        "lemma": "blue collar",
+        "pos": "adjective_phrase",
+        "meaning_zh": "蓝领的",
+        "polysemy_trap_zh": "词义与句法边界：教材省连字符；名词前规范常用 blue-collar，不能机械等同阶层。",
+        "key_collocations": [
+          "blue-collar occupations"
+        ],
+        "example_en": "The coding guide lists blue-collar occupations.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00326",
+        "lemma": "body of evidence",
+        "pos": "noun_phrase",
+        "meaning_zh": "一批相关证据",
+        "polysemy_trap_zh": "词义与句法边界：body of 为集合表达。",
+        "key_collocations": [
+          "a growing body of evidence"
+        ],
+        "example_en": "A growing body of evidence supports further investigation.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00327",
+        "lemma": "body of knowledge",
+        "pos": "noun_phrase",
+        "meaning_zh": "知识体系",
+        "polysemy_trap_zh": "学术语境与搭配约束：knowledge 一般不可数，不写 knowledges。",
+        "key_collocations": [
+          "a body of knowledge"
+        ],
+        "example_en": "The course introduces a body of knowledge about research ethics.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00328",
+        "lemma": "body of literature",
+        "pos": "noun_phrase",
+        "meaning_zh": "某领域的文献群",
+        "polysemy_trap_zh": "学术语境与搭配约束：body 是集合义，可换 body of research 或 knowledge。",
+        "key_collocations": [
+          "an extensive body of literature"
+        ],
+        "example_en": "An extensive body of literature examines access to healthcare.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00329",
+        "lemma": "body of research",
+        "pos": "noun_phrase",
+        "meaning_zh": "研究成果的集合",
+        "polysemy_trap_zh": "学术语境与搭配约束：body of 后的 research 通常不可数。",
+        "key_collocations": [
+          "a growing body of research"
+        ],
+        "example_en": "A growing body of research examines commuting behaviour.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00330",
+        "lemma": "bombard with",
+        "pos": "verb_phrase",
+        "meaning_zh": "使接连受到大量……",
+        "polysemy_trap_zh": "学术语境与搭配约束：带主观评价；若是访谈原话，应标示其来源，不能自动当作客观效果。",
+        "key_collocations": [
+          "be bombarded with messages",
+          "be bombarded with questions"
+        ],
+        "example_en": "Participants felt bombarded with repeated reminders.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00332",
+        "lemma": "book about",
+        "pos": "noun_phrase",
+        "meaning_zh": "关于……的书",
+        "polysemy_trap_zh": "学术语境与搭配约束：本词条book为名词，about引出主题；about常用于一般话题，on常用于具体专题，二者并非绝对互斥。",
+        "key_collocations": [
+          "book about"
+        ],
+        "example_en": "The course uses a book about migration.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00333",
+        "lemma": "book on",
+        "pos": "noun_phrase",
+        "meaning_zh": "关于……的书",
+        "polysemy_trap_zh": "学术语境与搭配约束：本词条book为名词，on引出主题；about常用于一般话题，on常用于具体专题，二者并非绝对互斥。",
+        "key_collocations": [
+          "book on"
+        ],
+        "example_en": "The library holds a book on urban history.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00334",
+        "lemma": "borrowing rights",
+        "pos": "noun_phrase",
+        "meaning_zh": "借阅权",
+        "polysemy_trap_zh": "学术语境与搭配约束：复数表达；具体规则取决于机构。",
+        "key_collocations": [
+          "lose borrowing rights"
+        ],
+        "example_en": "A reader may lose borrowing rights after repeated violations.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00337",
+        "lemma": "break down",
+        "pos": "phrasal_verb",
+        "meaning_zh": "失效",
+        "polysemy_trap_zh": "词义与句法边界：本单元为类比失效义；别自动译成分解或机器故障。",
+        "key_collocations": [
+          "an analogy breaks down",
+          "an explanation breaks down"
+        ],
+        "example_en": "The analogy breaks down at the level of biological repair.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00339",
+        "lemma": "bring to a close",
+        "pos": "verb_phrase",
+        "meaning_zh": "结束",
+        "polysemy_trap_zh": "学术语境与搭配约束：用于活动、讨论、文章等。",
+        "key_collocations": [
+          "bring the discussion to a close"
+        ],
+        "example_en": "The chair brought the discussion to a close at noon.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00340",
+        "lemma": "bring to an end",
+        "pos": "verb_phrase",
+        "meaning_zh": "结束",
+        "polysemy_trap_zh": "学术语境与搭配约束：与bring to a close近义。",
+        "key_collocations": [
+          "bring the seminar to an end"
+        ],
+        "example_en": "The final question brought the seminar to an end.",
+        "first_day": "day_0067"
+      },
+      {
+        "word_id": "V00341",
+        "lemma": "bring together",
+        "pos": "verb_phrase",
+        "meaning_zh": "汇集",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00341 v. phrase] 汇集；使聚集（例：The project brings together several datasets.）；[V00342 v. phrase] 汇集；综合（例：The chapter brings together findings from several studies.） | 本条用法约束：代词置中间 bring them together。",
+        "key_collocations": [
+          "bring together several datasets"
+        ],
+        "example_en": "The project brings together several datasets.",
+        "first_day": "day_0067"
+      }
+    ]
+  }
+}

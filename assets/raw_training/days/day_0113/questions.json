@@ -1,0 +1,1735 @@
+[
+  {
+    "question_id": "Q_D0113_01",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 affine (V00088) 的学术多义项与语境词形，并联动巩固 autocorrelation (V00257)。",
+    "prompt": "【day_0113·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“仿射的”，adj.；注意区别于日常义：基础字面义：仿射的），填写唯一准确的英文词形：\nSentence 1: The ________ function f(x) = ax + b includes an intercept b. （句意：仿射函数 f(x) = ax + b 包含截距 b。）\nSentence 2 (Companion Context with 'autocorrelation'): When the relevant variances are finite and nonzero, lag-one Pearson autocorrelation measures the linear association between observations one time step apart.",
+    "context": "熟词生义与用法边界：词义与句法边界：严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。 | 句子成分结构：【紧凑主语】The affine function f(x)... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00088",
+      "V00257"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G005",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 affine）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_02",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 amenable (V00110) 的学术多义项与语境词形，并联动巩固 canonical (V00363)。",
+    "prompt": "【day_0113·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“适合接受某种处理的”，adj.；注意区别于日常义：adj. 顺从的，好商量的），填写唯一准确的英文词形：\nSentence 1: The simplified model is ________ to analytical treatment. （句意：简化后的模型适合进行解析处理。）\nSentence 2 (Companion Context with 'canonical'): The appendix presents the equation in its canonical form.",
+    "context": "熟词生义与用法边界：理论推导高频词：固定接介词 to（be amenable to analytical treatment），意为“可用解析方法求解/处理”。 | 句子成分结构：【紧凑主语】The simplified model is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00110",
+      "V00363"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G005",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 amenable）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_03",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 anomalous (V00130) 的学术多义项与语境词形，并联动巩固 cascade (V00374)。",
+    "prompt": "【day_0113·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“异常的”，adj.；注意区别于日常义：基础字面义：异常的），填写唯一准确的英文词形：\nSentence 1: An ________ observation should be investigated before it is removed. （句意：异常观测在被删除之前应接受调查。）\nSentence 2 (Companion Context with 'cascade'): A local disruption can cascade through an interconnected supply network.",
+    "context": "熟词生义与用法边界：词义与句法边界：对应名词 anomaly；异常不必然是假值或误差，应依据预先说明的规则处理。 | 句子成分结构：【紧凑主语】An anomalous observation should... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00130",
+      "V00374"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G005",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 anomalous）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_04",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 anomaly (V00131) 的学术多义项与语境词形，并联动巩固 causal (V00383)。",
+    "prompt": "【day_0113·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“异常现象”，n.；注意区别于日常义：基础字面义：异常现象），填写唯一准确的英文词形：\nSentence 1: An ________ in the sensor readings prompted a check of the calibration procedure. （句意：传感器读数中的异常促使研究人员检查校准程序。）\nSentence 2 (Companion Context with 'causal'): A causal claim requires more than temporal overlap.",
+    "context": "熟词生义与用法边界：词义与句法边界：可数名词，复数 anomalies；异常可能来自真实事件、测量误差或模型局限，不能直接判为错误。 | 句子成分结构：【紧凑主语】An anomaly in the... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00131",
+      "V00383"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G005",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 anomaly）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_05",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 antidiabetic (V00138) 的学术多义项与语境词形，并联动巩固 causal (V00384)。",
+    "prompt": "【day_0113·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“抗糖尿病的”，adj.; n.；注意区别于日常义：基础字面义：抗糖尿病的），填写唯一准确的英文词形：\nSentence 1: The study records the use of ________ medication at baseline. （句意：该研究记录了基线时抗糖尿病药物的使用情况。）\nSentence 2 (Companion Context with 'causal'): A causal interpretation requires assumptions that are stronger than those needed to describe an association.",
+    "context": "熟词生义与用法边界：词义与句法边界：专业医学词；药物类别名不能证明某药对某人有效；写作中 medication/agent 比将形容词孤立作名词更清楚。 | 句子成分结构：【紧凑主语】The study records the... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00138",
+      "V00384"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00383",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G005",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 antidiabetic）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_06",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 4,
+    "training_objective": "激活 archetypal (V00165) 的学术多义项与语境词形，并联动巩固 causal relationship (V00385)。",
+    "prompt": "【day_0113·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“典型的”，adj.；注意区别于日常义：基础字面义：典型的），填写唯一准确的英文词形：\nSentence 1: A random walk with independent identically distributed increments of positive finite variance is an ________ example of a nonstationary process. （句意：具有独立同分布增量且增量方差有限为正的随机游走，是非平稳过程的典型例子。）\nSentence 2 (Companion Context with 'causal relationship'): A causal relationship cannot be inferred from prediction accuracy alone.",
+    "context": "熟词生义与用法边界：词义与句法边界：可指具代表性的原型，不等于每个实例都具有全部性质；archetype 是名词，技术说明需给出具体过程假设。 | 句子成分结构：【紧凑主语】A random walk with... + 【核心谓语与宾补/状语后置扩展】全句共 20 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V00165",
+      "V00385"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00383",
+      "V02101",
+      "G006",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_4",
+      "G005",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 archetypal）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_07",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 arguably 的自然搭配“arguably more informative”并消除中式直译搭配错误。",
+    "prompt": "【day_0113·常见学术搭配 1】根据搭配类型（adv+adj_or_verb）与用法规范，使用目标词“arguably”（可以认为）的规约搭配补全并写出下列完整英文学术句（表达：“当决策取决于尾部风险时，可以认为分布预测提供的信息更多。”），使其与后句中的“causal study”（design a causal study）构成自然衔接：\n待完成句语义：当决策取决于尾部风险时，可以认为分布预测提供的信息更多。（核心搭配提示：arguably more informative）\n后续衔接句：A causal study requires attention to alternative explanations.",
+    "context": "搭配类型：adv+adj_or_verb | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“arguably more informative”精确表述“可以认为；存在合理理由认为”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00169",
+      "V00386"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G010"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00383",
+      "G006",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G005",
+      "G010",
+      "EP017",
+      "collocation_accuracy",
+      "adv+adj_or_verb"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“arguably more informative”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_08",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 autocorrelation 的自然搭配“autocorrelation at lag one”并消除中式直译搭配错误。",
+    "prompt": "【day_0113·常见学术搭配 2】根据搭配类型（fixed_academic_phrase）与用法规范，使用目标词“autocorrelation”（自相关）的规约搭配补全并写出下列完整英文学术句（表达：“当相关观测变量的方差有限且非零时，一阶滞后皮尔逊自相关衡量相隔一个时间步的观测之间的线性关联。”），使其与后句中的“causality”（assess causality）构成自然衔接：\n待完成句语义：当相关观测变量的方差有限且非零时，一阶滞后皮尔逊自相关衡量相隔一个时间步的观测之间的线性关联。（核心搭配提示：autocorrelation at lag one）\n后续衔接句：Predictive accuracy alone cannot establish causality.",
+    "context": "搭配类型：fixed_academic_phrase | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“autocorrelation at lag one”精确表述“自相关；序列与其滞后值之间的相关”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00257",
+      "V00387"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G010"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G001",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G005",
+      "G010",
+      "EP017",
+      "collocation_accuracy",
+      "fixed_academic_phrase"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“autocorrelation at lag one”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_09",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 canonical 的自然搭配“canonical form”并消除中式直译搭配错误。",
+    "prompt": "【day_0113·常见学术搭配 3】根据搭配类型（adj+noun）与用法规范，使用目标词“canonical”（规范的）的规约搭配补全并写出下列完整英文学术句（表达：“附录以该方程的标准形式给出表达式。”），使其与后句中的“chronological”（chronological order）构成自然衔接：\n待完成句语义：附录以该方程的标准形式给出表达式。（核心搭配提示：canonical form）\n后续衔接句：The records are arranged in chronological order before the time-series analysis.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“canonical form”精确表述“规范的；公认的；标准形式的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00363",
+      "V00416"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G010"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G005",
+      "G010",
+      "EP017",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“canonical form”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_10",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 4,
+    "training_objective": "掌握 cascade 的自然搭配“cascade of effects”并消除中式直译搭配错误。",
+    "prompt": "【day_0113·常见学术搭配 4】根据搭配类型（verb+prep）与用法规范，使用目标词“cascade”（级联）的规约搭配补全并写出下列完整英文学术句（表达：“局部中断可能在相互连接的供应网络中引发连锁影响。”），使其与后句中的“climatology”（regional climatology）构成自然衔接：\n待完成句语义：局部中断可能在相互连接的供应网络中引发连锁影响。（核心搭配提示：cascade of effects）\n后续衔接句：The rainfall series is compared with the region's historical climatology.",
+    "context": "搭配类型：verb+prep | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“cascade of effects”精确表述“级联；连锁过程；逐级传递”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V00374",
+      "V00435"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G010"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_4",
+      "G005",
+      "G010",
+      "EP017",
+      "collocation_accuracy",
+      "verb+prep"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“cascade of effects”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_11",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 causal 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0113·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 causal）：\nContext: A ________ claim requires more than temporal overlap. Furthermore, regarding 'concretely', more concretely, the procedure assigns one observation to each row of the table.",
+    "context": "目标句意：因果主张需要超出时间重合的证据。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. significant",
+      "B. causal",
+      "C. silent",
+      "D. similar"
+    ],
+    "focus_word_ids": [
+      "V00383",
+      "V00516"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G005",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_12",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 causal 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0113·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 causal）：\nContext: A ________ interpretation requires assumptions that are stronger than those needed to describe an association. Furthermore, regarding 'confounding', unmeasured confounding may bias an estimated treatment effect.",
+    "context": "目标句意：因果解释所需的假设比描述关联所需的假设更强。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. spare",
+      "B. spatial",
+      "C. causal",
+      "D. specialized"
+    ],
+    "focus_word_ids": [
+      "V00384",
+      "V00533"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00383",
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G005",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_13",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 causal relationship 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0113·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 causal relationship）：\nContext: A ________ cannot be inferred from prediction accuracy alone. Furthermore, regarding 'correntropy', gaussian-kernel correntropy measures similarity using the expected kernel value of the difference between two random variables.",
+    "context": "目标句意：不能仅凭预测准确率推断因果关系。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. national debate",
+      "B. natural setting",
+      "C. naturalistic observation",
+      "D. causal relationship"
+    ],
+    "focus_word_ids": [
+      "V00385",
+      "V00622"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00383",
+      "V02101",
+      "G031",
+      "G006",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G005",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_14",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 4,
+    "training_objective": "辨析 causal study 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0113·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 causal study）：\nContext: A ________ requires attention to alternative explanations. Furthermore, regarding 'counterfactual', for a treated individual, the outcome under no treatment is a counterfactual outcome.",
+    "context": "目标句意：因果研究需要考虑其他解释。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. causal study",
+      "B. paradigm shift",
+      "C. part of",
+      "D. peer assessment"
+    ],
+    "focus_word_ids": [
+      "V00386",
+      "V00626"
+    ],
+    "grammar_ids": [
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V00383",
+      "G031",
+      "G006",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_4",
+      "G005",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0113_15",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 4,
+    "training_objective": "用精准学术词 causality (causality) 替换英文初稿中的口语/模糊表达“general thing or part”。",
+    "prompt": "【day_0113·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`general thing or part`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“causality”的恰当词形，并写出完整修正句（需同时保留后半句中关于“covariance”的语境信息）：\nEnglish Draft: Predictive accuracy alone cannot establish <u>general thing or part</u>. (Context note: The covariance is rescaled when the units of either variable are rescaled.)",
+    "context": "目标语义：仅有预测准确性不能确立因果关系。 | 熟词生义提醒：多义项/多词性完整映射：因果关系；因果性（n.）",
+    "options": null,
+    "focus_word_ids": [
+      "V00387",
+      "V00630"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_4",
+      "G005",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_16",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 4,
+    "training_objective": "用精准学术词 chronological (chronological) 替换英文初稿中的口语/模糊表达“big or special”。",
+    "prompt": "【day_0113·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`big or special`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“chronological”的恰当词形，并写出完整修正句（需同时保留后半句中关于“covariate”的语境信息）：\nEnglish Draft: The records are arranged in <u>big or special</u> order before the time-series analysis. (Context note: Age is included as a baseline covariate in the analysis.)",
+    "context": "目标语义：这些记录在时序分析之前按时间顺序排列。 | 熟词生义提醒：精准学术定义：按时间顺序的（adj.）",
+    "options": null,
+    "focus_word_ids": [
+      "V00416",
+      "V00631"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G001",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_4",
+      "G005",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_17",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 4,
+    "training_objective": "用精准学术词 climatology (climatology) 替换英文初稿中的口语/模糊表达“general thing or part”。",
+    "prompt": "【day_0113·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`general thing or part`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“climatology”的恰当词形，并写出完整修正句（需同时保留后半句中关于“cyclicality”的语境信息）：\nEnglish Draft: The rainfall series is compared with the region's historical <u>general thing or part</u>. (Context note: Business cyclicality may involve expansions and contractions of varying duration.)",
+    "context": "目标语义：该降雨序列与该地区历史气候统计基准进行比较。 | 熟词生义提醒：多义项/多词性完整映射：气候学；某地区长期气候特征或气候统计基准（n.）",
+    "options": null,
+    "focus_word_ids": [
+      "V00435",
+      "V00666"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_4",
+      "G005",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_18",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 4,
+    "training_objective": "使用地道学术搭配“concretely illustrate”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0113·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“concretely”的核心学术短语/搭配（“concretely illustrate”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: More <u>make a basic handling in a general way regarding in a rough way</u>, the procedure assigns one observation to each row of the table.\nCompanion Context ('practical'): The proposal offers a practical way to share equipment. （目标句意：更具体地说，该程序把每次观测放在表格的一行中。）",
+    "context": "目标规约短语：concretely illustrate | 配合表达模式：【EP017】坦诚说明研究局限与外推风险（Limitations & Extrapolation）",
+    "options": null,
+    "focus_word_ids": [
+      "V00516",
+      "V01900"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G006",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_4",
+      "G010",
+      "G034",
+      "EP017",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“concretely illustrate”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_19",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 4,
+    "training_objective": "使用地道学术搭配“unmeasured confounding”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0113·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“confounding”的核心学术短语/搭配（“unmeasured confounding”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: Unmeasured <u>make a basic handling in a general way regarding general thing or part</u> may bias an estimated treatment effect.\nCompanion Context ('precise'): The protocol gives a precise definition of a completed interview. （目标句意：未测量的混杂可能使估计的处理效应产生偏差。）",
+    "context": "目标规约短语：unmeasured confounding | 配合表达模式：【EP017】坦诚说明研究局限与外推风险（Limitations & Extrapolation）",
+    "options": null,
+    "focus_word_ids": [
+      "V00533",
+      "V01908"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G006",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_4",
+      "G010",
+      "G034",
+      "EP017",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“unmeasured confounding”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_20",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 4,
+    "training_objective": "使用地道学术搭配“correntropy criterion”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0113·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“correntropy”的核心学术短语/搭配（“correntropy criterion”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: Gaussian-kernel <u>make a basic handling in a general way regarding general thing or part</u> measures similarity using the expected kernel value of the difference between two random variables.\nCompanion Context ('precise'): The instrument provides a more precise measurement. （目标句意：高斯核相关熵通过两个随机变量之差的核函数值的期望来度量相似性。）",
+    "context": "目标规约短语：correntropy criterion | 配合表达模式：【EP017】坦诚说明研究局限与外推风险（Limitations & Extrapolation）",
+    "options": null,
+    "focus_word_ids": [
+      "V00622",
+      "V01909"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01908",
+      "G001",
+      "G006",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_4",
+      "G010",
+      "G034",
+      "EP017",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“correntropy criterion”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_21",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 counterfactual 与 affine 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0113·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】\nTop-Heavy Draft: *The question of how the research team can properly handle the fact that for a treated individual, the outcome under no treatment is a counterfactual outcome. in the experiment is what we look at.*\n改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“counterfactual”（搭配：counterfactual outcome）将其改写为紧凑、有力的学术句子（并结合“affine”的语境边界）。",
+    "context": "核心成分拆解：【前置状语/条件框架】For a treated individual + 【主句核心主谓宾/表】the outcome under no treatment is a counterfactual outcome. （目标词“counterfactual”作 n.; adj. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。 | 用法与多义边界：词义与句法边界：因果推断中不能同时直接观测同一个体同一时点的处理与未处理结局；估计需要识别假设，反事实不等于任意虚构。",
+    "options": null,
+    "focus_word_ids": [
+      "V00626",
+      "V00088"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G005",
+      "G032",
+      "EP017",
+      "sentence_rewriting",
+      "G032",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 counterfactual 的搭配“counterfactual outcome”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_22",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 covariance 与 amenable 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0113·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】\nAI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: The covariance is rescaled when the units of either variable are rescaled.*\n改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“covariance”写出零 AI 痕迹、克制精准的学术句子（关联词条：amenable）。",
+    "context": "核心成分拆解：【紧凑主语】The covariance is rescaled... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：Cov(X,Y)=E[(X-E[X])(Y-E[Y])]，Cov(aX,bY)=abCov(X,Y)（相应矩存在时）；零协方差通常不等于独立，correlation 是标准化量。",
+    "options": null,
+    "focus_word_ids": [
+      "V00630",
+      "V00110"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G005",
+      "G033",
+      "EP017",
+      "sentence_rewriting",
+      "G033",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 covariance 的搭配“covariance matrix”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_23",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 covariate 与 anomalous 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0113·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】\nSource Statement: Age is included as a baseline covariate in the analysis. （中文句意：年龄作为基线协变量被纳入分析。）\n改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“covariate”（注意其学术义：多义项/多词性完整映射：协变量；在模型或分析中共同考虑的变量（n.））及协同词“anomalous”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。",
+    "context": "核心成分拆解：【紧凑主语】Age is included as... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：可数；协变量可为预测量、控制量等，不自动是混杂因素；纳入协变量是否适当取决于研究目标和因果结构。",
+    "options": null,
+    "focus_word_ids": [
+      "V00631",
+      "V00130"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G021"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G001",
+      "G014",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G005",
+      "G021",
+      "EP017",
+      "sentence_rewriting",
+      "G021",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 covariate 的搭配“baseline covariate”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_24",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 cyclicality 与 anomaly 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0113·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】\nVerbose Draft: *When we consider the context of the analysis, it is true that business cyclicality may involve expansions and contractions of varying duration.*\n改写指令：消除句首拖沓的从句，运用目标词“cyclicality”（搭配：business cyclicality）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：anomaly），严禁产生悬垂修饰或增删原意。",
+    "context": "核心成分拆解：【紧凑主语】Business cyclicality may involve... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：经济学中循环长度未必固定；不要把 cyclicality 与固定日历周期的 seasonality 混为一谈，数学周期性则需严格定义。",
+    "options": null,
+    "focus_word_ids": [
+      "V00666",
+      "V00131"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G018"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G001",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G005",
+      "G018",
+      "EP017",
+      "sentence_rewriting",
+      "G018",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 cyclicality 的搭配“business cyclicality”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_25",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 4,
+    "training_objective": "围绕 practical 与 antidiabetic 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0113·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】\nBase Observation: The proposal offers a practical way to share equipment. (Paired concept: 'antidiabetic' — The study records the use of antidiabetic medication at baseline.)\n改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“practical”与“antidiabetic”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。",
+    "context": "核心成分拆解：【紧凑主语】The proposal offers a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：词义与句法边界：practical 关注实施条件；不自动表示方法最优。",
+    "options": null,
+    "focus_word_ids": [
+      "V01900",
+      "V00138"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_4",
+      "G005",
+      "G036",
+      "EP017",
+      "sentence_rewriting",
+      "G036",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 practical 的搭配“a practical way”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_26",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 precise (a precise definition) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0113·中译英与句子成分构建 1（实证研究方法与数据核查场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“precise”的学术义“精确的，表述明确的”及其搭配“a precise definition”，并兼顾协同词“archetypal”的语境标准）：\n中文题干：方案明确界定了什么算完成访谈。\n句子成分构建提示：【紧凑主语】The protocol gives a... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V01908 adj.] 精确的，表述明确的（例：The protocol gives a precise definition of a completed interview.）；[V01909 adj.] 精确的；明确的（例：The instrument provides a more precise measurement.） | 本条用法约束：精密测量可一致但不准确；precise 不自动等于 accurate。 | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "options": null,
+    "focus_word_ids": [
+      "V01908",
+      "V00165"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G031"
+    ],
+    "expression_pattern_ids": [
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G010",
+      "G031",
+      "EP020",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G031"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 precise 及其搭配“a precise definition”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_27",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 precise (a precise value) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0113·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“precise”的学术义“精确的”及其搭配“a precise value”，并兼顾协同词“arguably”的语境标准）：\n中文题干：这个仪器提供精密程度更高的测量。\n句子成分构建提示：【紧凑主语】The instrument provides a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：一词多义与跨语境迁移对比：[V01908 adj.] 精确的，表述明确的（例：The protocol gives a precise definition of a completed interview.）；[V01909 adj.] 精确的；明确的（例：The instrument provides a more precise measurement.） | 本条用法约束：测量 precision 不等于接近真值的 accuracy。 | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "options": null,
+    "focus_word_ids": [
+      "V01909",
+      "V00169"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G035"
+    ],
+    "expression_pattern_ids": [
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "V01908",
+      "G031",
+      "G032",
+      "G001",
+      "G006",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G010",
+      "G035",
+      "EP020",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G035"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 precise 及其搭配“a precise value”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_28",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 affine (affine transformation) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0113·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“affine”的学术义“仿射的”及其搭配“affine transformation”，并兼顾协同词“autocorrelation”的语境标准）：\n中文题干：仿射函数 f(x) = ax + b 包含截距 b。\n句子成分构建提示：【紧凑主语】The affine function f(x)... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：词义与句法边界：严格线性映射保持原点，仿射映射可有平移项；affine 不能泛指所有非线性变换。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "options": null,
+    "focus_word_ids": [
+      "V00088",
+      "V00257"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G010",
+      "G032",
+      "EP020",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G032"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 affine 及其搭配“affine transformation”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_29",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 4,
+    "training_objective": "运用句子成分分析法与 amenable (amenable to analysis) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0113·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“amenable”的学术义“适合接受某种处理的”及其搭配“amenable to analysis”，并兼顾协同词“canonical”的语境标准）：\n中文题干：简化后的模型适合进行解析处理。\n句子成分构建提示：【紧凑主语】The simplified model is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：理论推导高频词：固定接介词 to（be amenable to analytical treatment），意为“可用解析方法求解/处理”。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "options": null,
+    "focus_word_ids": [
+      "V00110",
+      "V00363"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G006",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_4",
+      "G010",
+      "G036",
+      "EP020",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G036"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 amenable 及其搭配“amenable to analysis”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0113_30",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 4,
+    "training_objective": "用包含 anomalous 与 causal 的具体机制与实例替换“只有夸张而无实例”的空洞断言。",
+    "prompt": "【day_0113·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】\n下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：\nHollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*\n任务要求：请摒弃上述空洞吹嘘，结合目标词条“anomalous”（异常的）与“causal”（因果的），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。",
+    "context": "核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）",
+    "options": null,
+    "focus_word_ids": [
+      "V00130",
+      "V00384",
+      "V00626"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00383",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_4",
+      "G005",
+      "G033",
+      "EP017",
+      "anti_hyperbole",
+      "concrete_evidence_grounding",
+      "paragraph_logic"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "严禁使用 groundbreaking / unparalleled / extremely great 等无根据夸张词",
+      "必须包含 anomalous 与 causal 的具体语境陈述"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0113_31",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 4,
+    "training_objective": "通过含 anomaly 与 causal relationship 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。",
+    "prompt": "【day_0113·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】\n将下列包含目标词“anomaly”与“causal relationship”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：\n(1) When examining the empirical outputs, a second consideration arises: A causal relationship cannot be inferred from prediction accuracy alone.\n(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.\n(3) First, we specify the methodological setup: An anomaly in the sensor readings prompted a check of the calibration procedure.\n(4) This setup ensures that the evaluation criteria remain consistent across all test runs.",
+    "context": "语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指",
+    "options": null,
+    "focus_word_ids": [
+      "V00131",
+      "V00385",
+      "V00630"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "V00383",
+      "V02101",
+      "G006",
+      "G001",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_4",
+      "G010",
+      "G009",
+      "EP020",
+      "sentence_ordering",
+      "given_new_contract",
+      "referential_cohesion"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "写出正确的四句排列顺序",
+      "指出句间实现无缝咬合的总结性指代短语"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0113_32",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 4,
+    "training_objective": "修复含 antidiabetic 与 causal study 段落中的逗号粘连、连接词误用与因果外推跳跃。",
+    "prompt": "【day_0113·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】\n审阅下列包含“antidiabetic”与“causal study”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：\nFlawed Draft: *The study records the use of antidiabetic medication at baseline, on the contrary, a causal study requires attention to alternative explanations., which proves 100% universal causality in all real-world regimes.*",
+    "context": "综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）",
+    "options": null,
+    "focus_word_ids": [
+      "V00138",
+      "V00386",
+      "V00631"
+    ],
+    "grammar_ids": [
+      "G016",
+      "G023"
+    ],
+    "expression_pattern_ids": [
+      "EP017",
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00383",
+      "G006",
+      "G002",
+      "G009",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_4",
+      "G016",
+      "G023",
+      "EP017",
+      "EP020",
+      "comma_splice_repair",
+      "causality_boundary",
+      "connector_precision"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "修正 Comma Splice 与 on the contrary 的误用",
+      "用审慎的范围限定替换 *proves 100% universal causality*"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0113_33",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 4,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 archetypal 与 causality 的语态选择。",
+    "prompt": "【day_0113·信息焦点与语态转换 1】阅读下列包含“archetypal”（典型的）与“causality”（因果关系）的学术表达：\nReference Sequence: (1) A random walk with independent identically distributed increments of positive finite variance is an archetypal example of a nonstationary process. (2) Predictive accuracy alone cannot establish causality.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00165",
+      "V00387",
+      "V00666"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_4",
+      "G011",
+      "G005",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0113_34",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 4,
+    "training_objective": "结合及物性边界（not_applicable）与旧新信息焦点训练 arguably 与 chronological 的语态选择。",
+    "prompt": "【day_0113·信息焦点与语态转换 2】阅读下列包含“arguably”（可以认为）与“chronological”（按时间顺序的）的学术表达：\nReference Sequence: (1) A distributional forecast is arguably more informative when decisions depend on tail risk. (2) The records are arranged in chronological order before the time-series analysis.\n改写要求：在严格保持原句时态、体、情态（如 may/can/should）及限定范围不变的前提下，根据“旧信息前置（Given-before-New）”与“施事责任明确性”原则，将第 (1) 句进行主动/被动语态转换（或重构为以核心研究对象为主语的紧凑句），使其与第 (2) 句自然衔接。",
+    "context": "及物性：not_applicable | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V00169",
+      "V00416",
+      "V01900"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G005"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_4",
+      "G011",
+      "G005",
+      "voice_selection",
+      "not_applicable",
+      "given_new_focus"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0113_35",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 4,
+    "training_objective": "在 AI/时序/生成建模/具身智能场景下运用 autocorrelation、climatology 撰写零 AI 腔的技术微段落。",
+    "prompt": "【day_0113·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】\n应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。\n写作要求：围绕以下候选目标词群中的至少 2–3 个词条（autocorrelation（自相关）、climatology（气候学）、precise（精确的，表述明确的）、causal（因果的）），写出一段 2–3 句、紧凑自然的英文技术微段落：\n1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；\n2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；\n3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。",
+    "context": "专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP017",
+    "options": null,
+    "focus_word_ids": [
+      "V00257",
+      "V00435",
+      "V01908",
+      "V00384"
+    ],
+    "grammar_ids": [
+      "G005",
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP017"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V00383",
+      "G001",
+      "G002"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_4",
+      "G005",
+      "G032",
+      "G033",
+      "EP017",
+      "ai_timeseries_embodied_writing",
+      "anti_ai_style",
+      "end_weight"
+    ],
+    "scene": "ml_timeseries_generative_and_statistical_modeling",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少准确融入候选词群（autocorrelation（自相关）、climatology（气候学）、precise（精确的，表述明确的）、causal（因果的））中的 2 个词条及其规约搭配",
+      "词数 45–80 词（2–3 句），主谓紧凑，遵守尾重原则（End-Weight）",
+      "零 AI 浮夸套话，必须包含具体技术条件或实验边界"
+    ],
+    "max_score": 5
+  },
+  {
+    "question_id": "Q_D0113_36",
+    "day_id": "day_0113",
+    "stage": 4,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 4,
+    "training_objective": "撰写融合 canonical、concretely 与 precise 的 3–5 句六级/雅思托福/演讲实证论证段落。",
+    "prompt": "【day_0113·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】\n应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。\n写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（canonical（规范的）、concretely（具体地）、precise（精确的）），写出一段 3–5 句、逻辑严密的完整段落：\n1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；\n2. 运用语法规则【G010】（不定式与动名词的补足语分工及非谓语动词搭配）与表达模式【EP020】（生成模型与概率预测：分布校准、不确定性量化与尾部风险）；\n3. 句式自然地道，杜绝死板模板句与头重脚轻。",
+    "context": "文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G010 & G036",
+    "options": null,
+    "focus_word_ids": [
+      "V00363",
+      "V00516",
+      "V01909"
+    ],
+    "grammar_ids": [
+      "G010",
+      "G028",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP020"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01908",
+      "G001",
+      "G006",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_4",
+      "G010",
+      "G028",
+      "G036",
+      "EP020",
+      "cet6_ielts_toefl_writing",
+      "concrete_exemplification",
+      "concession_rebuttal"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少自然融入候选词群（canonical（规范的）、concretely（具体地）、precise（精确的））中的 3 个词条",
+      "必须包含具体实例或机制说明，严禁只喊口号或堆砌夸张词",
+      "3–5 个完整英文句（65–110 词），标点与指代规范"
+    ],
+    "max_score": 5
+  }
+]

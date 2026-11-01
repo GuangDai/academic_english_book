@@ -1,0 +1,1709 @@
+[
+  {
+    "question_id": "Q_D0017_01",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 instance (V01381) 的学术多义项与语境词形，并联动巩固 interest (V01402)。",
+    "prompt": "【day_0017·词形与熟词生义激活 1】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“实例”，n.；注意区别于日常义：基础字面义：实例），填写唯一准确的英文词形：\nSentence 1: We examine one specific ________ of the problem. （句意：我们考察该问题的一个具体实例。）\nSentence 2 (Companion Context with 'interest'): The disagreement is of interest to historians.",
+    "context": "熟词生义与用法边界：词义与句法边界：instance of；可数。 | 句子成分结构：【紧凑主语】We examine one specific... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V01381",
+      "V01402"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G023",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 instance）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_02",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 instrument (V01383) 的学术多义项与语境词形，并联动巩固 intermediate (V01411)。",
+    "prompt": "【day_0017·词形与熟词生义激活 2】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“测量仪器”，n.；注意区别于日常义：n. 乐器），填写唯一准确的英文词形：\nSentence 1: The ________ records pressure at regular intervals. （句意：这台仪器按固定间隔记录压力。）\nSentence 2 (Companion Context with 'intermediate'): The intermediate stage focused on data cleaning.",
+    "context": "熟词生义与用法边界：跨学科多义：工程实验指传感器仪器，社科指问卷量表。 | 句子成分结构：【紧凑主语】The instrument records pressure... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V01383",
+      "V01411"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G023",
+      "polysemy_recall",
+      "countable",
+      "not_applicable"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 instrument）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_03",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 integrate (V01385) 的学术多义项与语境词形，并联动巩固 intermediate (V01412)。",
+    "prompt": "【day_0017·词形与熟词生义激活 3】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“整合”，v.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：\nSentence 1: The analysis ________ evidence from several sources. （句意：分析整合了若干来源的证据。）\nSentence 2 (Companion Context with 'intermediate'): At the intermediate stage, the team checked for missing records.",
+    "context": "熟词生义与用法边界：学术语境与搭配约束：不表示混合后自动消除冲突；应保留证据差异。 | 句子成分结构：【紧凑主语】The analysis integrates evidence... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V01385",
+      "V01412"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01411",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G023",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 integrate）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_04",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 intend (V01387) 的学术多义项与语境词形，并联动巩固 intermediate (V01413)。",
+    "prompt": "【day_0017·词形与熟词生义激活 4】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“打算”，v.；注意区别于日常义：日常或通用英语近似概念），填写唯一准确的英文词形：\nSentence 1: The researchers ________ to publish the protocol. （句意：研究者打算公布研究方案。）\nSentence 2 (Companion Context with 'intermediate'): The derivation introduces an intermediate variable to simplify the expression.",
+    "context": "熟词生义与用法边界：学术语境与搭配约束：intend to 后接动词原形。 | 句子成分结构：【紧凑主语】The researchers intend to... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V01387",
+      "V01413"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01412",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G023",
+      "polysemy_recall",
+      "not_applicable",
+      "transitive"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 intend）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_05",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 intense (V01388) 的学术多义项与语境词形，并联动巩固 interpret (V01418)。",
+    "prompt": "【day_0017·词形与熟词生义激活 5】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“强烈的”，adj.；注意区别于日常义：基础字面义：强烈的），填写唯一准确的英文词形：\nSentence 1: ________ competition for funding can affect research priorities. （句意：激烈的经费竞争可能影响研究优先事项。）\nSentence 2 (Companion Context with 'interpret'): Interpret the finding in light of the sample limitations.",
+    "context": "熟词生义与用法边界：词义与句法边界：intense不表示统计显著性。 | 句子成分结构：【紧凑主语】Intense competition for funding... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V01388",
+      "V01418"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G023",
+      "polysemy_recall",
+      "not_applicable",
+      "not_applicable"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 intense）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_06",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_recall_and_form",
+    "type_zh": "单词主动回忆和词形",
+    "difficulty": 1,
+    "training_objective": "激活 interact (V01395) 的学术多义项与语境词形，并联动巩固 interpret (V01419)。",
+    "prompt": "【day_0017·词形与熟词生义激活 6】阅读下列双句学术语境，根据第一句横线处的句子成分槽位与目标学术义（“互动”，v.；注意区别于日常义：已学基础义或同词元其他语境义（共关联 2 个词表词义单元）），填写唯一准确的英文词形：\nSentence 1: Participants ________ with the system during testing. （句意：参与者在测试时与系统互动。）\nSentence 2 (Companion Context with 'interpret'): The researchers interpreted the results cautiously.",
+    "context": "熟词生义与用法边界：一词多义与跨语境迁移对比：[V01395 v.] 互动；相互作用（例：Participants interact with the system during testing.）；[V01396 v.] 相互作用（例：The analysis asks how the variables interact.） | 本条用法约束：interact with；不及物。 | 句子成分结构：【紧凑主语】Participants interact with the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "options": null,
+    "focus_word_ids": [
+      "V01395",
+      "V01419"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "V01418",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "word_recall_and_form",
+      "stage_1",
+      "G023",
+      "polysemy_recall",
+      "not_applicable",
+      "intransitive"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "single_word_or_form",
+    "is_active_output": true,
+    "constraints": [
+      "仅填写横线处所需的准确英文词形（对应词元 interact）",
+      "严格符合句中主谓一致、时态或单复数槽位"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_07",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 interact 的自然搭配“interact with other variables”并消除中式直译搭配错误。",
+    "prompt": "【day_0017·常见学术搭配 1】根据搭配类型（verb+prep）与用法规范，使用目标词“interact”（相互作用）的规约搭配补全并写出下列完整英文学术句（表达：“分析考察这些变量如何相互作用。”），使其与后句中的“interval”（sampling interval）构成自然衔接：\n待完成句语义：分析考察这些变量如何相互作用。（核心搭配提示：interact with other variables）\n后续衔接句：The sampling interval is the time between consecutive measurements.",
+    "context": "搭配类型：verb+prep | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“interact with other variables”精确表述“相互作用”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V01396",
+      "V01426"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V01395",
+      "G031",
+      "G011",
+      "G032",
+      "G002",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G023",
+      "G034",
+      "EP003",
+      "collocation_accuracy",
+      "verb+prep"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“interact with other variables”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_08",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 interest 的自然搭配“be of interest to historians”并消除中式直译搭配错误。",
+    "prompt": "【day_0017·常见学术搭配 2】根据搭配类型（noun+prep）与用法规范，使用目标词“interest”（兴趣）的规约搭配补全并写出下列完整英文学术句（表达：“历史学家关注这一分歧。”），使其与后句中的“invalid”（an invalid inference）构成自然衔接：\n待完成句语义：历史学家关注这一分歧。（核心搭配提示：be of interest to historians）\n后续衔接句：An inference based on an incorrect denominator is invalid.",
+    "context": "搭配类型：noun+prep | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“be of interest to historians”精确表述“兴趣；关注价值”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V01402",
+      "V01431"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G023",
+      "G034",
+      "EP003",
+      "collocation_accuracy",
+      "noun+prep"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“be of interest to historians”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_09",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 intermediate 的自然搭配“an intermediate stage”并消除中式直译搭配错误。",
+    "prompt": "【day_0017·常见学术搭配 3】根据搭配类型（adj+noun）与用法规范，使用目标词“intermediate”（中间的）的规约搭配补全并写出下列完整英文学术句（表达：“中间阶段侧重数据清理。”），使其与后句中的“invent”（invent a device）构成自然衔接：\n待完成句语义：中间阶段侧重数据清理。（核心搭配提示：an intermediate stage）\n后续衔接句：The engineer invented a device for measuring flow.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“an intermediate stage”精确表述“中间的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V01411",
+      "V01435"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G023",
+      "G034",
+      "EP003",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“an intermediate stage”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_10",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "collocation_practice",
+    "type_zh": "常见词汇搭配",
+    "difficulty": 1,
+    "training_objective": "掌握 intermediate 的自然搭配“an intermediate stage”并消除中式直译搭配错误。",
+    "prompt": "【day_0017·常见学术搭配 4】根据搭配类型（adj+noun）与用法规范，使用目标词“intermediate”（中间阶段的）的规约搭配补全并写出下列完整英文学术句（表达：“在中间阶段，团队检查是否有缺失记录。”），使其与后句中的“investigate”（investigate a question）构成自然衔接：\n待完成句语义：在中间阶段，团队检查是否有缺失记录。（核心搭配提示：an intermediate stage）\n后续衔接句：The study investigates differences in access to care.",
+    "context": "搭配类型：adj+noun | 跨领域应用提示：在深度学习/时序预测/具身智能论文中，使用搭配“an intermediate stage”精确表述“中间阶段的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+    "options": null,
+    "focus_word_ids": [
+      "V01412",
+      "V01439"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V01411",
+      "G031",
+      "G032",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "collocation_practice",
+      "stage_1",
+      "G023",
+      "G034",
+      "EP003",
+      "collocation_accuracy",
+      "adj+noun"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "collocation_phrase",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用自然搭配“an intermediate stage”完成句子",
+      "禁止中式逐字硬译或添加冗余介词"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_11",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 intermediate 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0017·语境选词与多义/近义辨析 1】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 intermediate）：\nContext: The derivation introduces an ________ variable to simplify the expression. Furthermore, regarding 'investigate', the study investigates missing information in records.",
+    "context": "目标句意：该推导引入一个中间变量来简化表达式。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. channel",
+      "B. intermediate",
+      "C. character",
+      "D. charge"
+    ],
+    "focus_word_ids": [
+      "V01413",
+      "V01440"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V01412",
+      "G031",
+      "G032",
+      "V01439",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G023",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_12",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 interpret 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0017·语境选词与多义/近义辨析 2】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 Interpret）：\nContext: ________ the finding in light of the sample limitations. Furthermore, regarding 'involve', the procedure involves checking every record twice.",
+    "context": "目标句意：解释这一发现时，应考虑样本局限。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. extend",
+      "B. finance",
+      "C. interpret",
+      "D. find"
+    ],
+    "focus_word_ids": [
+      "V01418",
+      "V01443"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G023",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_13",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 interpret 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0017·语境选词与多义/近义辨析 3】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 interpreted）：\nContext: The researchers ________ the results cautiously. Furthermore, regarding 'irrational', the assumption is irrational because it contradicts the stated premises.",
+    "context": "目标句意：研究人员谨慎地解释了结果。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. generate",
+      "B. grow",
+      "C. highlight",
+      "D. interpret"
+    ],
+    "focus_word_ids": [
+      "V01419",
+      "V01444"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V01418",
+      "G031",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G023",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_14",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "contextual_choice_and_synonym",
+    "type_zh": "语境选词与近义词辨析",
+    "difficulty": 1,
+    "training_objective": "辨析 interval 与同词性干扰词在语义范围、搭配及熟词生义上的差别。",
+    "prompt": "【day_0017·语境选词与多义/近义辨析 4】阅读下列包含上下文衔接的学术语境，从 A、B、C、D 中选出唯一在语义范围、介词配价与语域上契合横线处的最佳词元（若需屈折变化，句中实际词形为 interval）：\nContext: The sampling ________ is the time between consecutive measurements. Furthermore, regarding 'irregular', measurements were taken at irregular intervals.",
+    "context": "目标句意：采样间隔是连续两次测量之间的时间。 | 辨析焦点：语义范围、搭配规约与熟词生义边界",
+    "options": [
+      "A. interval",
+      "B. energy",
+      "C. environment",
+      "D. era"
+    ],
+    "focus_word_ids": [
+      "V01426",
+      "V01446"
+    ],
+    "grammar_ids": [
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "contextual_choice_and_synonym",
+      "stage_1",
+      "G023",
+      "synonym_choice",
+      "polysemy_discrimination"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "single_choice_A_B_C_D",
+    "is_active_output": false,
+    "constraints": [
+      "单选题：从 A、B、C、D 四个选项中选出唯一最佳答案"
+    ],
+    "max_score": 2
+  },
+  {
+    "question_id": "Q_D0017_15",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 1,
+    "training_objective": "用精准学术词 invalid (invalid) 替换英文初稿中的口语/模糊表达“big or special”。",
+    "prompt": "【day_0017·去口语化与精准单词替换 1】下列英文初稿句中画线部分（`big or special`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“invalid”的恰当词形，并写出完整修正句（需同时保留后半句中关于“irregular”的语境信息）：\nEnglish Draft: An inference based on an incorrect denominator is <u>big or special</u>. (Context note: Measurements taken at irregular intervals require careful treatment of elapsed time.)",
+    "context": "目标语义：以错误分母为基础的推断不成立。 | 熟词生义提醒：多义项/多词性完整映射：无效的；不成立的（adj.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01431",
+      "V01447"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01446",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_1",
+      "G023",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_16",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 1,
+    "training_objective": "用精准学术词 invent (invented) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0017·去口语化与精准单词替换 2】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“invent”的恰当词形，并写出完整修正句（需同时保留后半句中关于“issue”的语境信息）：\nEnglish Draft: The engineer <u>do or handle</u> a device for measuring flow. (Context note: The report addresses the issue of unequal access.)",
+    "context": "目标语义：工程师发明了一种测量流量的装置。 | 熟词生义提醒：精准学术定义：发明（v.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01435",
+      "V01451"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_1",
+      "G023",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_17",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "word_replacement",
+    "type_zh": "单词替换",
+    "difficulty": 1,
+    "training_objective": "用精准学术词 investigate (investigates) 替换英文初稿中的口语/模糊表达“do or handle”。",
+    "prompt": "【day_0017·去口语化与精准单词替换 3】下列英文初稿句中画线部分（`do or handle`）表达过于口语化或不够精确。请在不改变原句事实、否定与确定性程度的前提下，将其替换为今日目标词条“investigate”的恰当词形，并写出完整修正句（需同时保留后半句中关于“issue”的语境信息）：\nEnglish Draft: The study <u>do or handle</u> differences in access to care. (Context note: The review raises an issue about sample selection.)",
+    "context": "目标语义：这项研究调查了获得医疗服务机会的差异。 | 熟词生义提醒：当前单元特定学术义：调查，研究（v.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01439",
+      "V01452"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G034"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01451",
+      "G018",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "word_replacement",
+      "stage_1",
+      "G023",
+      "G034",
+      "de_colloquialization",
+      "precise_word_replacement"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须输出替换后的完整自然英文句子",
+      "保持原句事实范围与谨慎语气不变"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_18",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 1,
+    "training_objective": "使用地道学术搭配“investigate a problem”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0017·冗余/中式词组替换 1】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“investigate”的核心学术短语/搭配（“investigate a problem”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The study <u>make a basic handling in a general way regarding do or handle</u> missing information in records.\nCompanion Context ('issue'): The latest issue contains a debate on a key issue in ethics. （目标句意：研究调查记录中的信息缺失。）",
+    "context": "目标规约短语：investigate a problem | 配合表达模式：【EP003】客观归属文献观点或档案记录来源",
+    "options": null,
+    "focus_word_ids": [
+      "V01440",
+      "V01453"
+    ],
+    "grammar_ids": [
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V01439",
+      "G031",
+      "G032",
+      "V01452",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_1",
+      "G034",
+      "EP003",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“investigate a problem”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_19",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 1,
+    "training_objective": "使用地道学术搭配“involve doing”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0017·冗余/中式词组替换 2】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“involve”的核心学术短语/搭配（“involve doing”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The procedure <u>make a basic handling in a general way regarding do or handle</u> checking every record twice.\nCompanion Context ('justify'): A small descriptive study cannot justify every policy decision. （目标句意：该程序包括对每条记录检查两次。）",
+    "context": "目标规约短语：involve doing | 配合表达模式：【EP003】客观归属文献观点或档案记录来源",
+    "options": null,
+    "focus_word_ids": [
+      "V01443",
+      "V01460"
+    ],
+    "grammar_ids": [
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_1",
+      "G034",
+      "EP003",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“involve doing”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_20",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "phrase_and_expression_replacement",
+    "type_zh": "词组与表达替换",
+    "difficulty": 1,
+    "training_objective": "使用地道学术搭配“an irrational assumption”替换冗长生硬的英文草稿短语。",
+    "prompt": "【day_0017·冗余/中式词组替换 3】下列英文草稿句中画线部分存在“中式冗余堆砌（Over-expression）与搭配生硬”问题。请使用目标词条“irrational”的核心学术短语/搭配（“an irrational assumption”）对其进行精简替换，写出地道、紧凑的完整英文句：\nAwkward Draft: The assumption is <u>make a basic handling in a general way regarding big or special</u> because it contradicts the stated premises.\nCompanion Context ('justify'): The committee must justify its decision using the available evidence. （目标句意：该假设与已说明的前提矛盾，因此不合逻辑。）",
+    "context": "目标规约短语：an irrational assumption | 配合表达模式：【EP003】客观归属文献观点或档案记录来源",
+    "options": null,
+    "focus_word_ids": [
+      "V01444",
+      "V01461"
+    ],
+    "grammar_ids": [
+      "G034"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01460",
+      "G033"
+    ],
+    "knowledge_tags": [
+      "phrase_and_expression_replacement",
+      "stage_1",
+      "G034",
+      "EP003",
+      "phrase_replacement",
+      "anti_overexpression"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "word_or_phrase_substitution",
+    "is_active_output": true,
+    "constraints": [
+      "必须运用目标搭配“an irrational assumption”或其语法屈折形式写出完整英文句",
+      "消除冗余词堆砌，保持句子紧凑自然"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_21",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 irregular 与 instance 训练【消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0017·句子改写 1：消除头重脚轻（Top-Heavy Subject Elimination & End-Weight）】\nTop-Heavy Draft: *The question of how the research team can properly handle the fact that measurements were taken at irregular intervals. in the experiment is what we look at.*\n改写指令：上方草稿主语长达十余词而谓语仅以软弱的 is what we look at 收尾（典型头重脚轻）。请遵循【尾重原则（G032）】，直接以核心行动者或研究对象作简短主语，运用目标词“irregular”（搭配：irregular intervals）将其改写为紧凑、有力的学术句子（并结合“instance”的语境边界）。",
+    "context": "核心成分拆解：【紧凑主语】Measurements were taken at... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V01446 adj.] 不规则的（例：Measurements were taken at irregular intervals.）；[V01447 adj.] 不规则的；间隔不均的；不符合常规的（例：Measurements taken at irregular intervals require careful treatment of elapsed time.） | 本条用法约束：教材词缀例词单列；例句为原创假设情境。词缀对应关系与拼写见同单元说明。",
+    "options": null,
+    "focus_word_ids": [
+      "V01446",
+      "V01381"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G018",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G023",
+      "G032",
+      "EP003",
+      "sentence_rewriting",
+      "G032",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 irregular 的搭配“irregular intervals”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_22",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 irregular 与 instrument 训练【去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0017·句子改写 2：去除 AI 腔浮夸套话与过度表达（De-AI-ification & Concrete Precision）】\nAI-Inflated Draft: *It is undeniably worth noting that our groundbreaking framework delves into the intricate realm of the problem and achieves an unparalleled breakthrough: Measurements taken at irregular intervals require careful treatment of elapsed time.*\n改写指令：上方草稿充斥着典型 AI 废话套话（undeniably worth noting, groundbreaking, delves into the intricate realm, unparalleled breakthrough）。请删去所有无证据支撑的浮夸修饰（G033），保留全部真实事实、否定与限定条件，用目标词“irregular”写出零 AI 痕迹、克制精准的学术句子（关联词条：instrument）。",
+    "context": "核心成分拆解：【紧凑主语】Measurements taken at irregular... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：一词多义与跨语境迁移对比：[V01446 adj.] 不规则的（例：Measurements were taken at irregular intervals.）；[V01447 adj.] 不规则的；间隔不均的；不符合常规的（例：Measurements taken at irregular intervals require careful treatment of elapsed time.） | 本条用法约束：irregular sampling 指采样时间不均；不能自动等同于随机采样、非平稳或数据错误。",
+    "options": null,
+    "focus_word_ids": [
+      "V01447",
+      "V01383"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V01446",
+      "G031",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G023",
+      "G033",
+      "EP003",
+      "sentence_rewriting",
+      "G033",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 irregular 的搭配“irregular intervals”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_23",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 issue 与 integrate 训练【熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0017·句子改写 3：熟词生义激活与词性/句式转换改写（Polysemy & Syntactic Restructuring）】\nSource Statement: The report addresses the issue of unequal access. （中文句意：报告讨论了机会不均等的问题。）\n改写指令：在不改变原句任何事实、时间、程度和谨慎语气（hedging）的前提下，利用目标词“issue”（注意其学术义：n. ① 值得探讨的重要议题（the issue of；take issue with 对……提出异议）；② 期刊的“一期”（the forthcoming issue））及协同词“integrate”，通过调整句法结构（如前置条件状语、转换词性或改写同位/修饰结构）写出语义完全等价的另一地道版本。",
+    "context": "核心成分拆解：【紧凑主语】The report addresses the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：take issue with an interpretation 是非常地道的学术表达，意为“对某种解释提出异议/不同看法”。 | 词表跨单元多义对比：[V01451 n.] 值得讨论的问题；重要议题（例：The report addresses the issue of unequal access.）；[V01452 n.] 待讨论或处理的问题（例：The review raises an issue about sample selection.）；[V01453 n.] 议题；问题；期刊一期（例：The latest issue contains a debate on a key issue in ethics.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01451",
+      "V01385"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G021"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018",
+      "G014"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G023",
+      "G021",
+      "EP003",
+      "sentence_rewriting",
+      "G021",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 issue 的搭配“address an issue”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_24",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 issue 与 intend 训练【主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0017·句子改写 4：主从复合句与紧凑介词/分词短语或倒装转换（Clause Compression & Inversion）】\nVerbose Draft: *When we consider the context of the analysis, it is true that the review raises an issue about sample selection.*\n改写指令：消除句首拖沓的从句，运用目标词“issue”（搭配：raise an issue）与紧凑的学术句法（G018/G031），将其改写为主干突出、主谓紧凑的单句（关联复习/协同词：intend），严禁产生悬垂修饰或增删原意。",
+    "context": "核心成分拆解：【紧凑主语】The review raises an... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：take issue with an interpretation 是非常地道的学术表达，意为“对某种解释提出异议/不同看法”。 | 词表跨单元多义对比：[V01451 n.] 值得讨论的问题；重要议题（例：The report addresses the issue of unequal access.）；[V01452 n.] 待讨论或处理的问题（例：The review raises an issue about sample selection.）；[V01453 n.] 议题；问题；期刊一期（例：The latest issue contains a debate on a key issue in ethics.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01452",
+      "V01387"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G018"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V01451",
+      "G031",
+      "G032",
+      "G018",
+      "G006"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G023",
+      "G018",
+      "EP003",
+      "sentence_rewriting",
+      "G018",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 issue 的搭配“raise an issue”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_25",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "sentence_rewriting",
+    "type_zh": "句子改写",
+    "difficulty": 1,
+    "training_objective": "围绕 issue 与 intense 训练【跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】，保持语义守恒与句子成分平衡。",
+    "prompt": "【day_0017·句子改写 5：跨场景语域迁移改写（AI/时序/具身智能论文 vs. 六级/雅思托福/演讲）】\nBase Observation: The latest issue contains a debate on a key issue in ethics. (Paired concept: 'intense' — Intense competition for funding can affect research priorities.)\n改写指令：将上方两个观察整合或改写为一句逻辑严密的复合句或分号衔接句，同时准确体现“issue”与“intense”的核心用法，确保指代清晰且标点规范（杜绝 Comma Splice）。",
+    "context": "核心成分拆解：【紧凑主语】The latest issue contains... + 【核心谓语与宾补/状语后置扩展】全句共 12 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。 | 用法与多义边界：take issue with an interpretation 是非常地道的学术表达，意为“对某种解释提出异议/不同看法”。 | 词表跨单元多义对比：[V01451 n.] 值得讨论的问题；重要议题（例：The report addresses the issue of unequal access.）；[V01452 n.] 待讨论或处理的问题（例：The review raises an issue about sample selection.）；[V01453 n.] 议题；问题；期刊一期（例：The latest issue contains a debate on a key issue in ethics.）",
+    "options": null,
+    "focus_word_ids": [
+      "V01453",
+      "V01388"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "V01452",
+      "G031",
+      "G032",
+      "G018",
+      "G020",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "sentence_rewriting",
+      "stage_1",
+      "G023",
+      "G036",
+      "EP003",
+      "sentence_rewriting",
+      "G036",
+      "end_weight_and_anti_ai"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "full_sentence_rewrite",
+    "is_active_output": true,
+    "constraints": [
+      "保留原意及全部否定、限定、时间、程度和确定性，不得增加原句未提及的结论",
+      "主语简短紧凑，消除头重脚轻与空洞 AI 修饰语",
+      "准确使用 issue 的搭配“a key issue”"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_26",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 justify (justify a decision) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0017·中译英与句子成分构建 1（实证研究方法与数据核查场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“justify”的学术义“提供充分理由”及其搭配“justify a decision”，并兼顾协同词“interact”的语境标准）：\n中文题干：一项小型描述性研究无法为每个政策决定提供充分依据。\n句子成分构建提示：【紧凑主语】A small descriptive study... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：Extrapolation beyond the observed range requires additional justification（外推需要额外论证支撑）。 | 词表跨单元多义对比：[V01460 v.] 提供充分理由（例：A small descriptive study cannot justify every policy decision.）；[V01461 v.] 证明合理；为……提供理由（例：The committee must justify its decision using the available evidence.） | 语法焦点：【G031】句子成分精细剖析（主、谓、宾、表、定、状、补、同位语）与核心主干定位",
+    "options": null,
+    "focus_word_ids": [
+      "V01460",
+      "V01395"
+    ],
+    "grammar_ids": [
+      "G034",
+      "G031"
+    ],
+    "expression_pattern_ids": [
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G011",
+      "G033",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G034",
+      "G031",
+      "EP006",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G031"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 justify 及其搭配“justify a decision”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_27",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 justify (justify a decision) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0017·中译英与句子成分构建 2（机器学习、时间序列与生成模型场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“justify”的学术义“证明合理”及其搭配“justify a decision”，并兼顾协同词“interact”的语境标准）：\n中文题干：委员会须以现有证据说明决策理由。\n句子成分构建提示：【紧凑主语】The committee must justify... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：Extrapolation beyond the observed range requires additional justification（外推需要额外论证支撑）。 | 词表跨单元多义对比：[V01460 v.] 提供充分理由（例：A small descriptive study cannot justify every policy decision.）；[V01461 v.] 证明合理；为……提供理由（例：The committee must justify its decision using the available evidence.） | 语法焦点：【G035】机器学习、时间序列、生成模型与具身智能（Embodied AI）的技术表达句法",
+    "options": null,
+    "focus_word_ids": [
+      "V01461",
+      "V01396"
+    ],
+    "grammar_ids": [
+      "G034",
+      "G035"
+    ],
+    "expression_pattern_ids": [
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "V01460",
+      "G031",
+      "G032",
+      "V01395",
+      "G011",
+      "G033",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G034",
+      "G035",
+      "EP006",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G035"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 justify 及其搭配“justify a decision”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_28",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 instance (a specific instance of a problem) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0017·中译英与句子成分构建 3（具身智能（Embodied AI）、传感器与系统约束场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“instance”的学术义“实例”及其搭配“a specific instance of a problem”，并兼顾协同词“interest”的语境标准）：\n中文题干：我们考察该问题的一个具体实例。\n句子成分构建提示：【紧凑主语】We examine one specific... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：词义与句法边界：instance of；可数。 | 语法焦点：【G032】消除“头重脚轻（Top-Heavy Subject）”与遵循尾重原则（End-Weight Principle）",
+    "options": null,
+    "focus_word_ids": [
+      "V01381",
+      "V01402"
+    ],
+    "grammar_ids": [
+      "G034",
+      "G032"
+    ],
+    "expression_pattern_ids": [
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G002",
+      "G032",
+      "G033",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G034",
+      "G032",
+      "EP006",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G032"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "formal_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 instance 及其搭配“a specific instance of a problem”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_29",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "ch_to_en_translation",
+    "type_zh": "中译英与主动表达",
+    "difficulty": 1,
+    "training_objective": "运用句子成分分析法与 instrument (a measuring instrument) 完成地道、无头重脚轻的中译英输出。",
+    "prompt": "【day_0017·中译英与句子成分构建 4（六级/雅思托福高分议论文与学术演讲（Tech Talk）场景）】\n请将下列中文学术陈述翻译为自然、地道、零 AI 痕迹的英文句子（必须准确使用“instrument”的学术义“测量仪器”及其搭配“a measuring instrument”，并兼顾协同词“intermediate”的语境标准）：\n中文题干：这台仪器按固定间隔记录压力。\n句子成分构建提示：【紧凑主语】The instrument records pressure... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+    "context": "多义与用法提示：跨学科多义：工程实验指传感器仪器，社科指问卷量表。 | 语法焦点：【G036】跨场景文体适配：顶会论文、学术演讲（Tech Talk）、个人陈述（SoP）与六级/雅思托福高分议论文",
+    "options": null,
+    "focus_word_ids": [
+      "V01383",
+      "V01411"
+    ],
+    "grammar_ids": [
+      "G034",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G033",
+      "G020",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "ch_to_en_translation",
+      "stage_1",
+      "G034",
+      "G036",
+      "EP006",
+      "ch_to_en_translation",
+      "constituent_structure",
+      "G036"
+    ],
+    "scene": "embodied_ai_robotics_and_sensor_systems",
+    "register": "general_academic",
+    "answer_format": "english_sentence_translation",
+    "is_active_output": true,
+    "constraints": [
+      "必须准确使用 instrument 及其搭配“a measuring instrument”",
+      "主干（主谓宾/主系表）清晰紧凑，长修饰语后置，严禁中式语序硬译"
+    ],
+    "max_score": 3
+  },
+  {
+    "question_id": "Q_D0017_30",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 1,
+    "training_objective": "用包含 integrate 与 interpret 的具体机制与实例替换“只有夸张而无实例”的空洞断言。",
+    "prompt": "【day_0017·逻辑衔接与语篇组织 1：根治“只有夸张而无实例/具体指标”的空洞段落】\n下列初稿开头句犯了“只有空洞夸张（hollow hyperbole）而无具体机制与实证支撑”的典型写作病灶：\nHollow Draft: *Our method is extremely great and solves all problems in a revolutionary way.*\n任务要求：请摒弃上述空洞吹嘘，结合目标词条“integrate”（整合）与“interpret”（解释），写出一段 2–3 句、有具体方法机制与明确适用范围的实证分析或议论文支撑句群（可用于 AI/时序/具身智能论文或六级/雅思托福正文段）。",
+    "context": "核心原则：用具体算子、样本条件与可核验实例替代空洞形容词（G033 & G028）",
+    "options": null,
+    "focus_word_ids": [
+      "V01385",
+      "V01418",
+      "V01446"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_1",
+      "G023",
+      "G033",
+      "EP003",
+      "anti_hyperbole",
+      "concrete_evidence_grounding",
+      "paragraph_logic"
+    ],
+    "scene": "related_work_literature_review_and_critique",
+    "register": "formal_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "严禁使用 groundbreaking / unparalleled / extremely great 等无根据夸张词",
+      "必须包含 integrate 与 interpret 的具体语境陈述"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0017_31",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 1,
+    "training_objective": "通过含 intend 与 interpret 的四句重排，掌握 Given-New 信息契约与 This + 总结名词衔接。",
+    "prompt": "【day_0017·逻辑衔接与语篇组织 2：段落句子排序与 Given-New 指代链分析】\n将下列包含目标词“intend”与“interpret”的 4 个句子按“旧信息在前、新信息在后（Given-New Contract）”的指代逻辑排成连贯段落，并写出排序结果及关键回指词（如 This setup / these two findings）：\n(1) When examining the empirical outputs, a second consideration arises: The researchers interpreted the results cautiously.\n(2) Taken together, these two findings indicate that both protocol design and scope constraints must be reported transparently.\n(3) First, we specify the methodological setup: The researchers intend to publish the protocol.\n(4) This setup ensures that the evaluation criteria remain consistent across all test runs.",
+    "context": "语篇衔接规则：旧信息前置（Given-before-New）与精确指代回指",
+    "options": null,
+    "focus_word_ids": [
+      "V01387",
+      "V01419",
+      "V01447"
+    ],
+    "grammar_ids": [
+      "G034",
+      "G009"
+    ],
+    "expression_pattern_ids": [
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01418",
+      "V01446",
+      "G033",
+      "G002",
+      "G003"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_1",
+      "G034",
+      "G009",
+      "EP006",
+      "sentence_ordering",
+      "given_new_contract",
+      "referential_cohesion"
+    ],
+    "scene": "experimental_design_benchmarks_and_ablation",
+    "register": "general_academic",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "写出正确的四句排列顺序",
+      "指出句间实现无缝咬合的总结性指代短语"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0017_32",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "logical_cohesion_and_paragraph",
+    "type_zh": "逻辑衔接和语篇组织",
+    "difficulty": 1,
+    "training_objective": "修复含 intense 与 interval 段落中的逗号粘连、连接词误用与因果外推跳跃。",
+    "prompt": "【day_0017·逻辑衔接与语篇组织 3：标点粘连（Comma Splice）与因果逻辑跳跃修复】\n审阅下列包含“intense”与“interval”的缺陷初稿，修正其中的【逗号粘连 / 连接词 on the contrary 误用】以及【把有限样本或仿真观察直接断言为无条件普遍因果律】两处错误，写出修正后的严谨英文句群：\nFlawed Draft: *Intense competition for funding can affect research priorities, on the contrary, the sampling interval is the time between consecutive measurements., which proves 100% universal causality in all real-world regimes.*",
+    "context": "综合诊断：标点规范（G023）+ 连接词精确语义（G028）+ 相关与因果边界（G026）",
+    "options": null,
+    "focus_word_ids": [
+      "V01388",
+      "V01426",
+      "V01451"
+    ],
+    "grammar_ids": [
+      "G004",
+      "G023"
+    ],
+    "expression_pattern_ids": [
+      "EP003",
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G002",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "logical_cohesion_and_paragraph",
+      "stage_1",
+      "G004",
+      "G023",
+      "EP003",
+      "EP006",
+      "comma_splice_repair",
+      "causality_boundary",
+      "connector_precision"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "technical_specialized",
+    "answer_format": "paragraph_or_cohesion_analysis",
+    "is_active_output": true,
+    "constraints": [
+      "修正 Comma Splice 与 on the contrary 的误用",
+      "用审慎的范围限定替换 *proves 100% universal causality*"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0017_33",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 1,
+    "training_objective": "结合及物性边界（intransitive）与旧新信息焦点训练 interact 与 invalid 的语态选择。",
+    "prompt": "【day_0017·语态与及物性边界 1】目标词条“interact”（互动）在句中属于不及物或状态性结构（intransitive）。请改正下列误用被动语态的病句，并结合协同词“invalid”写出语法正确、主干清晰的主动语态双句序列：\nUngrammatical Passive Draft: *In this experiment, the phenomenon of 'interact' was consisted / was occurred by the system, and an inference based on an incorrect denominator is invalid.*",
+    "context": "及物性：intransitive | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V01395",
+      "V01431",
+      "V01452"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "G031",
+      "G011",
+      "G032",
+      "V01451",
+      "G001",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_1",
+      "G011",
+      "G023",
+      "voice_selection",
+      "intransitive",
+      "given_new_focus"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0017_34",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "active_and_passive_voice",
+    "type_zh": "主动与被动语态",
+    "difficulty": 1,
+    "training_objective": "结合及物性边界（intransitive）与旧新信息焦点训练 interact 与 invent 的语态选择。",
+    "prompt": "【day_0017·语态与及物性边界 2】目标词条“interact”（相互作用）在句中属于不及物或状态性结构（intransitive）。请改正下列误用被动语态的病句，并结合协同词“invent”写出语法正确、主干清晰的主动语态双句序列：\nUngrammatical Passive Draft: *In this experiment, the phenomenon of 'interact' was consisted / was occurred by the system, and the engineer invented a device for measuring flow.*",
+    "context": "及物性：intransitive | 语态规则：G011 & G020（禁止机械转换或丢失情态限定）",
+    "options": null,
+    "focus_word_ids": [
+      "V01396",
+      "V01435",
+      "V01453"
+    ],
+    "grammar_ids": [
+      "G011",
+      "G023"
+    ],
+    "expression_pattern_ids": [],
+    "prerequisite_ids": [
+      "V01395",
+      "G031",
+      "G011",
+      "G032",
+      "V01452",
+      "G001",
+      "G018"
+    ],
+    "knowledge_tags": [
+      "active_and_passive_voice",
+      "stage_1",
+      "G011",
+      "G023",
+      "voice_selection",
+      "intransitive",
+      "given_new_focus"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "voice_transformation_and_justification",
+    "is_active_output": true,
+    "constraints": [
+      "保持原句时态、体、情态助动词及语义范围 100% 不变",
+      "严禁将不及物动词或状态短语机械改为被动语态"
+    ],
+    "max_score": 4
+  },
+  {
+    "question_id": "Q_D0017_35",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 1,
+    "training_objective": "在 AI/时序/生成建模/具身智能场景下运用 interest、investigate 撰写零 AI 腔的技术微段落。",
+    "prompt": "【day_0017·独立微型写作 1：深度学习 / 时间序列 / 生成模型 / 具身智能（Embodied AI）技术微段落（45–80 词，2–3 句）】\n应用场景：顶会论文（NeurIPS / ICLR / CoRL / TPAMI）的方法描述、消融实验分析或口头技术报告（Tech Talk）。\n写作要求：围绕以下候选目标词群中的至少 2–3 个词条（interest（兴趣）、investigate（调查，研究）、justify（提供充分理由）、interpret（解释）），写出一段 2–3 句、紧凑自然的英文技术微段落：\n1. 必须体现这些词在学术/技术语境下的准确含义与规约搭配（严防熟词生义误用）；\n2. 主干清晰（主谓紧凑，长修饰语后置，彻底杜绝头重脚轻）；\n3. 零 AI 腔（严禁使用 delve into / tapestry / groundbreaking / unparalleled 等空洞套话，直接用具体假设、分布、滞后项、轨迹或误差指标说话）。",
+    "context": "专业方向适配：ML / Time Series / Generative / Embodied AI | 语法：G032 & G035 | 模式：EP003",
+    "options": null,
+    "focus_word_ids": [
+      "V01402",
+      "V01439",
+      "V01460",
+      "V01418"
+    ],
+    "grammar_ids": [
+      "G023",
+      "G032",
+      "G033"
+    ],
+    "expression_pattern_ids": [
+      "EP003"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "G018",
+      "G001"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_1",
+      "G023",
+      "G032",
+      "G033",
+      "EP003",
+      "ai_timeseries_embodied_writing",
+      "anti_ai_style",
+      "end_weight"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "general_academic",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少准确融入候选词群（interest（兴趣）、investigate（调查，研究）、justify（提供充分理由）、interpret（解释））中的 2 个词条及其规约搭配",
+      "词数 45–80 词（2–3 句），主谓紧凑，遵守尾重原则（End-Weight）",
+      "零 AI 浮夸套话，必须包含具体技术条件或实验边界"
+    ],
+    "max_score": 5
+  },
+  {
+    "question_id": "Q_D0017_36",
+    "day_id": "day_0017",
+    "stage": 1,
+    "type": "independent_micro_writing",
+    "type_zh": "独立微型写作",
+    "difficulty": 1,
+    "training_objective": "撰写融合 intermediate、investigate 与 advocate 的 3–5 句六级/雅思托福/演讲实证论证段落。",
+    "prompt": "【day_0017·独立微型写作 2：六级 / 雅思托福高分议论文与学术演讲（Tech Talk）完整段落写作（65–110 词，3–5 句）】\n应用场景：英语六级（CET-6）、雅思大作文（IELTS Task 2）、托福独立写作或学术会议主题演讲。\n写作要求：围绕“科技/教育/公共政策中的可及性、成本权衡与实证评估”主题，运用以下词群中的至少 3 个词条（intermediate（中间的）、investigate（调查）、justify（证明合理）、advocate（主张）），写出一段 3–5 句、逻辑严密的完整段落：\n1. 结构必须包含：【明确主题句（Topic Sentence）】+【具体作用机制解释（Mechanism）】+【真实可感的具体实例/数据场景（Concrete Instance，严禁只有夸张口号而无实例）】+【让步或边界限定句（Concession/Qualification）】；\n2. 运用语法规则【G034】（四大常见表达病灶诊断：口语化、过度表达（Over-expression）、不精确表达与指代悬空）与表达模式【EP006】（描述实验执行、基线核查与可复现流程）；\n3. 句式自然地道，杜绝死板模板句与头重脚轻。",
+    "context": "文体适配：CET-6 / IELTS / TOEFL Essay & Academic Speech | 语法：G034 & G036",
+    "options": null,
+    "focus_word_ids": [
+      "V01411",
+      "V01440",
+      "V01461",
+      "V00085"
+    ],
+    "grammar_ids": [
+      "G034",
+      "G028",
+      "G036"
+    ],
+    "expression_pattern_ids": [
+      "EP006"
+    ],
+    "prerequisite_ids": [
+      "G031",
+      "G032",
+      "V01439",
+      "V01460",
+      "G033",
+      "G020",
+      "G034"
+    ],
+    "knowledge_tags": [
+      "independent_micro_writing",
+      "stage_1",
+      "G034",
+      "G028",
+      "G036",
+      "EP006",
+      "cet6_ielts_toefl_writing",
+      "concrete_exemplification",
+      "concession_rebuttal"
+    ],
+    "scene": "argumentation_causality_and_essay_writing",
+    "register": "formal_academic",
+    "answer_format": "short_academic_paragraph",
+    "is_active_output": true,
+    "constraints": [
+      "至少自然融入候选词群（intermediate（中间的）、investigate（调查）、justify（证明合理）、advocate（主张））中的 3 个词条",
+      "必须包含具体实例或机制说明，严禁只喊口号或堆砌夸张词",
+      "3–5 个完整英文句（65–110 词），标点与指代规范"
+    ],
+    "max_score": 5
+  }
+]

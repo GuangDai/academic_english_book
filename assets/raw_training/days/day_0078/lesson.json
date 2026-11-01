@@ -1,0 +1,2523 @@
+{
+  "day_id": "day_0078",
+  "day_number": 78,
+  "stage": 4,
+  "stage_name_zh": "阶段 4：顶会论文、具身智能/生成建模、学术演讲与全周期综合复习（Day 76–116）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G010】不定式与动名词的补足语分工及非谓语动词搭配；【G015】分词短语（现在分词与过去分词）作后置定语与状语及悬垂修饰防范。",
+    "掌握学术表达模式：【EP015】章节过渡与Given-New指代衔接（This + 总结名词），彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V01255",
+        "V01263",
+        "V01271",
+        "V01279"
+      ],
+      "lemmas": [
+        "in general",
+        "in more depth",
+        "in particular",
+        "in some ways"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V01256",
+        "V01264",
+        "V01272",
+        "V01280"
+      ],
+      "lemmas": [
+        "in greater detail",
+        "in more detail",
+        "in recent times",
+        "in spite of"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V01257",
+        "V01265",
+        "V01273",
+        "V01281"
+      ],
+      "lemmas": [
+        "in greater detail",
+        "in more detail",
+        "in recent years",
+        "in sum"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V01258",
+        "V01266",
+        "V01274"
+      ],
+      "lemmas": [
+        "in instalments",
+        "in most respects",
+        "in relation to"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V01259",
+        "V01267",
+        "V01275"
+      ],
+      "lemmas": [
+        "in instalments",
+        "in my opinion",
+        "in relation to"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V01260",
+        "V01268",
+        "V01276"
+      ],
+      "lemmas": [
+        "in light of",
+        "in no circumstances",
+        "in respect of"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V01261",
+        "V01269",
+        "V01277"
+      ],
+      "lemmas": [
+        "in light of",
+        "in no way",
+        "in short"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V01262",
+        "V01270",
+        "V01278"
+      ],
+      "lemmas": [
+        "in line with",
+        "in other words",
+        "in short"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V01255",
+      "lemma": "in general",
+      "pos": "adverbial_phrase",
+      "raw_pos": "状语短语",
+      "senses": [
+        {
+          "sense_id": "V01255_S01",
+          "pos": "状语短语",
+          "meaning_zh": "一般而言",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：一般而言（状语短语）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In general, applicants should allow time for document checks.",
+          "example_zh": "一般而言，申请者应为文件审核留出时间。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In general + 【主句核心主谓宾/表】applicants should allow time for document checks. （目标词“in general”作 状语短语 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "概括规律；不表示所有情形。 | 熟词生义与多义辨析：学术语境与搭配约束：概括规律；不表示所有情形。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：一般而言（状语短语）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：概括规律；不表示所有情形。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in general, applicants”精确表述“一般而言”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in general, applicants”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in general",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in general"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01255_01",
+          "phrase": "in general, applicants",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：in general, applicants（一般而言）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01102",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01255"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：概括规律；不表示所有情形。",
+        "source_tags": [
+          "V01255",
+          "U16"
+        ]
+      }
+    },
+    {
+      "word_id": "V01256",
+      "lemma": "in greater detail",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01256_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "更详细地",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：更详细地（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The appendix examines the assumptions in greater detail.",
+          "example_zh": "附录更详细地考察了这些假设。",
+          "sentence_constituents_zh": "【紧凑主语】The appendix examines the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "较正式，对应in more detail。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01256 adv. phrase] 更详细地（例：The appendix examines the assumptions in greater detail.）；[V01257 状语短语] 更详细地（例：We examine the assumptions in greater detail below.） | 本条用法约束：较正式，对应in more detail。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：更详细地（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01256 adv. phrase] 更详细地（例：The appendix examines the assumptions in greater detail.）；[V01257 状语短语] 更详细地（例：We examine the assumptions in greater detail below.） | 本条用法约束：较正式，对应in more detail。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“examine in greater detail”精确表述“更详细地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“examine in greater detail”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in greater detail",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in greater detail"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01256_01",
+          "phrase": "examine in greater detail",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：examine in greater detail（更详细地）"
+        }
+      ],
+      "register": "spoken_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01256",
+          "V01257"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01256 adv. phrase] 更详细地（例：The appendix examines the assumptions in greater detail.）；[V01257 状语短语] 更详细地（例：We examine the assumptions in greater detail below.） | 本条用法约束：较正式，对应in more detail。",
+        "source_tags": [
+          "V01256",
+          "U50"
+        ]
+      }
+    },
+    {
+      "word_id": "V01257",
+      "lemma": "in greater detail",
+      "pos": "adverbial_phrase",
+      "raw_pos": "状语短语",
+      "senses": [
+        {
+          "sense_id": "V01257_S01",
+          "pos": "状语短语",
+          "meaning_zh": "更详细地",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：更详细地（状语短语）",
+          "countability": "uncountable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We examine the assumptions in greater detail below.",
+          "example_zh": "下面我们更详细地考察这些假设。",
+          "sentence_constituents_zh": "【紧凑主语】We examine the assumptions... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "detail 通常不可数。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01256 adv. phrase] 更详细地（例：The appendix examines the assumptions in greater detail.）；[V01257 状语短语] 更详细地（例：We examine the assumptions in greater detail below.） | 本条用法约束：detail 通常不可数。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：更详细地（状语短语）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01256 adv. phrase] 更详细地（例：The appendix examines the assumptions in greater detail.）；[V01257 状语短语] 更详细地（例：We examine the assumptions in greater detail below.） | 本条用法约束：detail 通常不可数。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“examine assumptions in greater detail”精确表述“更详细地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“examine assumptions in greater detail”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in greater detail",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in greater detail"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01257_01",
+          "phrase": "examine assumptions in greater detail",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：examine assumptions in greater detail（更详细地）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01256",
+        "G031",
+        "G002",
+        "G006"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01256",
+          "V01257"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01256 adv. phrase] 更详细地（例：The appendix examines the assumptions in greater detail.）；[V01257 状语短语] 更详细地（例：We examine the assumptions in greater detail below.） | 本条用法约束：detail 通常不可数。",
+        "source_tags": [
+          "V01257",
+          "U16"
+        ]
+      }
+    },
+    {
+      "word_id": "V01258",
+      "lemma": "in instalments",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01258_S01",
+          "pos": "phrase",
+          "meaning_zh": "分期地",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：分期地（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The student pays the fees in instalments.",
+          "example_zh": "学生分期支付学费。",
+          "sentence_constituents_zh": "【紧凑主语】The student pays the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "美式 installments；in，不能用 on。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01258 phrase] 分期地（例：The student pays the fees in instalments.）；[V01259 prep. phr.] 分期地（例：Participants could pay the course fee in instalments.） | 本条用法约束：美式 installments；in，不能用 on。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：分期地（phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01258 phrase] 分期地（例：The student pays the fees in instalments.）；[V01259 prep. phr.] 分期地（例：Participants could pay the course fee in instalments.） | 本条用法约束：美式 installments；in，不能用 on。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“pay in instalments”精确表述“分期地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“pay in instalments”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in instalments",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in instalments"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01258_01",
+          "phrase": "pay in instalments",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：pay in instalments（分期地）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01258",
+          "V01259"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "一词多义与跨语境迁移对比：[V01258 phrase] 分期地（例：The student pays the fees in instalments.）；[V01259 prep. phr.] 分期地（例：Participants could pay the course fee in instalments.） | 本条用法约束：美式 installments；in，不能用 on。",
+        "source_tags": [
+          "V01258",
+          "U23"
+        ]
+      }
+    },
+    {
+      "word_id": "V01259",
+      "lemma": "in instalments",
+      "pos": "prepositional_phrase",
+      "raw_pos": "prep. phr.",
+      "senses": [
+        {
+          "sense_id": "V01259_S01",
+          "pos": "prep. phr.",
+          "meaning_zh": "分期地",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：分期地（prep. phr.）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "Participants could pay the course fee in instalments.",
+          "example_zh": "参加者可分期支付课程费。",
+          "sentence_constituents_zh": "【紧凑主语】Participants could pay the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "英式 instalments；美式 installments；介词 in。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01258 phrase] 分期地（例：The student pays the fees in instalments.）；[V01259 prep. phr.] 分期地（例：Participants could pay the course fee in instalments.） | 本条用法约束：英式 instalments；美式 installments；介词 in。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：分期地（prep. phr.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01258 phrase] 分期地（例：The student pays the fees in instalments.）；[V01259 prep. phr.] 分期地（例：Participants could pay the course fee in instalments.） | 本条用法约束：英式 instalments；美式 installments；介词 in。",
+        "informal_english_substitute": "talking about"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“pay in instalments”精确表述“分期地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“pay in instalments”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in instalments",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in instalments"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01259_01",
+          "phrase": "pay in instalments",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：pay in instalments（分期地）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01258",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01258",
+          "V01259"
+        ],
+        "spelling_or_regional_note": "包含英美拼写或语域说明",
+        "special_note": "一词多义与跨语境迁移对比：[V01258 phrase] 分期地（例：The student pays the fees in instalments.）；[V01259 prep. phr.] 分期地（例：Participants could pay the course fee in instalments.） | 本条用法约束：英式 instalments；美式 installments；介词 in。",
+        "source_tags": [
+          "V01259",
+          "U23"
+        ]
+      }
+    },
+    {
+      "word_id": "V01260",
+      "lemma": "in light of",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01260_S01",
+          "pos": "phrase",
+          "meaning_zh": "鉴于",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：鉴于；根据（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The team revised its plan in light of the new evidence.",
+          "example_zh": "团队根据新证据修改了计划。",
+          "sentence_constituents_zh": "【紧凑主语】The team revised its... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "in the light of 也成立；不自动表示因果推断。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in the light of 也成立；不自动表示因果推断。"
+        },
+        {
+          "sense_id": "V01260_S02",
+          "pos": "phrase",
+          "meaning_zh": "根据",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：鉴于；根据（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The team revised its plan in light of the new evidence.",
+          "example_zh": "团队根据新证据修改了计划。",
+          "sentence_constituents_zh": "【紧凑主语】The team revised its... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "in the light of 也成立；不自动表示因果推断。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in the light of 也成立；不自动表示因果推断。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：鉴于；根据（phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in the light of 也成立；不自动表示因果推断。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“revise in light of evidence”精确表述“鉴于；根据”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“revise in light of evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in light of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in light of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01260_01",
+          "phrase": "revise in light of evidence",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：revise in light of evidence（鉴于；根据）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01260",
+          "V01261"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in the light of 也成立；不自动表示因果推断。",
+        "source_tags": [
+          "V01260",
+          "U25"
+        ]
+      }
+    },
+    {
+      "word_id": "V01261",
+      "lemma": "in light of",
+      "pos": "prepositional_phrase",
+      "raw_pos": "prep.phr.",
+      "senses": [
+        {
+          "sense_id": "V01261_S01",
+          "pos": "prep.phr.",
+          "meaning_zh": "鉴于",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：鉴于；考虑到（prep.phr.）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The interpretation was revised in light of new evidence.",
+          "example_zh": "鉴于新的证据，解释作了修订。",
+          "sentence_constituents_zh": "【紧凑主语】The interpretation was revised... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "in light of 与 in the light of 均可；不是简单的物理光照。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in light of 与 in the light of 均可；不是简单的物理光照。"
+        },
+        {
+          "sense_id": "V01261_S02",
+          "pos": "prep.phr.",
+          "meaning_zh": "考虑到",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：鉴于；考虑到（prep.phr.）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The interpretation was revised in light of new evidence.",
+          "example_zh": "鉴于新的证据，解释作了修订。",
+          "sentence_constituents_zh": "【紧凑主语】The interpretation was revised... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "in light of 与 in the light of 均可；不是简单的物理光照。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in light of 与 in the light of 均可；不是简单的物理光照。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：鉴于；考虑到（prep.phr.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in light of 与 in the light of 均可；不是简单的物理光照。",
+        "informal_english_substitute": "talking about"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in light of new evidence”精确表述“鉴于；考虑到”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in light of new evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in light of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in light of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01261_01",
+          "phrase": "in light of new evidence",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：in light of new evidence（鉴于；考虑到）"
+        },
+        {
+          "collocation_id": "C_V01261_02",
+          "phrase": "in the light of findings",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：in the light of findings（鉴于；考虑到）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V01260",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01260",
+          "V01261"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01260 phrase] 鉴于；根据（例：The team revised its plan in light of the new evidence.）；[V01261 prep.phr.] 鉴于；考虑到（例：The interpretation was revised in light of new evidence.） | 本条用法约束：in light of 与 in the light of 均可；不是简单的物理光照。",
+        "source_tags": [
+          "V01261",
+          "U09"
+        ]
+      }
+    },
+    {
+      "word_id": "V01262",
+      "lemma": "in line with",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01262_S01",
+          "pos": "phrase",
+          "meaning_zh": "符合",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：符合（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The storage procedure is in line with the approved protocol.",
+          "example_zh": "存储程序符合已批准的方案。",
+          "sentence_constituents_zh": "【紧凑主语】The storage procedure is... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "表一致性。 | 熟词生义与多义辨析：学术语境与搭配约束：表一致性。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：符合（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：表一致性。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in line with”精确表述“符合”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in line with”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in line with",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in line with"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01262_01",
+          "phrase": "in line with",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in line with（符合）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01262"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：表一致性。",
+        "source_tags": [
+          "V01262",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01263",
+      "lemma": "in more depth",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01263_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "更深入地",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：更深入地（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The appendix discusses the assumptions in more depth.",
+          "example_zh": "附录更深入地讨论了这些假设。",
+          "sentence_constituents_zh": "【紧凑主语】The appendix discusses the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "适合书面表达。 | 熟词生义与多义辨析：学术语境与搭配约束：适合书面表达。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：更深入地（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：适合书面表达。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“discuss in more depth”精确表述“更深入地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“discuss in more depth”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in more depth",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in more depth"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01263_01",
+          "phrase": "discuss in more depth",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：discuss in more depth（更深入地）"
+        }
+      ],
+      "register": "spoken_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01263"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：适合书面表达。",
+        "source_tags": [
+          "V01263",
+          "U50"
+        ]
+      }
+    },
+    {
+      "word_id": "V01264",
+      "lemma": "in more detail",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01264_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "更详细地",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：更详细地（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We will examine the subgroup results in more detail.",
+          "example_zh": "我们将更详细地考察亚组结果。",
+          "sentence_constituents_zh": "【紧凑主语】We will examine the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "较正式in greater detail。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01264 adv. phrase] 更详细地（例：We will examine the subgroup results in more detail.）；[V01265 状语短语] 更详细地（例：The appendix describes the procedure in more detail.） | 本条用法约束：较正式in greater detail。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：更详细地（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01264 adv. phrase] 更详细地（例：We will examine the subgroup results in more detail.）；[V01265 状语短语] 更详细地（例：The appendix describes the procedure in more detail.） | 本条用法约束：较正式in greater detail。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“examine in more detail”精确表述“更详细地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“examine in more detail”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in more detail",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in more detail"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01264_01",
+          "phrase": "examine in more detail",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：examine in more detail（更详细地）"
+        }
+      ],
+      "register": "spoken_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01264",
+          "V01265"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01264 adv. phrase] 更详细地（例：We will examine the subgroup results in more detail.）；[V01265 状语短语] 更详细地（例：The appendix describes the procedure in more detail.） | 本条用法约束：较正式in greater detail。",
+        "source_tags": [
+          "V01264",
+          "U50"
+        ]
+      }
+    },
+    {
+      "word_id": "V01265",
+      "lemma": "in more detail",
+      "pos": "adverbial_phrase",
+      "raw_pos": "状语短语",
+      "senses": [
+        {
+          "sense_id": "V01265_S01",
+          "pos": "状语短语",
+          "meaning_zh": "更详细地",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：更详细地（状语短语）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The appendix describes the procedure in more detail.",
+          "example_zh": "附录更详细地描述了该过程。",
+          "sentence_constituents_zh": "【紧凑主语】The appendix describes the... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可替换为较正式的 in greater detail。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01264 adv. phrase] 更详细地（例：We will examine the subgroup results in more detail.）；[V01265 状语短语] 更详细地（例：The appendix describes the procedure in more detail.） | 本条用法约束：可替换为较正式的 in greater detail。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：更详细地（状语短语）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01264 adv. phrase] 更详细地（例：We will examine the subgroup results in more detail.）；[V01265 状语短语] 更详细地（例：The appendix describes the procedure in more detail.） | 本条用法约束：可替换为较正式的 in greater detail。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“discuss the procedure in more detail”精确表述“更详细地”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“discuss the procedure in more detail”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in more detail",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in more detail"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01265_01",
+          "phrase": "discuss the procedure in more detail",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：discuss the procedure in more detail（更详细地）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V01264",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01264",
+          "V01265"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01264 adv. phrase] 更详细地（例：We will examine the subgroup results in more detail.）；[V01265 状语短语] 更详细地（例：The appendix describes the procedure in more detail.） | 本条用法约束：可替换为较正式的 in greater detail。",
+        "source_tags": [
+          "V01265",
+          "U16"
+        ]
+      }
+    },
+    {
+      "word_id": "V01266",
+      "lemma": "in most respects",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01266_S01",
+          "pos": "phrase",
+          "meaning_zh": "在大多数方面",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：在大多数方面（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In most respects, the procedures were identical.",
+          "example_zh": "在大多数方面，这些程序完全相同。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In most respects + 【主句核心主谓宾/表】the procedures were identical. （目标词“in most respects”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "应指出例外方面。 | 熟词生义与多义辨析：学术语境与搭配约束：应指出例外方面。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：在大多数方面（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：应指出例外方面。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in most respects”精确表述“在大多数方面”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in most respects”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in most respects",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in most respects"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01266_01",
+          "phrase": "in most respects",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in most respects（在大多数方面）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01266"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：应指出例外方面。",
+        "source_tags": [
+          "V01266",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01267",
+      "lemma": "in my opinion",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01267_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "在我看来",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：在我看来（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In my opinion, the conclusion needs a clearer qualification.",
+          "example_zh": "在我看来，结论需要更清楚的限定。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In my opinion + 【主句核心主谓宾/表】the conclusion needs a clearer qualification. （目标词“in my opinion”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "不能写 in my point of view；论文中可直接用证据论证。 | 熟词生义与多义辨析：学术语境与搭配约束：不能写 in my point of view；论文中可直接用证据论证。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：在我看来（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：不能写 in my point of view；论文中可直接用证据论证。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in my opinion”精确表述“在我看来”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in my opinion”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in my opinion",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in my opinion"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01267_01",
+          "phrase": "in my opinion",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：in my opinion（在我看来）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01267"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：不能写 in my point of view；论文中可直接用证据论证。",
+        "source_tags": [
+          "V01267",
+          "U32"
+        ]
+      }
+    },
+    {
+      "word_id": "V01268",
+      "lemma": "in no circumstances",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01268_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "在任何情况下都不",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：在任何情况下都不（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In no circumstances should confidential records be posted publicly.",
+          "example_zh": "在任何情况下都不应公开发布保密记录。",
+          "sentence_constituents_zh": "【紧凑主语】In no circumstances should... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "与under no circumstances近义；句首倒装。 | 熟词生义与多义辨析：学术语境与搭配约束：与under no circumstances近义；句首倒装。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：在任何情况下都不（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：与under no circumstances近义；句首倒装。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in no circumstances should”精确表述“在任何情况下都不”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in no circumstances should”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in no circumstances",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in no circumstances"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01268_01",
+          "phrase": "in no circumstances should",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：in no circumstances should（在任何情况下都不）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01268"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：与under no circumstances近义；句首倒装。",
+        "source_tags": [
+          "V01268",
+          "U47"
+        ]
+      }
+    },
+    {
+      "word_id": "V01269",
+      "lemma": "in no way",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01269_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "完全不",
+          "core_meaning_zh": "基础字面义：完全不",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：完全不；绝不（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In no way does this association establish causation.",
+          "example_zh": "这种关联完全不能确立因果关系。",
+          "sentence_constituents_zh": "【紧凑主语】In no way does... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "句首倒装。 | 熟词生义与多义辨析：词义与句法边界：句首倒装。"
+        },
+        {
+          "sense_id": "V01269_S02",
+          "pos": "adv. phrase",
+          "meaning_zh": "绝不",
+          "core_meaning_zh": "基础字面义：完全不",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：完全不；绝不（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In no way does this association establish causation.",
+          "example_zh": "这种关联完全不能确立因果关系。",
+          "sentence_constituents_zh": "【紧凑主语】In no way does... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "句首倒装。 | 熟词生义与多义辨析：词义与句法边界：句首倒装。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：完全不",
+        "academic_target_sense_zh": "多义项/多词性完整映射：完全不；绝不（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：句首倒装。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in no way does”精确表述“完全不；绝不”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in no way does”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in no way",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in no way"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01269_01",
+          "phrase": "in no way does",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：in no way does（完全不；绝不）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01269"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：句首倒装。",
+        "source_tags": [
+          "V01269",
+          "U47"
+        ]
+      }
+    },
+    {
+      "word_id": "V01270",
+      "lemma": "in other words",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01270_S01",
+          "pos": "phrase",
+          "meaning_zh": "换一种说法",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：换一种说法（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The readings were identical; in other words, every reading had the same value.",
+          "example_zh": "这些读数相同；也就是说，每个读数都有相同的数值。",
+          "sentence_constituents_zh": "【紧凑主语】The readings were identical;... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "用另一种说法复述相同信息，不得借复述扩大事实或添加原句未支持的结论。 | 熟词生义与多义辨析：学术语境与搭配约束：用另一种说法复述相同信息，不得借复述扩大事实或添加原句未支持的结论。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：换一种说法（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：用另一种说法复述相同信息，不得借复述扩大事实或添加原句未支持的结论。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in other words”精确表述“换一种说法”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in other words”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in other words",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in other words"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01270_01",
+          "phrase": "in other words",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in other words（换一种说法）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01270"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：用另一种说法复述相同信息，不得借复述扩大事实或添加原句未支持的结论。",
+        "source_tags": [
+          "V01270",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01271",
+      "lemma": "in particular",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01271_S01",
+          "pos": "phrase",
+          "meaning_zh": "尤其",
+          "core_meaning_zh": "基础字面义：尤其",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：尤其；具体而言（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We examined missing responses in particular.",
+          "example_zh": "我们尤其考察了缺失回答。",
+          "sentence_constituents_zh": "【紧凑主语】We examined missing responses... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "突出某一个项目。 | 熟词生义与多义辨析：词义与句法边界：突出某一个项目。"
+        },
+        {
+          "sense_id": "V01271_S02",
+          "pos": "phrase",
+          "meaning_zh": "具体而言",
+          "core_meaning_zh": "基础字面义：尤其",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：尤其；具体而言（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We examined missing responses in particular.",
+          "example_zh": "我们尤其考察了缺失回答。",
+          "sentence_constituents_zh": "【紧凑主语】We examined missing responses... + 【核心谓语与宾补/状语后置扩展】全句共 6 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "突出某一个项目。 | 熟词生义与多义辨析：词义与句法边界：突出某一个项目。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：尤其",
+        "academic_target_sense_zh": "多义项/多词性完整映射：尤其；具体而言（phrase）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：突出某一个项目。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in particular”精确表述“尤其；具体而言”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in particular”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in particular",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in particular"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01271_01",
+          "phrase": "in particular",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in particular（尤其；具体而言）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01826",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01271"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：突出某一个项目。",
+        "source_tags": [
+          "V01271",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01272",
+      "lemma": "in recent times",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01272_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "近年来",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：近年来（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In recent times, the archive has expanded.",
+          "example_zh": "近年来，档案规模扩大了。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In recent times + 【主句核心主谓宾/表】the archive has expanded. （目标词“in recent times”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "与 in recent years 近义；不是 in the recent years 此处默认表达。 | 熟词生义与多义辨析：学术语境与搭配约束：与 in recent years 近义；不是 in the recent years 此处默认表达。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：近年来（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：与 in recent years 近义；不是 in the recent years 此处默认表达。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“change in recent times”精确表述“近年来”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“change in recent times”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in recent times",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in recent times"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01272_01",
+          "phrase": "change in recent times",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：change in recent times（近年来）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01272"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：与 in recent years 近义；不是 in the recent years 此处默认表达。",
+        "source_tags": [
+          "V01272",
+          "U36"
+        ]
+      }
+    },
+    {
+      "word_id": "V01273",
+      "lemma": "in recent years",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01273_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "近年来",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：近年来（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The field has developed in recent years.",
+          "example_zh": "该领域近年来有所发展。",
+          "sentence_constituents_zh": "【紧凑主语】The field has developed... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "教材C的时间表达。 | 熟词生义与多义辨析：学术语境与搭配约束：教材C的时间表达。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：近年来（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：教材C的时间表达。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“develop in recent years”精确表述“近年来”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“develop in recent years”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in recent years",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in recent years"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01273_01",
+          "phrase": "develop in recent years",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：develop in recent years（近年来）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01273"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：教材C的时间表达。",
+        "source_tags": [
+          "V01273",
+          "U36"
+        ]
+      }
+    },
+    {
+      "word_id": "V01274",
+      "lemma": "in relation to",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01274_S01",
+          "pos": "phrase",
+          "meaning_zh": "就……而言",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：就……而言；与……有关（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The report evaluates costs in relation to expected benefits.",
+          "example_zh": "报告结合预期收益评估成本。",
+          "sentence_constituents_zh": "【紧凑主语】The report evaluates costs... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "指关系/相关问题。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：指关系/相关问题。"
+        },
+        {
+          "sense_id": "V01274_S02",
+          "pos": "phrase",
+          "meaning_zh": "与……有关",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：就……而言；与……有关（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The report evaluates costs in relation to expected benefits.",
+          "example_zh": "报告结合预期收益评估成本。",
+          "sentence_constituents_zh": "【紧凑主语】The report evaluates costs... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "指关系/相关问题。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：指关系/相关问题。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：就……而言；与……有关（phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：指关系/相关问题。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in relation to”精确表述“就……而言；与……有关”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in relation to”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in relation to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in relation to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01274_01",
+          "phrase": "in relation to",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in relation to（就……而言；与……有关）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02099",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01274",
+          "V01275"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：指关系/相关问题。",
+        "source_tags": [
+          "V01274",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01275",
+      "lemma": "in relation to",
+      "pos": "prepositional_phrase",
+      "raw_pos": "prep. phrase",
+      "senses": [
+        {
+          "sense_id": "V01275_S01",
+          "pos": "prep. phrase",
+          "meaning_zh": "就……而言",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：就……而言；与……相关（prep. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We interpret the findings in relation to the original objective.",
+          "example_zh": "我们根据最初目标解释这些发现。",
+          "sentence_constituents_zh": "【紧凑主语】We interpret the findings... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "说明具体关系，不是随意填充短语。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：说明具体关系，不是随意填充短语。"
+        },
+        {
+          "sense_id": "V01275_S02",
+          "pos": "prep. phrase",
+          "meaning_zh": "与……相关",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：就……而言；与……相关（prep. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "We interpret the findings in relation to the original objective.",
+          "example_zh": "我们根据最初目标解释这些发现。",
+          "sentence_constituents_zh": "【紧凑主语】We interpret the findings... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "说明具体关系，不是随意填充短语。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：说明具体关系，不是随意填充短语。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：就……而言；与……相关（prep. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：说明具体关系，不是随意填充短语。",
+        "informal_english_substitute": "talking about"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in relation to the objective”精确表述“就……而言；与……相关”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in relation to the objective”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in relation to",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in relation to"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01275_01",
+          "phrase": "in relation to the objective",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：in relation to the objective（就……而言；与……相关）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01274",
+        "V02099",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01274",
+          "V01275"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01274 phrase] 就……而言；与……有关（例：The report evaluates costs in relation to expected benefits.）；[V01275 prep. phrase] 就……而言；与……相关（例：We interpret the findings in relation to the original objective.） | 本条用法约束：说明具体关系，不是随意填充短语。",
+        "source_tags": [
+          "V01275",
+          "U49"
+        ]
+      }
+    },
+    {
+      "word_id": "V01276",
+      "lemma": "in respect of",
+      "pos": "prepositional_phrase",
+      "raw_pos": "介词短语",
+      "senses": [
+        {
+          "sense_id": "V01276_S01",
+          "pos": "介词短语",
+          "meaning_zh": "关于",
+          "core_meaning_zh": "基础字面义：关于",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：关于；就…而言（介词短语）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The office requested clarification in respect of eligibility.",
+          "example_zh": "办公室要求澄清资格问题。",
+          "sentence_constituents_zh": "【紧凑主语】The office requested clarification... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "比 with regard to 更正式，常见于行政或法律文本。 | 熟词生义与多义辨析：词义与句法边界：比 with regard to 更正式，常见于行政或法律文本。"
+        },
+        {
+          "sense_id": "V01276_S02",
+          "pos": "介词短语",
+          "meaning_zh": "就…而言",
+          "core_meaning_zh": "基础字面义：关于",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：关于；就…而言（介词短语）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "The office requested clarification in respect of eligibility.",
+          "example_zh": "办公室要求澄清资格问题。",
+          "sentence_constituents_zh": "【紧凑主语】The office requested clarification... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "比 with regard to 更正式，常见于行政或法律文本。 | 熟词生义与多义辨析：词义与句法边界：比 with regard to 更正式，常见于行政或法律文本。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：关于",
+        "academic_target_sense_zh": "多义项/多词性完整映射：关于；就…而言（介词短语）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：比 with regard to 更正式，常见于行政或法律文本。",
+        "informal_english_substitute": "talking about"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in respect of eligibility”精确表述“关于；就…而言”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in respect of eligibility”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in respect of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in respect of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01276_01",
+          "phrase": "in respect of eligibility",
+          "pattern_type": "verb+prep",
+          "meaning_note_zh": "自然学术搭配：in respect of eligibility（关于；就…而言）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01276"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：比 with regard to 更正式，常见于行政或法律文本。",
+        "source_tags": [
+          "V01276",
+          "U16"
+        ]
+      }
+    },
+    {
+      "word_id": "V01277",
+      "lemma": "in short",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01277_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "简短地概括",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：简短地概括（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In short, more data are needed.",
+          "example_zh": "简短地概括：需要更多数据。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In short + 【主句核心主谓宾/表】more data are needed. （目标词“in short”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "只能压缩表达，不能删除限制条件。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01277 adv. phrase] 简短地概括（例：In short, more data are needed.）；[V01278 phrase] 简言之，简要地说（例：In short, the procedure requires three independent checks.） | 本条用法约束：只能压缩表达，不能删除限制条件。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：简短地概括（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01277 adv. phrase] 简短地概括（例：In short, more data are needed.）；[V01278 phrase] 简言之，简要地说（例：In short, the procedure requires three independent checks.） | 本条用法约束：只能压缩表达，不能删除限制条件。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in short”精确表述“简短地概括”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in short”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in short",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in short"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01277_01",
+          "phrase": "in short",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：in short（简短地概括）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01277",
+          "V01278"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01277 adv. phrase] 简短地概括（例：In short, more data are needed.）；[V01278 phrase] 简言之，简要地说（例：In short, the procedure requires three independent checks.） | 本条用法约束：只能压缩表达，不能删除限制条件。",
+        "source_tags": [
+          "V01277",
+          "U49"
+        ]
+      }
+    },
+    {
+      "word_id": "V01278",
+      "lemma": "in short",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01278_S01",
+          "pos": "phrase",
+          "meaning_zh": "简言之，简要地说",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：简言之，简要地说（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In short, the procedure requires three independent checks.",
+          "example_zh": "简要地说，这一程序需要三次独立检查。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In short + 【主句核心主谓宾/表】the procedure requires three independent checks. （目标词“in short”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "中性总结表达。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01277 adv. phrase] 简短地概括（例：In short, more data are needed.）；[V01278 phrase] 简言之，简要地说（例：In short, the procedure requires three independent checks.） | 本条用法约束：中性总结表达。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：简言之，简要地说（phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01277 adv. phrase] 简短地概括（例：In short, more data are needed.）；[V01278 phrase] 简言之，简要地说（例：In short, the procedure requires three independent checks.） | 本条用法约束：中性总结表达。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in short”精确表述“简言之，简要地说”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in short”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in short",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in short"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01278_01",
+          "phrase": "in short",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in short（简言之，简要地说）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V01277",
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V01277",
+          "V01278"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01277 adv. phrase] 简短地概括（例：In short, more data are needed.）；[V01278 phrase] 简言之，简要地说（例：In short, the procedure requires three independent checks.） | 本条用法约束：中性总结表达。",
+        "source_tags": [
+          "V01278",
+          "U01"
+        ]
+      }
+    },
+    {
+      "word_id": "V01279",
+      "lemma": "in some ways",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01279_S01",
+          "pos": "phrase",
+          "meaning_zh": "在某些方面",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：在某些方面（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In some ways, the revised interview guide is easier to use.",
+          "example_zh": "修订后的访谈提纲在某些方面更容易使用。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In some ways + 【主句核心主谓宾/表】the revised interview guide is easier to use. （目标词“in some ways”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "最好补出具体方面。 | 熟词生义与多义辨析：学术语境与搭配约束：最好补出具体方面。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：在某些方面（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：最好补出具体方面。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in some ways”精确表述“在某些方面”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in some ways”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in some ways",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in some ways"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01279_01",
+          "phrase": "in some ways",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in some ways（在某些方面）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01279"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：最好补出具体方面。",
+        "source_tags": [
+          "V01279",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01280",
+      "lemma": "in spite of",
+      "pos": "phrase",
+      "raw_pos": "phrase",
+      "senses": [
+        {
+          "sense_id": "V01280_S01",
+          "pos": "phrase",
+          "meaning_zh": "尽管",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：尽管（phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In spite of limited funding, the team completed the pilot.",
+          "example_zh": "尽管资金有限，团队还是完成了试点。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In spite of limited funding + 【主句核心主谓宾/表】the team completed the pilot. （目标词“in spite of”作 phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "后接名词/动名词，不直接接完整从句。 | 熟词生义与多义辨析：学术语境与搭配约束：后接名词/动名词，不直接接完整从句。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：尽管（phrase）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：后接名词/动名词，不直接接完整从句。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in spite of”精确表述“尽管”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in spite of”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in spite of",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in spite of"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01280_01",
+          "phrase": "in spite of",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in spite of（尽管）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01280"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：后接名词/动名词，不直接接完整从句。",
+        "source_tags": [
+          "V01280",
+          "U13"
+        ]
+      }
+    },
+    {
+      "word_id": "V01281",
+      "lemma": "in sum",
+      "pos": "adverbial_phrase",
+      "raw_pos": "adv. phrase",
+      "senses": [
+        {
+          "sense_id": "V01281_S01",
+          "pos": "adv. phrase",
+          "meaning_zh": "概括而言",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：概括而言（adv. phrase）",
+          "countability": "not_applicable",
+          "transitivity": "linking_or_prep",
+          "example_en": "In sum, the two mechanisms require separate tests.",
+          "example_zh": "概括而言，这两个机制需要分别检验。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In sum + 【主句核心主谓宾/表】the two mechanisms require separate tests. （目标词“in sum”作 adv. phrase 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "更正式的总结标记。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V01281 adv. phrase] 概括而言（例：In sum, the two mechanisms require separate tests.）；[V01282 phrase] 概括而言（例：In sum, the evidence supports further investigation.） | 本条用法约束：更正式的总结标记。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：概括而言（adv. phrase）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V01281 adv. phrase] 概括而言（例：In sum, the two mechanisms require separate tests.）；[V01282 phrase] 概括而言（例：In sum, the evidence supports further investigation.） | 本条用法约束：更正式的总结标记。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in sum”精确表述“概括而言”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in sum”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "in sum",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "in sum"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V01281_01",
+          "phrase": "in sum",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：in sum（概括而言）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G006",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V01281",
+          "V01282"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V01281 adv. phrase] 概括而言（例：In sum, the two mechanisms require separate tests.）；[V01282 phrase] 概括而言（例：In sum, the evidence supports further investigation.） | 本条用法约束：更正式的总结标记。",
+        "source_tags": [
+          "V01281",
+          "U49"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "protocol",
+      "meaning_zh": "研究方案；规程（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "mechanisms",
+      "meaning_zh": "机制（n. pl.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G010",
+      "name": "不定式与动名词的补足语分工及非谓语动词搭配",
+      "category": "C7_nonfinite_infinitives_gerunds",
+      "stage": 1,
+      "first_day": "day_0016",
+      "first_day_num": 16,
+      "prerequisites": [
+        "G001",
+        "G006"
+      ],
+      "explanation_zh": "动词后接不定式（to do）还是动名词（doing）取决于动词配价规约；同时注意 warrant, facilitate, advocate, involve, consider, anticipate 等核心学术动词的补足语限制。",
+      "rules": [
+        "接动名词（doing）或名词、不接不定式的典型动词：consider, involve, advocate, anticipate, recommend, suggest, warrant（warrant further investigation / warrant revising），facilitate（facilitate comparison，严禁写 *facilitate sb to do）。",
+        "接不定式（to do）的典型动词：aim, attempt, tend, seek, intend, resolve, enable sb to do, allow sb to do, force sb to do, oblige sb to do。"
+      ],
+      "examples": [
+        "The report advocates providing clearer information to applicants.",
+        "The procedure involves checking every record twice.",
+        "A common reporting format can facilitate comparison across studies."
+      ],
+      "common_errors": [
+        "误用不定式：*warrant to conclude / *facilitate researchers to compare / *advocate to provide / *involve to check。"
+      ]
+    },
+    {
+      "grammar_id": "G015",
+      "name": "分词短语（现在分词与过去分词）作后置定语与状语及悬垂修饰防范",
+      "category": "C7_C11_participles_and_dangling_modifiers",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G011"
+      ],
+      "explanation_zh": "分词短语能将冗长的从句浓缩为紧凑的后置定语或状语；但句首分词短语的逻辑主语必须与主句主语完全一致，绝不可产生悬垂修饰（Dangling Modifier）。",
+      "rules": [
+        "后置分词定语：records exceeding the limit (= that exceed...)；predictions compared with ground-truth labels (= that are compared...)。",
+        "句首分词状语主语一致铁律：Using a 48-step look-back window, the model reduces MSE（the model 可以 use window；但不能写 *Using a 48-step window, the MSE decreases，因为 MSE 不会自己 use window！）。"
+      ],
+      "examples": [
+        "Records exceeding the stated size limit were excluded.",
+        "Compared with earlier studies, this study used a larger sample.",
+        "Halving the sampling interval doubles the sampling frequency."
+      ],
+      "common_errors": [
+        "悬垂分词：*Training on synthetic data, the generalization error remained high（应改为 When the model was trained on synthetic data, ... 或 Training on synthetic data left the model with high generalization error）。"
+      ]
+    },
+    {
+      "grammar_id": "G021",
+      "name": "句子改写核心规范：语义等价、限定守恒与消除四大改写偏差",
+      "category": "F_sentence_rewriting_rules",
+      "stage": 2,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G014",
+        "G018"
+      ],
+      "explanation_zh": "句子改写必须在改变句法或词汇结构的同时，100% 保持原句的事实范围、否定、时间、程度和认知确定性，并能准确诊断语法错误、表达不自然、语域不当与语义扭曲。",
+      "rules": [
+        "限定守恒：原句的 provided that, in this sample, under Gaussian-kernel assumptions, may, arguably 等在改写后必须保留等价限定。",
+        "多路径自然改写：支持动词 <-> 派生名词转换、从句 <-> 介词短语转换、主动 <-> 被动焦点转换，提供多个自然可接受版本。"
+      ],
+      "examples": [
+        "Source: Missing records account for the discrepancy between the totals.\nRewrite 1: The discrepancy between the totals is attributable to missing records.\nRewrite 2: Missing records explain why the two totals differ."
+      ],
+      "common_errors": [
+        "在改写中偷换概念或将相关关系升级为因果结论。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP015",
+      "name": "章节过渡与Given-New指代衔接（This + 总结名词）",
+      "function_category": "discourse_signposting",
+      "stage": 3,
+      "first_day": "day_0064",
+      "first_day_num": 64,
+      "template": "This [discrepancy/limitation/pattern] motivates our next analysis, where we turn to [next topic] in greater detail.",
+      "explanation_zh": "用 This + 范畴名词总结上句结果并自然开启下一句或下一节。",
+      "register": "formal_academic",
+      "examples": [
+        "An anomaly in the sensor readings prompted a check of the calibration procedure.",
+        "We now turn to the evaluation criteria."
+      ],
+      "common_errors": [
+        "使用指代不清的裸 This 作主语。"
+      ],
+      "prerequisites": [
+        "G009",
+        "G024",
+        "G029"
+      ]
+    },
+    {
+      "pattern_id": "EP020",
+      "name": "生成模型与概率预测：分布校准、不确定性量化与尾部风险",
+      "function_category": "generative_and_probabilistic_modeling",
+      "stage": 2,
+      "first_day": "day_0030",
+      "first_day_num": 30,
+      "template": "A probabilistic/generative model assigns probabilities to possible outcomes, allowing us to quantify uncertainty and evaluate both calibration and sharpness.",
+      "explanation_zh": "用于生成模型（Generative Models）与概率预测论文，阐述为何需要学习完整条件分布而非单一点估计（point estimate）。",
+      "register": "technical_specialized",
+      "examples": [
+        "A distributional forecast is arguably more informative when decisions depend on tail risk.",
+        "Forecast calibration concerns statistical consistency between forecasts and observations."
+      ],
+      "common_errors": [
+        "将高集中度（sharpness）误认为已经过概率校准（calibrated）。"
+      ],
+      "prerequisites": [
+        "G014",
+        "G035"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00178",
+        "lemma": "article about",
+        "pos": "noun_phrase",
+        "meaning_zh": "关于……的文章",
+        "polysemy_trap_zh": "学术语境与搭配约束：本词条article为名词，about引出主题；about常用于一般话题，on常用于具体专题，二者并非绝对互斥。",
+        "key_collocations": [
+          "article about"
+        ],
+        "example_en": "We read an article about community archives.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00179",
+        "lemma": "article on",
+        "pos": "noun_phrase",
+        "meaning_zh": "关于……的文章",
+        "polysemy_trap_zh": "学术语境与搭配约束：本词条article为名词，on引出主题；about常用于一般话题，on常用于具体专题，二者并非绝对互斥。",
+        "key_collocations": [
+          "article on"
+        ],
+        "example_en": "The seminar discusses an article on water policy.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00182",
+        "lemma": "as a result of",
+        "pos": "phrase",
+        "meaning_zh": "由于",
+        "polysemy_trap_zh": "词义与句法边界：因果解释需证据。",
+        "key_collocations": [
+          "as a result of"
+        ],
+        "example_en": "The session was cancelled as a result of a power failure.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00183",
+        "lemma": "as a rule",
+        "pos": "adverbial_phrase",
+        "meaning_zh": "通常",
+        "polysemy_trap_zh": "词义与句法边界：表示通常做法，不是强制性规章的同义词。",
+        "key_collocations": [
+          "as a rule, students"
+        ],
+        "example_en": "As a rule, students discuss major revisions with their supervisor.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00184",
+        "lemma": "as a whole",
+        "pos": "adverbial_phrase",
+        "meaning_zh": "作为一个整体",
+        "polysemy_trap_zh": "学术语境与搭配约束：通常紧随整体对象，区别于 on the whole 的概括语气。",
+        "key_collocations": [
+          "the sample as a whole"
+        ],
+        "example_en": "The sample as a whole is more diverse than either subgroup.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00185",
+        "lemma": "as can be seen in",
+        "pos": "discourse_phrase",
+        "meaning_zh": "如……所示",
+        "polysemy_trap_zh": "学术语境与搭配约束：不用 as it can be seen in；若未提供表只为语言例句。",
+        "key_collocations": [
+          "as can be seen in Table 1"
+        ],
+        "example_en": "As can be seen in Table 1, the groups differ in size.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00186",
+        "lemma": "as compared to",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "相较于",
+        "polysemy_trap_zh": "学术语境与搭配约束：与较简洁的compared with意义接近。",
+        "key_collocations": [
+          "as compared to the previous year"
+        ],
+        "example_en": "Rainfall was higher as compared to the previous year.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00187",
+        "lemma": "as far as … is concerned",
+        "pos": "frame_phrase",
+        "meaning_zh": "就…而言",
+        "polysemy_trap_zh": "学术语境与搭配约束：concerned 前用 be；填入对象后保持完整结构。",
+        "key_collocations": [
+          "as far as the design is concerned"
+        ],
+        "example_en": "As far as the design is concerned, the groups are comparable.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00188",
+        "lemma": "as has been shown",
+        "pos": "clause",
+        "meaning_zh": "如已展示或证明的那样",
+        "polysemy_trap_zh": "学术语境与搭配约束：不要把展示结果写成普遍证明。",
+        "key_collocations": [
+          "as has been shown"
+        ],
+        "example_en": "As has been shown in Table 2, attendance varied by site.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00189",
+        "lemma": "as opposed to",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "与…相对",
+        "polysemy_trap_zh": "词义与句法边界：后接名词或动名词；使对比对象形式平行。",
+        "key_collocations": [
+          "observed values as opposed to predictions"
+        ],
+        "example_en": "The table reports observed values as opposed to predictions.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00190",
+        "lemma": "as regards",
+        "pos": "phrase",
+        "meaning_zh": "关于",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00190 phrase] 关于（例：As regards data storage, the protocol requires encryption.）；[V00191 介词短语] 关于；就…而言（例：As regards the timetable, the department has made no changes.） | 本条用法约束：较正式；regards 带 s。",
+        "key_collocations": [
+          "as regards"
+        ],
+        "example_en": "As regards data storage, the protocol requires encryption.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00191",
+        "lemma": "as regards",
+        "pos": "prepositional_phrase",
+        "meaning_zh": "关于",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00190 phrase] 关于（例：As regards data storage, the protocol requires encryption.）；[V00191 介词短语] 关于；就…而言（例：As regards the timetable, the department has made no changes.） | 本条用法约束：直接接名词短语，不加 to。",
+        "key_collocations": [
+          "as regards the timetable"
+        ],
+        "example_en": "As regards the timetable, the department has made no changes.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00192",
+        "lemma": "as this slide shows",
+        "pos": "clause",
+        "meaning_zh": "如幻灯片所示",
+        "polysemy_trap_zh": "学术语境与搭配约束：只有幻灯片实际呈现时才用。",
+        "key_collocations": [
+          "as this slide shows"
+        ],
+        "example_en": "As this slide shows, response rates differ by age group.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00193",
+        "lemma": "as we have seen",
+        "pos": "clause",
+        "meaning_zh": "如前所述或所见",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00193 clause] 如前所述或所见（例：As we have seen, the two estimates use different denominators.）；[V00194 discourse phrase] 如我们已经看到的（例：As we have seen above, the rule has limitations.） | 本条用法约束：只能指已解释的信息。",
+        "key_collocations": [
+          "as we have seen"
+        ],
+        "example_en": "As we have seen, the two estimates use different denominators.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00194",
+        "lemma": "as we have seen",
+        "pos": "discourse_phrase",
+        "meaning_zh": "如我们已经看到的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00193 clause] 如前所述或所见（例：As we have seen, the two estimates use different denominators.）；[V00194 discourse phrase] 如我们已经看到的（例：As we have seen above, the rule has limitations.） | 本条用法约束：现在完成式回指已讨论内容。",
+        "key_collocations": [
+          "as we have seen above"
+        ],
+        "example_en": "As we have seen above, the rule has limitations.",
+        "first_day": "day_0064"
+      },
+      {
+        "word_id": "V00195",
+        "lemma": "as we saw",
+        "pos": "discourse_phrase",
+        "meaning_zh": "如前面所见",
+        "polysemy_trap_zh": "学术语境与搭配约束：真实回指，不能指未出现的证据。",
+        "key_collocations": [
+          "as we saw in Section 2"
+        ],
+        "example_en": "As we saw in Section 2, the criteria differ.",
+        "first_day": "day_0064"
+      }
+    ]
+  }
+}

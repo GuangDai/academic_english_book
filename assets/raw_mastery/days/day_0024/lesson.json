@@ -1,0 +1,333 @@
+{
+  "day": "day_0024",
+  "day_number": 24,
+  "stage": 2,
+  "stage_name_zh": "Stage 2: 深度病段诊所与论证加固（去AI味、五病根治、Toulmin论证与让步反驳）",
+  "daily_focus_title_zh": "第 24 天：全文总结与学术影响收尾段（Conclusion & Broader Outlook） × 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic） × TOEFL_Independent 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP24",
+      "track_id": "T3",
+      "track_name_zh": "AI/CS 小论文：Experiments 主结果、消融归因与 Limitations 讨论（BP17–BP24）",
+      "title_zh": "全文总结与学术影响收尾段（Conclusion & Broader Outlook）",
+      "user_intent_zh": "我这一段想写整篇小论文的 Conclusion：不简单复制粘贴 Abstract，而是从更高维度总结本文解决的科学矛盾、方法精髓、实证高度与领域启示。",
+      "when_to_use_zh": "Conclusion 章节全段",
+      "paragraph_move_structure": [
+        "S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain].",
+        "S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty].",
+        "S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups.",
+        "S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments."
+      ],
+      "cohesion_and_logic_formula": "Tension Resolved -> Methodological Insight -> Empirical Confirmation -> Generalizable Blueprint. 绑定逻辑规则：L013, L023, L029.",
+      "defective_draft": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+      "defect_diagnosis_zh": "机械重复摘要且句式干瘪，末句 We hope our work will inspire... 属于典型的中式客套收尾。",
+      "model_paragraph_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting. By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes. Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead. Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心科学问题闭合 Scientific Closure]",
+          "sentence_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [方法论精髓回顾 Methodological Synthesis]",
+          "sentence_en": "By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实证结果高度概括 Empirical Recap]",
+          "sentence_en": "Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [跨领域迁移展望 Broader Outlook]",
+          "sentence_en": "Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "首句点明“解决了归一化平稳性与物理幅值保真度之间的长期张力”，末句自然延展到信息物理系统的异常检测与闭环预测控制，余音绕梁。"
+    },
+    {
+      "blueprint_id": "BP36",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "让步-反驳段：优雅承认反方合理成分并强力扭转权重（Concession & Refutation）",
+      "user_intent_zh": "我这一段想在议论文中回应反方观点（Some people argue that...）：先大度承认反方担忧在短期或局部确实存在，再用结构性证据或制度设计证明该问题完全可控，从而锁死我方立场。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 让步反驳段（Body Paragraph 2 or 3）",
+      "paragraph_move_structure": [
+        "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers].",
+        "S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified.",
+        "S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment.",
+        "S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles."
+      ],
+      "cohesion_and_logic_formula": "Admittedly (Valid Concern) -> Short-term Reality -> However (Zero-Sum Fallacy Pivot) -> Historical Analogy & Policy Mitigation. 绑定逻辑规则：L008, L023.",
+      "defective_draft": "Some people think robots will take all our jobs and make everyone poor. This is wrong. Robots will create new jobs, and people can learn new skills to find better jobs easily.",
+      "defect_diagnosis_zh": "生硬武断（This is wrong, find better jobs easily），既没有共情反方的合理短期阵痛，也没有给出可信的历史类比或转型机制。",
+      "model_paragraph_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers. During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules. However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles. Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [呈现反方最有力的担忧 Articulate Opposing Concern]",
+          "sentence_en": "Admittedly, critics raise a legitimate concern that autonomous robotics and generative software can displace routine clerical and assembly-line workers.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [呈现反方最有力的担忧 Articulate Opposing Concern]：Admittedly, critics raise a valid concern that [Opposing Argument, e.g., automation displaces entry-level clerical and manufacturing workers]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [承认局部真实性 Acknowledge Partial Validity]",
+          "sentence_en": "During initial transition phases, rapid automation does create localized employment friction for personnel whose tasks follow rigid, codifiable rules.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [承认局部真实性 Acknowledge Partial Validity]：In the short term, rapid deployment of [Technology/Policy] can indeed create transitional friction for workers whose routines are easily codified. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [釜底抽薪式转折 Structural Pivot]",
+          "sentence_en": "However, treating technological upgrading as a fixed-pie zero-sum game overlooks how productivity gains expand downstream service and engineering roles.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [釜底抽薪式转折 Structural Pivot]：However, viewing [X] purely as a zero-sum threat overlooks how productivity gains generate entirely new categories of skilled employment. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [历史/现实反证与制度补救 Evidence & Mitigation]",
+          "sentence_en": "Much as spreadsheet software eliminated manual ledger keeping while multiplying demand for financial data analysts, coupling industrial automation with subsidized reskilling programs enables displaced workers to transition into robot fleet supervision, calibration, and exception handling.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [历史/现实反证与制度补救 Evidence & Mitigation]：Just as spreadsheet software reduced manual bookkeeping while expanding demand for financial analysts, pairing automation with targeted vocational retraining allows displaced workers to transition into system supervision and maintenance roles. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "先用 Admittedly... does create localized employment friction 展现客观严谨，再用 However, treating X as a fixed-pie zero-sum game overlooks... + 电子表格软件的历史类比彻底瓦解反方悲观论。"
+    },
+    {
+      "blueprint_id": "BP25",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "图表小作文首段：题目改写与总体趋势概览（Paraphrase + Macro Overview）",
+      "user_intent_zh": "我这一段想写雅思 Task 1 或数据报告的第一段：用同义句法改写图表标题，并用两句话高度凝练全图最核心的 2 个宏观趋势（极值、反超拐点或主次格局），绝不堆砌零碎数字。",
+      "when_to_use_zh": "IELTS Academic Task 1 首段（Introduction + Overview）或实验趋势总览段",
+      "paragraph_move_structure": [
+        "S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B].",
+        "S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year].",
+        "S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor."
+      ],
+      "cohesion_and_logic_formula": "Paraphrase -> Overall Trajectory Contrast -> Dominant Crossover/Extremum (Zero raw numbers in Overview!). 绑定逻辑规则：L013, L015.",
+      "defective_draft": "The chart shows the energy consumption from 2000 to 2025. We can see that solar energy went up a lot from 5% to 35%, and coal went down from 60% to 25%. Wind also went up.",
+      "defect_diagnosis_zh": "① 词汇低幼（went up a lot, went down）；② 把具体百分比过早塞进了 Overview，导致后面细节段无话可写。",
+      "model_paragraph_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025. Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily. Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [图表命题同义改写 Prompt Paraphrase]",
+          "sentence_en": "The line graph compares the proportion of electricity generated from four fuel sources across three industrial economies between 2000 and 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [图表命题同义改写 Prompt Paraphrase]：The line graph / bar chart compares [Variable/Metric] across [Categories/Regions] over a [N]-year period from [Year A] to [Year B]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [宏观趋势 1",
+          "sentence_en": "Overall, renewable sources—particularly solar and wind power—followed a pronounced upward trajectory over the 25-year span, whereas coal reliance contracted steadily.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [宏观趋势 1：总体走向与反超 Overview Trend 1]：Overall, while [Category A and B] experienced a steady upward trajectory, [Category C] declined markedly, leading to a reversal in dominance around [Mid-Year]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [宏观趋势 2",
+          "sentence_en": "Most notably, clean energy generation overtook fossil-fuel consumption around 2018, shifting from a marginal supplement to the dominant power supply by the end of the period.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [宏观趋势 2：极值或差距特征 Overview Trend 2]：Notably, [Category A] registered the most dramatic growth throughout the period, ultimately overtaking all other sectors to become the primary contributor. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "不露一个具体数字，却精准抓住了“可再生能源上扬 vs. 煤炭萎缩”的总基调以及“2018 年主次反转（crossover）”的决定性拐点，稳拿 Task Achievement 8+。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L024",
+      "category": "Domain Discourse (时间序列专属论证)",
+      "name_zh": "时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic）",
+      "name_en": "Non-Stationary Drift and Multi-Scale Decomposition Logic",
+      "core_principle_zh": "论述时间序列问题时，必须清晰区分两类矛盾：① 统计分布漂移（Distribution Shift：均值/方差随时间突变）与局部时序语义（Intrinsic Temporal Dependency）之间的矛盾；② 短期高频波动（High-frequency Fluctuations）与长期宏观趋势（Long-term Trend）的混叠干扰。",
+      "structural_formula": "Naive normalization removes [Non-stationary shift] at the expense of [Intrinsic scale information]. -> Our reversible/decoupled module disentangles [Component A] from [Component B], restoring [Target Property].",
+      "common_pitfall_zh": "笼统说 time series data is very complex and hard to predict，说不清究竟是协变量偏移、频率混叠还是采样不规则。",
+      "bad_example_en": "Real-world time series are very complicated and change all the time, so normal normalization makes predictions bad.",
+      "good_example_en": "While instance normalization mitigates non-stationary mean and variance shifts across lookback windows, stripping these statistics discards amplitude cues essential for forecasting peak electricity loads. Our adaptive de-stationary projection restores horizon-specific scale statistics during decoding, preserving both stationarity in attention computation and physical amplitude fidelity in the final output.",
+      "analysis_zh": "精准切中时间序列领域最核心的“去平稳化归一化抹除物理幅值信息 vs. 注意力层需要平稳分布”的张力。"
+    },
+    {
+      "logic_id": "L002",
+      "category": "Information Flow (信息流推进)",
+      "name_zh": "平行主位推进模式（Constant Theme Progression）",
+      "name_en": "Constant Theme Progression",
+      "core_principle_zh": "当一段话旨在从多个互补维度刻画同一个核心模型、算法或社会现象时，连续 2–3 句保持相同或同指代的主语（如 Our framework / The temporal encoder / It），让谓语动词承担信息递进。",
+      "structural_formula": "S1: [Theme T] + [Action 1 (Architecture)]. | S2: [T / It] + [Action 2 (Optimization)]. | S3: [By combining both, T] + [Action 3 (Empirical Outcome)].",
+      "common_pitfall_zh": "为了所谓“句式多变”强行每句换主语、频繁在主动与被动之间横跳，导致读者搞不清到底是谁在执行模块动作。",
+      "bad_example_en": "The encoder extracts multi-scale patches first. Then frequency spectrum filtering is performed by a Fourier block. Finally, high-resolution predictions are generated by the decoder.",
+      "good_example_en": "Our architecture processes non-stationary sequences in three stages. It first partitions the raw series into multi-scale temporal patches, then filters high-frequency noise in the Fourier domain, and finally decodes these refined representations into multi-horizon forecasts.",
+      "analysis_zh": "修改前主语在 encoder、filtering、predictions 之间无序跳转且混用被动语态；修改后以 Our architecture / It 为统一主位，用三个并列强动词 partitions -> filters -> decodes 清晰串联数据流。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC24",
+      "domain_en": "Multimodal Robotic Manipulation & Tactile Feedback",
+      "domain_zh": "多模态灵巧操作与力触觉闭环反馈",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP24",
+      "linked_logic_id": "L024",
+      "communicative_goal_zh": "我这一段想写整篇小论文的 Conclusion：不简单复制粘贴 Abstract，而是从更高维度总结本文解决的科学矛盾、方法精髓、实证高度与领域启示。",
+      "original_defective_paragraph": "In conclusion, we proposed DyTS-Net in this paper. It has a spectral module and an ODE module. Experiments show that it achieves state-of-the-art performance on many datasets. We hope our work will inspire more researchers in the future.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L024 时间序列非平稳性与多尺度解耦论证规范（Time Series Non-Stationarity Logic））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "机械重复摘要且句式干瘪，末句 We hope our work will inspire... 属于典型的中式客套收尾。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting. By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes. Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead. Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [核心科学问题闭合 Scientific Closure]",
+          "sentence_en": "In this work, we resolved the long-standing tension between shift-invariant normalization and physical amplitude preservation in non-stationary time series forecasting.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [核心科学问题闭合 Scientific Closure]：In this paper, we addressed the fundamental tension between [Goal A] and [Goal B] in [Domain]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [方法论精髓回顾 Methodological Synthesis]",
+          "sentence_en": "By decoupling frequency-domain phase attention from continuous neural-ODE scale tracking, DyTS-Net captures long-range seasonal dependencies while accurately reconstructing extreme peak magnitudes.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [方法论精髓回顾 Methodological Synthesis]：By introducing [Model/Mechanism], we demonstrated that [Core Insight] enables [Capability] without incurring [Traditional Penalty]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [实证结果高度概括 Empirical Recap]",
+          "sentence_en": "Empirical evaluations across eight benchmarks and industrial wind-power telemetry demonstrated MSE reductions of up to 17.4% alongside a 45% reduction in computational overhead.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [实证结果高度概括 Empirical Recap]：Comprehensive evaluations across [Benchmarks/Hardware] confirmed consistent error reductions of up to [X%] alongside substantial inference speedups. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [跨领域迁移展望 Broader Outlook]",
+          "sentence_en": "Beyond forecasting, this structural-scale disentanglement principle provides a generalizable foundation for anomaly detection and closed-loop predictive control in non-stationary cyber-physical systems.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [跨领域迁移展望 Broader Outlook]：Beyond [Current Task], our [Core Principle] offers a generalizable blueprint for broader sequential decision-making tasks under non-stationary environments. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC44",
+      "domain_en": "IELTS Task 1 & Technical Data Synthesis",
+      "domain_zh": "雅思小作文动态/静态图表与实证数据综述",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP44",
+      "linked_logic_id": "L014",
+      "communicative_goal_zh": "我这一段想用于演讲最后一页总结（Take-home Messages）以及回答台下教授/审稿人犀利提问时的标准应答模板。",
+      "original_defective_paragraph": "That's all for my presentation. Thank you for listening. Do you have any questions? (When asked a hard question): Well, maybe we didn't test that, I think maybe it can work in the future.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L014 公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "收尾平淡（That's all），回答问题时犹豫闪烁（Well, maybe... I think maybe...），显得对自己的工作极不自信。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "To wrap up, the key takeaway from our work is that non-stationary forecasting requires separating shift-invariant phase structure from continuous amplitude dynamics. Doing so lets DyTS-Net cut long-horizon error by up to 17% while running at half the computational cost, and our full code and weights are live at the QR code on screen. — [Q&A Response]: Thank you for that sharp question on irregular missing timestamps. The short answer is that our neural-ODE branch handles arbitrary time intervals natively: in our 30% random-dropout stress test, MSE degraded by less than 5%, and we can share the backup slide on irregular sampling right here.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [凝练核心带走信息 Core Take-Home Message]",
+          "sentence_en": "To wrap up, the key takeaway from our work is that non-stationary forecasting requires separating shift-invariant phase structure from continuous amplitude dynamics.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [凝练核心带走信息 Core Take-Home Message]：To wrap up, if there is one takeaway from our work today, it is that [One-Sentence Core Principle]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [成果三点速览 Rapid Recap]",
+          "sentence_en": "Doing so lets DyTS-Net cut long-horizon error by up to 17% while running at half the computational cost, and our full code and weights are live at the QR code on screen.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [成果三点速览 Rapid Recap]：By combining [A] and [B], [Model] delivers [Metric 1], [Metric 2], and [Open-Source/Practical Asset]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]",
+          "sentence_en": "Thank you for that sharp question on irregular missing timestamps.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [Q&A 礼貌接招与结论前置 Q&A Direct Answer]：(For Q&A) That is a great question regarding [Topic]—the short answer is [Direct Conclusion]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [Q&A 展开与诚实边界 Q&A Elaboration]",
+          "sentence_en": "The short answer is that our neural-ODE branch handles arbitrary time intervals natively: in our 30% random-dropout stress test, MSE degraded by less than 5%, and we can share the backup slide on irregular sampling right here.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [Q&A 展开与诚实边界 Q&A Elaboration]：In our current experiments, we observed [Empirical Fact], and extending this to [Questioner's Scenario] can be handled by [Concrete Mechanism]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC02",
+      "domain_en": "Non-Stationary Time Series Forecasting",
+      "domain_zh": "非平稳时间序列预测与分布漂移消除",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP02",
+      "linked_logic_id": "L002",
+      "communicative_goal_zh": "我这一段想客观概括前人主流模型（如 Transformer / Diffusion / MLP）取得了什么进展，但点出它们共同依赖的一个脆弱前提假设。",
+      "original_defective_paragraph": "Many researchers have studied this problem. Wu et al. used Autoformer. Nie et al. used PatchTST. They are very good, but they all think the data distribution does not change, which is wrong in real life.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L002 平行主位推进模式（Constant Theme Progression））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 流水账罗列人名（A used X, B used Y）；② 口语化严重（very good, think, which is wrong in real life）。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Recent deep forecasters have substantially reduced long-horizon error by replacing point-wise attention with sub-series patch tokenization and frequency-domain decomposition. These architectures effectively capture recurring seasonal patterns when training and test sequences share stationary statistical moments. Yet they implicitly assume that inter-channel correlations and spectral energy distributions remain time-invariant across the prediction window. When external shocks alter underlying system dynamics, this stationarity assumption collapses, causing frozen spectral filters to project outdated trends.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [流派归类 Taxonomic Opening]",
+          "sentence_en": "Recent deep forecasters have substantially reduced long-horizon error by replacing point-wise attention with sub-series patch tokenization and frequency-domain decomposition.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [流派归类 Taxonomic Opening]：按核心机制归纳现有主流范式及其已解决的子问题。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [代表性机制展开 Mechanism Recap]",
+          "sentence_en": "These architectures effectively capture recurring seasonal patterns when training and test sequences share stationary statistical moments.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [代表性机制展开 Mechanism Recap]：简述这些方法如何通过特定架构（如 Patch 分块、频域分解或扩散去噪）提升表征能力。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [转折揭示隐含假设 Pivot to Hidden Assumption]",
+          "sentence_en": "Yet they implicitly assume that inter-channel correlations and spectral energy distributions remain time-invariant across the prediction window.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [转折揭示隐含假设 Pivot to Hidden Assumption]：用 Yet / However 锋利转折，指出它们暗中依赖的理想化假设（如平稳分布、静态通道相关性、仿真动力学无偏差）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [假设破裂后果 Breakdown Under Stress]",
+          "sentence_en": "When external shocks alter underlying system dynamics, this stationarity assumption collapses, causing frozen spectral filters to project outdated trends.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [假设破裂后果 Breakdown Under Stress]：说明当真实数据违背该假设时，现有架构为何会遭遇性能断崖。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT24",
+    "genre": "TOEFL_Independent",
+    "title_zh": "托福独立写作满分范文：生成模型训练中坚守真实人类语料锚点与防止模型自噬（Model Autophagy）",
+    "structural_blueprint_chain": [
+      "BP33",
+      "BP35",
+      "BP39",
+      "BP38",
+      "BP40"
+    ]
+  }
+}

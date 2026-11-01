@@ -1,0 +1,430 @@
+% ==============================================================================
+% Academic English Textbook & Workbook Styling Package
+% File: style/academic_book_style.tex
+% Target: XeLaTeX engine under TeX Live 2026
+% ==============================================================================
+
+% ------------------------------------------------------------------------------
+% 1. Page Geometry & Physical Dimensions
+% ------------------------------------------------------------------------------
+\usepackage[
+  a4paper,
+  margin=23mm,
+  headheight=15pt,
+  headsep=18pt,
+  footskip=25pt
+]{geometry}
+
+% ------------------------------------------------------------------------------
+% 2. Core Functional Packages
+% ------------------------------------------------------------------------------
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,tabularx,multicol,longtable,array,calc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage{tikz}
+
+% Suppress headers and footers on accidental blank verso pages
+\IfFileExists{emptypage.sty}{%
+  \usepackage{emptypage}%
+}{%
+  \makeatletter
+  \def\cleardoublepage{%
+    \clearpage
+    \if@twoside\ifodd\c@page\else
+      \thispagestyle{empty}\hbox{}\newpage
+      \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+  \makeatother
+}
+
+% ------------------------------------------------------------------------------
+% 3. Bilingual Typography & System Fonts
+% ------------------------------------------------------------------------------
+\usepackage[no-math]{fontspec}
+\usepackage{xeCJK}
+\usepackage{indentfirst}
+
+% Latin Font Family: Times New Roman
+\setmainfont[
+  BoldFont={Times New Roman Bold},
+  ItalicFont={Times New Roman Italic},
+  BoldItalicFont={Times New Roman Bold Italic}
+]{Times New Roman}
+
+\setsansfont[
+  BoldFont={Times New Roman Bold},
+  ItalicFont={Times New Roman Italic},
+  BoldItalicFont={Times New Roman Bold Italic}
+]{Times New Roman}
+
+% Monospace Font Family
+\setmonofont{Noto Sans Mono CJK SC}
+
+% CJK Font Families: Noto Serif CJK SC for complete Unicode glyph coverage
+\setCJKmainfont[
+  BoldFont={Noto Serif CJK SC Bold},
+  ItalicFont={Noto Serif CJK SC},
+  BoldItalicFont={Noto Serif CJK SC Bold}
+]{Noto Serif CJK SC}
+
+\setCJKsansfont[
+  BoldFont={Noto Sans CJK SC Bold},
+  ItalicFont={Noto Sans CJK SC},
+  BoldItalicFont={Noto Sans CJK SC Bold}
+]{Noto Sans CJK SC}
+
+\setCJKmonofont{Noto Sans Mono CJK SC}
+
+% Line breaking rules for mixed Chinese-English text
+\XeTeXlinebreaklocale "zh"
+\XeTeXlinebreakskip=0pt plus 1pt
+\linespread{1.25}
+
+% Safe OT1 NewTX Math Alphabet (Prevents XeTeX text-font engine memory faults)
+\usepackage{newtxmath}
+\SetSymbolFont{operators}{normal}{OT1}{minntx}{m}{n}
+\SetSymbolFont{operators}{bold}{OT1}{minntx}{b}{n}
+\DeclareSymbolFontAlphabet{\mathrm}{operators}
+\DeclareMathAlphabet{\mathit}{OT1}{minntx}{m}{it}
+\SetMathAlphabet{\mathit}{bold}{OT1}{minntx}{b}{it}
+\DeclareMathAlphabet{\mathbf}{OT1}{minntx}{b}{n}
+\SetMathAlphabet{\mathbf}{bold}{OT1}{minntx}{b}{n}
+\DeclareMathAlphabet{\mathsf}{OT1}{minntx}{m}{n}
+\SetMathAlphabet{\mathsf}{bold}{OT1}{minntx}{b}{n}
+\DeclareMathAlphabet{\mathtt}{OT1}{minntx}{m}{n}
+\SetMathAlphabet{\mathtt}{bold}{OT1}{minntx}{b}{n}
+\usepackage{bm}
+
+% Special character mappings (Unicode ratio colon)
+\xeCJKDeclareCharClass{CJK}{"2236}
+
+% ------------------------------------------------------------------------------
+% 4. Master Color Palette Definitions
+% ------------------------------------------------------------------------------
+% Brand & Semantic Structural Colors
+\definecolor{AcadNavy}{HTML}{1B365D}      % Primary: Deep Oxford Navy (Chapters, Titles)
+\definecolor{AcadSlate}{HTML}{2B6CB0}     % Secondary: Steel / Slate Blue (Subsections)
+\definecolor{AcadTeal}{HTML}{0D6E6E}      % Example Accent: Deep Peacock Teal
+\definecolor{AcadAmber}{HTML}{B45309}     % Tip / Callout: Warm Amber Ochre
+\definecolor{AcadForest}{HTML}{1E6B52}    % Practice / Exercise: Deep Forest Green
+\definecolor{AcadGray}{HTML}{4A5568}      % Text Muted: Slate Gray (Meta, Headers)
+
+% Highlight & Guiding Accents
+\definecolor{TargetHighlight}{HTML}{BE185D}% Target defect/phrase highlight (Rose Red)
+\definecolor{RuleLineColor}{HTML}{BAC7D5} % Ruled Writing Lines (Soft Slate Gray)
+
+% Soft Background Tints (95%+ Lightness for Comfortable Extended Reading)
+\definecolor{ConceptBg}{HTML}{F0F5FA}     % Subtle Navy-tinted white
+\definecolor{ExampleBg}{HTML}{F8FAFC}     % Cool ice-tinted white
+\definecolor{TipBg}{HTML}{FFFBEB}         % Warm cream / parchment tint
+\definecolor{ExerciseBg}{HTML}{F4F8F5}    % Subtle pale sage tint
+
+% ------------------------------------------------------------------------------
+% 5. Section Headings (titlesec)
+% Must be loaded BEFORE hyperref!
+% ------------------------------------------------------------------------------
+\usepackage{titlesec}
+
+% Chapter: Forced new page (book default), elegant display block
+\titleformat{\chapter}[display]
+  {\normalfont\linespread{1}\bfseries\color{AcadNavy}}
+  {\Large\filright Chapter \thechapter}
+  {8pt}
+  {\fontsize{22}{28}\selectfont\filright}
+
+% Section
+\titleformat{\section}
+  {\normalfont\linespread{1}\fontsize{15}{20}\selectfont\bfseries\color{AcadNavy}}
+  {\thesection}{0.65em}{}
+
+% Subsection
+\titleformat{\subsection}
+  {\normalfont\linespread{1}\fontsize{12.5}{17}\selectfont\bfseries\color{AcadSlate}}
+  {\thesubsection}{0.65em}{}
+
+% Subsubsection
+\titleformat{\subsubsection}
+  {\normalfont\linespread{1}\normalsize\bfseries\color{AcadGray}}
+  {\thesubsubsection}{0.65em}{}
+
+% Unstarred titlespacing: preserves paragraph indentation on the following line!
+\titlespacing{\chapter}{0pt}{0pt}{22pt}
+\titlespacing{\section}{0pt}{18pt plus 3pt minus 2pt}{8pt plus 1pt}
+\titlespacing{\subsection}{0pt}{14pt plus 2pt minus 1pt}{6pt plus 1pt}
+\titlespacing{\subsubsection}{0pt}{10pt plus 2pt minus 1pt}{4pt plus 1pt}
+
+% ------------------------------------------------------------------------------
+% 6. Hyperlinks & Bookmarks (hyperref + bookmark)
+% ------------------------------------------------------------------------------
+\usepackage[
+  colorlinks=true,
+  linkcolor=AcadNavy,
+  citecolor=AcadSlate,
+  urlcolor=AcadSlate,
+  bookmarksdepth=3,
+  bookmarksopen=true,
+  bookmarksnumbered=true
+]{hyperref}
+\usepackage{bookmark}
+
+% ------------------------------------------------------------------------------
+% 7. Running Headers & Footers (fancyhdr)
+% ------------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{AcadGray}\itshape Academic English Mastery}
+\fancyhead[R]{\small\color{AcadGray}\nouppercase{\leftmark}}
+\fancyfoot[C]{\small\color{AcadNavy}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Clean style for chapter opening page
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\small\color{AcadNavy}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+% ------------------------------------------------------------------------------
+% 7.1 Page Clearing & Mainmatter Patching (openany compliance)
+% ------------------------------------------------------------------------------
+% LaTeX book.cls unconditionally issues \cleardoublepage in \mainmatter,
+% forcing Chapter 1 to start on an odd page and emitting an accidental blank
+% verso page when frontmatter ends on an odd page (e.g. ToC on page 3).
+% Patch \mainmatter to use \clearpage so Chapter 1 begins immediately on Page 4.
+\makeatletter
+\patchcmd{\mainmatter}{\cleardoublepage}{\clearpage}{}{%
+  \renewcommand\mainmatter{%
+    \clearpage\@mainmattertrue\pagenumbering{arabic}%
+  }%
+}
+\makeatother
+
+% ------------------------------------------------------------------------------
+% 8. Table of Contents Formatting & Multi-Digit Spacing
+% ------------------------------------------------------------------------------
+\makeatletter
+\renewcommand*\@pnumwidth{2.5em}
+\renewcommand*\@tocrmarg{3.2em}
+\renewcommand*\l@section{\@dottedtocline{1}{1.5em}{3.0em}}
+\renewcommand*\l@subsection{\@dottedtocline{2}{4.5em}{3.8em}}
+\renewcommand*\l@subsubsection{\@dottedtocline{3}{7.5em}{4.5em}}
+\makeatother
+
+% ------------------------------------------------------------------------------
+% 9. Four Modular Breakable Callout Boxes (tcolorbox)
+% ------------------------------------------------------------------------------
+\usepackage[skins,breakable]{tcolorbox}
+
+% 9.1 ConceptBox: Academic Definitions, Grammar Rules, Logic Blueprints
+\newtcolorbox{ConceptBox}[2][]{
+  enhanced,
+  breakable,
+  colback=ConceptBg,
+  colframe=AcadNavy,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily\small,
+  title={#2},
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  attach boxed title to top left={xshift=10pt, yshift=-\tcboxedtitleheight/2},
+  boxed title style={
+    colback=AcadNavy,
+    boxrule=0pt,
+    arc=2pt,
+    left=6pt,
+    right=6pt,
+    top=2pt,
+    bottom=2pt
+  },
+  before skip=12pt plus 2pt minus 1pt,
+  after skip=12pt plus 2pt minus 1pt,
+  #1
+}
+
+% 9.2 ExampleBox: Model Sentences, Authentic Exemplars, Before/After Revisions
+\newtcolorbox{ExampleBox}[2][]{
+  enhanced,
+  breakable,
+  colback=ExampleBg,
+  colframe=AcadTeal,
+  coltitle=AcadTeal,
+  fonttitle=\bfseries\sffamily\small,
+  title={#2},
+  boxrule=0.8pt,
+  leftrule=3.5pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  attach title to upper,
+  after title={\par\vspace{4pt}{\color{AcadTeal!40}\hrule height 0.4pt}\par\vspace{6pt}},
+  before skip=10pt plus 2pt minus 1pt,
+  after skip=10pt plus 2pt minus 1pt,
+  #1
+}
+
+% 9.3 TipBox: Writing Traps, Hedging Guidance, Stylistic Pitfalls
+\newtcolorbox{TipBox}[2][]{
+  enhanced,
+  breakable,
+  colback=TipBg,
+  colframe=AcadAmber,
+  coltitle=AcadAmber,
+  fonttitle=\bfseries\sffamily\small,
+  title={#2},
+  boxrule=0.8pt,
+  leftrule=3.5pt,
+  arc=2pt,
+  left=10pt,
+  right=10pt,
+  top=7pt,
+  bottom=7pt,
+  attach title to upper,
+  after title={\par\vspace{3pt}{\color{AcadAmber!40}\hrule height 0.4pt}\par\vspace{5pt}},
+  before skip=10pt plus 2pt minus 1pt,
+  after skip=10pt plus 2pt minus 1pt,
+  #1
+}
+
+% 9.4 ExerciseBox: Practice Exercises, Worksheets, Translation Tasks
+\newtcolorbox{ExerciseBox}[2][]{
+  enhanced,
+  breakable,
+  colback=ExerciseBg,
+  colframe=AcadForest,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily\small,
+  title={#2},
+  boxrule=1pt,
+  arc=3pt,
+  left=10pt,
+  right=10pt,
+  top=8pt,
+  bottom=8pt,
+  attach boxed title to top left={xshift=10pt, yshift=-\tcboxedtitleheight/2},
+  boxed title style={
+    colback=AcadForest,
+    boxrule=0pt,
+    arc=2pt,
+    left=6pt,
+    right=6pt,
+    top=2pt,
+    bottom=2pt
+  },
+  before skip=14pt plus 2pt minus 1pt,
+  after skip=14pt plus 2pt minus 1pt,
+  #1
+}
+
+% ------------------------------------------------------------------------------
+% 10. Handwriting Ruled Lines & Interactive Exercises
+% ------------------------------------------------------------------------------
+\makeatletter
+
+% 10.1 Wide-Spaced English Writing Lines (Default: 11mm for comfortable adult writing)
+% Uses pure TeX counter loop and breakable paragraph rule lines for exact \linewidth alignment and 0pt overfull.
+\newcount\wl@i
+\newcommand{\writinglines}[2][11mm]{%
+  \ifnum#2>0\relax
+    \par\addvspace{2mm}%
+    \begingroup
+    \setlength{\parindent}{0pt}%
+    \setlength{\parskip}{0pt}%
+    \wl@i=0\relax
+    \loop\ifnum\wl@i<#2\relax
+      \advance\wl@i by 1\relax
+      \vspace{\dimexpr#1-\baselineskip\relax}%
+      \noindent\makebox[\linewidth]{\color{RuleLineColor}\rule{\linewidth}{0.5pt}}\par
+    \repeat
+    \endgroup
+    \par\addvspace{2mm}%
+  \fi
+}
+
+% 10.2 Adaptive Inline Fill-in-the-Blank Underline
+% Measures prompt length to prevent overfull \hbox warnings.
+\newlength{\fb@len}
+\newcommand{\fillblank}[2][3.5cm]{%
+  \settowidth{\fb@len}{\small\itshape #2}%
+  \ifdim\fb@len>#1\relax
+    \underline{\hspace{0.5em}{\small\color{AcadGray}\itshape #2}\hspace{0.5em}}%
+  \else
+    \underline{\makebox[#1][c]{\small\color{AcadGray}\itshape #2}}%
+  \fi
+}
+
+% 10.3 Target Highlight Macro (Marks words/phrases to be replaced)
+\newcommand{\DefectTarget}[1]{\textbf{\color{TargetHighlight}#1}}
+
+% 10.4 Structured Sentence Rewrite Component
+\newcommand{\SentenceRewriteItem}[3][2]{%
+  \par\addvspace{8pt}%
+  \noindent\textbf{\color{AcadNavy}#2}\enspace\textbf{Original:}\quad #3\par\vspace{3pt}%
+  \noindent\textbf{\color{AcadForest}Revision:}\par
+  \writinglines[11mm]{#1}%
+}
+
+% 10.5 Paragraph Revision Component
+\newcommand{\current@pr@lines}{6}
+\newenvironment{ParagraphRevision}[3][6]{%
+  \def\current@pr@lines{#1}%
+  \par\addvspace{10pt}%
+  \noindent\textbf{\color{AcadForest}Case #2:}\enspace \textbf{#3}\par\vspace{4pt}%
+}{%
+  \par\addvspace{4pt}%
+  \noindent\textbf{\color{AcadNavy}Revised Academic Paragraph:}\par
+  \writinglines[11mm]{\current@pr@lines}%
+  \par\addvspace{8pt}%
+}
+
+% 10.6 Answer Key Formatting Helpers
+\newcommand{\AnswerDayHeader}[2]{%
+  \par\addvspace{12pt}%
+  \noindent{\fontsize{13}{18}\selectfont\bfseries\color{AcadNavy}Day #1:\enspace #2}%
+  \par\vspace{6pt}{\color{AcadNavy!30}\hrule height 0.6pt}\par\vspace{6pt}%
+}
+
+\newcommand{\AnswerItem}[3]{%
+  \par\addvspace{4pt}%
+  \noindent\textbf{\color{AcadForest}[#1]}\enspace\textbf{Reference Answer:}\enspace {\color{AcadNavy}\textbf{#2}}\par
+  \noindent{\small\color{AcadGray}\textbf{Analysis:}\enspace #3}\par
+}
+
+% 10.7 Academic Table Styling Helper
+\newcommand{\ReportTableStyle}{%
+  \linespread{1}\fontsize{10}{14}\selectfont
+  \setlength{\parindent}{0pt}\setlength{\parskip}{0pt}%
+  \setlength{\tabcolsep}{6pt}%
+  \renewcommand{\arraystretch}{1.15}%
+  \setlength{\extrarowheight}{1.5pt}}
+\setlength{\LTpre}{10pt}
+\setlength{\LTpost}{10pt}
+\setlength{\aboverulesep}{3pt}
+\setlength{\belowrulesep}{3.5pt}
+
+\makeatother
+
+% ------------------------------------------------------------------------------
+% 11. Document Layout Defaults & Penalties
+% ------------------------------------------------------------------------------
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.45em plus 0.08em minus 0.04em}
+\setlist{topsep=5pt,itemsep=2.5pt,parsep=0pt,partopsep=0pt}
+\raggedbottom
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=5000
+\predisplaypenalty=10000
+\setlength{\emergencystretch}{3em}
+
+% End of style/academic_book_style.tex

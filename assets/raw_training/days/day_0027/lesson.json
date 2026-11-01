@@ -1,0 +1,2967 @@
+{
+  "day_id": "day_0027",
+  "day_number": 27,
+  "stage": 2,
+  "stage_name_zh": "阶段 2：准确表达、一词多义辨析与时序/AI 基础句法（Day 26–50）",
+  "day_type": "intensive_cluster_learning_and_review",
+  "learning_objectives_zh": [
+    "通过 8 个核心词群（涵盖今日 27 个目标词条）掌握熟悉词汇的学术熟词生义（Polysemy）、一词多义边界、可数/及物性变化与自然搭配。",
+    "掌握句子成分精细分析（主、谓、宾、表、定、状、同位语）与核心语法：【G001】五大基本句型（SV, SVO, SVC, SVOO, SVOC）与动词配价边界；【G006】核心介词规约搭配与名/动/形+介词固定结构。",
+    "掌握学术表达模式：【EP019】机器学习与时间序列：问题定义、滞后项与符号约定，彻底消除头重脚轻、口语化、过度表达与空洞 AI 套话。",
+    "完成 36 道高密度、单点聚焦的实战练习，确保今日每个词条均获得至少 3 次训练（含至少 2 次主动输出）。"
+  ],
+  "core_lexical_clusters": [
+    {
+      "cluster_index": 1,
+      "word_ids": [
+        "V02284",
+        "V02297",
+        "V02326",
+        "V02346"
+      ],
+      "lemmas": [
+        "show",
+        "significant",
+        "soar",
+        "source"
+      ]
+    },
+    {
+      "cluster_index": 2,
+      "word_ids": [
+        "V02285",
+        "V02301",
+        "V02330",
+        "V02347"
+      ],
+      "lemmas": [
+        "show",
+        "silent",
+        "society",
+        "spare"
+      ]
+    },
+    {
+      "cluster_index": 3,
+      "word_ids": [
+        "V02286",
+        "V02302",
+        "V02333",
+        "V02354"
+      ],
+      "lemmas": [
+        "show",
+        "similar",
+        "sole",
+        "specific"
+      ]
+    },
+    {
+      "cluster_index": 4,
+      "word_ids": [
+        "V02290",
+        "V02309",
+        "V02336"
+      ],
+      "lemmas": [
+        "signal",
+        "simple",
+        "solid"
+      ]
+    },
+    {
+      "cluster_index": 5,
+      "word_ids": [
+        "V02293",
+        "V02317",
+        "V02337"
+      ],
+      "lemmas": [
+        "significant",
+        "situation",
+        "solid"
+      ]
+    },
+    {
+      "cluster_index": 6,
+      "word_ids": [
+        "V02294",
+        "V02319",
+        "V02341"
+      ],
+      "lemmas": [
+        "significant",
+        "skip",
+        "somewhat"
+      ]
+    },
+    {
+      "cluster_index": 7,
+      "word_ids": [
+        "V02295",
+        "V02321",
+        "V02342"
+      ],
+      "lemmas": [
+        "significant",
+        "slope",
+        "sophisticated"
+      ]
+    },
+    {
+      "cluster_index": 8,
+      "word_ids": [
+        "V02296",
+        "V02325",
+        "V02345"
+      ],
+      "lemmas": [
+        "significant",
+        "soar",
+        "source"
+      ]
+    }
+  ],
+  "new_words": [
+    {
+      "word_id": "V02284",
+      "lemma": "show",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02284_S01",
+          "pos": "v.",
+          "meaning_zh": "显示",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：显示（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "These data show a trend over time.",
+          "example_zh": "这些数据显示了随时间变化的趋势。",
+          "sentence_constituents_zh": "【紧凑主语】These data show a... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本句 data 用复数惯例；保持主谓一致。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：本句 data 用复数惯例；保持主谓一致。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：显示（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：本句 data 用复数惯例；保持主谓一致。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“show a trend”精确表述“显示”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“show a trend”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "show",
+        "third_person_singular": "shows",
+        "present_participle": "showing",
+        "past_tense": "showed",
+        "past_participle": "shown",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "show"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02284_01",
+          "phrase": "show a trend",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：show a trend（显示）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02284",
+          "V02285",
+          "V02286"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：本句 data 用复数惯例；保持主谓一致。",
+        "source_tags": [
+          "V02284",
+          "U42",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02285",
+      "lemma": "show",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02285_S01",
+          "pos": "v.",
+          "meaning_zh": "显示，表明",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：显示，表明（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The table shows that the recorded totals differ.",
+          "example_zh": "表格显示所记录的总数不同。",
+          "sentence_constituents_zh": "【紧凑主语】The table shows that... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "show 不应自动译为严格证明因果。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show 不应自动译为严格证明因果。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：显示，表明（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show 不应自动译为严格证明因果。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“show that”精确表述“显示，表明”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“show that”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "show",
+        "third_person_singular": "shows",
+        "present_participle": "showing",
+        "past_tense": "showed",
+        "past_participle": "shown",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "show"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02285_01",
+          "phrase": "show that",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：show that（显示，表明）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02284",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02284",
+          "V02285",
+          "V02286"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show 不应自动译为严格证明因果。",
+        "source_tags": [
+          "V02285",
+          "U03",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02286",
+      "lemma": "show",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02286_S01",
+          "pos": "v.",
+          "meaning_zh": "表明",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：表明；展示（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The table shows the distribution of labels.",
+          "example_zh": "该表展示标签分布。",
+          "sentence_constituents_zh": "【紧凑主语】The table shows the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "show that 是强于 suggest 的陈述，需相应证据。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show that 是强于 suggest 的陈述，需相应证据。"
+        },
+        {
+          "sense_id": "V02286_S02",
+          "pos": "v.",
+          "meaning_zh": "展示",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：表明；展示（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "The table shows the distribution of labels.",
+          "example_zh": "该表展示标签分布。",
+          "sentence_constituents_zh": "【紧凑主语】The table shows the... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "show that 是强于 suggest 的陈述，需相应证据。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show that 是强于 suggest 的陈述，需相应证据。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：表明；展示（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show that 是强于 suggest 的陈述，需相应证据。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“show that”精确表述“表明；展示”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“show that”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "show",
+        "third_person_singular": "shows",
+        "present_participle": "showing",
+        "past_tense": "showed",
+        "past_participle": "shown",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "show"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02286_01",
+          "phrase": "show that",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：show that（表明；展示）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02285",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02284",
+          "V02285",
+          "V02286"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02284 v.] 显示（例：These data show a trend over time.）；[V02285 v.] 显示，表明（例：The table shows that the recorded totals differ.）；[V02286 v.] 表明；展示（例：The table shows the distribution of labels.） | 本条用法约束：show that 是强于 suggest 的陈述，需相应证据。",
+        "source_tags": [
+          "V02286",
+          "U30",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02290",
+      "lemma": "signal",
+      "pos": "v./n.",
+      "raw_pos": "v./n.",
+      "senses": [
+        {
+          "sense_id": "V02290_S01",
+          "pos": "v.",
+          "meaning_zh": "表示",
+          "core_meaning_zh": "基础字面义：表示",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：表示；传达；信号（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A punctuation mark can signal a boundary between clauses.",
+          "example_zh": "标点符号可以表示分句之间的边界。",
+          "sentence_constituents_zh": "【紧凑主语】A punctuation mark can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本例是动词，can后用原形；名词signal是另一词性。 | 熟词生义与多义辨析：词义与句法边界：本例是动词，can后用原形；名词signal是另一词性。"
+        },
+        {
+          "sense_id": "V02290_S02",
+          "pos": "n.",
+          "meaning_zh": "传达",
+          "core_meaning_zh": "基础字面义：表示",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：表示；传达；信号（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A punctuation mark can signal a boundary between clauses.",
+          "example_zh": "标点符号可以表示分句之间的边界。",
+          "sentence_constituents_zh": "【紧凑主语】A punctuation mark can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本例是动词，can后用原形；名词signal是另一词性。 | 熟词生义与多义辨析：词义与句法边界：本例是动词，can后用原形；名词signal是另一词性。"
+        },
+        {
+          "sense_id": "V02290_S03",
+          "pos": "n.",
+          "meaning_zh": "信号",
+          "core_meaning_zh": "基础字面义：表示",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：表示；传达；信号（v./n.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "A punctuation mark can signal a boundary between clauses.",
+          "example_zh": "标点符号可以表示分句之间的边界。",
+          "sentence_constituents_zh": "【紧凑主语】A punctuation mark can... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本例是动词，can后用原形；名词signal是另一词性。 | 熟词生义与多义辨析：词义与句法边界：本例是动词，can后用原形；名词signal是另一词性。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：表示",
+        "academic_target_sense_zh": "多义项/多词性完整映射：表示；传达；信号（v./n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：本例是动词，can后用原形；名词signal是另一词性。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“signal a contrast”精确表述“表示；传达；信号”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“signal a contrast”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "signal",
+        "third_person_singular": "signals",
+        "present_participle": "signaling",
+        "past_tense": "signaled",
+        "past_participle": "signaled",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "signal"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02290_01",
+          "phrase": "signal a contrast",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：signal a contrast（表示；传达；信号）"
+        },
+        {
+          "collocation_id": "C_V02290_02",
+          "phrase": "signal a boundary",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：signal a boundary（表示；传达；信号）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02290"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：本例是动词，can后用原形；名词signal是另一词性。",
+        "source_tags": [
+          "V02290",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02293",
+      "lemma": "significant",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02293_S01",
+          "pos": "adj.",
+          "meaning_zh": "显著的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A significant number of records were incomplete.",
+          "example_zh": "相当数量的记录不完整。",
+          "sentence_constituents_zh": "【紧凑主语】A significant number of... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "数量评价可能有歧义；报告统计推断时说明检验与阈值，报告比例最好给数字。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02293_S02",
+          "pos": "adj.",
+          "meaning_zh": "重要的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A significant number of records were incomplete.",
+          "example_zh": "相当数量的记录不完整。",
+          "sentence_constituents_zh": "【紧凑主语】A significant number of... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "数量评价可能有歧义；报告统计推断时说明检验与阈值，报告比例最好给数字。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02293_S03",
+          "pos": "adj.",
+          "meaning_zh": "相当数量的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A significant number of records were incomplete.",
+          "example_zh": "相当数量的记录不完整。",
+          "sentence_constituents_zh": "【紧凑主语】A significant number of... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "数量评价可能有歧义；报告统计推断时说明检验与阈值，报告比例最好给数字。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "adj. 重大的",
+        "academic_target_sense_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+        "cross_sense_and_usage_trap_zh": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "informal_english_substitute": "statistically detectable or notable"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a significant number of cases”精确表述“显著的；重要的；相当数量的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a significant number of cases”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "significant",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "significant"
+        ],
+        "variants": [
+          "significant"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02293_01",
+          "phrase": "a significant number of cases",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a significant number of cases（显著的；重要的；相当数量的）"
+        },
+        {
+          "collocation_id": "C_V02293_02",
+          "phrase": "statistically significant",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：statistically significant（显著的；重要的；相当数量的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02293",
+          "V02294",
+          "V02295",
+          "V02296",
+          "V02297"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "source_tags": [
+          "V02293",
+          "U07",
+          "AWL1词族:significant",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02294",
+      "lemma": "significant",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02294_S01",
+          "pos": "adj.",
+          "meaning_zh": "重要的，显著的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive makes a significant contribution to regional history.",
+          "example_zh": "这份档案对地区历史作出了重要贡献。",
+          "sentence_constituents_zh": "【紧凑主语】The archive makes a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "重要性与统计显著性不同；统计用法需阈值和检验说明。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02294_S02",
+          "pos": "adj.",
+          "meaning_zh": "统计显著的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive makes a significant contribution to regional history.",
+          "example_zh": "这份档案对地区历史作出了重要贡献。",
+          "sentence_constituents_zh": "【紧凑主语】The archive makes a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "重要性与统计显著性不同；统计用法需阈值和检验说明。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "adj. 重大的",
+        "academic_target_sense_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+        "cross_sense_and_usage_trap_zh": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "informal_english_substitute": "statistically detectable or notable"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a significant contribution”精确表述“重要的，显著的；统计显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a significant contribution”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "significant",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "significant"
+        ],
+        "variants": [
+          "significant"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02294_01",
+          "phrase": "a significant contribution",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a significant contribution（重要的，显著的；统计显著的）"
+        },
+        {
+          "collocation_id": "C_V02294_02",
+          "phrase": "statistically significant",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：statistically significant（重要的，显著的；统计显著的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V02293",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02293",
+          "V02294",
+          "V02295",
+          "V02296",
+          "V02297"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "source_tags": [
+          "V02294",
+          "U04",
+          "AWL1词族:significant",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02295",
+      "lemma": "significant",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02295_S01",
+          "pos": "adj.",
+          "meaning_zh": "重要的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The missing page has a significant impact on how we interpret the letter.",
+          "example_zh": "缺失的一页对我们如何解释这封信有较大影响。",
+          "sentence_constituents_zh": "【紧凑主语】The missing page has... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本篇significant impact为一般意义上的重要影响，不凭此词推定做过统计检验。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02295_S02",
+          "pos": "adj.",
+          "meaning_zh": "影响较大的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The missing page has a significant impact on how we interpret the letter.",
+          "example_zh": "缺失的一页对我们如何解释这封信有较大影响。",
+          "sentence_constituents_zh": "【紧凑主语】The missing page has... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本篇significant impact为一般意义上的重要影响，不凭此词推定做过统计检验。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02295_S03",
+          "pos": "adj.",
+          "meaning_zh": "统计显著的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The missing page has a significant impact on how we interpret the letter.",
+          "example_zh": "缺失的一页对我们如何解释这封信有较大影响。",
+          "sentence_constituents_zh": "【紧凑主语】The missing page has... + 【核心谓语与宾补/状语后置扩展】全句共 13 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "本篇significant impact为一般意义上的重要影响，不凭此词推定做过统计检验。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "adj. 重大的",
+        "academic_target_sense_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+        "cross_sense_and_usage_trap_zh": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "informal_english_substitute": "statistically detectable or notable"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a significant impact”精确表述“重要的；影响较大的；统计显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a significant impact”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "significant",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "significant"
+        ],
+        "variants": [
+          "significant"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02295_01",
+          "phrase": "a significant impact",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a significant impact（重要的；影响较大的；统计显著的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V02294",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02293",
+          "V02294",
+          "V02295",
+          "V02296",
+          "V02297"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "source_tags": [
+          "V02295",
+          "AWL1词族:significant",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02296",
+      "lemma": "significant",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02296_S01",
+          "pos": "adj.",
+          "meaning_zh": "重要的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive contains a significant number of unpublished letters.",
+          "example_zh": "档案中有相当数量的未发表书信。",
+          "sentence_constituents_zh": "【紧凑主语】The archive contains a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "讨论统计检验时应说明 statistically significant 与检验依据；日常学术用法也可表示重要或数量较大。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02296_S02",
+          "pos": "adj.",
+          "meaning_zh": "数量可观的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive contains a significant number of unpublished letters.",
+          "example_zh": "档案中有相当数量的未发表书信。",
+          "sentence_constituents_zh": "【紧凑主语】The archive contains a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "讨论统计检验时应说明 statistically significant 与检验依据；日常学术用法也可表示重要或数量较大。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02296_S03",
+          "pos": "adj.",
+          "meaning_zh": "统计上显著的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The archive contains a significant number of unpublished letters.",
+          "example_zh": "档案中有相当数量的未发表书信。",
+          "sentence_constituents_zh": "【紧凑主语】The archive contains a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "讨论统计检验时应说明 statistically significant 与检验依据；日常学术用法也可表示重要或数量较大。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "adj. 重大的",
+        "academic_target_sense_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+        "cross_sense_and_usage_trap_zh": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "informal_english_substitute": "statistically detectable or notable"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“significant aspect”精确表述“重要的；数量可观的；统计上显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“significant aspect”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "significant",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "significant"
+        ],
+        "variants": [
+          "significant"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02296_01",
+          "phrase": "significant aspect",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant aspect（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_02",
+          "phrase": "significant contribution",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant contribution（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_03",
+          "phrase": "significant difference",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant difference（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_04",
+          "phrase": "significant implications",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant implications（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_05",
+          "phrase": "significant point",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant point（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_06",
+          "phrase": "significant question",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant question（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_07",
+          "phrase": "significant reason",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant reason（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_08",
+          "phrase": "significant element",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant element（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_09",
+          "phrase": "significant increase",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant increase（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_10",
+          "phrase": "significant effect",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant effect（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_11",
+          "phrase": "significant reduction",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant reduction（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_12",
+          "phrase": "significant number",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant number（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_13",
+          "phrase": "significant proportion",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant proportion（重要的；数量可观的；统计上显著的）"
+        },
+        {
+          "collocation_id": "C_V02296_14",
+          "phrase": "significant differences",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：significant differences（重要的；数量可观的；统计上显著的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V02295",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02293",
+          "V02294",
+          "V02295",
+          "V02296",
+          "V02297"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "source_tags": [
+          "V02296",
+          "U11",
+          "AWL1词族:significant",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02297",
+      "lemma": "significant",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02297_S01",
+          "pos": "adj.",
+          "meaning_zh": "重要的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The report distinguishes statistically significant differences from practically important differences.",
+          "example_zh": "报告区分了统计显著差异与实际重要差异。",
+          "sentence_constituents_zh": "【紧凑主语】The report distinguishes statistically... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "统计义需检验与阈值；普通义须说明影响。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        },
+        {
+          "sense_id": "V02297_S02",
+          "pos": "adj.",
+          "meaning_zh": "统计显著的",
+          "core_meaning_zh": "adj. 重大的",
+          "extended_or_contextual_meaning_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The report distinguishes statistically significant differences from practically important differences.",
+          "example_zh": "报告区分了统计显著差异与实际重要差异。",
+          "sentence_constituents_zh": "【紧凑主语】The report distinguishes statistically... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "统计义需检验与阈值；普通义须说明影响。 | 熟词生义与多义辨析：严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "familiar_word_new_academic_sense",
+        "everyday_or_familiar_sense_zh": "adj. 重大的",
+        "academic_target_sense_zh": "adj. ① 统计显著的（statistically significant，指满足指定假设检验阈值）；② 实际影响可观的（practically important / substantial）",
+        "cross_sense_and_usage_trap_zh": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "informal_english_substitute": "statistically detectable or notable"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a statistically significant difference”精确表述“重要的；统计显著的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a statistically significant difference”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "significant",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "significant"
+        ],
+        "variants": [
+          "significant"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02297_01",
+          "phrase": "a statistically significant difference",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a statistically significant difference（重要的；统计显著的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "V02296",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02293",
+          "V02294",
+          "V02295",
+          "V02296",
+          "V02297"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "严禁混淆统计显著性（statistical significance）与实际效应大小（practical importance / effect size）。 | 词表跨单元多义对比：[V02293 adj.] 显著的；重要的；相当数量的（例：A significant number of records were incomplete.）；[V02294 adj.] 重要的，显著的；统计显著的（例：The archive makes a significant contribution to regional history.）；[V02295 adj.] 重要的；影响较大的；统计显著的（例：The missing page has a significant impact on how we interpret the letter.）",
+        "source_tags": [
+          "V02297",
+          "U47",
+          "AWL1词族:significant",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02301",
+      "lemma": "silent",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02301_S01",
+          "pos": "adj.",
+          "meaning_zh": "安静的",
+          "core_meaning_zh": "基础字面义：安静的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：安静的；不出声的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The observer records when participants remain silent.",
+          "example_zh": "观察者记录参与者何时保持沉默。",
+          "sentence_constituents_zh": "【紧凑主语】The observer records when... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "名词silence；本文keep silent为不出声，不等于意见未形成。 | 熟词生义与多义辨析：词义与句法边界：名词silence；本文keep silent为不出声，不等于意见未形成。"
+        },
+        {
+          "sense_id": "V02301_S02",
+          "pos": "adj.",
+          "meaning_zh": "不出声的",
+          "core_meaning_zh": "基础字面义：安静的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：安静的；不出声的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The observer records when participants remain silent.",
+          "example_zh": "观察者记录参与者何时保持沉默。",
+          "sentence_constituents_zh": "【紧凑主语】The observer records when... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "名词silence；本文keep silent为不出声，不等于意见未形成。 | 熟词生义与多义辨析：词义与句法边界：名词silence；本文keep silent为不出声，不等于意见未形成。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：安静的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：安静的；不出声的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：名词silence；本文keep silent为不出声，不等于意见未形成。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“keep silent”精确表述“安静的；不出声的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“keep silent”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "silent",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "silent"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02301_01",
+          "phrase": "keep silent",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：keep silent（安静的；不出声的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02301"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：名词silence；本文keep silent为不出声，不等于意见未形成。",
+        "source_tags": [
+          "V02301",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02302",
+      "lemma": "similar",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02302_S01",
+          "pos": "adj.",
+          "meaning_zh": "相似的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：相似的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The second task is similar to the first.",
+          "example_zh": "第二项任务与第一项相似。",
+          "sentence_constituents_zh": "【紧凑主语】The second task is... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "similar to，非 similar with。 | 熟词生义与多义辨析：学术语境与搭配约束：similar to，非 similar with。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：相似的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：similar to，非 similar with。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“similar to”精确表述“相似的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“similar to”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "similar",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "similar"
+        ],
+        "variants": [
+          "similar"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02302_01",
+          "phrase": "similar to",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：similar to（相似的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02302"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：similar to，非 similar with。",
+        "source_tags": [
+          "V02302",
+          "U38",
+          "AWL1词族:similar",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02309",
+      "lemma": "simple",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02309_S01",
+          "pos": "adj.",
+          "meaning_zh": "简单的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：简单的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The pilot used a simple procedure with two steps.",
+          "example_zh": "试点使用一个只有两步的简单程序。",
+          "sentence_constituents_zh": "【紧凑主语】The pilot used a... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "simple 不等于 simplistic：后者含过度简化评价。 | 熟词生义与多义辨析：学术语境与搭配约束：simple 不等于 simplistic：后者含过度简化评价。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：简单的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：simple 不等于 simplistic：后者含过度简化评价。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a simple procedure”精确表述“简单的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a simple procedure”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "simple",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "simple"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02309_01",
+          "phrase": "a simple procedure",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a simple procedure（简单的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02309"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：simple 不等于 simplistic：后者含过度简化评价。",
+        "source_tags": [
+          "V02309",
+          "U04",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02317",
+      "lemma": "situation",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02317_S01",
+          "pos": "n.",
+          "meaning_zh": "情况",
+          "core_meaning_zh": "基础字面义：情况",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：情况；情形（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "In this situation, the missing record requires further review.",
+          "example_zh": "在这种情况下，缺失记录需要进一步复核。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In this situation + 【主句核心主谓宾/表】the missing record requires further review. （目标词“situation”作 n. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "原文the situation in our own Solar System指所述情况。 | 熟词生义与多义辨析：词义与句法边界：原文the situation in our own Solar System指所述情况。"
+        },
+        {
+          "sense_id": "V02317_S02",
+          "pos": "n.",
+          "meaning_zh": "情形",
+          "core_meaning_zh": "基础字面义：情况",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：情况；情形（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "In this situation, the missing record requires further review.",
+          "example_zh": "在这种情况下，缺失记录需要进一步复核。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In this situation + 【主句核心主谓宾/表】the missing record requires further review. （目标词“situation”作 n. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "原文the situation in our own Solar System指所述情况。 | 熟词生义与多义辨析：词义与句法边界：原文the situation in our own Solar System指所述情况。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：情况",
+        "academic_target_sense_zh": "多义项/多词性完整映射：情况；情形（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：原文the situation in our own Solar System指所述情况。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“in this situation”精确表述“情况；情形”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“in this situation”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "situation",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "situations",
+        "derived_forms": [],
+        "variants": [
+          "situation"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02317_01",
+          "phrase": "in this situation",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：in this situation（情况；情形）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02317"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：原文the situation in our own Solar System指所述情况。",
+        "source_tags": [
+          "V02317",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02319",
+      "lemma": "skip",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02319_S01",
+          "pos": "v.",
+          "meaning_zh": "跳过",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：跳过（v.）",
+          "countability": "not_applicable",
+          "transitivity": "transitive",
+          "example_en": "I will skip the next slide to leave time for discussion.",
+          "example_zh": "我将跳过下一张幻灯片，留出讨论时间。",
+          "sentence_constituents_zh": "【紧凑主语】I will skip the... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "较口语；正式omit。 | 熟词生义与多义辨析：学术语境与搭配约束：较口语；正式omit。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：跳过（v.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：较口语；正式omit。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“skip a slide”精确表述“跳过”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“skip a slide”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "skip",
+        "third_person_singular": "skips",
+        "present_participle": "skiping",
+        "past_tense": "skiped",
+        "past_participle": "skiped",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "skip"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02319_01",
+          "phrase": "skip a slide",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：skip a slide（跳过）"
+        }
+      ],
+      "register": "spoken_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02319"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：较口语；正式omit。",
+        "source_tags": [
+          "V02319",
+          "U50",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02321",
+      "lemma": "slope",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02321_S01",
+          "pos": "n.",
+          "meaning_zh": "斜率",
+          "core_meaning_zh": "基础字面义：斜率",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：斜率；坡度（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The slope of y = ax + b is a.",
+          "example_zh": "直线 y = ax + b 的斜率是 a。",
+          "sentence_constituents_zh": "【紧凑主语】The slope of y... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数；曲线的局部斜率通常由导数表示；回归斜率的含义依变量单位、模型形式及其他协变量而定。 | 熟词生义与多义辨析：词义与句法边界：可数；曲线的局部斜率通常由导数表示；回归斜率的含义依变量单位、模型形式及其他协变量而定。"
+        },
+        {
+          "sense_id": "V02321_S02",
+          "pos": "n.",
+          "meaning_zh": "坡度",
+          "core_meaning_zh": "基础字面义：斜率",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：斜率；坡度（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The slope of y = ax + b is a.",
+          "example_zh": "直线 y = ax + b 的斜率是 a。",
+          "sentence_constituents_zh": "【紧凑主语】The slope of y... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可数；曲线的局部斜率通常由导数表示；回归斜率的含义依变量单位、模型形式及其他协变量而定。 | 熟词生义与多义辨析：词义与句法边界：可数；曲线的局部斜率通常由导数表示；回归斜率的含义依变量单位、模型形式及其他协变量而定。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：斜率",
+        "academic_target_sense_zh": "多义项/多词性完整映射：斜率；坡度（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：可数；曲线的局部斜率通常由导数表示；回归斜率的含义依变量单位、模型形式及其他协变量而定。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“regression slope”精确表述“斜率；坡度”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“regression slope”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "slope",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "slopes",
+        "derived_forms": [],
+        "variants": [
+          "slope"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02321_01",
+          "phrase": "regression slope",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：regression slope（斜率；坡度）"
+        },
+        {
+          "collocation_id": "C_V02321_02",
+          "phrase": "slope of a curve",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：slope of a curve（斜率；坡度）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G002",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02321"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：可数；曲线的局部斜率通常由导数表示；回归斜率的含义依变量单位、模型形式及其他协变量而定。",
+        "source_tags": [
+          "V02321",
+          "Personal_095",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02325",
+      "lemma": "soar",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02325_S01",
+          "pos": "v.",
+          "meaning_zh": "快速大幅上升",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：快速大幅上升（v.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "In the hypothetical market scenario, prices soared within a week.",
+          "example_zh": "在假设市场情境中，价格一周内快速大幅上升。",
+          "sentence_constituents_zh": "【紧凑主语】In the hypothetical market... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "强描写词，需数据支持；小幅变化用 rise。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02325 v.] 快速大幅上升（例：In the hypothetical market scenario, prices soared within a week.）；[V02326 v.] 迅速大幅上升（例：In the hypothetical budget, transport costs soared during the final month.） | 本条用法约束：强描写词，需数据支持；小幅变化用 rise。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：快速大幅上升（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02325 v.] 快速大幅上升（例：In the hypothetical market scenario, prices soared within a week.）；[V02326 v.] 迅速大幅上升（例：In the hypothetical budget, transport costs soared during the final month.） | 本条用法约束：强描写词，需数据支持；小幅变化用 rise。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“prices soar”精确表述“快速大幅上升”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“prices soar”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "soar",
+        "third_person_singular": "soars",
+        "present_participle": "soaring",
+        "past_tense": "soared",
+        "past_participle": "soared",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "soar"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02325_01",
+          "phrase": "prices soar",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：prices soar（快速大幅上升）"
+        },
+        {
+          "collocation_id": "C_V02325_02",
+          "phrase": "soar to",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：soar to（快速大幅上升）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G011",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02325",
+          "V02326"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02325 v.] 快速大幅上升（例：In the hypothetical market scenario, prices soared within a week.）；[V02326 v.] 迅速大幅上升（例：In the hypothetical budget, transport costs soared during the final month.） | 本条用法约束：强描写词，需数据支持；小幅变化用 rise。",
+        "source_tags": [
+          "V02325",
+          "U35",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02326",
+      "lemma": "soar",
+      "pos": "v.",
+      "raw_pos": "v.",
+      "senses": [
+        {
+          "sense_id": "V02326_S01",
+          "pos": "v.",
+          "meaning_zh": "迅速大幅上升",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：迅速大幅上升（v.）",
+          "countability": "not_applicable",
+          "transitivity": "intransitive",
+          "example_en": "In the hypothetical budget, transport costs soared during the final month.",
+          "example_zh": "在这份假设预算中，最后一个月的交通费大幅上涨。",
+          "sentence_constituents_zh": "【前置状语/条件框架】In the hypothetical budget + 【主句核心主谓宾/表】transport costs soared during the final month. （目标词“soar”作 v. 核心成分；句首用简短状语设定边界，主句主语紧凑，避免头重脚轻）。",
+          "usage_note": "语气较强，真实报告要有证据支持。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02325 v.] 快速大幅上升（例：In the hypothetical market scenario, prices soared within a week.）；[V02326 v.] 迅速大幅上升（例：In the hypothetical budget, transport costs soared during the final month.） | 本条用法约束：语气较强，真实报告要有证据支持。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：迅速大幅上升（v.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02325 v.] 快速大幅上升（例：In the hypothetical market scenario, prices soared within a week.）；[V02326 v.] 迅速大幅上升（例：In the hypothetical budget, transport costs soared during the final month.） | 本条用法约束：语气较强，真实报告要有证据支持。",
+        "informal_english_substitute": "do or handle"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“costs soar”精确表述“迅速大幅上升”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“costs soar”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "soar",
+        "third_person_singular": "soars",
+        "present_participle": "soaring",
+        "past_tense": "soared",
+        "past_participle": "soared",
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "soar"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02326_01",
+          "phrase": "costs soar",
+          "pattern_type": "verb+noun",
+          "meaning_note_zh": "自然学术搭配：costs soar（迅速大幅上升）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02325",
+        "G031",
+        "G011",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02325",
+          "V02326"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02325 v.] 快速大幅上升（例：In the hypothetical market scenario, prices soared within a week.）；[V02326 v.] 迅速大幅上升（例：In the hypothetical budget, transport costs soared during the final month.） | 本条用法约束：语气较强，真实报告要有证据支持。",
+        "source_tags": [
+          "V02326",
+          "U23",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02330",
+      "lemma": "society",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02330_S01",
+          "pos": "n.",
+          "meaning_zh": "社会",
+          "core_meaning_zh": "基础字面义：社会",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：社会；社团（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The comparison examines how rules differ between one society and another.",
+          "example_zh": "比较考察不同社会的规则有何差异。",
+          "sentence_constituents_zh": "【紧凑主语】The comparison examines how... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "social的同根名词；可指社会，也可指某种社团，语境区分。 | 熟词生义与多义辨析：词义与句法边界：social的同根名词；可指社会，也可指某种社团，语境区分。"
+        },
+        {
+          "sense_id": "V02330_S02",
+          "pos": "n.",
+          "meaning_zh": "社团",
+          "core_meaning_zh": "基础字面义：社会",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：社会；社团（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The comparison examines how rules differ between one society and another.",
+          "example_zh": "比较考察不同社会的规则有何差异。",
+          "sentence_constituents_zh": "【紧凑主语】The comparison examines how... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "social的同根名词；可指社会，也可指某种社团，语境区分。 | 熟词生义与多义辨析：词义与句法边界：social的同根名词；可指社会，也可指某种社团，语境区分。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：社会",
+        "academic_target_sense_zh": "多义项/多词性完整映射：社会；社团（n.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：social的同根名词；可指社会，也可指某种社团，语境区分。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“rules of a society”精确表述“社会；社团”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“rules of a society”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "society",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "societies",
+        "derived_forms": [],
+        "variants": [
+          "society"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02330_01",
+          "phrase": "rules of a society",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：rules of a society（社会；社团）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02330"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：social的同根名词；可指社会，也可指某种社团，语境区分。",
+        "source_tags": [
+          "V02330",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02333",
+      "lemma": "sole",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02333_S01",
+          "pos": "adj.",
+          "meaning_zh": "唯一的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：唯一的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The sole purpose of the pilot was to test the questionnaire.",
+          "example_zh": "这项试点的唯一目的是测试问卷。",
+          "sentence_constituents_zh": "【紧凑主语】The sole purpose of... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "sole 修饰名词；solely 修饰动词或范围。 | 熟词生义与多义辨析：学术语境与搭配约束：sole 修饰名词；solely 修饰动词或范围。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：唯一的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：sole 修饰名词；solely 修饰动词或范围。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“the sole purpose”精确表述“唯一的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“the sole purpose”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "sole",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "sole"
+        ],
+        "variants": [
+          "sole"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02333_01",
+          "phrase": "the sole purpose",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：the sole purpose（唯一的）"
+        },
+        {
+          "collocation_id": "C_V02333_02",
+          "phrase": "the sole source",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：the sole source（唯一的）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02333"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：sole 修饰名词；solely 修饰动词或范围。",
+        "source_tags": [
+          "V02333",
+          "U01",
+          "AWL7词族:sole",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02336",
+      "lemma": "solid",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02336_S01",
+          "pos": "adj.",
+          "meaning_zh": "可靠的，有充分依据的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：可靠的，有充分依据的；固体的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The claim requires solid evidence from several sources.",
+          "example_zh": "这一论断需要来自多个来源的可靠证据。",
+          "sentence_constituents_zh": "【紧凑主语】The claim requires solid... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "solid evidence 表示可靠证据，不保证某个假说已被证明。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：solid evidence 表示可靠证据，不保证某个假说已被证明。"
+        },
+        {
+          "sense_id": "V02336_S02",
+          "pos": "adj.",
+          "meaning_zh": "固体的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：可靠的，有充分依据的；固体的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The claim requires solid evidence from several sources.",
+          "example_zh": "这一论断需要来自多个来源的可靠证据。",
+          "sentence_constituents_zh": "【紧凑主语】The claim requires solid... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "solid evidence 表示可靠证据，不保证某个假说已被证明。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：solid evidence 表示可靠证据，不保证某个假说已被证明。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：可靠的，有充分依据的；固体的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：solid evidence 表示可靠证据，不保证某个假说已被证明。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“solid evidence”精确表述“可靠的，有充分依据的；固体的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“solid evidence”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "solid",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "solid"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02336_01",
+          "phrase": "solid evidence",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：solid evidence（可靠的，有充分依据的；固体的）"
+        },
+        {
+          "collocation_id": "C_V02336_02",
+          "phrase": "solid foundation",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：solid foundation（可靠的，有充分依据的；固体的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02336",
+          "V02337"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：solid evidence 表示可靠证据，不保证某个假说已被证明。",
+        "source_tags": [
+          "V02336",
+          "U01",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02337",
+      "lemma": "solid",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02337_S01",
+          "pos": "adj.",
+          "meaning_zh": "有充分支持的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：有充分支持的；可靠的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A solid argument links each conclusion to relevant evidence.",
+          "example_zh": "有充分支持的论证会把每项结论与相关证据联系起来。",
+          "sentence_constituents_zh": "【紧凑主语】A solid argument links... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "具体说明支持依据。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：具体说明支持依据。"
+        },
+        {
+          "sense_id": "V02337_S02",
+          "pos": "adj.",
+          "meaning_zh": "可靠的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：有充分支持的；可靠的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A solid argument links each conclusion to relevant evidence.",
+          "example_zh": "有充分支持的论证会把每项结论与相关证据联系起来。",
+          "sentence_constituents_zh": "【紧凑主语】A solid argument links... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "具体说明支持依据。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：具体说明支持依据。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：有充分支持的；可靠的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：具体说明支持依据。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a solid argument”精确表述“有充分支持的；可靠的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a solid argument”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "solid",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "solid"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02337_01",
+          "phrase": "a solid argument",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a solid argument（有充分支持的；可靠的）"
+        }
+      ],
+      "register": "general_academic",
+      "prerequisites": [
+        "V02336",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02336",
+          "V02337"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02336 adj.] 可靠的，有充分依据的；固体的（例：The claim requires solid evidence from several sources.）；[V02337 adj.] 有充分支持的；可靠的（例：A solid argument links each conclusion to relevant evidence.） | 本条用法约束：具体说明支持依据。",
+        "source_tags": [
+          "V02337",
+          "U47",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02341",
+      "lemma": "somewhat",
+      "pos": "adv.",
+      "raw_pos": "adv.",
+      "senses": [
+        {
+          "sense_id": "V02341_S01",
+          "pos": "adv.",
+          "meaning_zh": "有些",
+          "core_meaning_zh": "基础字面义：有些",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：有些；在一定程度上（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The revised sample was somewhat larger than the pilot sample.",
+          "example_zh": "修改后的样本比试点样本略大。",
+          "sentence_constituents_zh": "【紧凑主语】The revised sample was... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "程度有限，不给出精确大小。 | 熟词生义与多义辨析：词义与句法边界：程度有限，不给出精确大小。"
+        },
+        {
+          "sense_id": "V02341_S02",
+          "pos": "adv.",
+          "meaning_zh": "在一定程度上",
+          "core_meaning_zh": "基础字面义：有些",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：有些；在一定程度上（adv.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The revised sample was somewhat larger than the pilot sample.",
+          "example_zh": "修改后的样本比试点样本略大。",
+          "sentence_constituents_zh": "【紧凑主语】The revised sample was... + 【核心谓语与宾补/状语后置扩展】全句共 10 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "程度有限，不给出精确大小。 | 熟词生义与多义辨析：词义与句法边界：程度有限，不给出精确大小。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：有些",
+        "academic_target_sense_zh": "多义项/多词性完整映射：有些；在一定程度上（adv.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：程度有限，不给出精确大小。",
+        "informal_english_substitute": "in a rough way"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“somewhat larger”精确表述“有些；在一定程度上”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“somewhat larger”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "somewhat",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "somewhat"
+        ],
+        "variants": [
+          "somewhat"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02341_01",
+          "phrase": "somewhat larger",
+          "pattern_type": "adv+adj_or_verb",
+          "meaning_note_zh": "自然学术搭配：somewhat larger（有些；在一定程度上）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02341"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：程度有限，不给出精确大小。",
+        "source_tags": [
+          "V02341",
+          "U05",
+          "AWL7词族:somewhat",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02342",
+      "lemma": "sophisticated",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02342_S01",
+          "pos": "adj.",
+          "meaning_zh": "复杂而精细的",
+          "core_meaning_zh": "基础字面义：复杂而精细的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：复杂而精细的；技术较成熟的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A sophisticated method still requires a fair comparison with simpler alternatives.",
+          "example_zh": "复杂精细的方法仍需与更简单的方法进行公平比较。",
+          "sentence_constituents_zh": "【紧凑主语】A sophisticated method still... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。 | 熟词生义与多义辨析：词义与句法边界：不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。"
+        },
+        {
+          "sense_id": "V02342_S02",
+          "pos": "adj.",
+          "meaning_zh": "技术较成熟的",
+          "core_meaning_zh": "基础字面义：复杂而精细的",
+          "extended_or_contextual_meaning_zh": "多义项/多词性完整映射：复杂而精细的；技术较成熟的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "A sophisticated method still requires a fair comparison with simpler alternatives.",
+          "example_zh": "复杂精细的方法仍需与更简单的方法进行公平比较。",
+          "sentence_constituents_zh": "【紧凑主语】A sophisticated method still... + 【核心谓语与宾补/状语后置扩展】全句共 11 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。 | 熟词生义与多义辨析：词义与句法边界：不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "intra_entry_multi_sense_item",
+        "everyday_or_familiar_sense_zh": "基础字面义：复杂而精细的",
+        "academic_target_sense_zh": "多义项/多词性完整映射：复杂而精细的；技术较成熟的（adj.）",
+        "cross_sense_and_usage_trap_zh": "词义与句法边界：不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“sophisticated method”精确表述“复杂而精细的；技术较成熟的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“sophisticated method”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "sophisticated",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "sophisticated"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02342_01",
+          "phrase": "sophisticated method",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：sophisticated method（复杂而精细的；技术较成熟的）"
+        },
+        {
+          "collocation_id": "C_V02342_02",
+          "phrase": "sophisticated analysis",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：sophisticated analysis（复杂而精细的；技术较成熟的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02342"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "词义与句法边界：不等于必然准确或先进；最好说明复杂之处；形容人时也可指见多识广的。",
+        "source_tags": [
+          "V02342",
+          "Personal_082",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02345",
+      "lemma": "source",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02345_S01",
+          "pos": "n.",
+          "meaning_zh": "来源",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：来源；原因（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Incomplete sampling is a possible source of bias.",
+          "example_zh": "抽样不完整是一种可能的偏差来源。",
+          "sentence_constituents_zh": "【紧凑主语】Incomplete sampling is a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不等于已证明的唯一原因。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：不等于已证明的唯一原因。"
+        },
+        {
+          "sense_id": "V02345_S02",
+          "pos": "n.",
+          "meaning_zh": "原因",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：来源；原因（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "Incomplete sampling is a possible source of bias.",
+          "example_zh": "抽样不完整是一种可能的偏差来源。",
+          "sentence_constituents_zh": "【紧凑主语】Incomplete sampling is a... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "不等于已证明的唯一原因。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：不等于已证明的唯一原因。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：来源；原因（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：不等于已证明的唯一原因。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“a source of bias”精确表述“来源；原因”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“a source of bias”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "source",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "sources",
+        "derived_forms": [
+          "source"
+        ],
+        "variants": [
+          "source"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02345_01",
+          "phrase": "a source of bias",
+          "pattern_type": "noun+prep",
+          "meaning_note_zh": "自然学术搭配：a source of bias（来源；原因）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02345",
+          "V02346"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：不等于已证明的唯一原因。",
+        "source_tags": [
+          "V02345",
+          "U37",
+          "AWL1词族:source",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02346",
+      "lemma": "source",
+      "pos": "n.",
+      "raw_pos": "n.",
+      "senses": [
+        {
+          "sense_id": "V02346_S01",
+          "pos": "n.",
+          "meaning_zh": "资料来源",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：资料来源（n.）",
+          "countability": "countable",
+          "transitivity": "not_applicable",
+          "example_en": "The student checked the claim against a primary source.",
+          "example_zh": "学生对照一手资料检查了该主张。",
+          "sentence_constituents_zh": "【紧凑主语】The student checked the... + 【核心谓语与宾补/状语后置扩展】全句共 9 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "可指文章、书籍等；不自动代表可靠。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：可指文章、书籍等；不自动代表可靠。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 2 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：资料来源（n.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：可指文章、书籍等；不自动代表可靠。",
+        "informal_english_substitute": "general thing or part"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“consult a primary source”精确表述“资料来源”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“consult a primary source”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "source",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": "sources",
+        "derived_forms": [
+          "source"
+        ],
+        "variants": [
+          "source"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02346_01",
+          "phrase": "consult a primary source",
+          "pattern_type": "fixed_academic_phrase",
+          "meaning_note_zh": "自然学术搭配：consult a primary source（资料来源）"
+        }
+      ],
+      "register": "formal_academic",
+      "prerequisites": [
+        "V02345",
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": true,
+        "duplicate_group_ids": [
+          "V02345",
+          "V02346"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02345 n.] 来源；原因（例：Incomplete sampling is a possible source of bias.）；[V02346 n.] 资料来源（例：The student checked the claim against a primary source.） | 本条用法约束：可指文章、书籍等；不自动代表可靠。",
+        "source_tags": [
+          "V02346",
+          "U25",
+          "AWL1词族:source",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02347",
+      "lemma": "spare",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02347_S01",
+          "pos": "adj.",
+          "meaning_zh": "额外备用的",
+          "core_meaning_zh": "日常或通用英语近似概念",
+          "extended_or_contextual_meaning_zh": "精准学术定义：额外备用的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "There are spare copies on the desk.",
+          "example_zh": "桌上有备用副本。",
+          "sentence_constituents_zh": "【紧凑主语】There are spare copies... + 【核心谓语与宾补/状语后置扩展】全句共 7 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "此义修饰copies。 | 熟词生义与多义辨析：学术语境与搭配约束：此义修饰copies。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": false,
+        "familiarity_tier": "specialized_or_single_sense_academic",
+        "everyday_or_familiar_sense_zh": "日常或通用英语近似概念",
+        "academic_target_sense_zh": "精准学术定义：额外备用的（adj.）",
+        "cross_sense_and_usage_trap_zh": "学术语境与搭配约束：此义修饰copies。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“spare copies”精确表述“额外备用的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“spare copies”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "spare",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [],
+        "variants": [
+          "spare"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02347_01",
+          "phrase": "spare copies",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：spare copies（额外备用的）"
+        }
+      ],
+      "register": "spoken_academic",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "standard_academic_lexical_item",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02347"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "学术语境与搭配约束：此义修饰copies。",
+        "source_tags": [
+          "V02347",
+          "U50",
+          "CET4基础主词"
+        ]
+      }
+    },
+    {
+      "word_id": "V02354",
+      "lemma": "specific",
+      "pos": "adj.",
+      "raw_pos": "adj.",
+      "senses": [
+        {
+          "sense_id": "V02354_S01",
+          "pos": "adj.",
+          "meaning_zh": "具体的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：具体的；特定的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The procedure is valid only under specific conditions.",
+          "example_zh": "该程序仅在特定条件下有效。",
+          "sentence_constituents_zh": "【紧凑主语】The procedure is valid... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "避免把 specific 一律译为专业的。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02354 adj.] 具体的；特定的（例：The procedure is valid only under specific conditions.）；[V02355 adj.] 具体的；特定的；明确限定的（例：The conclusion is specific to the population included in the study.）；[V02356 adj.] 特有的；具体的（例：The restriction is specific to this dataset.） | 本条用法约束：避免把 specific 一律译为专业的。"
+        },
+        {
+          "sense_id": "V02354_S02",
+          "pos": "adj.",
+          "meaning_zh": "特定的",
+          "core_meaning_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+          "extended_or_contextual_meaning_zh": "当前单元特定学术义：具体的；特定的（adj.）",
+          "countability": "not_applicable",
+          "transitivity": "not_applicable",
+          "example_en": "The procedure is valid only under specific conditions.",
+          "example_zh": "该程序仅在特定条件下有效。",
+          "sentence_constituents_zh": "【紧凑主语】The procedure is valid... + 【核心谓语与宾补/状语后置扩展】全句共 8 词，主谓衔接紧凑，将修饰与限定条件置于谓语之后，符合英语尾重原则（End-Weight），无冗余 AI 套话。",
+          "usage_note": "避免把 specific 一律译为专业的。 | 熟词生义与多义辨析：一词多义与跨语境迁移对比：[V02354 adj.] 具体的；特定的（例：The procedure is valid only under specific conditions.）；[V02355 adj.] 具体的；特定的；明确限定的（例：The conclusion is specific to the population included in the study.）；[V02356 adj.] 特有的；具体的（例：The restriction is specific to this dataset.） | 本条用法约束：避免把 specific 一律译为专业的。"
+        }
+      ],
+      "polysemy_profile": {
+        "is_polysemous_or_multi_sense": true,
+        "familiarity_tier": "multi_sense_cross_unit_item",
+        "everyday_or_familiar_sense_zh": "已学基础义或同词元其他语境义（共关联 3 个词表词义单元）",
+        "academic_target_sense_zh": "当前单元特定学术义：具体的；特定的（adj.）",
+        "cross_sense_and_usage_trap_zh": "一词多义与跨语境迁移对比：[V02354 adj.] 具体的；特定的（例：The procedure is valid only under specific conditions.）；[V02355 adj.] 具体的；特定的；明确限定的（例：The conclusion is specific to the population included in the study.）；[V02356 adj.] 特有的；具体的（例：The restriction is specific to this dataset.） | 本条用法约束：避免把 specific 一律译为专业的。",
+        "informal_english_substitute": "big or special"
+      },
+      "domain_transfer_guidance": {
+        "ml_timeseries_embodied_transfer": "在深度学习/时序预测/具身智能论文中，使用搭配“specific context”精确表述“具体的；特定的”（例如描述分布假设、传感器时间序列滞后、物理运动约束或消融实验对比，直接陈述指标变化而不堆砌空洞形容词）。",
+        "cet6_ielts_toefl_speech_transfer": "在六级/雅思托福议论文或学术演讲（Tech Talk）中，用“specific context”替代口语化的模糊动词或中式模板，紧跟具体政策、教育或技术落地实例支撑论点。"
+      },
+      "word_forms": {
+        "base": "specific",
+        "third_person_singular": null,
+        "present_participle": null,
+        "past_tense": null,
+        "past_participle": null,
+        "plural": null,
+        "derived_forms": [
+          "specific"
+        ],
+        "variants": [
+          "specific"
+        ]
+      },
+      "collocations": [
+        {
+          "collocation_id": "C_V02354_01",
+          "phrase": "specific context",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific context（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_02",
+          "phrase": "specific information",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific information（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_03",
+          "phrase": "specific case",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific case（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_04",
+          "phrase": "specific type",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific type（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_05",
+          "phrase": "specific form",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific form（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_06",
+          "phrase": "specific purpose",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific purpose（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_07",
+          "phrase": "specific characteristics",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific characteristics（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_08",
+          "phrase": "specific conditions",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific conditions（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_09",
+          "phrase": "specific example",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific example（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_10",
+          "phrase": "a specific category",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：a specific category（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_11",
+          "phrase": "specific distances",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific distances（具体的；特定的）"
+        },
+        {
+          "collocation_id": "C_V02354_12",
+          "phrase": "specific ways",
+          "pattern_type": "adj+noun",
+          "meaning_note_zh": "自然学术搭配：specific ways（具体的；特定的）"
+        }
+      ],
+      "register": "technical_specialized",
+      "prerequisites": [
+        "G031",
+        "G032"
+      ],
+      "annotations": {
+        "entry_category": "specialized_domain_or_low_freq_technical",
+        "is_duplicate_sense_unit": false,
+        "duplicate_group_ids": [
+          "V02354",
+          "V02355",
+          "V02356"
+        ],
+        "spelling_or_regional_note": "标准拼写",
+        "special_note": "一词多义与跨语境迁移对比：[V02354 adj.] 具体的；特定的（例：The procedure is valid only under specific conditions.）；[V02355 adj.] 具体的；特定的；明确限定的（例：The conclusion is specific to the population included in the study.）；[V02356 adj.] 特有的；具体的（例：The restriction is specific to this dataset.） | 本条用法约束：避免把 specific 一律译为专业的。",
+        "source_tags": [
+          "V02354",
+          "U11",
+          "U38",
+          "Personal_088",
+          "AWL1词族:specific",
+          "CET4基础主词"
+        ]
+      }
+    }
+  ],
+  "auxiliary_words_glossed": [
+    {
+      "word": "archive",
+      "meaning_zh": "档案；档案馆（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "questionnaire",
+      "meaning_zh": "调查问卷（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    },
+    {
+      "word": "sampling",
+      "meaning_zh": "抽样；采样（n.）",
+      "note": "语境辅助生词（提前释义以辅助理解例句，不计入目标词掌握情况）",
+      "counted_in_mastery": false
+    }
+  ],
+  "grammar_instruction": [
+    {
+      "grammar_id": "G001",
+      "name": "五大基本句型（SV, SVO, SVC, SVOO, SVOC）与动词配价边界",
+      "category": "C1_basic_clause_patterns",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [],
+      "explanation_zh": "英语句子的核心骨架由谓语动词的及物性与配价决定：不及物动词构成 SV（Evidence accumulates / A problem arose），系动词构成 SVC（The label is meaningless），单及物动词构成 SVO（The team abandoned the approach），双及物动词构成 SVOO，复合宾语动词构成 SVOC（The pronoun makes the final sentence ambiguous）。严禁把不及物动词当及物动词用，或把及物动词误加介词。",
+      "rules": [
+        "不及物动词（arise, emerge, occur, differ, fluctuate, accumulate, oscillate）后不直接接名词宾语，需用状语或介词短语扩展。",
+        "单及物动词（address, discuss, access, affect, investigate, assess, warrant）直接接宾语，禁止按中文习惯误加介词（禁止写 *discuss about, *address to, *access to 作动词）。",
+        "SVOC 结构中宾语补足语用形容词或分词说明宾语状态（keep the room temperature constant, make the task easier）。"
+      ],
+      "examples": [
+        "SV: A problem arose when the data formats changed.",
+        "SVO: This paper addresses unequal access to educational resources.",
+        "SVC: Without a clear definition, the label is meaningless.",
+        "SVOC: The pronoun makes the final sentence ambiguous."
+      ],
+      "common_errors": [
+        "误将不及物动词用于被动或直接加宾语：*A problem was arisen / *differ two groups。",
+        "在及物动词后添加冗余介词：*discuss about the findings / *address to the limitation。",
+        "SVOC 中误用副词作宾补：*keep the room temperature constantly（应为 constant）。"
+      ]
+    },
+    {
+      "grammar_id": "G006",
+      "name": "核心介词规约搭配与名/动/形+介词固定结构",
+      "category": "B_collocations_and_prepositions",
+      "stage": 1,
+      "first_day": "day_0001",
+      "first_day_num": 1,
+      "prerequisites": [
+        "G001",
+        "G004"
+      ],
+      "explanation_zh": "学术词汇的介词搭配高度固定，且同一词族的名词、动词和形容词常要求不同介词（如 access a database [v.] vs access to services [n.] vs accessible to users [adj.]；emphasise the need [v.] vs place emphasis on [n.]）。",
+      "rules": [
+        "动词+介词固定搭配：account for, attribute A to B, base A on B, confine A to B, consist of, contribute to, correlate with, decompose A into B, depend on, differ from, disentangle A from B, draw on, focus on, incorporate A into B, rely on, stem from。",
+        "名词/形容词+介词精确方向：change in (某指标变化) vs change of (更换)；increase/decrease in (指标) vs of (数值)；attributable to, akin to, amenable to, analogous to, compatible with, consistent with, invariant under, proportional to, superior to, synonymous with。",
+        "当 to 为介词时（an approach to, contribute to, be devoted to, prior to, with regard to, amenable to, receptive to, subject to），后接动词必须用动名词（-ing）！"
+      ],
+      "examples": [
+        "The team developed an approach to handling missing observations.",
+        "The simplified model is amenable to analytical treatment.",
+        "The distance between two points is invariant under a common translation."
+      ],
+      "common_errors": [
+        "把介词 to 误当成不定式符号：*an approach to handle / *contribute to improve / *be devoted to solve。",
+        "介词错配：*superior than（应为 superior to）、*synonymous to（应为 synonymous with）、*attributable for（应为 attributable to）。"
+      ]
+    },
+    {
+      "grammar_id": "G012",
+      "name": "数值、比例、分位数、矩阵量纲与增减幅度的精确语法",
+      "category": "A1_C4_numerical_and_quantitative_grammar",
+      "stage": 1,
+      "first_day": "day_0022",
+      "first_day_num": 22,
+      "prerequisites": [
+        "G002",
+        "G006"
+      ],
+      "explanation_zh": "定量描述必须严格区分“差值（by）”、“终值（to）”、“比例（proportion/percentage）”、“比值（ratio）”、“百分点（percentage points）”以及“均值（mean）、中位数（median）、众数（mode）、中程数（midrange）”。",
+      "rules": [
+        "动词 + by + 差值（decreased by 5 units） vs 动词 + to + 终值（decreased to 15）；名词 + of + 变化量（growth of 10%） vs 名词 + in + 变化对象（growth in demand）。",
+        "从 20% 升至 25% 是 an increase of 5 percentage points（绝对百分点变化），而相对增幅为 25%（relative percentage change）。",
+        "double 表示增至两倍，halve 表示减半（不可写 *halve by half）；midrange 是 (min+max)/2，median 是排序后居中的分位数（0.5 quantile），二者绝不可混同。"
+      ],
+      "examples": [
+        "The count increased by ten, from twenty to thirty.",
+        "A rise from 20% to 25% is five percentage points.",
+        "For the values 7, 8, 8, 8, 11 and 12, the midrange is 9.5, whereas the median is 8."
+      ],
+      "common_errors": [
+        "介词 by 与 to 混用导致差值与终值颠倒。",
+        "把 percentage point（百分点）与 per cent（百分比）混同。"
+      ]
+    }
+  ],
+  "expression_pattern_instruction": [
+    {
+      "pattern_id": "EP019",
+      "name": "机器学习与时间序列：问题定义、滞后项与符号约定",
+      "function_category": "ml_timeseries_problem_formulation",
+      "stage": 1,
+      "first_day": "day_0010",
+      "first_day_num": 10,
+      "template": "Let [symbol] denote the observation at time t; we decompose the series into [components] and evaluate predictions over horizon H.",
+      "explanation_zh": "用于机器学习与时间序列论文的 Problem Formulation 部分，清晰界定输入历史窗口、滞后项（lagged observations）与预测步长。",
+      "register": "technical_specialized",
+      "examples": [
+        "Here, N denotes the number of observations, and a lag of one step links the current state to the preceding observation.",
+        "Time-series decomposition separates a series into components such as trend, seasonality and remainder."
+      ],
+      "common_errors": [
+        "未说明采样间隔（sampling interval）就直接声称某个 lag 代表固定物理时长。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G031"
+      ]
+    },
+    {
+      "pattern_id": "EP003",
+      "name": "客观归属文献观点或档案记录来源",
+      "function_category": "attributing_sources_and_claims",
+      "stage": 1,
+      "first_day": "day_0004",
+      "first_day_num": 4,
+      "template": "According to [authors/records], [reported finding]; however, [methodological qualification].",
+      "explanation_zh": "准确区分外部文献说法与本文实证判断。",
+      "register": "general_academic",
+      "examples": [
+        "According to the authors, the evaluation uses synthetic sentences.",
+        "According to the records, the event began before sunset."
+      ],
+      "common_errors": [
+        "*According to me（第一人称严禁使用）。"
+      ],
+      "prerequisites": [
+        "G001",
+        "G007"
+      ]
+    }
+  ],
+  "review_materials": {
+    "scheduled_review_word_count": 24,
+    "scheduled_review_words": [
+      {
+        "word_id": "V00954",
+        "lemma": "except",
+        "pos": "prep.",
+        "meaning_zh": "除……外",
+        "polysemy_trap_zh": "学术语境与搭配约束：介词 except 的排除用法。",
+        "key_collocations": [
+          "except"
+        ],
+        "example_en": "Every item except the final question was compulsory.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00955",
+        "lemma": "excess",
+        "pos": "adj./n.",
+        "meaning_zh": "多余的",
+        "polysemy_trap_zh": "词义与句法边界：excess 作前置修饰词或 an excess of；不写 an excessive of。",
+        "key_collocations": [
+          "excess energy",
+          "an excess of"
+        ],
+        "example_en": "Excess energy was stored for later use.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00958",
+        "lemma": "exist",
+        "pos": "v.",
+        "meaning_zh": "存在",
+        "polysemy_trap_zh": "学术语境与搭配约束：不及物动词，不写 be existed；原脚注提示与 body of literature 搭配。",
+        "key_collocations": [
+          "a body of literature exists"
+        ],
+        "example_en": "A substantial body of literature exists on this question.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00961",
+        "lemma": "expand",
+        "pos": "v.",
+        "meaning_zh": "扩大",
+        "polysemy_trap_zh": "学术语境与搭配约束：区别范围扩大与效果改善。",
+        "key_collocations": [
+          "expand access"
+        ],
+        "example_en": "The university plans to expand access to evening classes.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00965",
+        "lemma": "experiment",
+        "pos": "n.",
+        "meaning_zh": "实验",
+        "polysemy_trap_zh": "学术语境与搭配约束：experience 指经验或经历，不能替代 experiment。",
+        "key_collocations": [
+          "conduct an experiment",
+          "replicate an experiment"
+        ],
+        "example_en": "The experiment varied light intensity while holding temperature constant.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00967",
+        "lemma": "explain",
+        "pos": "v.",
+        "meaning_zh": "解释",
+        "polysemy_trap_zh": "学术语境与搭配约束：explain sth to sb，不用 explain sb sth。",
+        "key_collocations": [
+          "explain a difference",
+          "explain how",
+          "explain a process"
+        ],
+        "example_en": "The report explains the exclusion criteria.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00969",
+        "lemma": "explicit",
+        "pos": "adj.",
+        "meaning_zh": "明确直接的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00969 adj.] 明确直接的（例：The instructions include an explicit statement of the recording rules.）；[V00970 adj.] 明确陈述的（例：The protocol includes an explicit statement of the exclusion criteria.） | 本条用法约束：名词explicitness；明确陈述不同于默会惯例。",
+        "key_collocations": [
+          "explicit statements"
+        ],
+        "example_en": "The instructions include an explicit statement of the recording rules.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00970",
+        "lemma": "explicit",
+        "pos": "adj.",
+        "meaning_zh": "明确陈述的",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00969 adj.] 明确直接的（例：The instructions include an explicit statement of the recording rules.）；[V00970 adj.] 明确陈述的（例：The protocol includes an explicit statement of the exclusion criteria.） | 本条用法约束：explicit 与 implicit 相对；explicitly 是副词。",
+        "key_collocations": [
+          "explicit reference",
+          "explicit statement",
+          "explicit comparison"
+        ],
+        "example_en": "The protocol includes an explicit statement of the exclusion criteria.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00974",
+        "lemma": "exploit",
+        "pos": "v.; n.",
+        "meaning_zh": "利用",
+        "polysemy_trap_zh": "AI 与优化论文核心及物动词：exploit sparsity / temporal structure 完全是正面/中性的“利用结构特性加速或提效”。",
+        "key_collocations": [
+          "exploit structure",
+          "exploit available information"
+        ],
+        "example_en": "The algorithm exploits the sparsity of the matrix to reduce computational cost.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00979",
+        "lemma": "explore",
+        "pos": "v.",
+        "meaning_zh": "探索，考察",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00979 v.] 探索，考察（例：The interviews explore how residents use the service.）；[V00980 v.] 探索；考察（例：The essay explores differences in rural access.） | 本条用法约束：探索不等于证明或正式检验。",
+        "key_collocations": [
+          "explore a relationship"
+        ],
+        "example_en": "The interviews explore how residents use the service.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00980",
+        "lemma": "explore",
+        "pos": "v.",
+        "meaning_zh": "探索",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00979 v.] 探索，考察（例：The interviews explore how residents use the service.）；[V00980 v.] 探索；考察（例：The essay explores differences in rural access.） | 本条用法约束：explore 并不保证得出确定答案。",
+        "key_collocations": [
+          "explore a question"
+        ],
+        "example_en": "The essay explores differences in rural access.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00981",
+        "lemma": "export",
+        "pos": "v.",
+        "meaning_zh": "导出",
+        "polysemy_trap_zh": "学术语境与搭配约束：export X to Y；并不表示改变原始含义。",
+        "key_collocations": [
+          "export data to a spreadsheet"
+        ],
+        "example_en": "We export the validated records to a spreadsheet.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00983",
+        "lemma": "express",
+        "pos": "v.",
+        "meaning_zh": "表达",
+        "polysemy_trap_zh": "学术语境与搭配约束：express uncertainty 不等于否定一切结果。",
+        "key_collocations": [
+          "express an idea",
+          "express uncertainty"
+        ],
+        "example_en": "Authors can express uncertainty without obscuring their findings.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00984",
+        "lemma": "extend",
+        "pos": "v.",
+        "meaning_zh": "延伸",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00984 v.] 延伸；扩大范围（例：The course extends from introductory reading to short academic writing.）；[V00985 v.] 扩展；延长（例：The authors extend the analysis to a second dataset.） | 本条用法约束：原文extends为单数谓语；from/to写明边界。",
+        "key_collocations": [
+          "extend from A to B",
+          "extend the scope"
+        ],
+        "example_en": "The course extends from introductory reading to short academic writing.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00985",
+        "lemma": "extend",
+        "pos": "v.",
+        "meaning_zh": "扩展",
+        "polysemy_trap_zh": "一词多义与跨语境迁移对比：[V00984 v.] 延伸；扩大范围（例：The course extends from introductory reading to short academic writing.）；[V00985 v.] 扩展；延长（例：The authors extend the analysis to a second dataset.） | 本条用法约束：extend X to Y；是否可推广结论仍需证据。",
+        "key_collocations": [
+          "extend the analysis to"
+        ],
+        "example_en": "The authors extend the analysis to a second dataset.",
+        "first_day": "day_0013"
+      },
+      {
+        "word_id": "V00989",
+        "lemma": "extent",
+        "pos": "n.",
+        "meaning_zh": "范围",
+        "polysemy_trap_zh": "词义与句法边界：extent of；to some extent 表示在某种程度上。",
+        "key_collocations": [
+          "the extent of documentation"
+        ],
+        "example_en": "The report examines the extent of missing documentation.",
+        "first_day": "day_0013"
+      }
+    ]
+  }
+}

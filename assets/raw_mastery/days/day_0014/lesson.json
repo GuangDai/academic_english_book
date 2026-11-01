@@ -1,0 +1,338 @@
+{
+  "day": "day_0014",
+  "day_number": 14,
+  "stage": 1,
+  "stage_name_zh": "Stage 1: 段落骨架与信息流筑基（意图→段落拆解、主语瘦身与旧新信息链）",
+  "daily_focus_title_zh": "第 14 天：时间序列专属：多尺度频域-时域耦合机制阐述段（Time Series Mechanism） × 公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math） × IELTS_Task1_Static 全篇梳理",
+  "focal_blueprints": [
+    {
+      "blueprint_id": "BP14",
+      "track_id": "T2",
+      "track_name_zh": "AI/CS 小论文：Related Work 批判分类与 Methodology 机制阐述（BP09–BP16）",
+      "title_zh": "时间序列专属：多尺度频域-时域耦合机制阐述段（Time Series Mechanism）",
+      "user_intent_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+      "when_to_use_zh": "时间序列论文 Methodology 章节或开题报告",
+      "paragraph_move_structure": [
+        "S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies.",
+        "S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components.",
+        "S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes.",
+        "S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold."
+      ],
+      "cohesion_and_logic_formula": "Time-Frequency Dilemma -> Spectral Global Branch -> Temporal Local Branch -> Uncertainty-Gated Fusion. 绑定逻辑规则：L023, L024.",
+      "defective_draft": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+      "defect_diagnosis_zh": "描述过于粗浅（gets global features, gets local features, add them together），像本科生课程作业报告。",
+      "model_paragraph_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum. To reconcile both scales, our dual-domain block processes input patches along two complementary pathways. The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies. An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单域局限性 Single-Domain Limitation]",
+          "sentence_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [频域分支设计 Frequency Branch]",
+          "sentence_en": "To reconcile both scales, our dual-domain block processes input patches along two complementary pathways.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [时域分支设计 Temporal Branch]",
+          "sentence_en": "The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [自适应门控融合 Adaptive Fusion]",
+          "sentence_en": "An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "把“FFT + CNN 相加”升华为“频域谐波基提取 + 时域空洞深度卷积保留瞬态尖峰 + 能量比自适应门控融合”。"
+    },
+    {
+      "blueprint_id": "BP26",
+      "track_id": "T4",
+      "track_name_zh": "小作文与图表/数据综合写作：IELTS Task 1 / TOEFL Integrated / 科研趋势报告（BP25–BP32）",
+      "title_zh": "动态时间序列趋势分段描述（暴涨、缓降、平台期与拐点）",
+      "user_intent_zh": "我这一段想写动态折线图（或模型训练收敛曲线）的主体细节段：把一条经历“初期缓慢爬升 -> 中期爆发增长 -> 后期高位平台期”的曲线，以及另一条“冲高回落”的曲线对比写活。",
+      "when_to_use_zh": "IELTS Task 1 动态图主体段 / 论文训练动力学与收敛曲线分析段",
+      "paragraph_move_structure": [
+        "S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]).",
+        "S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau.",
+        "S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025].",
+        "S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year."
+      ],
+      "cohesion_and_logic_formula": "Initial Disparity -> Multi-Phase Surge & Plateau (Entity A) -> Peak-then-Decline (Entity B) -> Gap Reversal. 绑定逻辑规则：L010, L013.",
+      "defective_draft": "In 2000, A was 12% and B was 54%. Then in 2005, A increased to 15%. In 2018, A increased to 48%. In 2025, A was 47%. B increased to 61% in 2004, and then decreased to 24% in 2025.",
+      "defect_diagnosis_zh": "典型的“流水账报年份数字”（In 2000... In 2005... In 2018...），句式单一且毫无趋势洞察。",
+      "model_paragraph_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%. Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025. By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey. This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [起始点位对比 Initial Standing]",
+          "sentence_en": "In 2000, battery-electric vehicles accounted for a mere 4% of municipal fleet purchases, trailing diesel buses at 62%.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [起始点位对比 Initial Standing]：At the beginning of the period in [2000], [Entity A] stood at a modest [12%],less than a quarter of [Entity B]'s initial figure ([54%]). | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [多阶段演进",
+          "sentence_en": "Following five years of marginal fluctuation, electric adoption accelerated sharply after 2006, quadrupling to 38% by 2018 before leveling off at approximately 41% through 2025.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [多阶段演进：缓升转暴涨 Phased Acceleration]：After rising marginally over the firstfive years, [Entity A] surged nearly threefold between [2005] and [2018], peaking at [48%] before stabilizing on a high plateau. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [反向曲线对比",
+          "sentence_en": "By contrast, diesel procurement peaked briefly at 67% in 2004 but subsequently underwent a sustained contraction, plunging to 19% by the end of the survey.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [反向曲线对比：冲高回落 Counter-Trajectory]：Conversely, [Entity B] climbed briefly to [61%] in [2004] but subsequently entered a prolonged decline, dropping by more than half to [24%] by [2025]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [终局交叉总结 Terminal Comparison]",
+          "sentence_en": "This divergent trajectory reversed the initial 58-percentage-point deficit into a more than twofold lead for electric fleets.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [终局交叉总结 Terminal Comparison]：Consequently, the initial [42]-percentage-point gap between the two categories had completely reversed by the final year. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "灵活交替使用 accounted for a mere 4%, trailing..., Following five years of marginal fluctuation, quadrupling to..., leveling off at..., underwent a sustained contraction，句式富于韵律且零AI套话。"
+    },
+    {
+      "blueprint_id": "BP39",
+      "track_id": "T5",
+      "track_name_zh": "六级（CET-6）/ 雅思大作文（Task 2）/ 托福独立写作：深度论证与让步反驳（BP33–BP40）",
+      "title_zh": "反事实推理段：如果不采取某项原则，系统将如何一步步滑向失控（Counterfactual Escalation）",
+      "user_intent_zh": "我这一段想在议论文或科研立项书中，通过严密的“反事实推演（If we fail to... / Absent X...）”强化紧迫感与说服力。",
+      "when_to_use_zh": "CET-6 / IELTS Task 2 / TOEFL 深化论证段，或论文 Motivation 强化段",
+      "paragraph_move_structure": [
+        "S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y].",
+        "S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge.",
+        "S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation].",
+        "S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience."
+      ],
+      "cohesion_and_logic_formula": "Positive Safeguard -> Counterfactual Premise (Absent X...) -> Cascading Breakdown -> Precedent Confirmation. 绑定逻辑规则：L020, L003.",
+      "defective_draft": "Curating clean human data is very important. If we do not use clean human data and only use AI-generated data to train new AI models, the models will become worse and worse and finally collapse.",
+      "defect_diagnosis_zh": "虽然有如果……就会……的意思，但表达过于口语化（worse and worse），缺少“尾部稀缺分布丢失 -> 方差坍缩”的机制链条。",
+      "model_paragraph_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models. Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations. In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse. This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+      "sentence_by_sentence_breakdown": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [正面基准命题 Positive Baseline]",
+          "sentence_en": "Preserving verified human-authored corpora serves as an indispensable anchor for training successive generations of generative models.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [正面基准命题 Positive Baseline]：Maintaining rigorous [Principle/Standard X] serves as the primary safeguard against [Systemic Risk Y]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [反事实假设切入 Counterfactual Premise]",
+          "sentence_en": "Absent this human data anchor—if future models were trained recursively on synthetic outputs generated by their predecessors—subtle approximation errors would compound across iterations.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [反事实假设切入 Counterfactual Premise]：Absent this safeguard—if [Actors] were to rely exclusively on [Unchecked Alternative]—[Immediate Vulnerability] would quickly emerge. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [连锁恶化传导 Cascading Deterioration]",
+          "sentence_en": "In each recursive cycle, low-probability tail events and nuanced stylistic variations are progressively truncated, driving the learned distribution toward high-density mode collapse.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [连锁恶化传导 Cascading Deterioration]：Once [Immediate Vulnerability] takes hold, [Secondary Consequence] compounds across cycles, eventually eroding [Core Foundation]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [实证印证或结论锁定 Empirical Echo]",
+          "sentence_en": "This degenerative feedback loop—known empirically as model autophagy—underscores why synthetic data augmentation can complement, but never wholly replace, curated real-world observations.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [实证印证或结论锁定 Empirical Echo]：This degradation dynamic mirrors [Real-world/Technical Precedent], underscoring why [Principle X] cannot be compromised for short-term convenience. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ],
+      "genre_adaptation_notes": "正面立论 -> Absent this human data anchor (反事实切入) -> 尾部稀疏事件被截断导致分布向高密度模式坍缩（机理传导） -> 点名模型自噬（model autophagy）实证结论。"
+    }
+  ],
+  "focal_logic_rules": [
+    {
+      "logic_id": "L014",
+      "category": "Methodology Writing (方法章节逻辑)",
+      "name_zh": "公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math）",
+      "name_en": "Intuition-First Equation Integration",
+      "core_principle_zh": "在 Methodology 段落中引入数学公式时，严禁突兀甩出 'The equation is defined as follows:'。必须遵循三步曲：① 物理/算法直觉（为什么要算这个量） -> ② 数学定义（把公式作为句子的语法宾语或同位语自然嵌入） -> ③ 关键符号的物理含义与边界。",
+      "structural_formula": "To [Intuitive Goal], we formulate [Concept] as: [Equation], where [Symbol A] denotes [Meaning] and [Symbol B] constrains [Boundary].",
+      "common_pitfall_zh": "公式前后全是碎片句（Here is the formula: ... In the formula, x is input, y is output.），破坏段落连贯。",
+      "bad_example_en": "We use a gating weight. The formula is w = sigmoid(Wx + b). In this formula, x is the feature and w is the weight.",
+      "good_example_en": "To suppress high-frequency sensor jitter before temporal aggregation, we compute a channel-wise attenuation gate $g_t = \\sigma(W_g h_t + b_g)$, where $h_t \\in \\mathbb{R}^d$ denotes the instantaneous hidden state and $g_t \\in (0, 1)^d$ dynamically scales down noisy channels.",
+      "analysis_zh": "一句话之内完成“目的状语（抑制高频抖动）+ 核心主谓宾（计算通道衰减门）+ 公式同位语 + where 定语从句解释符号维度与物理作用”，紧凑专业。"
+    },
+    {
+      "logic_id": "L022",
+      "category": "Logical Fallacy Prevention (逻辑谬误防范)",
+      "name_zh": "杜绝循环论证与同义反复（Eliminating Circular Reasoning / Tautology）",
+      "name_en": "Eliminating Tautology and Circular Explanations",
+      "core_principle_zh": "原因分句与结果分句不能只是换个近义词把同一件事说两遍（如 *The model generalizes well because it has strong generalization ability*）。because / since / as 之后必须提供处于更底层的**结构、物理或统计机制**。",
+      "structural_formula": "Claim: [High-Level Property A]. -> Reason: Because [Low-Level Structural/Statistical Mechanism B], NOT [Synonym of Property A].",
+      "common_pitfall_zh": "经常写出“因为模型更鲁棒，所以它在噪声下表现更好”这种零信息增量的同义反复句。",
+      "bad_example_en": "Our policy is more adaptable to new objects because it possesses superior cross-object adaptability.",
+      "good_example_en": "Our policy adapts reliably to unseen object geometries because it conditions grasp proposals on local surface normals rather than global category templates.",
+      "analysis_zh": "将“具有跨物体适应性”替换为底层几何机制“以局部表面法向量而非全局类别模板作为抓取条件”，真正回答了 Why。"
+    }
+  ],
+  "focal_revision_cases": [
+    {
+      "case_id": "RC14",
+      "domain_en": "Embodied AI Visuomotor Policy & Sim-to-Real",
+      "domain_zh": "具身智能视觉运动策略与仿真到真实迁移",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP14",
+      "linked_logic_id": "L014",
+      "communicative_goal_zh": "我这一段想专门阐述时间序列模型中“如何在频域捕获全局周期性，同时在时域保留局部突发异常（Transient Anomalies）”的双分支耦合机制。",
+      "original_defective_paragraph": "We use both FFT and CNN in our model. FFT gets global features and CNN gets local features. Then we add them together to get final features.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L014 公式与散文无缝咬合：先给直觉动机，后推符号定义（Intuition-Before-Math））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "描述过于粗浅（gets global features, gets local features, add them together），像本科生课程作业报告。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum. To reconcile both scales, our dual-domain block processes input patches along two complementary pathways. The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies. An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [单域局限性 Single-Domain Limitation]",
+          "sentence_en": "Modeling telemetry streams solely in the time domain struggles to span multi-day periodicities, whereas pure Fourier projection spreads localized transient spikes across the entire spectrum.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [单域局限性 Single-Domain Limitation]：Modeling non-stationary time series solely in the time domain struggles to capture long-range periodicities, whereas pure Fourier projection blurs localized transient anomalies. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [频域分支设计 Frequency Branch]",
+          "sentence_en": "To reconcile both scales, our dual-domain block processes input patches along two complementary pathways.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [频域分支设计 Frequency Branch]：To capture global seasonal structure, our spectral branch applies real-valued FFT $\\mathcal{F}(\\cdot)$ along the temporal dimension and reweights dominant harmonic components. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [时域分支设计 Temporal Branch]",
+          "sentence_en": "The spectral pathway applies real-valued RFFT to isolate top-$k$ harmonic bases governing macro-periodicity, while the parallel temporal pathway employs dilated depthwise convolutions to retain sharp step changes and localized anomalies.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [时域分支设计 Temporal Branch]：In parallel, a multi-scale depthwise convolution branch operates directly on local patches to preserve sharp step changes and localized spikes. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [自适应门控融合 Adaptive Fusion]",
+          "sentence_en": "An energy-ratio gate then fuses both representations at each time step, dynamically shifting weight toward the temporal pathway whenever local high-frequency residual energy spikes.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [自适应门控融合 Adaptive Fusion]：An uncertainty-aware gate then fuses both branches step-by-step, assigning higher weight to the temporal branch whenever local residual variance exceeds a threshold. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC34",
+      "domain_en": "Academic Tech Talk & Conference Oral Delivery",
+      "domain_zh": "顶会口头汇报（Tech Talk）与图表引导",
+      "primary_defect_category": "过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）",
+      "linked_blueprint_id": "BP34",
+      "linked_logic_id": "L004",
+      "communicative_goal_zh": "我这一段想写大作文的第一个主体段（Body Paragraph 1）：论证某个核心优势或必要性，做到有理有据、有具象场景支撑，绝不车轱辘话来回说。",
+      "original_defective_paragraph": "First, AI can improve working efficiency a lot. People have many boring tasks every day. If AI does these tasks, people can save time and do better things. For example, my friend uses AI to write emails and saves two hours every day. So AI is very helpful.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【过度名词化僵尸句 + 被动语态滥用（Over-Nominalization & Passive Abuse）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L004 概念浓缩指代词（This/Such + Summary Noun））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 口语词泛滥（a lot, boring tasks, better things, my friend）；② 个人化琐碎举例（my friend saves two hours）不符合学术议论文语域。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "Delegating repetitive data compilation to automated systems enables professionals to concentrate on high-level diagnostic judgment. In data-intensive fields such as clinical medicine and structural engineering, practitioners traditionally spend hours cross-checking routine telemetry logs before formulating a hypothesis. When hospital radiology departments deploy automated screening algorithms to flag normal chest scans, physicians can redirect their cognitive bandwidth toward ambiguous pathology cases and patient consultation. Consequently, intelligent triage elevates both diagnostic throughput and clinical care quality.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [分论点主题句 Topic Claim]",
+          "sentence_en": "Delegating repetitive data compilation to automated systems enables professionals to concentrate on high-level diagnostic judgment.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [分论点主题句 Topic Claim]：一句话清晰亮出本段唯一控制中心（[Policy/Factor X] strengthens [Outcome Y] by [Core Mechanism]）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [因果机制推演 Causal Elaboration]",
+          "sentence_en": "In data-intensive fields such as clinical medicine and structural engineering, practitioners traditionally spend hours cross-checking routine telemetry logs before formulating a hypothesis.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [因果机制推演 Causal Elaboration]：Explain HOW and WHY：阐明如果没有这层干扰或有了这项机制，认知/经济/技术流程会发生什么具体改变。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [具象微观案例 Concrete Micro-Case]",
+          "sentence_en": "When hospital radiology departments deploy automated screening algorithms to flag normal chest scans, physicians can redirect their cognitive bandwidth toward ambiguous pathology cases and patient consultation.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [具象微观案例 Concrete Micro-Case]：For instance, when [Specific Group/Industry] [Specific Action], [Measurable/Observable Consequence]（绝不编造假百分比，用具体场景细节说话）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [反事实对比或扣题升华 Warrant / Link Back]",
+          "sentence_en": "Consequently, intelligent triage elevates both diagnostic throughput and clinical care quality.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [反事实对比或扣题升华 Warrant / Link Back]：Thus, [Summary Noun] shifts human effort from [Low-value Routine] toward [High-value Judgment]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    },
+    {
+      "case_id": "RC52",
+      "domain_en": "CET-6 & IELTS Task 2 Technology & Society Essay",
+      "domain_zh": "六级/雅思大作文：AI 自动化、教育与科研伦理",
+      "primary_defect_category": "重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）",
+      "linked_blueprint_id": "BP04",
+      "linked_logic_id": "L022",
+      "communicative_goal_zh": "我这一段想在指出前人痛点后，正式亮出我们的方法（To address this dilemma, we propose...），并用最通俗清晰的直觉告诉审稿人为什么我们的设计能破局。",
+      "original_defective_paragraph": "In this paper, we propose a novel and groundbreaking model called DyTS-Net. It has three modules: Module A, Module B, and Module C. They work together to delve into the data and get state-of-the-art performance.",
+      "seven_point_diagnosis_zh": {
+        "1_controlling_idea": "原段中心论点被套话或碎片句淹没，首句未能直接立论。",
+        "2_subject_length_and_balance": "存在【重度 AI 套话 + 空洞夸张无具体指标（Heavy AI-ese & Hollow Hyperbole）】：主语冗长或句子结构松散，违反尾重原则（L011）。",
+        "3_given_to_new_flow": "句间缺乏旧信息向新信息的平滑过渡（违反 L022 杜绝循环论证与同义反复（Eliminating Circular Reasoning / Tautology））。",
+        "4_anaphora_and_connectors": "存在裸露的 This/It 指代或机械使用 First/Second/Moreover。",
+        "5_colloquialism_and_ai_cliches": "① 典型 AI 自吹词（novel and groundbreaking, delve into, state-of-the-art）；② 机械报菜名（Module A, B, C），完全没讲清为什么这套组合能解决上一段的痛点。",
+        "6_quantitative_or_instance_grounding": "缺乏 Metric-Baseline-Condition 三元组（L010）或具象行业微观案例（L021）。",
+        "7_voice_and_constituent_clarity": "谓语动词弱化为 be/make/get/have，未发挥强及物动词的骨架支撑作用。"
+      },
+      "step_by_step_surgery_zh": [
+        "第一步【砍壳提主干】：删去句首 AI 修辞帽与口语词，将核心实体（≤5词）提作全句主语。",
+        "第二步【强动词替换】：将 is very bad / makes it good 替换为精准及物动词（degrades / stabilizes / decouples / reduces）。",
+        "第三步【咬合信息流】：在第二、三句句首使用 `This/Such + 汇总名词` 承接上一句宾语，形成 Given-to-New 锁链。",
+        "第四步【注入实证锚点】：补全具体评测指标、对比基线或微观工程场景，彻底消除空洞夸张。"
+      ],
+      "revised_idiomatic_paragraph_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation. Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system. Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch. Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+      "sentence_constituent_comparison": [
+        {
+          "sentence_index": 1,
+          "role_and_move": "S1 [方法登场与定位 Method Introduction]",
+          "sentence_en": "To resolve this dilemma, we propose DyTS-Net, a dual-stream forecasting architecture that decouples stationary structural modeling from dynamic scale trajectory estimation.",
+          "constituent_and_flow_note_zh": "对应步骤：S1 [方法登场与定位 Method Introduction]：To address this dilemma, we propose [Model Name], a [Core Paradigm] framework that [Primary Goal]. | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 2,
+          "role_and_move": "S2 [核心直觉洞察 Key Insight]",
+          "sentence_en": "Our key insight is that while high-frequency phase relationships benefit from normalized shift-invariant attention, macro-scale amplitude evolution follows a low-dimensional continuous dynamical system.",
+          "constituent_and_flow_note_zh": "对应步骤：S2 [核心直觉洞察 Key Insight]：Our key insight is that [Physical/Statistical Principle]，点破破局的底层支点。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 3,
+          "role_and_move": "S3 [模块协同主干 Module Synergy]",
+          "sentence_en": "Specifically, DyTS-Net first extracts scale-invariant temporal tokens via spectral patch attention, and concurrently models non-stationary mean-variance evolution through a lightweight neural ODE branch.",
+          "constituent_and_flow_note_zh": "对应步骤：S3 [模块协同主干 Module Synergy]：用 First / Specifically 与 Concurrently / Furthermore 简述两大核心模块如何分工咬合。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        },
+        {
+          "sentence_index": 4,
+          "role_and_move": "S4 [闭环收益总结 Closed-Loop Benefit]",
+          "sentence_en": "Recombining both streams at the decoding stage preserves sharp peak magnitudes without sacrificing training stability.",
+          "constituent_and_flow_note_zh": "对应步骤：S4 [闭环收益总结 Closed-Loop Benefit]：说明这种协同设计如何同时兼顾原先冲突的两个指标（如兼顾平稳表征与幅值保真，或兼顾多模态多样性与单步实时控制）。 | 句首锚定旧信息/逻辑视角，主干动词紧跟主语，复杂修饰置于宾语之后（符合尾重原则 L011 与旧新信息流 L001）。"
+        }
+      ]
+    }
+  ],
+  "focal_full_text_reference": {
+    "text_id": "FT14",
+    "genre": "IELTS_Task1_Static",
+    "title_zh": "雅思小作文（Task 1）静态柱状图与饼图组合满分范文：云端推理与机载机器人控制系统的能耗结构对比",
+    "structural_blueprint_chain": [
+      "BP25",
+      "BP27",
+      "BP28"
+    ]
+  }
+}

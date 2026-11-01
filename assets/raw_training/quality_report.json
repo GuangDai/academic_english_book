@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "generated_at": "2026-10-29T00:00:00Z",
+  "overall_status": "PASSED_ALL_CHECKS_V2",
+  "v2_audit_and_improvements_summary": [
+    "课程总周期压缩并优化至 116 天（严格在 120 天以内）：含 100 个高密度词群学习日 + 16 个末期词汇完整 5 轮间隔复习与综合实战日。",
+    "深度挖掘熟词生义与一词多义（Polysemy）：为全部 2,719 个词条建立 polysemy_profile，显式对比学习者已识日常义与学术专有义（如 address, check, contain, accommodate, critical, significant, relax, succeed, stationary, warrant, yield 等）及跨单元多义映射。",
+    "全面适配学习者专业与考试需求：融合深度学习、机器学习、时间序列预测、生成模型、具身智能（Embodied AI）论文场景，以及学术演讲（Tech Talk）、审稿回复（Rebuttal）、六级（CET-6）与雅思托福（IELTS/TOEFL）写作。",
+    "精细句子成分剖析与四大病灶根治：每个词条与答案均含句子成分拆解（主、谓、宾、表、定、状、同位语），专门训练消除头重脚轻（遵循尾重原则 End-Weight）、去除口语化、消除中式过度表达与空洞 AI 腔（delve into / tapestry / unparalleled），杜绝只有夸张形容词而无具体实例或实验指标。",
+    "消除打包小问与模板化：每道题均为单一聚焦任务，选择题选项为纯净英文词形（零答案标签泄露），单词替换与词组替换均采用真实英文初稿画线替换。"
+  ],
+  "completeness_and_coverage": {
+    "source_vocabulary_total_lines": 2719,
+    "processed_vocabulary_entries": 2719,
+    "coverage_ratio": 1.0,
+    "unique_normalized_lemmas": 2267,
+    "polysemous_entries_annotated": 1577,
+    "total_learning_days": 100,
+    "post_course_review_days": 16,
+    "total_course_days": 116,
+    "questions_per_day": 36,
+    "total_questions_generated": 4176,
+    "total_answers_generated": 4176
+  },
+  "first_day_training_verification": {
+    "target_words_checked": 2719,
+    "words_with_at_least_2_first_day_questions": 2719,
+    "words_with_at_least_1_active_output_on_first_day": 2719,
+    "min_first_day_appearances_observed": 2,
+    "max_first_day_appearances_observed": 4,
+    "min_first_day_active_output_observed": 1
+  },
+  "dependency_and_prerequisite_checks": {
+    "dag_cycle_count": 0,
+    "unmet_forward_word_or_grammar_dependencies": 0,
+    "auxiliary_words_pre_glossed_and_excluded_from_mastery": true,
+    "base_word_whitelist_count": 223
+  },
+  "schema_and_structural_validation": {
+    "vocabulary_schema_errors": 0,
+    "question_schema_errors": 0,
+    "answer_schema_errors": 0,
+    "question_answer_id_mismatch_errors": 0,
+    "duplicate_question_prompts_count": 0,
+    "unique_question_prompts_count": 4176
+  },
+  "question_type_distribution_total": {
+    "word_recall_and_form": 696,
+    "collocation_practice": 464,
+    "contextual_choice_and_synonym": 464,
+    "word_replacement": 348,
+    "phrase_and_expression_replacement": 348,
+    "sentence_rewriting": 580,
+    "ch_to_en_translation": 464,
+    "logical_cohesion_and_paragraph": 348,
+    "active_and_passive_voice": 232,
+    "independent_micro_writing": 232
+  }
+}

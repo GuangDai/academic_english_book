@@ -1,0 +1,290 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://academic-english-training.local/schemas/vocabulary.schema.json",
+  "title": "Academic English Vocabulary Entry Schema V2.0",
+  "version": "2.0.0",
+  "type": "object",
+  "required": [
+    "word_id",
+    "lemma",
+    "pos",
+    "senses",
+    "polysemy_profile",
+    "word_forms",
+    "collocations",
+    "register",
+    "difficulty",
+    "prerequisites",
+    "first_day",
+    "review_days"
+  ],
+  "properties": {
+    "word_id": {
+      "type": "string",
+      "pattern": "^V[0-9]{5}$"
+    },
+    "source_order": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "canonical_word_id": {
+      "type": "string",
+      "pattern": "^V[0-9]{5}$"
+    },
+    "lemma": {
+      "type": "string",
+      "minLength": 1
+    },
+    "normalized_lemma": {
+      "type": "string",
+      "minLength": 1
+    },
+    "pos": {
+      "type": "string",
+      "minLength": 1
+    },
+    "raw_pos": {
+      "type": "string"
+    },
+    "senses": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "sense_id",
+          "pos",
+          "meaning_zh",
+          "example_en",
+          "example_zh",
+          "usage_note"
+        ],
+        "properties": {
+          "sense_id": {
+            "type": "string"
+          },
+          "pos": {
+            "type": "string"
+          },
+          "meaning_zh": {
+            "type": "string"
+          },
+          "core_meaning_zh": {
+            "type": "string"
+          },
+          "extended_or_contextual_meaning_zh": {
+            "type": "string"
+          },
+          "countability": {
+            "type": "string",
+            "enum": [
+              "countable",
+              "uncountable",
+              "both_or_context_dependent",
+              "plural_only",
+              "not_applicable"
+            ]
+          },
+          "transitivity": {
+            "type": "string",
+            "enum": [
+              "transitive",
+              "intransitive",
+              "both",
+              "linking_or_prep",
+              "not_applicable"
+            ]
+          },
+          "example_en": {
+            "type": "string"
+          },
+          "example_zh": {
+            "type": "string"
+          },
+          "sentence_constituents_zh": {
+            "type": "string"
+          },
+          "usage_note": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "polysemy_profile": {
+      "type": "object",
+      "required": [
+        "is_polysemous_or_multi_sense",
+        "familiarity_tier",
+        "everyday_or_familiar_sense_zh",
+        "academic_target_sense_zh",
+        "cross_sense_and_usage_trap_zh",
+        "informal_english_substitute"
+      ]
+    },
+    "domain_transfer_guidance": {
+      "type": "object"
+    },
+    "word_forms": {
+      "type": "object",
+      "required": [
+        "base",
+        "variants"
+      ],
+      "properties": {
+        "base": {
+          "type": "string"
+        },
+        "third_person_singular": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "present_participle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "past_tense": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "past_participle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "plural": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "derived_forms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "collocations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "collocation_id",
+          "phrase",
+          "pattern_type"
+        ],
+        "properties": {
+          "collocation_id": {
+            "type": "string"
+          },
+          "phrase": {
+            "type": "string"
+          },
+          "pattern_type": {
+            "type": "string",
+            "enum": [
+              "verb+noun",
+              "adj+noun",
+              "adv+adj_or_verb",
+              "verb+prep",
+              "noun+prep",
+              "verb+infinitive_or_gerund",
+              "fixed_academic_phrase"
+            ]
+          },
+          "meaning_note_zh": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "register": {
+      "type": "string",
+      "enum": [
+        "formal_academic",
+        "general_academic",
+        "technical_specialized",
+        "spoken_academic",
+        "neutral_academic"
+      ]
+    },
+    "academic_value": {
+      "type": "string",
+      "enum": [
+        "core_high",
+        "general_medium",
+        "specialized_domain",
+        "discourse_or_presentation"
+      ]
+    },
+    "difficulty": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "stage": {
+      "type": "integer",
+      "enum": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "primary_scene": {
+      "type": "string"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "first_day": {
+      "type": "string",
+      "pattern": "^day_[0-9]{4}$"
+    },
+    "first_day_num": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "review_days": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string",
+        "pattern": "^day_[0-9]{4}$"
+      }
+    },
+    "review_day_nums": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "integer",
+        "minimum": 2
+      }
+    },
+    "annotations": {
+      "type": "object"
+    }
+  }
+}
